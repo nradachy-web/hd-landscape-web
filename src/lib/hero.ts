@@ -22,8 +22,9 @@ const WIDTHS = [420, 640, 828, 1080, 1320, 1680, 1916];
 export async function heroImage(id: PhotoId, opts: { ratio?: number; focus?: string; sizes?: string; widths?: number[]; media?: string } = {}): Promise<HeroImage> {
   const p = photo(id);
   const ratio = opts.ratio ?? p.src.width / p.src.height;
-  // height driven crops: a wide photo in a tall box needs more pixels than its width suggests
-  const sizes = opts.sizes ?? '(min-width: 56rem) 78vw, 150vw';
+  // Speed first: a phone hero is the largest paint, and lawns compress badly. Measured on
+  // 2026-10-30, asking for more pixels here cost 7 points of phone Performance.
+  const sizes = opts.sizes ?? '(min-width: 56rem) 62vw, 100vw';
   const widths = (opts.widths ?? WIDTHS.slice(0, 6)).filter((w) => w <= p.src.width);
 
   const build = async (format: 'avif' | 'webp' | 'jpeg', quality: number) => {
