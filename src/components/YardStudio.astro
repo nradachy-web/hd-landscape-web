@@ -62,7 +62,7 @@ const firstOf = (id: string) => {
   return s.options.find((o) => o.id === s.first)!;
 };
 const showRules = stacked.flatMap((s) => s.options.filter((o) => o.layer).map((o) => `.ys:has(#ys-${s.id}-${o.id}:checked) [data-l="${s.id}-${o.id}"]{display:block;visibility:visible}`)).join('');
-const data = JSON.stringify(SLOTS.map((s) => ({ id: s.id, name: s.name, flat: !!s.flat, first: s.first, options: s.options.map((o) => ({ id: o.id, name: o.name, meta: o.meta ?? '', note: o.note, layer: !!o.layer })) })));
+const data = JSON.stringify(SLOTS.map((s) => ({ id: s.id, name: s.name, stack: s.stack, first: s.first, options: s.options.map((o) => ({ id: o.id, name: o.name, meta: o.meta ?? '', note: o.note, layer: !!o.layer })) })));
 ---
 
 <style is:inline set:html={showRules}></style>
@@ -199,11 +199,11 @@ const data = JSON.stringify(SLOTS.map((s) => ({ id: s.id, name: s.name, flat: !!
       var r = radio(s, id);
       if (r && !r.checked) { r.checked = true; grow(s, current(s)); }
     }
-    /* Every slot in depth order, a beat apart, so the yard plants itself. */
+    /* Back to front, a beat apart, so the yard plants itself. */
+    var depth = slots.slice().sort(function (a, b) { return a.stack - b.stack; });
     function plant(choose) {
       warm();
-      var order = slots.slice().sort(function (a, b) { return slots.indexOf(a) === 4 ? -1 : slots.indexOf(b) === 4 ? 1 : 0; });
-      order.forEach(function (s, i) {
+      depth.forEach(function (s, i) {
         setTimeout(function () { pick(s, choose(s)); sync(); }, still ? 0 : i * 170);
       });
     }
@@ -250,6 +250,23 @@ const data = JSON.stringify(SLOTS.map((s) => ({ id: s.id, name: s.name, flat: !!
       var ids = saved[1].split('.');
       slots.forEach(function (s, i) { var r = radio(s, ids[i]); if (r) r.checked = true; });
       sync();
+    }
+
+    /* The first look: whatever is picked plants itself once its pictures are ready. */
+    if (!still) {
+      root.classList.add('planting');
+      var ready = root.querySelectorAll('.ys__l');
+      var waits = [];
+      ready.forEach(function (l) {
+        if (getComputedStyle(l).display !== 'none' && l.querySelector('img').decode) waits.push(l.querySelector('img').decode().catch(function () {}));
+      });
+      var begin = function () {
+        depth.forEach(function (s, i) {
+          setTimeout(function () { grow(s, current(s)); }, i * 170);
+        });
+        setTimeout(function () { root.classList.remove('planting'); }, depth.length * 170 + 700);
+      };
+      Promise.race([Promise.all(waits), new Promise(function (done) { setTimeout(done, 1400); })]).then(begin);
     }
   })();
 </script>
@@ -306,6 +323,14 @@ const data = JSON.stringify(SLOTS.map((s) => ({ id: s.id, name: s.name, flat: !!
   .ys:global(.warm) .ys__l {
     display: block;
     visibility: hidden;
+  }
+
+  .ys:global(.planting) .ys__l {
+    opacity: 0;
+  }
+
+  .ys:global(.planting) .ys__l:global(.grow) {
+    opacity: 1;
   }
 
   .ys__l:global(.grow) {
