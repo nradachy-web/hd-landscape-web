@@ -188,6 +188,10 @@ a.arrow[target='_blank']::before {
   white-space: nowrap;
 }
 
+.sent {
+  display: inline-block;
+}
+
 .sr {
   position: absolute;
   width: 1px;
@@ -224,6 +228,7 @@ h2 {
 }
 
 .h2 {
+  font-family: var(--font-display);
   font-size: clamp(2.05rem, 3vw + 1.05rem, 3.6rem);
   font-weight: 500;
   line-height: 1.05;
@@ -838,6 +843,10 @@ a.chip:hover {
     position: static !important;
   }
 
+  .hero__actions {
+    display: flex !important;
+  }
+
   html {
     scroll-padding-block: 0;
   }
@@ -859,5 +868,9 @@ a.chip:hover {
   .faq__mark::after {
     forced-color-adjust: none;
     background: CanvasText;
+  }
+
+  .ba__knob {
+    forced-color-adjust: none;
   }
 }

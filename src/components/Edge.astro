@@ -7,11 +7,13 @@
 interface Props {
   to?: 'paper' | 'white' | 'ink';
   flip?: boolean;
+  /** Sit along the top of the band instead, in the color of the band above. */
+  top?: boolean;
 }
-const { to = 'paper', flip = false } = Astro.props;
+const { to = 'paper', flip = false, top = false } = Astro.props;
 ---
 
-<svg class:list={['edge', `edge--${to}`, flip && 'edge--flip']} viewBox="0 0 1440 72" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+<svg class:list={['edge', `edge--${to}`, flip && 'edge--flip', top && 'edge--top']} viewBox="0 0 1440 72" preserveAspectRatio="none" aria-hidden="true" focusable="false">
   <path class="edge__fill" d="M0 72V46C160 16 340 6 560 22s400 48 620 34c100-6 190-24 260-44v60z" />
   <path class="edge__line" d="M0 46C160 16 340 6 560 22s400 48 620 34c100-6 190-24 260-44" />
 </svg>
@@ -28,6 +30,15 @@ const { to = 'paper', flip = false } = Astro.props;
 
   .edge--flip {
     transform: scaleX(-1);
+  }
+
+  .edge--top {
+    inset: -1px 0 auto;
+    transform: scaleY(-1);
+  }
+
+  .edge--top.edge--flip {
+    transform: scale(-1, -1);
   }
 
   .edge__fill {

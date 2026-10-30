@@ -32,6 +32,7 @@ const planeClass = (p: string) => ['band', p === 'ink' && 'ink', p === 'white' &
 /* The cut line sits at the bottom of an ink band that meets a light one, and of a light band that meets ink. */
 const edgeTo = (i: number): 'ink' | 'paper' | 'white' | null => {
   const here = blocks[i].plane, next = blocks[i + 1]?.plane ?? last;
+  if (next === 'photo') return null;
   return (here === 'ink') !== (next === 'ink') ? (next as 'ink' | 'paper' | 'white') : null;
 };
 const link = (h: string) => (h.startsWith('#') || /^(https?:|tel:|sms:)/.test(h) ? h : href(h));
@@ -197,7 +198,18 @@ const link = (h: string) => (h.startsWith('#') || /^(https?:|tel:|sms:)/.test(h)
   }
 
   .solo {
-    grid-template-columns: minmax(0, 48rem);
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  @media (min-width: 60rem) {
+    .solo :global(.prose) {
+      columns: 2;
+      column-gap: 3rem;
+    }
+
+    .solo :global(.prose p) {
+      break-inside: avoid;
+    }
   }
 
   /* cards */

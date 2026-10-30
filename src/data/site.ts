@@ -46,5 +46,6 @@ export const TRACKING = {
   host: 'hdlandscapellc.com',
 };
 
-/* One switch for the South Florida season pages. Off removes them everywhere. */
+/* One switch for the South Florida season pages. Michigan pages that mention the
+   winter work are listed in the launch notes and need a read if this goes off. */
 export const FLORIDA = true;

@@ -93,14 +93,14 @@ const common = ['Landscape design', 'Landscape renovation', 'Sod installation', 
     });
     /* Enter in step 1 means Next, including the Go key on a phone. */
     one.addEventListener('keydown', function (e) {
-      if (e.key === 'Enter' && e.target.tagName === 'INPUT' && e.target.type !== 'checkbox') { e.preventDefault(); f.querySelector('.qf__next').click(); }
+      if (e.key === 'Enter' && e.target.tagName !== 'BUTTON') { e.preventDefault(); f.querySelector('.qf__next').click(); }
     });
     function call(text) {
       msg.innerHTML = text + ' <a href="tel:+15867188762">(586) 718-8762</a>.';
     }
     f.addEventListener('submit', function (e) {
       e.preventDefault();
-      msg.className = 'qf__msg small';
+      clear();
       if (!f.dataset.key) { call('Online requests open when this site goes live. For now, call or text Jake at'); return; }
       var d = new FormData(f), picked = d.getAll('services');
       if ((String(d.get('phone')).match(/\d/g) || []).length < 10) { msg.textContent = 'Please check the phone number, so Jake can reach you.'; msg.classList.add('is-bad'); f.querySelector('input[name=phone]').focus(); return; }

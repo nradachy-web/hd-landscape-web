@@ -53,9 +53,9 @@ const schema = [
 <Base ogImage={hero.fallback} title={c.meta.title} description={c.meta.description} path={svc.path} preload={hero.preload} schema={schema}>
   <Hero image={hero} kicker={c.hero.kicker} title={c.hero.title} lede={c.hero.lede} chips={c.hero.chips} next={firstPlane} crumbs={[{ name: 'Services', path: '/services/' }, { name: svc.name, path: svc.path }]} />
 
-  <Blocks blocks={c.blocks} service={svc} last={faqPlane} />
+  <Blocks blocks={c.blocks} service={svc} last="photo" />
 
-  <PhotoBand id={svc.band} />
+  <PhotoBand id={svc.band} from={lastPlane} to={faqPlane} />
 
   <section class:list={['band', faqPlane === 'white' && 'white']} aria-labelledby="faq-h">
     <div class="wrap faqs">
@@ -63,7 +63,7 @@ const schema = [
         id="faq-h"
         layout="left"
         eyebrow="Questions"
-        title={`${svc.name} questions.`}
+        title={`What people ask about ${svc.noun}.`}
         intro={c.faqIntro ?? `The things people ask us most before booking. If yours is not here, call or text [${BRAND.phone}](${BRAND.phoneHref}).`}
       />
       <Faq items={c.faq} />

@@ -51,6 +51,7 @@ const schema = [
 
 <Base ogType="article" ogImage={head.fallback} title={d.meta.title} description={d.meta.description} path={path} preload={{ ...head.preload, media: '(min-width: 60rem)' }} schema={schema}>
   <PageHead
+    next="white"
     image={head}
     eyebrow={svc.name}
     title={d.title}

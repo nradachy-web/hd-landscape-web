@@ -6,7 +6,7 @@
    schema.org has no landscaper type. HomeAndConstructionBusiness is the nearest
    real one, and the product ontology link says the rest. */
 
-import { BRAND, LINKS } from '../data/site';
+import { BRAND, FLORIDA, LINKS } from '../data/site';
 import { CITIES, cityLabel } from '../data/cities';
 import { MI_SERVICES } from '../data/services';
 import { plain } from './rich';
@@ -22,7 +22,7 @@ export function business() {
     name: BRAND.name,
     legalName: BRAND.legalName,
     additionalType: 'https://www.productontology.org/id/Landscaping',
-    description: `${BRAND.name} is a landscape company based in ${BRAND.city}, Michigan, owned by ${BRAND.owner}. It designs, builds and maintains landscapes for homes and businesses across Metro Detroit, including sod installation, hedge trimming, landscape design, retaining walls and monthly maintenance, with winter work around Fort Lauderdale, Florida.`,
+    description: `${BRAND.name} is a landscape company based in ${BRAND.city}, Michigan, owned by ${BRAND.owner}. It designs, builds and maintains landscapes for homes and businesses across Metro Detroit, including sod installation, hedge trimming, landscape design, retaining walls and monthly maintenance${FLORIDA ? ', with winter work around Fort Lauderdale, Florida' : ''}.`,
     url: `${ORIGIN}/`,
     telephone: BRAND.phoneE164,
     email: BRAND.email,

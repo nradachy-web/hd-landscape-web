@@ -15,7 +15,7 @@
     {
       "type": "intro",
       "plane": "paper",
-      "eyebrow": "The one time job",
+      "eyebrow": "The one-time job",
       "title": "The mess the season left, cleared out.",
       "body": [
         "A spring or fall cleanup is a one time visit that clears a yard of what the last season left behind: leaves, dead stems, weeds, sticks and overgrowth in the beds. HD Landscape does them in St. Clair Shores and across Metro Detroit.",
@@ -50,7 +50,7 @@
       "rows": [
         { "label": "When", "values": ["After the snow melts, once the ground is firm enough to walk on", "Once most of the leaves are down"] },
         { "label": "Leaves", "values": ["Matted leaves lifted off the beds, gently around new shoots", "Cleared from beds and corners so they do not sit all winter"] },
-        { "label": "Perennials", "values": ["Last year’s stems and ornamental grasses cut back", "Hosta, daylily and peony cut back to reduce slugs and disease"] },
+        { "label": "Perennials", "values": ["Last year's stems and ornamental grasses cut back", "Hosta, daylily and peony cut back to reduce slugs and disease"] },
         { "label": "Shrubs", "values": ["Dead or broken wood out. Spring bloomers wait until after they flower", "Tidied only. Real pruning waits for spring"] },
         { "label": "Weeds", "values": ["Pulled early, before they flower and seed", "Pulled so the beds go into winter clean"] },
         { "label": "Sets up", "values": ["Mulch, new planting and a clean start", "A clean yard and a shorter list in spring"] }
@@ -107,8 +107,8 @@
     }
   ],
   "faq": [
-    { "q": "Do you do spring and fall cleanups in St. Clair Shores?", "a": "Yes. HD Landscape does spring and fall yard cleanups in St. Clair Shores, its home base, and across Metro Detroit, for homes and commercial properties. One time jobs are fine, and you do not need a plan. If you want help between cleanups, [monthly landscape maintenance](/monthly-landscape-maintenance/) covers the beds, shrubs and edges through the season." },
-    { "q": "What does a spring cleanup include?", "a": "A spring cleanup from HD Landscape clears leaves and debris out of the beds, cuts back last year’s stems and ornamental grasses, pulls early weeds and tidies the shrubs. We finish by cleaning up the bed lines and leaving the walks and drive clear. Lawn aeration and sprinkler start ups are not part of it, because we do not do either." },
+    { "q": "Do you do spring and fall cleanups in St. Clair Shores?", "a": "Yes. HD Landscape does spring and fall yard cleanups in St. Clair Shores, its home base, and across Metro Detroit, for homes and commercial properties. One-time jobs are fine, and you do not need a plan. If you want help between cleanups, [monthly landscape maintenance](/monthly-landscape-maintenance/) covers the beds, shrubs and edges through the season." },
+    { "q": "What does a spring cleanup include?", "a": "A spring cleanup from HD Landscape clears leaves and debris out of the beds, cuts back last year's stems and ornamental grasses, pulls early weeds and tidies the shrubs. We finish by cleaning up the bed lines and leaving the walks and drive clear. Lawn aeration and sprinkler start ups are not part of it, because we do not do either." },
     { "q": "What does a fall cleanup include?", "a": "A fall cleanup clears the leaves from the beds and corners, cuts back the perennials that benefit from it, pulls weeds and tidies the shrubs so the yard goes into winter clean. Your estimate lists what is planned for your yard." },
     { "q": "When should I schedule a spring cleanup in Michigan?", "a": "Plan on the weeks after the snow melts, once the ground is firm. Old perennial stems and ornamental grasses usually get cut back in March or April. If the ground is soaked it is worth waiting a few days, because wet soil compacts easily under foot." },
     { "q": "When should I schedule a fall cleanup?", "a": "Aim for when most of your leaves are down. Every yard drops on its own schedule, and big trees can push the date later. Get in touch early in the fall and we will time it to your trees." },
@@ -125,10 +125,10 @@
     "lede": "Spring, fall or both? Tell us where the yard is and what has piled up, and Jake will take a look and write up an itemized estimate. Text a photo if that is easier."
   },
   "summary": {
-    "title": "A one time job that clears what the season left.",
+    "title": "A one-time job that clears what the season left.",
     "intro": "Book it for spring, fall or both, with no plan to sign up for. Here is the work it covers, and your itemized estimate shows what is planned for your yard.",
     "items": [
-      { "name": "Beds cleared", "detail": "Leaves, sticks and last season’s stems out of the beds and corners." },
+      { "name": "Beds cleared", "detail": "Leaves, sticks and last season's stems out of the beds and corners." },
       { "name": "Weeds pulled", "detail": "Out of the beds so they do not drop seed." },
       { "name": "Perennials cut back", "detail": "Spent stems and ornamental grasses cut back at the right time of year." },
       { "name": "Shrubs tidied", "detail": "Dead or broken wood out and stray growth cleaned up. Heavy pruning is planned separately." },

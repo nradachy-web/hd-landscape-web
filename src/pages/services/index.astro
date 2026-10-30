@@ -20,7 +20,7 @@ const path = '/services/';
   preload={{ ...head.preload, media: '(min-width: 60rem)' }}
   schema={[serviceListSchema(), breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Services', path }])]}
 >
-  <PageHead image={head} eyebrow="Services" title="Most of what a yard needs, **one number to call.**" lede="From a full front yard renovation to one overgrown hedge. If something is outside what we do, we will tell you up front." crumbs={[{ name: 'Services', path }]} />
+  <PageHead image={head} eyebrow="Services" title="Most of what a yard needs, **one number to call.**" lede="From a full front yard renovation to one overgrown hedge. If something is outside what we do, we will say so on the first call." crumbs={[{ name: 'Services', path }]} />
 
   {
     GROUPS.map((g, i) => (

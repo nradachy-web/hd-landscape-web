@@ -17,21 +17,21 @@ import { breadcrumbs } from '../lib/schema';
 const path = '/about-us/';
 const hero = await heroImage('dusk-patio');
 const beliefs = [
-  { title: 'The owner shows up', body: 'Jake walks the property and gives you his honest read. As Stephen D. put it, “The owner gave us some great advice before they started, and we listened to him.. and we are so glad we did.”' },
-  { title: 'The price has no surprises', body: 'Every estimate is itemized. You see what each part costs before anything starts, and you can change it.' },
+  { title: 'The owner shows up', body: 'Jake walks the property and gives you his straight advice. As Stephen D. put it, “The owner gave us some great advice before they started, and we listened to him.. and we are so glad we did.”' },
+  { title: 'The estimate is itemized', body: 'Every estimate is itemized, so you see what each part costs before anything starts.' },
   { title: 'Clean is part of the job', body: 'Reviewers often mention how clean we left the job. Rob E. called that out before he got to the sod.' },
-  { title: 'We say no when we should', body: 'We do not install sprinklers or aerate lawns, and big tree removals go to a tree company we trust. You will hear that up front.' },
+  { title: 'We say no when we should', body: 'We do not install sprinklers or aerate lawns, and big tree removals go to a tree company we trust. You will hear that on the first call.' },
 ];
 ---
 
 <Base
   title="About Jake Hendricks and HD Landscape, St. Clair Shores"
-  description="HD Landscape is owner-run by Jake Hendricks in St. Clair Shores, MI. Honest advice, itemized estimates and crews that show up across Metro Detroit."
+  description="HD Landscape is owner-run by Jake Hendricks in St. Clair Shores, MI. Straight advice, itemized estimates and a crew that shows up across Metro Detroit."
   path={path}
   preload={hero.preload}
   schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'About', path }])]}
 >
-  <Hero image={hero} kicker="About HD Landscape" title="Run by Jake, **from the first walk to the follow up call.**" lede="HD Landscape is an owner run landscape company based in St. Clair Shores, working across Metro Detroit." crumbs={[{ name: 'About', path }]} />
+  <Hero image={hero} kicker="About HD Landscape" title="Run by Jake, **from the first walk to the follow-up call.**" lede="HD Landscape is an owner-run landscape company based in St. Clair Shores, working across Metro Detroit." crumbs={[{ name: 'About', path }]} />
 
   <section class="band has-edge" aria-labelledby="jake-h">
     <div class="wrap two wide-left">

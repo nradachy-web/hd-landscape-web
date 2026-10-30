@@ -71,10 +71,10 @@ const logo = href('/logo-white.svg');
         </div>
       ))
     }
+    <div class="mega__foot">
+      <a class="arrow" href={href('/services/')}>Every service</a>
+    </div>
   </nav>
-  <div class="wrap mega__foot">
-    <a class="arrow" href={href('/services/')}>Every service</a>
-  </div>
 </div>
 
 <div id="menu" class="menu ink" popover role="dialog" aria-label="Site menu">
@@ -150,7 +150,17 @@ const logo = href('/logo-white.svg');
           if (t === menu) { rest(true); menu.querySelector('[popovertargetaction="hide"]').focus(); }
         }
       });
-      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') shut(); });
+      var opener = null;
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') { shut(); if (opener) opener.focus(); } });
+      document.addEventListener('click', function (e) {
+        if (e.target.closest('[popovertarget]')) { opener = e.target.closest('[popovertarget]'); return; }
+        if (e.target.closest('a') && menu.contains(e.target)) shut();
+        else if (!mega.contains(e.target)) mega.classList.remove('is-open');
+      });
+      mega.addEventListener('focusout', function (e) {
+        var t = e.relatedTarget;
+        if (t && !mega.contains(t) && !t.closest('.hdr__drop')) mega.classList.remove('is-open');
+      });
       return;
     }
     /* The services panel closes when keyboard focus walks out of it. */
@@ -158,6 +168,7 @@ const logo = href('/logo-white.svg');
       var t = e.relatedTarget;
       if (t && !mega.contains(t) && !t.closest('.hdr__drop')) mega.hidePopover();
     });
+    menu.addEventListener('click', function (e) { if (e.target.closest('a')) menu.hidePopover(); });
     menu.addEventListener('beforetoggle', function (e) { rest(e.newState === 'open'); });
     menu.addEventListener('toggle', function (e) {
       if (e.newState === 'open') {
@@ -239,6 +250,12 @@ const logo = href('/logo-white.svg');
   .hdr__drop :global(svg) {
     width: 0.8em;
     height: 0.8em;
+    transition: rotate 0.2s var(--ease);
+  }
+
+  :global(body:has(#mega:popover-open)) .hdr__drop :global(svg),
+  :global(body:has(#mega.is-open)) .hdr__drop :global(svg) {
+    rotate: 180deg;
   }
 
   .hdr__end {
@@ -318,6 +335,11 @@ const logo = href('/logo-white.svg');
     .hdr__nav ul {
       gap: 1rem;
     }
+
+    .hdr__phone {
+      margin-inline: -0.65rem;
+      padding-inline: 0.65rem;
+    }
   }
 
   /* no popover support: stay out of the way until opened */
@@ -372,7 +394,8 @@ const logo = href('/logo-white.svg');
   }
 
   .mega__foot {
-    margin-top: 1.1rem;
+    grid-column: 1 / -1;
+    margin-top: 0.2rem;
     padding-top: 0.5rem;
     border-top: 1px solid var(--line-ink);
   }

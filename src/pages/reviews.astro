@@ -28,7 +28,7 @@ const topics = [
   preload={{ ...head.preload, media: '(min-width: 60rem)' }}
   schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Reviews', path }])]}
 >
-  <PageHead image={head} eyebrow="Reviews" title={`${RATING.value} on Google, from **${RATING.countLabel} reviews.**`} lede="Here is what people say after the crew has gone home, in their own words." crumbs={[{ name: 'Reviews', path }]}>
+  <PageHead image={head} eyebrow="Reviews" title={`${RATING.value} stars on Google, from **${RATING.countLabel} homeowners.**`} lede="Twelve of them, word for word, and the rest on Google." crumbs={[{ name: 'Reviews', path }]}>
     <a class="rating" href={LINKS.google} target="_blank" rel="noopener"><Stars /><span>Read them all on Google</span></a>
   </PageHead>
 
@@ -47,14 +47,14 @@ const topics = [
 
   <section class="band white" aria-labelledby="topics-h">
     <div class="wrap">
-      <Head id="topics-h" eyebrow="What people mention" title="The jobs that come up **again and again.**" intro="Google counts how often each topic appears in our reviews." />
+      <Head id="topics-h" eyebrow="What people mention" title="What people bring up **again and again.**" intro="Google counts how often each topic appears in our reviews." />
       <ul class="chips">{topics.map(([t, n]) => <li><span class="chip">{t}: {n}</span></li>)}</ul>
     </div>
   </section>
 
   <section class="band" aria-labelledby="all-h">
     <div class="wrap">
-      <Head id="all-h" eyebrow="Word for word" title="In their **own words.**" />
+      <Head id="all-h" eyebrow="Word for word" title="What they wrote **after the crew went home.**" />
       <Reviews reviews={REVIEWS} full />
     </div>
   </section>

@@ -39,6 +39,7 @@ const native = p.src.width / p.src.height;
 const r = ratio ?? native;
 const usable = widths.filter((w) => w <= Math.max(p.src.width, 400));
 const list = usable.length ? usable : [Math.min(p.src.width, widths[0])];
+if (list[list.length - 1] < p.src.width && widths[widths.length - 1] > p.src.width) list.push(p.src.width);
 
 async function set(format: 'avif' | 'webp' | 'jpeg', q: number) {
   return Promise.all(

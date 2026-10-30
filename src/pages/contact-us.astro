@@ -19,7 +19,7 @@ const head = await heroImage('dusk-sidewalk', { sizes: '(min-width: 60rem) 48vw,
   preload={{ ...head.preload, media: '(min-width: 60rem)' }}
   schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Contact', path }])]}
 >
-  <PageHead image={head} eyebrow="Contact" title="Call, text, or **tell us about the yard.**" lede="Texting a photo is usually the fastest way to start." crumbs={[{ name: 'Contact', path }]}>
+  <PageHead image={head} eyebrow="Contact" title="Call, text, or **tell us about the yard.**" lede="Texting a photo is usually the fastest way to start." crumbs={[{ name: 'Contact', path }]} next="ink">
     <ul class="ways">
       <li><a class="way" href={BRAND.phoneHref} data-loc="contact"><Icon name="phone" /><span>Call {BRAND.phone}</span></a></li>
       <li><a class="way" href={BRAND.smsHref} data-loc="contact-text"><Icon name="text" /><span>Text a photo</span></a></li>

@@ -7,7 +7,7 @@
   "hero": {
     "kicker": "Landscaping in Troy, MI",
     "title": "Those shrubs were small **when the house was new.**",
-    "lede": "If your Troy yard still follows the plan it had when the house went up, HD Landscape can redraw the beds, replace a worn lawn and bring the hedges and smaller trees back in line. Jake handles the first walk and the follow up call himself.",
+    "lede": "If your Troy yard still follows the plan it had when the house went up, HD Landscape can redraw the beds, replace a worn lawn and bring the hedges and smaller trees back in line. Jake handles the first walk and the follow-up call himself.",
     "chips": ["Design and sod", "Hedges and smaller trees", "Itemized estimates"],
     "photo": "dusk-column"
   },
@@ -46,7 +46,7 @@
     { "q": "Is the soil around here all clay?", "a": "Not all of it. The most common soil on USDA's map of Troy is sandy loam over clay loam, with loamy sand over clay loam in some areas and silty clay loam all the way down in others. Most of it drains slowly and the ground is nearly flat, so the soil in your own yard should decide the plants and the grade." },
     { "q": "Do I need my association's approval for landscaping?", "a": "Your own association's rules decide that. Troy lists more than 40 neighborhood and condominium associations, and what they cover varies. If you have one, read its rules before the plan is final, and tell Jake early so the work fits them." },
     { "q": "Can I pile leaves and brush at the curb in Troy?", "a": "Not in the street. Troy does not allow leaves piled there, so they go out in paper bags or stickered 35 gallon cans. Brush goes out tied in bundles under 3 feet long, with nothing over 2 inches thick. That works for a weekend of raking, and on a bigger job the estimate says how the debris leaves." },
-    { "q": "What should I hire someone else for?", "a": "Sprinklers and lawn aeration are outside our work, so an underground system stays with your irrigation company, along with setting it to Troy's 11pm to 5am hours. A big tree that has to come down goes to a tree company, and a tree in the strip by the curb is the city's to look after. Jake can point out which is which on the first walk." }
+    { "q": "What should I hire someone else for?", "a": "Sprinklers and lawn aeration are outside our work, so an underground system stays with your irrigation company, along with setting it to Troy's 11 p.m. to 5 a.m. hours. A big tree that has to come down goes to a tree company, and a tree in the strip by the curb is the city's to look after. Jake can point out which is which on the first walk." }
   ],
   "reviews": ["amanda-h", "anne-j", "renee-g"],
   "neighbors": ["rochester-hills", "sterling-heights", "birmingham", "bloomfield-township"]

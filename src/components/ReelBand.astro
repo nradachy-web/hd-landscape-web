@@ -15,7 +15,8 @@ const clips = [
 ];
 ---
 
-<div class="rb" data-reels>
+<button class="btn ghost small rb__stop" type="button" aria-pressed="false" hidden data-reels-stop>Pause clips</button>
+<div class="rb" data-reels tabindex="0" role="region" aria-label="Clips from finished yards. Scroll sideways for more.">
   {
     clips.map((c) => (
       <figure>
@@ -35,8 +36,17 @@ const clips = [
     if (!box || !('IntersectionObserver' in window)) return;
     if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
     if (navigator.connection && navigator.connection.saveData) return;
-    box.querySelectorAll('video').forEach(function (v) {
+    var stop = document.querySelector('[data-reels-stop]'), held = false, list = box.querySelectorAll('video');
+    stop.hidden = false;
+    stop.addEventListener('click', function () {
+      held = !held;
+      stop.setAttribute('aria-pressed', String(held));
+      stop.textContent = held ? 'Play clips' : 'Pause clips';
+      list.forEach(function (v) { if (held) v.pause(); else if (v.src) v.play().catch(function () {}); });
+    });
+    list.forEach(function (v) {
       new IntersectionObserver(function (es) {
+        if (held) return;
         if (es[0].isIntersecting) {
           if (!v.src) { v.src = v.dataset.src; v.addEventListener('playing', function () { v.classList.add('is-on'); }, { once: true }); }
           v.play().catch(function () {});
@@ -47,6 +57,10 @@ const clips = [
 </script>
 
 <style>
+  .rb__stop {
+    margin-bottom: 1rem;
+  }
+
   .rb {
     display: grid;
     grid-auto-flow: column;

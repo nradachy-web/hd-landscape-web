@@ -57,7 +57,7 @@ const schema = [
     title={c.hero.title}
     lede={c.hero.lede}
     chips={c.hero.chips}
-    primary={{ label: `Get a ${town.name} estimate`, href: '#quote' }}
+    primary={{ label: `Get your ${town.name} estimate`, href: '#quote' }}
     next="paper"
     crumbs={[
       { name: 'Service areas', path: '/service-areas/' },
@@ -67,7 +67,7 @@ const schema = [
 
   <section class="band" aria-labelledby="svc-h">
     <div class="wrap">
-      <Head id="svc-h" eyebrow={`Services in ${town.name}`} title={`Landscaping in ${town.name}: **what we do here.**`} intro={town.home ? 'This is home. Every service starts with a free, itemized estimate.' : 'Pick a service to see how it works. Every one starts with a free, itemized estimate.'} />
+      <Head id="svc-h" eyebrow={`Services in ${town.name}`} title={`The work we take on in ${town.name}.`} intro={town.home ? 'This is home. Every service starts with a free, itemized estimate.' : 'Pick a service to see how it works. Every one starts with a free, itemized estimate.'} />
       <div class="svc">
         {
           groups.map((g) => (
@@ -142,11 +142,11 @@ const schema = [
 
   <section class="band" aria-labelledby="faq-h">
     <div class="wrap faqs">
-      <Head id="faq-h" layout="left" eyebrow="Questions" title={`${town.name} questions.`} intro={`If yours is not here, call or text [${BRAND.phone}](${BRAND.phoneHref}).`} />
+      <Head id="faq-h" layout="left" eyebrow="Questions" title={`What people ask about ${town.name} yards.`} intro={`If yours is not here, call or text [${BRAND.phone}](${BRAND.phoneHref}).`} />
       <Faq items={c.faq} />
     </div>
     <div class="wrap more">
-      <h2 class="h3">Nearby towns we serve</h2>
+      <h2 class="h3">{town.state === 'FL' ? 'Where we work the rest of the year' : 'Nearby towns we serve'}</h2>
       <ul class="chips">
         {c.neighbors.map((id) => <li><a class="chip" href={href(hubPath(getCity(id)))}>{getCity(id).name}</a></li>)}
         <li><a class="chip" href={href('/service-areas/')}>All service areas</a></li>

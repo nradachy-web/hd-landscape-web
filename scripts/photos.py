@@ -41,7 +41,7 @@ REAL = {
     "weeping-border": (I + "2025-06-17_IMG_8288.jpg", None),
     "ranch-stone-bed": (I + "2025-09-25_IMG_9386.jpg", None),
     "rock-bed-hydrangea": (I + "2025-05-22_IMG_7829.jpg", None),
-    "hosta-bed": (I + "2025-05-22_IMG_7881.jpg", (0, 0.2, 1, 1)),
+    "hosta-bed": (I + "2025-05-22_IMG_7881.jpg", (0, 0.32, 1, 1)),
     "limestone-bed": (W + "IMG_4929-2.jpg", (0, 0.1, 1, 1)),
     "black-stone-kidney": (P + "IMG_5368-scaled.jpg", (0, 0.1, 1, 1)),
     "slate-sidewalk": (W + "IMG_3533.jpg", None),
@@ -55,7 +55,7 @@ REAL = {
     "hedge-walk": (W + "IMG_4872.jpg", (0, 0, 0.825, 1)),
     "tall-hedge": (W + "IMG_0968.jpg", None),
     "pool-hedge": (W + "IMG_4932-1.jpg", (0, 0.25, 1, 1)),
-    "hedge-long": (I + "2025-10-10_IMG_9481.jpg", None),
+    "hedge-long": (I + "2025-10-10_IMG_9481.jpg", (0.09, 0, 1, 1)),
     "hedge-curve": ("reel/r12.jpg", (0, 0.1, 1, 0.92)),
     "topiary-spiral": ("reel/r09.jpg", (0, 0.1, 1, 0.95)),
     "boxwood-front": (P + "IMG_5668-scaled.jpg", None),
@@ -111,13 +111,19 @@ AI = {
     "ai-watering": "wp/83B9E56D-4BD7-484E-A55E-F5292E3CC0F3.png",
 }
 
-# House numbers softened before cropping, as fractions of the source photo.
-# Cropping is the first choice; these are the ones a crop cannot reach.
-SOFTEN = {
-    "jake-polo": [(0.205, 0.292, 0.315, 0.335)],
-    "boxwood-front": [(0.395, 0.395, 0.465, 0.47)],
-    "black-stone-kidney": [(0.615, 0.265, 0.675, 0.315)],
-    "ba-sod-before": [(0.12, 0.3, 0.17, 0.395)],
+# House numbers are cloned out before cropping, as fractions of the source photo.
+# Each box is covered with the same-sized patch beside it (dir -1 left, 1 right,
+# 2 above), feathered so no edge shows. Cropping is the first choice; these are the
+# ones a crop cannot reach.
+CLONE = {
+    "jake-polo": [(0.205, 0.292, 0.315, 0.335, -1)],
+    "boxwood-front": [(0.392, 0.322, 0.462, 0.384, 2)],
+    "black-stone-kidney": [(0.606, 0.336, 0.672, 0.392, 2)],
+    "colonial-fall": [(0.296, 0.368, 0.356, 0.412, -1)],
+    "weeping-border": [(0.786, 0.232, 0.838, 0.284, 2)],
+    "ranch-stone-bed": [(0.682, 0.308, 0.723, 0.345, -1)],
+    "shade-lawn": [(0.712, 0.544, 0.762, 0.594, 2)],
+    "ba-sod-before": [(0.12, 0.3, 0.17, 0.395, 1)],
 }
 
 # before and after pairs: same 4:5 frame, from Jake's own reel at 2160 by 3840
@@ -132,10 +138,16 @@ PAIRS = {
 
 def load(name, pid=None):
     im = ImageOps.exif_transpose(Image.open(S / name)).convert("RGB")
-    for l, t, r, b in SOFTEN.get(pid, []):
+    for l, t, r, b, way in CLONE.get(pid, []):
         w, h = im.size
-        box = (round(l * w), round(t * h), round(r * w), round(b * h))
-        im.paste(im.crop(box).filter(ImageFilter.GaussianBlur(radius=max(w, h) / 90)), box)
+        x0, y0, x1, y1 = round(l * w), round(t * h), round(r * w), round(b * h)
+        bw, bh = x1 - x0, y1 - y0
+        dx, dy = (0, -bh) if way == 2 else (way * bw, 0)
+        patch = im.crop((x0 + dx, y0 + dy, x1 + dx, y1 + dy))
+        feather = max(3, round(min(bw, bh) * 0.22))
+        mask = Image.new("L", (bw, bh), 0)
+        mask.paste(255, (feather, feather, bw - feather, bh - feather))
+        im.paste(patch, (x0, y0), mask.filter(ImageFilter.GaussianBlur(feather * 0.6)))
     return im
 
 

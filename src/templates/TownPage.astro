@@ -66,7 +66,7 @@ const schema = [
     title={c.hero.title}
     lede={c.hero.lede}
     chips={c.hero.chips}
-    primary={{ label: `Get a ${town.name} estimate`, href: '#quote' }}
+    primary={{ label: `Get your ${town.name} estimate`, href: '#quote' }}
     crumbs={[
       { name: 'Service areas', path: '/service-areas/' },
       { name: town.name, path: hubPath(town) },
@@ -112,7 +112,7 @@ const schema = [
         </ul>
         {summary.footnote && <p class="fine muted" set:html={rich(summary.footnote)} />}
         <div class="actions">
-          <a class="btn primary" href="#quote" data-cta="town-quote">Get a {town.name} estimate</a>
+          <a class="btn primary" href="#quote" data-cta="town-quote">Get your {town.name} estimate</a>
           <a class="btn ghost" href={href(svc.path)}>Full {svc.noun} details</a>
         </div>
       </div>
@@ -153,7 +153,7 @@ const schema = [
         id="faq-h"
         layout="left"
         eyebrow="Questions"
-        title={`${svc.name} in ${town.name}: questions.`}
+        title={`What people ask about ${svc.noun} in ${town.name}.`}
         intro={`If yours is not here, call or text [${BRAND.phone}](${BRAND.phoneHref}).`}
       />
       <Faq items={c.faq} />

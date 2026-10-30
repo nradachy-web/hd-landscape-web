@@ -9,6 +9,7 @@
       var stage = r.parentElement;
       function show() {
         stage.style.setProperty('--pos', r.value + '%');
+        stage.style.setProperty('--p', r.value);
         r.setAttribute('aria-valuetext', r.value + '% before, ' + (100 - r.value) + '% after');
       }
       r.addEventListener('input', show);

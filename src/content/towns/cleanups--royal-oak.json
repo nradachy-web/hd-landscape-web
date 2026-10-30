@@ -8,13 +8,13 @@
   "hero": {
     "kicker": "Spring and fall yard cleanups in Royal Oak, MI",
     "title": "Ahead of the leaf trucks, **not behind them.**",
-    "lede": "In Royal Oak the city’s calendar matters as much as your trees. Leaf trucks run on a schedule, and curbside yard waste stops from mid December until April. HD Landscape times your cleanup around both, clears the beds and leaves the yard clean.",
+    "lede": "In Royal Oak the city's calendar matters as much as your trees. Leaf trucks run on a schedule, and curbside yard waste stops from mid December until April. HD Landscape times your cleanup around both, clears the beds and leaves the yard clean.",
     "chips": ["Timed to city pickup", "Beds and corners cleared", "Spring start set by your soil"],
     "photo": "colonial-fall"
   },
   "local": {
     "eyebrow": "Cleanups in Royal Oak",
-    "title": "The city’s calendar runs this job.",
+    "title": "The city's calendar runs this job.",
     "intro": "Every fall the city sends 13 dump trucks over 212 miles of streets to collect its leaves, and the rules around that are easy to miss. A cleanup timed to that system goes smoothly. One that misses it can leave bags sitting by the garage until April.",
     "points": [
       { "title": "Two passes in about six weeks", "body": "City crews vacuum leaves from the street in two passes, starting in late October or early November. Piles should be no larger than 3 feet high by 4 feet wide, 3 to 4 inches off the curb, with no sticks or rocks. Signs go up the day before, and cars need to stay off the street." },
@@ -25,9 +25,9 @@
     ]
   },
   "logistics": {
-    "title": "A Royal Oak fall cleanup gets booked around your street’s leaf pass.",
+    "title": "A Royal Oak fall cleanup gets booked around your street's leaf pass.",
     "body": [
-      "Book a fall cleanup for the days before your street’s pass, once most of your leaves are down. The city’s leaf schedule shows when that is for your area, and weather can move its dates, so leave some room. Jake can see the yard in person or start from a few photos by text, and the estimate comes itemized.",
+      "Book a fall cleanup for the days before your street's pass, once most of your leaves are down. The city's leaf schedule shows when that is for your area, and weather can move its dates, so leave some room. Jake can see the yard in person or start from a few photos by text, and the estimate comes itemized.",
       "The crew clears beds and corners, pulls weeds, cuts back what should be cut back and tidies the shrubs. How the debris gets off the property goes on your estimate."
     ],
     "facts": [
@@ -40,11 +40,11 @@
   "photo": "curve-fall",
   "faq": [
     { "q": "Do you do yard cleanups in Royal Oak?", "a": "Yes. HD Landscape does spring and fall yard cleanups in Royal Oak, clearing beds and corners, pulling weeds and tidying shrubs. Call or text [(586) 718-8762](tel:+15867188762) for a free estimate." },
-    { "q": "When is leaf pickup in Royal Oak?", "a": "The curbside leaf program starts in late October or early November, once most leaves are down, and covers every street twice over about six weeks. The starting area rotates each year and weather can shift the dates, so check the city’s schedule for your street. After the third Friday in December, leaves are not picked up until spring." },
-    { "q": "Should I book a fall cleanup before the leaf trucks come?", "a": "Yes. Aim for the days before your street’s pass, once most of your leaves are down. The city asks people not to rake right in front of the crews, so leave a little room. If your big trees drop late, the second pass is your backup." },
-    { "q": "Can I use plastic bags for leaves in Royal Oak?", "a": "No. Plastic bags are not allowed for yard waste at any time. Use 30 gallon paper landscape bags, or a 20 to 32 gallon can with the city’s free yard waste decal facing the street. Each one has to stay under 50 pounds and be out by 7 a.m. on your trash day." },
+    { "q": "When is leaf pickup in Royal Oak?", "a": "The curbside leaf program starts in late October or early November, once most leaves are down, and covers every street twice over about six weeks. The starting area rotates each year and weather can shift the dates, so check the city's schedule for your street. After the third Friday in December, leaves are not picked up until spring." },
+    { "q": "Should I book a fall cleanup before the leaf trucks come?", "a": "Yes. Aim for the days before your street's pass, once most of your leaves are down. The city asks people not to rake right in front of the crews, so leave a little room. If your big trees drop late, the second pass is your backup." },
+    { "q": "Can I use plastic bags for leaves in Royal Oak?", "a": "No. Plastic bags are not allowed for yard waste at any time. Use 30 gallon paper landscape bags, or a 20 to 32 gallon can with the city's free yard waste decal facing the street. Each one has to stay under 50 pounds and be out by 7 a.m. on your trash day." },
     { "q": "Can you do a spring cleanup before April?", "a": "It can work, as long as the ground is firm enough to walk on. City curbside yard waste does not start until the first Monday in April, so an early cleanup needs a different plan for the debris, and that plan goes on your estimate. If you would rather wait, we can book it for April." },
-    { "q": "Should I just leave the leaves?", "a": "Some of them, if you like. The city’s own leaf page promotes leaving leaves to break down and feed the garden, and the city also backs Slow Mow Spring in May for pollinators. A thick mat on the lawn should still come off, because it can smother the grass over winter. Tell us what you want left, and we will leave that corner alone." }
+    { "q": "Should I just leave the leaves?", "a": "Some of them, if you like. The city's own leaf page promotes leaving leaves to break down and feed the garden, and the city also backs Slow Mow Spring in May for pollinators. A thick mat on the lawn should still come off, because it can smother the grass over winter. Tell us what you want left, and we will leave that corner alone." }
   ],
   "reviews": ["nancy-g", "marie-b"]
 }

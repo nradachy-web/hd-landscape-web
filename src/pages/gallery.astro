@@ -30,14 +30,14 @@ const sets: { id: string; title: string; intro: string; photos: PhotoId[] }[] = 
   preload={{ ...head.preload, media: '(min-width: 60rem)' }}
   schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Our work', path }])]}
 >
-  <PageHead image={head} eyebrow="Our work" title="Real jobs, **real phone photos.**" lede="Every picture on this page is one of our jobs. No stock photos and nothing staged." crumbs={[{ name: 'Our work', path }]} />
+  <PageHead image={head} eyebrow="Our work" title="Real jobs, **real phone photos.**" lede="Every picture on this page is one of our jobs. No stock photos and nothing staged." crumbs={[{ name: 'Our work', path }]} next="ink" />
 
   <section class="band ink" aria-labelledby="ba-h">
     <div class="wrap">
       <Head id="ba-h" eyebrow="Before and after" title="Drag the line **on any of these.**" />
       <div class="ba-row">
         <BeforeAfter pair="ba-corner" />
-        <BeforeAfter pair="ba-foundation" />
+        <BeforeAfter pair="ba-hedge" />
         <BeforeAfter pair="ba-side" />
       </div>
     </div>

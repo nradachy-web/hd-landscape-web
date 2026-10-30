@@ -1,6 +1,6 @@
 import type { APIRoute } from 'astro';
 import { getCollection } from 'astro:content';
-import { BRAND, RATING } from '../data/site';
+import { BRAND, FLORIDA, RATING } from '../data/site';
 import { GROUPS, inGroup } from '../data/services';
 import { AREAS, inArea, hubPath, TOWN_PAGES, townsFor } from '../data/cities';
 
@@ -15,7 +15,7 @@ export const GET: APIRoute = async () => {
     '',
     `> ${BRAND.name} (${BRAND.legalName}) is an owner-run landscape company based in ${BRAND.city}, Michigan, owned by ${BRAND.owner}. It designs, builds and maintains landscapes for homes and businesses across Metro Detroit. ${RATING.value} stars on Google from ${RATING.countLabel} reviews as of ${RATING.asOf}. Free, itemized estimates. Phone and text ${BRAND.phone}.`,
     '',
-    'HD Landscape does not install sprinklers, does not aerate lawns, and sends large tree removals to a tree company. In winter it also works around Fort Lauderdale, Florida.',
+    `HD Landscape does not install sprinklers, does not aerate lawns, and sends large tree removals to a tree company.${FLORIDA ? ' In winter it also works around Fort Lauderdale, Florida.' : ''}`,
     '',
     '## Services',
     ...GROUPS.flatMap((g) => inGroup(g.id).map((s) => `- [${s.name}](${u(s.path)}): ${s.teaser}`)),

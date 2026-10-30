@@ -8,7 +8,7 @@
   "hero": {
     "kicker": "Sod installation in Troy, MI",
     "title": "New sod, **on Troy's watering clock.**",
-    "lede": "Fresh sod wants water early and often, and Troy holds underground sprinklers to 11pm through 5am. So HD Landscape fixes the grade, lays tight seams and leaves you a watering plan that works with the rule. Many lawns are finished in a day, depending on the grade.",
+    "lede": "Fresh sod wants water early and often, and Troy holds underground sprinklers to 11 p.m. through 5 a.m.. So HD Landscape fixes the grade, lays tight seams and leaves you a watering plan that works with the rule. Many lawns are finished in a day, depending on the grade.",
     "chips": ["Grade comes first", "A watering plan that fits", "Often one day"],
     "photo": "ba-sod-after"
   },
@@ -17,7 +17,7 @@
     "title": "Why a new lawn in Troy starts with **a water plan.**",
     "intro": "Laying sod is the easy part. The real job in Troy is water: getting enough on the lawn while it roots, and getting the rest away from the house. The ground here is nearly flat, most soils drain slowly and the city sets the hours for underground sprinklers.",
     "points": [
-      { "title": "Sprinkler hours and new sod", "body": "The city's water ordinance limits homes with an underground system to 11pm through 5am. New sod usually needs water every day early on, and an overnight cycle may not cover a hot afternoon. Watering by hand, with someone attending it, is allowed at any time, and the city says garden hoses are not affected." },
+      { "title": "Sprinkler hours and new sod", "body": "The city's water ordinance limits homes with an underground system to 11 p.m. through 5 a.m.. New sod usually needs water every day early on, and an overnight cycle may not cover a hot afternoon. Watering by hand, with someone attending it, is allowed at any time, and the city says garden hoses are not affected." },
       { "title": "Flat yards hold water", "body": "USDA soil maps show most of the city at 4 percent slope or less. With so little fall, a small dip near the foundation or a high spot at the back of the yard can leave water sitting. The grade gets set before the first roll comes off the pallet." },
       { "title": "Sandy tops, heavy subsoil", "body": "USDA maps show sandy loam or loamy sand over clay loam in many parts of the city, and silty clay loam top to bottom in other spots. Sandy tops dry out fast, and heavy soil stays wet longer. That changes how you water, so the plan Jake gives you is for your yard." },
       { "title": "Ground that has been moved", "body": "The most common soil on USDA's Troy map has about a foot of moved soil over the original ground, which fits how subdivisions get built. What sits under your old lawn may not match the lot next door, and the day the old grass comes off is when you find out." }
@@ -26,20 +26,20 @@
   "logistics": {
     "title": "A big lawn needs a plan for the pallets and the old sod too.",
     "body": [
-      "Lots here can carry a lot of lawn, so where the pallets sit and how the crew gets around them get worked out ahead of time. Bigger lots or heavy grading can run past a day. City code limits grading noise to 7am through 8pm, Monday through Saturday, so machine work stays inside those hours.",
+      "Lots here can carry a lot of lawn, so where the pallets sit and how the crew gets around them get worked out ahead of time. Bigger lots or heavy grading can run past a day. City code limits grading noise to 7 a.m. through 8 p.m., Monday through Saturday, so machine work stays inside those hours.",
       "Your estimate says how the old lawn gets off the property. Curbside yard waste runs on paper bags and 35 gallon stickered cans, which is no way to move a lawn. When the crew is done, Jake gives you a plain watering plan, and if you would rather not think about it, we can [handle the watering](/plant-watering/) while it roots."
     ],
     "facts": [
       { "label": "Time on site", "value": "Often one day" },
       { "label": "Estimate", "value": "Free and itemized" },
-      { "label": "Underground sprinkler hours", "value": "11pm to 5am, by city ordinance" },
+      { "label": "Underground sprinkler hours", "value": "11 p.m. to 5 a.m., by city ordinance" },
       { "label": "Not included", "value": "Sprinkler installation" }
     ]
   },
   "photo": "grade-rake",
   "faq": [
     { "q": "Do you do sod installation in Troy, MI?", "a": "Yes. HD Landscape installs sod in Troy, MI, from taking out the old grass and fixing the grade to laying the new lawn in tight seams. Jake then goes over watering under the city's sprinkler hours. Text a photo of the lawn to [(586) 718-8762](sms:+15867188762) to get started." },
-    { "q": "How do I water new sod in Troy with the sprinkler rule?", "a": "The ordinance limits underground systems on city water to 11pm through 5am, and it allows attended hand watering at any time. So you can run the system overnight and top up with a hose on hot days. The ordinance also lets a resident ask the city's water department for relief when the rule causes a real hardship. Rules change, so ask the city for the current hours, and Jake can fit the plan to your yard." },
+    { "q": "How do I water new sod in Troy with the sprinkler rule?", "a": "The ordinance limits underground systems on city water to 11 p.m. through 5 a.m., and it allows attended hand watering at any time. So you can run the system overnight and top up with a hose on hot days. The ordinance also lets a resident ask the city's water department for relief when the rule causes a real hardship. Rules change, so ask the city for the current hours, and Jake can fit the plan to your yard." },
     { "q": "Can you lay sod on a flat yard that stays soggy?", "a": "Yes, but the water comes first. On ground this flat, that means finding out where it is going, fixing the grade where we can and laying sod once the ground can shed water. If a yard needs more than a grade change, Jake will say so before you spend money on sod. [Yard grading](/yard-grading/) is often the first line on the estimate." },
     { "q": "Does regrading my yard in Troy take a permit?", "a": "Sometimes. The city's soil chapter requires a permit to move soil, with an exception for parcels of 2 acres or less where the grade changes by no more than 1 foot and the neighbors' drainage is not hurt. Separate erosion rules can apply near a lake or stream, even on a small job. The city has the last word, and we will tell you what we know when we see the yard." },
     { "q": "Can you sod the strip by the curb in Troy?", "a": "Usually, yes, as part of the lawn. The city holds the adjacent owner responsible for the grass in that strip, and its code lets owners keep it up. The trees in it are the city's to look after, so the sod should go around them without burying roots. A job beyond a shallow repair needs a call to the city first, because its code calls for a permit on deeper digging there." },

@@ -16,9 +16,11 @@ const POS: Record<string, [number, number]> = {
   warren: [42.515, -83.015], roseville: [42.497, -82.937], eastpointe: [42.468, -82.956], fraser: [42.539, -82.949], 'mount-clemens': [42.597, -82.878],
   'chesterfield-township': [42.68, -82.838], 'new-baltimore': [42.681, -82.737],
 };
+/* the few that stay labeled on a phone */
+const PHONE = ['st-clair-shores', 'grosse-pointe', 'birmingham', 'troy', 'rochester-hills', 'new-baltimore'];
 const LABEL = ['st-clair-shores', 'grosse-pointe', 'birmingham', 'troy', 'rochester-hills', 'royal-oak', 'warren', 'sterling-heights', 'clinton-township', 'bloomfield-hills', 'west-bloomfield', 'shelby-township', 'new-baltimore', 'macomb-township', 'harrison-township'];
 
-const W = 960, H = 690;
+const W = 960, H = 724;
 const LAT0 = 42.8, LON0 = -83.43, SX = 960 / 0.8, SY = SX * 1.35;
 const xy = (lat: number, lon: number): [number, number] => [Math.round((lon - LON0) * SX), Math.round((LAT0 - lat) * SY)];
 const path = (pts: [number, number][]) => pts.map(([a, b], i) => `${i ? 'L' : 'M'}${xy(a, b).join(' ')}`).join('');
@@ -30,7 +32,7 @@ const river = path([[42.33, -83.0], [42.31, -83.09], [42.28, -83.12]]);
 const woodward = path([[42.33, -83.05], [42.4, -83.1], [42.47, -83.14], [42.53, -83.2], [42.58, -83.245], [42.635, -83.285]]);
 const towns = CITIES.filter((c): c is City => c.state === 'MI' && !!POS[c.id]).map((c) => {
   const [x, y] = xy(POS[c.id][0], POS[c.id][1]);
-  return { c, x, y, on: LABEL.includes(c.id), up: c.id === 'clinton-township' };
+  return { c, x, y, on: LABEL.includes(c.id), phone: PHONE.includes(c.id), down: c.id === 'clinton-township', end: c.id === 'new-baltimore' };
 });
 ---
 
@@ -50,12 +52,12 @@ const towns = CITIES.filter((c): c is City => c.state === 'MI' && !!POS[c.id]).m
           <circle class="am__hit" cx={t.x} cy={t.y} r="20" />
           <circle class="am__glow" cx={t.x} cy={t.y} r="18" fill="url(#am-g)" />
           <circle class="am__dot" cx={t.x} cy={t.y} r="4" />
-          <text class:list={['am__n', !t.on && 'am__n--hover']} x={t.up ? t.x - 44 : t.x + 10} y={t.up ? t.y - 12 : t.y + 5}>{t.c.name}</text>
+          <text class:list={['am__n', !t.on && 'am__n--hover', !t.phone && 'am__n--wide']} text-anchor={t.end ? 'end' : undefined} x={t.end ? t.x - 12 : t.down ? t.x - 34 : t.x + 10} y={t.down ? t.y + 24 : t.y + 5}>{t.c.name}</text>
         </a>
       ))
     }
   </svg>
-  <figcaption class="note cap">Not to scale for navigation. Tap a light to see that town.</figcaption>
+  <figcaption class="note cap">Each light is a town we work in. Pick one to see that page, or use the list below.</figcaption>
 </figure>
 
 <style>
@@ -138,16 +140,32 @@ const towns = CITIES.filter((c): c is City => c.state === 'MI' && !!POS[c.id]).m
 
   @media (max-width: 39.99rem) {
     .am__n {
-      font-size: 21px;
-      stroke-width: 5px;
+      font-size: 34px;
+      stroke-width: 7px;
+    }
+
+    .am__n--wide {
+      display: none;
     }
 
     .am__dot {
-      r: 6px;
+      r: 9px;
+    }
+
+    .am__hit {
+      r: 30px;
+    }
+
+    .am__glow {
+      r: 30px;
     }
 
     .am__tag {
-      font-size: 24px;
+      font-size: 30px;
+    }
+
+    .am__tag--w {
+      display: none;
     }
   }
 </style>
