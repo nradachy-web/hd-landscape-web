@@ -1,22 +1,19 @@
 ---
 /* Same bed, your pick of ground cover. One of Jake's real beds with the mulch
-   swapped for other finishes, each layer cut so the plants, the tree and the wall
-   never move (scripts/bed.py). It is plain radio buttons: no script at all, and
-   the layers are lazy, so nothing here weighs on the first paint.
-
-   The first option is the photo as it was taken. Labeled as a digital preview. */
+   swapped for other finishes on a soft matte built from the 12 megapixel original
+   (scripts/bed.py), so leaf edges, stems and fallen petals all stay real. Each layer
+   covers only the bed, lined up to the pixel. Plain radio buttons, no script, and
+   the layers are lazy, so nothing here weighs on the first paint. */
 import { getImage } from 'astro:assets';
 import Photo from './Photo.astro';
 import brown from '../assets/panel/bed-brown.png';
 import red from '../assets/panel/bed-red.png';
 import river from '../assets/panel/bed-river.png';
 import black from '../assets/panel/bed-black.png';
-import marble from '../assets/panel/bed-marble.png';
 import swBrown from '../assets/panel/sw-brown.jpg';
 import swRed from '../assets/panel/sw-red.jpg';
 import swRiver from '../assets/panel/sw-river.jpg';
 import swBlack from '../assets/panel/sw-black.jpg';
-import swMarble from '../assets/panel/sw-marble.jpg';
 
 const opts = [
   { id: 'jet', name: 'Black mulch', note: 'The bed as we finished it. Sharp against brick and green.', img: null, sw: null },
@@ -24,32 +21,32 @@ const opts = [
   { id: 'red', name: 'Red mulch', note: 'A bold color that holds its own beside brick.', img: red, sw: swRed },
   { id: 'river', name: 'River rock', note: 'Stays put and does not need topping up.', img: river, sw: swRiver },
   { id: 'black', name: 'Black stone', note: 'Clean and modern, and a favorite of ours.', img: black, sw: swBlack },
-  { id: 'marble', name: 'White marble', note: 'Bright and formal. Shows every leaf.', img: marble, sw: swMarble },
 ];
 
 const layers = await Promise.all(
   opts.filter((o) => o.img).map(async (o) => {
     const set = async (format: 'avif' | 'webp', quality: number) => {
-      const urls = await Promise.all([800, 1200].map(async (w) => `${(await getImage({ src: o.img!, width: w, format, quality })).src} ${w}w`));
+      const urls = await Promise.all([740, 1100, 1472, 1840].map(async (w) => `${(await getImage({ src: o.img!, width: w, format, quality })).src} ${w}w`));
       return urls.join(', ');
     };
-    const fb = await getImage({ src: o.img!, width: 800, format: 'webp', quality: 62 });
-    return { id: o.id, avif: await set('avif', 50), webp: await set('webp', 62), fb: fb.src };
+    const fb = await getImage({ src: o.img!, width: 1100, format: 'webp', quality: 66 });
+    return { id: o.id, avif: await set('avif', 56), webp: await set('webp', 68), fb: fb.src };
   }),
 );
 const swatches = Object.fromEntries(await Promise.all(opts.filter((o) => o.sw).map(async (o) => [o.id, (await getImage({ src: o.sw!, width: 72, format: 'webp', quality: 70 })).src])));
 const sizes = '(min-width: 60rem) 56vw, 92vw';
+const layerSizes = '(min-width: 60rem) 52vw, 85vw';
 ---
 
 <figure class="bed">
   <div class="frame bed__stage">
-    <Photo id="curve-brick-bed" ratio={4 / 3} widths={[640, 960, 1280]} sizes={sizes} alt="A curved raised bed in front of a brick ranch, with the ground cover changing as you pick each option" />
+    <Photo id="curve-brick-bed" ratio={4 / 3} widths={[640, 960, 1280, 1800]} sizes={sizes} alt="A curved raised bed in front of a brick ranch, with the ground cover changing as you pick each option" />
     {
       layers.map((l) => (
         <picture class="bed__layer" data-m={l.id}>
-          <source type="image/avif" srcset={l.avif} sizes={sizes} />
-          <source type="image/webp" srcset={l.webp} sizes={sizes} />
-          <img src={l.fb} width="1200" height="900" alt="" loading="lazy" decoding="async" />
+          <source type="image/avif" srcset={l.avif} sizes={layerSizes} />
+          <source type="image/webp" srcset={l.webp} sizes={layerSizes} />
+          <img src={l.fb} width="1840" height="517" alt="" loading="lazy" decoding="async" />
         </picture>
       ))
     }
@@ -69,7 +66,7 @@ const sizes = '(min-width: 60rem) 56vw, 92vw';
       ))
     }
   </fieldset>
-  <figcaption class="note cap bed__cap">One of our real beds. The other five finishes are digital previews, so treat the colors as a guide.</figcaption>
+  <figcaption class="note cap bed__cap">One of our real beds, finished in black mulch. The other four are digital previews, so treat the colors as a guide.</figcaption>
 </figure>
 
 <style>
@@ -83,9 +80,20 @@ const sizes = '(min-width: 60rem) 56vw, 92vw';
     aspect-ratio: 4 / 3;
   }
 
+  .bed__layer :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+  }
+
+  /* the bed only: these fractions come from scripts/bed.py (box.json) */
   .bed__layer {
     position: absolute;
-    inset: 0;
+    left: 0;
+    top: 57%;
+    width: 92%;
+    height: 34.5%;
     opacity: 0;
     transition: opacity 0.45s var(--ease);
     pointer-events: none;
@@ -94,8 +102,7 @@ const sizes = '(min-width: 60rem) 56vw, 92vw';
   .bed:has(input[value='brown']:checked) [data-m='brown'],
   .bed:has(input[value='red']:checked) [data-m='red'],
   .bed:has(input[value='river']:checked) [data-m='river'],
-  .bed:has(input[value='black']:checked) [data-m='black'],
-  .bed:has(input[value='marble']:checked) [data-m='marble'] {
+  .bed:has(input[value='black']:checked) [data-m='black'] {
     opacity: 1;
   }
 
@@ -210,6 +217,10 @@ const sizes = '(min-width: 60rem) 56vw, 92vw';
     .bed__opt {
       gap: 0.55rem;
       padding-inline: 0.55rem;
+    }
+
+    .bed__opt:first-child {
+      grid-column: 1 / -1;
     }
   }
 </style>
