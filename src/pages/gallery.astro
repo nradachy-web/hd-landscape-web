@@ -10,6 +10,7 @@ import BeforeAfter from '../components/BeforeAfter.astro';
 import QuoteBand from '../components/QuoteBand.astro';
 import { photo, type PhotoId } from '../data/photos';
 import { heroImage } from '../lib/hero';
+import { balance } from '../lib/paths';
 import { breadcrumbs } from '../lib/schema';
 
 const head = await heroImage('hedge-curve', { sizes: '(min-width: 60rem) 48vw, 1px' });
@@ -48,16 +49,20 @@ const sets: { id: string; title: string; intro: string; photos: PhotoId[] }[] = 
       <section class:list={['band', i % 2 === 1 && 'white']} aria-labelledby={`set-${s.id}`}>
         <div class="wrap">
           <Head id={`set-${s.id}`} title={s.title} intro={s.intro} />
-          <ul class="set">
-            {s.photos.map((id) => (
-              <li>
-                <figure>
-                  <div class="frame"><Photo id={id} widths={[420, 640, 900]} sizes="(min-width: 60rem) 31vw, (min-width: 40rem) 46vw, 92vw" /></div>
-                  <figcaption class="note cap">{photo(id).caption}</figcaption>
-                </figure>
-              </li>
+          <div class="set">
+            {balance(s.photos, (id) => photo(id).src.height / photo(id).src.width, 3).map((col) => (
+              <ul>
+                {col.map((id) => (
+                  <li>
+                    <figure>
+                      <div class="frame"><Photo id={id} widths={[420, 640, 900]} sizes="(min-width: 60rem) 31vw, 46vw" /></div>
+                      <figcaption class="note cap">{photo(id).caption}</figcaption>
+                    </figure>
+                  </li>
+                ))}
+              </ul>
             ))}
-          </ul>
+          </div>
         </div>
       </section>
     ))
@@ -79,19 +84,37 @@ const sets: { id: string; title: string; intro: string; photos: PhotoId[] }[] = 
     }
   }
 
+  /* three even columns, balanced at build time, so no set ends in a hole */
   .set {
-    columns: 2;
-    column-gap: 0.9rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.9rem;
+    align-items: start;
   }
 
-  .set li {
-    break-inside: avoid;
-    margin-bottom: 1.25rem;
+  .set ul {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .set ul:last-child:not(:first-child) {
+    grid-column: 1 / -1;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   @media (min-width: 60rem) {
     .set {
-      columns: 3;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.25rem;
+    }
+
+    .set ul {
+      gap: 1.25rem;
+    }
+
+    .set ul:last-child:not(:first-child) {
+      grid-column: auto;
+      grid-template-columns: minmax(0, 1fr);
     }
   }
 </style>

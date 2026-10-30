@@ -36,7 +36,7 @@ const d = post.data;
 const svc = getService(d.service);
 const path = postPath(post);
 const name = plain(d.title).replace(/\.$/, '');
-const head = await heroImage(d.photo, { sizes: '(min-width: 60rem) 48vw, 1px' });
+const head = await heroImage(d.photo, { sizes: '(min-width: 60rem) 70vw, 1px' });
 const more = [...others.filter((p) => p.data.service === d.service), ...others.filter((p) => p.data.service !== d.service)].slice(0, 3);
 
 const schema = [

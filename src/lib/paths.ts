@@ -18,3 +18,14 @@ export function absolute(path: string, site: URL | undefined): string {
 }
 
 export const isExternal = (path: string) => /^https?:/.test(path);
+
+/** Split items into columns of even height, shortest column first. */
+export function balance<T>(items: T[], height: (item: T) => number, columns: number): T[][] {
+  const cols = Array.from({ length: columns }, () => ({ h: 0, list: [] as T[] }));
+  for (const item of [...items].sort((a, b) => height(b) - height(a))) {
+    const c = cols.reduce((a, b) => (b.h < a.h ? b : a));
+    c.list.push(item);
+    c.h += height(item);
+  }
+  return cols.map((c) => c.list);
+}

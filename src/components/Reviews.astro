@@ -4,6 +4,7 @@
 import Stars from './Stars.astro';
 import type { Review } from '../data/reviews';
 import { LINKS } from '../data/site';
+import { balance } from '../lib/paths';
 
 interface Props {
   reviews: Review[];
@@ -13,15 +14,40 @@ interface Props {
   full?: boolean;
 }
 const { reviews, more = true, full = false } = Astro.props;
+const size = (r: Review) => r.text.length + (r.more?.length ?? 0) + 180;
+const columns = full ? balance(reviews, size, 3) : [];
+const body = (r: Review) => `${r.text}${full && r.more ? r.more : r.excerpt ? ' …' : ''}`;
 ---
 
-<ul class:list={['rv', full && 'rv--full']} aria-label="Customer reviews">
+{
+  full && (
+    <div class="rv-cols" aria-label="Customer reviews" role="group">
+      {columns.map((col) => (
+        <ul>
+          {col.map((r) => (
+            <li class="rv__card card pad">
+              <Stars />
+              <blockquote class="rv__text">
+                <p>{body(r)}</p>
+              </blockquote>
+              <p class="rv__who">
+                <strong>{r.name}</strong>
+                <span class="fine muted">{r.job}</span>
+              </p>
+            </li>
+          ))}
+        </ul>
+      ))}
+    </div>
+  )
+}
+<ul class:list={['rv', full && 'rv--hide']} aria-label="Customer reviews">
   {
-    reviews.map((r) => (
+    !full && reviews.map((r) => (
       <li class="rv__card card pad">
         <Stars />
         <blockquote class="rv__text">
-          <p>{r.text}{full && r.more ? r.more : r.excerpt ? ' …' : ''}</p>
+          <p>{body(r)}</p>
         </blockquote>
         <p class="rv__who">
           <strong>{r.name}</strong>
@@ -52,25 +78,24 @@ const { reviews, more = true, full = false } = Astro.props;
 </script>
 
 <style>
-  @media (min-width: 40rem) {
-    .rv.rv--full {
-      display: block;
-      columns: 2;
-      column-gap: 1rem;
-      margin-inline: 0;
-      padding-inline: 0;
-      overflow: visible;
-    }
+  .rv--hide {
+    display: none !important;
+  }
 
-    .rv--full .rv__card {
-      break-inside: avoid;
-      margin-bottom: 1rem;
-    }
+  .rv-cols {
+    display: grid;
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .rv-cols ul {
+    display: grid;
+    gap: 1rem;
   }
 
   @media (min-width: 62rem) {
-    .rv.rv--full {
-      columns: 3;
+    .rv-cols {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
     }
   }
 
