@@ -111,7 +111,7 @@
       "plane": "paper",
       "eyebrow": "After the grind",
       "title": "What goes where the stump was.",
-      "intro": "A ground stump leaves soil full of wood, and wood changes how that soil holds water and feeds plants. Here is what to do about it, depending on what comes next.",
+      "intro": "A ground stump leaves soil full of wood, and wood changes how that soil holds water and feeds plants. What to do about it depends on what comes next.",
       "columns": 3,
       "items": [
         {
@@ -150,7 +150,7 @@
       "title": "In a fenced yard, **the gate matters.**",
       "body": [
         "St. Clair Shores is home base for HD Landscape, and it is a tightly built city. General one family zoning here allows lots as small as 6,000 square feet, so getting a grinder to a backyard stump is a real question here. Before we quote it, we want to know how the machine gets in.",
-        "The easiest way to start is a text with two photos: the stump and the narrowest spot on the way to it. Here is what helps Jake give you a straight answer."
+        "The easiest way to start is a text with two photos: the stump and the narrowest spot on the way to it. These help Jake give you a straight answer."
       ],
       "checks": [
         "How wide the stump is at its widest point",
@@ -232,7 +232,7 @@
   },
   "summary": {
     "title": "The grind is the easy part. The spot is the job.",
-    "intro": "A stump job is about the yard you get back. Here is what goes into it, and every piece shows up on your estimate before we start.",
+    "intro": "A stump job is about the yard you get back. Every piece of it shows up on your estimate before we start.",
     "items": [
       {
         "name": "Grinding",

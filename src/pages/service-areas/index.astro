@@ -2,6 +2,7 @@
 /* Every town, by area, with the Pointes first: that is where the business lives. */
 import Base from '../../layouts/Base.astro';
 import PageHead from '../../components/PageHead.astro';
+import Edge from '../../components/Edge.astro';
 import Head from '../../components/Head.astro';
 import Faq from '../../components/Faq.astro';
 import QuoteBand from '../../components/QuoteBand.astro';
@@ -36,11 +37,12 @@ const faq = [
 >
   <PageHead image={head} eyebrow="Service areas" title="From the lake to **the Woodward corridor.**" lede={`Based in ${BRAND.city}. We work across the Grosse Pointes, Macomb County and Oakland County.`} crumbs={[{ name: 'Service areas', path }]} next="ink" />
 
-  <section class="band ink map" aria-labelledby="map-h">
+  <section class="band ink map has-edge" aria-labelledby="map-h">
     <div class="wrap">
       <h2 class="sr" id="map-h">Map of our service area</h2>
       <AreaMap />
     </div>
+    <Edge to="paper" />
   </section>
 
   <section class="band" aria-labelledby="areas-h">
@@ -69,7 +71,7 @@ const faq = [
     </div>
   </section>
 
-  <QuoteBand />
+  <QuoteBand from="white" />
 </Base>
 
 <style>

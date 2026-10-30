@@ -4,6 +4,7 @@
    viewer, so these are composed bands of captioned photos. Old address kept. */
 import Base from '../layouts/Base.astro';
 import PageHead from '../components/PageHead.astro';
+import Edge from '../components/Edge.astro';
 import Head from '../components/Head.astro';
 import Photo from '../components/Photo.astro';
 import BeforeAfter from '../components/BeforeAfter.astro';
@@ -33,7 +34,7 @@ const sets: { id: string; title: string; intro: string; photos: PhotoId[] }[] = 
 >
   <PageHead image={head} eyebrow="Our work" title="Real jobs, **real phone photos.**" lede="Every picture on this page is one of our jobs. No stock photos and nothing staged." crumbs={[{ name: 'Our work', path }]} next="ink" />
 
-  <section class="band ink" aria-labelledby="ba-h">
+  <section class="band ink has-edge" aria-labelledby="ba-h">
     <div class="wrap">
       <Head id="ba-h" eyebrow="Before and after" title="Drag the line **on any of these.**" />
       <div class="ba-row">
@@ -42,6 +43,7 @@ const sets: { id: string; title: string; intro: string; photos: PhotoId[] }[] = 
         <BeforeAfter pair="ba-side" />
       </div>
     </div>
+    <Edge to="paper" />
   </section>
 
   {

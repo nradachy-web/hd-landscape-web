@@ -6,7 +6,7 @@
     "description": "Compare scope before price. What an itemized landscaping estimate should spell out, the red flags, and what to ask before you sign in Michigan."
   },
   "title": "How to compare landscaping estimates **without getting burned.**",
-  "lede": "Compare what each estimate includes before you compare the number at the bottom. Two estimates can look close and describe very different jobs. Here is what to look for, line by line, and what to ask before you sign anything.",
+  "lede": "Compare what each estimate includes before you compare the number at the bottom. Two estimates can look close and describe very different jobs. Go through them line by line, and ask these questions before you sign anything.",
   "photo": "tudor-planting",
   "short": [
     "**Compare scope first and price last.** The bottom number means little until you know what is inside it.",
@@ -26,7 +26,7 @@
     {
       "h": "What a good estimate spells out",
       "p": [
-        "A good estimate reads like a plan. Each part of the job gets its own line, so you can see what you are paying for. Here is what to look for on each one."
+        "A good estimate reads like a plan. Each part of the job gets its own line, so you can see what you are paying for. Check each of these."
       ],
       "table": {
         "head": ["Line", "What to look for", "Why it matters"],

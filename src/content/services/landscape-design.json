@@ -39,7 +39,7 @@
       "plane": "white",
       "eyebrow": "What we look at",
       "title": "The yard decides most of the plan.",
-      "intro": "A good design starts with what is already there. Here is what we read on the walk, and what each one changes.",
+      "intro": "A good design starts with what is already there. We read these on the walk, and each one changes the plan.",
       "columns": 3,
       "items": [
         {
@@ -291,7 +291,7 @@
   },
   "summary": {
     "title": "A design settles the layout, the plants and the water.",
-    "intro": "A design is the plan for the whole job, made by the company that builds it. Here is what it works out, and the work it calls for is itemized on your estimate.",
+    "intro": "A design is the plan for the whole job, made by the company that builds it. It works out the pieces below, and the work they call for is itemized on your estimate.",
     "items": [
       {
         "name": "Property walk",
