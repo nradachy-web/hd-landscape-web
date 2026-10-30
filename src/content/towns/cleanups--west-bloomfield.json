@@ -32,7 +32,7 @@
     ],
     "facts": [
       { "label": "Seasons", "value": "Spring and late fall" },
-      { "label": "2026 curb pickup", "value": "April 6 to December 11" },
+      { "label": "Curb pickup", "value": "Usually early April into December" },
       { "label": "Estimate", "value": "Free and itemized" },
       { "label": "Also available", "value": "Mulch and weeding" }
     ]
@@ -42,7 +42,7 @@
     { "q": "Do you do yard cleanups in West Bloomfield?", "a": "Yes. HD Landscape does spring and fall yard cleanups in West Bloomfield, MI, from leaves and sticks to a full bed cleanout. We pull weeds, take out dead or tired plants and tidy what stays, and bigger jobs may add [weeding](/weeding/) or [plant removal](/plant-removal/) as their own lines on the estimate." },
     { "q": "When should I schedule a fall cleanup?", "a": "Later than you might think if you have oaks, since they can hold their leaves well after the maples finish. On a heavily wooded West Bloomfield lot, a late visit or a pair of visits usually works better than one early one. Tell us what trees you have and we will suggest timing." },
     { "q": "Can I dump leaves in the wetland behind my house?", "a": "No. West Bloomfield Township requires a use permit to deposit material in a wetland or watercourse, and the 25 foot setback around them is protected too. Township code does let a landscaper take yard clippings away for a residential customer, so your estimate can cover that instead." },
-    { "q": "Will the township pick up my yard waste in West Bloomfield?", "a": "Yes, curbside and weekly during the collection season, if it is set out correctly. For 2026 the township's hauler lists April 6 through December 11. Bundle brush no longer than four feet, with branches no thicker than two inches, and put the rest in containers or paper bags marked as yard clippings. Stumps and roots are not collected. Check current dates with the township." },
+    { "q": "Will the township pick up my yard waste in West Bloomfield?", "a": "Yes, curbside and weekly during the collection season, if it is set out correctly. The township sets the season each year, and it usually runs from early April into December. Bundle brush no longer than four feet, with branches no thicker than two inches, and put the rest in containers or paper bags marked as yard clippings. Stumps and roots are not collected. Check current dates with the township." },
     { "q": "Can a cleanup include the area near the water?", "a": "Up to a point. We clear lawn and beds near the water, but the township restricts removing vegetation or soil within 25 feet of a lake, pond or wetland. Natural growth there stays put unless you have approval, and we will talk through where that line falls on your lot." }
   ],
   "reviews": ["nancy-g", "renee-g", "marie-b"]

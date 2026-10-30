@@ -7,7 +7,7 @@
   "hero": {
     "kicker": "Landscaping in Bloomfield Hills, MI",
     "title": "A wooded lot, **kept on purpose.**",
-    "lede": "On a Bloomfield Hills lot of an acre or two, the trees, the slope and the city's rules all get a vote, and HD Landscape plans, plants and looks after these yards with all three in mind from the first walk on.",
+    "lede": "Seen from the road, a Bloomfield Hills yard of an acre or two reads all at once, which is why HD Landscape plans the lawn, beds and tree line as one, then plants and looks after the lot around its trees, its slope and the city's rules.",
     "chips": ["Planned around your trees", "Long hedges and bed lines", "Free itemized estimates"],
     "photo": "dusk-grand"
   },
@@ -16,14 +16,14 @@
     "title": "The yard here gets seen from a long way off.",
     "body": [
       "Bloomfield Hills is a small city, about five square miles, and most of it is single family homes on lots the zoning keeps large. Front setbacks in the standard districts run from 40 to 65 feet, so a house often sits well back from the road and the whole front yard reads at once. The lawn, the beds and the tree line have to look like one plan.",
-      "The city's own history describes rolling hills and dense woodland that drew estate builders after the farms and orchards, and the woods never really left. Cranbrook's campus covers more than 300 acres of hills, woods and gardens, and many yards here work with the same shade, slope and old trees at a smaller scale. The master plan says homes here hold high standards for architecture and landscaping. People notice."
+      "Rolling hills and dense woodland drew the estate builders after the farms and orchards, and the woods never really left. Cranbrook's campus covers more than 300 acres of hills, woods and gardens, and many yards here work with the same shade, slope and old trees at a smaller scale. The homes set a high standard for architecture and landscaping. People notice."
     ],
     "points": [
       { "title": "Trees the city watches", "body": "The city says every tree removal gets reviewed by its building department before work starts. We lay out beds and grading around the trees you have, and we flag early if one in the way means a call to the city." },
-      { "title": "Deer at the woods edge", "body": "The city's master plan names deer overpopulation and the damage it does to landscapes. We choose plants with that in mind and tell you honestly which ones will still need protecting." },
-      { "title": "Rolling ground, wet pockets", "body": "The master plan says the hills complicate stormwater, and wetlands turn up throughout the city. Most drainage courses sit on private land and are the owner's to look after, so a plan here should settle the water first." },
-      { "title": "Soil that changes across a lot", "body": "USDA soil maps show mostly well drained sandy loams on the rises here, with very poorly drained muck in some low spots. One property can hold both, and the plant list has to follow." },
-      { "title": "Homes from every decade", "body": "The 2000 census figures in the master plan put more than half the homes before 1970, and the plan expected teardowns and rebuilds to keep going. A 60 year old foundation planting and a bare new lot need very different plans." }
+      { "title": "Deer at the woods edge", "body": "There are too many deer here and not enough predators, and the landscapes pay for it. We choose plants with that in mind and tell you honestly which ones will still need protecting." },
+      { "title": "Rolling ground, wet pockets", "body": "These hills make stormwater tricky, and wetlands turn up throughout the city. Most drainage courses sit on private land and are the owner's to look after, so a plan here should settle the water first." },
+      { "title": "Soil that changes across a lot", "body": "The rises here are mostly well drained sandy loam, and some low spots are muck that stays wet. One property can hold both, and the plant list has to follow." },
+      { "title": "Homes from every decade", "body": "The 2000 census put more than half the homes before 1970, and the master plan expected teardowns and rebuilds to keep going. A 60 year old foundation planting and a bare new lot need very different plans." }
     ],
     "photo": "stone-manor"
   },
@@ -44,7 +44,7 @@
     { "q": "Do you work in Bloomfield Hills, MI?", "a": "Yes. HD Landscape, a landscaper based in St. Clair Shores, works in Bloomfield Hills on [landscape design](/landscape-design-bloomfield-hills-mi/), [renovations](/landscape-renovation-bloomfield-hills-mi/), [hedge trimming](/hedge-trimming-bloomfield-hills-mi/), [monthly maintenance](/landscape-maintenance-bloomfield-hills-mi/), [pressure washing](/pressure-washing-bloomfield-hills-mi/) and [stump grinding](/stump-grinding-bloomfield-hills-mi/), along with our other services." },
     { "q": "Is Bloomfield Hills the same as Bloomfield Township?", "a": "No. The City of Bloomfield Hills is its own city of about five square miles, and [Bloomfield Township](/service-areas/bloomfield-township/) surrounds it on most sides. Some township addresses also say Bloomfield Hills on the mail, so your tax bill is the surest way to tell. It matters because the two have different tree rules." },
     { "q": "Does Bloomfield Hills require a permit to take down a tree?", "a": "Start with the city before any cutting. It says every tree removal needs a plan review by its building department, and a permit is required for regulated trees unless an exemption applies. Those rules can change, so the department's answer is the one that counts. We take down [smaller trees](/tree-trimming-and-removal/), and a tree company handles the big ones." },
-    { "q": "What plants do deer leave alone?", "a": "No plant is fully deer proof, and the Bloomfield Hills master plan calls out deer damage by name. Michigan State University Extension lists yew and arborvitae as winter favorites, and hellebores, alliums, catmint and ostrich fern among the plants deer tend to pass up. We build plant lists around that and tell you what will still get chewed." },
+    { "q": "What plants do deer leave alone?", "a": "No plant is fully deer proof, and Bloomfield Hills has the deer to prove it. Yew and arborvitae are winter favorites. Hellebores, alliums, catmint and ostrich fern tend to get passed up. We build plant lists around that and tell you what will still get chewed." },
     { "q": "Who looks after the creek or ditch that crosses my yard in Bloomfield Hills?", "a": "Usually you do. The city's master plan says only a few watercourses are under the county drain commissioner, and most drainage courses sit on private property as the adjacent owner's responsibility. Near one, a 25 foot natural features setback can apply, so call the city before digging or filling along it. We can walk it with you and talk through what the water is doing." }
   ],
   "reviews": ["gina-d", "stephen-d", "marie-b"],

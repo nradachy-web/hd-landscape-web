@@ -3,12 +3,12 @@
   "city": "troy",
   "meta": {
     "title": "Monthly Landscape Maintenance in Troy, MI | HD Landscape",
-    "description": "Monthly landscape maintenance in Troy, MI from HD Landscape: beds weeded, shrubs shaped and edges tidied, with what a visit covers set on your estimate."
+    "description": "Monthly landscape maintenance in Troy, MI from HD Landscape: beds weeded, shrubs shaped and edges tidied at homes and commercial sites."
   },
   "hero": {
     "kicker": "Monthly landscape maintenance in Troy, MI",
     "title": "More bed line than **a weekend can cover.**",
-    "lede": "A Troy lot can carry a lot of beds, shrubs and edge. HD Landscape comes monthly to weed, shape shrubs and clean up edges, so the yard never gets far enough behind to need a rescue. Your estimate sets what each visit covers.",
+    "lede": "A Troy lot can carry a lot of beds, shrubs and edge. HD Landscape comes monthly to weed, shape shrubs and clean up edges, so the yard never gets far enough behind to need a rescue.",
     "chips": ["Beds weeded", "Shrubs kept off the walks", "Homes and commercial sites"],
     "photo": "pergola-deck"
   },
@@ -31,18 +31,18 @@
     ],
     "facts": [
       { "label": "Visits", "value": "Once a month in season" },
-      { "label": "Covers", "value": "Set on your estimate: beds, weeds, shrubs, edges, tidying" },
+      { "label": "Covers", "value": "Beds, weeds, shrubs, edges and tidying, set on your estimate" },
       { "label": "Not included", "value": "Sprinklers and aeration" },
       { "label": "Estimate", "value": "Free and itemized" }
     ]
   },
   "photo": "condo-evergreens",
   "faq": [
-    { "q": "Do you offer monthly landscape maintenance in Troy, MI?", "a": "Yes. HD Landscape offers monthly landscape maintenance in Troy, MI, for homes and commercial properties. What a visit covers is set on your estimate, and beds, weeding, shrub shaping, edging and tidying are the kind of work it can include." },
+    { "q": "Do you offer monthly landscape maintenance in Troy, MI?", "a": "Yes. HD Landscape offers monthly landscape maintenance in Troy, MI, for homes and commercial properties. Most of the work is weeding, shaping shrubs, edging and tidying, and monthly is often enough to keep long bed lines under control." },
     { "q": "How tall can weeds get in Troy before the city steps in?", "a": "The city's rule is 8 inches for lawn grass and weeds from May 1 to October 31, with ornamental plants and grasses exempt. Weeds in a bed are easy to lose track of in a busy summer, and a monthly visit keeps them from getting that far. Rules can change, so call the city if you have a notice." },
-    { "q": "Will monthly visits keep plants off the sidewalk in Troy?", "a": "They can. The city asks owners to keep branches and plants back from the sidewalk, up to 8 feet above the walk, and it reminds people about the walk behind the house too. Shaping shrubs is one of the things a visit can cover, so point out the walks you want kept clear and it goes on your estimate." },
+    { "q": "Will monthly visits keep plants off the sidewalk in Troy?", "a": "They can. The city asks owners to keep branches and plants back from the sidewalk, up to 8 feet above the walk, and it reminds people about the walk behind the house too. Shaping shrubs is part of the regular work, so point out the walks you want kept clear when Jake comes out." },
     { "q": "Can you maintain an office or association entrance?", "a": "Yes. We work on commercial properties as well as homes, and with all the offices and associations in Troy, the same monthly visit suits entry beds, clipped shrubs and common areas. Tell us about the site, and Jake will walk it and write up an itemized estimate. Sprinklers are not part of what we do, so those stay with your irrigation company." },
-    { "q": "Do monthly visits cover fall leaves?", "a": "Visits can tidy leaves, sticks and litter out of the beds and off the walks. A yard full of leaves is a bigger job, and that is what a [fall cleanup](/spring-and-fall-cleanups/) is for. Troy does not allow leaves piled in the street, and curbside pickup runs into December with leaves in paper bags or stickered cans only. Jake can help you choose between a last visit and a fall cleanup." }
+    { "q": "Do monthly visits cover fall leaves?", "a": "Visits tidy leaves, sticks and litter out of the beds and off the walks. A yard full of leaves is a bigger job, and that is what a [fall cleanup](/spring-and-fall-cleanups/) is for. Troy does not allow leaves piled in the street, and curbside pickup runs into December with leaves in paper bags or stickered cans only. Jake can help you choose between a last visit and a fall cleanup." }
   ],
   "reviews": ["marie-b", "mark-r", "nancy-g"]
 }

@@ -12,30 +12,30 @@
     "chips": [
       "Low block walls",
       "Raised bed borders",
-      "Steep slope rules explained"
+      "Level beds on sloped lots"
     ],
     "photo": "ranch-stone-bed"
   },
   "local": {
     "eyebrow": "Walls in Rochester Hills",
     "title": "A low wall helps here, if the slope allows it.",
-    "intro": "City code sorts steep ground by how sharp it is and how far it drops, from moderate slopes at 20 percent up to bluffs at 40 percent and more. Plenty of banks fall outside all of that. The first job is working out which kind you have, because some come with rules.",
+    "intro": "Rochester Hills lives up to its name, and plenty of yards here run out of flat ground before they run out of lot. A low wall can win some of that ground back. Many banks never touch the city's steep slope rules, but the sharp ones and the ones near a creek can, so the first thing we look at is which kind you have.",
     "points": [
       {
         "title": "Low walls that make flat ground",
         "body": "A short wall at the bottom of a bank can give you a level bed or a wider lawn above it. Low block walls are what we build. Walls over about 4 feet, or walls holding up a driveway, usually need an engineer first."
       },
       {
-        "title": "Regulated steep slopes",
-        "body": "City code covers slopes of 25 percent and steeper with 10 feet or more of drop, and slopes from 20 percent within 200 feet of the Clinton River, Paint Creek, Sargent Creek, Stony Creek and their tributaries. New walls or grading there can take a Steep Slope Permit, so confirm yours with the city."
+        "title": "The banks with rules attached",
+        "body": "City code covers slopes of 25 percent and steeper, a foot of rise in every 4 feet, with 10 feet or more of drop. Within 200 feet of the Clinton River, Paint Creek, Sargent Creek, Stony Creek and their tributaries, it starts at 20 percent. A new wall or grading on ground like that can take a Steep Slope Permit, so confirm yours with the city."
       },
       {
         "title": "Room at the top",
-        "body": "The code also measures a setback from the top of a regulated slope: 15, 25 or 50 feet, by slope class. So a wall planned near the crest can be caught by the rule even if it looks like it sits on the flat part. Ask the city about the top of the bank as well as the bottom."
+        "body": "A wall near the top of a bank can get caught too. On a regulated slope the setback runs 15, 25 or 50 feet back from the crest, depending on how steep it is, so the flat part may not be as free as it looks. Ask the city about the top of the bank as well as the bottom."
       },
       {
         "title": "One foot up, three feet over",
-        "body": "The city's guidebook for accessory structures caps graded slopes at 1 foot of rise for every 3 feet of run, and says steeper grades call for retaining walls with construction details. It is written for sheds and garages, but a bank steeper than that may need a wall for more than looks."
+        "body": "The city's guidebook for sheds and garages caps a graded slope at 1 foot of rise for every 3 feet of run, and says anything steeper calls for a retaining wall with construction details. It is not written for every yard, but it makes a fair test: a bank steeper than that may need a wall for more than looks."
       },
       {
         "title": "Pipes the city does not own",
@@ -46,8 +46,8 @@
   "logistics": {
     "title": "A wall starts with the base you never see.",
     "body": [
-      "The first look is at the slope itself: how high it is, what it holds and which way the rain runs. If the wall would sit near a creek or on a steep bank, Jake will point you to the city before anything gets dug.",
-      "A wall that lasts goes up in order: a trench, a firm packed base, a level first row, then block rising with gravel behind it and soil packed in along the way. Most of what decides how long it stays straight ends up buried."
+      "Jake starts with the slope itself: how high it is, what it holds and which way the rain runs. If the wall would sit near a creek or on a steep bank, he will point you to the city before anything gets dug.",
+      "A wall that lasts goes up in order: a trench, a firm packed base, a level first row, then block rising with gravel behind it and soil packed in along the way. On a slope the rain runs straight at the back of the wall, so that gravel matters as much as the block. Most of what decides how long it stays straight ends up buried."
     ],
     "facts": [
       {
@@ -72,23 +72,23 @@
   "faq": [
     {
       "q": "Do you build retaining walls in Rochester Hills?",
-      "a": "Yes. HD Landscape builds low block retaining walls and raised bed borders in Rochester Hills. Walls over about 4 feet usually need an engineer, and if a slope needs more than a low wall, [yard grading](/yard-grading/) or a series of shorter walls may be the better answer."
+      "a": "Yes. HD Landscape builds low block retaining walls and raised bed borders in Rochester Hills, one of the towns we work in most. Walls over about 4 feet usually need an engineer, and if a slope needs more than a low wall, [yard grading](/yard-grading/) or a series of shorter walls may be the better answer."
+    },
+    {
+      "q": "Can a low wall give me a flat spot for a patio set?",
+      "a": "Often, yes, if the bank is a gentle one. A low retaining wall near the bottom lets the ground behind it fill in level, which can open up room for a table and chairs. The steeper the bank, the less flat a low wall buys you, so measure the set with the chairs pulled out and show Jake the spot. The flat ground can finish in [sod](/sod-installation-rochester-hills-mi/) or [stone](/rock-and-stone-installation/)."
     },
     {
       "q": "Does a retaining wall need a permit in Rochester Hills?",
-      "a": "That turns on the height, what the wall holds up and where it sits. New work on a regulated steep slope can take a Steep Slope Permit, and taller walls or walls carrying extra load are where permits and engineering usually come in. Rules change, so call the city's Building Department before the first block goes in."
+      "a": "That turns on the height, what the wall holds up and where it sits. New work on a regulated steep slope can take a Steep Slope Permit, and taller walls or walls carrying extra load are where permits and engineering usually come in. Rules change, so call the city's Building Department before the first block goes in. We will tell you what we see on the walk, and the city has the final word."
     },
     {
       "q": "Does fixing an old retaining wall on a slope take a permit in Rochester Hills?",
-      "a": "A repair usually does not need a Steep Slope Permit. The city's steep slope rules allow maintenance and repair of existing retaining walls without one, while a new wall is treated differently. If a wall has failed and needs rebuilding, ask the city which side of that line it falls on. Jake can look at it and give you his advice."
-    },
-    {
-      "q": "How do I know if my slope is regulated in Rochester Hills?",
-      "a": "It comes down to steepness, height and where the slope sits. Very steep slopes and bluffs are regulated anywhere in the city, and moderate ones only within 200 feet of the named creeks and their tributaries. Moderate and very steep slopes of 5,000 square feet or less are exempt, and man made slopes can sometimes be waived. The city makes the final call."
+      "a": "A repair usually does not need a Steep Slope Permit. The steep slope rules allow upkeep and repair of an existing wall without one, but a new wall is treated differently. If yours has failed and needs rebuilding, ask the city which side of that line it falls on. Jake can look at it first and tell you what he sees."
     },
     {
       "q": "Can a retaining wall go near a creek in Rochester Hills?",
-      "a": "Sometimes, but expect a conversation with the city first. City code generally keeps a 25 foot setback from natural features, where filling, grading and moving materials are barred unless the city reduces it. Plans approved before January 17, 1990 may be treated differently."
+      "a": "Sometimes, but expect a conversation with the city first. There is generally a 25 foot setback from natural features, where filling, grading and moving materials are barred unless the city reduces it. If your yard runs down to a creek, find that line first, because it decides where a wall can go."
     }
   ],
   "reviews": [

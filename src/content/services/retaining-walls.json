@@ -23,7 +23,7 @@
       "title": "A good wall starts **below the lawn.**",
       "body": [
         "A retaining wall holds soil at one level so the ground beside it can sit at another. We build the low kind: block walls a few rows high that lift a bed off a flat lawn or keep soil off a walk.",
-        "Short walls like these are usually dry stacked, meaning the block sits without mortar, so a wall is only as straight as the base under it. Colorado State University Extension puts it plainly: a wall is only as good as its foundation. The trench, the gravel and the first row matter most, because every row above copies what that one does."
+        "Short walls like these are usually dry stacked, meaning the block sits without mortar, so a wall is only as straight as the base under it. The trench, the gravel and the first row matter most, because every row above copies what that one does."
       ],
       "checks": [
         "A level trench with a packed gravel base under the block",
@@ -107,7 +107,7 @@
         },
         {
           "title": "Clay that stays wet",
-          "body": "Most points on the USDA soil map of St. Clair Shores come back poorly drained, on heavy soil with slopes mostly 0 to 2 percent. That ground holds water around roots. University of Minnesota Extension lists a very wet area as one reason to build a raised bed. Lifting a bed gives plants soil you can control."
+          "body": "Soil maps of St. Clair Shores show mostly heavy, poorly drained ground with slopes of 0 to 2 percent. That ground holds water around roots, and a very wet spot is a good reason to build a raised bed. Lifting a bed gives plants soil you can control."
         },
         {
           "title": "A slope that washes out",
@@ -129,11 +129,11 @@
       "items": [
         {
           "title": "Water with no way out",
-          "body": "Colorado State University Extension says most retaining walls fail because of pressure from water and soil moisture building up behind them. Drainage gravel behind the block gives that water a way down and out."
+          "body": "Water trapped behind the block is what pushes most walls over. Drainage gravel gives that water a way down and out."
         },
         {
           "title": "A soft or uneven base",
-          "body": "Block set on loose soil settles unevenly. Colorado State University Extension says every retaining wall should sit on a sound, compacted base, so the gravel should be packed down before the first block goes on."
+          "body": "Block set on loose soil settles unevenly. A wall needs a sound, compacted base, so the gravel should be packed down before the first block goes on."
         },
         {
           "title": "Backfill dumped in at the end",
@@ -141,7 +141,7 @@
         },
         {
           "title": "A wall stacked too high",
-          "body": "Colorado State University Extension notes that many cities require an engineer's design for walls over four feet, and says to confirm it with yours. If a yard asks for more than a low block wall can give, you will hear it from us on the walk through."
+          "body": "Past about 4 feet, many cities want an engineer's design, so confirm the number with yours. If a yard asks for more than a low block wall can give, you will hear it from us on the walk through."
         }
       ]
     },
@@ -217,7 +217,7 @@
     },
     {
       "q": "Do plants in a raised bed need more water?",
-      "a": "Usually, yes. University of Minnesota Extension says raised beds dry out more quickly than in-ground gardens, and that the taller the bed, the more often it needs water. Jake will walk you through it, and we offer [plant watering](/plant-watering/) if you would rather hand it off."
+      "a": "Usually, yes. Raised beds dry out faster than beds in the ground, and the taller the bed, the more often it needs water. Jake will walk you through it, and we offer [plant watering](/plant-watering/) if you would rather hand it off."
     },
     {
       "q": "How long does a retaining wall take to build?",

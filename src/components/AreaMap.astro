@@ -17,7 +17,7 @@ const POS: Record<string, [number, number]> = {
   'chesterfield-township': [42.68, -82.838], 'new-baltimore': [42.681, -82.737],
 };
 /* the few that stay labeled on a phone */
-const PHONE = ['st-clair-shores', 'grosse-pointe', 'birmingham', 'troy', 'rochester-hills', 'new-baltimore'];
+const PHONE = ['st-clair-shores', 'grosse-pointe', 'birmingham', 'troy', 'new-baltimore'];
 const LABEL = ['st-clair-shores', 'grosse-pointe', 'birmingham', 'troy', 'rochester-hills', 'royal-oak', 'warren', 'sterling-heights', 'clinton-township', 'bloomfield-hills', 'west-bloomfield', 'shelby-township', 'new-baltimore', 'macomb-township', 'harrison-township'];
 
 const W = 960, H = 724;
@@ -44,7 +44,7 @@ const towns = CITIES.filter((c): c is City => c.state === 'MI' && !!POS[c.id]).m
     <path class="am__lake" d={lake} />
     <path class="am__river" d={river} />
     <path class="am__road" d={woodward} />
-    <text class="am__tag" x="808" y="430" text-anchor="start">Lake St. Clair</text>
+    <text class="am__tag" x="944" y="430" text-anchor="end">Lake St. Clair</text>
     <text class="am__tag am__tag--w" x="176" y="498" transform="rotate(-49 176 498)">Woodward Ave</text>
     {
       towns.map((t) => (
@@ -52,7 +52,7 @@ const towns = CITIES.filter((c): c is City => c.state === 'MI' && !!POS[c.id]).m
           <circle class="am__hit" cx={t.x} cy={t.y} r="20" />
           <circle class="am__glow" cx={t.x} cy={t.y} r="18" fill="url(#am-g)" />
           <circle class="am__dot" cx={t.x} cy={t.y} r="4" />
-          <text class:list={['am__n', !t.on && 'am__n--hover', !t.phone && 'am__n--wide']} text-anchor={t.end ? 'end' : undefined} x={t.end ? t.x - 12 : t.down ? t.x - 34 : t.x + 10} y={t.down ? t.y + 24 : t.y + 5}>{t.c.name}</text>
+          <text class:list={['am__n', !t.on && 'am__n--hover', !t.phone && 'am__n--wide']} text-anchor={t.end ? 'end' : undefined} x={t.end ? t.x - 12 : t.down ? t.x - 6 : t.x + 10} y={t.down ? t.y + 26 : t.y + 5}>{t.c.name}</text>
         </a>
       ))
     }

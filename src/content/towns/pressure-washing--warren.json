@@ -15,12 +15,12 @@
   "local": {
     "eyebrow": "Washing in Warren",
     "title": "In Warren, a wash starts with where the water goes.",
-    "intro": "The city's master plan divided Warren into equal map cells and found 99 percent of them mostly hard surface, and all of the city drains to the Red Run. So the age of the paving matters here, and so does where the rinse water will end up.",
+    "intro": "Warren is a city of roofs, drives and walks. The master plan found 99 percent of its map cells mostly hard surface, so a rinse has little open ground to soak into. It heads for the nearest drain, and the whole city drains to the Red Run. That makes where the water goes as much a part of the job as what comes off the walk.",
     "points": [
-      { "title": "Everything runs to the Red Run", "body": "The master plan puts the whole city in the Red Run subwatershed, and storm drains lead straight to local water. That makes plain water the place to start, and it means working out where the rinse will run ahead of time." },
+      { "title": "Everything runs to the Red Run", "body": "Storm drains here lead straight to local water, and all of it reaches the Red Run. So plain water is the place to start, and the rinse needs a route worked out ahead of time." },
       { "title": "1960s concrete, newer pavers", "body": "The median home here dates to 1965, so many walks and patios are likely old poured concrete, sometimes next to pavers added later. They clean differently. Concrete wants steady, even passes. Pavers need the spray kept from running down the joints." },
       { "title": "Tight lots near the south end", "body": "On the smaller lots along the Detroit border, a walk can run right up against a neighbor's drive. The surface should be cleared first and the spray aimed so the grime does not land on the other side of the line." },
-      { "title": "Green usually means a wet spot", "body": "The county calls this area one of the most lacking in tree canopy in southeast Michigan, so a walk that goes green here may not be a shade problem. A downspout, a north wall or a low spot can keep it wet just as well. Find what is keeping it damp, because a wash alone will not stop it coming back." }
+      { "title": "Green usually means a wet spot", "body": "Warren does not have much tree canopy, so a walk that goes green here may not be a shade problem. A downspout, a north wall or a low spot can keep it wet just as well. Find what is keeping it damp, because a wash alone will not stop it coming back." }
     ]
   },
   "logistics": {
@@ -39,9 +39,9 @@
   "photo": "paver-walk",
   "faq": [
     { "q": "Do you do pressure washing in Warren?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in Warren, and it is a city we work in often. For a driveway or another surface, text a photo to [(586) 718-8762](tel:+15867188762) and Jake can say whether it is one for us." },
-    { "q": "Where does the rinse water go in Warren?", "a": "Usually down the walk or drive to the street, then into a catch basin. The flyer the city posts from the Clinton River Watershed Council says storm drains lead directly to local water bodies, and it lists soap, cleaning products and soil among the things to keep out. From there it is the Red Run, which is why the slope matters before any water comes out of the wand." },
+    { "q": "Where does the rinse water go in Warren?", "a": "Usually down the walk or drive to the street, then into a catch basin and on to the Red Run. The city's storm drain flyer says to keep soap, cleaning products and soil out of those drains, which is why the slope matters before any water comes out of the wand." },
     { "q": "I live on a gravel road in Warren. Does that change anything?", "a": "A little. Your runoff likely heads for the ditch out front, not a catch basin, and the city asks homeowners on gravel roads to keep those ditches clear of leaves and debris. So loose debris should come off the surface first, and the rinse should be aimed with the ditch in mind." },
-    { "q": "Is spring or fall better for pressure washing?", "a": "Either works, for different reasons. Spring clears the salt and grit winter left, and Warren's winter guide points out that deicers end up in the street drains. Fall takes care of leaf stains, as long as the leaves go in the compost cart or paper bags and not the gutter, which a city ordinance prohibits. Either way, a wash belongs on a day safely above freezing." }
+    { "q": "Is spring or fall better for pressure washing?", "a": "Either works, for different reasons. Spring clears the salt and grit winter left, and since deicers wash into the street drains here, the less you spread the better. Fall takes care of leaf stains, as long as the leaves go in the compost cart or paper bags and not the gutter, which a city ordinance prohibits. Either way, a wash belongs on a day safely above freezing." }
   ],
   "reviews": ["mark-r", "marie-b", "anne-j"]
 }

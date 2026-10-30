@@ -9,7 +9,7 @@
     "kicker": "Monthly landscape maintenance in Birmingham, MI",
     "title": "A yard **kept, not rescued.**",
     "lede": "A Birmingham yard rarely falls apart all at once. It slips a little each month. A monthly visit from HD Landscape keeps the beds, hedges and edges right, and puts someone who knows plants in your yard often enough to catch trouble early.",
-    "chips": ["Beds, hedges and edges", "Visit set on your estimate", "Problems caught early"],
+    "chips": ["Beds, hedges and edges", "Monthly through the season", "Problems caught early"],
     "photo": "stone-manor"
   },
   "local": {
@@ -26,7 +26,7 @@
   "logistics": {
     "title": "Agree on the list once, then it just happens.",
     "body": [
-      "What a visit covers is set on your estimate, after Jake has seen the yard. Beds, weeding, shaping shrubs, edging and tidying are the kind of work that goes on that list, and the estimate is itemized, so you know what each month is paying for.",
+      "What a visit covers is set on your estimate, after Jake has seen the yard. Most months that means weeding, shaping shrubs, edging and tidying, and every line is itemized, so you know what each month is paying for.",
       "Visits keep a steady monthly rhythm, and [spring and fall cleanups](/yard-cleanup-birmingham-mi/) can bookend them. Street parking and narrow drives are part of life here, so the truck stays out of the way and the walk stays clear.",
       "If something bigger turns up, like a failing shrub or a hedge that has outgrown its spot, Jake tells you what he saw and what he would do. There is no pressure. You decide."
     ],
@@ -39,9 +39,9 @@
   },
   "photo": "flagstone-hydrangea",
   "faq": [
-    { "q": "Do you do monthly landscape maintenance in Birmingham?", "a": "Yes. HD Landscape does monthly landscape maintenance in Birmingham, MI. What a visit covers is set on your estimate, and it can include beds, weeding, shaping shrubs, edging and tidying." },
+    { "q": "Do you do monthly landscape maintenance in Birmingham?", "a": "Yes. HD Landscape does monthly landscape maintenance in Birmingham, MI: weeding, shaping shrubs, edging and tidying through the growing season, with someone in the beds often enough to catch trouble while it is small." },
     { "q": "Does Birmingham have rules about weedy beds?", "a": "Yes. The zoning code says landscaped areas have to stay free of refuse and debris, and plant materials have to stay weed free, healthy and free of disease and insects. That part of the code applies to all property in the city. A steady monthly visit is the easy way to stay well clear of it." },
-    { "q": "Can you start in the middle of the season?", "a": "Yes. If the beds have gotten away from you, expect a catch up visit first. In Birmingham that is also the time to pull anything on the city's prohibited list, like buckthorn or bittersweet, while it is still small. After that, the monthly rhythm keeps the beds from getting there again." },
+    { "q": "Can you start in the middle of the season?", "a": "Yes. If the beds have gotten away from you, expect a catch-up visit first. In Birmingham that is also the time to pull anything on the city's prohibited list, like buckthorn or bittersweet, while it is still small. After that, the monthly rhythm keeps the beds from getting there again." },
     { "q": "Can you watch my boxwoods for box tree moth?", "a": "We look while we work, and we tell you if we see caterpillars or fresh damage. Birmingham's advice is to catch it early, because a boxwood can go downhill fast. Seeing the plants every month is the simplest way to do that." }
   ],
   "reviews": ["marie-b", "gina-d", "nancy-g"]
