@@ -1,0 +1,183 @@
+{
+  "service": "sod-installation",
+  "meta": {
+    "title": "Sod Installation in St. Clair Shores, MI | HD Landscape",
+    "description": "HD Landscape strips the old lawn, grades the ground and lays sod in tight seams. Based in St. Clair Shores, serving Metro Detroit. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Sod installation in St. Clair Shores, MI and across Metro Detroit",
+    "title": "A new lawn, **from the dirt up.**",
+    "lede": "HD Landscape takes the old grass out, grades the ground and lays fresh sod in tight seams. Sod is one of the jobs we do most, in St. Clair Shores and well beyond. Many lawns are finished in a day, depending on the grade.",
+    "chips": [
+      "Old lawn removed",
+      "Ground graded first",
+      "Clean edges at every bed"
+    ],
+    "photo": "sod-backyard"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "The short version",
+      "title": "Sod is only as good as **the ground under it.**",
+      "body": [
+        "Sod is grass grown on a farm, cut in strips with its roots and soil attached, and laid over your yard like carpet. You get a finished lawn the day we leave instead of waiting a season for seed to fill in.",
+        "The difference between a lawn that looks great for a month and one that looks great for years is what happens before the first roll comes off the pallet. Old grass and weeds have to come out, low spots have to be filled, and the grade has to carry water away from the house."
+      ],
+      "checks": [
+        "Old lawn and weeds taken off, not buried",
+        "Grade checked and corrected, including low spots near the foundation",
+        "Fresh sod laid with tight seams and staggered joints",
+        "Clean cuts along walks, driveways and bed lines"
+      ],
+      "photo": "sod-colonial"
+    },
+    {
+      "type": "beforeAfter",
+      "plane": "ink",
+      "eyebrow": "Real job",
+      "title": "From rough slope to **new lawn.**",
+      "intro": "The same yard, filmed by Jake. Drag the line to compare.",
+      "pairs": [
+        "ba-sod"
+      ],
+      "checks": [
+        "Overgrown planting removed",
+        "Ground regraded",
+        "New sod and set steppers"
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "How a sod job runs",
+      "title": "Strip, grade, lay, water.",
+      "steps": [
+        {
+          "title": "Strip",
+          "body": "We take off the old grass and weeds so the new roots land on soil, not on a dead mat."
+        },
+        {
+          "title": "Grade",
+          "body": "We rake and level the ground and fix low spots, so water runs away from the house and the lawn lies flat."
+        },
+        {
+          "title": "Lay",
+          "body": "Rolls go down tight with the joints staggered like brickwork, then get cut clean along every edge."
+        },
+        {
+          "title": "Water",
+          "body": "New sod is thirsty. Jake goes over the watering with you, and we can [do the watering for you](/plant-watering/) while it roots."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Good to know",
+      "title": "Sod or seed: what each one is good for.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Choose sod when",
+          "body": "You want a finished lawn now, you have a slope that would wash seed away, or the yard has to look good for an event or a sale."
+        },
+        {
+          "title": "Seed can work when",
+          "body": "It is a small bare patch in a healthy lawn, and you can keep kids and dogs off it for a while."
+        },
+        {
+          "title": "Either way",
+          "body": "The ground comes first. If water sits in the yard, we talk about [grading](/yard-grading/) before anything else goes down."
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "St. Clair Shores",
+      "title": "In St. Clair Shores, **grade before grass.**",
+      "body": [
+        "St. Clair Shores is home for HD Landscape, and the ground here is heavy and close to flat. Most USDA soil samples across the city rate poorly or very poorly drained, and map slopes mostly run 0 to 2 percent. Water has little reason to leave, so a low spot left under new sod stays a wet spot.",
+        "The city's watering rule works in your favor. From May 15 to October 1, homes on city water irrigate on odd or even dates by address, but a newly sodded lawn can be watered as often as it needs for the first 21 days. That makes a summer install workable. Ask the city for the current rule before you count on it."
+      ],
+      "checks": [
+        "A lawn that ends at a seawall depends on that wall, so soft or sinking ground needs a look before sod goes down. The wall stays the owner's job, and we do not repair it.",
+        "Near the lake, the canals or the Milk River, grading can need a soil erosion permit. St. Clair Shores runs that program itself, so the question goes to the city, not the county.",
+        "A lakefront lawn should stop short of the water. The city posts a guide that asks for a planted buffer at least 12 to 24 inches tall between the two."
+      ],
+      "photo": "grade-rake",
+      "cta": {
+        "label": "More on St. Clair Shores",
+        "href": "/service-areas/st-clair-shores/"
+      }
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "On Google",
+      "title": "What a one day job looks like.",
+      "ids": [
+        "rob-e",
+        "renee-g"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do sod installation in St. Clair Shores?",
+      "a": "Yes. HD Landscape installs sod in St. Clair Shores, its home base, and across [Macomb, Oakland and Wayne counties](/service-areas/). The ground in St. Clair Shores is heavy and close to flat, so the grade matters as much as the sod."
+    },
+    {
+      "q": "How long does sod installation take?",
+      "a": "Many lawns are finished in a day, depending on the grade. Bigger yards and heavy grading can run longer, and Jake can give you a better idea once he has seen the ground. One customer had his yard gutted, leveled and resodded with new plants, and wrote that it was done in one day."
+    },
+    {
+      "q": "When can you lay sod in Michigan?",
+      "a": "Sod can go down any time the ground is workable, from spring through fall. Spring and early fall are the easiest, because cooler weather means less watering. Summer works too, it just needs more water."
+    },
+    {
+      "q": "How often do I water new sod?",
+      "a": "Early on it needs to stay moist all the way through, which usually means watering every day until it roots. Jake will give you a plain schedule for your yard, and we offer [plant watering](/plant-watering/) if you would rather not think about it."
+    },
+    {
+      "q": "When can I walk on new sod or mow it?",
+      "a": "Keep foot traffic off for the first couple of weeks while the roots take. Once it has rooted and you cannot lift a corner, it is ready for a first mow on a high setting."
+    },
+    {
+      "q": "Do you install sprinklers with the sod?",
+      "a": "No. We do not install sprinkler systems. If you want one, have it put in first, and we will lay the sod around it."
+    },
+    {
+      "q": "How much does sod cost?",
+      "a": "The rolls are only part of the number. How much old lawn has to come out and how much grading the yard needs can move it more than the sod does, which is why Jake wants to see the ground first. That visit costs nothing, and the estimate comes itemized."
+    }
+  ],
+  "quote": {
+    "title": "Tell us about the lawn.",
+    "lede": "How big is it, and what is wrong with it? Text a photo if that is easier, and Jake will look it over and write up an itemized estimate."
+  },
+  "summary": {
+    "title": "Most of a sod job happens before the sod.",
+    "intro": "A sod job is more than the sod. Here is the work that makes a new lawn last, and your itemized estimate shows what your yard needs.",
+    "items": [
+      {
+        "name": "Tear out",
+        "detail": "Old grass and weeds taken off. How the debris leaves goes on your estimate."
+      },
+      {
+        "name": "Grade and prep",
+        "detail": "Ground raked level, low spots filled, water sent away from the house."
+      },
+      {
+        "name": "Fresh sod",
+        "detail": "Rolls laid tight with staggered joints and clean edges."
+      },
+      {
+        "name": "Watering plan",
+        "detail": "A plain schedule from Jake, or we water it for you."
+      }
+    ]
+  }
+}

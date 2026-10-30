@@ -1,0 +1,277 @@
+{
+  "service": "steel-edging",
+  "meta": {
+    "title": "Steel Edging in St. Clair Shores, MI | HD Landscape",
+    "description": "HD Landscape installs steel edging in St. Clair Shores and across Metro Detroit: a clean line that keeps grass out of beds and holds a low step in the grade."
+  },
+  "hero": {
+    "kicker": "Steel edging in St. Clair Shores and across Metro Detroit",
+    "title": "Grass on one side. **Mulch on the other.**",
+    "lede": "HD Landscape sets a sleek, modern line of steel, a sturdy barrier that keeps grass and mulch beds separated. Where the grade changes only a little, steel edging is also a great alternative to a retaining wall.",
+    "chips": [
+      "Follows curves and corners",
+      "Holds a low step",
+      "Free itemized estimates"
+    ],
+    "photo": "patio-bed"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Steel edging, plainly",
+      "title": "A thin line that **stops the lawn.**",
+      "body": [
+        "HD Landscape installs steel edging in St. Clair Shores and across Metro Detroit. Steel edging, sometimes called metal landscape edging, is a narrow strip of steel set on edge along a bed line, with most of it below the soil and a slim top edge showing.",
+        "Without an edge, the lawn keeps moving. University of Illinois Extension says grass grows into beds about 3 to 4 inches a year, which is why a line that looked sharp in May looks fuzzy by next spring. Steel stops that creep at the line and keeps mulch or stone from drifting onto the lawn.",
+        "It can also stand in for a retaining wall where the change in grade is small. A bed that sits a few inches above the lawn can often be held by steel alone, with no block wall to build or look at."
+      ],
+      "checks": [
+        "The bed line settled on the ground before any digging",
+        "Steel set in the ground and staked so the line holds",
+        "Top edge kept low and even, out of the way of the mower",
+        "Smooth curves, clean corners and straight runs",
+        "Soil packed back and the lawn edge left tidy"
+      ],
+      "photo": "lakeside-bed"
+    },
+    {
+      "type": "beforeAfter",
+      "plane": "ink",
+      "eyebrow": "Real job",
+      "title": "Old block border out, thin edge in.",
+      "intro": "One of our jobs, before and after. Look low on the right side of the after shot: that thin curve is what keeps the stone in the bed and the lawn out of it.",
+      "pairs": [
+        "ba-side"
+      ],
+      "checks": [
+        "Old block border and weeds cleared out",
+        "A thin edge curved around the new bed",
+        "Stone on one side, lawn on the other"
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "Where it works",
+      "title": "Where steel earns its keep.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Lawn against mulch",
+          "body": "The everyday use. Grass stays on its side, [mulch](/mulching/) stays on its side, and you stop recutting the bed line with a spade every spring."
+        },
+        {
+          "title": "Lawn against stone",
+          "body": "Loose stone wanders into the grass, and that does not end well for the mower. Steel holds [river rock and black stone](/rock-and-stone-installation/) in the bed."
+        },
+        {
+          "title": "Curves and island beds",
+          "body": "Steel bends, so one edge can follow a long sweeping bed or wrap a round island bed as a single smooth line, then turn a clean corner where the design calls for one."
+        },
+        {
+          "title": "Modern homes",
+          "body": "A block border can feel heavy against clean architecture. A thin steel line all but disappears, so the eye lands on the plants and the house."
+        },
+        {
+          "title": "Low steps in the grade",
+          "body": "Where a bed sits a few inches above the lawn, steel can hold that small step without a wall. Anything taller gets a [retaining wall](/retaining-walls/)."
+        },
+        {
+          "title": "Along drives and walks",
+          "body": "University of Illinois Extension points to steel where an edge needs side strength, such as driveway work. It keeps a narrow bed or a gravel strip tight against the concrete."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "Which one you need",
+      "title": "The right edge is usually **the smallest one.**",
+      "intro": "We do all three, so we have no reason to oversell you. On a new bed that may still grow for a few seasons, University of Illinois Extension leans toward a simple spade cut, because the edge can move with the bed. If the slope is too much for an edge, we build a [retaining wall](/retaining-walls/).",
+      "columns": [
+        "Cut edge",
+        "Steel edging",
+        "Retaining wall"
+      ],
+      "rows": [
+        {
+          "label": "Best for",
+          "values": [
+            "Simple beds and new beds still growing",
+            "Clean lines and small steps in the grade",
+            "A true slope or a raised terrace"
+          ]
+        },
+        {
+          "label": "Holds back",
+          "values": [
+            "Grass, until it needs recutting",
+            "Grass, mulch, stone and a few inches of soil",
+            "The full weight of the soil behind it"
+          ]
+        },
+        {
+          "label": "The look",
+          "values": [
+            "Soft and natural",
+            "Thin, sleek and modern",
+            "Solid, with a face of block you can see"
+          ]
+        },
+        {
+          "label": "Upkeep",
+          "values": [
+            "Touched up once or twice a year",
+            "Trim along it and the line stays",
+            "Little, when the base is built right"
+          ]
+        },
+        {
+          "label": "Changing it later",
+          "values": [
+            "Easy to reshape",
+            "Can be pulled and reset, with some work",
+            "A rebuild"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "How it should go",
+      "title": "The line comes first, then the steel.",
+      "steps": [
+        {
+          "title": "Mark",
+          "body": "The line gets laid out on the ground, with room for the shrubs to grow, and judged from the house and the street. Steel is hard to move later, so this is the step not to rush."
+        },
+        {
+          "title": "Dig",
+          "body": "A narrow trench follows the line. Buried utility lines get marked before digging. If you have sprinklers, show us where they run so the trench can stay clear of them."
+        },
+        {
+          "title": "Set",
+          "body": "The sections get joined and set in the trench. Stakes belong flush with the top of the steel or just below it, and the height should stay even from one end to the other."
+        },
+        {
+          "title": "Finish",
+          "body": "Soil gets packed back on both sides, mulch or stone comes right up to the edge, and the site gets cleaned up before we leave."
+        }
+      ],
+      "footnote": "Steel edging pairs well with [fresh mulch](/mulching/), [new sod](/sod-installation/) or a [stone bed](/rock-and-stone-installation/). If one of those is already on your list, it makes sense to set the edge at the same time."
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Close to home",
+      "title": "St. Clair Shores yards **show every line.**",
+      "intro": "We are based in St. Clair Shores and work here often. Small lots, wet clay and old bed lines all change what a steel edge has to do here.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Smaller lots, every line shows",
+          "body": "The city's general one family zoning allows lots as small as 6,000 square feet, so the front bed can be a big part of what you see from the street. One clean steel line does a lot of work here."
+        },
+        {
+          "title": "Clay that stays wet",
+          "body": "USDA soil maps rate most of the city poorly or very poorly drained, much of it silty clay loam on very little slope. Wet ground that freezes and thaws can lift an edge, so the staking matters here."
+        },
+        {
+          "title": "Older beds that have drifted",
+          "body": "The city grew fast after World War II, and a bed line recut by hand for that many years tends to wander. Steel is a good way to reset the line once and keep it."
+        }
+      ]
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "Google reviews",
+      "title": "How we leave a job.",
+      "intro": "None of these reviews mention edging. They are bigger yard projects, and they show how we work and how we leave a site.",
+      "ids": [
+        "rob-e",
+        "meagan-m",
+        "stephen-d"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you install steel edging in St. Clair Shores?",
+      "a": "Yes. HD Landscape is based in St. Clair Shores and installs steel edging here and across Metro Detroit, from [Grosse Pointe](/service-areas/grosse-pointe/) to [Birmingham](/service-areas/birmingham/). Call or text Jake at [(586) 718-8762](tel:+15867188762) for a free estimate."
+    },
+    {
+      "q": "Is steel edging better than plastic edging?",
+      "a": "For most beds, yes. University of Illinois Extension says metal edging is the longest lasting option, and that plastic has poor durability and an artificial look. Steel costs more, and the same article calls it difficult to install properly, so the care goes into the layout and the stakes."
+    },
+    {
+      "q": "Can steel edging replace a retaining wall?",
+      "a": "Yes, where the change in grade is small. Steel edging is a great alternative to a retaining wall when a bed sits a few inches above the lawn, and it gives you a slimmer, more modern line. A taller slope puts more weight on the edge than steel should carry, so we build a [retaining wall](/retaining-walls/) instead."
+    },
+    {
+      "q": "Will steel edging stop grass from growing into my beds?",
+      "a": "It stops the creep at the line. Bluegrass spreads sideways below the surface, and University of Illinois Extension says an edge 4 inches deep and wide can easily contain it. A few blades can still lean over the top, so you will run a trimmer along it, but you are done recutting the bed with a spade."
+    },
+    {
+      "q": "Will steel edging heave in the winter?",
+      "a": "It can. University of Illinois Extension lists frost heaving as a known problem with steel edging, and says most heaving in edging can be stopped with steel anchoring stakes and proper installation. Wet ground that freezes and thaws is the cause, and heavy clay that drains poorly is common in Metro Detroit, so the staking matters. If a section ever does lift, it can usually be reset."
+    },
+    {
+      "q": "Does steel edging rust?",
+      "a": "It can, over time. Steel in the ground weathers, and a coated edge can start to rust where the coating gets scratched. The finish is part of the look too, so ask Jake what he recommends for your yard."
+    },
+    {
+      "q": "Can steel edging follow curves?",
+      "a": "Yes. Steel bends, so it can follow a sweeping bed line or wrap a round island bed, and it can also turn a clean corner. It helps to see a curve laid out on the ground, from the house and the street, before any steel goes in."
+    },
+    {
+      "q": "Can you add steel edging to my existing beds?",
+      "a": "Yes. We can run steel along a bed that is already planted, and it is a simple way to sharpen up an older yard. If a shrub or a big root sits right on the line, we adjust the line or talk through moving the plant."
+    },
+    {
+      "q": "I have sprinklers. Can you still install steel edging?",
+      "a": "Yes, as long as we know where the lines and heads are. We do not install or repair sprinkler systems, so show us where they run before we dig. If a line has to move, your sprinkler company handles that part."
+    },
+    {
+      "q": "How long does it take to install steel edging?",
+      "a": "Often one day, depending on the length of the run and how hard the ground is. As part of a bigger job, it simply goes on that job's schedule."
+    },
+    {
+      "q": "What time of year can you install steel edging?",
+      "a": "From spring through fall, any time the ground can be dug. The trench and the stakes need workable soil, so frozen ground has to wait."
+    },
+    {
+      "q": "How much does steel edging cost?",
+      "a": "Length comes first, then the number of curves and corners and what the ground is like, and Jake needs to see the run to price it. Your estimate costs nothing and is itemized, so you can go through it line by line and see exactly what the edging adds."
+    }
+  ],
+  "quote": {
+    "title": "Tell us where the line goes.",
+    "lede": "Send a photo of the bed or the slope, and scribble the line on it if you like. Jake can take it from there and put it all in an itemized estimate. If it needs a wall and not an edge, he will say so."
+  },
+  "summary": {
+    "title": "A clean line is mostly layout and stakes.",
+    "intro": "Steel edging is a simple idea done carefully. Here is the work behind a clean line, and your estimate is itemized so you can go through it line by line.",
+    "items": [
+      {
+        "name": "Layout",
+        "detail": "The bed line settled on the ground before any digging."
+      },
+      {
+        "name": "Steel and stakes",
+        "detail": "Edging set along the marked line and staked so it stays on it."
+      },
+      {
+        "name": "Backfill",
+        "detail": "Soil packed back on both sides and the lawn edge left tidy."
+      },
+      {
+        "name": "Bed finish",
+        "detail": "Mulch or stone brought right up to the edge, when it is part of the job."
+      }
+    ],
+    "footnote": "Steel holds a small step in the grade. A taller slope needs a [retaining wall](/retaining-walls/), and Jake can say which one your yard calls for."
+  }
+}

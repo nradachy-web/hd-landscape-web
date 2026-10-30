@@ -1,0 +1,461 @@
+---
+/* The first screen.
+
+   Home: a real finished job relit for evening, full bleed. The page-load moment
+   is "the lights come on": a dark veil lifts off the photo while the words rise,
+   then the fireflies wake up. The veil is opacity only and the photo underneath
+   is painted from the first frame, so the largest paint is not delayed.
+
+   Every other page: the job photo sits to the right and melts into the ink, one
+   heading, one paragraph, two actions and the Google rating. The heading carries
+   a plain keyword line above the display line, inside the h1, so the page says
+   what it is about in words a search can read while the big line stays short.
+
+   `note` is the small truthful line under the photo: relit, illustration. */
+import Icon from './Icon.astro';
+import Stars from './Stars.astro';
+import Edge from './Edge.astro';
+import Fireflies from './Fireflies.astro';
+import { BRAND, LINKS, RATING } from '../data/site';
+import { href } from '../lib/paths';
+import { heading, nbTown, rich } from '../lib/rich';
+import type { HeroImage } from '../lib/hero';
+
+interface Crumb {
+  name: string;
+  path: string;
+}
+
+interface Props {
+  image: HeroImage;
+  /** Home only: the tall crop for phones. */
+  tall?: HeroImage;
+  kicker?: string;
+  /** Display line. Wrap a phrase in ** to set it in italic green. */
+  title: string;
+  lede: string;
+  chips?: string[];
+  primary?: { label: string; href: string };
+  size?: 'home' | 'page';
+  crumbs?: Crumb[];
+  note?: string;
+  /** The plane of the band below, for the cut line. */
+  next?: 'paper' | 'white' | 'ink';
+}
+
+const { image, tall, kicker, title, lede, chips = [], primary = { label: 'Get a free estimate', href: '#quote' }, size = 'page', crumbs = [], note = image.note, next = 'paper' } = Astro.props;
+
+const titleHtml = heading(title, 'accent');
+const primaryHref = primary.href.startsWith('#') ? primary.href : href(primary.href);
+---
+
+<section class:list={['hero', 'ink', `hero--${size}`]}>
+  <div class="hero__media">
+    <picture>
+      {tall && <source media="(max-width: 47.99rem)" type="image/avif" srcset={tall.avif} sizes={tall.sizes} />}
+      {tall && <source media="(max-width: 47.99rem)" type="image/webp" srcset={tall.webp} sizes={tall.sizes} />}
+      <source type="image/avif" srcset={image.avif} sizes={image.sizes} />
+      <source type="image/webp" srcset={image.webp} sizes={image.sizes} />
+      <img src={image.fallback} width={image.width} height={image.height} alt={image.alt} loading="eager" decoding="sync" fetchpriority="high" />
+    </picture>
+    {size === 'home' && <span class="hero__veil" aria-hidden="true" />}
+    {size === 'home' && <Fireflies />}
+  </div>
+
+  <div class="wrap hero__inner">
+    {
+      crumbs.length > 0 && (
+        <nav class="hero__crumbs fine" aria-label="Breadcrumb">
+          <ol>
+            <li><a href={href('/')}>Home</a></li>
+            {crumbs.map((c, i) => (
+              <li>{i === crumbs.length - 1 ? <span aria-current="page">{c.name}</span> : <a href={href(c.path)}>{c.name}</a>}</li>
+            ))}
+          </ol>
+        </nav>
+      )
+    }
+
+    <h1 class="hero__h">
+      {kicker && <span class="eyebrow hero__kicker rise">{nbTown(kicker)}</span>}
+      {kicker && <span class="sr">: </span>}
+      <span class:list={['h1', size === 'page' && 'h1--page', 'hero__title', 'rise', 'd1']} set:html={titleHtml} />
+    </h1>
+
+    <p class="lede hero__lede rise d2" set:html={rich(lede)} />
+
+    {
+      chips.length > 0 && (
+        <ul class="hero__chips rise d2">
+          {chips.map((c) => <li>{c}</li>)}
+        </ul>
+      )
+    }
+
+    <div class="actions hero__actions rise d3">
+      <a class="btn primary" href={primaryHref} data-cta="hero-quote">{primary.label}</a>
+      <a class="btn ghost" href={BRAND.phoneHref} data-loc="hero"><Icon name="phone" />Call {BRAND.phone}</a>
+    </div>
+
+    <a class="rating hero__rating small rise d4" href={LINKS.google} target="_blank" rel="noopener">
+      <Stars />
+      <span>{RATING.value} from {RATING.countLabel} Google reviews</span>
+    </a>
+  </div>
+
+  {note && <p class="note hero__note">{note}</p>}
+  <Edge to={next} />
+  <slot />
+</section>
+
+<style>
+  .hero {
+    position: relative;
+    isolation: isolate;
+    overflow: clip;
+  }
+
+  .hero__media {
+    position: relative;
+    z-index: -1;
+    height: min(40svh, 22rem);
+    min-height: 14rem;
+    overflow: hidden;
+  }
+
+  .hero__media picture {
+    height: 100%;
+  }
+
+  .hero__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 58% 40%;
+  }
+
+  /* the photo melts into the ink */
+  .hero__media::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(to bottom, rgb(10 15 11 / 0.3) 0%, rgb(10 15 11 / 0) 30%, rgb(10 15 11 / 0.6) 74%, var(--ink) 100%);
+  }
+
+  .hero__inner {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    justify-items: start;
+    gap: 1.2rem;
+    margin-top: -3.25rem;
+    padding-bottom: clamp(4.5rem, 10vw, 7rem);
+  }
+
+  .hero__crumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 0.5rem;
+    color: var(--on-ink-muted);
+  }
+
+  .hero__crumbs li + li::before {
+    content: '/' / '';
+    margin-right: 0.5rem;
+    opacity: 0.5;
+  }
+
+  .hero__crumbs a {
+    display: inline-block;
+    padding-block: 0.6rem;
+    text-decoration: none;
+  }
+
+  .hero__crumbs a:hover {
+    color: var(--on-ink);
+    text-decoration: underline;
+  }
+
+  .hero__h {
+    display: grid;
+    gap: 0.9rem;
+    font-weight: 500;
+  }
+
+  .hero__kicker {
+    font-family: var(--font);
+    line-height: 1.45;
+    max-width: 36rem;
+    color: var(--leaf-soft);
+  }
+
+  .hero__title {
+    display: block;
+    text-wrap: balance;
+  }
+
+  .hero__lede {
+    max-width: 37rem;
+    color: #dbe0d5;
+  }
+
+  .hero__chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
+    font-size: 0.9375rem;
+    font-weight: 540;
+  }
+
+  .hero__chips li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .hero__chips li::before {
+    content: '';
+    flex: none;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-radius: 50%;
+    background: var(--leaf);
+  }
+
+  /* phones: the bar fixed to the bottom carries the same two actions */
+  @media (max-width: 47.99rem) {
+    .hero__actions {
+      display: none;
+    }
+
+    .hero__chips {
+      display: grid;
+      gap: 0.35rem;
+    }
+  }
+
+  .hero__note {
+    position: absolute;
+    z-index: 2;
+    right: var(--gutter);
+    bottom: clamp(2.4rem, 5.6vw, 5rem);
+    max-width: 16rem;
+    padding: 0.15rem 0.45rem;
+    border-radius: var(--r-sm);
+    background: rgb(10 15 11 / 0.62);
+    color: var(--on-ink);
+    text-align: right;
+  }
+
+  @media (max-width: 55.99rem) {
+    .hero--page .hero__note {
+      top: 0.6rem;
+      bottom: auto;
+    }
+  }
+
+  @media (max-width: 47.99rem) {
+    .hero--home .hero__note {
+      top: 0.6rem;
+      bottom: auto;
+    }
+  }
+
+  /* ----- home ----- */
+
+  .hero--home {
+    display: grid;
+    min-height: calc(100svh - var(--header));
+    min-height: min(calc(100svh - var(--header)), 62rem);
+  }
+
+  .hero--home .hero__media {
+    position: absolute;
+    inset: 0;
+    height: auto;
+    min-height: 0;
+  }
+
+  .hero--home .hero__media img {
+    object-position: 50% 42%;
+  }
+
+  .hero--home .hero__media::after {
+    background:
+      linear-gradient(to top, var(--ink) 0%, rgb(10 15 11 / 0.94) 30%, rgb(10 15 11 / 0.74) 50%, rgb(10 15 11 / 0.28) 64%, rgb(10 15 11 / 0) 76%),
+      linear-gradient(to bottom, rgb(10 15 11 / 0.5) 0%, rgb(10 15 11 / 0) 16%);
+  }
+
+  .hero--home .hero__inner {
+    align-content: end;
+    margin-top: 0;
+    padding-top: 8rem;
+    padding-bottom: clamp(5.5rem, 12vw, 8.5rem);
+  }
+
+  .hero--home .hero__title {
+    font-size: clamp(2.75rem, 13vw, 4rem);
+    line-height: 0.98;
+  }
+
+  .hero__veil {
+    display: none;
+  }
+
+  @media (min-width: 48rem) {
+    .hero--home .hero__title {
+      font-size: clamp(3.75rem, 6.6vw + 0.5rem, 6.75rem);
+    }
+
+    .hero--home .hero__media img {
+      object-position: 42% 50%;
+    }
+
+    .hero--home .hero__media::after {
+      background:
+        linear-gradient(to right, var(--ink) 0%, rgb(10 15 11 / 0.9) 22%, rgb(10 15 11 / 0.72) 40%, rgb(10 15 11 / 0.2) 60%, rgb(10 15 11 / 0) 78%),
+        linear-gradient(to top, rgb(10 15 11 / 0.9) 0%, rgb(10 15 11 / 0) 30%),
+        linear-gradient(to bottom, rgb(10 15 11 / 0.5) 0%, rgb(10 15 11 / 0) 18%);
+    }
+
+    .hero--home .hero__inner {
+      align-content: center;
+      gap: 1.5rem;
+      padding-top: 3rem;
+    }
+
+    .hero--home .hero__h {
+      max-width: min(62%, 46rem);
+    }
+
+    .hero--home .hero__lede {
+      max-width: 34rem;
+    }
+  }
+
+  /* ----- every other page ----- */
+
+  @media (min-width: 56rem) {
+    .hero--page .hero__media {
+      position: absolute;
+      inset: 0 0 0 auto;
+      width: min(62%, 66rem);
+      height: auto;
+      min-height: 0;
+    }
+
+    .hero--page .hero__media img {
+      object-position: 55% 45%;
+    }
+
+    .hero--page .hero__media::after {
+      background:
+        linear-gradient(to right, var(--ink) 0%, rgb(10 15 11 / 0.97) 7%, rgb(10 15 11 / 0.9) 14%, rgb(10 15 11 / 0.74) 24%, rgb(10 15 11 / 0.5) 36%, rgb(10 15 11 / 0.22) 52%, rgb(10 15 11 / 0) 70%),
+        linear-gradient(to top, rgb(10 15 11 / 0.85) 0%, rgb(10 15 11 / 0) 26%),
+        linear-gradient(to bottom, rgb(10 15 11 / 0.5) 0%, rgb(10 15 11 / 0) 20%);
+    }
+
+    .hero--page .hero__inner {
+      align-content: center;
+      gap: 1.4rem;
+      margin-top: 0;
+      min-height: clamp(30rem, 68svh, 42rem);
+      padding-block: clamp(3.5rem, 7vw, 5.5rem) clamp(5.5rem, 9vw, 7.5rem);
+    }
+
+    .hero--page .hero__h,
+    .hero--page .hero__lede,
+    .hero--page .hero__chips {
+      max-width: min(58%, 44rem);
+    }
+  }
+
+  /* short laptop screens: keep both buttons in the first screen */
+  @media (min-width: 56rem) and (max-height: 50rem) {
+    .hero__inner {
+      gap: 1.1rem;
+    }
+
+    .hero--page .hero__inner {
+      padding-block: 2.5rem 5rem;
+    }
+
+    .hero--home .hero__title {
+      font-size: clamp(3.5rem, 5.6vw, 5.5rem);
+    }
+  }
+
+  /* ----- the lights come on ----- */
+
+  @media (prefers-reduced-motion: no-preference) {
+    .hero__veil {
+      display: block;
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+      background: #060a14;
+      opacity: 0;
+      animation: veil 2.1s 0.1s cubic-bezier(0.45, 0, 0.2, 1) both;
+      pointer-events: none;
+    }
+
+    .hero--home .hero__media img {
+      animation:
+        settle 2.4s var(--ease) both,
+        drift 26s 2.4s ease-in-out 2 alternate;
+    }
+
+    .hero--page .hero__media img {
+      animation: settle 1.2s var(--ease) both;
+    }
+
+    .hero :global(.rise) {
+      animation: rise 0.8s var(--ease) both;
+    }
+
+    .hero :global(.d1) {
+      animation-delay: 0.06s;
+    }
+
+    .hero :global(.d2) {
+      animation-delay: 0.14s;
+    }
+
+    .hero :global(.d3) {
+      animation-delay: 0.22s;
+    }
+
+    .hero :global(.d4) {
+      animation-delay: 0.3s;
+    }
+
+    @keyframes veil {
+      from {
+        opacity: 0.86;
+      }
+      to {
+        opacity: 0;
+      }
+    }
+
+    @keyframes settle {
+      from {
+        scale: 1.05;
+      }
+    }
+
+    @keyframes drift {
+      to {
+        scale: 1.045;
+      }
+    }
+
+    @keyframes rise {
+      from {
+        translate: 0 1.4rem;
+      }
+    }
+  }
+</style>

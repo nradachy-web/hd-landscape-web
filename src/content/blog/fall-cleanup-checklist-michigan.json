@@ -1,0 +1,139 @@
+{
+  "service": "cleanups",
+  "published": "2026-10-30",
+  "meta": {
+    "title": "Fall Cleanup Checklist for a Michigan Yard | HD Landscape",
+    "description": "A fall yard cleanup checklist for Michigan: when to start, what to do with leaves, what to cut back, what to leave for spring and how town leaf rules differ."
+  },
+  "title": "A fall cleanup checklist for **a Michigan yard.**",
+  "lede": "Start once most of the leaves are down. Clear the beds, mow or haul the leaves, pull the weeds, cut back the few perennials that need it and leave real pruning for spring. Here is the full list, plus what to skip.",
+  "photo": "colonial-fall",
+  "short": [
+    "**Timing:** start when most of your leaves are down. Big trees can push the date later.",
+    "**Leaves:** mow them into the grass if they are not piled more than 3 to 4 inches deep. Rake off the rest, and clear heavy piles from the beds.",
+    "**Perennials:** cut back hosta, daylily and peony. Most others can stand until spring.",
+    "**Shrubs:** take out dead or broken wood only. Real pruning waits for spring.",
+    "**Evergreens:** keep watering in a dry fall until the ground freezes."
+  ],
+  "sections": [
+    {
+      "h": "When to do a fall cleanup in Michigan",
+      "p": [
+        "Aim for when most of your leaves are down. Every yard drops on its own schedule, and big trees can push the date later, so no single date fits everyone.",
+        "Two things set the deadline. The ground freezes, and yard waste pickup ends. St. Clair Shores stops at the second Friday in December and Birmingham at the third, and those dates can move from year to year. On the day, skip any stretch when the ground is soaked, because walking on wet soil compacts it."
+      ]
+    },
+    {
+      "h": "Work from the beds out, so you move the leaves once",
+      "p": [
+        "Here is the order we would work in, start to finish."
+      ],
+      "list": [
+        "**Clear the beds.** Get heavy leaf piles, sticks and debris out of the beds and corners, so slugs and voles have less cover over winter.",
+        "**Handle the lawn leaves.** Mow a light layer into the grass, and rake or haul what is piled deep.",
+        "**Pull the weeds.** Pull them roots and all, so the beds go into winter clean.",
+        "**Cut back what needs it.** That means hosta, daylily and peony. Most of the rest can wait.",
+        "**Tidy the shrubs.** Take out dead or broken wood and leave the shaping for spring.",
+        "**Clean up the edges.** Recut the bed lines and clear the walks and the drive, so the yard has edges again.",
+        "**Water the evergreens.** If the fall has been dry, give them a deep soak before the ground freezes.",
+        "**Put the hoses away last.** Evergreens may still need water, so wait until just before the freeze, then disconnect and drain them."
+      ]
+    },
+    {
+      "h": "What to do with the leaves: mow some, clear the rest",
+      "p": [
+        "You do not always have to rake. Michigan State University Extension recommends mulching leaves into the grass with a mower, as long as they are not piled more than 3 to 4 inches deep. Heavier drops should come off the lawn. In beds it is a judgment call: heavy piles give slugs and voles cover, but MSU Extension also says a layer of leaves can insulate less hardy perennials."
+      ],
+      "table": {
+        "head": ["Where the leaves are", "What to do"],
+        "rows": [
+          ["On the lawn, a light layer", "Mow them into the grass"],
+          ["On the lawn, more than 3 to 4 inches deep", "Rake off the extra, then mow what is left"],
+          ["In beds and corners", "Clear heavy piles. A light layer can stay around tender perennials"],
+          ["Near a lake, canal or stream", "Keep them out of the water"],
+          ["Headed for the curb", "Follow your town's rules"]
+        ]
+      },
+      "after": [
+        "Leaves generally do not go in the regular trash. Michigan banned yard clippings, including leaves, from landfills in 1995, so they go to compost or to yard waste collection.",
+        "Keep them out of the water as well. The state of Michigan warns that dumping yard waste in the water is harmful and can bring a ticket, which matters on Lake St. Clair and the canals."
+      ]
+    },
+    {
+      "h": "Leaf pickup changes from town to town",
+      "p": [
+        "Leaf rules are local, and they differ more than you would expect. Some towns want leaves raked to the curb and others want them bagged. Here is how several towns we work in handle it. Dates move every year, so look up this fall's notice from your own town before you rake."
+      ],
+      "table": {
+        "head": ["Town", "How fall leaves are handled"],
+        "rows": [
+          ["St. Clair Shores", "Lawn bags or marked containers at the curb, never plastic bags"],
+          ["Birmingham", "Curbed streets rake to the curb by zone. Others use paper bags or decal containers"],
+          ["Grosse Pointe Park", "City curbside pickup for residents. Contractors must take leaves away"],
+          ["Grosse Pointe Farms", "City fall leaf collection. Landscape contractors remove their own debris"],
+          ["Grosse Pointe Shores", "City vacuums what residents rake to the curb. Contractors remove client leaves"],
+          ["Grosse Pointe Woods", "Bagged curbside pickup into December"],
+          ["Huntington Woods", "City vacuums leaves raked to the curb. Keep sticks out of the pile"],
+          ["Beverly Hills", "Brown paper bags or labeled cans, with yard waste pickup into December"]
+        ],
+        "note": "Read from each city's website in fall 2026. Rules change, and your town's current notice is the one that counts."
+      },
+      "after": [
+        "If you hire a crew, ask where the leaves are going. Grosse Pointe Park and Grosse Pointe Shores make contractors responsible for removing leaves, and Grosse Pointe Farms says landscape contractors must remove their own debris. On our cleanups, your estimate spells out how the leaves and debris leave the property."
+      ]
+    },
+    {
+      "h": "Cut back three perennials and leave most of the rest",
+      "p": [
+        "Most of what you see in a fall bed can wait. MSU Extension says perennials can go into winter without being cut back, and standing stems shelter overwintering bees and other beneficial insects."
+      ],
+      "table": {
+        "head": ["Plant", "In fall", "In spring"],
+        "rows": [
+          ["Hosta, daylily, peony", "Cut back to reduce slug eggs and disease", "Nothing left to do"],
+          ["Most other perennials", "Can stand through winter", "Cut old stems when the snow goes"],
+          ["Ornamental grasses", "Leave standing", "Cut back, usually in late March"],
+          ["Lilac, forsythia, early spirea", "Leave alone", "Prune right after they flower"],
+          ["Other shrubs and trees", "Dead or broken wood only", "Prune in spring, but never oaks from April 15 to July 15"]
+        ],
+        "note": "Timing from MSU and University of Minnesota extension. Oak dates from the Michigan DNR."
+      },
+      "after": [
+        "Boxwood gets one extra rule. Macomb, Oakland and Wayne counties are all inside Michigan's box tree moth quarantine, which restricts moving boxwood, clippings included. The caterpillars chew leaves down to the midrib and leave webbing behind. If you see that, MSU Extension says to double bag dead plants and clippings for the trash."
+      ]
+    },
+    {
+      "h": "Last jobs before the ground freezes",
+      "p": [
+        "Frozen ground ends the watering and the fertilizer for the year. The other two are just easier to do now."
+      ],
+      "list": [
+        "**Water evergreens in a dry fall.** MSU Extension says a dry autumn can leave them short of stored moisture, and frozen ground cuts off the supply. Water when rain falls short of an inch a week. Our [watering guide](/journal/watering-new-plants-and-sod/) has the details.",
+        "**Top up thin beds.** University of Minnesota Extension says repeated freezing and thawing can damage roots and heave new plantings out of the ground, and that mulch helps hold soil temperature steady. Keep [mulch](/mulching/) to two or three inches and off the trunks.",
+        "**Mind the fertilizer rules.** If you fertilize, Michigan law says it cannot go on frozen soil or soil saturated with water, and anything that lands on a walk or driveway must be cleaned up promptly. Lawn phosphorus is restricted too, with exceptions such as new sod or a soil test that calls for it.",
+        "**Note where the water sits.** Fall rain is a free test. Take a photo of any puddle by the house, then read what [grading can and cannot fix](/journal/water-by-the-foundation/)."
+      ]
+    },
+    {
+      "h": "What to leave off the list",
+      "p": [
+        "A good cleanup is partly knowing what to leave alone."
+      ],
+      "list": [
+        "**Hard pruning.** MSU Extension advises waiting until spring to prune trees and shrubs. Oaks run on their own calendar because of oak wilt, so check our [tree pruning dates](/tree-trimming-and-removal/) first.",
+        "**Cutting everything to the ground.** Those stems are winter housing for beneficial insects.",
+        "**Working on soaked ground.** Give it a few dry days first.",
+        "**Plastic bags for leaves.** St. Clair Shores and Birmingham will not take them, and other towns have similar rules.",
+        "**Burning leaves.** Some towns ban it, including Huntington Woods, so read your town's rule before you strike a match."
+      ]
+    },
+    {
+      "h": "What a fall cleanup from us covers, and what it does not",
+      "p": [
+        "A fall cleanup from HD Landscape clears the leaves from the beds and corners, cuts back the perennials that benefit from it, pulls the weeds and tidies the shrubs. You do not need to be on a maintenance plan to book one. Many take a single day, though a big yard or a long neglected bed can run longer.",
+        "Two things are not part of it: lawn aeration and sprinkler work. We do not do either, so if your system needs to be winterized, call your sprinkler company.",
+        "Here is more on [spring and fall cleanups](/spring-and-fall-cleanups/). If you would rather not face this list again next year, [monthly landscape maintenance](/monthly-landscape-maintenance/) keeps up the beds, shrubs and edges between cleanups. Text a photo to [(586) 718-8762](sms:+15867188762) and we will time it to your trees."
+      ]
+    }
+  ]
+}

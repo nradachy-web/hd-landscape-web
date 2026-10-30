@@ -1,0 +1,34 @@
+---
+/* Service pages and the service-in-a-town pages share the top level of the
+   site (/sod-installation/, /sod-installation-troy-mi/), so one route builds
+   both. A page exists when its content file exists. */
+import { getCollection } from 'astro:content';
+import ServicePage from '../templates/ServicePage.astro';
+import TownPage from '../templates/TownPage.astro';
+import { SERVICES } from '../data/services';
+import { TOWN_PAGES } from '../data/cities';
+
+export async function getStaticPaths() {
+  const services = await getCollection('services');
+  const towns = await getCollection('towns');
+  const summaryOf = (id: string) => services.find((s) => s.data.service === id)?.data.summary;
+
+  const servicePaths = services.flatMap((entry) => {
+    const svc = SERVICES.find((s) => s.id === entry.data.service);
+    return svc ? [{ params: { slug: svc.path.replace(/\//g, '') }, props: { kind: 'service' as const, entry } }] : [];
+  });
+
+  const townPaths = towns.flatMap((entry) => {
+    const page = TOWN_PAGES.find((p) => p.service.id === entry.data.service && p.city.id === entry.data.city);
+    const summary = summaryOf(entry.data.service);
+    if (!page || !summary) return [];
+    return [{ params: { slug: page.slug }, props: { kind: 'town' as const, entry, summary } }];
+  });
+
+  return [...servicePaths, ...townPaths];
+}
+
+const props = Astro.props;
+---
+
+{props.kind === 'service' ? <ServicePage entry={props.entry} /> : <TownPage entry={props.entry} summary={props.summary} />}

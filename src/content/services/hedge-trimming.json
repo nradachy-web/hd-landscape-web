@@ -1,0 +1,309 @@
+{
+  "service": "hedge-trimming",
+  "meta": {
+    "title": "Hedge Trimming in St. Clair Shores, MI | HD Landscape",
+    "description": "Hedge trimming in St. Clair Shores and across Metro Detroit: boxwood, yew and arborvitae cut straight, wider at the base and cleaned up. Free estimates."
+  },
+  "hero": {
+    "kicker": "Hedge trimming in St. Clair Shores, MI and around Metro Detroit",
+    "title": "Straight lines. Clean curves. **No bare patches.**",
+    "lede": "HD Landscape shapes everything from low boxwood along a front walk to arborvitae walls you need a ladder for. Each one gets cut for the plant it is and the time of year, and the yard gets left clean.",
+    "chips": [
+      "Shaped by hand and eye",
+      "Wider at the base, on purpose",
+      "Cut for the plant and the season"
+    ],
+    "photo": "stone-manor"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What we do",
+      "title": "Every hedge wants to be a tree. **We talk it out of that.**",
+      "body": [
+        "HD Landscape trims hedges for homes and commercial properties in St. Clair Shores and across Metro Detroit. We cut back the new growth so a hedge keeps its shape and stays the size you want, instead of slowly taking over the walk.",
+        "Bush trimming is one of the things customers mention most in our Google reviews. A good trim starts with knowing what the plant is and how much it can take."
+      ],
+      "checks": [
+        "Tops cut narrower than the base, so light reaches the bottom branches",
+        "Straight runs kept straight and curves kept smooth",
+        "Topiary and clipped shapes kept sharp",
+        "Overgrown hedges brought back in stages when one cut would be too much",
+        "Beds, walks and drives cleaned up before we leave"
+      ],
+      "photo": "hedge-curve"
+    },
+    {
+      "type": "beforeAfter",
+      "plane": "ink",
+      "eyebrow": "Real job",
+      "title": "What one visit does to a hedge.",
+      "intro": "Filmed by Jake. All that bright new growth comes off and the curve along the walk comes back. Drag the line to compare.",
+      "pairs": [
+        "ba-hedge"
+      ],
+      "checks": [
+        "New growth cut back to the line",
+        "Curve along the walk brought back",
+        "Hedge pulled back off the sidewalk"
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "paper",
+      "eyebrow": "Michigan timing",
+      "title": "When to trim, hedge by hedge.",
+      "intro": "Heavy cuts belong in early spring, shaping trims come once the new growth fills out, and hard cutting stops by mid-summer. The months come from Iowa State University Extension's pruning calendar, with Michigan State, Wisconsin and Minnesota guidance on how each plant responds.",
+      "columns": [
+        "Boxwood",
+        "Yew",
+        "Arborvitae",
+        "Privet"
+      ],
+      "rows": [
+        {
+          "label": "Shaping trim",
+          "values": [
+            "Light shearing from spring to mid-summer",
+            "Around June, when the leggy new shoots show up",
+            "Late spring to early summer, once new growth fills out",
+            "May, then again in July if it needs it"
+          ]
+        },
+        {
+          "label": "Bigger cuts",
+          "values": [
+            "Dead growth out in early to mid-April",
+            "Late March or early April, before new growth",
+            "Spring, before new growth starts",
+            "Late winter or early spring"
+          ]
+        },
+        {
+          "label": "Go easy",
+          "values": [
+            "No pruning in late summer",
+            "No heavy cutting after mid-summer or in fall",
+            "No heavy cutting after mid-summer or in fall",
+            "No heavy cutting after mid-summer"
+          ]
+        },
+        {
+          "label": "Worth knowing",
+          "values": [
+            "Trim when it is dry. Blight spreads on dirty tools and splashing water.",
+            "Takes a deeper cut than most, but gaps cut into bare wood are slow to fill",
+            "Has dormant buds along the stem, but bare inner wood will not regrow",
+            "One of the few leafy shrubs that takes formal shearing well"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "What goes wrong",
+      "title": "Four ways a hedge gets ruined.",
+      "intro": "Hedges forgive a lot, but not everything. These are the mistakes that take years to grow out.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "A top wider than the bottom",
+          "body": "This is the classic. When the top gets wider than the base, the lower branches lose their light and the foliage thins out. A wide top also holds more snow, and snow breaks branches. The fix is a slight taper you will hardly notice from the sidewalk."
+        },
+        {
+          "title": "The wrong plant under the shears",
+          "body": "Not everything should be sheared. MSU Extension warns that junipers do not sprout from hard cuts and can die back under hedge shears, and most flowering shrubs are better thinned by hand than cut flat. We will tell you which is which."
+        },
+        {
+          "title": "Cutting off next spring's flowers",
+          "body": "Lilac, forsythia, weigela and early blooming spirea set their flower buds the summer before. Trim them in early spring and you cut off the show. Wisconsin and Minnesota extension guides say to wait until right after they finish blooming."
+        },
+        {
+          "title": "Waiting until it is out of hand",
+          "body": "Iowa State University Extension's first rule for a formal hedge is regular pruning. A hedge that gets a regular trim stays in bounds with small cuts. One that gets ignored for years needs big ones, and big cuts are slow to fill in."
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Tall and long hedges",
+      "title": "Too tall for **the step stool.**",
+      "body": [
+        "Tall arborvitae and long privacy hedges are usually where people stop doing it themselves. The top gets hard to reach, the sides stop being flat and the hedge gets a little wider every year.",
+        "A tall hedge should get its top cut to a level line first, then the sides worked down, so it comes out straight, flat and slightly wider at the bottom. If yours has gotten away from you, tell us how tall you want it, and Jake will say honestly how far it can come down."
+      ],
+      "checks": [
+        "Long runs kept level from end to end",
+        "Sides cut flat, with the top a little narrower",
+        "Branches broken by snow and ice cut out cleanly"
+      ],
+      "photo": "tall-hedge",
+      "flip": true,
+      "cta": {
+        "label": "Get a free hedge estimate",
+        "href": "#quote"
+      }
+    },
+    {
+      "type": "gallery",
+      "plane": "ink",
+      "eyebrow": "Finished work",
+      "title": "Low boxwood, tall privacy and the odd topiary.",
+      "intro": "Real jobs, from clipped boxwood rows to one long curve of green.",
+      "photos": [
+        "hedge-long",
+        "topiary-spiral",
+        "boxwood-front",
+        "flagstone-hydrangea",
+        "commercial-entry",
+        "pool-hedge"
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "If you have boxwood",
+      "title": "Something is going around in boxwood.",
+      "intro": "Boxwood is a popular shrub, and two invasive problems have reached Michigan. If yours look off, show Jake at the walkthrough. MSU's diagnostic lab can confirm what it is.",
+      "columns": 2,
+      "items": [
+        {
+          "tag": "Insect",
+          "title": "Box tree moth",
+          "body": "Caterpillars chew boxwood leaves down to the midrib and leave webbing behind. Macomb, Oakland and Wayne counties are all inside Michigan's quarantine. The state and the USDA say debris from an infested plant should be double bagged in plastic and put in the household trash, and your hauler may have its own rules."
+        },
+        {
+          "tag": "Disease",
+          "title": "Boxwood blight",
+          "body": "A fungus first found in Michigan in 2018. Look for brown leaf spots, black streaks on the stems and fast leaf drop. University of Wisconsin Extension says spores move on splashing water, wind and dirty tools, and can live in fallen leaves for years. So tools should be cleaned between plants and the debris raked up."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "white",
+      "eyebrow": "The visit",
+      "title": "Look, price, cut, clean up.",
+      "steps": [
+        {
+          "title": "Look",
+          "body": "Jake looks at the hedges with you, or starts from a photo you text him. You say the height and shape you want, and he tells you honestly what the plant will take."
+        },
+        {
+          "title": "Estimate",
+          "body": "A free itemized estimate comes next, so you can see exactly what is being trimmed."
+        },
+        {
+          "title": "Trim",
+          "body": "Tops and sides get cut to a line with the base left a little wider. Curves are shaped by hand and eye."
+        },
+        {
+          "title": "Clean up",
+          "body": "Clippings come out of the beds and off the walks and drive before we leave. Then Jake checks in to see how it went."
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "St. Clair Shores",
+      "title": "A lake town is **hard on hedges.**",
+      "body": [
+        "HD Landscape is based in St. Clair Shores, on the west side of Lake St. Clair, and we trim hedges here often. Much of the city was built out after the Second World War, so plenty of foundation shrubs have had decades to outgrow their spots.",
+        "Wind and road salt are hard on hedges here. Lake St. Clair is fresh water, so the salt comes off the plowed roads, not the lake. Purdue Extension says the damage shows up on the side facing the road or sidewalk, as browning that starts at the tips in late winter, so hedges along a busy road like Jefferson or Harper are the ones to watch. University of Wisconsin Extension adds that evergreens in open, exposed spots are the most likely to burn in winter. Dead growth comes out in spring, once you can see what survived."
+      ],
+      "photo": "hedge-walk"
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "What customers wrote",
+      "title": "Bushes trimmed, beds cleaned out, no pressure.",
+      "ids": [
+        "anne-j",
+        "nancy-g",
+        "mark-r"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do hedge trimming in St. Clair Shores?",
+      "a": "Yes. HD Landscape trims hedges in St. Clair Shores, our home base, and across Metro Detroit, from low boxwood to tall arborvitae. Hedges facing Jefferson, Harper or the freeway take the road salt in this town, so those are the ones to look over in spring."
+    },
+    {
+      "q": "How much does hedge trimming cost?",
+      "a": "Length, height, how overgrown it has gotten and how easy it is to reach all set the number. A photo by text is a fine place to start, and Jake follows with a free itemized estimate."
+    },
+    {
+      "q": "What month is best to trim hedges in Michigan?",
+      "a": "For most clipped evergreen hedges in Michigan, the main shaping trim comes in late spring or early summer, roughly May into June, after the new growth fills out. Heavy cuts belong in early spring before growth starts. Hard cutting should stop by mid-summer, because late growth may not harden off before winter."
+    },
+    {
+      "q": "How often should hedges be trimmed?",
+      "a": "A formal clipped hedge needs at least two trims a year, and the tidiest ones get trimmed close to monthly through the growing season. A natural, unsheared hedge needs far less. We can do a one time trim, or work your hedges into [monthly landscape maintenance](/monthly-landscape-maintenance/)."
+    },
+    {
+      "q": "Can I trim hedges in the fall in Michigan?",
+      "a": "Fall is not the time for a hard cut. Heavy pruning after mid-summer can push soft growth that does not harden off before winter, and Iowa State University Extension warns that evergreens pruned in fall are more open to winter injury. If a hedge has to look sharp for an event or a sale, ask Jake what a light tidy can do without setting the plant back."
+    },
+    {
+      "q": "How long does hedge trimming take?",
+      "a": "Many home hedges are finished in one visit, depending on how long and how overgrown they are. Very tall or badly neglected hedges can take longer, and Jake will say so when he writes the estimate."
+    },
+    {
+      "q": "Can you fix an overgrown hedge?",
+      "a": "Usually, depending on the plant. A leggy privet hedge can be cut back hard in late winter and grown out again. Yew takes deeper cuts than most evergreens, but it is slow to fill in. Boxwood and juniper keep the gaps if they are cut back into bare wood. If a hedge is past saving, Jake will say so, and we can handle the [plant removal](/plant-removal/) and [new planting](/plant-installation/)."
+    },
+    {
+      "q": "Why is my hedge bare at the bottom?",
+      "a": "Usually because the top has gotten wider than the base, which shades out the lower branches. MSU Extension recommends keeping the top narrower so light reaches all the way down. Reshaping helps, but it takes time, and bare wood on boxwood, yew or arborvitae may not fill back in."
+    },
+    {
+      "q": "Can you fix a hedge after deer or winter damage?",
+      "a": "Often, with some patience. University of Wisconsin Extension says to prune winter-burned arborvitae, boxwood and yew in mid-spring, after new foliage comes in, so you can see what is alive. The same wait and see works for deer damage, and anything broken by snow should be cut out."
+    },
+    {
+      "q": "Do you clean up the clippings?",
+      "a": "Yes. Cleanup is part of the job, and customers tend to mention how clean we leave a site. Beds, walks and the drive get cleared of clippings, and how the clippings leave goes on your estimate."
+    },
+    {
+      "q": "Do you trim and shape topiary?",
+      "a": "Yes. We keep spirals, balls and other clipped shapes sharp, following the shape the plant already has. If you want a new shape started, ask Jake what your plant can do."
+    },
+    {
+      "q": "Do you trim hedges for businesses?",
+      "a": "Yes. HD Landscape works on commercial properties as well as homes, and clipped hedges at an entry are some of the first things a customer sees. Tell us how sharp you want them kept and we will put it in an itemized estimate."
+    }
+  ],
+  "quote": {
+    "title": "Tell us about the hedge.",
+    "lede": "How long is it, how tall is it and when was it last cut? A photo by text gives Jake a head start on your itemized estimate."
+  },
+  "summary": {
+    "title": "A hedge trim covers shape, taper, timing and cleanup.",
+    "intro": "A good trim is more than a flat top. Here is what you get on a hedge visit, and all of it is spelled out on your estimate before we start.",
+    "items": [
+      {
+        "name": "Shape",
+        "detail": "Tops, sides and curves cut by hand and eye to the line you picked."
+      },
+      {
+        "name": "Taper",
+        "detail": "Base left a little wider than the top, so light reaches the bottom branches."
+      },
+      {
+        "name": "Timing",
+        "detail": "Each plant trimmed when it can take it, with no hard cuts late in the year."
+      },
+      {
+        "name": "Cleanup",
+        "detail": "Clippings out of the beds and off the walks and drive before we leave."
+      }
+    ],
+    "footnote": "Hedges stay sharp with regular trims. We can work yours into [monthly landscape maintenance](/monthly-landscape-maintenance/)."
+  }
+}

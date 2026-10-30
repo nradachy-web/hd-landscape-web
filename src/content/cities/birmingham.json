@@ -1,0 +1,55 @@
+{
+  "city": "birmingham",
+  "meta": {
+    "title": "Landscaping in Birmingham, MI | HD Landscape",
+    "description": "HD Landscape designs, plants and keeps up Birmingham, MI yards, from old canopy streets to tight side yards, with the city's tree and yard rules in mind."
+  },
+  "hero": {
+    "kicker": "Landscaping in Birmingham, MI",
+    "title": "Old trees. Small lots. **Sharp lines.**",
+    "lede": "Birmingham yards ask for a careful hand: mature shade, tight side yards and neighbors who notice. HD Landscape designs, plants and keeps them looking right.",
+    "chips": ["Design through installation", "Hedges and bed lines", "Itemized estimates"],
+    "photo": "dusk-urn"
+  },
+  "about": {
+    "eyebrow": "Yards in Birmingham",
+    "title": "Big trees, small lots and a city with **opinions on both.**",
+    "body": [
+      "Walk the streets around Quarton Lake or Poppleton Park and the first thing you notice is the trees. Those old canopies are why people pay to live here, and they also decide what will grow underneath them. Honeylocust and Norway maple lead the city's own tree inventory, and grass under a Norway maple rarely amounts to much.",
+      "Most lots are not huge, either. About two of every three sit in zoning districts with a minimum of 4,500 or 6,000 square feet, so every square foot shows. A bed line that wanders or a hedge that has gotten away from you stands out on a street where the neighbors keep things tidy.",
+      "Old and new sit side by side here. Half the homes went up before 1960, and the city's own plan talks about a significant number of demolitions, so a 1950s foundation bed can sit next door to a new build whose yard never got finished. They need different fixes."
+    ],
+    "points": [
+      { "title": "Shade under old canopies", "body": "Grass struggles under big maples and oaks, and the old fixes are gone. English ivy and periwinkle are on the city's prohibited species list, which covers private yards. So the plan starts with the shade you actually have and the plants allowed to live in it." },
+      { "title": "Tight side yards", "body": "Narrow access means smaller loads, careful staging and a clean walk back to the truck, so the job does not take over the driveway." },
+      { "title": "Heavy soil", "body": "The city's own rain garden guide calls clay the most common soil in Birmingham. It holds water, so the grade and the planting depth get settled before anything goes in the ground." },
+      { "title": "A front yard with a number on it", "body": "The zoning code says at least 65% of the front open space has to stay vegetated, and pavers do not count. On a small lot a wide walk or a big stone bed can use that up fast, so a front yard should get measured before it gets drawn." },
+      { "title": "Trees with paperwork", "body": "Street trees are the city's, roots included. Oaks and elms, even private ones, cannot be pruned from April 1 to October 15. That leaves the cold months, when Jake works South Florida, so ask him whether he can get to yours or who can." }
+    ],
+    "photo": "urn-bed"
+  },
+  "logistics": {
+    "title": "Close quarters, so the truck gets a plan too.",
+    "body": [
+      "Birmingham streets are close quarters. Between tight driveways and side yards with room for one wheelbarrow, where the trucks and materials sit gets worked out ahead of time, and the walks and the drive get left clean.",
+      "Jake comes out first and looks at the yard with you. You get his straight advice on what to do and what to leave alone, then an itemized estimate you can go through line by line. The crew arrives when we said, and Jake calls afterward to see how it went.",
+      "Cleanup has rules of its own here. The city's weekly curbside pickup is not for landscaping company material or a complete renovation, so how the debris leaves goes on your estimate."
+    ],
+    "facts": [
+      { "label": "Front yard rule", "value": "65% stays vegetated" },
+      { "label": "Oak and elm pruning", "value": "Not April 1 to October 15" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you work in Birmingham, MI?", "a": "Yes. HD Landscape is a landscaper based in St. Clair Shores, and Birmingham is one of the towns we work in most. We do [design](/landscape-design-birmingham-mi/), [renovation](/landscape-renovation-birmingham-mi/), [sod](/sod-installation-birmingham-mi/), [hedge trimming](/hedge-trimming-birmingham-mi/), [monthly maintenance](/landscape-maintenance-birmingham-mi/) and [cleanups](/yard-cleanup-birmingham-mi/) here. We do not do sprinklers or aeration, and the big tree removals get passed along to a tree company." },
+    { "q": "Can you landscape under a big shade tree?", "a": "Yes, and carefully. Most of a tree's roots often sit in the top 18 inches of soil, so the soil level should stay where it belongs at the trunk. The plants have to handle the shade, and in Birmingham they also have to clear the city's prohibited species list." },
+    { "q": "What are the front yard rules in Birmingham?", "a": "The big one is in the zoning code: at least 65% of the front open space in single family districts has to stay vegetated, and permeable pavers do not count. In the strip by the street, plantings are limited to 2 feet, street trees aside, and improvements need a Special Treatment permit from Engineering. The city has the final word." },
+    { "q": "Who owns the tree in front of my house?", "a": "If it stands in the strip by the street, usually the city, and all work on a public tree must be done or approved by the city. On a few streets a tree just inside the sidewalk is shared, and the city still maintains it. Birmingham's Department of Public Services can confirm which you have. Our [tree trimming](/tree-trimming-birmingham-mi/) is for private trees." },
+    { "q": "How does fall leaf pickup work in Birmingham?", "a": "Your street decides. On curbed streets, leaves go next to the curb the weekend before your zone's window, and the zone map is new each year. On uncurbed streets, they go out in brown paper bags or a decal bin by 7 a.m. on trash day. A [fall cleanup](/yard-cleanup-birmingham-mi/) can be timed around your dates." },
+    { "q": "Can you keep up the yard after the project?", "a": "Yes. [Monthly landscape maintenance](/landscape-maintenance-birmingham-mi/) keeps the beds, hedges and edges looking the way they did the day we finished. With box tree moth now on private properties in Birmingham, it also puts someone in the beds often enough to notice." }
+  ],
+  "reviews": ["mark-r", "billy-w", "marie-b"],
+  "neighbors": ["bloomfield-hills", "beverly-hills", "royal-oak", "troy"]
+}

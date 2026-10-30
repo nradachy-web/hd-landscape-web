@@ -1,0 +1,49 @@
+{
+  "service": "pressure-washing",
+  "city": "west-bloomfield",
+  "meta": {
+    "title": "Pressure Washing in West Bloomfield, MI | HD Landscape",
+    "description": "Pressure washing for West Bloomfield, MI walks, patios and pavers, with an eye on where the dirty water goes. 5.0 on Google. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Pressure washing in West Bloomfield, MI",
+    "title": "Clean pavers. **Eyes on the runoff.**",
+    "lede": "Shade and damp turn West Bloomfield walks and patios green. HD Landscape washes pavers, concrete and stone back to clean with an eye on the rinse water, because here it may be headed for a lake or wetland.",
+    "chips": ["Walks, patios and pavers", "Rinse water matters here", "Polymeric sand if joints need it"],
+    "photo": "limestone-bed"
+  },
+  "local": {
+    "eyebrow": "Pressure washing in West Bloomfield",
+    "title": "Shade greens the patio. Water changes how we wash it.",
+    "intro": "Woods and water keep a West Bloomfield yard cool and damp, and that is what algae and moss want. The same water is why the runoff matters as much as the grime.",
+    "points": [
+      { "title": "Shade that never quite dries", "body": "A patio under big oaks or beside a pond stays wet long after the rest of the yard has dried. That is where the green film starts, and on a lot that rolls toward the water, a slick walk is more than a looks problem." },
+      { "title": "Rinse water has a destination", "body": "Township code bars putting anything but stormwater into the storm sewers, lakes and streams, apart from a short list of exceptions, and pressure washing is not named on that list. Before the wand comes out, it pays to know where the water will run, and lawn or beds are the place to steer it." },
+      { "title": "Walks close to the water", "body": "West Bloomfield's soil erosion rules are written to keep sediment out of lakes and streams, and a wand held too close can cut into the soil along a patio edge. Near the shore, the spray belongs away from the edge and off bare ground." },
+      { "title": "Joints that wash out", "body": "Pressure lifts weeds out of paver joints and can take loose sand with them. If the joints are empty afterward, we can refill them with [polymeric sand](/polymeric-sand/) so the surface locks up again." },
+      { "title": "A lighter hand on soft surfaces", "body": "Too much pressure scars old concrete and soft stone. Pressure and distance have to match the surface, because a clean patio with etched lines in it is no improvement." }
+    ]
+  },
+  "logistics": {
+    "title": "A West Bloomfield wash day starts with a look downhill.",
+    "body": [
+      "Text us a few photos and tell us what sits downhill: a lake, a pond, a storm drain or a flower bed. Jake will look it over and send back an itemized estimate, and you can add pressure washing to other yard work on the same visit.",
+      "A good wash runs from the high side down, with the grime rinsed off nearby beds and walls at the end. Clear the furniture first if you can, and give the surface time to dry before it goes back."
+    ],
+    "facts": [
+      { "label": "Surfaces", "value": "Walks, patios and pavers" },
+      { "label": "Send first", "value": "Photos of the surface" },
+      { "label": "Often paired with", "value": "Polymeric sand" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "paver-walk",
+  "faq": [
+    { "q": "Do you do pressure washing in West Bloomfield?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in West Bloomfield, MI, including the shady, damp ones that turn green. For siding, a dock or anything else, send a photo and we will give you a straight answer." },
+    { "q": "Can you pressure wash a patio near a lake?", "a": "Yes, with care. Dirty rinse water should not run straight to a lake, a pond or a storm drain, because West Bloomfield Township code limits what can go into them, so how the surface drains matters. Right by the water, grit and soil along the edge need extra care too." },
+    { "q": "Can rinse water go down a storm drain in West Bloomfield?", "a": "Do not count on it. Township code lets only stormwater into the storm sewer system, apart from a list of exceptions that cannot be a significant source of pollutants. Lawn watering runoff, noncommercial car washing and street wash water are on that list, and pressure washing by a contractor is not named. If your patio drains toward a storm drain, check with the township." },
+    { "q": "How do you get green algae off pavers?", "a": "Pressure washing takes off the film of algae and moss along with the grime under it. In full shade it will come back over time, because the conditions that grew it are still there. [Trimming a low limb](/tree-trimming-west-bloomfield-mi/) to let in more light can slow it down, though an oak limb should wait for the cold months. Jake spends the winter working in South Florida, so he will tell you whether he can reach that limb or who can." },
+    { "q": "When is a good time to wash a patio under oaks?", "a": "Any dry stretch above freezing works. Spring clears off winter grime, and late fall, once most of the oak leaves are down, gets the leaf stains off before the cold." }
+  ],
+  "reviews": ["rob-e", "marie-b"]
+}

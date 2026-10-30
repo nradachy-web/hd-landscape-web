@@ -1,0 +1,125 @@
+{
+  "service": "pressure-washing",
+  "meta": {
+    "title": "Pressure Washing in St. Clair Shores, MI | HD Landscape",
+    "description": "Walks, patios and pavers cleaned without blasting out the joints. HD Landscape works from St. Clair Shores across Metro Detroit. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Pressure washing in St. Clair Shores, MI and Metro Detroit",
+    "title": "Your pavers are **still under there.**",
+    "lede": "HD Landscape brings walks, patios and pavers back from grime and green. A wide, low spray takes the dirt off and leaves the sand in the joints, which is the difference between a clean patio and a loose one.",
+    "chips": ["Walks, patios and pavers", "Anything else, send a photo", "Free itemized estimates"],
+    "photo": "ai-pressure"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What it takes off",
+      "title": "Clean the surface. **Leave the joints.**",
+      "body": [
+        "Pressure washing takes off what a broom and a hose cannot: packed in grime, green growth and the gray film a walk or patio picks up over the years. We do it on the hard surfaces around the yard: walks, patios and pavers.",
+        "The hard part is knowing when to stop. Pavers stay locked together because of the sand in their joints, and aggressive cleaning is one of the ways that sand gets lost. A narrow tip held close cleans fast and can leave you with empty joints. A wide spray at a low angle, kept from running down the joints, is how the sand stays put.",
+        "St. Clair Shores is home for us. The city grew fast after the Second World War, so plenty of walks here have decades of weather on them, and the flat, slow draining ground leaves spots that stay damp and turn green. We wash those walks, and the ones across Metro Detroit."
+      ],
+      "photo": "paver-walk"
+    },
+    {
+      "type": "cards",
+      "plane": "ink",
+      "eyebrow": "What is on your pavers",
+      "title": "The color usually tells you what you are washing off.",
+      "intro": "Gray, green, white and dark each get handled differently, and some of it only looks like dirt.",
+      "columns": 4,
+      "items": [
+        { "tag": "Gray", "title": "Everyday grime", "body": "Dirt from shoes, weather and falling leaves. Water and a wide spray usually take it off. This is the easy one." },
+        { "tag": "Green", "title": "Moss and algae", "body": "They grow where paving stays damp and shady. Washing removes them. If they come back fast, something is keeping that spot wet, and that is the part to fix." },
+        { "tag": "White", "title": "Efflorescence", "body": "A white haze of natural salts that moisture carries to the surface. It is cosmetic and can wear away with time. To take it off sooner, it needs a paver cleaner, not more pressure." },
+        { "tag": "Dark", "title": "Oil and leaf stains", "body": "These soak in. Water may only lighten them, and some take a stain treatment or a few rounds, so plan on lighter, not always gone." }
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "Surface by surface",
+      "title": "Concrete pavers can take more pressure than clay brick.",
+      "intro": "Many pavers that look like brick are actually concrete, and the two do not clean the same way, so it pays to know which one you have before the washer starts.",
+      "columns": ["Concrete pavers", "Clay brick pavers", "Poured concrete"],
+      "rows": [
+        { "label": "Main risk", "values": ["Spray that empties the joints", "Too much pressure can mark the brick and erode mortar", "Streaks from uneven passes"] },
+        { "label": "How to wash", "values": ["Wide fan, low angle, never down the joint", "Low pressure only, with the nozzle held well back", "Steady distance and even, overlapping passes"] },
+        { "label": "What to check after", "values": ["Joint sand levels", "Joints and any loose bricks", "Low spots that hold water"] }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "A careful wash",
+      "title": "A good wash starts with the wand off.",
+      "intro": "This is how a wash should go, whoever is holding the wand.",
+      "steps": [
+        { "title": "Look", "body": "Jake looks over the surface, the joints and the stains, and says what should come off and what may not." },
+        { "title": "Clear", "body": "Pots, furniture and anything loose come off the surface, and it helps to know where the water will run before it starts." },
+        { "title": "Try a spot", "body": "A small, out of the way spot shows whether the pressure leaves marks or moves sand, before the whole surface gets it." },
+        { "title": "Treat", "body": "Stains get attention before the full wash, because pressure alone rarely lifts what has soaked in." },
+        { "title": "Wash", "body": "The fan stays low and the passes stay steady. The spray crosses the joints and does not run along them." },
+        { "title": "Rinse and look", "body": "The final rinse is water only. A clean surface then shows whether the joints need sand." }
+      ],
+      "footnote": "A rule of thumb from the concrete paver trade for patios and walks: when joint sand has dropped more than about half an inch, it is time to add more."
+    },
+    {
+      "type": "intro",
+      "plane": "ink",
+      "eyebrow": "After the wash",
+      "title": "Clean pavers show **every empty joint.**",
+      "body": [
+        "Even a careful wash can move some sand, and a clean surface makes any gaps easy to see. That is useful, because it is the right moment to deal with them.",
+        "Order matters. Wash first, let everything dry, then fill the joints. Do it the other way around and you risk lifting fresh joints back out. Polymeric sand makers ask for about 30 days before any hard washing."
+      ],
+      "checks": [
+        "Small gaps: a top up of dry joint sand may be all it needs",
+        "Weedy or washed out joints: polymeric sand, once the old joint is cleared",
+        "Rocking or sunken pavers: that is a base problem, and more sand will not fix it"
+      ],
+      "photo": "urn-bed",
+      "flip": true,
+      "cta": { "label": "How polymeric sand works", "href": "/polymeric-sand/" }
+    },
+    {
+      "type": "reviews",
+      "plane": "white",
+      "eyebrow": "Other jobs, same habits",
+      "title": "**No pressure,** except on the pavers.",
+      "intro": "These customers hired us for other yard work, so none of them are talking about pressure washing. The habits are the same on every job: show up when we said, spell out the cost and leave it clean.",
+      "ids": ["mark-r", "anne-j", "meagan-m"]
+    }
+  ],
+  "faq": [
+    { "q": "Do you do pressure washing in St. Clair Shores?", "a": "Yes. HD Landscape is based in St. Clair Shores and pressure washes walks, patios and pavers here and across Metro Detroit. Call or text [(586) 718-8762](tel:+15867188762) to set up a free estimate." },
+    { "q": "What do you pressure wash?", "a": "Walks, patios and pavers. For anything else, such as a driveway, send a photo first so Jake can see whether it is a job we can take on." },
+    { "q": "Will pressure washing damage my pavers?", "a": "It can if it is done badly. A narrow tip held close can blow out joint sand, and too much pressure can mark softer surfaces. Done well, a wash starts on a small spot and stays a wide spray at a low angle that does not run down the joints." },
+    { "q": "What PSI is safe for pavers?", "a": "There is no single number, because the surface decides it. The Concrete Masonry and Hardscapes Association lists 1,000 to 4,000 psi for professional cleaning of concrete pavers, while the Brick Industry Association says no more than 400 psi on clay brick unless the maker allows more. The safe way in is to start low with a wide fan tip and go up only if a small spot shows the surface can take it." },
+    { "q": "Do pavers need new sand after pressure washing?", "a": "Often, yes, at least a little. Even careful washing can move some joint sand, so look at the joints once the surface is dry. If the sand has only dropped a bit, a top up may do it. If the joints are weedy or keep washing out, [polymeric sand](/polymeric-sand/) may be the better fix." },
+    { "q": "What is the white haze on my pavers?", "a": "It is probably efflorescence, natural salts that moisture carries to the surface and leaves behind as it dries. It does not hurt the pavers and it tends to fade with time. Pressure alone will not cure it. If you would rather not wait, it takes a cleaner made for the job, tried on a small spot first." },
+    { "q": "Why do my pavers keep turning green?", "a": "Shade and moisture. Moss and algae settle in where paving stays damp, often on the shady side of a house, under trees or where a downspout lets out. Washing removes the growth, but the spot will go green again if it stays wet. Jake can point out what is keeping it damp, and if the problem is drainage, [yard grading](/yard-grading/) may help." },
+    { "q": "How often should I pressure wash my pavers?", "a": "Only when it needs it. Regular sweeping keeps most paving clean, and washing more than you have to wears on the joint sand. A good time to call is when a broom and a hose have stopped working." },
+    { "q": "What time of year should I pressure wash in Michigan?", "a": "Spring is the natural time, because a yearly look over of your pavers belongs in the spring anyway, and a wash clears off what winter left behind. Fall is a chance to deal with leaf stains before the cold. Wait until temperatures are safely above freezing, since a wet surface can turn to ice. It pairs well with a [spring or fall cleanup](/spring-and-fall-cleanups/)." },
+    { "q": "Can you get oil stains out of pavers?", "a": "Sometimes. Oil soaks in, so water alone may only lighten it, and deep stains can take repeated treatment. Plan on lighter, not always gone. A photo of the stain is a good start, and Jake can give you a straight answer from there." },
+    { "q": "Where does the water go when you pressure wash?", "a": "Dirty wash water should stay out of storm drains, because storm drains generally lead to lakes and streams, and around here that can mean Lake St. Clair. So the runoff needs thought before the water goes on, and plain water is the first choice. If you are washing on your own, ask your city what it allows, because local rules vary." },
+    { "q": "How much does pressure washing cost?", "a": "That comes down to how much surface there is, what is on it and how the joints look, so Jake prices it once he has seen it. A photo by text is a fine start. Seeing it is free, and you end up with an itemized estimate you can go through line by line." }
+  ],
+  "quote": {
+    "title": "Show us the worst spot.",
+    "lede": "Tell us what the surface is and what is on it, or text a photo. Jake will look it over, itemize the estimate and give you a straight answer on what will come off."
+  },
+  "summary": {
+    "title": "Clean paving, with the sand still in the joints.",
+    "intro": "Clean pavers are the goal, and sound joints are the part people forget. Your itemized estimate spells out the job before any water comes out of the wand.",
+    "items": [
+      { "name": "What gets washed", "detail": "Walks, patios and pavers. For anything else, send a photo." },
+      { "name": "What comes off", "detail": "Grime and green growth. Deep stains may only lighten." },
+      { "name": "What the wash shows", "detail": "Gaps in the joints, if there are any, and whether they need sand." }
+    ],
+    "footnote": "If the joints need more than a wash, see [polymeric sand](/polymeric-sand/)."
+  }
+}

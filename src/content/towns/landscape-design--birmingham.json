@@ -1,0 +1,96 @@
+{
+  "service": "landscape-design",
+  "city": "birmingham",
+  "meta": {
+    "title": "Landscape Design in Birmingham, MI | HD Landscape",
+    "description": "Landscape design for Birmingham, MI homes, drawn by HD Landscape around old shade, small lots and the city's planting rules, then built by our crew."
+  },
+  "hero": {
+    "kicker": "Landscape design in Birmingham, MI",
+    "title": "A plan that fits **the lot you have.**",
+    "lede": "Most Birmingham lots are small, shaded and looked at closely. At HD Landscape, Jake walks yours first, then draws a plan around your light, your trees and the city's rules on what can go where.",
+    "chips": [
+      "Drawn for your light",
+      "Built by our crew",
+      "Free itemized estimate"
+    ],
+    "photo": "dusk-patio"
+  },
+  "local": {
+    "eyebrow": "Design in Birmingham",
+    "title": "On a small lot, the city weighs in **before the plants do.**",
+    "intro": "Two of every three single family parcels here sit in the R2 and R3 districts, where the minimum lot is 6,000 or 4,500 square feet. On a lot that size there is no back corner to hide a mistake, and the city has firm ideas about the front yard, the strip by the street and the plants themselves.",
+    "points": [
+      {
+        "title": "The front yard stays mostly green",
+        "body": "The zoning code requires at least 65% of the front open space to stay vegetated, and pavers do not count as green, even permeable ones. A front walk 3 feet wide or narrower does not count as an impervious surface, and a wider one does. A big stone bed deserves the same measuring before it goes on the plan."
+      },
+      {
+        "title": "The old shade fixes are not allowed",
+        "body": "English ivy and periwinkle, the old answers for a dark bed under a maple, are on the city's prohibited species list, along with euonymus, Japanese barberry and common privet. The list covers private yards too, so a plan here works around it from the start."
+      },
+      {
+        "title": "The strip by the street plays by other rules",
+        "body": "The ground between the walk and the curb is public right of way. Plantings there are limited to 2 feet, street trees aside, and any improvement needs a Special Treatment permit from Engineering. Most of the time the design money does more inside the walk."
+      },
+      {
+        "title": "A rain garden can earn a credit",
+        "body": "Birmingham charges a storm water fee and runs a Rain Garden Program for single family homes, with a fee credit for a garden that qualifies. It has to catch water headed for the sewer, which usually means the front half of the lot, and the city's guide says to keep it out from under existing trees. If you want one, say so at the walk through."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "Jake reads the lot first, then draws the plan.",
+    "body": [
+      "Jake starts on the property, looking at where the sun lands, what the big trees are doing and where water runs after a storm. You tell him how you use the yard. He tells you what he would do and what he would leave alone.",
+      "You get the plan and an itemized estimate you can go through line by line. Our crew does the installation, so the person who drew the plan is the one answering for how it turns out. We work in Birmingham often, and we know the neighbors will be looking.",
+      "One calendar note: if your home sits in a local historic district, exterior work needs the city's approval first, and applications go in three weeks before the Historic District Commission meets. Ordinary maintenance does not go to the commission. We would rather plan for that than find out in May."
+    ],
+    "facts": [
+      {
+        "label": "Starts with",
+        "value": "Jake walking the property"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "Built by",
+        "value": "Our own crew"
+      },
+      {
+        "label": "Not included",
+        "value": "Sprinkler systems"
+      }
+    ]
+  },
+  "photo": "grand-brick",
+  "faq": [
+    {
+      "q": "Do you do landscape design in Birmingham?",
+      "a": "Yes. HD Landscape designs and builds landscapes in Birmingham, MI. Jake draws the plan around your light, your trees and the city's planting rules, and our own crew does the installation. Sprinkler systems are not part of it."
+    },
+    {
+      "q": "Do I need city approval for a landscape plan in Birmingham, MI?",
+      "a": "Plants and beds on your own lot generally do not need it, but parts of a plan can. Anything in the right of way needs a permit from Engineering, and a new walk goes through the Building Department. Local historic districts cluster around downtown, Shain Park, Bates Street and the Mill Pond area, with a few single properties elsewhere, and exterior work there needs approval first. We will flag what we see, and the city has the final word."
+    },
+    {
+      "q": "What can I plant instead of ivy or vinca under a big tree?",
+      "a": "In Birmingham, English ivy and periwinkle, also sold as vinca, are on the city's prohibited species list, so they are out. The right replacement comes down to how much light the spot gets and how much water the roots take. Hostas are a common start, since they can live in deep shade, though they want extra water under shallow rooted maples and deer like them. For evergreen shrubs, the city suggests yews and inkberry holly as alternatives to boxwood."
+    },
+    {
+      "q": "Can a rain garden lower my storm water bill in Birmingham?",
+      "a": "It can. The city gives a storm water fee credit for a qualifying rain garden on a single family lot, and its Rain Garden Program has its own applications and asks you to keep the garden up for two years. Location decides a lot of it: on a typical lot the front half drains to the street, so a rear yard rain garden may not qualify. Confirm the current terms with the city before you build around the credit."
+    },
+    {
+      "q": "Do deer eat new plantings?",
+      "a": "They can. Birmingham notes that deer have adjusted to living in and around urban areas, and it suggests choosing plants they do not like. If deer come through your yard, tell Jake at the walk through so the plant list can allow for it."
+    }
+  ],
+  "reviews": [
+    "amanda-h",
+    "billy-w",
+    "gina-d"
+  ]
+}

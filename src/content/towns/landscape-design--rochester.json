@@ -1,0 +1,48 @@
+{
+  "service": "landscape-design",
+  "city": "rochester",
+  "meta": {
+    "title": "Landscape Design in Rochester, MI | HD Landscape",
+    "description": "Landscape design for Rochester, MI homes: lot size, privacy, native plants and city rules planned before we dig, then built by our crew. Free estimates."
+  },
+  "hero": {
+    "kicker": "Landscape design in Rochester, MI",
+    "title": "Plan for the **full grown yard.**",
+    "lede": "Rochester homeowner groups have told the city that some trees were planted so tight they ran out of room and died. HD Landscape designs for the size a plant reaches, the lot you have and the rules here, and then our crew builds it.",
+    "chips": ["Spaced for full size", "Native options talked through", "Planned and built by us"],
+    "photo": "maple-modern"
+  },
+  "local": {
+    "eyebrow": "Design in Rochester",
+    "title": "A small Rochester lot has no spare corners.",
+    "intro": "Older Rochester neighborhoods tend to have smaller lots and newer ones larger lots, and the master plan's recommended minimums for single family areas run from 6,000 to 15,000 square feet. Near that size, spacing, privacy and plant choice do most of the work.",
+    "points": [
+      { "title": "Privacy out front is a planting job", "body": "The city's fence page caps fences at six feet and keeps them in rear or side yards. So screening a front yard falls to plants, and corner lots have a clearance rule to check first. The right shape gives you privacy without blocking the view from the drive." },
+      { "title": "Room for the full grown plant", "body": "A good plan draws each tree and shrub at its grown size first, then fills in around it. A new bed may look a little open on day one, and that is how it should look. A few years later it looks full instead of crowded, and nothing has to be torn out." },
+      { "title": "Native swaps, and plants to skip", "body": "The city publishes native alternatives to common picks, such as red osier dogwood for dwarf burning bush. Its list also notes that Callery pear, Japanese barberry and two buckthorns go on Michigan's restricted list on January 1, 2028, which makes them poor picks for a new plan." },
+      { "title": "Water after the crew leaves", "body": "From May 1 to October 1 the city asks for voluntary sprinkler limits: nothing automatic from 5 a.m. to 11 p.m., and odd or even dates by address. New sod and seed get 21 days of leeway. New beds are not mentioned, so settle who waters them before planting day, and ask about [plant watering](/plant-watering/) if that cannot be you." }
+    ]
+  },
+  "logistics": {
+    "title": "A Rochester plan starts with what is already on the lot.",
+    "body": [
+      "The first walk with Jake looks for what can change a Rochester plan: a big tree that may be protected, a creek behind the property, an alley that makes access easy. Then the two of you work out the plan around how you actually use the yard.",
+      "The itemized estimate is built from that plan. If your subdivision has an association, ask early whether it wants to see it. The build runs in order: ground first, then stone and edging, plants, and mulch or sod. Jake calls after to go over watering."
+    ],
+    "facts": [
+      { "label": "Who plans it", "value": "Jake, on your property" },
+      { "label": "Who builds it", "value": "Our crew" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinkler installation" }
+    ]
+  },
+  "photo": "tudor-planting",
+  "faq": [
+    { "q": "Do you do landscape design in Rochester, MI?", "a": "Yes. HD Landscape designs and builds landscapes in the City of Rochester, MI, so the company that plans the yard is the company that puts it in. Jake walks the property and works from your lot, your light and how you use the yard. A big tree that has to go is work for a tree company. Call or text [(586) 718-8762](tel:+15867188762) to set up a free estimate." },
+    { "q": "Can you design around the big tree in my yard?", "a": "Yes, and that is usually the right call. A large healthy tree in Rochester may count as a landmark tree under the city's ordinance, and the ordinance keeps construction activity out from under its branches. So material staging, grade changes and new beds should stay clear of the roots from the start." },
+    { "q": "Does Rochester help pay for native trees?", "a": "The city has offered a rebate called Tree-Bate for approved native trees on private property. Funds are limited, it is one tree per resident, and the City Forester has to visit and approve the species first, so call before you buy. Ask the city what is available this year, and we can work the tree into your plan." },
+    { "q": "Can you design a yard that backs up to the Clinton River?", "a": "Yes. Properties on the Clinton River, Paint Creek or Stony Creek have a required 30 foot stabilization zone at the water, so that line goes on the plan first. The city also suggests a 15 foot buffer along the water where you hold off on fertilizer. Anything built close to the bank is a question for the city first." },
+    { "q": "Will deer go after a newly planted tree?", "a": "They can, even in town. Rochester's tree rebate form asks for a photo showing a new tree staked if needed, or protected from deer with pipe or tree wrap. Young trunks deserve protection from the start, and no plant is deer proof." }
+  ],
+  "reviews": ["billy-w", "gina-d", "amanda-h"]
+}

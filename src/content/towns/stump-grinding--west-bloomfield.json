@@ -1,0 +1,49 @@
+{
+  "service": "stump-grinding",
+  "city": "west-bloomfield",
+  "meta": {
+    "title": "Stump Grinding in West Bloomfield, MI | HD Landscape",
+    "description": "Stump grinding in West Bloomfield, MI: stumps ground below grade, with glacial stone, buried lines and water in mind. 5.0 on Google. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Stump grinding in West Bloomfield, MI",
+    "title": "The stump goes. **The ground comes back.**",
+    "lede": "A stump is a mower's enemy and an eyesore by the front walk. HD Landscape grinds West Bloomfield stumps below grade, leaving ground you can turn into new lawn or a bed, and buried lines get marked before the grinder starts.",
+    "chips": ["Ground below grade", "Buried lines marked before digging", "Ready for lawn or a bed"],
+    "photo": "sod-backyard"
+  },
+  "local": {
+    "eyebrow": "Stumps in West Bloomfield",
+    "title": "The hard part of a West Bloomfield stump is what sits around it.",
+    "intro": "A stump looks about the same in every town. The ground does not. West Bloomfield sits on what the glaciers left behind, many lots are close to water, and township code treats a lot of that ground differently.",
+    "points": [
+      { "title": "Glacial stone in the ground", "body": "Much of the ground here is glacial till, a mix that runs from gravel and clay up to boulders. A buried stone near the roots is hard on a grinder, so the ground around a stump deserves a look before the machine starts." },
+      { "title": "Lines you cannot see", "body": "Michigan law treats moving earth below grade with power equipment as excavation, and MISS DIG 811 says lines must be flagged first. Its locates cover public utilities, so tell us about private lines such as a dog fence or a line to a shed." },
+      { "title": "Stumps close to the water", "body": "A stump in the strip right beside a lake or wetland is a different job. Grinding moves soil and wood, and the township generally wants a say in that so close to the water. Ask first, and sometimes leaving it is the better call." },
+      { "title": "Fresh oak stumps", "body": "From mid March through October, the Michigan Oak Wilt Coalition tells cities and utilities to treat a fresh oak stump like a new wound and seal it right away. If a tree has just come down, tell us the species and the date it was cut." },
+      { "title": "Roots and grindings", "body": "The township's curbside hauler does not take stumps or roots, so they need another way out. Your estimate spells out what happens to the grindings, and we talk through what goes back in the hole if the spot is headed for [sod](/sod-installation/) or a bed." }
+    ]
+  },
+  "logistics": {
+    "title": "On a West Bloomfield lot, getting to the stump can be the job.",
+    "body": [
+      "Send a photo of the stump with something in the frame for scale, and tell us how wide your gate is and what the ground is like on the way there. Lake lots can be narrow, and a rolling back yard can be the hard part of the job. Jake gives you an itemized estimate before anything is scheduled.",
+      "Michigan's dig notice has to go in at least three business days ahead, so plan on that. Once lines are marked, we grind the stump below grade. If a smaller tree is still standing, we can [take it down](/tree-trimming-west-bloomfield-mi/) and grind the stump on the same job, then [grade](/yard-grading/) or plant the spot if you want it finished. A bigger tree is for a tree company, and the grinding can follow once it is down."
+    ],
+    "facts": [
+      { "label": "Result", "value": "Ground below grade" },
+      { "label": "Before digging", "value": "Buried lines get marked" },
+      { "label": "Tell us", "value": "Gate width and a photo" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ai-stump",
+  "faq": [
+    { "q": "Do you do stump grinding in West Bloomfield?", "a": "Yes. HD Landscape grinds stumps below grade in West Bloomfield, MI, on lake lots, wooded lots and subdivision yards. Tell us what you want there next, lawn or a bed, because that decides how far down the grinding needs to go." },
+    { "q": "Can you grind a stump near a lake or wetland in West Bloomfield?", "a": "Often, but check first. West Bloomfield Township protects the 25 foot strip around lakes, ponds, streams and wetlands, and removing soil or vegetation there generally takes a permit. Jake can look at where the stump sits and point you to the township when it is close." },
+    { "q": "Do utility lines have to be marked before stump grinding?", "a": "Yes. Grinding below grade with power equipment fits Michigan's definition of excavation, so a MISS DIG 811 notice has to go in at least three business days ahead. The markings cover public utilities. Anything private, like a dog fence or a buried line out to a shed or dock, is worth pointing out before the grinder starts." },
+    { "q": "Will the West Bloomfield trash hauler take my stump?", "a": "No. The township's definition of yard clippings leaves out stumps and roots, so they do not go to the curb. Curbside pickup is for lighter material such as bundled brush, leaves and garden debris." },
+    { "q": "What happens to the roots after a stump is ground?", "a": "Roots right around the stump get ground with it. The rest stay in the soil and break down slowly, which is normal. If the tree was an oak lost to oak wilt, ask before planting another oak there, since the fungus can survive in roots for perhaps three to four years." }
+  ],
+  "reviews": ["anne-j", "rob-e"]
+}

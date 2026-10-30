@@ -1,0 +1,98 @@
+{
+  "service": "hedge-trimming",
+  "city": "clinton-township",
+  "meta": {
+    "title": "Hedge Trimming in Clinton Township, MI | HD Landscape",
+    "description": "Hedge trimming for Clinton Township: overgrown foundation shrubs and tall arborvitae brought back to a clean line, sight lines clear. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Hedge trimming in Clinton Township, MI",
+    "title": "Forty years of growth, **back in line.**",
+    "lede": "Hedges planted when these subdivisions were new have had decades to get wide, tall and bare at the bottom. HD Landscape brings Clinton Township hedges back to a clean line and tells you how far each one can safely go.",
+    "chips": [
+      "Overgrown hedges brought back",
+      "Sight lines kept clear",
+      "Walks kept open"
+    ],
+    "photo": "tall-hedge"
+  },
+  "local": {
+    "eyebrow": "Hedges in Clinton Township",
+    "title": "**What an old hedge needs** on a Clinton Township lot.",
+    "intro": "Most homes here went up between the 1970s and the 1990s, and many of their hedges are the same age. On a subdivision lot, that hedge is often the privacy screen, the property line and the thing the neighbors look at all day.",
+    "points": [
+      {
+        "title": "Old hedges come back slowly",
+        "body": "A hedge that has gone years without a trim is rarely fixed in one cut. Yew can take a hard cut, though the old wood is slow to fill in. Juniper will not come back from one. Jake looks at what you have and brings it down in stages where it needs that."
+      },
+      {
+        "title": "Clear at corners and driveways",
+        "body": "The township wants sight lines clear within a 15 foot triangle at intersections and driveways. A hedge that has crept toward the drive is a real problem when you are backing out, so those sections should come down first."
+      },
+      {
+        "title": "Off the sidewalk",
+        "body": "Bushes and limbs hanging over the sidewalk or road are the owner's job here. We bring the street side back to the walk when the plant has enough green left to survive it. When it does not, we say so before we cut."
+      },
+      {
+        "title": "A shared hedge means your side only",
+        "body": "The township's building FAQ says that if a tree is on the lot line or overhangs it, you may only cut the part on your property. We treat a shared hedge the same way, so talk to the neighbor first. Both sides trimmed at once usually looks better anyway."
+      },
+      {
+        "title": "Keep an eye on boxwood",
+        "body": "Macomb County is inside Michigan's box tree moth quarantine. Look for leaves chewed to the midrib and webbing. If you see it, show Jake before the shears come out. MSU Extension says infested clippings get double bagged for the trash, not composted or left at the curb."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "The calendar decides how hard a hedge can be cut.",
+    "body": [
+      "Bigger cuts belong in early spring before new growth, shaping trims come once that growth fills out in late spring or early summer, and hard cutting stops by mid summer. Text Jake a photo and he can tell you which one your hedge needs.",
+      "Many home hedges are finished in one visit. Township pickup limits bags and bundles to 50 pounds and branches to under 4 feet, which is a lot of tying for a long hedge. Its branch chipping runs May through September and will not take branches from a contractor's work. The township says disposal belongs in the contractor's service, so how the clippings leave goes on your estimate."
+    ],
+    "facts": [
+      {
+        "label": "How long",
+        "value": "Often one visit"
+      },
+      {
+        "label": "Sight triangle",
+        "value": "15 feet at corners and driveways"
+      },
+      {
+        "label": "Hard cuts stop",
+        "value": "By mid summer"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      }
+    ]
+  },
+  "photo": "hedge-curve",
+  "faq": [
+    {
+      "q": "Do you trim hedges in Clinton Township?",
+      "a": "Yes. HD Landscape trims hedges in Clinton Township, one of the towns we work in most, and bush trimming is one of the things customers mention most in our Google reviews. We trim everything from low boxwood to tall arborvitae, for homes and commercial properties."
+    },
+    {
+      "q": "How far can you cut back an overgrown hedge?",
+      "a": "The plant decides. Yew takes a hard cut but fills in slowly, and juniper does not regrow from one. For a hedge that has doubled in size, Jake will say how far it can come down, and whether it should happen in stages or be [pulled and replaced](/plant-removal/)."
+    },
+    {
+      "q": "Can I trim my neighbor's hedge where it hangs over the fence?",
+      "a": "Only your side. Clinton Township's FAQ says that about trees on or over the lot line, and the same common sense applies to a hedge. A quick talk with the neighbor first is worth it, and we can quote both sides if you both agree."
+    },
+    {
+      "q": "How do I keep a hedge from blocking the view at my driveway?",
+      "a": "Keep it low or cut back inside the 15 foot sight triangle the township requires at intersections and driveways. We can bring that section down and shape the rest so it does not look chopped. Most roads here fall under the Macomb County Department of Roads, so confirm the details before a new hedge goes in."
+    },
+    {
+      "q": "Can you keep my hedges trimmed through the season?",
+      "a": "Yes. A formal clipped hedge needs at least two trims a year, which also keeps the street side off the walk and the driveway corner clear under the township's 15 foot sight line rule. We can work that into [monthly landscape maintenance](/monthly-landscape-maintenance/), and what each visit covers is set on your estimate."
+    }
+  ],
+  "reviews": [
+    "anne-j",
+    "nancy-g"
+  ]
+}

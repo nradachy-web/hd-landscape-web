@@ -1,0 +1,51 @@
+{
+  "city": "grosse-pointe-park",
+  "meta": {
+    "title": "Landscaping in Grosse Pointe Park, MI | HD Landscape",
+    "description": "Landscaping for Grosse Pointe Park, MI: flat, wet ground, old elms and lots from alley bungalows to Windmill Pointe. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Grosse Pointe Park, MI",
+    "title": "From alley bungalows **to Windmill Pointe.**",
+    "lede": "Grosse Pointe Park runs from brick bungalows with alley garages to big homes along Three Mile and Windmill Pointe Drive. HD Landscape plans and keeps yards here with a close eye on water and the city's old elms.",
+    "chips": ["Grading that moves water", "Hedges and beds", "Planned around old elms"],
+    "photo": "dusk-column"
+  },
+  "about": {
+    "eyebrow": "Yards in the Park",
+    "title": "The Pointe where **the water question** comes first.",
+    "body": [
+      "Grosse Pointe Park has three kinds of lot, by the city's own master plan: under 7,000 square feet with a garage on the alley, mid size lots with deeper setbacks and taller trees, and lots over 18,000 square feet with long front yards, mostly on Three Mile and Windmill Pointe Drive. Over half of its single family homes went up before 1939, so most of these yards hold decades of planting, and what suits one kind of lot rarely suits the next.",
+      "People here talk about north or south of Jefferson, and the ground changes with it. Toward Mack, USDA soil maps show poorly drained clay and lake sediment. Toward the water they show soils mapped as rarely flooded, and rarely is not never. Either way the land is flat, and with downspout disconnection now mandatory where feasible, the rain off your roof stays on your lot."
+    ],
+    "points": [
+      { "title": "Roof water stays home", "body": "The city requires downspouts to be disconnected from the sewer where feasible, so roof water lands on the ground. Beds and lawn have to carry it away from the house, and the city allows no drainage onto city property." },
+      { "title": "Elms worth guarding", "body": "A city forestry sheet has put the count of mature American elms on city easements at nearly 700, down from 4,000 in 1951. Those trees are the city's, so grading, digging and piled material belong well clear of their roots." },
+      { "title": "A hedge can be a fence", "body": "The zoning ordinance can treat a continuous hedge as a living fence, and fences are not allowed in a front yard. On a lot on the water, the water side counts as the front. Ask the city before planting a privacy row." },
+      { "title": "A city that checks yards", "body": "An August 2026 property maintenance letter from the city names overgrown vegetation in front, side and rear yards and along alleys. Steady bed care and a good cleanup keep the overgrowth off your list." }
+    ],
+    "photo": "hosta-bed"
+  },
+  "logistics": {
+    "title": "The curb and the alley **both have rules here.**",
+    "body": [
+      "It starts with Jake on your lot, looking at how water moves before talking about plants. Then he tells you what he would do and writes an itemized estimate you can go through line by line.",
+      "The city does not let landscape companies set leaves at the curb, and its yard waste pickup excludes debris from private companies. So what we collect here goes out with the crew. Alleys are meant to stay open too, so deliveries and parking on an alley lot get settled ahead of time."
+    ],
+    "facts": [
+      { "label": "Downspouts", "value": "Off the sewer where feasible, by city rule" },
+      { "label": "City elms", "value": "Public Works only. Call them first." },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you work in Grosse Pointe Park, MI?", "a": "Yes. Grosse Pointe Park is one of the places HD Landscape works most, on small alley lots and big ones alike. We do [full renovations](/landscape-renovation-grosse-pointe-park-mi/), [yard grading](/yard-grading/), [sod](/sod-installation-grosse-pointe-mi/), [hedge trimming](/hedge-trimming-grosse-pointe-mi/), [monthly maintenance](/landscape-maintenance-grosse-pointe-mi/) and [cleanups](/yard-cleanup-grosse-pointe-mi/) here. The same list holds across all five Pointes, including the [Farms](/service-areas/grosse-pointe-farms/), the [Shores](/service-areas/grosse-pointe-shores/), the [Woods](/service-areas/grosse-pointe-woods/) and the [City](/service-areas/grosse-pointe/)." },
+    { "q": "Can my landscaper put leaves at the curb in Grosse Pointe Park?", "a": "No. The city says contractors and landscape companies are responsible for removing leaves, and that placing them at the curb is not permitted. Residents are asked to call Code Enforcement if they see it. Our crew hauls what it collects." },
+    { "q": "Can you trim the elm in front of my house?", "a": "If it is on the city easement, no. Public Works looks after city owned trees, so call them. If the elm is on your own lot, the city's elm sheet says to prune when the tree is dormant. A big one is a job for a tree company, and that is who we would send you to." },
+    { "q": "What trees can I plant in Grosse Pointe Park?", "a": "The city publishes a recommended list that includes eastern redbud, kousa dogwood, hophornbeam, littleleaf linden, river birch and bur oak. It is a good place to start. We match it to your light, your soil and the room you have." },
+    { "q": "What does landscaping cost in Grosse Pointe Park?", "a": "We do not publish prices, because a bungalow front bed and a Windmill Pointe yard are very different jobs. Jake prices yours after he has stood in it, at no charge." }
+  ],
+  "reviews": ["renee-g", "amanda-h", "nancy-g"],
+  "neighbors": ["grosse-pointe", "grosse-pointe-farms", "grosse-pointe-woods", "st-clair-shores"]
+}

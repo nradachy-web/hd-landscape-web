@@ -1,0 +1,468 @@
+---
+/* Sticky header: Jake's logo at real size, the main links, the phone and one
+   action. "Services" opens a four column panel; below 64rem everything folds
+   into a full screen menu. Both are the native popover, so they open, close and
+   take Escape with no script. */
+import Icon from './Icon.astro';
+import { BRAND } from '../data/site';
+import { GROUPS, inGroup } from '../data/services';
+import { AREAS, areaId, inArea, hubPath } from '../data/cities';
+import { href } from '../lib/paths';
+
+interface Props {
+  quoteHref: string;
+  current: string;
+}
+const { quoteHref, current } = Astro.props;
+
+const links = [
+  { label: 'Service areas', path: '/service-areas/' },
+  { label: 'Our work', path: '/gallery/' },
+  { label: 'Reviews', path: '/reviews/' },
+  { label: 'About', path: '/about-us/' },
+];
+const quote = quoteHref.startsWith('#') ? quoteHref : href(quoteHref);
+const logo = href('/logo-white.svg');
+---
+
+<header class="hdr ink">
+  <div class="wrap hdr__row">
+    <a class="hdr__logo" href={href('/')} aria-label={`${BRAND.name} home`}>
+      <img src={logo} width="164" height="53" alt={`${BRAND.name} logo`} decoding="async" fetchpriority="low" />
+    </a>
+
+    <nav class="hdr__nav" aria-label="Main">
+      <ul>
+        <li>
+          <button class="hdr__drop" type="button" popovertarget="mega">Services<Icon name="chevron" /></button>
+        </li>
+        {
+          links.map((l) => (
+            <li>
+              <a href={href(l.path)} aria-current={current === l.path ? 'page' : undefined}>{l.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <div class="hdr__end">
+      <a class="hdr__phone" href={BRAND.phoneHref} data-loc="header">
+        <Icon name="phone" />
+        <span>{BRAND.phone}</span>
+      </a>
+      <a class="btn primary small hdr__cta" href={quote} data-cta="header-quote">Free estimate</a>
+      <button class="hdr__menu" type="button" popovertarget="menu" aria-label="Menu">
+        <Icon name="menu" />
+      </button>
+    </div>
+  </div>
+</header>
+
+<div id="mega" class="mega ink" popover>
+  <nav class="wrap mega__grid" aria-label="All services">
+    {
+      GROUPS.map((g) => (
+        <div>
+          <p class="eyebrow" id={`mg-${g.id}`}>{g.name}</p>
+          <ul aria-labelledby={`mg-${g.id}`}>
+            {inGroup(g.id).map((s) => <li><a href={href(s.path)}>{s.name}</a></li>)}
+          </ul>
+        </div>
+      ))
+    }
+  </nav>
+  <div class="wrap mega__foot">
+    <a class="arrow" href={href('/services/')}>Every service</a>
+  </div>
+</div>
+
+<div id="menu" class="menu ink" popover role="dialog" aria-label="Site menu">
+  <div class="menu__top">
+    <a href={href('/')} aria-label={`${BRAND.name} home`}>
+      <img src={logo} width="164" height="53" alt="" loading="lazy" decoding="async" />
+    </a>
+    <button class="hdr__menu" type="button" popovertarget="menu" popovertargetaction="hide" aria-label="Close menu">
+      <Icon name="close" />
+    </button>
+  </div>
+  <nav class="menu__nav" aria-label="Menu">
+    {
+      GROUPS.map((g) => (
+        <div>
+          <p class="eyebrow">{g.name}</p>
+          <ul>
+            {inGroup(g.id).map((s) => <li><a href={href(s.path)}>{s.name}</a></li>)}
+          </ul>
+        </div>
+      ))
+    }
+    <div>
+      <p class="eyebrow">Service areas</p>
+      <ul>
+        {AREAS.map((a) => <li><a href={href(a === 'South Florida' ? hubPath(inArea(a)[0]) : `/service-areas/#${areaId(a)}`)}>{a}</a></li>)}
+      </ul>
+    </div>
+    <div>
+      <p class="eyebrow">HD Landscape</p>
+      <ul>
+        <li><a href={href('/gallery/')}>Our work</a></li>
+        <li><a href={href('/reviews/')}>Reviews</a></li>
+        <li><a href={href('/about-us/')}>About Jake</a></li>
+        <li><a href={href('/journal/')}>Yard notes</a></li>
+        <li><a href={href('/contact-us/')}>Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="menu__actions">
+    <a class="btn primary" href={href('/get-an-estimate/')} data-cta="menu-quote">Get a free estimate</a>
+    <a class="btn ghost" href={BRAND.phoneHref} data-loc="menu"><Icon name="phone" />Call</a>
+  </div>
+</div>
+
+<script is:inline>
+  /* While the menu is open, the page behind it cannot be reached by keyboard or
+     screen reader, and focus starts on the Close button. */
+  (function () {
+    var menu = document.getElementById('menu');
+    var mega = document.getElementById('mega');
+    if (!menu) return;
+    function rest(on) {
+      Array.prototype.forEach.call(document.body.children, function (el) {
+        if (el !== menu && el.tagName !== 'SCRIPT') el.inert = on;
+      });
+    }
+    if (!('popover' in HTMLElement.prototype)) {
+      /* Older browsers: the same two panels, opened by a class. */
+      document.documentElement.classList.add('no-pop');
+      function shut() {
+        [menu, mega].forEach(function (m) { m.classList.remove('is-open'); });
+        rest(false);
+      }
+      document.addEventListener('click', function (e) {
+        var b = e.target.closest('[popovertarget]');
+        if (!b) return;
+        var t = document.getElementById(b.getAttribute('popovertarget'));
+        var open = t.classList.contains('is-open');
+        shut();
+        if (!open && b.getAttribute('popovertargetaction') !== 'hide') {
+          t.classList.add('is-open');
+          if (t === menu) { rest(true); menu.querySelector('[popovertargetaction="hide"]').focus(); }
+        }
+      });
+      document.addEventListener('keydown', function (e) { if (e.key === 'Escape') shut(); });
+      return;
+    }
+    /* The services panel closes when keyboard focus walks out of it. */
+    mega.addEventListener('focusout', function (e) {
+      var t = e.relatedTarget;
+      if (t && !mega.contains(t) && !t.closest('.hdr__drop')) mega.hidePopover();
+    });
+    menu.addEventListener('beforetoggle', function (e) { rest(e.newState === 'open'); });
+    menu.addEventListener('toggle', function (e) {
+      if (e.newState === 'open') {
+        var close = menu.querySelector('[popovertargetaction="hide"]');
+        if (close) close.focus();
+      }
+    });
+  })();
+</script>
+
+<style>
+  .hdr {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    border-bottom: 1px solid var(--line-ink);
+    background: var(--ink);
+  }
+
+  .hdr__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    min-height: var(--header);
+  }
+
+  .hdr__logo {
+    flex: none;
+    display: block;
+    padding-block: 0.5rem;
+  }
+
+  .hdr__logo img {
+    width: 164px;
+    height: 53px;
+  }
+
+  @media (max-width: 47.99rem) {
+    .hdr__logo img {
+      width: 132px;
+      height: 43px;
+    }
+  }
+
+  .hdr__nav {
+    display: none;
+  }
+
+  .hdr__nav ul {
+    display: flex;
+    align-items: center;
+    gap: clamp(1rem, 2vw, 1.9rem);
+  }
+
+  .hdr__nav a,
+  .hdr__drop {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    min-height: 2.75rem;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--on-ink);
+    font-size: 0.975rem;
+    font-weight: 540;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.18s var(--ease);
+  }
+
+  .hdr__nav a:hover,
+  .hdr__drop:hover,
+  .hdr__nav a[aria-current='page'] {
+    color: var(--leaf);
+  }
+
+  .hdr__drop :global(svg) {
+    width: 0.8em;
+    height: 0.8em;
+  }
+
+  .hdr__end {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+  }
+
+  .hdr__phone {
+    display: none;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 2.75rem;
+    font-weight: 620;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  .hdr__phone:hover {
+    color: var(--leaf);
+  }
+
+  .hdr__phone :global(svg) {
+    width: 1em;
+    height: 1em;
+    color: var(--leaf);
+  }
+
+  .hdr__cta {
+    display: none;
+  }
+
+  .hdr__menu {
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    border: 1px solid var(--line-ink);
+    border-radius: var(--r-sm);
+    background: none;
+    color: var(--on-ink);
+    cursor: pointer;
+  }
+
+  .hdr__menu :global(svg) {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+
+  @media (min-width: 30rem) {
+    .hdr__cta {
+      display: inline-flex;
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .hdr__nav,
+    .hdr__phone {
+      display: flex;
+    }
+
+    .hdr__menu {
+      display: none;
+    }
+  }
+
+  /* between 64 and 72rem the phone becomes an icon, so the links keep their room */
+  @media (min-width: 64rem) and (max-width: 71.99rem) {
+    .hdr__phone span {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+    }
+
+    .hdr__nav ul {
+      gap: 1rem;
+    }
+  }
+
+  /* no popover support: stay out of the way until opened */
+  :global(.no-pop) .mega,
+  :global(.no-pop) .menu {
+    display: none;
+  }
+
+  :global(.no-pop) .mega:global(.is-open),
+  :global(.no-pop) .menu:global(.is-open) {
+    display: block;
+    opacity: 1;
+    translate: none;
+    z-index: 60;
+  }
+
+  /* the services panel */
+  .mega {
+    position: fixed;
+    inset: var(--header) 0 auto 0;
+    width: 100%;
+    max-height: calc(100svh - var(--header));
+    margin: 0;
+    padding: 2.25rem 0 1.5rem;
+    overflow: auto;
+    border: 0;
+    border-bottom: 1px solid var(--line-ink);
+    box-shadow: 0 24px 40px rgb(0 0 0 / 0.4);
+  }
+
+  .mega__grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+  }
+
+  .mega ul {
+    display: grid;
+    gap: 0.1rem;
+    margin-top: 0.7rem;
+  }
+
+  .mega a:not(.arrow) {
+    display: block;
+    padding-block: 0.32rem;
+    font-size: 0.975rem;
+    text-decoration: none;
+  }
+
+  .mega a:not(.arrow):hover {
+    color: var(--leaf);
+  }
+
+  .mega__foot {
+    margin-top: 1.1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--line-ink);
+  }
+
+  /* the phone menu */
+  .menu {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 0.6rem var(--gutter) 0;
+    overflow: auto;
+    overscroll-behavior: contain;
+    border: 0;
+  }
+
+  .menu__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+  }
+
+  .menu__nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem 1.25rem;
+  }
+
+  @media (min-width: 48rem) {
+    .menu__nav {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
+  .menu__nav ul {
+    display: grid;
+    margin-top: 0.4rem;
+  }
+
+  .menu__nav a {
+    display: block;
+    padding-block: 0.6rem;
+    font-size: 1.0625rem;
+    text-decoration: none;
+  }
+
+  .menu__nav a:hover {
+    color: var(--leaf);
+  }
+
+  .menu__actions {
+    position: sticky;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.6rem;
+    margin: 2rem calc(-1 * var(--gutter)) 0;
+    padding: 0.75rem var(--gutter);
+    border-top: 1px solid var(--line-ink);
+    background: var(--ink);
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .mega,
+    .menu {
+      transition:
+        opacity 0.22s var(--ease),
+        translate 0.22s var(--ease),
+        display 0.22s allow-discrete,
+        overlay 0.22s allow-discrete;
+      opacity: 0;
+      translate: 0 -0.5rem;
+    }
+
+    .mega:popover-open,
+    .menu:popover-open {
+      opacity: 1;
+      translate: 0 0;
+    }
+
+    @starting-style {
+      .mega:popover-open,
+      .menu:popover-open {
+        opacity: 0;
+        translate: 0 -0.5rem;
+      }
+    }
+  }
+</style>

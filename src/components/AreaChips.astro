@@ -1,0 +1,32 @@
+---
+/* The towns, as links to their pages. On a service page each chip goes to that
+   service's page for the town, and its link text says so for search and screen
+   readers ("Sod installation in Troy") while the eye sees the town. */
+import { CITIES, hubPath, townPath, hasTownPage, type City } from '../data/cities';
+import type { Service } from '../data/services';
+import { href } from '../lib/paths';
+
+interface Props {
+  /** Link each town to this service's page for that town instead of the town hub. */
+  service?: Service;
+  /** Leave one town out (the page you are on). */
+  skip?: string;
+}
+const { service, skip } = Astro.props;
+// A chip goes to this service's page for the town when there is one, otherwise to the town hub.
+const has = (c: City) => Boolean(service && hasTownPage(service, c));
+const target = (c: City) => (has(c) ? townPath(service!, c) : hubPath(c));
+---
+
+<ul class="chips">
+  {
+    CITIES.filter((c) => c.id !== skip && (c.state === 'MI' || has(c))).map((c) => (
+      <li>
+        <a class="chip" href={href(target(c))}>
+          {has(c) && <span class="sr">{service!.name} in </span>}
+          {c.name}
+        </a>
+      </li>
+    ))
+  }
+</ul>

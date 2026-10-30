@@ -1,0 +1,48 @@
+{
+  "service": "landscape-maintenance",
+  "city": "birmingham",
+  "meta": {
+    "title": "Landscape Maintenance in Birmingham, MI | HD Landscape",
+    "description": "Monthly landscape maintenance for Birmingham, MI from HD Landscape: beds weeded, shrubs shaped, edges kept sharp and small problems caught early."
+  },
+  "hero": {
+    "kicker": "Monthly landscape maintenance in Birmingham, MI",
+    "title": "A yard **kept, not rescued.**",
+    "lede": "A Birmingham yard rarely falls apart all at once. It slips a little each month. A monthly visit from HD Landscape keeps the beds, hedges and edges right, and puts someone who knows plants in your yard often enough to catch trouble early.",
+    "chips": ["Beds, hedges and edges", "Visit set on your estimate", "Problems caught early"],
+    "photo": "stone-manor"
+  },
+  "local": {
+    "eyebrow": "Upkeep in Birmingham",
+    "title": "What a monthly visit catches that **a spring cleanup never will.**",
+    "intro": "Heavy tree cover and tight lots make upkeep a steady job here, and the list of things to watch for has grown. Someone has to be in the beds often enough to see what is changing while it is still small.",
+    "points": [
+      { "title": "Beds that never need a rescue", "body": "Birmingham's zoning code requires landscaped areas to stay free of debris and plants to stay weed free and healthy. Nobody is knocking on the door over one dandelion, but a bed tended every month does not reach the point of needing a full cleanout." },
+      { "title": "Pests with a head start", "body": "The city reports box tree moth in private yards, and its staff trapped a spotted lanternfly in town in fall 2025. Both are easier to deal with early. A crew in your beds every month beats noticing brown shrubs from the kitchen window." },
+      { "title": "The weeds on the city's list", "body": "Buckthorn, oriental bittersweet and garlic mustard are all prohibited here, and the city holds a garlic mustard pull along the Rouge each year. They start small at the back of a bed. Pulled young, each one is a minute's work. Left alone, buckthorn grows into a small tree." },
+      { "title": "Young street trees", "body": "The city planted more than 500 street trees in 2025, and it names mowers and string trimmers as a major cause of death for new trees. Trimmers belong well away from a young trunk, and mulch belongs pulled back in a donut, never piled up in a volcano." }
+    ]
+  },
+  "logistics": {
+    "title": "Agree on the list once, then it just happens.",
+    "body": [
+      "What a visit covers is set on your estimate, after Jake has seen the yard. Beds, weeding, shaping shrubs, edging and tidying are the kind of work that goes on that list, and the estimate is itemized, so you know what each month is paying for.",
+      "Visits keep a steady monthly rhythm, and [spring and fall cleanups](/yard-cleanup-birmingham-mi/) can bookend them. Street parking and narrow drives are part of life here, so the truck stays out of the way and the walk stays clear.",
+      "If something bigger turns up, like a failing shrub or a hedge that has outgrown its spot, Jake tells you what he saw and what he would do. There is no pressure. You decide."
+    ],
+    "facts": [
+      { "label": "Visits", "value": "Monthly" },
+      { "label": "Covers", "value": "Set on your estimate" },
+      { "label": "Worth watching", "value": "Box tree moth and buckthorn" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "flagstone-hydrangea",
+  "faq": [
+    { "q": "Do you do monthly landscape maintenance in Birmingham?", "a": "Yes. HD Landscape does monthly landscape maintenance in Birmingham, MI. What a visit covers is set on your estimate, and it can include beds, weeding, shaping shrubs, edging and tidying." },
+    { "q": "Does Birmingham have rules about weedy beds?", "a": "Yes. The zoning code says landscaped areas have to stay free of refuse and debris, and plant materials have to stay weed free, healthy and free of disease and insects. That part of the code applies to all property in the city. A steady monthly visit is the easy way to stay well clear of it." },
+    { "q": "Can you start in the middle of the season?", "a": "Yes. If the beds have gotten away from you, expect a catch up visit first. In Birmingham that is also the time to pull anything on the city's prohibited list, like buckthorn or bittersweet, while it is still small. After that, the monthly rhythm keeps the beds from getting there again." },
+    { "q": "Can you watch my boxwoods for box tree moth?", "a": "We look while we work, and we tell you if we see caterpillars or fresh damage. Birmingham's advice is to catch it early, because a boxwood can go downhill fast. Seeing the plants every month is the simplest way to do that." }
+  ],
+  "reviews": ["marie-b", "gina-d", "nancy-g"]
+}

@@ -1,0 +1,80 @@
+---
+/* About Jake. */
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import Head from '../components/Head.astro';
+import Photo from '../components/Photo.astro';
+import Reviews from '../components/Reviews.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import Edge from '../components/Edge.astro';
+import { STATS } from '../data/site';
+import { review } from '../data/reviews';
+import { photo } from '../data/photos';
+import { heroImage } from '../lib/hero';
+import { href } from '../lib/paths';
+import { breadcrumbs } from '../lib/schema';
+
+const path = '/about-us/';
+const hero = await heroImage('dusk-patio');
+const beliefs = [
+  { title: 'The owner shows up', body: 'Jake walks the property and gives you his honest read. As Stephen D. put it, “The owner gave us some great advice before they started, and we listened to him.. and we are so glad we did.”' },
+  { title: 'The price has no surprises', body: 'Every estimate is itemized. You see what each part costs before anything starts, and you can change it.' },
+  { title: 'Clean is part of the job', body: 'Reviewers often mention how clean we left the job. Rob E. called that out before he got to the sod.' },
+  { title: 'We say no when we should', body: 'We do not install sprinklers or aerate lawns, and big tree removals go to a tree company we trust. You will hear that up front.' },
+];
+---
+
+<Base
+  title="About Jake Hendricks and HD Landscape, St. Clair Shores"
+  description="HD Landscape is owner-run by Jake Hendricks in St. Clair Shores, MI. Honest advice, itemized estimates and crews that show up across Metro Detroit."
+  path={path}
+  preload={hero.preload}
+  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'About', path }])]}
+>
+  <Hero image={hero} kicker="About HD Landscape" title="Run by Jake, **from the first walk to the follow up call.**" lede="HD Landscape is an owner run landscape company based in St. Clair Shores, working across Metro Detroit." crumbs={[{ name: 'About', path }]} />
+
+  <section class="band has-edge" aria-labelledby="jake-h">
+    <div class="wrap two wide-left">
+      <div class="stack" style="--gap:1.4rem">
+        <Head id="jake-h" layout="left" eyebrow="Jake Hendricks, owner" title="He will be the one **walking your yard.**" />
+        <div class="prose">
+          <p>When you call HD Landscape, you get Jake. He comes out, walks the property with you and tells you what he would do if it were his, including what is not worth doing.</p>
+          <p>The people who hire us care about their homes and do not want to babysit a contractor. They want it done right, by a crew that shows up when it said it would. In the Grosse Pointes most of our jobs start with a neighbor saying, ask Jake.</p>
+          <p>We have finished {STATS.projects} projects so far. <a href={href('/reviews/')}>The reviews</a> are the part we are proudest of, because every one of them is someone who let us into their yard.</p>
+        </div>
+      </div>
+      <figure>
+        <div class="frame tall"><Photo id="jake-polo" ratio={4 / 5} widths={[420, 640, 860]} sizes="(min-width: 60rem) 36vw, 92vw" /></div>
+        <figcaption class="note cap">{photo('jake-polo').caption}</figcaption>
+      </figure>
+    </div>
+    <Edge to="ink" />
+  </section>
+
+  <section class="band ink has-edge" aria-labelledby="way-h">
+    <div class="wrap">
+      <Head id="way-h" eyebrow="How we work" title="How Jake **runs a job.**" />
+      <ul class="grid c2">
+        {beliefs.map((b) => <li class="card pad way"><h3 class="h3">{b.title}</h3><p class="small muted">{b.body}</p></li>)}
+      </ul>
+    </div>
+    <Edge to="paper" flip />
+  </section>
+
+  <section class="band" aria-labelledby="say-h">
+    <div class="wrap">
+      <Head id="say-h" eyebrow="From our customers" title="Three people **who hired us.**" />
+      <Reviews reviews={[review('stephen-d')!, review('mark-r')!, review('amanda-h')!]} />
+    </div>
+  </section>
+
+  <QuoteBand />
+</Base>
+
+<style>
+  .way {
+    display: grid;
+    gap: 0.5rem;
+    align-content: start;
+  }
+</style>

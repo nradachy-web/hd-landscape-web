@@ -1,0 +1,49 @@
+{
+  "service": "sod-installation",
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Sod Installation in Grosse Pointe, MI | HD Landscape",
+    "description": "Sod installation for Grosse Pointe, MI lawns: old turf out, a grade set so water has a way off, fresh sod down in tight seams. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Sod installation in Grosse Pointe, MI",
+    "title": "New sod on **very flat ground.**",
+    "lede": "HD Landscape lays sod in Grosse Pointe, where lawns sit on low, slow draining ground and the sod is the easy part. The old turf comes off, the grade gets set to send water somewhere, and fresh sod goes down in tight seams.",
+    "chips": ["Grade set first", "Tight seams", "Often one day"],
+    "photo": "sod-backyard"
+  },
+  "local": {
+    "eyebrow": "Sod in the City",
+    "title": "Why a Grosse Pointe lawn **depends on the grade.**",
+    "intro": "USDA soil maps put nearly all of the city on slopes of 4 percent or less, and about half of it on poorly drained soil. On ground like that a shallow dip holds water for days, and new sod laid over it struggles from day one. So the work under the sod decides how the lawn turns out.",
+    "points": [
+      { "title": "Fall you have to build in", "body": "MSU Extension says about 1 foot of fall every 50 feet will normally keep water from standing on a lawn. Flat lots do not hand you that, so the ground has to be raked and leveled until water has a way out, starting at the foundation." },
+      { "title": "Sun where shade used to be", "body": "Where an old ash or elm came down, a thin patch may now get enough light for grass. Where maples still close overhead, Jake will say so and point you toward a [bed](/landscape-design-grosse-pointe-mi/) rather than a lawn that fades." },
+      { "title": "Lawns that run to the lake", "body": "Sod can run right up to a seawall, and that is where we stop. The city's master plan puts most lakeshore lots at least partly in a FEMA flood zone, so ask the city before changing the grade near the shore." },
+      { "title": "The tree lawn out front", "body": "The strip along the street is city ground with city trees on it. If yours needs new sod, ask the city first. Those roots call for hand work, and the soil should never be raised at the trunk." }
+    ]
+  },
+  "logistics": {
+    "title": "A sod day on a Grosse Pointe street **full of parked cars.**",
+    "body": [
+      "Most homes here have the garage out back and cars along the curb, so the pallets need a planned spot that does not trap anyone. Many lawns are finished in a day, depending on the grade. The city expects commercial landscape debris to be hauled privately, so old turf stays out of your regular pickup. How the debris leaves goes on your estimate.",
+      "Watering is the part that decides it. Jake gives you a plain schedule for your lawn, and [plant watering](/plant-watering/) can take it off your list. Sprinklers are not something we install, so if you want a system, put it in first and we will lay the sod around it.",
+      "The same sod work runs across all five Pointes: the [Park](/service-areas/grosse-pointe-park/), the [City](/service-areas/grosse-pointe/), the [Woods](/service-areas/grosse-pointe-woods/), the [Farms](/service-areas/grosse-pointe-farms/) and the [Shores](/service-areas/grosse-pointe-shores/)."
+    ],
+    "facts": [
+      { "label": "How long", "value": "Often one day" },
+      { "label": "Grade", "value": "Set before the first roll" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinkler installation" }
+    ]
+  },
+  "photo": "grade-rake",
+  "faq": [
+    { "q": "Do you do sod installation in Grosse Pointe?", "a": "Yes. HD Landscape installs sod in Grosse Pointe, MI and across the other Pointes. The old turf comes off, the grade gets set and fresh sod goes down in tight seams. Jake looks at how the yard drains first, because on ground this flat that decides the job." },
+    { "q": "Will new sod fix the wet spot in my yard?", "a": "Not by itself. Sod laid over a low spot stays soggy and thins out. The fix is [the grade](/yard-grading/) under it, and on clay that can take more work than the sod. Jake will look at how the water moves before he prices the job." },
+    { "q": "Will sod grow where a big tree came down?", "a": "Often, yes. The city has lost many of its elms and ash, and a spot that sat in shade for decades may now get enough light for grass. If the canopy has closed back over it, a bed is usually the better answer." },
+    { "q": "Can you lay sod up to a seawall on Lake St. Clair?", "a": "Yes. We prepare the ground and lay sod to the wall, and that is as far as we go. Seawall work is a job for a marine contractor. Near the shore, talk to the city before the grade changes." },
+    { "q": "How soon can I use a new lawn?", "a": "Keep off it for the first couple of weeks while the roots take. That matters more on the wet clay common here, because wet soil compacts easily. Once you cannot lift a corner it is ready for a first mow on a high setting, and steady water in those first weeks is what gets it there." }
+  ],
+  "reviews": ["rob-e", "stephen-d"]
+}

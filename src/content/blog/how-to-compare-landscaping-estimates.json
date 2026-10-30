@@ -1,0 +1,109 @@
+{
+  "service": "landscape-renovation",
+  "published": "2026-10-30",
+  "meta": {
+    "title": "How to Compare Landscaping Estimates | HD Landscape",
+    "description": "Compare scope before price. What an itemized landscaping estimate should spell out, the red flags, and what to ask before you sign in Michigan."
+  },
+  "title": "How to compare landscaping estimates **without getting burned.**",
+  "lede": "Compare what each estimate includes before you compare the number at the bottom. Two estimates can look close and describe very different jobs. Here is what to look for, line by line, and what to ask before you sign anything.",
+  "photo": "tudor-planting",
+  "short": [
+    "**Compare scope first and price last.** The bottom number means little until you know what is inside it.",
+    "**Ask for it itemized and in writing:** tear out, grading, materials, plants by name and size, hauling and cleanup.",
+    "**Look for what is missing.** Old lawn left in place, no grade work and no haul off are common ways a number shrinks.",
+    "**Two or three estimates are plenty,** as long as each one covers the same scope.",
+    "**Slow down** if you feel pressure to sign today, or if nobody will break down a lump sum."
+  ],
+  "sections": [
+    {
+      "h": "Compare the scope before the price",
+      "p": [
+        "The first step is making sure every company is pricing the same job. Write down what you want done, then check each estimate against that list. If one includes a new grade and another does not, those are two different jobs with two different prices.",
+        "Order matters too. A landscape job is several jobs stacked on top of each other, and each one depends on the one under it. New sod over a bad grade is wasted money, however good the sod is."
+      ]
+    },
+    {
+      "h": "What a good estimate spells out",
+      "p": [
+        "A good estimate reads like a plan. Each part of the job gets its own line, so you can see what you are paying for. Here is what to look for on each one."
+      ],
+      "table": {
+        "head": ["Line", "What to look for", "Why it matters"],
+        "rows": [
+          ["Tear out", "Old plants, roots, weeds and stone removed and hauled off", "Buried debris does not stay buried"],
+          ["Grade", "Ground sloped away from the house, fill tamped in layers", "Sod on a bad grade stays soggy and beds settle"],
+          ["Sod", "Old lawn stripped first, not covered over", "New roots need soil, not a dead mat"],
+          ["Plants", "Names, sizes and counts", "One company's shrub may not be another's"],
+          ["Planting", "Root flare set level with the ground", "MSU Extension says wrong depth means a shorter life"],
+          ["Mulch", "Two to three inches, kept back from trunks", "MSU Extension says more is not better"],
+          ["Walls and stone", "What goes under them and behind them", "The base decides how long the top stays straight"],
+          ["Cleanup", "Haul off, with walks and drive left clean", "Somebody has to deal with the pile"]
+        ],
+        "note": "Not every job has all of these. The point is that each part of your job shows up somewhere you can read it."
+      }
+    },
+    {
+      "h": "Where the numbers really differ",
+      "p": [
+        "When one estimate sits well below the others, there is a reason. Find it before you decide. Sometimes the reason is fair: a smaller scope, smaller plants you are happy with or a simpler plan. Sometimes it is work that got left out."
+      ],
+      "list": [
+        "**The tear out.** Laying sod over old grass is a shortcut that shows later.",
+        "**The grade.** Skipping it saves time this week and keeps the puddle for years.",
+        "**Plant size and count.** Smaller plants take longer to fill in. That can be a fine choice, as long as you made it on purpose.",
+        "**Depth.** Mulch and stone are sold by volume, so a thinner layer costs less and does less.",
+        "**Hauling.** Old plants, soil and stone have to go somewhere. Check that the estimate says who takes them.",
+        "**Follow through.** New trees and shrubs need attention for two years, and new sod usually needs water every day at first. Ask who has the plan for that."
+      ],
+      "after": [
+        "A lower number is not a bad number. It just has to explain itself."
+      ]
+    },
+    {
+      "h": "Questions to ask before you sign",
+      "p": [
+        "Ask these on the walk through and keep the answers in writing, on the estimate or in a message you can find later."
+      ],
+      "list": [
+        "What exactly comes out, and where does it go?",
+        "Where will the water go when you are done?",
+        "Who contacts MISS DIG 811? Michigan requires it at least 3 business days before a project, whatever its size or depth.",
+        "Which plants are you using, in what size, and will they suit this light and soil?",
+        "Is anything on the plant list headed for restriction? Michigan's agriculture commission voted in May 2026 to make it illegal to sell Callery pear, which includes Bradford pears, along with Japanese barberry and common and glossy buckthorn, starting January 1, 2028.",
+        "How will you work around my trees? Soil piled over roots or against the trunk hurts them.",
+        "When do you start, and how long will it take?",
+        "What is not included?"
+      ]
+    },
+    {
+      "h": "Red flags worth slowing down for",
+      "p": [
+        "A few things should make you pause, no matter how good the number looks."
+      ],
+      "list": [
+        "**Nobody looks at the ground.** Photos are a fine start, but grade and soil do not show up well in a picture.",
+        "**One round number with no lines.** There is nothing to compare and nothing to hold anyone to.",
+        "**Pressure to sign today.** A real price will still be real tomorrow.",
+        "**Full payment before any work starts.** Ask when payment is due, and get it in writing.",
+        "**Plants listed only as shrubs or perennials.** You should know what is going in your yard.",
+        "**Silence about water.** If your yard has a wet spot and the estimate never mentions it, ask why.",
+        "**A stranger at the door** with leftover material and a deal that only works today."
+      ]
+    },
+    {
+      "h": "Two or three estimates are plenty",
+      "p": [
+        "Past three, the estimates start to blur, and you learn more from a good conversation than from one more number. What helps is giving each company the same list, so the answers line up.",
+        "Then ask around. A neighbor's yard tells you more than any web page, including this one. Go look at how the beds have held up, and ask what happened after the crew left."
+      ]
+    },
+    {
+      "h": "Itemized, on time, no pressure",
+      "p": [
+        "Those are our customers' words, not ours. Anne J. wrote, \"They showed up on time and gave me itemized costs beforehand.\" Mark R. called Jake \"a no pressure, skilled landscaper.\"",
+        "We are not the right call for everything. We do not install sprinklers, and we leave big tree removals to a tree company. Here is how a [landscape renovation](/landscape-renovation/) runs, or you can [ask for a free estimate](/get-an-estimate/)."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+---
+/* The top of a page that is not a service page: ink band, breadcrumb, h1, one
+   paragraph, optional actions in the slot. Give it an image and a photo bleeds
+   in from the right on wide screens, the way a hero does, without the page-load
+   motion. The photo is decoration: it is hidden on phones and lazy, so a phone
+   never downloads it, and the page's preload hint (wide screens only) fetches it
+   early where it shows. */
+import Edge from './Edge.astro';
+import { href } from '../lib/paths';
+import { heading, rich } from '../lib/rich';
+import type { HeroImage } from '../lib/hero';
+
+interface Props {
+  eyebrow?: string;
+  title: string;
+  lede?: string;
+  crumbs?: { name: string; path: string }[];
+  image?: HeroImage;
+  /** The plane of the band below, for the cut line. */
+  next?: 'paper' | 'white' | 'ink' | 'none';
+}
+const { eyebrow, title, lede, crumbs = [], image, next = 'paper' } = Astro.props;
+const titleHtml = heading(title, 'accent');
+---
+
+<section class:list={['ph', 'ink', image && 'ph--photo']}>
+  {
+    image && (
+      <div class="ph__media">
+        <picture>
+          <source type="image/avif" srcset={image.avif} sizes={image.sizes} />
+          <source type="image/webp" srcset={image.webp} sizes={image.sizes} />
+          <img src={image.fallback} width={image.width} height={image.height} alt="" loading="lazy" decoding="async" />
+        </picture>
+      </div>
+    )
+  }
+  <div class="wrap ph__inner">
+    {
+      crumbs.length > 0 && (
+        <nav class="ph__crumbs fine" aria-label="Breadcrumb">
+          <ol>
+            <li><a href={href('/')}>Home</a></li>
+            {crumbs.map((c, i) => (
+              <li>{i === crumbs.length - 1 ? <span aria-current="page">{c.name}</span> : <a href={href(c.path)}>{c.name}</a>}</li>
+            ))}
+          </ol>
+        </nav>
+      )
+    }
+    <h1 class="ph__h">
+      {eyebrow && <span class="eyebrow">{eyebrow}</span>}
+      {eyebrow && <span class="sr">: </span>}
+      <span class="h1 h1--page" set:html={titleHtml} />
+    </h1>
+    {lede && <p class="lede ph__lede" set:html={rich(lede)} />}
+    <slot />
+  </div>
+  {image?.note && <p class="note ph__note">{image.note}</p>}
+  {next !== 'none' && <Edge to={next} />}
+</section>
+
+<style>
+  .ph {
+    position: relative;
+    padding-bottom: clamp(1.75rem, 4.6vw, 4.25rem);
+  }
+
+  .ph__note {
+    position: absolute;
+    z-index: 2;
+    right: var(--gutter);
+    bottom: clamp(2.4rem, 5.6vw, 5rem);
+    display: none;
+    padding: 0.15rem 0.45rem;
+    border-radius: var(--r-sm);
+    background: rgb(10 15 11 / 0.62);
+    color: var(--on-ink);
+  }
+
+  @media (min-width: 60rem) {
+    .ph__note {
+      display: block;
+    }
+  }
+
+  .ph {
+    position: relative;
+    isolation: isolate;
+    overflow: clip;
+  }
+
+  .ph__inner {
+    position: relative;
+    display: grid;
+    justify-items: start;
+    gap: 1.25rem;
+    padding-block: clamp(3rem, 7vw, 5.5rem);
+  }
+
+  /* the photo: only where there is room beside the words */
+  .ph__media {
+    display: none;
+  }
+
+  @media (min-width: 60rem) {
+    .ph__media {
+      display: block;
+      position: absolute;
+      inset: 0 0 0 auto;
+      z-index: -1;
+      width: min(48%, 50rem);
+    }
+
+    .ph__media picture {
+      height: 100%;
+    }
+
+    .ph__media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: 50% 40%;
+    }
+
+    .ph__media::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to right, var(--ink) 0%, rgb(10 15 11 / 0.95) 12%, rgb(10 15 11 / 0.72) 30%, rgb(10 15 11 / 0.35) 52%, rgb(10 15 11 / 0.1) 76%, rgb(10 15 11 / 0) 100%),
+        linear-gradient(to top, var(--ink) 0%, rgb(10 15 11 / 0) 30%);
+    }
+
+    .ph--photo .ph__h,
+    .ph--photo .ph__lede {
+      max-width: min(60%, 46rem);
+    }
+  }
+
+  .ph__crumbs ol {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 0.5rem;
+    color: var(--on-ink-muted);
+  }
+
+  .ph__crumbs li + li::before {
+    content: '/' / '';
+    margin-right: 0.5rem;
+    opacity: 0.5;
+  }
+
+  .ph__crumbs a {
+    display: inline-block;
+    padding-block: 0.6rem;
+    text-decoration: none;
+  }
+
+  .ph__crumbs a:hover {
+    color: var(--on-ink);
+    text-decoration: underline;
+  }
+
+  .ph__h {
+    display: grid;
+    gap: 0.85rem;
+    max-width: 56rem;
+  }
+
+  /* the accent phrase moves to the next line as one piece */
+  .ph__h :global(
+  .ph__lede {
+    max-width: 44rem;
+    color: #dbe0d5;
+  }
+</style>

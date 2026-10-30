@@ -1,0 +1,440 @@
+---
+/* ============================================================================
+   HOME
+     hero      a real job at dusk. "The yard your neighbors ask about."
+     paper     the facts, then the street: how this business really grows
+     white     what we do, in four groups
+     ink       real before and after, then clips from Jake's own reels
+     paper     how a job runs, from what reviewers keep saying
+     ink       try the bed: material picker
+     white     selected work
+     paper     reviews
+     ink       where we work
+     paper     plain answers (what answer engines quote)
+     ink       the estimate form beside the phone
+   ========================================================================== */
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import Head from '../components/Head.astro';
+import Photo from '../components/Photo.astro';
+import Steps from '../components/Steps.astro';
+import Faq from '../components/Faq.astro';
+import Reviews from '../components/Reviews.astro';
+import BeforeAfter from '../components/BeforeAfter.astro';
+import BedPicker from '../components/BedPicker.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import Edge from '../components/Edge.astro';
+import ReelBand from '../components/ReelBand.astro';
+import AreaMap from '../components/AreaMap.astro';
+import { BRAND, RATING, STATS } from '../data/site';
+import { GROUPS, inGroup } from '../data/services';
+import { AREAS, inArea, hubPath } from '../data/cities';
+import { review } from '../data/reviews';
+import { photo, type PhotoId } from '../data/photos';
+import { heroImage } from '../lib/hero';
+import { href } from '../lib/paths';
+import { faqSchema } from '../lib/schema';
+
+const wide = await heroImage('hero-wide', { sizes: '100vw', widths: [960, 1320, 1680, 1916], media: '(min-width: 48rem)' });
+const tall = await heroImage('hero-tall', { sizes: '100vw', widths: [420, 640, 828, 1080], media: '(max-width: 47.99rem)' });
+
+const facts = [
+  { n: RATING.value, label: `stars on Google, from ${RATING.countLabel} reviews` },
+  { n: STATS.projects, label: 'projects finished' },
+  { n: 'Free', label: 'itemized estimates' },
+  { n: 'One', label: 'number to call for all of it' },
+];
+
+const steps = [
+  { title: 'We walk it with you', body: 'Jake comes out, walks the property and listens. You get honest advice on what is worth doing and what is not, with no pressure either way.' },
+  { title: 'You get it itemized', body: 'Every line on the estimate is spelled out before anything starts, so you can see what you are paying for and change what you want.' },
+  { title: 'The crew shows up', body: 'On the day we said, ready to work. Many jobs are finished in a day, bigger ones take longer, and you will know which yours is before we start.' },
+  { title: 'Jake calls after', body: 'He checks how it went and tells you what the new plants and sod need, so the yard keeps looking like the day we left.' },
+];
+
+const work: { id: PhotoId; cls?: string }[] = [
+  { id: 'dusk-sidewalk', cls: 'tall' },
+  { id: 'stone-manor' },
+  { id: 'hedge-long' },
+  { id: 'lakeside-bed', cls: 'tall' },
+  { id: 'urn-bed' },
+  { id: 'sod-colonial' },
+  { id: 'maple-rock-bed' },
+];
+
+const faq = [
+  { q: 'What does HD Landscape do?', a: 'HD Landscape designs, builds and maintains landscapes for homes and businesses across Metro Detroit. That covers landscape design and renovation, sod, retaining walls, yard grading, rock and stone, planting, hedge trimming, smaller tree work, stump grinding, monthly maintenance, cleanups, mulch, weeding, pressure washing and polymeric sand.' },
+  { q: 'What areas do you serve?', a: 'We are based in St. Clair Shores and work across the Grosse Pointes, Macomb County and Oakland County, from the lakeshore out through Birmingham, Bloomfield, Troy and Rochester. See [every town we serve](/service-areas/).' },
+  { q: 'How much does landscaping cost?', a: 'It depends on the property, so we do not quote off a list. Estimates are free and itemized, line by line, after Jake has seen the yard. Call or text [(586) 718-8762](tel:+15867188762) to set one up.' },
+  { q: 'Do you install sprinklers or aerate lawns?', a: 'No. We do not install sprinkler systems and we do not do lawn aeration. We would rather tell you up front. For large tree removals we bring in a tree company.' },
+  { q: 'How long does a job take?', a: 'Plenty of jobs are finished in a day. Rob E. had his yard gutted, leveled and resodded with new plants, and wrote that it was done in one day. Bigger renovations take longer, and you will know the plan before we start.' },
+];
+---
+
+<Base
+  title="HD Landscape | Landscaper in St. Clair Shores and Metro Detroit"
+  description="HD Landscape designs, builds and keeps up yards from St. Clair Shores and the Grosse Pointes to Birmingham. 5.0 on Google from 171 reviews."
+  path="/"
+  preload={[wide.preload, tall.preload]}
+  schema={[faqSchema(faq)]}
+>
+  <Hero
+    size="home"
+    image={wide}
+    tall={tall}
+    kicker="Landscape design, sod and care in Metro Detroit"
+    title="The yard your **neighbors** ask about."
+    lede="HD Landscape designs, builds and keeps up yards from Grosse Pointe to Birmingham. Itemized estimates, a crew that shows up, and a clean job site when we leave."
+    next="paper"
+  />
+
+  <section class="band tight" aria-label="HD Landscape in numbers">
+    <div class="wrap">
+      <ul class="facts">
+        {facts.map((f) => <li><span class="facts__n">{f.n}</span><span class="small muted">{f.label}</span></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="band has-edge street" aria-labelledby="street-h">
+    <div class="wrap two wide-left">
+      <div class="stack" style="--gap:1.5rem">
+        <p class="eyebrow">One street, three houses</p>
+        <h2 class="h2" id="street-h">Do one yard right and <span class="accent">the street notices.</span></h2>
+        <figure class="pull">
+          <blockquote>“We are the 3rd house he did on my street and he did AMAZING for each of my neighbors and me.”</blockquote>
+          <figcaption class="small muted">{review('amanda-h')!.name}, Google review</figcaption>
+        </figure>
+        <p class="lede">In the Grosse Pointes most of our work starts with a neighbor saying, ask Jake. So we treat every job like the whole block is watching, because it is.</p>
+        <a class="arrow" href={href('/about-us/')}>Meet Jake</a>
+      </div>
+      <figure class="street__img">
+        <div class="frame">
+          <Photo id="dusk-grand" ratio={4 / 5} widths={[480, 720, 1000]} sizes="(min-width: 60rem) 40vw, 92vw" />
+        </div>
+        <figcaption class="note cap">{photo('dusk-grand').caption}</figcaption>
+      </figure>
+    </div>
+    <Edge to="white" />
+  </section>
+
+  <section class="band has-edge white" aria-labelledby="svc-h">
+    <div class="wrap">
+      <Head id="svc-h" eyebrow="What we do" title="Most of what a yard needs, **in one call.**" intro="Start with a whole new front yard or one overgrown hedge. Either way you call the same number." />
+      <ul class="groups">
+        {
+          GROUPS.map((g) => (
+            <li class="group">
+              <div class="frame group__img">
+                <Photo id={g.photo} ratio={3 / 2} widths={[420, 640, 840]} sizes="(min-width: 70rem) 23vw, (min-width: 40rem) 46vw, 92vw" alt="" />
+              </div>
+              <h3 class="h3">{g.name}</h3>
+              <p class="small muted">{g.blurb}</p>
+              <ul class="group__list">
+                {inGroup(g.id).filter((s) => !s.florida).map((s) => <li><a href={href(s.path)}>{s.name}</a></li>)}
+              </ul>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+    <Edge to="ink" flip />
+  </section>
+
+  <section class="band has-edge ink" aria-labelledby="ba-h">
+    <div class="wrap">
+      <Head id="ba-h" eyebrow="Same yard, before and after" title="Drag the line **across the job.**" intro="Filmed by Jake on the job." />
+      <div class="ba-row">
+        <BeforeAfter pair="ba-side" />
+        <BeforeAfter pair="ba-hedge" />
+        <BeforeAfter pair="ba-sod" />
+      </div>
+      <div class="reels">
+        <Head layout="left" small eyebrow="On the job" title="A walk through a few finished yards." />
+        <ReelBand />
+      </div>
+    </div>
+    <Edge to="paper" />
+  </section>
+
+  <section class="band has-edge" aria-labelledby="how-h">
+    <div class="wrap">
+      <Head id="how-h" eyebrow="How a job runs" title="The part the reviews **keep mentioning.**" intro="People write about the yard, and then they write about how the job went: on time, itemized, cleaned up." />
+      <Steps steps={steps} />
+    </div>
+    <Edge to="ink" />
+  </section>
+
+  <section class="band has-edge ink" aria-labelledby="bed-h">
+    <div class="wrap">
+      <Head id="bed-h" eyebrow="Try it" title="Same bed. **Your pick** of ground cover." intro="One of our real beds, six finishes. Tap through them and see what suits a brick home." />
+      <BedPicker />
+    </div>
+    <Edge to="white" flip />
+  </section>
+
+  <section class="band white" aria-labelledby="work-h">
+    <div class="wrap">
+      <Head id="work-h" eyebrow="Selected work" title="Beds, stone and lawns we are **proud of.**" />
+      <ul class="work">
+        {
+          work.map((w) => (
+            <li class:list={[w.cls]}>
+              <figure>
+                <div class="frame"><Photo id={w.id} ratio={w.cls === 'tall' ? 4 / 5 : 3 / 2} widths={[420, 640, 900]} sizes="(min-width: 60rem) 32vw, 92vw" /></div>
+                <figcaption class="note cap">{photo(w.id).caption}</figcaption>
+              </figure>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="work__more"><a class="arrow" href={href('/gallery/')}>See more of our work</a></p>
+    </div>
+  </section>
+
+  <section class="band has-edge" aria-labelledby="rv-h">
+    <div class="wrap">
+      <Head id="rv-h" eyebrow={`${RATING.value} on Google, ${RATING.countLabel} reviews`} title="In the words of the **people who hired us.**" />
+      <Reviews reviews={[review('rob-e')!, review('meagan-m')!, review('anne-j')!]} />
+    </div>
+    <Edge to="ink" flip />
+  </section>
+
+  <section class="band has-edge ink" aria-labelledby="areas-h">
+    <div class="wrap">
+      <Head id="areas-h" eyebrow="Where we work" title="From the lake to **the Woodward corridor.**" intro={`Based in ${BRAND.city}. In the Pointes most of our work comes by word of mouth, so ask your neighbors.`} />
+      <AreaMap />
+      <div class="areas">
+        {
+          AREAS.map((a) => (
+            <div>
+              <h3 class="h3">{a}</h3>
+              <ul class="areas__l">
+                {inArea(a).map((c) => <li><a href={href(hubPath(c))}>{c.name}</a></li>)}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+    <Edge to="paper" />
+  </section>
+
+  <section class="band" aria-labelledby="faq-h">
+    <div class="wrap faqs">
+      <Head id="faq-h" layout="left" eyebrow="Plain answers" title="Good to know **before you call.**" intro={`Anything else? Call or text [${BRAND.phone}](${BRAND.phoneHref}).`} />
+      <Faq items={faq} />
+    </div>
+  </section>
+
+  <QuoteBand avoid={['dusk-grand', 'dusk-curve', 'dusk-sidewalk']} />
+</Base>
+
+<style>
+  .facts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.75rem 1.5rem;
+  }
+
+  .facts li {
+    display: grid;
+    align-content: start;
+    gap: 0.15rem;
+  }
+
+  .facts__n {
+    font-family: var(--font-display);
+    font-size: clamp(2.5rem, 3vw + 1.6rem, 3.5rem);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  @media (min-width: 56rem) {
+    .facts {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  .pull blockquote {
+    font-family: var(--font-display);
+    font-size: clamp(1.45rem, 1.2vw + 1.1rem, 1.95rem);
+    font-style: italic;
+    line-height: 1.28;
+    letter-spacing: -0.012em;
+  }
+
+  .pull {
+    display: grid;
+    gap: 0.6rem;
+    padding-left: 1.25rem;
+    border-left: 2px solid var(--leaf-ink);
+  }
+
+  .groups {
+    display: grid;
+    gap: 2.5rem 1.5rem;
+  }
+
+  @media (min-width: 40rem) {
+    .groups {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 70rem) {
+    .groups {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  .group {
+    display: grid;
+    align-content: start;
+    gap: 0.6rem;
+  }
+
+  .group__img {
+    margin-bottom: 0.4rem;
+    aspect-ratio: 3 / 2;
+  }
+
+  .group__list {
+    margin-top: 0.35rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .group__list a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 2.6rem;
+    border-bottom: 1px solid var(--line);
+    font-size: 0.975rem;
+    font-weight: 540;
+    text-decoration: none;
+    transition: color 0.16s var(--ease), padding 0.16s var(--ease);
+  }
+
+  .group__list a::after {
+    content: '';
+    width: 0.42em;
+    height: 0.42em;
+    border-top: 1.5px solid currentColor;
+    border-right: 1.5px solid currentColor;
+    transform: rotate(45deg);
+    opacity: 0.5;
+  }
+
+  .group__list a:hover {
+    color: var(--leaf-ink);
+    padding-left: 0.3rem;
+  }
+
+  .ba-row {
+    display: grid;
+    gap: 2rem;
+  }
+
+  .reels {
+    margin-top: clamp(3rem, 6vw, 4.5rem);
+    padding-top: clamp(2.5rem, 5vw, 3.5rem);
+    border-top: 1px solid var(--line-ink);
+  }
+
+  @media (min-width: 56rem) {
+    .ba-row {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.5rem;
+    }
+  }
+
+  /* a quiet masonry: columns, so tall and wide photos never leave holes */
+  .work {
+    columns: 1;
+    column-gap: 1.5rem;
+  }
+
+  .work li {
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+  }
+
+  @media (min-width: 40rem) {
+    .work {
+      columns: 2;
+    }
+  }
+
+  @media (min-width: 60rem) {
+    .work {
+      columns: 3;
+    }
+  }
+
+  .work .frame {
+    aspect-ratio: 3 / 2;
+  }
+
+  .work .tall .frame {
+    aspect-ratio: 4 / 5;
+  }
+
+  .work__more {
+    margin-top: 1.5rem;
+  }
+
+  .areas {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2.5rem;
+  }
+
+  @media (min-width: 40rem) {
+    .areas {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 39.99rem) {
+    .areas__l {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 0 1rem;
+    }
+  }
+
+  @media (min-width: 66rem) {
+    .areas {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+
+  .areas ul {
+    margin-top: 0.6rem;
+  }
+
+  .areas a {
+    display: block;
+    padding-block: 0.5rem;
+    color: var(--on-ink-muted);
+    text-decoration: none;
+  }
+
+  .areas a:hover {
+    color: var(--leaf);
+  }
+
+  .faqs {
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media (min-width: 72rem) {
+    .faqs {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: clamp(2rem, 6vw, 6rem);
+      align-items: start;
+    }
+  }
+</style>

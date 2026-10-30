@@ -1,0 +1,99 @@
+{
+  "service": "landscape-design",
+  "city": "clinton-township",
+  "meta": {
+    "title": "Landscape Design in Clinton Township, MI | HD Landscape",
+    "description": "Landscape design for Clinton Township homes: what stays, what goes and a plan our crew builds around decades of growth. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscape design in Clinton Township, MI",
+    "title": "A plan for a yard **that never had one.**",
+    "lede": "Most Clinton Township yards were planted once, decades ago, then added to one shrub at a time. HD Landscape sorts out with you what stays and what goes, and our crew builds the plan from the ground up.",
+    "chips": [
+      "Jake walks the property",
+      "What stays, what goes",
+      "Built by our crew"
+    ],
+    "photo": "curve-brick-bed"
+  },
+  "local": {
+    "eyebrow": "Design in Clinton Township",
+    "title": "Designing in a town that is **almost completely built.**",
+    "intro": "With very little land left to develop, the township's own master plan is about redevelopment, and so is landscape design here. We rarely start with bare dirt. We start with a house from the 1970s, 80s or 90s and everything that has grown up around it.",
+    "points": [
+      {
+        "title": "Forty years of growth has value",
+        "body": "You cannot buy forty years of growth. We keep the trees and hedges that earn their place, plan around them and take out what has outgrown the house."
+      },
+      {
+        "title": "Count trees before clearing",
+        "body": "If a design opens up a wooded back lot, the count matters. At five or more trees 4 inches or thicker in one year, the township wants a Tree Removal Plan approved by its Planning Commission, so settle that before the bed line is final. Any big removal we pass along to a tree company."
+      },
+      {
+        "title": "A yard for the next twenty years",
+        "body": "The master plan backs people staying in their homes as they age. A design can help: fewer plants with room to grow, beds you can reach and an edge that holds its shape. If you plan to stay, tell Jake, and he will plan for it."
+      },
+      {
+        "title": "Let a wet back edge stay soft",
+        "body": "Some lots here back up to wooded wetland along the river. A hard lawn edge fights that ground. The better plan plants the back of the yard with things that can take wet soil and puts the useful space closer to the house."
+      },
+      {
+        "title": "See the whole yard at once",
+        "body": "At three to six homes per acre, you can take in the whole yard from the driveway. We draw fewer beds with longer lines, and leave room for the way you really use the space."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "The design starts with what bothers you about the yard.",
+    "body": [
+      "Tell Jake what bothers you and what you want while he is out on the lot. On a yard this age he is also looking at what has outgrown its spot, where the big roots run and how material gets past the fence. Then we work out the plan with you, and the itemized estimate follows it line by line.",
+      "Our designs are made for our crew to build, so the plan and the build are one job. If you are collecting drawings to bid out, we are probably not the right fit. The estimate is free, and Jake will explain how design is handled on your job before any drawing begins."
+    ],
+    "facts": [
+      {
+        "label": "Five or more trees",
+        "value": "Planning Commission plan first"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "Built by",
+        "value": "Our crew"
+      },
+      {
+        "label": "Not included",
+        "value": "Sprinkler installation"
+      }
+    ]
+  },
+  "photo": "colonial-fall",
+  "faq": [
+    {
+      "q": "Do you do landscape design in Clinton Township?",
+      "a": "Yes. HD Landscape designs and builds yards in Clinton Township, and we work here often. Jake plans around your light and soil, and our crew builds it. Call or text him at [(586) 718-8762](tel:+15867188762) to start."
+    },
+    {
+      "q": "Can you redo the front of a 1980s house without touching the rest of the yard?",
+      "a": "Yes. Foundation beds from that era are often the first thing owners want gone, and a front yard is a fine place to begin. Jake will keep the rest of the lot in mind, so the next phase fits with this one when you get to it."
+    },
+    {
+      "q": "Does new landscaping need a permit in Clinton Township?",
+      "a": "Planting is not on the township's list of projects that need a building permit, but fences, decks, pools and patios with footings are, and the township says other permits may apply. Tree removal, trees in the right-of-way and grading near a waterway or drain have their own rules. Check with the Building Department at the start, and Jake will flag what he sees on the walk."
+    },
+    {
+      "q": "Can you design around the big trees in my yard?",
+      "a": "Yes. Trees planted when a Clinton Township subdivision was new are often the biggest thing on the lot now, and they usually stay. MSU Extension puts most of a tree's roots in the top couple of feet of soil, so new beds go around them and nothing gets piled over them. We plan for the shade from the start."
+    },
+    {
+      "q": "Can you design with Michigan native plants?",
+      "a": "Yes, if that is what you want. We choose plants for your sun, soil and water first. To see natives at size, walk the Tomlinson Arboretum, a 25 acre park that the township says holds one of the largest collections of predominantly Michigan native trees, bushes and wildflowers in the state."
+    }
+  ],
+  "reviews": [
+    "billy-w",
+    "gina-d",
+    "amanda-h"
+  ]
+}

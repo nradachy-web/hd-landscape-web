@@ -1,0 +1,313 @@
+{
+  "service": "landscape-design",
+  "meta": {
+    "title": "Landscape Design in St. Clair Shores, MI | HD Landscape",
+    "description": "Landscape design in St. Clair Shores, MI, from the crew that builds it. Jake walks your yard and plans around sun, soil and water. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscape design in St. Clair Shores, MI and across Metro Detroit",
+    "title": "Drawn for your yard. **Built by our crew.**",
+    "lede": "A plan worked out on your property, around your light, your soil and how you actually use the yard. Jake walks it with you, and the crew at HD Landscape builds what you settle on.",
+    "chips": [
+      "Owner on the first walk",
+      "Planned around sun, soil and water",
+      "Itemized before we start"
+    ],
+    "photo": "dusk-urn"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Why plan it",
+      "title": "Decide what goes where before a single bed gets cut.",
+      "body": [
+        "Landscape design is a plan for the whole property: where the beds go, which plants go in them, how the stone and edges run, and how water gets away from the house. HD Landscape plans all of that around your yard, then builds it.",
+        "Most yards were never planned. A shrub went in here, a bed got cut there, and twenty years later nothing lines up. A design looks at everything at once, so you do not end up paying to redo the same corner twice."
+      ],
+      "checks": [
+        "How you use the yard, from the dog to the view out the kitchen window",
+        "How much sun and shade each bed really gets",
+        "Where water goes now, and whether the grade needs work first",
+        "Plants chosen for their full grown size, not their size on the truck",
+        "What stays: good trees and healthy shrubs get planned around"
+      ],
+      "photo": "grand-brick"
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "What we look at",
+      "title": "The yard decides most of the plan.",
+      "intro": "A good design starts with what is already there. Here is what we read on the walk, and what each one changes.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Sun and shade",
+          "body": "Plants do not read the tag. We look at how much sun each bed actually gets, after the house and the big trees take their share, and choose from there."
+        },
+        {
+          "title": "Water and grade",
+          "body": "Clay is common across Metro Detroit, and it holds water. If the ground slopes the wrong way, no plant choice will save it, so [yard grading](/yard-grading/) goes in the plan first."
+        },
+        {
+          "title": "Full grown size",
+          "body": "Small shrubs set close to the house are the classic mistake. They look tidy the day they go in, then spend the next decade pressing against the siding. Leave room for the plant it will become."
+        },
+        {
+          "title": "Road salt and snow",
+          "body": "Beds along a drive or street take salt and plowed snow all winter. Purdue Extension rates eastern white pine as sensitive to salt spray, so it belongs back from the salted edge."
+        },
+        {
+          "title": "Big trees",
+          "body": "Big trees usually stay, and the plan works around them. MSU Extension says about 80 percent of a tree's roots sit in the top 18 to 24 inches of soil, so soil should not get piled over them to make a bed or a flat lawn. A big tree that has to come down is a job for a tree company, not our crew."
+        },
+        {
+          "title": "All four seasons",
+          "body": "A yard should still look like something in January. Evergreens, stone and clean bed lines carry the winter, and flowers and fall color get layered in around them."
+        }
+      ]
+    },
+    {
+      "type": "bed",
+      "plane": "ink",
+      "eyebrow": "Try it on",
+      "title": "Pick the bed before we dig it.",
+      "intro": "Mulch or stone, dark or light. The bed material sets the look of the whole yard, so try the options here and tell Jake which one suits your house."
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Design and build",
+      "title": "The plan and the build are one job.",
+      "body": [
+        "At HD Landscape the design and the build go together. The plan gets made for our crew to build, and the itemized estimate follows it line by line. Nothing gets lost between the person who planned it and the person holding the shovel.",
+        "It suits people who want one company on it from the first walk to the last rake. If you are after a drawing to put out for bids, tell Jake that on the walk, so you both know where you stand."
+      ],
+      "checks": [
+        "The owner walks the property and writes the estimate himself",
+        "Our crew builds it, so the plan is made with the build in mind",
+        "Every part of the plan gets its own line on the estimate"
+      ],
+      "photo": "jake-polo",
+      "flip": true,
+      "cta": {
+        "label": "Ask Jake about your yard",
+        "href": "#quote"
+      }
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "Why it works",
+      "title": "Yards go wrong between the plan and the build.",
+      "intro": "There are three common ways to get a new yard, and any of them can work. Here is where the trouble usually starts, and why we do it the third way.",
+      "columns": [
+        "A drawing, then bids",
+        "A crew, no plan",
+        "Design and build"
+      ],
+      "highlight": 2,
+      "rows": [
+        {
+          "label": "Who plans it",
+          "values": [
+            "A designer who may never see it built",
+            "Nobody, really",
+            "Jake, on your property, with you"
+          ]
+        },
+        {
+          "label": "Who builds it",
+          "values": [
+            "Whoever wins the bid",
+            "A crew working it out as they go",
+            "Our crew, from that plan"
+          ]
+        },
+        {
+          "label": "The numbers",
+          "values": [
+            "Come later, from someone else",
+            "Often one lump sum",
+            "Itemized before we start"
+          ]
+        },
+        {
+          "label": "After the crew leaves",
+          "values": [
+            "Depends who you call",
+            "Depends if they pick up",
+            "Jake calls you"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "Start to finish",
+      "title": "From first walk to **last rake.**",
+      "steps": [
+        {
+          "title": "Walk",
+          "body": "You show Jake the yard, what bothers you and what you want from it. He tells you what he would do and what he would leave alone."
+        },
+        {
+          "title": "Read the site",
+          "body": "We look at sun, shade, drainage, soil, how materials will get in, and which plants and trees deserve to stay."
+        },
+        {
+          "title": "Plan",
+          "body": "The bed lines, plants, stone, edging and grade get worked out with you, to fit the house and the way you use the yard."
+        },
+        {
+          "title": "Estimate",
+          "body": "The plan becomes an itemized estimate you can go through line by line, with no pressure."
+        },
+        {
+          "title": "Build",
+          "body": "The crew shows up when we said. The right order is ground first, then stone and edging, then plants, then mulch or sod, and the job site gets left clean."
+        },
+        {
+          "title": "Follow up",
+          "body": "Jake calls when the crew is done and goes over watering. We can [do the watering](/plant-watering/) or [keep the yard up each month](/monthly-landscape-maintenance/) if you want."
+        }
+      ],
+      "footnote": "The estimate is free. Ask Jake how a full design is handled on your project before any planning starts."
+    },
+    {
+      "type": "gallery",
+      "plane": "ink",
+      "eyebrow": "Finished work",
+      "title": "Plans that made it into the ground.",
+      "intro": "A few of our 200+ projects. Curved bed lines, clipped hedges and stone borders, each one planned for the house behind it.",
+      "photos": [
+        "curve-fall",
+        "urn-bed",
+        "patio-bed",
+        "maple-court",
+        "tudor-planting",
+        "island-bed"
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "Close to home",
+      "title": "In St. Clair Shores, **start with the water.**",
+      "intro": "St. Clair Shores is home base for HD Landscape, on the west side of Lake St. Clair. Zoning allows one family lots from 6,000 square feet inland, and lakeshore districts start at 20,000, so the same plan rarely suits both.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Small lots that show everything",
+          "body": "On a small lot, every foot of the front bed counts. A few well placed plants and one clean bed line usually do more than a solid row of shrubs."
+        },
+        {
+          "title": "Clay that holds water",
+          "body": "USDA soil maps put poorly drained clay loams across most of the city, on ground with very little slope. So the plan starts with where the water will go, raised beds can make sense in the wet spots, and plant choices come after that."
+        },
+        {
+          "title": "Yards near the water",
+          "body": "The city has 14 miles of canals, and those yards and the lakefront take the wind off Lake St. Clair. High water flooded parts of town in 2019 and 2020, so a plan here should allow for wet ground and keep the view of the water open."
+        },
+        {
+          "title": "Ask the city before moving dirt",
+          "body": "Michigan generally requires a soil erosion permit for earth changes within 500 feet of a lake or stream, and St. Clair Shores runs that program itself, not the county. Ask early, so the plan you fall in love with is one you can build."
+        }
+      ]
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "What customers wrote",
+      "title": "One street, **three houses.**",
+      "ids": [
+        "amanda-h",
+        "billy-w",
+        "mark-r"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do landscape design in St. Clair Shores?",
+      "a": "Yes. HD Landscape designs and builds yards in St. Clair Shores, MI, where the company is based and works often. Most of the city sits on slow draining clay, so a plan here usually deals with the water first. We also work across Metro Detroit, including [Grosse Pointe](/landscape-design-grosse-pointe-mi/), [Birmingham](/landscape-design-birmingham-mi/), [Bloomfield Hills](/landscape-design-bloomfield-hills-mi/) and [Rochester](/landscape-design-rochester-mi/). Call or text Jake at [(586) 718-8762](tel:+15867188762)."
+    },
+    {
+      "q": "What does a landscape design include?",
+      "a": "A landscape design from HD Landscape covers the layout of your beds, the plants, the stone and edging, and how water leaves the yard. It starts with Jake on the property with you, because what works depends on the yard in front of him. Our crew then builds it, and the estimate lists each part on its own line."
+    },
+    {
+      "q": "Is landscape design free?",
+      "a": "The estimate from HD Landscape is free. For a full design, ask Jake how it is handled when he sees the yard, before any planning starts. Our plans are made for our own crew to build, so the plan and the build go together."
+    },
+    {
+      "q": "How much does a landscape design project cost?",
+      "a": "The yard sets the number: how big it is, how much the grade has to change and what goes in. Two yards the same size can land far apart if one needs grading first. Jake prices it once he has seen it, and there is no charge for the estimate. It comes itemized, so every piece of the plan has its own line."
+    },
+    {
+      "q": "Do you build the landscape you design?",
+      "a": "Yes. HD Landscape plans the job and our crew builds it, so one company is on it from the first walk to the follow up call. Jake also calls after the crew is done to check how it went and go over watering."
+    },
+    {
+      "q": "How long does landscape design take?",
+      "a": "A front bed and a full property are very different jobs, so Jake can give you a clear idea once he has seen the yard. On the build side, some jobs wrap up in a day and bigger ones take longer."
+    },
+    {
+      "q": "When should I start planning a new landscape in Michigan?",
+      "a": "Start before the season you want it built, because the plan comes before any ground work. We work in Michigan while the ground is workable. For new trees, the Michigan DNR recommends spring or fall, and Michigan State University Extension leans toward spring because new roots stall as the soil cools."
+    },
+    {
+      "q": "Can you design a landscape for clay soil?",
+      "a": "Yes. Clay is common in southeast Michigan and drains slowly, so the plan deals with drainage first and plants go in at the right depth. The Michigan DNR says a tree's root flare should sit level with the top of the hole or slightly above it."
+    },
+    {
+      "q": "Do you design low maintenance landscapes?",
+      "a": "Yes, if that is what you want. Low maintenance mostly comes from the right plant in the right spot, with room for its full grown size, so you are not cutting it back every year. [Monthly landscape maintenance](/monthly-landscape-maintenance/) is there for upkeep you would rather hand off, and what a visit covers is set on your estimate."
+    },
+    {
+      "q": "Can you design just my front yard?",
+      "a": "Yes. A front yard or a single problem area is a fine place to start. Jake will look at how it connects to the rest of the property, so a later phase does not mean undoing this one."
+    },
+    {
+      "q": "Do you install sprinklers as part of a landscape design?",
+      "a": "No. HD Landscape does not install sprinkler systems. If you want one, have it put in before the planting, and we will plant around it. New plants still need steady water, and we offer [plant watering](/plant-watering/) while they settle in."
+    },
+    {
+      "q": "Do you design commercial landscapes?",
+      "a": "Yes. We work on residential and commercial properties. Entry beds, planters, hedges and stone along a building get planned the same way as a home, with the same itemized estimate."
+    }
+  ],
+  "quote": {
+    "title": "Tell us about the yard.",
+    "lede": "What do you want to change, and what do you want to keep? Text a photo if that is easier, and Jake will come look and write it up as an itemized estimate."
+  },
+  "summary": {
+    "title": "A design settles the layout, the plants and the water.",
+    "intro": "A design is the plan for the whole job, made by the company that builds it. Here is what it works out, and the work it calls for is itemized on your estimate.",
+    "items": [
+      {
+        "name": "Property walk",
+        "detail": "You show Jake the yard and tell him what you want."
+      },
+      {
+        "name": "Layout",
+        "detail": "Bed lines, stone and edging planned to fit the house."
+      },
+      {
+        "name": "Plant plan",
+        "detail": "Plants picked for your sun and soil, spaced for full size."
+      },
+      {
+        "name": "Water and grade",
+        "detail": "Where water goes, and any grading the yard needs first."
+      },
+      {
+        "name": "The build",
+        "detail": "Our crew builds it, and Jake calls after to check in."
+      }
+    ],
+    "footnote": "Estimates are free. Sprinklers are not part of our work, so have any system put in before we plant."
+  }
+}

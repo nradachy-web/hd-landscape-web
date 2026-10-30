@@ -1,0 +1,43 @@
+---
+/* Plain privacy policy for a small service business. Lists exactly what this
+   site does: the form, Web3Forms, Google Analytics (after first touch), the
+   hd_src cookie and GitHub Pages hosting. Nothing is sold. */
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import { BRAND } from '../data/site';
+import { rich } from '../lib/rich';
+import { breadcrumbs } from '../lib/schema';
+
+const path = '/privacy-policy/';
+const sections: [string, string][] = [
+  ['What we collect', 'When you send a request we receive what you type: your name, phone, email if you give it, your town, the services you picked and any notes. We also receive the page you sent it from and, if you came from an ad, the ad click ID.'],
+  ['Why we collect it', 'To answer you, give you an estimate and do the work you ask for. We do not sell your information and we do not share it for anyone else’s marketing.'],
+  ['Who helps us', 'Form messages are delivered by Web3Forms. The site is hosted on GitHub Pages. We use Google Analytics to see how the site is used, and it loads after you first interact with a page. These providers handle data under their own privacy policies.'],
+  ['Cookies', 'Google Analytics sets its own cookies. If you arrive from an ad or a tagged link, a first-party cookie called hd_src keeps the campaign tags for 90 days so a request can be matched to the ad that brought it.'],
+  ['Your choices', `You can ask us what we hold about you, or ask us to delete it, by calling [${BRAND.phone}](${BRAND.phoneHref}) or emailing [${BRAND.email}](mailto:${BRAND.email}). You can also block cookies in your browser and the site will still work.`],
+  ['Children', 'This site is for adults arranging work on a property. We do not knowingly collect information from children.'],
+  ['Changes', 'If this policy changes we will update this page. Last updated October 30, 2026.'],
+];
+---
+
+<Base title="Privacy Policy | HD Landscape LLC" description="What HD Landscape collects when you request an estimate or browse this site, why we collect it and how to ask us to delete it." path={path} schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Privacy policy', path }])]} quoteHref="/get-an-estimate/" bare>
+  <PageHead eyebrow="Privacy policy" title="The short version: **we use it to answer you.**" crumbs={[{ name: 'Privacy policy', path }]} />
+  <section class="band">
+    <div class="wrap legal">
+      {sections.map(([h, p]) => <section><h2 class="h3">{h}</h2><p set:html={rich(p)} /></section>)}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .legal {
+    display: grid;
+    gap: 1.75rem;
+    max-width: 46rem;
+  }
+
+  .legal section {
+    display: grid;
+    gap: 0.4rem;
+  }
+</style>

@@ -1,0 +1,49 @@
+{
+  "service": "tree-work",
+  "city": "sterling-heights",
+  "meta": {
+    "title": "Tree Trimming in Sterling Heights, MI | HD Landscape",
+    "description": "Tree trimming and smaller tree removal for Sterling Heights, MI yards. Street trees stay with the city, and the biggest jobs we hand to a tree company."
+  },
+  "hero": {
+    "kicker": "Tree trimming and removal in Sterling Heights, MI",
+    "title": "Some trees here **belong to the city.**",
+    "lede": "The street tree out front is the city's. The trees in your yard are yours, and those are the ones HD Landscape works on in Sterling Heights: pruning, smaller removals and stump grinding.",
+    "chips": ["Yard trees, not street trees", "Smaller removals by our crew", "Stump grinding too"],
+    "photo": "shade-lawn"
+  },
+  "local": {
+    "eyebrow": "Tree work in Sterling Heights",
+    "title": "Find out whose tree it is, then pick up the saw.",
+    "intro": "Sterling Heights lost thousands of ash trees to the emerald ash borer, its canopy now covers about 19 percent of the city and voters approved money in 2024 to replant. So the first question on any tree job here is a simple one: is it in your yard or in the city right of way?",
+    "points": [
+      { "title": "Street trees are a city job", "body": "Public Works inspects street trees at no cost and makes the call on removals. City policy keeps those to trees that are dead, dying, diseased or hazardous, plus a short list of prohibited species. We leave all of that to the city and work on the trees on your own property." },
+      { "title": "Leave the new ones alone", "body": "The city is planting 3,000 street trees a year. It asks residents not to trim, fertilize or remove them, and says it will do the trimming itself. If one appears in front of your house, saws and equipment need to stay clear of it." },
+      { "title": "Storm prone yard trees", "body": "Silver maple, box elder and poplar are prohibited in the right of way, and the city names storm damage as a reason for all three. That list covers the right of way, not your yard, but those are the trees we would look at first." },
+      { "title": "A sound shade tree earns its spot", "body": "With canopy this thin, a sound yard tree is better pruned than removed if it can be saved. A small tree in the wrong spot is a different story. That one is easier to take out now than in ten years." },
+      { "title": "Oaks run on a calendar", "body": "Red oak grows along the Clinton River in city parkland. If you have an oak in your yard, the Michigan DNR says not to prune it in the growing season, and especially not from April 15 to July 15, because beetles carry oak wilt to fresh cuts. Winter is the safer time. Jake works South Florida in those months, and he will tell you if he can reach your oak himself or who can." }
+    ]
+  },
+  "logistics": {
+    "title": "Logs and long limbs cannot sit at the Sterling Heights curb.",
+    "body": [
+      "Jake looks at the tree with you, or starts from a photo, and tells you straight whether it is yours or the city's, and whether it is small enough for our crew. Single family lots here are zoned at minimum widths of 60 to 100 feet, so a tree behind a fence can mean carrying brush out through a gate. We plan for that in the estimate.",
+      "City yard waste pickup only takes bundled branches under four feet, and it will not take logs or oversized limbs. Long branches left in the right of way without going through the city's paid chipping program can bring a notice and a bill. Your estimate spells out how the debris leaves."
+    ],
+    "facts": [
+      { "label": "Street trees", "value": "City Public Works" },
+      { "label": "Smaller yard trees", "value": "Our crew" },
+      { "label": "Oak pruning", "value": "Not in the growing season" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ai-tree",
+  "faq": [
+    { "q": "Do you do tree trimming and removal in Sterling Heights?", "a": "Yes. HD Landscape trims yard trees, takes down smaller ones and can [grind the stump](/stump-grinding/) in Sterling Heights. A tree too big for our crew gets handed to a tree company. With a very large or landmark tree, ask the city first, because Sterling Heights has a Tree Preservation Ordinance." },
+    { "q": "Can I trim the city tree in front of my house in Sterling Heights?", "a": "Start with Public Works. Street trees in the right of way are the city's, and it will inspect one at no cost if you ask. For the new trees it is planting, the city says plainly not to trim them. We do not work on city street trees." },
+    { "q": "Why is Sterling Heights planting a tree in front of my house?", "a": "Voters passed the Pathways to Play and Preservation millage in 2024, and part of it pays for 3,000 street trees a year to restore canopy lost to the emerald ash borer. The city says the trees go on public right of way and that opting out is not an option. Keep mulch off the trunk and tell your lawn crew to stay clear of the bark." },
+    { "q": "Will the city remove a dead street tree in Sterling Heights?", "a": "It can. City policy says Public Works may remove street trees that are dead, dying, diseased or hazardous, at its discretion and at no charge. Ask about replacement rules too. The stump gets ground 6 inches below grade, or deep enough to plant a replacement, and restoring the spot falls to the homeowner, which we can help with." },
+    { "q": "What do I do with branches after a storm in Sterling Heights?", "a": "Bundle branches under four feet for your yard waste day, while pickup is running. Longer limbs under 6 inches across go through the city's paid chipping program, stacked with the cut ends facing the street. Or text Jake a photo. On a smaller tree we can clean it up, and anything near wires goes to the utility." }
+  ],
+  "reviews": ["anne-j", "stephen-d", "amanda-h"]
+}

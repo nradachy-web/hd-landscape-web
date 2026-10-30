@@ -1,0 +1,52 @@
+{
+  "city": "franklin",
+  "meta": {
+    "title": "Landscaping in Franklin, MI | HD Landscape",
+    "description": "Landscaping for Franklin, MI: big lots, old trees, soft lawn edges and monthly care in the Oakland County village. Free itemized estimates from Jake."
+  },
+  "hero": {
+    "kicker": "Landscaping in Franklin, MI",
+    "title": "The town that time forgot, **on purpose.**",
+    "lede": "Franklin keeps its wide lots, tree lined roads and soft edges between yards because people here want it that way. HD Landscape looks after yards in the village without making them look like the suburbs around it.",
+    "chips": ["Work around old trees", "Big lot upkeep", "Itemized estimates"],
+    "photo": "colonial-fall"
+  },
+  "about": {
+    "eyebrow": "Yards in Franklin",
+    "title": "A good yard here looks like it grew that way.",
+    "body": [
+      "Most Franklin yards have no hard line anywhere. There is no curb at the road and often no fence at the property line, just lawn easing into trees and shrubs. A 1920s plan for large single family lots still shapes all of it, and zoning minimums across most of the village run from about a half acre to about three acres. So the job here is less about adding things and more about keeping a big, soft yard in hand.",
+      "The village's draft master plan even names the soft boundary where a kept lawn fades into natural growth as part of its character. Good work here should not look like a landscaper just left. Along Franklin Road, the first district in Michigan listed on the National Register of Historic Places adds a step: its commission reviews major changes to open spaces, including the removal of large trees."
+    ],
+    "points": [
+      { "title": "An old canopy needs a next generation", "body": "Planted trees here are reaching maturity, and the village's draft plan says younger ones need to go in among them. We [plant](/plant-installation/) with that in mind, in the gaps and off the old roots, so the shade carries on after the big trees go." },
+      { "title": "Oaks have a pruning calendar", "body": "Oak and hickory are the typical woods on the uplands here. Michigan's invasive species program says to leave oaks alone in the growing season, because beetles carry oak wilt to fresh cuts. So oak [trimming](/tree-trimming-and-removal/) waits for the cold months. Jake works South Florida in winter, so he will tell you whether he can get to yours or who can." },
+      { "title": "Long edges need a light hand", "body": "Big lots have long edges, and left alone they fill in with the same buckthorn and box elder the village cut back along its roads in 2012. [Monthly maintenance](/monthly-landscape-maintenance/) and [plant removal](/plant-removal/) keep an edge soft without letting it take over." },
+      { "title": "The road edge takes a beating", "body": "The plan lists road salt, exhaust and scrapes from vehicles as reasons roadside plants decline. With no curb in the way, the front of the lot gets all of it. Tough plants belong in that strip, with the tender ones farther back." }
+    ],
+    "photo": "shade-lawn"
+  },
+  "logistics": {
+    "title": "In Franklin, find the well and the septic before a truck rolls in.",
+    "body": [
+      "The walk takes longer here because there is more lot. Expect Jake to point out what should be left alone as well as what needs work. Then comes an itemized estimate to read through with no pressure.",
+      "With no curbs on most roads, trucks and materials need a spot that stays off the lawn and clear of the drainage along the road edge. Homes here run on private wells and some still have septic fields, so tell us where yours is before anything heavy crosses the yard."
+    ],
+    "facts": [
+      { "label": "Oak pruning", "value": "After the growing season" },
+      { "label": "Home water", "value": "Private wells" },
+      { "label": "Protected trees", "value": "Village permit to remove" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "faq": [
+    { "q": "Does HD Landscape work in Franklin, Michigan?", "a": "Yes. HD Landscape works in the Village of Franklin in Oakland County, with [landscape design](/landscape-design-franklin-mi/), renovation, planting, hedge trimming, small tree work, monthly maintenance and cleanups. Sprinklers and lawn aeration are not part of what we do." },
+    { "q": "Does Franklin require a permit to take down a tree?", "a": "Often, yes. The village's tree protection ordinance requires a permit to remove a protected tree, with one for one replacement, and it keeps a separate heritage tree list. The building department can tell you if your tree is covered, so call them first." },
+    { "q": "When is it safe to prune an oak tree?", "a": "Michigan's guidance is to avoid pruning oaks during the growing season, and above all between April 15 and July 15. Fresh cuts in that window can draw the beetles that spread oak wilt, which is a bad trade for a big old oak. That leaves the cold months, when Jake is working South Florida, so ask him whether he can get to it or who can." },
+    { "q": "Can you keep up a large wooded lot every month?", "a": "Yes. What each [monthly visit](/monthly-landscape-maintenance/) covers is set on your estimate, and beds, weeding, shaping shrubs, edging and tidying are the usual examples. On a lot like this, settle which parts stay kept and which stay natural before the first visit, so nobody tidies away the wild corner you like." },
+    { "q": "Do you remove large trees in Franklin?", "a": "Smaller trees, yes. The big ones we hand to a tree company, and plenty of the old trees in this village fall in that group. Jake can sort out which is which on the walk, and the tree permit question comes first either way." },
+    { "q": "What does landscaping cost in Franklin?", "a": "A half acre and a three acre lot with a ravine are not the same job, so we price it after walking it. The free estimate itemizes the work, so you can go through it line by line before deciding anything." }
+  ],
+  "reviews": ["stephen-d", "meagan-m", "marie-b"],
+  "neighbors": ["bloomfield-township", "west-bloomfield", "beverly-hills", "bloomfield-hills"]
+}

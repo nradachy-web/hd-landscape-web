@@ -1,0 +1,280 @@
+---
+/* ============================================================================
+   A TOWN HUB
+
+     1  hero       the town in the h1, two actions, the rating
+     2  paper      every service here, each linking to this town's page when it
+                   has one and to the main service page when it does not
+     3  white      the yards here: local points, grounded in docs/research/<city>.md
+     4  ink        how a job runs here, reviews
+     5  paper      the questions, then nearby towns
+     6  ink        the estimate form beside the phone
+   Copy comes from src/content/cities/<city>.json.
+   ========================================================================== */
+import type { CollectionEntry } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import Head from '../components/Head.astro';
+import Photo from '../components/Photo.astro';
+import Edge from '../components/Edge.astro';
+import Faq from '../components/Faq.astro';
+import Reviews from '../components/Reviews.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import { BRAND } from '../data/site';
+import { GROUPS, inGroup } from '../data/services';
+import { city as getCity, hubPath, townPath, hasTownPage, cityLabel } from '../data/cities';
+import { review } from '../data/reviews';
+import { photo, type PhotoId } from '../data/photos';
+import { heroImage } from '../lib/hero';
+import { href } from '../lib/paths';
+import { rich } from '../lib/rich';
+import { breadcrumbs, faqSchema } from '../lib/schema';
+
+interface Props {
+  entry: CollectionEntry<'cities'>;
+}
+const { entry } = Astro.props;
+const c = entry.data;
+const town = getCity(c.city);
+const path = hubPath(town);
+const hero = await heroImage(c.hero.photo as PhotoId);
+const groups = GROUPS.map((g) => ({ ...g, list: inGroup(g.id).filter((s) => (town.state === 'FL' ? s.florida || hasTownPage(s, town) || ['landscape-design', 'plant-installation', 'landscape-maintenance', 'mulching', 'rock-stone'].includes(s.id) : !s.florida)) })).filter((g) => g.list.length);
+
+const schema = [
+  faqSchema(c.faq),
+  breadcrumbs([
+    { name: 'Home', path: '/' },
+    { name: 'Service areas', path: '/service-areas/' },
+    { name: town.name, path },
+  ]),
+];
+---
+
+<Base ogImage={hero.fallback} title={c.meta.title} description={c.meta.description} path={path} preload={hero.preload} schema={schema}>
+  <Hero
+    image={hero}
+    kicker={c.hero.kicker}
+    title={c.hero.title}
+    lede={c.hero.lede}
+    chips={c.hero.chips}
+    primary={{ label: `Get a ${town.name} estimate`, href: '#quote' }}
+    next="paper"
+    crumbs={[
+      { name: 'Service areas', path: '/service-areas/' },
+      { name: town.name, path },
+    ]}
+  />
+
+  <section class="band" aria-labelledby="svc-h">
+    <div class="wrap">
+      <Head id="svc-h" eyebrow={`Services in ${town.name}`} title={`Landscaping in ${town.name}: **what we do here.**`} intro={town.home ? 'This is home. Every service starts with a free, itemized estimate.' : 'Pick a service to see how it works. Every one starts with a free, itemized estimate.'} />
+      <div class="svc">
+        {
+          groups.map((g) => (
+            <div>
+              <h3 class="h3">{g.name}</h3>
+              <ul>
+                {g.list.map((s) => <li><a href={href(townPath(s, town))}>{s.name}{hasTownPage(s, town) && <span class="sr"> in {town.name}</span>}</a></li>)}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="band white has-edge" aria-labelledby="about-h">
+    <div class="wrap">
+      <div class="two flip about">
+        <figure class="stick">
+          <div class="frame tall">
+            <Photo id={c.about.photo as PhotoId} ratio={4 / 5} widths={[400, 640, 880]} sizes="(min-width: 60rem) 44vw, 100vw" />
+          </div>
+          <figcaption class="note cap">{photo(c.about.photo as PhotoId).caption}</figcaption>
+        </figure>
+        <div class="stack" style="--gap:1.4rem">
+          <Head id="about-h" layout="left" eyebrow={c.about.eyebrow ?? `Yards in ${town.name}`} title={c.about.title} />
+          <div class="prose muted">
+            {c.about.body.map((p) => <p set:html={rich(p)} />)}
+          </div>
+          <ul class="points">
+            {
+              c.about.points.map((p) => (
+                <li>
+                  <h3 class="points__t">{p.title}</h3>
+                  <p class="small muted" set:html={rich(p.body)} />
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+    <Edge to="ink" />
+  </section>
+
+  <section class="band ink has-edge" aria-labelledby="how-h">
+    <div class="wrap">
+      <div class="two wide-left how">
+        <div class="stack" style="--gap:1.25rem">
+          <Head id="how-h" layout="left" eyebrow={`In ${town.name}`} title={c.logistics.title} />
+          <div class="prose muted">
+            {c.logistics.body.map((p) => <p set:html={rich(p)} />)}
+          </div>
+        </div>
+        <dl class="facts">
+          {
+            c.logistics.facts.map((f) => (
+              <div>
+                <dt class="fine">{f.label}</dt>
+                <dd>{f.value}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </div>
+      <div class="rev">
+        <Reviews reviews={c.reviews.map((id) => review(id)!)} />
+      </div>
+    </div>
+    <Edge to="paper" flip />
+  </section>
+
+  <section class="band" aria-labelledby="faq-h">
+    <div class="wrap faqs">
+      <Head id="faq-h" layout="left" eyebrow="Questions" title={`${town.name} questions.`} intro={`If yours is not here, call or text [${BRAND.phone}](${BRAND.phoneHref}).`} />
+      <Faq items={c.faq} />
+    </div>
+    <div class="wrap more">
+      <h2 class="h3">Nearby towns we serve</h2>
+      <ul class="chips">
+        {c.neighbors.map((id) => <li><a class="chip" href={href(hubPath(getCity(id)))}>{getCity(id).name}</a></li>)}
+        <li><a class="chip" href={href('/service-areas/')}>All service areas</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <QuoteBand title={`Get your free estimate in ${town.name}.`} lede={`Tell us about the yard and where in ${town.name} it is. Jake will take a look and give you an itemized estimate.`} town={town.name} avoid={[c.hero.photo, c.about.photo]} />
+</Base>
+
+<style>
+  .svc {
+    display: grid;
+    gap: 2rem 1.5rem;
+  }
+
+  @media (min-width: 40rem) {
+    .svc {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 66rem) {
+    .svc {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  .svc ul {
+    margin-top: 0.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .svc a {
+    display: flex;
+    align-items: center;
+    min-height: 2.6rem;
+    border-bottom: 1px solid var(--line);
+    font-size: 0.975rem;
+    font-weight: 540;
+    text-decoration: none;
+  }
+
+  .svc a:hover {
+    color: var(--leaf-ink);
+  }
+
+  .points {
+    display: grid;
+    border-top: 1px solid var(--line);
+  }
+
+  .points li {
+    display: grid;
+    gap: 0.25rem;
+    padding-block: 1rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .points__t {
+    font-size: 1.0625rem;
+    font-weight: 640;
+  }
+
+  .how {
+    align-items: start;
+  }
+
+  .facts {
+    display: grid;
+    border: 1px solid var(--line-ink);
+    border-radius: var(--r);
+    background: var(--ink-2);
+  }
+
+  .facts div {
+    display: grid;
+    gap: 0.2rem;
+    padding: 1.1rem 1.4rem;
+    border-bottom: 1px solid var(--line-ink);
+  }
+
+  .facts div:last-child {
+    border-bottom: 0;
+  }
+
+  .facts dt {
+    color: var(--leaf-soft);
+    font-weight: 620;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .facts dd {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .rev {
+    margin-top: clamp(2.5rem, 5vw, 4rem);
+    padding-top: clamp(2.5rem, 5vw, 4rem);
+    border-top: 1px solid var(--line-ink);
+  }
+
+  .faqs {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .more {
+    display: grid;
+    gap: 0.9rem;
+    margin-top: clamp(3rem, 6vw, 5rem);
+    padding-top: clamp(2rem, 4vw, 3rem);
+    border-top: 1px solid var(--line);
+  }
+
+  @media (min-width: 72rem) {
+    .faqs {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: clamp(2rem, 6vw, 6rem);
+      align-items: start;
+    }
+
+    .faqs :global(.head) {
+      position: sticky;
+      top: calc(var(--header) + 2rem);
+    }
+  }
+</style>

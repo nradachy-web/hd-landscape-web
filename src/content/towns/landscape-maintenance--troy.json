@@ -1,0 +1,48 @@
+{
+  "service": "landscape-maintenance",
+  "city": "troy",
+  "meta": {
+    "title": "Monthly Landscape Maintenance in Troy, MI | HD Landscape",
+    "description": "Monthly landscape maintenance in Troy, MI from HD Landscape: beds weeded, shrubs shaped and edges tidied, with what a visit covers set on your estimate."
+  },
+  "hero": {
+    "kicker": "Monthly landscape maintenance in Troy, MI",
+    "title": "More bed line than **a weekend can cover.**",
+    "lede": "A Troy lot can carry a lot of beds, shrubs and edge. HD Landscape comes monthly to weed, shape shrubs and clean up edges, so the yard never gets far enough behind to need a rescue. Your estimate sets what each visit covers.",
+    "chips": ["Beds weeded", "Shrubs kept off the walks", "Homes and commercial sites"],
+    "photo": "pergola-deck"
+  },
+  "local": {
+    "eyebrow": "Monthly care in Troy",
+    "title": "A little every month beats **one long Saturday in July.**",
+    "intro": "Monthly maintenance looks after the planted part of the yard. Here that part tends to be big and mature, and the city has rules that a neglected bed or an overgrown shrub can run into.",
+    "points": [
+      { "title": "Wide lots, long bed lines", "body": "Zoning minimums for one family lots here run from 7,500 to 21,780 square feet on sewer, and a wide lot means long bed lines and more shrubs to keep in shape. A monthly visit stays on top of them before they pile up." },
+      { "title": "City height and clearance rules", "body": "From May 1 to October 31, the city limits lawn grass and weeds to 8 inches, with ornamental plants exempt. It also wants plants kept back from sidewalks. Regular visits keep beds and walks well inside those lines." },
+      { "title": "A yard you have kept for years", "body": "A yard that was a good Saturday workout at 45 can be a lot at 75, and the city's Master Plan notes that residents here are aging. Monthly care keeps the place looking the way you always kept it, without the ladder or the sore back." },
+      { "title": "Offices, shops and common ground", "body": "Troy has millions of square feet of office and retail space, along with more than 40 neighborhood and condominium associations. An entry bed gets looked at every day, and monthly visits keep it sharp. We serve commercial properties as well as homes." }
+    ]
+  },
+  "logistics": {
+    "title": "One walk with Jake, then a visit a month in season.",
+    "body": [
+      "Jake walks the property first, and what your visits cover is set on your estimate. If the yard is behind, the work can start with a [spring or fall cleanup](/spring-and-fall-cleanups/) or [hedge trimming](/hedge-trimming-troy-mi/), so the monthly work has a clean place to start.",
+      "From then on we come once a month through the growing season. How the debris from each visit leaves goes on the estimate too, and that matters here, because pickup will not take yard waste in plastic bags or mixed in with the trash."
+    ],
+    "facts": [
+      { "label": "Visits", "value": "Once a month in season" },
+      { "label": "Covers", "value": "Set on your estimate: beds, weeds, shrubs, edges, tidying" },
+      { "label": "Not included", "value": "Sprinklers and aeration" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "condo-evergreens",
+  "faq": [
+    { "q": "Do you offer monthly landscape maintenance in Troy, MI?", "a": "Yes. HD Landscape offers monthly landscape maintenance in Troy, MI, for homes and commercial properties. What a visit covers is set on your estimate, and beds, weeding, shrub shaping, edging and tidying are the kind of work it can include." },
+    { "q": "How tall can weeds get in Troy before the city steps in?", "a": "The city's rule is 8 inches for lawn grass and weeds from May 1 to October 31, with ornamental plants and grasses exempt. Weeds in a bed are easy to lose track of in a busy summer, and a monthly visit keeps them from getting that far. Rules can change, so call the city if you have a notice." },
+    { "q": "Will monthly visits keep plants off the sidewalk in Troy?", "a": "They can. The city asks owners to keep branches and plants back from the sidewalk, up to 8 feet above the walk, and it reminds people about the walk behind the house too. Shaping shrubs is one of the things a visit can cover, so point out the walks you want kept clear and it goes on your estimate." },
+    { "q": "Can you maintain an office or association entrance?", "a": "Yes. We work on commercial properties as well as homes, and with all the offices and associations in Troy, the same monthly visit suits entry beds, clipped shrubs and common areas. Tell us about the site, and Jake will walk it and write up an itemized estimate. Sprinklers are not part of what we do, so those stay with your irrigation company." },
+    { "q": "Do monthly visits cover fall leaves?", "a": "Visits can tidy leaves, sticks and litter out of the beds and off the walks. A yard full of leaves is a bigger job, and that is what a [fall cleanup](/spring-and-fall-cleanups/) is for. Troy does not allow leaves piled in the street, and curbside pickup runs into December with leaves in paper bags or stickered cans only. Jake can help you choose between a last visit and a fall cleanup." }
+  ],
+  "reviews": ["marie-b", "mark-r", "nancy-g"]
+}

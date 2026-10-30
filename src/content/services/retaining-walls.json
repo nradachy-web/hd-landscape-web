@@ -1,0 +1,265 @@
+{
+  "service": "retaining-walls",
+  "meta": {
+    "title": "Retaining Walls in St. Clair Shores, MI | HD Landscape",
+    "description": "HD Landscape builds low block walls and raised bed borders in St. Clair Shores, MI and Metro Detroit, to hold a grade or lift a bed. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Retaining walls in St. Clair Shores, MI and across Metro Detroit",
+    "title": "Block walls that **hold the line.**",
+    "lede": "A bed that stands up off the lawn, a grade that stays put, a clean line across the front of the house. HD Landscape builds low block walls and raised bed borders, and the part that keeps a wall straight is the part you never see.",
+    "chips": [
+      "Low block walls",
+      "Raised bed borders",
+      "Beds finished to the wall"
+    ],
+    "photo": "weeping-border"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What a wall does",
+      "title": "A good wall starts **below the lawn.**",
+      "body": [
+        "A retaining wall holds soil at one level so the ground beside it can sit at another. We build the low kind: block walls a few rows high that lift a bed off a flat lawn or keep soil off a walk.",
+        "Short walls like these are usually dry stacked, meaning the block sits without mortar, so a wall is only as straight as the base under it. Colorado State University Extension puts it plainly: a wall is only as good as its foundation. The trench, the gravel and the first row matter most, because every row above copies what that one does."
+      ],
+      "checks": [
+        "A level trench with a packed gravel base under the block",
+        "A first row set level, block by block",
+        "Gravel behind the block, so water drains instead of pushing",
+        "Clean caps, with the bed or lawn finished right up to the wall"
+      ],
+      "photo": "curve-brick-bed"
+    },
+    {
+      "type": "gallery",
+      "plane": "ink",
+      "eyebrow": "Real jobs",
+      "title": "Low walls and borders from our own jobs.",
+      "intro": "Every photo here is one of our jobs. Look at the curves and the corners. That is where wall work shows who built it.",
+      "photos": [
+        "curve-fall",
+        "ranch-stone-bed",
+        "rock-bed-hydrangea",
+        "hosta-bed",
+        "maple-court",
+        "limestone-bed"
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "Know what you need",
+      "title": "Three jobs people call a retaining wall.",
+      "intro": "The right wall depends on how much soil it holds and what sits above it. This is how we sort it out on the walk through.",
+      "columns": [
+        "Raised bed border",
+        "Low retaining wall",
+        "Tall or loaded wall"
+      ],
+      "rows": [
+        {
+          "label": "What it does",
+          "values": [
+            "Lifts a bed above the lawn and gives it a clean, finished edge",
+            "Holds a real step in the ground between two levels of yard",
+            "Holds a steep bank, or carries a driveway or structure above it"
+          ]
+        },
+        {
+          "label": "What pushes on it",
+          "values": [
+            "Bed soil and mulch, so not much load",
+            "Soil and water behind it, so the base and drainage do the work",
+            "A lot of soil, water and weight, often more than block alone can take"
+          ]
+        },
+        {
+          "label": "What it takes",
+          "values": [
+            "A level trench, a packed base and clean block work",
+            "All of that, plus gravel behind the block and packed backfill",
+            "An engineer's design before the digging starts"
+          ]
+        },
+        {
+          "label": "From us",
+          "values": [
+            "Yes, this is the work in our photos",
+            "Yes, when the grade and the site allow it",
+            "Ask first. If it needs an engineer, Jake will say so"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "Where it helps",
+      "title": "Where a low wall earns its place.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Front beds on flat lots",
+          "body": "On a flat lot, a bed can disappear into the lawn. A border a few rows high gives it a shape you can see from the street and keeps the soil and mulch where they belong. It is a natural piece of a [landscape renovation](/landscape-renovation/)."
+        },
+        {
+          "title": "Clay that stays wet",
+          "body": "Most points on the USDA soil map of St. Clair Shores come back poorly drained, on heavy soil with slopes mostly 0 to 2 percent. That ground holds water around roots. University of Minnesota Extension lists a very wet area as one reason to build a raised bed. Lifting a bed gives plants soil you can control."
+        },
+        {
+          "title": "A slope that washes out",
+          "body": "A yard that falls too fast sheds soil and is hard to mow. A low wall turns one steep pitch into two easier levels, and each level can be a lawn or a bed. It usually goes in with [yard grading](/yard-grading/), since the ground on both sides has to be shaped."
+        },
+        {
+          "title": "Along a walk or drive",
+          "body": "Where a bed sits higher than the concrete beside it, block holds the line and keeps mud and mulch off the walk."
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Good to know",
+      "title": "Why block walls lean, and how to avoid it.",
+      "intro": "When a wall tips or bulges, look under it and behind it first.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Water with no way out",
+          "body": "Colorado State University Extension says most retaining walls fail because of pressure from water and soil moisture building up behind them. Drainage gravel behind the block gives that water a way down and out."
+        },
+        {
+          "title": "A soft or uneven base",
+          "body": "Block set on loose soil settles unevenly. Colorado State University Extension says every retaining wall should sit on a sound, compacted base, so the gravel should be packed down before the first block goes on."
+        },
+        {
+          "title": "Backfill dumped in at the end",
+          "body": "Soil shoveled in after the wall is done keeps settling. The right way is to backfill and compact after each row goes on, not at the end."
+        },
+        {
+          "title": "A wall stacked too high",
+          "body": "Colorado State University Extension notes that many cities require an engineer's design for walls over four feet, and says to confirm it with yours. If a yard asks for more than a low block wall can give, you will hear it from us on the walk through."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "The build",
+      "title": "The important steps **get buried.**",
+      "steps": [
+        {
+          "title": "Walk and mark",
+          "body": "Start by walking the yard with Jake: which way the ground falls, where the rain ends up and where the wall should run. Buried lines get marked before digging. In Michigan that takes a MISS DIG 811 notice at least three business days ahead, on a job of any size, and when a contractor digs, the call is the contractor's."
+        },
+        {
+          "title": "Dig the trench",
+          "body": "The trench follows the line and has to run level. Spare soil can go into the bed. Your estimate says how the rest leaves, so it does not become a pile by the garage."
+        },
+        {
+          "title": "Set the base",
+          "body": "Gravel goes in and gets packed down. The first row goes on top and gets set level, block by block, before anything is stacked on it."
+        },
+        {
+          "title": "Stack and backfill",
+          "body": "Rows go up with the joints staggered, each one set back a touch into the slope. Gravel and soil go in behind the block and get packed as the wall rises."
+        },
+        {
+          "title": "Cap and finish",
+          "body": "Caps go on last. Then we fill the bed with [plants](/plant-installation/), [mulch](/mulching/) or [stone](/rock-and-stone-installation/), clean up the lawn edge and leave the site tidy."
+        }
+      ]
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "In their words",
+      "title": "No pressure, and **seamless from start to finish.**",
+      "intro": "These customers hired us for landscape work of all kinds. How we show up does not change on a wall job.",
+      "ids": [
+        "gina-d",
+        "billy-w",
+        "mark-r"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you build retaining walls in St. Clair Shores?",
+      "a": "Yes. HD Landscape builds low block retaining walls and raised bed borders in St. Clair Shores, where the company is based, and across Metro Detroit, including [Grosse Pointe](/retaining-walls-grosse-pointe-mi/), [Birmingham](/retaining-walls-birmingham-mi/) and [Rochester Hills](/retaining-walls-rochester-hills-mi/). Seawalls are a different job, and we do not build or repair them."
+    },
+    {
+      "q": "How tall can a retaining wall be before I need an engineer?",
+      "a": "The usual line is about 4 feet. Colorado State University Extension says many municipalities require walls over four feet to be designed by engineers, and that you should verify it with your city before you build. A shorter wall can need one too if it holds up a driveway, a steep bank or a structure. The walls in our photos are well under that line."
+    },
+    {
+      "q": "Does a retaining wall need a permit in Michigan?",
+      "a": "It can. Each city sets its own zoning rules, so the answer turns on where you live, how tall the wall is and what it holds up, and your building department can tell you before work starts. In St. Clair Shores, the city also runs its own soil erosion permits, and the state says earth work within 500 feet of a lake or stream generally needs one."
+    },
+    {
+      "q": "What is the difference between a retaining wall and a raised bed border?",
+      "a": "A retaining wall holds back soil that is pressing on it, usually where the ground changes level. A raised bed border lifts a planting bed above a flat lawn and holds mulch or stone in place, so it carries far less load. They can look alike, and both should start the same way, with a level trench and a packed base."
+    },
+    {
+      "q": "Do I need a retaining wall or just edging?",
+      "a": "If the bed sits level with the lawn and you only want a clean line, [steel edging](/steel-edging/) may be all you need. If soil has to be held up, or you want the bed raised, block is the right call. When the smaller job is the answer, Jake says so."
+    },
+    {
+      "q": "Why is my retaining wall leaning?",
+      "a": "The usual causes are water trapped behind the wall, a base that settled, or soil that was never packed in as the wall went up. Trapped water adds pressure, and block on a poor base moves. Text Jake a photo of the lean and he can tell you what he sees."
+    },
+    {
+      "q": "Can a retaining wall fix a wet yard?",
+      "a": "Not on its own. A retaining wall holds soil, and the water still has to go somewhere. If the yard holds water or drains toward the house, start with [yard grading](/yard-grading/), then decide if a wall still makes sense."
+    },
+    {
+      "q": "Do plants in a raised bed need more water?",
+      "a": "Usually, yes. University of Minnesota Extension says raised beds dry out more quickly than in-ground gardens, and that the taller the bed, the more often it needs water. Jake will walk you through it, and we offer [plant watering](/plant-watering/) if you would rather hand it off."
+    },
+    {
+      "q": "How long does a retaining wall take to build?",
+      "a": "Length, corners and how much soil has to move set the schedule, so Jake gives you the timing after seeing the yard. Once a date is set, the crew shows up when we said it would."
+    },
+    {
+      "q": "How much does a retaining wall cost?",
+      "a": "There is no fair number to print, because a border along one bed and a wall holding a real step in the ground are very different jobs. Length, height, the block and the digging set the price. Jake works it out after seeing the yard, and the free estimate is itemized, so you can go through it line by line."
+    }
+  ],
+  "quote": {
+    "title": "Tell us what the ground is doing.",
+    "lede": "Where does it drop, what does it need to hold, and how do you want it to look? A photo by text is a fine place to start. Jake's estimate comes itemized, and it is free."
+  },
+  "summary": {
+    "title": "Most of a good wall ends up out of sight.",
+    "intro": "Here is what should go into a low block wall or raised bed border. Your estimate is itemized, so you can go through all of it line by line.",
+    "items": [
+      {
+        "name": "Layout",
+        "detail": "Line set, grade checked and buried lines marked before digging."
+      },
+      {
+        "name": "Trench and base",
+        "detail": "Trench cut and checked, gravel packed down and the first row set level."
+      },
+      {
+        "name": "Block and cap",
+        "detail": "Rows stacked with staggered joints and finished with clean caps."
+      },
+      {
+        "name": "Drainage and backfill",
+        "detail": "Gravel behind the block, with soil packed in as the wall rises."
+      },
+      {
+        "name": "Finish",
+        "detail": "Bed filled with plants, mulch or stone, and the lawn edge left clean."
+      },
+      {
+        "name": "Taller or loaded walls",
+        "detail": "Many cities require an engineer's design over 4 feet, and a wall holding up a driveway or steep bank can need one too."
+      }
+    ]
+  }
+}

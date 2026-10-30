@@ -1,0 +1,95 @@
+{
+  "service": "retaining-walls",
+  "city": "birmingham",
+  "meta": {
+    "title": "Retaining Walls in Birmingham, MI | HD Landscape",
+    "description": "HD Landscape builds retaining walls and raised bed borders in Birmingham, MI yards, planned around drainage, tree roots and the neighbor's lot."
+  },
+  "hero": {
+    "kicker": "Retaining walls in Birmingham, MI",
+    "title": "A wall that knows **where the water goes.**",
+    "lede": "A Birmingham wall has more to answer to than gravity. It has to hold the grade, keep water off the neighbor, stay out of old tree roots and look like it belongs on the block. HD Landscape builds block walls and raised bed borders that do.",
+    "chips": [
+      "Block walls and bed borders",
+      "Planned around drainage",
+      "Roots respected"
+    ],
+    "photo": "ranch-stone-bed"
+  },
+  "local": {
+    "eyebrow": "Walls in Birmingham",
+    "title": "A wall here answers to **the neighbor, the river and the roots.**",
+    "intro": "The Main Branch of the Rouge runs through the western part of the city, and one planning district is even called The Ravines, so grade is a real question on some lots. On others the need is smaller: a low wall that levels a bed or holds a bank back from a drive. Either way, the same questions come up.",
+    "points": [
+      {
+        "title": "Water cannot land on the neighbor",
+        "body": "The zoning code says drainage has to avoid sending water onto an adjacent lot where it could do damage. A wall changes where water goes, so the high and low points and the downspouts need reading before a block gets set. A narrow side yard leaves little room for error."
+      },
+      {
+        "title": "Near the river, ask first",
+        "body": "The city restricts fill and changes to the ground in the floodplain, and the floodway is stricter still. If your lot backs up to the Rouge or Quarton Lake, start with the City Engineer, who sets the exact limits. A wall there may need an engineer's sign off, or may not be allowed."
+      },
+      {
+        "title": "Most roots sit in the top 18 inches",
+        "body": "The city's tree manual says most of a tree's roots often grow in the top 18 inches of soil, and they can run well past the branches. A wall footing can cut right through them. The manual also bars grade changes in a public tree's root protection zone, generally the dripline, so near a street tree the wall moves or the city gets asked first."
+      },
+      {
+        "title": "Old stone can often stay",
+        "body": "Birmingham's historic guidelines name stone walls and designed grades as features to keep and repair. An old wall on your lot deserves a fair look at repair ahead of any talk about replacing it. In a local historic district, that choice involves the city."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "Slope and drainage first, then the block.",
+    "body": [
+      "The walk through comes first. Jake reads the slope, the drainage and what the wall has to hold, then tells you plainly what he would build. If a job needs more than a landscape wall, he will say so and point you toward an engineer.",
+      "Settle permits before the plan is final. The city's permit list names fences and impervious surfaces but not retaining walls, so a call to the Building Department tells you what your wall needs. That is a short call, and a far better one to make before the block arrives.",
+      "A wall usually comes with other work, like [yard grading](/yard-grading/), new plants or [sod](/sod-installation-birmingham-mi/). We can do it as one job, so the wall looks like part of the yard and not something added later."
+    ],
+    "facts": [
+      {
+        "label": "We build",
+        "value": "Block walls and raised bed borders"
+      },
+      {
+        "label": "First look",
+        "value": "Drainage, roots and lot lines"
+      },
+      {
+        "label": "Permits",
+        "value": "Confirm with the Building Department"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      }
+    ]
+  },
+  "photo": "rock-bed-hydrangea",
+  "faq": [
+    {
+      "q": "Do you build retaining walls in Birmingham?",
+      "a": "Yes. HD Landscape builds block retaining walls and raised bed borders in Birmingham, MI, the kind that hold a grade and finish a bed. Each one has to work with the drainage, the tree roots and the neighbor's lot, so Jake looks at all three first."
+    },
+    {
+      "q": "Does a retaining wall need a permit in Birmingham, MI?",
+      "a": "Ask the city's Building Department before work starts. Its permit list does not name retaining walls, and we will not guess at a height. A low bed border and a tall wall holding real soil are very different things, and work near the floodplain, the right of way or a historic district brings in more rules. We would rather you hear it from the city."
+    },
+    {
+      "q": "Can a retaining wall fix a water problem?",
+      "a": "Not by itself. A wall holds soil, and water still has to go somewhere. If water is the real problem, [yard grading](/yard-grading/) is the place to start. In Birmingham the fix also cannot push that water onto the next lot."
+    },
+    {
+      "q": "Can you build a wall near a big tree?",
+      "a": "Sometimes, if it stays out of the main roots. We would rather shift the wall than cut big roots, and soil should not get piled against the trunk. If the tree is a Birmingham street tree, the city has to approve any root work."
+    },
+    {
+      "q": "How tall of a retaining wall do you build?",
+      "a": "The right height comes down to the soil, the load and what sits above it, so we do not put one number on it. If your slope needs a taller or engineered wall, Jake will say so at the walk through."
+    }
+  ],
+  "reviews": [
+    "rob-e",
+    "billy-w"
+  ]
+}

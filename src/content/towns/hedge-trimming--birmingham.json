@@ -1,0 +1,49 @@
+{
+  "service": "hedge-trimming",
+  "city": "birmingham",
+  "meta": {
+    "title": "Hedge Trimming in Birmingham, MI | HD Landscape",
+    "description": "HD Landscape trims hedges in Birmingham, MI: boxwood, yew and privet shaped by hand and eye, with sidewalks and corner sight lines kept clear."
+  },
+  "hero": {
+    "kicker": "Hedge trimming in Birmingham, MI",
+    "title": "Sharp lines on a street **that notices.**",
+    "lede": "Birmingham hedges sit close to the walk and close to the neighbors, so a rough one shows. HD Landscape shapes them by hand and eye, keeps them off the sidewalk and tells you if a boxwood looks wrong.",
+    "chips": ["Shaped by hand and eye", "Straight lines, clean curves", "Sidewalks kept clear"],
+    "photo": "hedge-walk"
+  },
+  "local": {
+    "eyebrow": "Hedges in Birmingham",
+    "title": "In Birmingham a hedge is **part of the street.**",
+    "intro": "Front yards here can be shallow, and the city keeps an eye on what hangs over its walks, so a hedge is everyone's business. Add a new pest that has reached private yards in town, and a good trim doubles as a health check.",
+    "points": [
+      { "title": "Box tree moth is here", "body": "The city reports box tree moth on private properties in Birmingham, and Oakland County is inside the state quarantine. The caterpillars can strip a boxwood fast. A trim is a good moment to look inside the plant, and if we see them, you will hear about it while it is still a small problem." },
+      { "title": "Walks have to stay open", "body": "Owners are responsible for keeping sidewalks and streets clear of private shrubs and branches, and Code Enforcement can issue a violation. The city's tree manual asks for 8 feet of clearance over a sidewalk. A hedge that crept out over the years may take more than one pass to bring back." },
+      { "title": "Corner lots need a lower line", "body": "On a corner lot, the zoning code does not allow a hedge at a height that blocks a driver's view. The rule gives no number, so the test is the view from the driver's seat, not the one from the lawn." },
+      { "title": "Old privet is on borrowed time", "body": "Common privet is on the city's prohibited species list, and the zoning code says an existing prohibited plant may not be replaced. Unless the city asks for it to come out, an old privet hedge can stay in shape for years. When sections start to die out, the fix is a different plant." }
+    ]
+  },
+  "logistics": {
+    "title": "The plant decides when we trim.",
+    "body": [
+      "Most clipped hedges get their main trim in late spring or early summer, after the new growth fills out. Hard cutting back belongs in early spring, which MSU Extension calls the healthiest time for most pruning. Yews get their leggy shoots trimmed in June, and boxwood gets no late summer cuts because of winter damage. The schedule follows what you actually have.",
+      "A hedge top should stay a touch narrower than the base so light reaches the bottom. On a shaded Birmingham lot that matters, because the bottom is the first part to go bare. The beds and the walk get left clean when we go.",
+      "If the hedge is part of a bigger yard, it can go on [monthly maintenance](/landscape-maintenance-birmingham-mi/) and stop being one more thing to remember."
+    ],
+    "facts": [
+      { "label": "Main trim", "value": "Late spring into early summer" },
+      { "label": "Hard cutting back", "value": "Early spring" },
+      { "label": "Boxwood", "value": "Watch for box tree moth" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "tall-hedge",
+  "faq": [
+    { "q": "Do you do hedge trimming in Birmingham?", "a": "Yes. HD Landscape trims hedges in Birmingham, MI, including boxwood, yew and privet, shaped by hand and eye. Bush trimming is one of the jobs our reviews mention most, and Birmingham is one of the towns we work in most. If your hedge runs along a walk or sits on a corner, say so when you call, because the city has rules for both." },
+    { "q": "How tall can a hedge be in Birmingham, MI?", "a": "The zoning code limits fences to 6 feet in side and rear yards and 3 feet in the front open space, with exceptions, and it also mentions vegetative fences, so ask the Building Department if a tall hedge sits near a lot line. Shrubs planted in the right of way are limited to 2 feet. On a corner lot, the height has to keep drivers' views clear." },
+    { "q": "Can you fix a hedge that has gone bare at the bottom?", "a": "Often, yes, if there is still live growth low down. In heavy shade the bottom is usually the first part to thin. Narrowing the top lets light reach the base again, and it comes back in stages. MSU Extension notes that yews can take hard pruning but do better with lighter, more frequent cuts. If a section is dead, we will say so." },
+    { "q": "What is eating my boxwood?", "a": "If a boxwood loses leaves quickly, look inside it for caterpillars and webbing. Birmingham reports box tree moth on private properties and advises catching it early and removing infested branches. Badly damaged plants are usually better replaced, and the city suggests yews or inkberry holly. Text us a photo if you are not sure what you are seeing." },
+    { "q": "Does trimming a hedge need a permit in Birmingham?", "a": "Trimming a hedge on your own lot is not on the city's permit list. Trees and shrubs in the street right of way are different, and the city has a work permit for those. If a hedge runs along the sidewalk or the curb, work out where your lot actually ends before the shears come out." }
+  ],
+  "reviews": ["anne-j", "mark-r"]
+}

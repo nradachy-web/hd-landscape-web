@@ -1,0 +1,50 @@
+{
+  "service": "hedge-trimming",
+  "city": "fort-lauderdale",
+  "meta": {
+    "title": "Hedge Trimming in Fort Lauderdale, FL | HD Landscape",
+    "description": "Hedge trimming in Fort Lauderdale, FL. Cocoplum, ficus and flowering hedges shaped by hand and eye during our winter season. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Hedge trimming in Fort Lauderdale, FL",
+    "title": "No winter here to **stop a hedge.**",
+    "lede": "Hedges are what HD Landscape comes down here for. In Fort Lauderdale we shape them by hand and eye, with the top kept narrower than the base, and we match the trim to the plant, because a cocoplum does not want what a flowering ixora wants.",
+    "chips": ["Cut by hand and eye", "Top narrower than the base", "Winter season, so call early"],
+    "photo": "florida-hedge"
+  },
+  "local": {
+    "eyebrow": "Hedges in Fort Lauderdale",
+    "title": "What a hedge needs **where there is no off season.**",
+    "intro": "In Michigan, a hedge gets trimmed around a winter that shuts it down. Fort Lauderdale has no such break, with USDA zones 10b to 11a and about 61 inches of rain a year. So the schedule comes from the plant, and the plant has to suit the salt and the sand.",
+    "points": [
+      { "title": "Cocoplum holds a line with two or three cuts", "body": "UF/IFAS, the University of Florida's extension service, says an established cocoplum hedge keeps its form with two or three trimmings a year. Inland types are usually kept 4 to 8 feet tall and coastal types 3 to 6 feet. It is a Florida native and very salt tolerant once established." },
+      { "title": "Ficus takes a hard cut, and the roots keep going", "body": "Weeping fig tolerates severe pruning, and UF/IFAS says it is probably best used as a clipped hedge or screen. The catch is underground: the roots grow under and lift sidewalks, patios and driveways. So look at the drive and the walk along with the hedge, and Jake will point out anything he sees." },
+      { "title": "Flowering hedges trade blooms for sharp edges", "body": "Ixora handles shearing, but constant shearing cuts down the flowers. The general UF rule is to prune a flowering hedge after it blooms. Tell us which you want more, color or a crisp line, and we will cut for that." },
+      { "title": "Salt has the last word", "body": "Within about an eighth of a mile of salt water, plants should be at least somewhat salt tolerant, according to UF/IFAS. A hedge along the beach or the Intracoastal that keeps browning on the water side may simply be the wrong plant, and no trim will fix that. If that is what Jake sees, he will say so." }
+    ]
+  },
+  "logistics": {
+    "title": "A Fort Lauderdale hedge visit starts with a text.",
+    "body": [
+      "We come down for the winter, so call early. Text Jake the address, a photo and the rough length and height of the hedge. A long privacy screen or a tall hedge along a canal gets a look in person before the estimate, so nobody is guessing. If you have palms too, ask about [palm trimming](/palm-trimming-fort-lauderdale-fl/) on the same visit.",
+      "The beds, walks and drive get left clean. City bulk pickup comes once a month, and a pile out more than a day early could bring a citation. How the debris leaves goes on your estimate.",
+      "We are not here all year, and we will not pretend otherwise. If your hedge will need a cut during the summer wet season, you will hear that now, so it does not get away from you while we are in Michigan."
+    ],
+    "facts": [
+      { "label": "Helpful to know", "value": "Plant, length and height" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Season", "value": "Winter in South Florida" },
+      { "label": "Not included", "value": "Sprinkler work" }
+    ]
+  },
+  "photo": "hedge-curve",
+  "faq": [
+    { "q": "Do you do hedge trimming in Fort Lauderdale?", "a": "Yes. HD Landscape trims hedges in Fort Lauderdale, FL during its winter season in South Florida, including cocoplum, ficus and flowering hedges such as ixora. We come down for the winter, so call early at [(586) 718-8762](tel:+15867188762)." },
+    { "q": "How often should a hedge be trimmed?", "a": "In Fort Lauderdale the plant sets the schedule, not the calendar. UF/IFAS says an established cocoplum hedge holds its form with two or three trimmings a year, and that formal hedges should be clipped while the new growth is still green. Send Jake a photo and he will give you a plain schedule for yours." },
+    { "q": "Can hedges be trimmed in the winter?", "a": "Yes. In South Florida, winter is when we come down, so that is when we trim here. The one to watch is a flowering hedge: UF/IFAS says to prune it after it blooms, so you do not cut off the buds." },
+    { "q": "Can you bring back an overgrown ficus hedge?", "a": "Often, yes. UF/IFAS says weeping fig tolerates severe pruning, so a ficus hedge can usually come down further than most. For shrubs that will not take one big cut, UF suggests removing about a third of the plant a year for three years. A ficus that has become a row of big trees is another matter: taking those down is a tree company's job." },
+    { "q": "Why is the bottom of my hedge going bare?", "a": "UF/IFAS calls the sharply edged box the most common mistake in hedge trimming. When the top is as wide as the bottom, the low branches lose their sun, thin out and can die. With no frozen season to blame in Fort Lauderdale, look at the shape first. The fix is a top a little narrower than the base, and from the street it still reads as a clean, square hedge." },
+    { "q": "Do you trim hedges for condos and businesses in Fort Lauderdale?", "a": "Yes. HD Landscape works on commercial properties as well as homes. If an association sets hedge heights or limits when crews can work, send those rules with your request, so the estimate fits them. City curbside pickup does not cover condos and commercial properties, which need their own waste hauler, so how the clippings leave goes on the estimate too." }
+  ],
+  "reviews": ["anne-j", "nancy-g"]
+}

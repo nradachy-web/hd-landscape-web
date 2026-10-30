@@ -1,0 +1,99 @@
+{
+  "service": "landscape-design",
+  "city": "troy",
+  "meta": {
+    "title": "Landscape Design in Troy, MI | HD Landscape",
+    "description": "Landscape design for Troy, MI homes: new beds, plants and grade planned for 1970s to 1990s lots, then built by our crew from one itemized estimate."
+  },
+  "hero": {
+    "kicker": "Landscape design in Troy, MI",
+    "title": "A second plan for **the builder's first yard.**",
+    "lede": "About three in five Troy homes went up between 1970 and 1999, and many yards still follow the builder's first idea. HD Landscape plans beds, stone, plants and grade for the way you live there now, then our crew builds it.",
+    "chips": [
+      "Jake walks the lot",
+      "Planned for wide yards",
+      "Built by our crew"
+    ],
+    "photo": "curve-fall"
+  },
+  "local": {
+    "eyebrow": "Design in Troy",
+    "title": "On a Troy lot, the plan starts with **what is already there.**",
+    "intro": "The median home here dates to 1977, so most yards come with decades of growth already in place. A good plan decides what stays and what has outgrown its spot, then works out how the water should leave.",
+    "points": [
+      {
+        "title": "The row against the house",
+        "body": "Shrubs set close to a new house decades ago can now cover windows and crowd the walk. We decide what can be [shaped back](/hedge-trimming-troy-mi/), what should [come out](/plant-removal/) and how deep the new bed should be for the size of the house."
+      },
+      {
+        "title": "Wide frontage",
+        "body": "One family zoning here calls for at least 60 to 120 feet of frontage, depending on the district, and front setbacks of 25 to 40 feet. A thin bed along the foundation looks lost on that much lawn, so we pull bed lines out and add an island bed where the yard can carry it."
+      },
+      {
+        "title": "Flat ground",
+        "body": "With so little natural slope, water will not sort itself out here. The grade goes into the plan before a single plant does. City code can require a permit to move soil, including grade changes of more than 1 foot, so that question comes before the drawing does."
+      },
+      {
+        "title": "Plants the city says to skip",
+        "body": "The city's tree chapter tells owners not to plant species such as silver maple, box elder, poplar and willow. Its zoning list for site plan work goes further, naming Norway maple, privet, burning bush and Japanese barberry. If a plant you like is on either list, ask Jake what could go there instead."
+      },
+      {
+        "title": "Soil that varies",
+        "body": "On USDA's map, a sandy top in one part of the city gives way to heavy silty clay loam in another. A plant that does well in one can sulk in the other. So your own soil should help pick the plants, which is also why a plan cannot simply be copied from the house down the street."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "Ground first, then stone, then plants: how a Troy design gets built.",
+    "body": [
+      "Sun, water, easements and whatever the last owner left all come up on the walk with Jake. Subdivisions here can have easements along lot lines, and some have an association with rules of its own. Both belong in the plan from the start, so tell him what you know.",
+      "The plan becomes an itemized estimate, and the work goes in order: ground first, then stone and edging, plants, and mulch or sod. If you want underground sprinklers added or moved, have that done before we plant, because sprinkler work is not something we do. After the crew leaves, Jake calls to go over watering."
+    ],
+    "facts": [
+      {
+        "label": "First step",
+        "value": "Walk the lot with Jake"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "Who builds it",
+        "value": "Our crew"
+      },
+      {
+        "label": "Not included",
+        "value": "Sprinkler work"
+      }
+    ]
+  },
+  "photo": "island-bed",
+  "faq": [
+    {
+      "q": "Do you do landscape design in Troy, MI?",
+      "a": "Yes. HD Landscape designs and builds landscapes in Troy, MI, for homes and commercial properties. It starts on foot with Jake, the plan gets made for our crew to build, and every part of it shows up as its own line on a free estimate. Call or text [(586) 718-8762](tel:+15867188762)."
+    },
+    {
+      "q": "What should I change first in a 1970s or 1980s yard?",
+      "a": "Start with the grade and the plants against the house. On a flat Troy lot, water can sit by the foundation for years, and if the shrubs have taken over the windows too, no amount of new color will fix it. Once those are sorted, the bed lines, stone and new planting have something solid to work with."
+    },
+    {
+      "q": "Are there plants I should not put in my yard in Troy?",
+      "a": "Yes. The city's tree chapter tells owners to refrain from planting ten species, including silver maple, box elder, poplar, willow, tree of heaven and eastern red cedar. The zoning code has a longer list for site plan projects that includes privet, burning bush and Norway maple. Lists change, so ask the city before you plant, and Jake can suggest something else for the spot."
+    },
+    {
+      "q": "Can you plan around a corner lot or a busy road?",
+      "a": "Yes. On a corner lot, Troy's code keeps shrubs and other obstructions at 30 inches or less in the triangle at the intersection, so tall plants stay out of it. Lots along a main road may have a greenbelt easement with screen planting along the back or side. We work with both, and when it is not clear what is allowed, the city or your association can settle it."
+    },
+    {
+      "q": "Can I plant in the strip by the street in Troy?",
+      "a": "Ask first. Troy's tree chapter calls for a permit to plant in a public place, and the strip by the curb is where that usually comes up. The code lets the neighboring owner keep the strip up, but a new bed or tree is a bigger step than keeping the grass. Get the city's answer before it goes on the plan."
+    }
+  ],
+  "reviews": [
+    "amanda-h",
+    "billy-w",
+    "gina-d"
+  ]
+}

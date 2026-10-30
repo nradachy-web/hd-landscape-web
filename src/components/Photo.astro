@@ -1,0 +1,81 @@
+---
+/* A responsive photo from the library: AVIF first, WebP behind it, JPEG last.
+   Width and height are always set, so nothing shifts while it loads.
+   `ratio` crops to a fixed frame (for card grids); without it the photo keeps
+   its own shape. */
+import { getImage } from 'astro:assets';
+import { photo, type PhotoId } from '../data/photos';
+
+interface Props {
+  id: PhotoId;
+  /** Rendered widths to generate. */
+  widths?: number[];
+  sizes?: string;
+  /** width / height, for a fixed crop. */
+  ratio?: number;
+  /** Where a fixed crop anchors: center, top, bottom, left, right, or attention (sharp picks). */
+  focus?: 'center' | 'top' | 'bottom' | 'left' | 'right' | 'attention' | 'entropy';
+  alt?: string;
+  eager?: boolean;
+  class?: string;
+  quality?: number;
+}
+
+const {
+  id,
+  widths = [400, 640, 960, 1280],
+  sizes = '(min-width: 60rem) 50vw, 100vw',
+  ratio,
+  focus,
+  alt,
+  eager = false,
+  class: cls,
+  quality = 60,
+} = Astro.props;
+
+const p = photo(id);
+const anchor = focus ?? p.focus ?? 'center';
+const native = p.src.width / p.src.height;
+const r = ratio ?? native;
+const usable = widths.filter((w) => w <= Math.max(p.src.width, 400));
+const list = usable.length ? usable : [Math.min(p.src.width, widths[0])];
+
+async function set(format: 'avif' | 'webp' | 'jpeg', q: number) {
+  return Promise.all(
+    list.map(async (w) => {
+      const img = await getImage({
+        src: p.src,
+        width: w,
+        height: Math.round(w / r),
+        format,
+        quality: q,
+        fit: 'cover',
+        position: anchor,
+      });
+      return { url: img.src, w };
+    }),
+  );
+}
+
+const [avif, webp] = await Promise.all([set('avif', quality - 8), set('webp', quality + 8)]);
+const srcset = (s: { url: string; w: number }[]) => s.map((i) => `${i.url} ${i.w}w`).join(', ');
+// One mid-size JPEG for the rare browser with neither format.
+const mid = list[Math.min(1, list.length - 1)];
+const fallback = await getImage({ src: p.src, width: mid, height: Math.round(mid / r), format: 'jpeg', quality: quality + 12, fit: 'cover', position: anchor });
+const last = { url: fallback.src, w: mid };
+---
+
+<picture class={cls}>
+  <source type="image/avif" srcset={srcset(avif)} sizes={sizes} />
+  <source type="image/webp" srcset={srcset(webp)} sizes={sizes} />
+  <img
+    src={last.url}
+    width={last.w}
+    height={Math.round(last.w / r)}
+    alt={alt ?? p.alt}
+    loading={eager ? 'eager' : 'lazy'}
+    decoding={eager ? 'sync' : 'async'}
+    fetchpriority={eager ? 'high' : undefined}
+    style={p.focus === 'top' ? 'object-position:top' : undefined}
+  />
+</picture>

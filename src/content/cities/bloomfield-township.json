@@ -1,0 +1,53 @@
+{
+  "city": "bloomfield-township",
+  "meta": {
+    "title": "Landscaping in Bloomfield Township, MI | HD Landscape",
+    "description": "Landscaping for Bloomfield Township homes: postwar yards, lake lots and deer country. Design, renovation, hedges and monthly care. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Bloomfield Township, MI",
+    "title": "Private lakes, old trees, **a lot of deer.**",
+    "lede": "Deer in the yews, wet low spots, a private lake next door: a Bloomfield Township yard has plenty going on. HD Landscape designs, plants and looks after these postwar and lakeside properties for what the ground actually does.",
+    "chips": ["Older yards reworked", "Care near lakes and wetlands", "Free itemized estimates"],
+    "photo": "dusk-curve"
+  },
+  "about": {
+    "eyebrow": "Yards in Bloomfield Township",
+    "title": "Near Maple Road or out by the lakes, it is a different yard.",
+    "body": [
+      "Bloomfield Township wraps around the City of Bloomfield Hills on most sides, and the two are separate governments with separate rules. Most homes here went up in the decades after World War II, so trees and shrubs have had a long time to grow. The big trees are the prize. The overgrown foundation plantings usually are not.",
+      "The lots change as you cross the township. Near Maple Road some blocks have smaller lots, sidewalks and older architecture, and Bloomfield Village fits about 1,000 homes into roughly a square mile. Out west around the lakes you find winding roads, varied ground and larger lots, with old cottage lots mixed in along the water. A plan that fits one of those will not fit the others."
+    ],
+    "points": [
+      { "title": "Private lakes and wet edges", "body": "The township's master plan counts 19 lakes, all private, and about 1,460 acres of wetland. Work in a designated wetland needs a township permit application first, and the plan calls for keeping a natural buffer along the water, so the last few feet of a lake yard may not be yours to clear." },
+      { "title": "Deer, and plenty of them", "body": "In a township survey reported in October 2026, 88 percent of the 469 residents who answered had deer related damage, and trustees approved a USDA biologist to study the herd. Until that work is done, the plant list has to assume the deer are staying." },
+      { "title": "Your association may have a say", "body": "The township has more than 100 homeowner associations, and some handle design review. If yours does, tell us early so the plan can go through it before any work is scheduled." },
+      { "title": "Ravines, drains and steep banks", "body": "The few steep slopes here mostly follow the watercourses. Banks steeper than about 25 percent are hard to mow and can erode, and owners must keep watercourses clear of debris, so leaves and clippings stay out of the drain." },
+      { "title": "Soil that varies by the block", "body": "The township's soil table runs from sandy loam and loamy sand to muck. A large share is Marlette and Spinks, which USDA rates well drained, while the mucks in low spots are very poorly drained. Two neighbors can have very different ground." }
+    ],
+    "photo": "shade-lawn"
+  },
+  "logistics": {
+    "title": "In Bloomfield Township, the first question is what the lot sits next to.",
+    "body": [
+      "A lake, a drain, a ravine or an association can each change the plan, so Jake sorts that out on the property with you before the estimate goes out. The whole job comes itemized, line by line.",
+      "Lake lots deserve extra planning. The township's master plan notes many began as small cottage lots, often on poor soils or slopes, so access and staging can be tighter than in the subdivisions. We size loads to fit and leave the street and the drive clean."
+    ],
+    "facts": [
+      { "label": "Routine yard work", "value": "Usually outside the tree ordinance" },
+      { "label": "Clear-cutting", "value": "Needs a township permit" },
+      { "label": "Near a lake or wetland", "value": "Ask the township before digging" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you work in Bloomfield Township, MI?", "a": "Yes. HD Landscape is a St. Clair Shores landscaper that works in Bloomfield Township on [landscape design](/landscape-design/), [renovations](/landscape-renovation/), [hedge trimming](/hedge-trimming/), [monthly maintenance](/monthly-landscape-maintenance/) and [spring and fall cleanups](/spring-and-fall-cleanups/), among other services. We do not put in sprinklers or do lawn aeration, and big removals we hand to a tree company." },
+    { "q": "My mail says Bloomfield Hills. Am I in Bloomfield Township?", "a": "You may be. The City of Bloomfield Hills covers only about five square miles, and the township surrounds it on most sides, yet some township addresses also carry a Bloomfield Hills mailing name. Your tax bill will show which government you are in, and that decides whose tree and wetland rules apply." },
+    { "q": "Do I need a tree permit in Bloomfield Township?", "a": "Usually not for everyday yard work at an existing home. The township says its tree ordinance does not apply to developed properties with no construction planned. Clear-cutting needs a permit on any property, though, and new construction or redevelopment brings protected and landmark trees under the rules. Call the township before a big project, since rules can change." },
+    { "q": "Can you landscape next to a lake or wetland in Bloomfield Township?", "a": "Often, with care. The township requires a wetland permit application before any disturbance in a designated wetland, and projects usually need a state permit too. It also encourages native plants for shorelines and slopes. We look at the edge with you first and point you to the township before anything near the water is dug." },
+    { "q": "How do I stop deer from eating my plants?", "a": "Start with what you plant. Michigan State University Extension calls yew and arborvitae favorite winter food, and points to sedum, peonies and alliums in the sun and hellebores and ferns in the shade. Boxwood is one swap deer tend to leave alone, but all of Oakland County is under the box tree moth quarantine, so we weigh that too. Nothing is deer proof, and Bloomfield Township says the same." },
+    { "q": "What is a Natural Beauty Road in Bloomfield Township?", "a": "It is a county program meant to keep roadside vegetation natural. The township's 2007 master plan lists stretches of Echo Road and Wing Lake Road. If your frontage is on one, check with the Road Commission for Oakland County before planting or clearing near the road, and we will keep our work back from that edge." }
+  ],
+  "reviews": ["amanda-h", "nancy-g", "rob-e"],
+  "neighbors": ["bloomfield-hills", "west-bloomfield", "birmingham", "franklin"]
+}

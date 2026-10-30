@@ -1,0 +1,17 @@
+---
+/* Where a sent form lands. Counted as a lead. Never in the sitemap. */
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import Icon from '../components/Icon.astro';
+import { BRAND } from '../data/site';
+import { href } from '../lib/paths';
+---
+
+<Base title="Thanks, we got your request | HD Landscape" description="Your estimate request reached HD Landscape. Jake will be in touch to set up a time to walk the yard." path="/thank-you/" quoteHref="/get-an-estimate/" noindex bare lead>
+  <PageHead eyebrow="Request received" title="Got it. **Jake will be in touch.**" lede="Your request is on its way to Jake. Want to speed things up? Text a photo or two of the yard to the same number.">
+    <div class="actions">
+      <a class="btn primary" href={BRAND.smsHref} data-loc="thanks-text"><Icon name="text" />Text a photo</a>
+      <a class="btn ghost" href={href('/gallery/')}>See our work</a>
+    </div>
+  </PageHead>
+</Base>

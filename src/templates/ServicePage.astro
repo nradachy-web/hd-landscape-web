@@ -1,0 +1,121 @@
+---
+/* ============================================================================
+   A SERVICE PAGE
+
+     1  hero       keyword line, display line, paragraph, ticks, two actions
+     2  blocks     whatever the service needs, in the order its JSON lists them
+     3  paper      the questions
+     3b           yard notes about this service, when there are any
+     4  ink        the quote form beside the phone
+   Copy comes from src/content/services/<id>.json.
+   ========================================================================== */
+import type { CollectionEntry } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import Head from '../components/Head.astro';
+import Blocks from '../components/Blocks.astro';
+import Faq from '../components/Faq.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import AreaChips from '../components/AreaChips.astro';
+import PhotoBand from '../components/PhotoBand.astro';
+import { BRAND } from '../data/site';
+import { service as getService } from '../data/services';
+import type { PhotoId } from '../data/photos';
+import { heroImage } from '../lib/hero';
+import { postPath, posts } from '../lib/blog';
+import { href } from '../lib/paths';
+import { plain } from '../lib/rich';
+import { breadcrumbs, faqSchema, serviceSchema } from '../lib/schema';
+
+interface Props {
+  entry: CollectionEntry<'services'>;
+}
+const { entry } = Astro.props;
+const c = entry.data;
+const svc = getService(c.service as any);
+const hero = await heroImage(c.hero.photo as PhotoId);
+const firstPlane = c.blocks[0].plane;
+const lastPlane = c.blocks[c.blocks.length - 1].plane;
+const faqPlane = lastPlane === 'paper' ? 'white' : 'paper';
+const reading = (await posts()).filter((p) => p.data.service === svc.id).slice(0, 3);
+
+const schema = [
+  serviceSchema({ name: svc.name, type: svc.name, description: c.meta.description, url: `${BRAND.origin}${svc.path}`, area: svc.florida ? 'Fort Lauderdale, FL' : undefined }),
+  faqSchema(c.faq),
+  breadcrumbs([
+    { name: 'Home', path: '/' },
+    { name: 'Services', path: '/services/' },
+    { name: svc.name, path: svc.path },
+  ]),
+];
+---
+
+<Base ogImage={hero.fallback} title={c.meta.title} description={c.meta.description} path={svc.path} preload={hero.preload} schema={schema}>
+  <Hero image={hero} kicker={c.hero.kicker} title={c.hero.title} lede={c.hero.lede} chips={c.hero.chips} next={firstPlane} crumbs={[{ name: 'Services', path: '/services/' }, { name: svc.name, path: svc.path }]} />
+
+  <Blocks blocks={c.blocks} service={svc} last={faqPlane} />
+
+  <PhotoBand id={svc.band} />
+
+  <section class:list={['band', faqPlane === 'white' && 'white']} aria-labelledby="faq-h">
+    <div class="wrap faqs">
+      <Head
+        id="faq-h"
+        layout="left"
+        eyebrow="Questions"
+        title={`${svc.name} questions.`}
+        intro={c.faqIntro ?? `The things people ask us most before booking. If yours is not here, call or text [${BRAND.phone}](${BRAND.phoneHref}).`}
+      />
+      <Faq items={c.faq} />
+    </div>
+    {
+      !svc.florida && (
+        <div class="wrap more">
+          <h2 class="h3">Where we do this</h2>
+          <AreaChips service={svc} />
+          {reading.length > 0 && <h2 class="h3 more__h">Yard notes</h2>}
+          {reading.length > 0 && <ul class="reads">{reading.map((p) => <li><a class="arrow" href={href(postPath(p))}>{plain(p.data.title)}</a></li>)}</ul>}
+        </div>
+      )
+    }
+  </section>
+
+  <QuoteBand title={c.quote?.title} lede={c.quote?.lede} service={svc.name} town={svc.florida ? 'Fort Lauderdale' : undefined} avoid={[c.hero.photo, svc.band]} />
+</Base>
+
+<style>
+  .more__h {
+    margin-top: 1rem;
+  }
+
+  .reads {
+    display: grid;
+    gap: 0.1rem;
+  }
+
+  .faqs {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .more {
+    display: grid;
+    gap: 0.9rem;
+    margin-top: clamp(3rem, 6vw, 4.5rem);
+    padding-top: clamp(2rem, 4vw, 3rem);
+    border-top: 1px solid var(--line);
+  }
+
+  @media (min-width: 72rem) {
+    .faqs {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: clamp(2rem, 6vw, 6rem);
+      align-items: start;
+    }
+
+    .faqs :global(.head) {
+      position: sticky;
+      top: calc(var(--header) + 2rem);
+    }
+  }
+</style>

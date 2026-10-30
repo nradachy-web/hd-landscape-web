@@ -1,0 +1,277 @@
+{
+  "service": "palm-trimming",
+  "meta": {
+    "title": "Palm Trimming in Fort Lauderdale, FL | HD Landscape",
+    "description": "Seasonal palm trimming in Fort Lauderdale, FL: dead fronds and seed pods out, green fronds left on. We advise against hurricane cuts. Free estimates."
+  },
+  "hero": {
+    "kicker": "Palm trimming in Fort Lauderdale, FL",
+    "title": "Dead fronds out. **Green fronds stay.**",
+    "lede": "A healthy palm has a round crown with green fronds down to the bottom, not a feather duster on a pole. HD Landscape takes off what is dead, leaves what is alive and follows University of Florida guidance on the rest. We come down for the winter, so call early.",
+    "chips": [
+      "Dead fronds and seed pods",
+      "We advise against hurricane cuts",
+      "Green fronds left on"
+    ],
+    "photo": "florida-agave"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What we do",
+      "title": "Most palms need less cutting than **you have been sold.**",
+      "body": [
+        "HD Landscape trims palms around Fort Lauderdale during our South Florida season. We take off fronds that are fully brown, along with seed pods, flower stalks and fruit stalks. The living crown stays where it is.",
+        "That is less than a lot of people expect, and it is on purpose. UF/IFAS, the University of Florida's extension service, says the first rule of pruning palms is to never remove live, green, healthy fronds. They feed the palm, and cutting them can leave wounds in the crown that let disease in."
+      ],
+      "checks": [
+        "Fully brown fronds cut close to the trunk, never into it",
+        "Seed pods, flower stalks and fruit stalks taken off",
+        "Green fronds left on, and no frond above the 9 and 3 line cut",
+        "Half dead fronds left alone, and we tell you why",
+        "Fronds off the beds, lawn and drive before we leave"
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Hurricane cuts",
+      "title": "A hurricane cut does **the opposite of what it promises.**",
+      "intro": "A hurricane cut strips a palm down to a tuft of young fronds to reduce wind resistance. It is common in Florida, and UF/IFAS calls it harmful. Here is why we advise against it.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Stripped palms lost their crowns",
+          "body": "After the severe hurricane seasons of 2004 and 2005, UF/IFAS observed that hurricane cut palms were more likely to have their crowns snapped off than palms with fuller crowns."
+        },
+        {
+          "title": "The fronds left behind are the weak ones",
+          "body": "The tuft at the top is the youngest growth. Those fronds may not have hardened off the way older ones have, and they lose the support of the older frond bases around them."
+        },
+        {
+          "title": "Less canopy, less food",
+          "body": "An overpruned palm makes less food and gives less shade. If it keeps happening, the new fronds can come in smaller and the trunk can narrow."
+        },
+        {
+          "title": "It can cost you in Broward County",
+          "body": "UF/IFAS notes that in Broward County, removing fronds above the 9 and 3 o'clock line is a civil offense that can bring a fine, and its Broward office says county tree abuse rules are still enforced. Rules change, so ask the county or your city what applies today."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "paper",
+      "eyebrow": "Palm by palm",
+      "title": "Four common palms, four different jobs.",
+      "intro": "The right trim depends on the palm, and sometimes the answer is no trim at all. The frond counts are UF/IFAS estimates for South Florida.",
+      "columns": [
+        "Coconut",
+        "Royal",
+        "Sabal",
+        "Pygmy date"
+      ],
+      "rows": [
+        {
+          "label": "New fronds a year",
+          "values": [
+            "About 10",
+            "About 12",
+            "About 14",
+            "About 34"
+          ]
+        },
+        {
+          "label": "Usual trim",
+          "values": [
+            "Brown fronds, plus flower and fruit stalks",
+            "Usually none. It drops its own old fronds",
+            "Brown fronds and old fruit stalks",
+            "Brown fronds only"
+          ]
+        },
+        {
+          "label": "Watch for",
+          "values": [
+            "A typical one holds about 13 fronds when low on potassium, 26 or more when fed",
+            "Pulling fronds can wound the trunk and let a fatal rot in",
+            "Lethal bronzing, which has no cure",
+            "Orange tips on the oldest fronds point to low potassium"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "ink",
+      "eyebrow": "Yellow fronds",
+      "title": "A yellow frond is **a symptom, not a mess.**",
+      "body": [
+        "UF/IFAS says nearly all palms in Florida are short of potassium. It shows up first on the oldest fronds, as yellow or orange spots and then brown, frizzled tips. Those fronds look bad, so people want them gone.",
+        "They are also feeding the palm. Cut them off and it pulls potassium out of the next green fronds up. Do that year after year and the decline speeds up, which can kill a badly deficient palm.",
+        "The fix is fertilizer, not a saw. For mild to moderate cases, UF recommends a slow release 8-2-12 palm fertilizer with magnesium, spread evenly under the canopy about every three months. Some Florida counties and cities restrict fertilizer in the rainy months, so check the local rules first. Recovery can take one to three years or longer, because the whole crown has to be replaced. Fertilizing is not part of a trim, but we will tell you what we see."
+      ],
+      "checks": [
+        "Fully brown fronds come off",
+        "Half dead and spotted fronds stay on",
+        "Some palms, such as areca, yellow with age and are fine"
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Fort Lauderdale",
+      "title": "Palms in a city full of canals.",
+      "body": [
+        "Fort Lauderdale has about 165 miles of waterways, and that changes the job. UF/IFAS lists coconut palm as invasive in South Florida and says fallen fruit must be kept out of canals and other waterways that connect to open water. On a waterfront lot, taking flower and fruit stalks off early is the simple answer, and UF finds no evidence that removing them harms the palm.",
+        "Storm season matters too. UF/IFAS says clearing dead fronds before hurricane season may keep them from turning into missiles, and the city asks people to remove dead fronds and dead coconuts before the season starts on June 1. A winter cleanup beats that date by months. We come down for the winter, so call early.",
+        "Homes on city curbside service put palm fronds in the green cart if they fit and out with the monthly bulk trash if they do not. How the debris leaves goes on your estimate, and we can [trim the hedges](/hedge-trimming-fort-lauderdale-fl/) on the same visit."
+      ],
+      "cta": {
+        "label": "Get a free palm estimate",
+        "href": "#quote"
+      }
+    },
+    {
+      "type": "steps",
+      "plane": "white",
+      "eyebrow": "How it goes",
+      "title": "Look, price, trim, clean up.",
+      "steps": [
+        {
+          "title": "Look",
+          "body": "Text Jake the address, a photo, the number of palms and their rough height. He tells you what each one needs, and sometimes the answer is nothing."
+        },
+        {
+          "title": "Estimate",
+          "body": "Jake writes a free, itemized estimate you can go through line by line, so you know what is coming off each palm."
+        },
+        {
+          "title": "Trim",
+          "body": "Brown fronds get cut close to the trunk, never into it. Anything that does not come away easily gets cut, not pulled, because a torn trunk can let rot in."
+        },
+        {
+          "title": "Clean up",
+          "body": "Fronds, pods and fruit come off the beds, lawn and drive before we leave. Then Jake checks in to see how it went."
+        }
+      ],
+      "footnote": "Clean tools matter. UF/IFAS says fusarium wilt of Canary Island date palm spreads on pruning tools, and that tools should soak in disinfectant for 5 minutes before they touch another palm."
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "Honest limits",
+      "title": "When we will tell you to call someone else.",
+      "intro": "Some palm problems are not a trimming job. Here is where we stop, and who to call instead.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Near power lines",
+          "body": "The city says pruning near power lines should only be done by FPL or FPL authorized contractors. If a palm or tree touches a line, keep everyone away from it and call FPL."
+        },
+        {
+          "title": "Very tall palms",
+          "body": "Tell us the height before we come out. If a palm is taller than we can reach safely, we will say so. Taking down a big palm or tree is a job for a tree company."
+        },
+        {
+          "title": "Storm damage",
+          "body": "The city warns against asking a landscaper, a handyman or anyone else to trim a severely storm damaged tree. We take that to include us."
+        },
+        {
+          "title": "A palm that may be dying",
+          "body": "Lethal bronzing has no cure. Early signs are fruit dropping early and blackened flowers, then fronds turning bronze brown from the oldest up. UF/IFAS says to call your county Extension office right away. It does not spread on tools, but insects carry it to nearby palms."
+        }
+      ]
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "From the people who hired us",
+      "title": "The habits travel well.",
+      "intro": "None of these reviews is about palms. They are here for how we run a job: on time, with the cost itemized beforehand.",
+      "ids": [
+        "anne-j",
+        "renee-g",
+        "mark-r"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do palm trimming in Fort Lauderdale?",
+      "a": "Yes. HD Landscape trims palms around [Fort Lauderdale](/service-areas/fort-lauderdale/), FL as a seasonal service, and works in Michigan the rest of the year. We come down for the winter, so call early: Jake is at [(586) 718-8762](tel:+15867188762), by call or text."
+    },
+    {
+      "q": "When should palms be trimmed in Fort Lauderdale?",
+      "a": "Any time works for the palm itself: UF/IFAS says no one time of year is better. Dead fronds are worth clearing before hurricane season starts on June 1, which suits a winter visit. After a cold snap, leave damaged fronds on until the threat of more cold has passed."
+    },
+    {
+      "q": "How much does palm trimming cost in Fort Lauderdale?",
+      "a": "We do not publish prices, because the number of palms, their height and what is up there all change the work. A coconut palm loaded with fruit is a different job from a sabal with a few brown fronds. Text a photo and the count, and the itemized estimate is free."
+    },
+    {
+      "q": "Should I cut off green palm fronds?",
+      "a": "No. Live, green, healthy fronds should stay on, and UF/IFAS treats the 9 and 3 o'clock line on the crown as the absolute limit, not the goal. A healthy palm has a round crown with green fronds right down to the bottom."
+    },
+    {
+      "q": "Is a hurricane cut good for palms?",
+      "a": "No. UF/IFAS calls hurricane cuts harmful, and palms cut that way were more likely to have their crowns snapped off after the 2004 and 2005 seasons. We advise against them. Better storm prep is taking off dead fronds and heavy fruit and leaving the green crown alone."
+    },
+    {
+      "q": "Can I get fined for overtrimming a palm in Broward County?",
+      "a": "It is possible. UF/IFAS says removing fronds above the 9 and 3 o'clock line is a civil offense in Broward County that can bring a fine, and its Broward office says county tree abuse rules are still enforced. If heavy cutting is on the table, get the current rule from the county or your city first."
+    },
+    {
+      "q": "Why are the bottom fronds on my palm yellow?",
+      "a": "Usually a nutrient problem, most often potassium, though some palms such as areca yellow naturally with age. UF/IFAS says to leave those fronds on, because the palm is drawing on them, and to treat the cause with a slow release palm fertilizer. Cutting them just moves the problem up the crown."
+    },
+    {
+      "q": "Do royal palms need to be trimmed?",
+      "a": "Usually not. Royal, foxtail and Christmas palms have a smooth crownshaft and, UF/IFAS says, drop their old fronds on their own about once a month. Pulling at them can wound the trunk and let rot in, so we leave them alone unless a frond is fully dead and hanging."
+    },
+    {
+      "q": "How often do palms need trimming?",
+      "a": "That comes down to the palm. UF/IFAS estimates a coconut palm grows about 10 new fronds a year in South Florida, while a Mexican fan palm grows about 60. Commercial palm pruning usually runs on a fixed schedule, such as once or twice a year, and crownshaft palms may never need it."
+    },
+    {
+      "q": "Can you remove coconuts and seed pods from my palm?",
+      "a": "Yes, within reach. UF/IFAS finds no evidence that taking off flower and fruit stalks harms a palm, and it says small flower stalks are much easier to remove than heavy clusters of coconuts. It also keeps fruit off the drive and out of the canal."
+    },
+    {
+      "q": "How tall a palm can you trim?",
+      "a": "Tell us the height and send a photo, and Jake will give you a straight answer. Some palms are too tall for us to reach safely, and if yours is one, we will say so."
+    },
+    {
+      "q": "Should anyone use climbing spikes on a palm?",
+      "a": "No. UF/IFAS says to never use climbing spikes to prune a palm, because the wounds never heal and can let in disease and insect pests. Before any crew starts, ask how they plan to reach the top."
+    }
+  ],
+  "faqIntro": "The things people ask before they let anyone near a palm. For anything else, call or text [(586) 718-8762](tel:+15867188762).",
+  "quote": {
+    "title": "Tell us about the palms.",
+    "lede": "How many are there, how tall, and what do they look like up top? Text Jake a photo to start, and an itemized estimate comes next."
+  },
+  "summary": {
+    "title": "What a palm trim includes.",
+    "intro": "A palm trim is mostly about what stays on. Here is what a visit covers, and all of it is spelled out on your estimate before we start.",
+    "items": [
+      {
+        "name": "Dead fronds",
+        "detail": "Fully brown fronds cut close to the trunk, never into it."
+      },
+      {
+        "name": "Pods and stalks",
+        "detail": "Seed pods, flower stalks and fruit stalks taken off."
+      },
+      {
+        "name": "Green crown",
+        "detail": "Living fronds left on. We advise against hurricane cuts."
+      },
+      {
+        "name": "Cleanup",
+        "detail": "Fronds and fruit off the beds, lawn and drive before we leave."
+      }
+    ],
+    "footnote": "Palm trimming is a seasonal service around Fort Lauderdale. Near power lines, the job belongs to FPL or its authorized contractors."
+  }
+}

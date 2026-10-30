@@ -1,0 +1,132 @@
+{
+  "service": "yard-grading",
+  "published": "2026-10-30",
+  "meta": {
+    "title": "Water by the Foundation: What Grading Fixes | HD Landscape",
+    "description": "Water sitting by your foundation? Check downspouts and slope first. What grading fixes, what it does not, and how much fall a Michigan yard needs."
+  },
+  "title": "Water sitting by the foundation: what grading fixes **and what it does not.**",
+  "lede": "Grading fixes water that runs toward your house across the top of the ground. It does not repair a cracked wall or stop water coming up through the floor. Here is how to tell which one you have, and what to try before you hire anyone.",
+  "photo": "grade-rake",
+  "short": [
+    "**Grading fixes surface water:** puddles at the wall, soil that tips toward the house and soggy low spots.",
+    "**It does not repair a wall or reach under a floor.** If water still comes through a crack once the grade is right, or comes up from below, that is a different trade.",
+    "**Check the downspouts first.** University of Minnesota Extension says roof water should land at least 4 feet beyond the wall.",
+    "**The target slope:** at least 1 inch of fall per foot for at least 6 feet from the foundation, by University of Minnesota Extension's figure.",
+    "**Two limits:** soil stays below the siding, and water cannot just be pushed onto the neighbor."
+  ],
+  "sections": [
+    {
+      "h": "Start with where the water shows up",
+      "p": [
+        "Where the water appears tells you where to start. Water on top of the ground is a yard problem. Water coming up from below is a basement problem. Water coming through the wall can be either one, so start outside. Go look during a hard rain, because a wet day shows more than a dry one."
+      ],
+      "table": {
+        "head": ["What you see", "Likely source", "Who fixes it"],
+        "rows": [
+          ["Puddle against the wall after rain", "Ground that is flat or tips toward the house", "Yard grading"],
+          ["Soil washed out under a downspout", "Roof water landing at the wall", "Extend the downspout first"],
+          ["Soggy strip that stays wet for days", "A low spot with nowhere to drain", "Yard grading"],
+          ["Mud running across the walk", "Water moving fast through one spot", "Yard grading"],
+          ["Water coming through a basement crack", "Often surface water reaching the wall", "Grade and downspouts first, then a waterproofing contractor"],
+          ["Water coming up through the floor", "Water under the slab", "A waterproofing contractor"],
+          ["Water coming up a floor drain", "A sewer backup", "A plumber, and let your city know"]
+        ],
+        "note": "A guide, not a diagnosis. Plenty of houses have more than one of these going on at once."
+      }
+    },
+    {
+      "h": "What to check before you hire anyone",
+      "p": [
+        "Fix the easy things first. University of Minnesota Extension says a bad grade and poor downspouts should be corrected before anything underground, because those fixes may solve the problem."
+      ],
+      "list": [
+        "**Downspouts.** Walk the house and look at where each one lets out. Each extension should let out at least 4 feet beyond the wall, and adding one is an easy fix. University of Minnesota Extension calls a downspout with no extender or splash block worse than no downspout at all.",
+        "**Gutters.** Clear them. A clogged gutter spills over and drops water right at the foundation.",
+        "**The slope.** Stand at the wall and look out. Ground that is flat at the foundation, or falls toward it, sends rain at the basement wall.",
+        "**Stoops.** Soil next to a house often settles, especially under stoops, so even a good yard can lose its grade.",
+        "**How long it stays.** Water still standing more than a day or two after the rain stops is worth a closer look. MSU Extension calls sites like that especially problematic."
+      ]
+    },
+    {
+      "h": "How much slope the ground needs",
+      "p": [
+        "The ground next to a house should fall at least 1 inch per foot for at least 6 feet. That is University of Minnesota Extension's figure, and it works out to 6 inches of drop in those 6 feet. The common building code rule of thumb is gentler, at about 6 inches over the first 10 feet."
+      ],
+      "table": {
+        "head": ["Where", "Target", "Published by"],
+        "rows": [
+          ["Beside the house", "At least 1 inch of fall per foot, for at least 6 feet", "University of Minnesota Extension"],
+          ["Beside the house", "About 6 inches of fall over the first 10 feet", "Common building code rule of thumb"],
+          ["Across the lawn", "About 1 foot of fall every 50 feet", "MSU Extension"],
+          ["On a mowed bank", "No steeper than about 1 foot of drop in 4 feet", "University of Illinois Extension"]
+        ],
+        "note": "Your lot lines, your driveway and the neighbors decide what fits, so Jake checks it on site."
+      },
+      "after": [
+        "To check your own yard, hold a string at ground level against the foundation, run it straight out 10 feet to a stake, level it, and measure from the string down to the soil at the stake. That number is your fall."
+      ]
+    },
+    {
+      "h": "What grading fixes",
+      "p": [
+        "Grading fixes water that travels on top of the ground. The high spots get cut, the low ones get filled and the ground gets a steady fall away from the house, so rain leaves the yard instead of sitting in it."
+      ],
+      "list": [
+        "Puddles against the foundation after rain",
+        "Soil that is flat at the wall or tips toward the house",
+        "Soggy low spots and ruts from the mower",
+        "Soil washing across a walk or driveway",
+        "Rough ground before new sod or beds go in"
+      ],
+      "after": [
+        "Fill goes in layers and gets tamped as it goes, because loose soil settles and brings the puddle back. Then the ground gets covered, because bare ground does not stay put. That usually means [sod](/sod-installation/), [new beds](/plant-installation/) or [stone](/rock-and-stone-installation/)."
+      ]
+    },
+    {
+      "h": "What grading does not fix",
+      "p": [
+        "Grading moves surface water. It does not reach water already under the ground, and it does not repair a wall. A better grade is still the right place to start on a wet basement, but here is where it stops."
+      ],
+      "list": [
+        "**Cracks in the foundation.** Grading takes surface water away from the wall. It does not repair the wall. If water still comes through once the grade and downspouts are right, call a waterproofing contractor.",
+        "**Water up through the floor.** Same answer. A new slope outside will not reach it.",
+        "**Sewer backups.** Water coming up a floor drain in a storm is a sewer problem, so start with a plumber.",
+        "**A lot with no room.** On a tight lot there may not be space for a full slope, and water cannot just be pushed next door. University of Illinois Extension warns that runoff fights can end with neighbors in court.",
+        "**Ground around big trees.** Soil piled over roots, or equipment driven over them, can hurt a mature tree. Near big trees, the level should stay where it is and the work should go around them.",
+        "**Siding that sits low.** Soil stays below the siding, never piled against it, so some houses have no height left to add at the wall.",
+        "**Slow clay.** Grading sends water off the clay. It does not make the clay drain any faster."
+      ],
+      "after": [
+        "We do not install sprinkler systems. If you already have one, show us the lines and heads before we start, because grading moves soil right where they sit."
+      ]
+    },
+    {
+      "h": "Why this is so common around here",
+      "p": [
+        "Much of this side of Macomb County is flat old lake bed over clay, which drains slowly and gives water little slope to follow. MSU Extension describes the lower part of the county as almost all poorly drained soil, mostly clay.",
+        "St. Clair Shores is a good example. The city's listed elevation is only a few feet above Lake St. Clair, and the city has said its clay loam does not absorb water as well as other soils. It does not recommend dry wells here, because the dense clay leaves the water sitting and draws mosquitoes. Its first suggestions are simple ones: aim downspouts away from the house and keep the lawn's grade from blocking the way to a catch basin. It also calls changing a yard's grade a big task and points to rain gardens and drains first, so try the simple fix before moving any dirt.",
+        "Wet clay is also easy to ruin. MSU Extension warns that digging or running equipment on wet soil compacts it, so after a long rain the right call can be to wait."
+      ]
+    },
+    {
+      "h": "Clear these before the grade changes",
+      "p": [
+        "Four checks come before the first shovel, and a good contractor will bring them up without being asked."
+      ],
+      "list": [
+        "**MISS DIG 811.** Michigan requires you to contact it at least 3 business days before a project, whatever its size or depth.",
+        "**Private lines.** MISS DIG 811 does not mark private lines, like a sprinkler line, a dog fence or a power run to a shed. A private locating company can mark them for a fee.",
+        "**Your city.** St. Clair Shores has said that changing a yard's grade needs the City Engineer's approval and a grading plan, and that drainage systems other than rain gardens need a permit. Other towns have their own rules, and those change, so get your city's answer before the plan is final.",
+        "**Your lot line.** St. Clair Shores has also said that downspouts within 6 feet of a property line must aim toward the front or back of the house, and that sending water at a neighbor can bring legal action."
+      ]
+    },
+    {
+      "h": "A photo from the last big rain helps most",
+      "p": [
+        "Text it to [(586) 718-8762](sms:+15867188762), and tell us where the water sits and how long it stays. Jake will take a look, and if it is not a grading job, he will tell you.",
+        "If it is, the free estimate puts the grading on its own line. Here is how [yard grading](/yard-grading/) works from start to finish, and how to [compare estimates](/journal/how-to-compare-landscaping-estimates/) if you are collecting a few."
+      ]
+    }
+  ]
+}

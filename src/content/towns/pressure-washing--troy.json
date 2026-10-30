@@ -1,0 +1,47 @@
+{
+  "service": "pressure-washing",
+  "city": "troy",
+  "meta": {
+    "title": "Pressure Washing in Troy, MI | HD Landscape",
+    "description": "Pressure washing in Troy, MI from HD Landscape: walks, patios and pavers cleaned with a wide, low spray, with the runoff and the joints kept in mind."
+  },
+  "hero": {
+    "kicker": "Pressure washing in Troy, MI",
+    "title": "That patio is not gray. **It is just dirty.**",
+    "lede": "Troy walks and patios have had decades to collect grime and green. HD Landscape cleans them with a wide, low spray that leaves the sand in the paver joints, and the runoff gets a look too, since the ground here sheds water slowly.",
+    "chips": ["Walks, patios and pavers", "A wide, low spray", "Other surfaces, send a photo"],
+    "photo": "ai-pressure"
+  },
+  "local": {
+    "eyebrow": "Pressure washing in Troy",
+    "title": "Thirty years outside, on ground that sheds water slowly.",
+    "intro": "About three in five Troy homes date from 1970 to 1999, so many walks and patios have been outside for 30 years or more. Add shade from mature trees, damp spots from overnight sprinklers and ground with very little fall, and you get the film a broom and a hose will not move.",
+    "points": [
+      { "title": "Where the water goes", "body": "Storm drains here empty into detention basins and the city's lakes, and the city sits in two watersheds, the Rouge River and the Clinton River. City code bars pollutants from the storm system, and yard waste counts. So dirty wash water should not head for the curb drain, and the slope of the walk decides where it ends up." },
+      { "title": "Spots a sprinkler keeps wet", "body": "Underground systems on city water run between 11pm and 5am, so a head that reaches the walk can leave it wet into the morning. Moss and algae like that. We wash it off and point out what is feeding it. Adjusting the sprinkler is a job for your irrigation company." },
+      { "title": "Patios on flat ground", "body": "The ground here is nearly flat, so a patio may have very little fall to begin with. Where water sits, green comes back. If a low spot is the cause, we will show you, and [yard grading](/yard-grading/) may be the real fix." },
+      { "title": "What a wash will not fix", "body": "The city's sidewalk program treats a slab offset of 3/4 of an inch or more as a trip hazard. Washing will not level a lifted slab, and it will not reset sunken pavers. If that is the problem, Jake will say so before the washer comes off the truck." }
+    ]
+  },
+  "logistics": {
+    "title": "On a flat lot, the runoff may not go **where you think.**",
+    "body": [
+      "Old concrete and pavers deserve a close look before the full wash: the surface, the joints and any stains. A small test spot is the sensible way to set the pressure, and you will hear what should come off and what may not. A wide spray is easier on old paving, and the runoff needs watching, because on a flat lot it can wander.",
+      "Pressure washing pairs well with a [spring or fall cleanup](/spring-and-fall-cleanups/), and washing belongs in weather safely above freezing. If the joints come up short once everything dries, [polymeric sand](/polymeric-sand/) is the next step, since it goes in after the wash."
+    ],
+    "facts": [
+      { "label": "We wash", "value": "Walks, patios and pavers" },
+      { "label": "City sidewalk paint", "value": "Orange means the city pays, green means the owner pays" },
+      { "label": "Driveways and other surfaces", "value": "Send a photo and ask Jake" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "paver-walk",
+  "faq": [
+    { "q": "Do you do pressure washing in Troy, MI?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in Troy, MI. Call or text [(586) 718-8762](tel:+15867188762) for a free, itemized estimate, and a photo of the worst spot is a good place to start." },
+    { "q": "Can pressure washing water go into the storm drain in Troy?", "a": "Dirty water should stay out of it. The city's stormwater ordinance bars pollutants from the storm drain system, and that covers things like oil, yard waste and fertilizer. Water with no pollutants in it is treated differently. So before a wash, look at where the runoff will go and what it will carry. If you are washing on your own and not sure, the city can tell you what it allows." },
+    { "q": "Will pressure washing fix an uneven sidewalk?", "a": "No. Washing cleans the surface, and it will not level a lifted slab. Troy runs a sidewalk replacement program and marks slabs with paint to show who pays: orange for the city and green for the property owner. If you have a marked slab or a trip edge, that is a question for the city." },
+    { "q": "Why does the walk next to my sprinkler stay green?", "a": "Moss and algae grow where paving stays damp. Underground systems in Troy run overnight, so a head that reaches the walk keeps it wet into the morning, and shade slows the drying. Washing takes off the growth. It will come back until the spot stays drier, so we point out the cause when we see it." }
+  ],
+  "reviews": ["marie-b", "anne-j"]
+}

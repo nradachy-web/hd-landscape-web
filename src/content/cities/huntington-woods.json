@@ -1,0 +1,53 @@
+{
+  "city": "huntington-woods",
+  "meta": {
+    "title": "Landscaping in Huntington Woods, MI | HD Landscape",
+    "description": "Landscaping for Huntington Woods, MI: grading for wet yards, low front hedges, planting and cleanups for homes from the 1920s on. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Huntington Woods, MI",
+    "title": "Tree City streets. **Yards that drain.**",
+    "lede": "Most Huntington Woods homes went up before 1959, and the city looks after the street trees. HD Landscape handles the part that falls to you, starting with where the rain goes.",
+    "chips": ["Grading for wet yards", "Low front hedges", "Older home plantings"],
+    "photo": "fall-colonial"
+  },
+  "about": {
+    "eyebrow": "Yards in Huntington Woods",
+    "title": "Old homes, city trees and rain with nowhere to go.",
+    "body": [
+      "Most Huntington Woods yards are nearly level, and 88 percent of the houses beside them went up before 1959. So rain has no hurry to leave, and foundation shrubs have had decades to climb past the windowsills. Apart from Rackham Golf Course and part of the Detroit Zoo, the city is almost all houses, which means your water soon becomes a neighbor's question.",
+      "Most homes here date from the 1920s through the 1960s, and English influenced houses went up along the meandering streets laid out on the ridge. The yards have aged along with the houses: bed lines have drifted, shrubs have outgrown their spots, and the ground has formed its own opinions about where water should go."
+    ],
+    "points": [
+      { "title": "Rain is the local issue", "body": "In the survey for the city's 2022 master plan, 65 percent of people picked stormwater as a priority, more than any other item. [Yard grading](/yard-grading/) and planted beds help, and the plan recommends sending downspouts to green space, not onto pavement or next door." },
+      { "title": "Flat ground, slow soil and one ridge", "body": "Most of the city is nearly level, on Blount, Lenawee and Thetford soils that USDA rates from somewhat poorly to very poorly drained. The ridge in the northeast is Spinks, a sandy soil that drains well. A plant can sulk on one block and thrive a few streets over." },
+      { "title": "The tree out front may be the city's", "body": "Huntington Woods is a Tree City USA, and the strip along the curb falls to Public Works. No city tree comes down without approval, and planting your own there takes DPW approval within the city's species and size rules. We [plant and care](/plant-installation/) for what is on your side of the walk." },
+      { "title": "Front hedges stay low", "body": "City zoning allows a front yard hedge only under 30 inches. It cannot hang over the lot line, and a hedge's outer growth has to stay a foot off the city sidewalk. A [trim](/hedge-trimming/) can bring one down to that height. If you inherited something taller, ask the city what applies before the saw comes out or a new one goes in." },
+      { "title": "Historic districts add a step", "body": "Work in the Hill and Rackham historic districts goes through the city's Historic District Commission. The work permit for those areas lists landscaping, tree removal, retaining walls and paving, so check before you change a front yard there." }
+    ],
+    "photo": "tudor-planting"
+  },
+  "logistics": {
+    "title": "In Huntington Woods, loads stay small and fall work follows the leaf vacuum.",
+    "body": [
+      "Water comes up first on a walk of a yard here: the low spots, the downspouts and what ends up on the neighbor's side. Then Jake writes an itemized estimate for you to read line by line. City zoning sets minimum lot widths as low as 40 and 50 feet, so expect smaller loads, more hand work to reach the back and a clear sidewalk and street.",
+      "Fall work has its own timing. Public Works vacuums leaves raked to the curb on a weekly route, in 2026 from October 19 through the first week of December, and asks people not to park on the street. Branch chipping pauses during those weeks. We can time a [fall cleanup](/spring-and-fall-cleanups/) around it, and the city posts new dates each year."
+    ],
+    "facts": [
+      { "label": "Leaf vacuum", "value": "Weekly route, October into December" },
+      { "label": "Front hedge limit", "value": "Under 30 inches, per city zoning" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinklers and lawn aeration" }
+    ]
+  },
+  "faq": [
+    { "q": "Is Huntington Woods, MI in your service area?", "a": "Yes. HD Landscape works in Huntington Woods in southeast Oakland County, with design, renovation, grading, sod, planting, hedge trimming, monthly maintenance and cleanups. Sprinkler installation and lawn aeration are not on our list." },
+    { "q": "How tall can a front yard hedge be in Huntington Woods?", "a": "The city's zoning section on fences, hedges and walls allows a front yard hedge only if it is under 30 inches, and it cannot project over the lot line. It also keeps hedges at least 3 feet from a neighbor's driveway and a foot back from the city sidewalk. Ask the city for the current wording before you plant." },
+    { "q": "Who takes care of the street tree out front?", "a": "The city does. Huntington Woods Public Works handles planting, trimming and removal on that strip, and no city tree can be removed without authorization. If yours looks sick, call them first. We work on the trees and plants on your side of the walk." },
+    { "q": "Can you fix standing water in my yard?", "a": "Often, yes. Much of Huntington Woods is level and its soils drain slowly, so a small change in grade can matter. The fix starts with the low spots and where the downspouts empty, then [regrading](/yard-grading/) and replanting so water moves away from the house and does not end up next door." },
+    { "q": "Do I need approval for landscaping in the Hill Historic District?", "a": "You might. The city's historic district work permit lists landscaping and tree removal, along with fences, retaining walls and paving. Talk to the city's building department first, because applications are due at least 15 days before the commission meets." },
+    { "q": "Can I remove a tree on my own lot in Huntington Woods without a permit?", "a": "Ask the city first. It has gone back and forth on this: a 2014 tree ordinance that reached private lots was suspended after a resident petition. A quick call to city hall tells you what applies today. We handle [smaller trees](/tree-trimming-and-removal/), and a big one is a job for a tree company." }
+  ],
+  "reviews": ["rob-e", "renee-g", "gina-d"],
+  "neighbors": ["royal-oak", "birmingham", "beverly-hills"]
+}

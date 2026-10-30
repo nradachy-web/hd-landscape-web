@@ -1,0 +1,55 @@
+{
+  "city": "chesterfield-township",
+  "meta": {
+    "title": "Landscaping in Chesterfield Township, MI | HD Landscape",
+    "description": "HD Landscape handles grading, sod, beds and upkeep for Chesterfield Township yards, from narrow Anchor Bay lots to wide ground inland. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Chesterfield Township, MI",
+    "title": "Flat ground. Slow water. **A plan for both.**",
+    "lede": "Rain takes its time leaving a Chesterfield Township yard, because the whole township drops only about 70 feet on its way to Anchor Bay. HD Landscape grades, sods, plants and maintains yards here, from long, narrow waterfront lots to wider ground inland.",
+    "chips": ["Grading comes first", "Anchor Bay to 26 Mile", "Free, itemized estimates"],
+    "photo": "dusk-patio"
+  },
+  "about": {
+    "eyebrow": "Yards in the township",
+    "title": "Water decides what works **here.**",
+    "body": [
+      "The township's master plan puts the high point near 26 Mile and Bates at about 650 feet and Anchor Bay at about 580. That is 70 feet of drop over roughly four and a half miles, which averages out to about three and a half inches across a 100 foot yard. Rain does not hurry off. It sits and waits.",
+      "The soil agrees. USDA maps show poorly or very poorly drained clay and silty clay loam across most of Chesterfield Township, with sandy pockets in places, including the east side where the plan notes old beach ridges. The plan also says wetland soils are found through much of the township and that extensive flood hazard areas have been mapped.",
+      "Lots vary as much as the ground does. Along Jefferson from 21 Mile to the Salt River, many homes date from 1960 to 1980, and some lots still show the long, narrow shape of the French farms that first reached the water. Inland it opens up into medium and large lots, with farm fields still working in the north."
+    ],
+    "points": [
+      { "title": "Grade before anything else", "body": "On ground this flat, a small change goes a long way. The [grade](/yard-grading/) should send water away from the foundation and toward somewhere it can actually go, and only then should [sod](/sod-installation/) or beds go in. New grass on a wet yard is just a nicer looking wet yard." },
+      { "title": "Trees need a second look", "body": "Township zoning requires a permit to remove regulated trees, meaning six inches or more across at four and a half feet up. There are exceptions, including a yearly allowance on occupied lots of five acres or less. So before a [tree comes down](/tree-trimming-and-removal/), count them and ask the township." },
+      { "title": "Wet spots that may not be yours to fill", "body": "Wetlands around the Salt River store floodwater and protect the shoreline, and the state regulates wetlands. A corner that stays soggy all year deserves a phone call before a load of fill shows up. We would rather ask once than move dirt twice." },
+      { "title": "Near the bay, plan for high water", "body": "Lake St. Clair set a record high in 2019, and the township's plan says its waterfronts saw record water through 2019 and 2020. The plan calls lake levels cyclical, so expect it to come back. On a lot near the shore or a canal, plants that hate wet feet belong up and back from the low ground." },
+      { "title": "Back corners and tall grass", "body": "The township warns that ticks have been especially high in recent years, and it tells park visitors to stay out of tall grass. An overgrown back corner is a fair reason for a [cleanup](/spring-and-fall-cleanups/). We cut back brush and clear what has gotten away from you." }
+    ],
+    "photo": "grade-rake"
+  },
+  "logistics": {
+    "title": "Text us the puddle **before Jake comes out.**",
+    "body": [
+      "Before Jake walks the lot, take note of where the water sits. A few photos from the last hard rain help more than you would think, so text them over. The estimate is itemized, so grading shows up as its own line and you can see what fixing the water actually takes.",
+      "Summer sod has to fit the township's watering rule. From Memorial Day to Labor Day, sprinklers follow an odd and even schedule by address and may run only from 11 p.m. to 4 a.m. Talk through the watering plan before the sod goes down, so nobody is surprised at midnight.",
+      "Close to the bay or the Salt River, moving dirt takes an extra check. Earth work within 500 feet of a lake or stream generally needs a soil erosion permit through Macomb County Public Works, and the flood maps may apply too. At street corners, and where a private drive meets a public road, township zoning holds shrubs and fences to two feet, so corner plantings stay low."
+    ],
+    "facts": [
+      { "label": "Corner shrubs", "value": "Two feet at most, and that counts private drives" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Summer sprinklers", "value": "11 p.m. to 4 a.m., odd or even days" },
+      { "label": "Not included", "value": "Sprinklers, aeration, seawalls" }
+    ]
+  },
+  "faq": [
+    { "q": "Is Chesterfield Township in your service area?", "a": "Yes. HD Landscape does landscaping in Chesterfield Township, on narrow waterfront lots as well as wider yards inland. We do [yard grading](/yard-grading/), [sod](/sod-installation/), [landscape design](/landscape-design/), [plant installation](/plant-installation/), [hedge trimming](/hedge-trimming/) and [monthly maintenance](/monthly-landscape-maintenance/). Wet ground is the usual place to start." },
+    { "q": "Does Chesterfield Township require a permit to take down a tree?", "a": "Sometimes. Township zoning requires a tree removal permit for regulated trees, meaning six inches or more in diameter at four and a half feet above grade. Occupied lots of five acres or less can remove up to 10 percent of them per calendar year without one, and dead or damaged trees and listed species such as cottonwood and silver maple do not need one. Ask the township before cutting. We trim and take out smaller trees, and we leave the large removals to a tree company." },
+    { "q": "When can I run sprinklers in Chesterfield Township?", "a": "From Memorial Day to Labor Day the township runs an odd and even program by address, and sprinkler systems may run only from 11 p.m. to 4 a.m. The township's page does not mention new sod, so ask before a summer install. We do not install sprinklers, but new sod can go in around a system you already have." },
+    { "q": "How do you fix a flat yard that stays wet?", "a": "Start with where the water sits and where it could go. The township's own plan says terrain this level can need man-made drainage improvements. On a single lot, even a small change in [grade](/yard-grading/) can move water away from the house, and most wet yards need that before sod or beds go in. If the real fix is bigger than grading, Jake will say so. Sometimes a wet corner is better planted than fought." },
+    { "q": "Can I fill a low spot near the Salt River or a wetland?", "a": "Do not fill it until someone has checked. Wetland soils are found through much of Chesterfield Township, the state regulates wetlands, and the township posts flood maps online with a copy at the Building Department counter. A quick look at those maps costs nothing. Fixing fill that should not be there does." },
+    { "q": "Do you work on Anchor Bay waterfront lots?", "a": "Yes. We do [sod](/sod-installation/), [planting](/plant-installation/), [mulching](/mulching/) and [cleanups](/spring-and-fall-cleanups/) on lots near the bay and the canals. A narrow lot leaves little room for trucks and pallets, so settle the way in during the walkthrough. Hedges and walls are not allowed in the water side front yard of lots on Anchor Bay or the Salt River under township zoning, so ask the township before planning a screen there. We do not build or repair seawalls." }
+  ],
+  "reviews": ["rob-e", "renee-g", "meagan-m"],
+  "neighbors": ["new-baltimore", "harrison-township", "macomb-township", "mount-clemens"]
+}

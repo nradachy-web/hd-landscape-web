@@ -1,0 +1,48 @@
+{
+  "service": "cleanups",
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Spring and Fall Cleanups in Grosse Pointe, MI | HD Landscape",
+    "description": "Yard cleanups for Grosse Pointe, MI, every spring and fall. Beds cleared, leaves gone, shrubs tidied and the visit timed to your trees. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Spring and fall cleanups in Grosse Pointe, MI",
+    "title": "Leaves out. **Beds reset.**",
+    "lede": "Those big Grosse Pointe street trees have to drop their leaves somewhere, and plenty of them end up in your beds. HD Landscape clears the beds, corners and walks in spring and fall, and resets the yard for the season.",
+    "chips": ["Beds and corners cleared", "Shrubs tidied", "Timed to your trees"],
+    "photo": "colonial-fall"
+  },
+  "local": {
+    "eyebrow": "Cleanups in the City",
+    "title": "What Grosse Pointe's pickup does, and **what it leaves to you.**",
+    "intro": "The city runs curbside leaf pickup every fall, and the 2026 dates run from October 12 to December 3. That covers the piles set out by the curb on your collection day. It does not reach the leaves packed into your beds and corners.",
+    "points": [
+      { "title": "Leaves that never reach the curb", "body": "Wind and big canopies pack leaves against foundations, under shrubs and into corners. Left there, they mat down over the winter. A fall cleanup gets them out of the planted part of the yard, where a rake rarely reaches." },
+      { "title": "What the city asks of a hired crew", "body": "The city's leaf flyer says contractors must not put leaves in the street before your scheduled day, and tells you to pass that day along to your leaf contractor. Its refuse page puts commercial landscape debris on private removal. So tell Jake your collection day when you book." },
+      { "title": "Spring on wet clay", "body": "Much of the city sits on poorly drained soil that stays soft after the snow goes. Walking on wet soil compacts it, so a soaked yard is better left a few days. Beds get done right, and your lawn does not pay for it." },
+      { "title": "Lawn leaves can stay", "body": "MSU Extension says leaves can be mulched into the grass with a mower, as long as they are no more than 3 to 4 inches deep. Heavier drops under a big maple are another story, and that is what a cleanup is for." }
+    ]
+  },
+  "logistics": {
+    "title": "We time the visit **to your trees.**",
+    "body": [
+      "Tell us when your trees usually finish dropping, and we will time the fall visit to that. Big old trees often run late. Spring visits work best once the ground has firmed up.",
+      "We clear the beds, pull the weeds, cut back what should be cut and tidy the shrubs. Heavy pruning is planned separately. How the debris leaves goes on your estimate, and when the crew goes, the bed lines are clean and the walks and drive are clear.",
+      "We do cleanups across all five Pointes, and each one sets its own leaf dates and contractor rules: the [Farms](/service-areas/grosse-pointe-farms/), the [Woods](/service-areas/grosse-pointe-woods/), the [Shores](/service-areas/grosse-pointe-shores/), the [City](/service-areas/grosse-pointe/) and the [Park](/service-areas/grosse-pointe-park/)."
+    ],
+    "facts": [
+      { "label": "When", "value": "Spring, fall or both" },
+      { "label": "2026 leaf pickup", "value": "October 12 to December 3" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "curve-fall",
+  "faq": [
+    { "q": "Do you do spring and fall cleanups in Grosse Pointe?", "a": "Yes. HD Landscape does spring and fall cleanups in Grosse Pointe, MI, one of the places we work most. The beds and corners get cleared, the weeds pulled and the shrubs tidied, and the fall visit gets timed to your trees." },
+    { "q": "When does Grosse Pointe pick up leaves?", "a": "The city's 2026 fall leaf pickup runs from October 12 to December 3, and dates change from year to year, so look up the current schedule. Piles go next to the curb after 4 p.m. the day before your pickup, with cars off the street on collection day. Leaves left after the last day have to be bagged and stored until yard waste pickup resumes in spring." },
+    { "q": "Can your crew leave the leaves at the curb for the city?", "a": "Only on the city's terms. Its leaf flyer says contractors must not put leaves in the street before your scheduled collection day, and its refuse page treats commercial landscape debris as a private haul. Jake will go over where the leaves end up when he writes the estimate." },
+    { "q": "When should I book a fall cleanup?", "a": "Book early in the fall and we will time it to your trees. Old maples and oaks often hold on longer than you expect, and a cleanup done too soon means a second round of raking. Most people want it done after the bulk of the leaves are down." },
+    { "q": "Can you clean up a yard that has been let go for years?", "a": "Yes, and it is usually satisfying work. If the beds are overgrown past a normal cleanup, Jake will say so and may suggest [removing what has taken over](/plant-removal/). The estimate will show exactly what is planned." }
+  ],
+  "reviews": ["nancy-g", "renee-g", "marie-b"]
+}

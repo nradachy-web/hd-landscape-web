@@ -1,0 +1,51 @@
+{
+  "city": "grosse-pointe-farms",
+  "meta": {
+    "title": "Landscaping in Grosse Pointe Farms, MI | HD Landscape",
+    "description": "Landscaping for Grosse Pointe Farms, MI, from sand mid town to clay toward Mack. Design, hedges and renovations. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Grosse Pointe Farms, MI",
+    "title": "The Pointe **with a ridge.**",
+    "lede": "Grosse Pointe Farms has a low ridge the City and the Park lack, a shoreline that bends east and soil that changes from sand to clay. HD Landscape plans each yard for the ground it sits on, then keeps it looking right.",
+    "chips": ["Planned for your soil", "Hedges and sight lines", "Itemized estimates"],
+    "photo": "dusk-curve"
+  },
+  "about": {
+    "eyebrow": "Yards in the Farms",
+    "title": "Why the Farms does not garden **like the rest of the Pointes.**",
+    "body": [
+      "Grosse Pointe and the Park are basically flat. Grosse Pointe Farms is not, quite. A low ridge runs through the middle of town, so the ground changes as you walk inland. The shore also bends here, so lakefront homes face east and get their sun early.",
+      "Housing is just as mixed: bungalows, mansions and newer homes on subdivided estates, on streets that follow the Detroit grid in some places and curve in others. A yard here can be a small front bed or a long lake lawn, and it may sit on sand or on clay."
+    ],
+    "points": [
+      { "title": "Sand and clay in one town", "body": "USDA soil maps show sandy soils through the middle and east of the city and poorly drained clay inland toward Mack. A plant, a watering plan or a sod job that works on one street may not work on the next." },
+      { "title": "Boulevards with rules", "body": "The strip between walk and curb falls under the Director of Public Service. Planting, pruning or removing there takes written permission, apart from ordinary maintenance. Digging close to a tree takes a permit too." },
+      { "title": "Historic streets", "body": "The city has local historic districts, including Beverly Road, and its rules name historic plantings, gates and walls. If your home is in one, ask the city what needs review before anything changes." },
+      { "title": "Hedges the code cares about", "body": "The zoning code keeps sight lines open at corners and driveways, and the fence ordinance allows chain link in front of a house only if it is screened. A hedge doing that job has to stay full and stay out of the sight line." }
+    ],
+    "photo": "island-bed"
+  },
+  "logistics": {
+    "title": "In Grosse Pointe Farms, Jake reads **the ground before the plants.**",
+    "body": [
+      "Jake walks the yard with you and looks at the ground as much as the plants. The soil can change within a short walk here, so that look shapes the plan. Then he writes an itemized estimate you can go through line by line.",
+      "The city's rule is that landscape contractors remove their own debris, so nothing of ours sits at your curb. City code also wants building material at least 4 feet from a tree, so staging stays off the boulevard, and the walks get cleaned up before the crew goes."
+    ],
+    "facts": [
+      { "label": "Boulevard", "value": "City controlled. Ask before you plant." },
+      { "label": "Soil", "value": "Sand or clay, depending on the street" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you work in Grosse Pointe Farms, MI?", "a": "Yes. HD Landscape works on both the sand and the clay in Grosse Pointe Farms, one of the places we work most. We do [full renovations](/landscape-renovation-grosse-pointe-farms-mi/), [hedge trimming](/hedge-trimming-grosse-pointe-farms-mi/), [landscape design](/landscape-design-grosse-pointe-mi/), [sod](/sod-installation-grosse-pointe-mi/), [monthly maintenance](/landscape-maintenance-grosse-pointe-mi/) and [cleanups](/yard-cleanup-grosse-pointe-mi/) here. All of it runs across the five Pointes, so the [Woods](/service-areas/grosse-pointe-woods/), the [City](/service-areas/grosse-pointe/), the [Shores](/service-areas/grosse-pointe-shores/) and the [Park](/service-areas/grosse-pointe-park/) are on the same list." },
+    { "q": "Can I get the city to plant a tree on my boulevard?", "a": "You can ask. The Farms plants on the boulevard by written request to the Public Service Department, due by October 1, and the director decides. The city's list includes sugar maple, katsura and littleleaf linden. It does not plant ash, birch, elm, evergreens, fruit trees or willow." },
+    { "q": "What if my elm or ash tree in Grosse Pointe Farms is dying?", "a": "Deal with it soon. The city code treats infected elm and ash, and dead or dying ones that can harbor the pests, as a public nuisance, and it can require removal. We take down smaller trees, and a bigger removal gets handed to a tree company." },
+    { "q": "Do you work on seawalls or the lakefront?", "a": "We handle the yard. A seawall needs a marine contractor, and building or filling at the shoreline falls under state rules. If your lot runs to the lake, we plan the beds, hedges and lawn behind the wall." },
+    { "q": "What does a landscape project cost in the Farms?", "a": "We do not publish prices, because a front bed on sand mid town and a wet clay yard toward Mack are different jobs. Jake prices yours once he has seen the ground, and that visit is free." }
+  ],
+  "reviews": ["stephen-d", "gina-d", "amanda-h"],
+  "neighbors": ["grosse-pointe", "grosse-pointe-park", "grosse-pointe-woods", "grosse-pointe-shores"]
+}

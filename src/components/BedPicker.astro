@@ -1,0 +1,215 @@
+---
+/* Same bed, your pick of ground cover. One of Jake's real beds with the mulch
+   swapped for other finishes, each layer cut so the plants, the tree and the wall
+   never move (scripts/bed.py). It is plain radio buttons: no script at all, and
+   the layers are lazy, so nothing here weighs on the first paint.
+
+   The first option is the photo as it was taken. Labeled as a digital preview. */
+import { getImage } from 'astro:assets';
+import Photo from './Photo.astro';
+import brown from '../assets/panel/bed-brown.png';
+import red from '../assets/panel/bed-red.png';
+import river from '../assets/panel/bed-river.png';
+import black from '../assets/panel/bed-black.png';
+import marble from '../assets/panel/bed-marble.png';
+import swBrown from '../assets/panel/sw-brown.jpg';
+import swRed from '../assets/panel/sw-red.jpg';
+import swRiver from '../assets/panel/sw-river.jpg';
+import swBlack from '../assets/panel/sw-black.jpg';
+import swMarble from '../assets/panel/sw-marble.jpg';
+
+const opts = [
+  { id: 'jet', name: 'Black mulch', note: 'The bed as we finished it. Sharp against brick and green.', img: null, sw: null },
+  { id: 'brown', name: 'Brown mulch', note: 'Warm and natural. Blends into older homes.', img: brown, sw: swBrown },
+  { id: 'red', name: 'Red mulch', note: 'A bold color that holds its own beside brick.', img: red, sw: swRed },
+  { id: 'river', name: 'River rock', note: 'Stays put and does not need topping up.', img: river, sw: swRiver },
+  { id: 'black', name: 'Black stone', note: 'Clean and modern, and a favorite of ours.', img: black, sw: swBlack },
+  { id: 'marble', name: 'White marble', note: 'Bright and formal. Shows every leaf.', img: marble, sw: swMarble },
+];
+
+const layers = await Promise.all(
+  opts.filter((o) => o.img).map(async (o) => {
+    const set = async (format: 'avif' | 'webp', quality: number) => {
+      const urls = await Promise.all([800, 1200].map(async (w) => `${(await getImage({ src: o.img!, width: w, format, quality })).src} ${w}w`));
+      return urls.join(', ');
+    };
+    const fb = await getImage({ src: o.img!, width: 800, format: 'webp', quality: 62 });
+    return { id: o.id, avif: await set('avif', 50), webp: await set('webp', 62), fb: fb.src };
+  }),
+);
+const swatches = Object.fromEntries(await Promise.all(opts.filter((o) => o.sw).map(async (o) => [o.id, (await getImage({ src: o.sw!, width: 72, format: 'webp', quality: 70 })).src])));
+const sizes = '(min-width: 60rem) 56vw, 92vw';
+---
+
+<figure class="bed">
+  <div class="frame bed__stage">
+    <Photo id="curve-brick-bed" ratio={4 / 3} widths={[640, 960, 1280]} sizes={sizes} alt="A curved raised bed in front of a brick ranch, with the ground cover changing as you pick each option" />
+    {
+      layers.map((l) => (
+        <picture class="bed__layer" data-m={l.id}>
+          <source type="image/avif" srcset={l.avif} sizes={sizes} />
+          <source type="image/webp" srcset={l.webp} sizes={sizes} />
+          <img src={l.fb} width="1200" height="900" alt="" loading="lazy" decoding="async" />
+        </picture>
+      ))
+    }
+  </div>
+  <fieldset class="bed__opts">
+    <legend class="sr">Choose a ground cover</legend>
+    {
+      opts.map((o, i) => (
+        <label class="bed__opt">
+          <input type="radio" name="bed" value={o.id} checked={i === 0} />
+          <span class:list={['bed__sw', !o.sw && 'bed__sw--jet']} style={o.sw ? `background-image:url(${swatches[o.id]})` : undefined} aria-hidden="true" />
+          <span class="bed__txt">
+            <span class="bed__name">{o.name}</span>
+            <span class="bed__note">{o.note}</span>
+          </span>
+        </label>
+      ))
+    }
+  </fieldset>
+  <figcaption class="note cap bed__cap">One of our real beds. The other five finishes are digital previews, so treat the colors as a guide.</figcaption>
+</figure>
+
+<style>
+  .bed {
+    display: grid;
+    gap: 1rem 1.75rem;
+  }
+
+  .bed__stage {
+    position: relative;
+    aspect-ratio: 4 / 3;
+  }
+
+  .bed__layer {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity 0.45s var(--ease);
+    pointer-events: none;
+  }
+
+  .bed:has(input[value='brown']:checked) [data-m='brown'],
+  .bed:has(input[value='red']:checked) [data-m='red'],
+  .bed:has(input[value='river']:checked) [data-m='river'],
+  .bed:has(input[value='black']:checked) [data-m='black'],
+  .bed:has(input[value='marble']:checked) [data-m='marble'] {
+    opacity: 1;
+  }
+
+  .bed__opts {
+    display: grid;
+    gap: 0.4rem;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+
+  .bed__opt {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    min-height: 3.5rem;
+    padding: 0.5rem 0.7rem;
+    border: 1px solid var(--line-ink);
+    border-radius: var(--r);
+    cursor: pointer;
+    transition:
+      border-color 0.18s var(--ease),
+      background-color 0.18s var(--ease);
+  }
+
+  .bed__opt:hover {
+    border-color: rgb(236 244 228 / 0.4);
+  }
+
+  .bed__opt:has(input:checked) {
+    border-color: var(--leaf);
+    background: rgb(188 220 108 / 0.09);
+  }
+
+  .bed__opt:has(input:focus-visible) {
+    outline: 2px solid var(--leaf);
+    outline-offset: 2px;
+  }
+
+  .bed__opt input {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .bed__sw {
+    flex: none;
+    width: 2.4rem;
+    height: 2.4rem;
+    border: 1px solid rgb(236 244 228 / 0.28);
+    border-radius: var(--r-sm);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bed__sw--jet {
+    background: #15130f;
+    border: 1px solid var(--line-ink);
+  }
+
+  .bed__txt {
+    display: grid;
+    min-width: 0;
+  }
+
+  .bed__name {
+    font-weight: 620;
+    line-height: 1.25;
+  }
+
+  .bed__note {
+    font-size: 0.8125rem;
+    line-height: 1.35;
+    color: var(--on-ink-muted);
+  }
+
+  @media (min-width: 60rem) {
+    .bed {
+      grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+      align-items: start;
+    }
+
+    .bed__opts {
+      align-self: stretch;
+      grid-auto-rows: 1fr;
+    }
+
+    .bed__cap {
+      grid-column: 1;
+      margin-top: 0;
+    }
+  }
+
+  @media (max-width: 39.99rem) {
+    .bed__opts {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .bed__note {
+      display: none;
+    }
+
+    .bed__sw {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .bed__opt {
+      gap: 0.55rem;
+      padding-inline: 0.55rem;
+    }
+  }
+</style>

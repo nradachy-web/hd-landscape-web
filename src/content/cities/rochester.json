@@ -1,0 +1,52 @@
+{
+  "city": "rochester",
+  "meta": {
+    "title": "Landscaping in Rochester, MI | HD Landscape",
+    "description": "Landscape design, tree work, cleanups and monthly care in the City of Rochester, MI, from small lots by Main Street to creekside yards. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Rochester, MI",
+    "title": "A small city that **counts its trees.**",
+    "lede": "A yard in Rochester comes with a tree canopy the city tallies every year and three waterways close by. That shapes how HD Landscape plans and looks after the place, from small lots near Main Street to newer homes toward the edges.",
+    "chips": ["Design through installation", "Tree work and stumps", "Cleanups and monthly care"],
+    "photo": "pergola-deck"
+  },
+  "about": {
+    "eyebrow": "Yards in Rochester",
+    "title": "Just under four square miles, and **the yards change by the block.**",
+    "body": [
+      "The City of Rochester is mostly surrounded by Rochester Hills, and in that small space its master plan describes heritage homes and older flats near downtown, postwar ranches and capes, and contemporary homes and condominiums toward the edges. Older neighborhoods tend to have smaller lots and newer ones larger lots, so two yards a few blocks apart can need very different work.",
+      "It is also younger than it looks from Main Street. The same plan says only about a third of the city's homes were built before 1970. So a lot of yards here are on their first or second round of planting, and those shrubs and trees are now big enough to need a decision."
+    ],
+    "points": [
+      { "title": "The creek line comes first", "body": "Paint Creek, Stony Creek and the Clinton River all run through town. The master plan describes a required 30 foot stabilization zone between development and the water, and floodplain limits nearby, so a plan on a creek lot has to start from that line." },
+      { "title": "A permit starts at seven inches", "body": "The city measured about 29 percent tree canopy in 2021, and its plan aims to hold 30. Taking down a tree seven inches across or bigger takes a city permit, even on private property, so a [tree job](/tree-trimming-rochester-mi/) here starts with the size of the trunk." },
+      { "title": "Alleys and narrow side yards", "body": "Some blocks around downtown have alleys behind the lots, and the city maps them. An alley can be the easy way in for sod, stone or a stump grinder. Where a narrow side yard is the only way back, expect smaller loads of material and a swept walk when the day is done." },
+      { "title": "Back lines that face a trail", "body": "The Paint Creek Trail and the Clinton River Trail both cross the city, and nearly every resident lives within half a mile of a park. If your back lot line faces a trail or a park, people see it as often as the front of the house, so it deserves the same thought." }
+    ],
+    "photo": "flagstone-side"
+  },
+  "logistics": {
+    "title": "Permits, creeks and access get sorted out on the first walk.",
+    "body": [
+      "Three questions do most of the sorting on a Rochester lot: which trees might need a permit, how close the work sits to a creek, and how materials will get in. Jake goes through them with you on the walk and gives his advice, and an itemized estimate follows.",
+      "The city posts construction hours of 7 a.m. to 6 p.m. on weekdays, with Saturday work by permission. Its page does not say whether landscaping counts, so if a Saturday matters to you, bring it up early. On a small lot, truck and material spots get worked out ahead of time, and the walks and drive get cleaned before the crew goes."
+    ],
+    "facts": [
+      { "label": "Tree permit", "value": "Trees 7 inches across or bigger" },
+      { "label": "Waterways", "value": "Paint Creek, Stony Creek, Clinton River" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you work in the City of Rochester, MI?", "a": "Yes. HD Landscape works in the City of Rochester, MI, and in neighboring [Rochester Hills](/service-areas/rochester-hills/) and [Oakland Township](/service-areas/oakland-township/). In the city we do [landscape design](/landscape-design-rochester-mi/), [monthly maintenance](/landscape-maintenance-rochester-mi/), [yard cleanups](/yard-cleanup-rochester-mi/), [pressure washing](/pressure-washing-rochester-mi/), [tree work](/tree-trimming-rochester-mi/) and [stump grinding](/stump-grinding-rochester-mi/), along with sod, planting and stone. Sprinklers and lawn aeration are not our work, and the biggest removals are a job for a tree company." },
+    { "q": "Is the City of Rochester the same as Rochester Hills?", "a": "No. They are separate cities with separate rules, and Rochester Hills wraps around most of the city. A Rochester mailing address does not settle it either, since Oakland Township Hall has one too. Check your tax bill before you look up a permit or a leaf pickup date." },
+    { "q": "Can you landscape a yard along Paint Creek?", "a": "Yes, with care. Rochester's master plan calls Paint Creek one of the few cold water trout streams in southeast Michigan with natural reproduction, so soil, mulch and leaves have to stay out of it. Anything planned close to the bank calls for a word with the city first." },
+    { "q": "Do you work on small lots near downtown?", "a": "Yes. Small lots reward a careful plan, because a few plants in the right spots and one clean bed line can change how the whole house sits. Shade, side yard access and any alley behind the lot are the things to settle on the walk." },
+    { "q": "Can you work on the strip by the curb?", "a": "Not without the city. Rochester's ordinance says no one may prune, plant or remove trees or shrubs in a right-of-way without a written permit, and that ground often takes in the strip along the curb. Your own beds and yard are a different matter, and the city can tell you where your line falls." },
+    { "q": "What does a landscape project cost in Rochester?", "a": "HD Landscape does not publish prices, because no two of these lots ask for the same work. Here the things that move the number most are how materials get in, how much old growth has to come out and whether a tree needs a city permit, which carries a processing fee unless the city finds the tree dead or dying." }
+  ],
+  "reviews": ["amanda-h", "rob-e", "gina-d"],
+  "neighbors": ["rochester-hills", "oakland-township", "shelby-township", "troy"]
+}

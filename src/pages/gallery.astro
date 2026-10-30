@@ -1,0 +1,97 @@
+---
+/* Selected work. Real photographs only: no relit images and no illustrations on
+   this page. Nick has said no filterable catalog, square expand icons or modal
+   viewer, so these are composed bands of captioned photos. Old address kept. */
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import Head from '../components/Head.astro';
+import Photo from '../components/Photo.astro';
+import BeforeAfter from '../components/BeforeAfter.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import { photo, type PhotoId } from '../data/photos';
+import { heroImage } from '../lib/hero';
+import { breadcrumbs } from '../lib/schema';
+
+const head = await heroImage('hedge-curve', { sizes: '(min-width: 60rem) 48vw, 1px' });
+const path = '/gallery/';
+const sets: { id: string; title: string; intro: string; photos: PhotoId[] }[] = [
+  { id: 'beds', title: 'Beds and **planting.**', intro: 'New beds, clean lines and plants set where they will do well.', photos: ['curve-brick-bed', 'urn-bed', 'tudor-planting', 'patio-bed', 'hosta-bed', 'evergreen-island', 'maple-rock-bed', 'thrift-boulder', 'island-bed'] },
+  { id: 'stone', title: 'Stone, walls and **walks.**', intro: 'Block borders, river rock, black stone and walks that hold their line.', photos: ['weeping-border', 'ranch-stone-bed', 'paver-walk', 'rock-bed-hydrangea', 'slate-sidewalk', 'black-stone-kidney', 'limestone-bed', 'flagstone-side', 'river-rock-beds'] },
+  { id: 'hedges', title: 'Hedges **by hand and eye.**', intro: 'Long runs, tight curves and the odd topiary.', photos: ['stone-manor', 'hedge-long', 'tall-hedge', 'hedge-walk', 'pool-hedge', 'topiary-spiral', 'boxwood-front'] },
+  { id: 'lawns', title: 'Lawns, sod and **grading.**', intro: 'Graded first, then laid in tight seams, right up to the edge.', photos: ['sod-backyard', 'sod-colonial', 'sod-circle', 'grade-rake', 'steppers-lawn', 'shade-lawn'] },
+  { id: 'commercial', title: 'Commercial **properties.**', intro: 'Entries, planters and foundation beds for businesses.', photos: ['commercial-palms', 'commercial-entry', 'condo-evergreens'] },
+];
+---
+
+<Base
+  title="Our Work: Real Landscaping Projects | HD Landscape"
+  description="Real photos of HD Landscape jobs across Metro Detroit: beds, stone, hedges, sod and commercial properties, plus before and after comparisons."
+  path={path}
+  preload={{ ...head.preload, media: '(min-width: 60rem)' }}
+  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Our work', path }])]}
+>
+  <PageHead image={head} eyebrow="Our work" title="Real jobs, **real phone photos.**" lede="Every picture on this page is one of our jobs. No stock photos and nothing staged." crumbs={[{ name: 'Our work', path }]} />
+
+  <section class="band ink" aria-labelledby="ba-h">
+    <div class="wrap">
+      <Head id="ba-h" eyebrow="Before and after" title="Drag the line **on any of these.**" />
+      <div class="ba-row">
+        <BeforeAfter pair="ba-corner" />
+        <BeforeAfter pair="ba-foundation" />
+        <BeforeAfter pair="ba-side" />
+      </div>
+    </div>
+  </section>
+
+  {
+    sets.map((s, i) => (
+      <section class:list={['band', i % 2 === 1 && 'white']} aria-labelledby={`set-${s.id}`}>
+        <div class="wrap">
+          <Head id={`set-${s.id}`} title={s.title} intro={s.intro} />
+          <ul class="set">
+            {s.photos.map((id) => (
+              <li>
+                <figure>
+                  <div class="frame"><Photo id={id} widths={[420, 640, 900]} sizes="(min-width: 60rem) 31vw, (min-width: 40rem) 46vw, 92vw" /></div>
+                  <figcaption class="note cap">{photo(id).caption}</figcaption>
+                </figure>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+    ))
+  }
+
+  <QuoteBand title="Want your yard on this page?" />
+</Base>
+
+<style>
+  .ba-row {
+    display: grid;
+    gap: 2rem;
+  }
+
+  @media (min-width: 56rem) {
+    .ba-row {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.5rem;
+    }
+  }
+
+  .set {
+    columns: 2;
+    column-gap: 0.9rem;
+  }
+
+  .set li {
+    break-inside: avoid;
+    margin-bottom: 1.25rem;
+  }
+
+  @media (min-width: 60rem) {
+    .set {
+      columns: 3;
+    }
+  }
+</style>

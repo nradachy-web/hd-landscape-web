@@ -1,0 +1,98 @@
+{
+  "service": "sod-installation",
+  "city": "macomb-township",
+  "meta": {
+    "title": "Sod Installation in Macomb Township, MI | HD Landscape",
+    "description": "New sod for Macomb Township lawns on sand or silty clay: old grass out, ground graded, fresh sod down, timed around the odd/even rule. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Sod installation in Macomb Township, MI",
+    "title": "A real lawn on **builder's grade.**",
+    "lede": "Plenty of Macomb Township lawns went in fast behind a new house, and after a few years they show it. HD Landscape strips the thin turf, fixes the grade, lays fresh sod in tight seams and works out the watering around the township's odd/even rule.",
+    "chips": [
+      "Sod for sand or clay",
+      "Grade fixed before sod",
+      "Watering plan from Jake"
+    ],
+    "photo": "sod-backyard"
+  },
+  "local": {
+    "eyebrow": "Sod in Macomb Township",
+    "title": "Why Macomb Township lawns fail, and **what fixes them.**",
+    "intro": "Most lawns here are young, and they usually fail from the ground up. The yard was shaped by machines, the soil changes from lot to lot and the township limits when you can water. A sod job only lasts if it deals with all three.",
+    "points": [
+      {
+        "title": "Two soils in one township",
+        "body": "USDA soil maps put about half the township in sand or sandy loam at the surface, and most of the rest in silty clay loam, loam or clay. Sand holds little water, so new sod there needs close attention early. Clay holds water, so a low spot can stay soggy."
+      },
+      {
+        "title": "Sand that still stays wet",
+        "body": "Selfridge loamy sand, the second most common soil on the USDA map here, is sand with clay loam about two and a half feet down. USDA rates it somewhat poorly drained, like most of the township, so a yard that feels sandy can still hold water in spring. Look at where water stands in April, not only at the top inch."
+      },
+      {
+        "title": "Ground that machines shaped",
+        "body": "A lawn from the last 20 years often sits on ground graded by machine and packed down during the build. On land this flat, small errors leave puddles. We correct the low spots, keep any swale working and then lay sod."
+      },
+      {
+        "title": "The watering rule decides the date",
+        "body": "The township's mandatory odd/even rule runs May 15 through October 15. New sod usually wants water every day until it roots. So the date you lay it matters here, most of all on sandy ground in summer."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "The sod date starts with the watering calendar.",
+    "body": [
+      "If your soil is sandy or the job falls in summer, Jake will talk through laying sod before May 15, after October 15 or inside the odd/even window with a plan that fits your watering days. Ask the township water department about any exception for new sod before we book it.",
+      "On the day, the pallets usually sit on the driveway. Township yard waste pickup does not take sod or dirt, so how the old turf gets off the lot goes on your estimate. If you have a sprinkler system, the heads and lines need marking before the old lawn comes up. Many lawns are done in a day, depending on the grade."
+    ],
+    "facts": [
+      {
+        "label": "How long",
+        "value": "Often one day"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "Odd/even rule",
+        "value": "May 15 to October 15"
+      },
+      {
+        "label": "Not included",
+        "value": "Sprinkler installation"
+      }
+    ]
+  },
+  "photo": "grade-rake",
+  "faq": [
+    {
+      "q": "Do you install sod in Macomb Township?",
+      "a": "Yes. HD Landscape installs sod in Macomb Township, on sandy ground and on silty clay. The old turf comes off, the grade gets fixed and the new lawn goes down, with the date set around the township's odd/even watering rule."
+    },
+    {
+      "q": "Can I water new sod every day in Macomb Township?",
+      "a": "Not automatically. From May 15 through October 15 the township's mandatory odd/even rule sets lawn watering days by address, and new sod usually wants water daily at first. Ask the township whether new sod has any exception before the job is booked. Outside those dates the odd/even rule does not apply."
+    },
+    {
+      "q": "When should I lay sod in Macomb Township?",
+      "a": "Spring before May 15 and the cooler weeks of fall are the easiest times, because new sod needs less water in cool weather. Summer works too, but it takes more water, and that is harder under the odd/even rule, especially on sand. Sod can go in whenever the ground is workable."
+    },
+    {
+      "q": "Can you lay sod on a new construction lot?",
+      "a": "Yes, once the house is done and the grade is ready. Macomb Township is still adding homes, so plenty of lawns start this way. Check with your builder first about the final grade, because changes can affect how the lot drains toward its neighbors. Then we clean up the surface, fix what needs fixing and lay the sod."
+    },
+    {
+      "q": "Why did the lawn on my newer home go thin?",
+      "a": "Usually because of what is under it. Ground packed during the build, thin soil and low spots all catch up with a lawn in time. Laying new sod on top would only repeat the problem, so we take the old turf off and [fix the ground](/yard-grading/) first."
+    },
+    {
+      "q": "Will new sod take on sandy soil?",
+      "a": "Yes, but it needs closer attention early on, because sandy soil drains fast and holds less water than clay. Jake will give you a plain schedule for your soil, and we can [do the watering](/plant-watering/) for you within the township's rule."
+    }
+  ],
+  "reviews": [
+    "rob-e",
+    "meagan-m"
+  ]
+}

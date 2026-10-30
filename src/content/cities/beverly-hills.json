@@ -1,0 +1,52 @@
+{
+  "city": "beverly-hills",
+  "meta": {
+    "title": "Landscaping in Beverly Hills, MI | HD Landscape",
+    "description": "Landscape design, hedges, cleanups and planting in Beverly Hills, MI, from grid lots east of Southfield Road to the Rouge River. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Beverly Hills, MI",
+    "title": "From grid lots **to the river's edge.**",
+    "lede": "Beverly Hills, MI is not one kind of yard. Lots run from about 6,000 square feet east of Southfield Road to several acres along the Rouge River, and HD Landscape plans the work around the one you own.",
+    "chips": ["Small lots and river lots", "Hedges and bed lines", "Itemized estimates"],
+    "photo": "shade-lawn"
+  },
+  "about": {
+    "eyebrow": "Yards in Beverly Hills",
+    "title": "Beverly Hills lots get bigger the farther west you go.",
+    "body": [
+      "Nearly every yard job in Beverly Hills is a redo. With the village close to built out, you are usually starting from beds, shrubs and trees that have been growing for decades, around a house that may have grown too. The first question is what stays.",
+      "What changes is the lot. East of Southfield Road the streets run in a grid and lots are usually 6,000 to 12,000 square feet. West of it the streets start to curve and lots run about 12,000 to 16,000. West of Waltham, along Evergreen and past Lahser they reach 16,000 to 25,000, with cul de sacs mixed in. The largest lie between Evergreen and Lahser, from 25,000 square feet to several acres, with the Rouge River running through the middle. A bed that fills a 60 foot lot would disappear on two acres, so scale comes before plants."
+    ],
+    "points": [
+      { "title": "Grid lots hide nothing", "body": "East of Southfield Road many lots are only 55 to 80 feet wide, so every bed line and hedge shows from the street. We keep plantings in scale and [hedges](/hedge-trimming/) tight." },
+      { "title": "River lots need different upkeep", "body": "The village's lawn care sheet for river owners says to keep leaves and clippings off the bank, keep weed and pest products away from it and leave a buffer of dense planting 25 feet or wider. A [cleanup](/spring-and-fall-cleanups/) near the water should follow the same sheet, and some of that ground is better planted than mowed." },
+      { "title": "Beds that lost their shade", "body": "By the 2016 master plan, emerald ash borer had cost the village about 300 ash trees in its parks alone. If an ash came down in your yard, the bed under it now gets a very different day. We look at the light you have today and [replant](/plant-installation/) for that." },
+      { "title": "Buckthorn does not leave quietly", "body": "Buckthorn likes moist ground, fence rows and open woods. A 2017 survey found it made up most of the plant material in the woods at Beverly Park, and clearing it took two big projects with follow up still expected. We can [pull it out](/plant-removal/) of a yard, and we will be honest that it tries to come back." }
+    ],
+    "photo": "hedge-walk"
+  },
+  "logistics": {
+    "title": "Narrow Beverly Hills lots get a delivery plan. Big ones get a longer walk.",
+    "body": [
+      "On a narrow lot the first practical question is how materials reach the backyard. On a big western parcel the walk simply takes longer. Either way, Jake looks at where the sun lands, where the ground stays wet and which plants have earned another decade, then writes an itemized estimate to read line by line.",
+      "How the debris leaves goes on your estimate. For what you trim yourself, the village collects yard waste from April into December, and curbside chipping takes branches 2 to 6 inches thick during set weeks from April through November. Check the village calendar for this year's dates."
+    ],
+    "facts": [
+      { "label": "Curbside chipping", "value": "Branches 2 to 6 inches, set weeks" },
+      { "label": "Along the Rouge", "value": "Keep a planted buffer, 25 feet or wider" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you landscape in Beverly Hills, Michigan?", "a": "Yes. HD Landscape works in Beverly Hills, MI, the Oakland County village next to Birmingham and Southfield, with [landscape design](/landscape-design-beverly-hills-mi/), renovation, planting, hedge trimming, monthly maintenance, cleanups and small tree work. We stay out of sprinklers and lawn aeration." },
+    { "q": "Can you fix a yard that stays wet near the Rouge River?", "a": "Often, and the answer changes with your distance from the water. On higher ground, [yard grading](/yard-grading/) can move water away from the house. Right beside the river, the better answer is usually a deep planted strip, and flood hazard areas can limit what may be changed, so talk to the village before any soil moves." },
+    { "q": "What happens to the branches after hedge or tree work in Beverly Hills?", "a": "When we do the work, how the branches leave goes on your estimate. If you are trimming yourself, the village chips branches 2 to 6 inches thick at the curb during set weeks, and smaller trimmings go out with yard waste. Anything over 6 inches is a private disposal job." },
+    { "q": "What should I plant where a big ash tree came down?", "a": "Start with the light. Ash borer took about 300 trees from the parks here alone, and a spot in your yard that used to be cool may now bake all afternoon. We look at what that corner gets today, then choose plants or a new tree to suit it. If the old stump is still there, [stump grinding](/stump-grinding/) clears the way first." },
+    { "q": "Do you remove big trees in Beverly Hills?", "a": "We handle [pruning and smaller trees](/tree-trimming-and-removal/) ourselves. A big removal is work for a tree company. The village's tree permit form asks for more on some removals near a watercourse, so call Village Hall before the saw comes out near the river." },
+    { "q": "How much does landscaping cost in Beverly Hills?", "a": "A 60 foot grid lot and a two acre river parcel are very different jobs, so the price comes after Jake has seen yours. There is no charge for the itemized estimate and no pressure to decide on the spot." }
+  ],
+  "reviews": ["anne-j", "nancy-g", "amanda-h"],
+  "neighbors": ["birmingham", "franklin", "bloomfield-township", "royal-oak"]
+}

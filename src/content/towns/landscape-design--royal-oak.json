@@ -1,0 +1,100 @@
+{
+  "service": "landscape-design",
+  "city": "royal-oak",
+  "meta": {
+    "title": "Landscape Design in Royal Oak, MI | HD Landscape",
+    "description": "Landscape design for Royal Oak, MI homes, drawn around your soil, street trees, driveway sight lines and small lots. Built by our crew. Free estimates."
+  },
+  "hero": {
+    "kicker": "Landscape design in Royal Oak, MI",
+    "title": "A plan for a yard **where every foot shows.**",
+    "lede": "A Royal Oak front yard is often short and shaded, and people walk right past it. Jake, who runs HD Landscape, works out what your soil and light will support and lays out beds that suit the house. Then our own crew builds it.",
+    "chips": [
+      "Soil and light first",
+      "Planned around the street tree",
+      "Built by our crew"
+    ],
+    "photo": "weeping-border"
+  },
+  "local": {
+    "eyebrow": "Design in Royal Oak",
+    "title": "Soil, shade and sight lines settle a Royal Oak plan before the plants do.",
+    "intro": "Small lots set the terms here. The house sits close to the walk, a city tree may shade the front, and the ground can be sandy on one street and heavy a mile or so west. Those get settled first. The plants come after.",
+    "points": [
+      {
+        "title": "Plants that fit the ground",
+        "body": "USDA data gives the sandy Thetford soil on much of the east side about half the water holding capacity of the Blount and Lenawee soils to the west. A shrub that coasts through August on heavy ground may need real help on sand, so the plant list follows the soil."
+      },
+      {
+        "title": "A low corner at the driveway",
+        "body": "Zoning keeps a ten foot triangle of clear view where a driveway meets a street or alley, and landscaping inside it generally stays under 30 inches. That patch is small, but it is right where a shrub tends to get planted, so it should be drawn low from the start."
+      },
+      {
+        "title": "Shade that is on its way",
+        "body": "The city planted 800 trees in 2022 and 500 more in spring 2023, and it is aiming for 40 percent canopy. If a young street tree went in out front, that sunny bed will not stay sunny. A dogwood and a tulip tree cast very different shade, so we plan for the one you got."
+      },
+      {
+        "title": "A place for the roof water",
+        "body": "The city slows rain into its sewers on purpose, and streets pond in a heavy storm, so water leaving your yard may have nowhere to go for a while. A plan should say where it goes. A rain garden is one answer, and the city has built its own on Vinsetta Boulevard and East Fourth Street."
+      },
+      {
+        "title": "Lines that suit the house",
+        "body": "Around Vinsetta Park alone you can find Tudor, Colonial, Cape Cod and ranch homes. A Tudor wants depth and evergreen structure at the entry, while a low ranch wants long, simple lines. We draw for the house you own."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "On a Royal Oak lot, the plan includes how the materials get in.",
+    "body": [
+      "It starts with a walk of the property. Jake looks at the sun, the soil, the downspouts and the street tree, listens to how you use the yard, and tells you which of the old plants he would leave in place. The estimate then lists each part of the plan on its own line, and you can go through it with him before deciding.",
+      "Materials usually reach the back yard in small loads. The city requires a permit for a dumpster or other container in the street or right of way, so the job is better off on the driveway when the lot allows it. Our crew builds what was drawn.",
+      "When the crew is done, Jake calls to go over watering. That call matters more on sandy ground, where new plants dry out fast. Sprinklers are not something we install, but [plant watering](/plant-watering/) is available while the roots settle in."
+    ],
+    "facts": [
+      {
+        "label": "First step",
+        "value": "A walk of the property with Jake"
+      },
+      {
+        "label": "Soil",
+        "value": "Sandy or heavy, depending on your side of town"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "Not included",
+        "value": "Sprinkler installation"
+      }
+    ]
+  },
+  "photo": "hosta-bed",
+  "faq": [
+    {
+      "q": "Do you do landscape design in Royal Oak?",
+      "a": "Yes. HD Landscape designs and builds yards in Royal Oak, from one front bed to a whole property. Jake walks the lot with you, and our crew builds the plan. Call or text [(586) 718-8762](tel:+15867188762) to set up a free estimate."
+    },
+    {
+      "q": "How tall can plants be next to my driveway in Royal Oak?",
+      "a": "The zoning code asks for a ten foot triangle of clear view where a driveway meets a street or alley. Landscaping under 30 inches may be allowed inside it, along with deciduous trees whose branches are all at least 12 feet above the street. Codes change, so ask the city about your lot before you plant that corner."
+    },
+    {
+      "q": "How do you design for sandy soil?",
+      "a": "We plan for fast drainage and less stored water. Much of the east side of Royal Oak sits on loamy sand, which dries out far sooner than the heavier ground near Woodward, so the plan leans toward plants that handle dry spells, mulch that holds moisture and a watering plan for the first season. Sandy does not always mean dry, though. USDA describes a water table 1 to 2 feet down on this soil from about February to May, so the actual spot matters more than the map."
+    },
+    {
+      "q": "Do historic district rules affect landscaping in Royal Oak?",
+      "a": "Only for a small number of homes, and it is worth asking first. Most of the city’s historic districts are single buildings. The L.A. Young district covers 11 homes on North Altadena Avenue, and exterior changes to a designated property go through the Building Department and the Historic District Commission. The city’s FAQ does not spell out landscaping, so call before work starts on one of those homes. The Vinsetta Bridges district covers the bridges and open space on the boulevard, not the homes around it."
+    },
+    {
+      "q": "Can a rain garden work on a small lot?",
+      "a": "It can, if the yard has the right low spot. A rain garden is a planted area that soaks up runoff from a roof, drive or lawn, and the city of Royal Oak says anyone can install one. It also links plant lists and a do it yourself guidebook on its website. Where a yard has no good spot, [yard grading](/yard-grading/) may be the better way to move the water."
+    }
+  ],
+  "reviews": [
+    "billy-w",
+    "mark-r",
+    "gina-d"
+  ]
+}

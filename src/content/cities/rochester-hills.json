@@ -1,0 +1,103 @@
+{
+  "city": "rochester-hills",
+  "meta": {
+    "title": "Landscaping in Rochester Hills, MI | HD Landscape",
+    "description": "Landscaping for Rochester Hills, MI yards that slope, back up to woods or feed the deer. Design, sod, walls, hedges and care. 5.0 on Google, free estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Rochester Hills, MI",
+    "title": "Read the ground. **Then build the yard.**",
+    "lede": "Rochester Hills came by its name honestly, and HD Landscape plans around it. Slopes, woodlots and creek corridors run right through the neighborhoods, so no two lots sit the same way, and the work runs from the first plan to the monthly upkeep.",
+    "chips": [
+      "Design through installation",
+      "Planned for slopes and deer",
+      "Itemized estimates"
+    ],
+    "photo": "dusk-maple"
+  },
+  "about": {
+    "eyebrow": "Yards in Rochester Hills",
+    "title": "A town that kept its hills, woods and water.",
+    "body": [
+      "The ground here moves. Elevation runs from about 690 feet in the southeast to about 1,030 feet in the northwest, and the city says it has significant topographic changes throughout the community. For a yard, that means two lots on one street can behave very differently: one sheds every storm, and the next one collects it.",
+      "Rochester Hills also held on to a lot of natural land. The city's 2024 inventory counts about 3,300 acres of woodland and about 1,900 acres of wetland, with the Clinton River, Paint Creek and Stony Creek running through town. Some subdivisions sit right up against that land, so the first question on many lots is where the yard actually ends. Find that line before the first bed gets drawn and the plan will not need redrawing."
+    ],
+    "points": [
+      {
+        "title": "Low ground along the creeks",
+        "body": "Floodplains mostly follow the Clinton River, Galloway Creek, Sargent Creek and Paint Creek, and USDA soil maps show wet, mucky ground in the low spots. Plants and grades that suit a high lot will sulk down there, so the plan has to start from how wet your ground stays."
+      },
+      {
+        "title": "Deer, and plenty of them",
+        "body": "The city calls deer increasingly common and keeps its own deer-resistant plant list, which makes a good starting point for a planting plan. It also bans feeding deer on or within five feet of the ground, which is one less reason for them to linger in your yard."
+      },
+      {
+        "title": "Neighborhood associations",
+        "body": "Many subdivisions have one, and the association, not the city, enforces its rules. Read yours early, because a bed, wall or tree the city has no problem with may still need the board's sign-off."
+      },
+      {
+        "title": "Tall reeds at the pond edge",
+        "body": "Phragmites, the tall reed that crowds pond edges, is not a landscaping job. The city runs a treatment program for residents and associations, with estimate requests due by August 1, so start there before planting around it."
+      }
+    ],
+    "photo": "island-bed"
+  },
+  "logistics": {
+    "title": "Piles stay off the street, and the plan comes first.",
+    "body": [
+      "Rochester Hills does not let contractors stage topsoil, mulch, stone or gravel on its streets, and the homeowner is the one who gets the notice: two hours, then city crews remove it at the owner's expense. So deliveries go on the drive or in the yard, and the walks and road get left clean.",
+      "Before any of that comes a walk of the lot with Jake, back line and low spots included. You get his advice on what to do now and what can wait, then an itemized estimate to go over line by line."
+    ],
+    "facts": [
+      {
+        "label": "Deliveries",
+        "value": "On the drive or in the yard, not the street"
+      },
+      {
+        "label": "Check first",
+        "value": "City parcel map and association rules"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "To talk now",
+        "value": "Call or text Jake"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do you work in Rochester Hills, MI?",
+      "a": "Yes. Rochester Hills is one of the towns HD Landscape works in most, with landscape design, [renovations](/landscape-renovation-rochester-hills-mi/), [sod](/sod-installation-rochester-hills-mi/), [retaining walls](/retaining-walls-rochester-hills-mi/), [hedge trimming](/hedge-trimming-rochester-hills-mi/), [tree work](/tree-trimming-rochester-hills-mi/), [cleanups](/yard-cleanup-rochester-hills-mi/) and [pressure washing](/pressure-washing-rochester-hills-mi/). Sprinklers and lawn aeration are not on our list, and a tree company takes the big removals. Call or text [(586) 718-8762](tel:+15867188762) for a free estimate."
+    },
+    {
+      "q": "How do I find out if my lot has a natural feature on it?",
+      "a": "Rochester Hills has an online natural features map. Click your parcel and it tells you whether the parcel is part of a natural feature area and which ordinances may apply. The city notes that each mapped feature still needs a professional site specific investigation, so treat the map as the first step, not the last word."
+    },
+    {
+      "q": "Can you landscape a sloped yard?",
+      "a": "Yes. Slopes are normal in Rochester Hills. Low [block walls](/retaining-walls-rochester-hills-mi/) can hold a grade and make flat planting space, and [sod](/sod-installation-rochester-hills-mi/) covers a bank the day it goes down. The steeper the ground, the more the city may have to say, so bring it up on the first walk."
+    },
+    {
+      "q": "Does my HOA have to approve landscaping?",
+      "a": "That depends on your association. The city of Rochester Hills leaves association rules to the association, so read yours or ask the board before work starts. Jake's itemized estimate spells out the work, which makes a request easy to put in front of them."
+    },
+    {
+      "q": "What plants do deer leave alone?",
+      "a": "The Rochester Hills list, adapted from an MSU Extension bulletin, rates plants such as lavender, Russian sage, yarrow, purple coneflower and daffodils as rarely damaged. The city's deer brochure adds that very few plants are completely deer resistant, so expect to use a mix and keep an eye on new growth. Repellents help, but they have to be repeated, especially after rain."
+    }
+  ],
+  "reviews": [
+    "amanda-h",
+    "billy-w",
+    "gina-d"
+  ],
+  "neighbors": [
+    "rochester",
+    "troy",
+    "oakland-township",
+    "shelby-township"
+  ]
+}

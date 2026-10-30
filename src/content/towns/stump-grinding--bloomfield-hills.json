@@ -1,0 +1,49 @@
+{
+  "service": "stump-grinding",
+  "city": "bloomfield-hills",
+  "meta": {
+    "title": "Stump Grinding in Bloomfield Hills, MI | HD Landscape",
+    "description": "Stumps ground below grade in Bloomfield Hills, from old ash to storm damaged oak, so the ground can be used again. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Stump grinding in Bloomfield Hills, MI",
+    "title": "Ask what killed the tree, **then grind.**",
+    "lede": "A dead ash, a storm damaged oak, a stump the last owner left behind. HD Landscape grinds them below grade, and in Bloomfield Hills it pays to find out what is under and around a stump first, so the ground can take sod, a bed or a new tree.",
+    "chips": ["Ground below grade", "Old ash and oak stumps", "Ready for sod or a bed"],
+    "photo": "ai-stump"
+  },
+  "local": {
+    "eyebrow": "Stumps in Bloomfield Hills",
+    "title": "On a wooded Bloomfield Hills lot, find out what is underground before the grinder starts.",
+    "intro": "On an open lawn a stump is a quick job. On a wooded lot the roots run under walks and beds, private lines cross the yard, and why the tree died can matter as much as the stump itself.",
+    "points": [
+      { "title": "Private lines do not get marked", "body": "Michigan requires a MISS DIG 811 notice at least three business days before digging, but private lines do not get marked. That includes sprinkler lines, dog fence wire and lines to a pool or detached garage, so tell us where yours run." },
+      { "title": "Ash stumps left by the borer", "body": "Emerald ash borer killed ash across southeast Michigan, and the city's ordinance lists ash among its removable trees. If one of those stumps still sits at the edge of the lawn or back in the tree line, it can go." },
+      { "title": "Oak stumps need a question first", "body": "Oak wilt moves through root systems from one oak to the next, and cutting the tree does not stop it. If an oak dropped its leaves fast in summer, have it checked before work starts. The city's ordinance expects an arborist to confirm a disease like oak wilt before a tree comes out as diseased." },
+      { "title": "Chips make a poor base for grass", "body": "Grinding leaves a mound of chips, and University of Illinois Extension says wood mixed into soil can tie up nitrogen as it breaks down. For a lawn or a new bed, the chips should come out and good soil should go in. How they leave goes on your estimate." },
+      { "title": "If the tree is still standing", "body": "Talk to the city first. Bloomfield Hills wants tree removals reviewed by its building department before work starts. We take down smaller trees. The big ones need a tree company, and we can grind what they leave." }
+    ]
+  },
+  "logistics": {
+    "title": "Stump work in Bloomfield Hills needs some lead time, because buried lines get marked before digging.",
+    "body": [
+      "Text a photo and tell us how many stumps, how wide they are and what stands between the drive and the stump, such as a gate, a slope or a bed. That is usually enough for a first answer, and Jake will look in person if it is tricky.",
+      "Utility marking takes at least three business days, so plan on a little lead time. On the day, expect the stump ground below grade, the area raked and the spot left ready for what comes next, whether that is [sod](/sod-installation/), a [new planting](/plant-installation/) or fresh [mulch](/mulching/)."
+    ],
+    "facts": [
+      { "label": "Notice needed", "value": "3 business days for MISS DIG" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Standing tree", "value": "City review before removal" },
+      { "label": "Tell us about", "value": "Private lines and gates" }
+    ]
+  },
+  "photo": "black-stone-kidney",
+  "faq": [
+    { "q": "Do you do stump grinding in Bloomfield Hills?", "a": "Yes. HD Landscape grinds stumps in Bloomfield Hills, MI, from one old ash in the lawn to several along a tree line. We grind below grade, and how far below comes down to what is going there next, so tell us the plan and we will grind to suit it." },
+    { "q": "Does Bloomfield Hills require a permit to grind a stump?", "a": "The city's tree rules are about removing trees, so start there if the tree is still standing: the building department wants to review every removal before work begins. If the tree is long gone and you are unsure, a quick call to the city settles it. Live in [Bloomfield Township](/service-areas/bloomfield-township/)? Different rules apply there." },
+    { "q": "Can I plant a new tree where the stump was?", "a": "Yes, with some care. University of Illinois Extension says wood left in the soil can make it hard to grow a lawn or another plant in that spot, and it recommends hauling off the chips and filling the hole with quality topsoil. You can also shift the new tree away from the old stump. If the city ever requires a replacement tree, its ordinance encourages deciduous canopy trees and does not accept arborvitae or other small conifers." },
+    { "q": "What if my oak died from oak wilt?", "a": "Have it looked at first, because oak wilt can move through connected roots to nearby oaks. A Michigan State University Extension forester writes that simply cutting dead oaks will not stop it, and that treatment means severing the roots around the infection, set up by professionals who know the disease. That is a call for a specialist before it is a job for us. The state also takes reports of suspected cases." },
+    { "q": "Can you grind a stump near a stream or wetland?", "a": "Ask the city first. Bloomfield Hills sets a natural features setback of 25 feet from the edge of a wetland or the high water mark of a watercourse unless it decides otherwise, and wetlands turn up throughout the city. Text us a photo of where the stump sits, and we can talk through whether that call needs to happen before we schedule." }
+  ],
+  "reviews": ["anne-j", "rob-e"]
+}

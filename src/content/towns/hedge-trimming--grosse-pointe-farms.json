@@ -1,0 +1,48 @@
+{
+  "service": "hedge-trimming",
+  "city": "grosse-pointe-farms",
+  "meta": {
+    "title": "Hedge Trimming in Grosse Pointe Farms, MI | HD Landscape",
+    "description": "Hedge trimming for Grosse Pointe Farms, MI: sharp lines, clear driveway sight lines and hedges kept healthy on sand or clay. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Hedge trimming in Grosse Pointe Farms, MI",
+    "title": "Sharp lines. **Clear driveways.**",
+    "lede": "A hedge in Grosse Pointe Farms has a job to do and rules to follow. HD Landscape keeps lines sharp and sight lines open at the drive, and looks after hedges on the sandy rises as closely as those on heavy clay.",
+    "chips": ["Clear at the driveway", "Sand or clay", "One line, end to end"],
+    "photo": "hedge-long"
+  },
+  "local": {
+    "eyebrow": "Hedges in the Farms",
+    "title": "What a Farms hedge has to do, and **what it has to avoid.**",
+    "intro": "Grosse Pointe Farms names hedges in its code, at corners, at driveways and in front of chain link. The ground varies too, from fast draining sand to wet clay, and that changes how a hedge holds up through a dry spell.",
+    "points": [
+      { "title": "Sight triangles at the drive", "body": "The zoning code keeps a clear triangle where a driveway meets the street, and bars plantings from 2 to 8 feet above grade inside it. The city can give you the exact measure for your lot. A hedge there gets trimmed to keep that view open." },
+      { "title": "Hedges hiding chain link", "body": "Chain link in front of the building line needs a screen of hedges, shrubs or other landscaping, and that screen has to follow the same setback and visibility rules. So a gap in that hedge is more than a looks problem." },
+      { "title": "Sandy ground in a dry fall", "body": "Much of the middle of town is mapped as sandy soil. MSU Extension says a dry autumn can leave plants short of stored moisture going into winter, so hedges on sand may need water when rain falls short of an inch a week." },
+      { "title": "Hedges with history", "body": "In a historic district, a planting that counts as historic can need a certificate before it changes. Ordinary maintenance is treated differently, and the city suggests checking that your work qualifies. Before pulling or replacing an old hedge in one, ask the city." }
+    ]
+  },
+  "logistics": {
+    "title": "We walk the hedge first, then cut **one line from end to end.**",
+    "body": [
+      "Jake walks the hedge with you and points out anything at the driveway or the corner that needs to come down. Then the crew sets the line and works it from end to end, by hand and eye.",
+      "Under the city's brush rules, landscape contractors haul their own debris, so every clipping goes with the crew. If the hedge sits on the boulevard between the walk and the curb, that strip is city controlled, and what is allowed gets sorted out before a cut is made.",
+      "The same hedge work reaches all five Pointes: the [Shores](/service-areas/grosse-pointe-shores/), the [City](/service-areas/grosse-pointe/), the [Park](/service-areas/grosse-pointe-park/), the [Woods](/service-areas/grosse-pointe-woods/) and the [Farms](/service-areas/grosse-pointe-farms/)."
+    ],
+    "facts": [
+      { "label": "Watch for", "value": "Driveway and corner sight lines" },
+      { "label": "On the boulevard", "value": "City controlled. Ask first." },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "tall-hedge",
+  "faq": [
+    { "q": "Do you do hedge trimming in Grosse Pointe Farms?", "a": "Yes. HD Landscape trims hedges in Grosse Pointe Farms, one of the places we work most, on the sandy rises and the heavy clay alike. The lines stay sharp, and the sight lines at corners and driveways stay open." },
+    { "q": "How tall can a hedge be at my driveway in Grosse Pointe Farms?", "a": "Inside the driveway sight triangle, the zoning code bars plantings from 2 feet to 8 feet above grade. For an interior lot, that triangle runs 7 feet along the drive and the property line. Corners use a larger one. Confirm with the city before you plant." },
+    { "q": "Does the city pick up hedge clippings in Grosse Pointe Farms?", "a": "From homeowners, yes, in paper bags or a stickered 32 gallon container on rubbish day, with brush tied in 4 foot bundles. Not from a hired crew. Landscape contractors must remove their own debris, so when we trim, the clippings go with us." },
+    { "q": "Do you trim long lakefront hedges?", "a": "Yes. The zoning code sets homes along Lake Shore Drive at least 75 feet back from the right of way, so a hedge there can be a long run where one crooked section stands out. Jake will look at it and say what it needs." },
+    { "q": "My hedge browned out over the winter. Is it dead?", "a": "Not always. Winter damage can look worse than it is, and it is often mistaken for disease on boxwood. On the sandy ground through the middle of town, a dry fall can be part of the cause. Wait for spring growth before deciding, or send a picture to [(586) 718-8762](sms:+15867188762) and Jake will say what he sees." }
+  ],
+  "reviews": ["anne-j", "marie-b"]
+}

@@ -1,0 +1,48 @@
+---
+/* The before and after slider script, once per page. */
+---
+
+<script is:inline>
+  (function () {
+    document.querySelectorAll('.ba__range:not([data-on])').forEach(function (r) {
+      r.setAttribute('data-on', '');
+      var stage = r.parentElement;
+      function show() {
+        stage.style.setProperty('--pos', r.value + '%');
+        r.setAttribute('aria-valuetext', r.value + '% before, ' + (100 - r.value) + '% after');
+      }
+      r.addEventListener('input', show);
+
+      // Touch: the divider moves only on a sideways drag. A finger that lands on
+      // the photo while scrolling the page no longer throws the divider under it.
+      var sx, sy, dragging;
+      stage.addEventListener('pointerdown', function (e) {
+        if (e.pointerType !== 'touch') return;
+        sx = e.clientX;
+        sy = e.clientY;
+        dragging = false;
+      });
+      stage.addEventListener('pointermove', function (e) {
+        if (e.pointerType !== 'touch' || sx === undefined) return;
+        var dx = e.clientX - sx;
+        var dy = e.clientY - sy;
+        if (!dragging && Math.abs(dx) > 6 && Math.abs(dx) > Math.abs(dy)) dragging = true;
+        if (!dragging) return;
+        place(e);
+      });
+      function place(e) {
+        var box = stage.getBoundingClientRect();
+        r.value = Math.max(0, Math.min(100, Math.round(((e.clientX - box.left) / box.width) * 100)));
+        show();
+      }
+      // A tap moves the line too. A scroll ends in pointercancel, so it never lands here.
+      stage.addEventListener('pointerup', function (e) {
+        if (e.pointerType === 'touch' && sx !== undefined && !dragging) place(e);
+        sx = undefined;
+      });
+      stage.addEventListener('pointercancel', function () {
+        sx = undefined;
+      });
+    });
+  })();
+</script>

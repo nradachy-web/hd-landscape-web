@@ -1,0 +1,204 @@
+---
+import Stars from './Stars.astro';
+import { BRAND, LINKS, RATING } from '../data/site';
+import { GROUPS, inGroup } from '../data/services';
+import { AREAS, inArea, hubPath } from '../data/cities';
+import { href } from '../lib/paths';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="ftr ink">
+  <div class="wrap ftr__top">
+    <div class="ftr__brand">
+      <img src={href('/logo-white.svg')} width="206" height="67" alt={`${BRAND.name} logo`} loading="lazy" decoding="async" />
+      <p class="muted small">Landscape design, sod, hedges and care for homes and businesses across {BRAND.region}. Based in {BRAND.city}.</p>
+      <a class="rating small" href={LINKS.google} target="_blank" rel="noopener">
+        <Stars />
+        <span>{RATING.value} on Google, {RATING.countLabel} reviews</span>
+      </a>
+      <ul class="ftr__contact">
+        <li><a href={BRAND.phoneHref} data-loc="footer">{BRAND.phone}</a></li>
+        <li><a href={`mailto:${BRAND.email}`}>{BRAND.email}</a></li>
+        <li class="ftr__social">
+          <a href={LINKS.facebook} target="_blank" rel="noopener">Facebook</a>
+          <a href={LINKS.tiktok} target="_blank" rel="noopener">TikTok</a>
+        </li>
+      </ul>
+    </div>
+
+    <nav class="ftr__services" aria-label="Services">
+      {
+        GROUPS.map((g) => (
+          <div>
+            <h2 class="ftr__h">{g.name}</h2>
+            <ul class="ftr__list">
+              {inGroup(g.id).map((s) => <li><a href={href(s.path)}>{s.name}</a></li>)}
+            </ul>
+          </div>
+        ))
+      }
+    </nav>
+  </div>
+
+  <nav class="wrap ftr__areas" aria-label="Service areas">
+    {
+      AREAS.map((a) => (
+        <div>
+          <h2 class="ftr__h">{a}</h2>
+          <ul class="ftr__inline">
+            {inArea(a).map((c) => <li><a href={href(hubPath(c))}>{c.name}</a></li>)}
+          </ul>
+        </div>
+      ))
+    }
+  </nav>
+
+  <div class="wrap ftr__base fine">
+    <p class="muted">&copy; {year} {BRAND.legalName}</p>
+    <ul class="ftr__legal muted">
+      <li><a href={href('/gallery/')}>Our work</a></li>
+      <li><a href={href('/about-us/')}>About</a></li>
+      <li><a href={href('/journal/')}>Yard notes</a></li>
+      <li><a href={href('/contact-us/')}>Contact</a></li>
+      <li><a href={href('/privacy-policy/')}>Privacy</a></li>
+    </ul>
+    <p class="muted"><a href="https://modernapexstrategies.com">Website &amp; marketing by Modern Apex Strategies</a></p>
+  </div>
+</footer>
+
+<style>
+  .ftr {
+    padding-block: clamp(3.5rem, 7vw, 5.5rem) 2rem;
+    border-top: 1px solid var(--line-ink);
+  }
+
+  .ftr__top {
+    display: grid;
+    gap: 2.75rem;
+  }
+
+  .ftr__brand {
+    display: grid;
+    gap: 1rem;
+    align-content: start;
+    max-width: 24rem;
+  }
+
+  .ftr__contact {
+    display: grid;
+    gap: 0.15rem;
+    font-weight: 540;
+  }
+
+  .ftr__contact a {
+    display: inline-block;
+    padding-block: 0.4rem;
+    text-decoration: none;
+  }
+
+  .ftr__contact a:hover,
+  .ftr__list a:hover,
+  .ftr__inline a:hover,
+  .ftr__legal a:hover {
+    color: var(--leaf);
+  }
+
+  .ftr__social {
+    display: flex;
+    gap: 1.25rem;
+  }
+
+  .ftr__services {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem 1.25rem;
+  }
+
+  @media (min-width: 48rem) {
+    .ftr__services {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+  }
+
+  .ftr__h {
+    margin-bottom: 0.65rem;
+    font-family: var(--font);
+    font-size: 0.78rem;
+    font-weight: 620;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--leaf-soft);
+  }
+
+  .ftr__list a {
+    display: inline-block;
+    padding-block: 0.45rem;
+    color: var(--on-ink-muted);
+    font-size: 0.9375rem;
+    text-decoration: none;
+  }
+
+  .ftr__areas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--line-ink);
+  }
+
+  .ftr__inline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 0.95rem;
+  }
+
+  .ftr__inline a {
+    display: inline-block;
+    padding-block: 0.5rem;
+    color: var(--on-ink-muted);
+    font-size: 0.9375rem;
+    text-decoration: none;
+  }
+
+  .ftr__base {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem 1.75rem;
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line-ink);
+  }
+
+  .ftr__legal {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.1rem;
+  }
+
+  .ftr__base a {
+    display: inline-block;
+    padding-block: 0.45rem;
+    text-decoration: none;
+  }
+
+  .ftr__base p a:hover {
+    color: var(--leaf);
+  }
+
+  @media (min-width: 62rem) {
+    .ftr__top {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 2fr);
+      gap: clamp(3rem, 6vw, 6rem);
+    }
+  }
+
+  @media (max-width: 47.99rem) {
+    .ftr {
+      padding-bottom: 6rem;
+    }
+  }
+</style>

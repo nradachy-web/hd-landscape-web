@@ -1,0 +1,46 @@
+{
+  "service": "landscape-design",
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Landscape Design in Grosse Pointe, MI | HD Landscape",
+    "description": "Landscape design for Grosse Pointe, MI homes, planned around the house, the old trees and the clay. Jake walks it, our crew builds it. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscape design in Grosse Pointe, MI",
+    "title": "A plan that **belongs to the house.**",
+    "lede": "More than half the homes in Grosse Pointe went up before 1939, and each style asks for something different. HD Landscape plans around the architecture, the light and the ground, and our own crew builds what we draw.",
+    "chips": ["Planned on your property", "Built by our crew", "Jake calls after"],
+    "photo": "stone-manor"
+  },
+  "local": {
+    "eyebrow": "Design in the City",
+    "title": "Design in Grosse Pointe starts with **the house and its street.**",
+    "intro": "Tudor, neo Georgian, Dutch Colonial and Arts and Crafts homes share these blocks, on lots from about 30 feet wide to more than 150. A plan has to suit all of that, and when it is done it should look like it was always there.",
+    "points": [
+      { "title": "House and garden as one plan", "body": "Architect Charles Platt, who designed a 1928 house on East Jefferson, was known for homes integrated with their gardens. That instinct still holds up. Bed lines and plants should follow the front door, the windows and the walk." },
+      { "title": "Light that has changed", "body": "The city lost its elms, then much of its ash, and it still reports gaps in the canopy. A corner that sat in shade for decades may bake all afternoon now. Read the light you have today before choosing a single plant." },
+      { "title": "Scale that fits the lot", "body": "On a 50 foot lot the front bed does most of the work, and every shrub gets read from the sidewalk. On an estate lot the job is long lines and the view from the drive. Same town, very different drawing." },
+      { "title": "Clay and flat ground", "body": "About half the city is mapped on poorly drained soil, with almost no fall to it. So the plan sorts out the water first. Sometimes a [low raised bed](/retaining-walls-grosse-pointe-mi/) is the answer, because it gives plants soil you can control." }
+    ]
+  },
+  "logistics": {
+    "title": "A Grosse Pointe design starts with a walk, **not a drawing.**",
+    "body": [
+      "The first visit is a walk of the yard with Jake: what you want, what you are tired of, where water sits after rain. The plan comes out of that walk, along with an itemized estimate you can go through line by line.",
+      "We design yards in all five Pointes: the [Park](/service-areas/grosse-pointe-park/), the [City](/service-areas/grosse-pointe/), the [Farms](/service-areas/grosse-pointe-farms/), the [Shores](/service-areas/grosse-pointe-shores/) and the [Woods](/service-areas/grosse-pointe-woods/)."
+    ],
+    "facts": [
+      { "label": "Starts with", "value": "A walk of your property" },
+      { "label": "Built by", "value": "Our own crew" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "maple-court",
+  "faq": [
+    { "q": "Do you do landscape design in Grosse Pointe?", "a": "Yes. HD Landscape designs yards for Grosse Pointe homes, most of them older, which is a big part of the appeal. The plan starts with the style of the house and how it meets the street, then the beds, plants, stone and edging follow from that." },
+    { "q": "Does a historic district affect a landscape plan in Grosse Pointe?", "a": "Ask the city whether any review applies. A city study committee looked at a possible local historic district in 2021, covering parts of Lakeland, University, Washington and Lincoln. If you live on one of those old estate streets, get that answer early, before a wall, a gate or a fence goes on the plan." },
+    { "q": "Which trees does the City of Grosse Pointe recommend?", "a": "The city's Urban Forestry Commission publishes a list. It includes eastern redbud, kousa dogwood, hophornbeam, river birch, bur oak, tuliptree and sugar maple, among others. We use it as a starting point, then match the tree to your light and soil." },
+    { "q": "Can a new design work around a big old tree?", "a": "Yes, and it should. MSU Extension says about 80 percent of a tree's roots sit in the top 18 to 24 inches of soil, so those roots should never get buried. If the tree stands on the tree lawn by the street, it belongs to the city and stays as it is." }
+  ],
+  "reviews": ["billy-w", "amanda-h", "mark-r"]
+}

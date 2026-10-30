@@ -1,0 +1,166 @@
+---
+/* Yard grading, in one drag. A cut through a house and its yard: move the slider
+   and the ground tilts toward or away from the foundation, and the rain either
+   runs off or rises against the wall. It is a real range input, so touch, mouse
+   and arrow keys all work. Without script the drawing rests at the right slope.
+   Rain moves only while the panel is on screen, and not at all for visitors who
+   ask for reduced motion. Marked as an illustration. */
+---
+
+<figure class="gp" id="gp">
+  <svg viewBox="0 0 900 520" role="img" aria-label="Cross section of a house and yard showing how the slope of the ground moves rain">
+    <defs>
+      <linearGradient id="gp-sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#16233a" /><stop offset="1" stop-color="#2b4154" /></linearGradient>
+      <linearGradient id="gp-soil" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a3421" /><stop offset="1" stop-color="#231810" /></linearGradient>
+      <pattern id="gp-brick" width="44" height="22" patternUnits="userSpaceOnUse"><rect width="44" height="22" fill="#7a4a39" /><path d="M0 11h44M22 0v11M0 11v11M44 11v11" stroke="#5c3529" stroke-width="2" /></pattern>
+    </defs>
+    <rect width="900" height="520" fill="url(#gp-sky)" />
+    <path d="M-30 96 96 30l176 66z" fill="#3b4655" />
+    <path d="M-30 96h302v10H-30z" fill="#59657a" />
+    <rect x="0" y="106" width="232" height="190" fill="url(#gp-brick)" />
+    <rect x="74" y="146" width="84" height="74" fill="#e8c36f" /><path d="M116 146v74M74 183h84" stroke="#3b3028" stroke-width="5" />
+    <rect x="0" y="296" width="232" height="224" fill="#6f7470" />
+    <path class="gp__soil" d="M232 222 900 422V520H232Z" fill="url(#gp-soil)" />
+    <path class="gp__pool" d="M232 300Z" fill="#6db2dc" />
+    <path class="gp__line" d="M232 222 900 422" />
+    <g class="gp__drops"></g>
+    <text class="gp__t" x="18" y="280">House</text>
+    <text class="gp__t" x="18" y="420">Foundation</text>
+  </svg>
+  <div class="gp__ctl">
+    <label class="gp__label" for="gp-r">Drag to change the slope of the yard</label>
+    <input class="gp__range" id="gp-r" type="range" min="-3" max="8" step="1" value="6" />
+    <p class="gp__read" aria-live="polite"><strong>6 inches of fall over 10 feet.</strong> <span>Water runs away from the house.</span></p>
+  </div>
+  <figcaption class="note cap">Illustration, not to scale. About 6 inches of fall over the first 10 feet is the usual building code rule of thumb.</figcaption>
+</figure>
+
+<script is:inline>
+  (function () {
+    var f = document.getElementById('gp');
+    if (!f || f.dataset.on) return;
+    f.dataset.on = '1';
+    var r = f.querySelector('.gp__range'), soil = f.querySelector('.gp__soil'), line = f.querySelector('.gp__line'), pool = f.querySelector('.gp__pool'), g = f.querySelector('.gp__drops'), read = f.querySelector('.gp__read');
+    var X0 = 232, X1 = 900, MID = 322, slope = 6, drops = [], raf = 0, on = false;
+    var calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var K = 0.03;
+    function at(x, s) { return MID + (x - (X0 + X1) / 2) * s * K; }
+    function draw() {
+      var s = +r.value; slope = s;
+      var a = at(X0, s), b = at(X1, s);
+      soil.setAttribute('d', 'M' + X0 + ' ' + a + 'L' + X1 + ' ' + b + 'V520H' + X0 + 'Z');
+      line.setAttribute('d', 'M' + X0 + ' ' + a + 'L' + X1 + ' ' + b);
+      if (s < 0) {
+        var top = a - -s * 11, end = X0 + (top - a) / (s * K);
+        pool.setAttribute('d', 'M' + X0 + ' ' + top + 'L' + end + ' ' + top + 'L' + X0 + ' ' + a + 'Z');
+        pool.style.opacity = 1;
+      } else pool.style.opacity = 0;
+      var unit = Math.abs(s) === 1 ? 'inch' : 'inches';
+      var title = s > 0 ? s + ' ' + unit + ' of fall over 10 feet.' : s === 0 ? 'Dead flat.' : Math.abs(s) + ' ' + unit + ' of fall toward the house.';
+      var text = s >= 5 ? 'Water runs away from the house.' : s > 0 ? 'Better, but water is slow to leave and can sit after a storm.' : s === 0 ? 'Water has nowhere to go, so it sits and soaks in.' : 'Every storm sends water straight at the foundation.';
+      read.innerHTML = '<strong>' + title + '</strong> <span>' + text + '</span>';
+      r.setAttribute('aria-valuetext', title);
+    }
+    r.addEventListener('input', draw);
+    draw();
+    if (calm) return;
+    for (var i = 0; i < 28; i++) {
+      var c = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+      c.setAttribute('stroke', '#a9dcf5'); c.setAttribute('stroke-width', 2.6); c.setAttribute('stroke-linecap', 'round');
+      g.appendChild(c);
+      drops.push({ c: c, x: 250 + Math.random() * 640, y: Math.random() * 240, run: false });
+    }
+    function step() {
+      raf = requestAnimationFrame(step);
+      for (var i = 0; i < drops.length; i++) {
+        var d = drops[i], ground = at(d.x, slope) - 3;
+        if (!d.run) {
+          d.y += 7;
+          if (d.y >= ground) { d.y = ground; d.run = true; }
+          d.c.setAttribute('x1', d.x); d.c.setAttribute('x2', d.x); d.c.setAttribute('y1', d.y - 12); d.c.setAttribute('y2', d.y);
+        } else {
+          var v = Math.max(-3.4, Math.min(3.4, slope * 0.6));
+          d.x += v; d.y = at(d.x, slope) - 3;
+          if (slope === 0) d.t = (d.t || 0) + 1;
+          d.c.setAttribute('x1', d.x); d.c.setAttribute('x2', d.x - v * 3); d.c.setAttribute('y1', d.y); d.c.setAttribute('y2', at(d.x - v * 3, slope) - 3);
+          if (d.x > X1 + 12 || d.x < X0 + 2 || d.t > 40 || (slope < 0 && d.x < X0 + 366)) { d.x = 250 + Math.random() * 640; d.y = -20 - Math.random() * 120; d.run = false; d.t = 0; }
+        }
+      }
+    }
+    new IntersectionObserver(function (es) {
+      var seen = es[0].isIntersecting;
+      if (seen && !on) { on = true; raf = requestAnimationFrame(step); }
+      if (!seen && on) { on = false; cancelAnimationFrame(raf); }
+    }).observe(f);
+  })();
+</script>
+
+<style>
+  .gp {
+    display: grid;
+    gap: 1rem 2.5rem;
+  }
+
+  .gp svg {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--line-ink);
+    border-radius: var(--r);
+  }
+
+  .gp__line {
+    stroke: #7fb24a;
+    stroke-width: 11;
+    fill: none;
+  }
+
+  .gp__pool {
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+
+  .gp__t {
+    fill: #fff;
+    font: 620 24px var(--font);
+    paint-order: stroke;
+    stroke: rgb(10 15 11 / 0.55);
+    stroke-width: 4px;
+  }
+
+  .gp__ctl {
+    display: grid;
+    gap: 0.5rem;
+    align-content: center;
+  }
+
+  .gp__label {
+    font-weight: 600;
+  }
+
+  .gp__range {
+    width: 100%;
+    height: 2.75rem;
+    accent-color: var(--leaf);
+  }
+
+  .gp__read {
+    min-height: 3.4em;
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
+
+  .gp__read :global(span) {
+    color: var(--on-ink-muted);
+  }
+
+  @media (min-width: 60rem) {
+    .gp {
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+    }
+
+    .gp .cap {
+      grid-column: 1;
+      margin-top: 0;
+    }
+  }
+</style>

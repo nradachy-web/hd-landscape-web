@@ -1,0 +1,53 @@
+{
+  "city": "west-bloomfield",
+  "meta": {
+    "title": "Landscaping in West Bloomfield, MI | HD Landscape",
+    "description": "Landscape design, cleanups, tree work and care for West Bloomfield, MI yards, from lake lots to wooded subdivisions. 5.0 on Google. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in West Bloomfield, MI",
+    "title": "Lakes out back. **Oaks overhead.**",
+    "lede": "Many West Bloomfield yards back up to a lake, a wetland or old oak woods, and the township protects all three. A yard by HD Landscape gets planned around those lines, then planted, trimmed and kept looking right.",
+    "chips": ["Lake lots and wooded lots", "Planned around township rules", "Itemized estimates"],
+    "photo": "dusk-patio"
+  },
+  "about": {
+    "eyebrow": "Yards in West Bloomfield",
+    "title": "A township built around water and woods.",
+    "body": [
+      "West Bloomfield Township counts 28 lakes, from Cass and Pine to Walnut, Moon and Fox, plus 150 large ponds and well over 1,500 acres of regulated wetlands. It has also worked to protect more than 2,500 acres of woodland. If your house sits near any of that, your yard comes with lines you cannot see from the patio.",
+      "Away from the water, the typical lot runs from a third of an acre to a full acre in a planned subdivision or condominium community. Most homes here went up after 1970, and more than half between 1970 and 1989, so plenty of foundation shrubs have had decades to climb past the windows. Some careful [plant removal](/plant-removal/) or a full [landscape renovation](/landscape-renovation/) brings the house back into view.",
+      "Lake lots are their own story. Many began as weekend cottages on small lots with difficult soil or slopes, then grew into year round homes. Those yards take more planning per square foot than a big open lot does."
+    ],
+    "points": [
+      { "title": "A 25 foot line at the water", "body": "The township keeps a 25 foot setback from wetlands, lakes, ponds and streams. Inside it, soil, plants and materials generally stay as they are unless a permit says otherwise, so find that line before you plan anything near the water." },
+      { "title": "Woods on the township map", "body": "Mapped woodlands have their own permit rules for cutting trees, and newer subdivisions can carry tree preservation areas. Sort out both before any tree comes down." },
+      { "title": "Ground that rolls", "body": "The glaciers left this land rolling, with hills and hollows around the lakes. Water runs off the high spots and collects in the low ones, so the [grade](/yard-grading/) needs a look before the plant list does." },
+      { "title": "Headwaters for three watersheds", "body": "West Bloomfield is a headwaters community for the Rouge, Huron and Clinton watersheds, so what runs off a yard here travels. Township code is strict about erosion, grading and fertilizer near the water, and a bare slope by a lake should get fixed early." },
+      { "title": "Deer as regular visitors", "body": "Deer are common enough that the township surveyed residents about them in 2022, and 1,569 people took part. Damage to landscaping comes up often, so deer belong in the plan from the start." }
+    ],
+    "photo": "pergola-deck"
+  },
+  "logistics": {
+    "title": "A West Bloomfield job starts with finding the lines.",
+    "body": [
+      "Before any talk of plants, the lot has to show its limits: where water sits, whether the trees are in a mapped woodland and how a truck reaches the back of the lot. Jake walks all of it with you, gives you a straight answer on what makes sense and follows up with an estimate with every item on its own line.",
+      "If a job sits near a lake or wetland or on mapped woodland, Jake will say so at the estimate, and the township is the place to confirm it before any digging starts. Orchard Lake Village, Keego Harbor and Sylvan Lake are separate cities next door, and Cass Lake Village approved its charter in 2026, so confirm which office covers your address."
+    ],
+    "facts": [
+      { "label": "Check first", "value": "The setback and the woodland map" },
+      { "label": "Typical lots", "value": "Lake, wooded and subdivision" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you work in West Bloomfield, MI?", "a": "Yes. HD Landscape is a landscaper based in St. Clair Shores that works in West Bloomfield Township, MI, on lake lots, wooded lots and subdivision homes. That includes [landscape design](/landscape-design-west-bloomfield-mi/), [yard cleanups](/yard-cleanup-west-bloomfield-mi/), [tree trimming](/tree-trimming-west-bloomfield-mi/), [stump grinding](/stump-grinding-west-bloomfield-mi/) and [pressure washing](/pressure-washing-west-bloomfield-mi/), along with the rest of our services." },
+    { "q": "What is the environmental features setback in West Bloomfield?", "a": "It is a protected strip, generally 25 feet wide, that West Bloomfield Township keeps around wetlands, lakes, ponds and streams. Work that moves soil, plants or materials inside it generally needs a permit. The exact line depends on your lot, so check with the township before planning anything close to the water." },
+    { "q": "How do I find out if my yard is in a protected woodland?", "a": "West Bloomfield Township keeps an official woodland map, so the township can tell you whether your lot is on it. Approved site plans and subdivision plats can also show tree preservation areas. Ask before cutting, and Jake can look at it with you at the estimate." },
+    { "q": "Why does one part of my yard stay wet while another dries out?", "a": "The soil can change within a single lot here. West Bloomfield has 38 mapped soil types and associations, from sandy ground that drains fast to Marlette loam that drains slowly and muck in the low spots that can stay wet most of the year. Plant choices and drainage advice have to follow the ground you actually have." },
+    { "q": "Can you look after the yard once the project is done?", "a": "Yes. What a [monthly landscape maintenance](/monthly-landscape-maintenance/) visit covers is set on your estimate, and beds, weeding, shaping shrubs, edging and tidying are typical. On a lake lot, the setback still applies to anything that removes plants or soil near the water. We do not do sprinklers or lawn aeration, and we hand big tree removals to a tree company." }
+  ],
+  "reviews": ["amanda-h", "anne-j", "nancy-g"],
+  "neighbors": ["bloomfield-township", "bloomfield-hills", "birmingham", "franklin"]
+}

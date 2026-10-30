@@ -1,0 +1,53 @@
+{
+  "city": "grosse-pointe-woods",
+  "meta": {
+    "title": "Landscaping in Grosse Pointe Woods, MI | HD Landscape",
+    "description": "Design, hedges, sod and upkeep for Grosse Pointe Woods yards, on small lots and large ones under city trees. Free estimates, itemized line by line."
+  },
+  "hero": {
+    "kicker": "Landscaping in Grosse Pointe Woods, MI",
+    "title": "Mid-century homes, **grown-up yards.**",
+    "lede": "Most Grosse Pointe Woods homes went up around and after World War II, and their yards have been growing ever since. When the shrubs reach the windows and the beds lose their edges, HD Landscape cuts back, replants and redraws the lines.",
+    "chips": ["Overgrown beds reworked", "Corner hedges kept low", "Free, itemized estimates"],
+    "photo": "dusk-patio"
+  },
+  "about": {
+    "eyebrow": "Yards in the Woods",
+    "title": "The one Pointe with no shoreline. **The yard is the view.**",
+    "body": [
+      "Grosse Pointe Woods is the only Pointe with no Lake St. Clair shoreline of its own. The city's lake access is Lake Front Park, over the line in St. Clair Shores. At home, what you look at is your own street: city trees overhead and the neighbors' yards on both sides.",
+      "Most of this town was built around and after World War II, and about nine in ten homes are owner occupied. That adds up to a lot of good yards with seven decades of growth on them: shrubs past the windowsills, and lawns thinning under a canopy that keeps filling in.",
+      "Lots vary more than people expect. The city's master plan puts the bulk of them north of Vernier and west of Mack, at under 7,200 square feet. Lots in the center of town, south of Vernier and east of Mack, run larger. A small lot wants fewer plants and cleaner lines. A larger one can carry island beds and longer hedge runs."
+    ],
+    "points": [
+      { "title": "City trees, your beds", "body": "The city trims street trees on an eight year cycle and plants from an approved list. Their shade and roots still reach your side of the walk, so we plan grass and beds around what that canopy really does to your light." },
+      { "title": "Corners have a height limit", "body": "The city's code enforcement page limits hedges, walls and plantings to 30 inches above the crown of the road within 15 feet of where the front and side street property lines meet. That is measured from the road, not your lawn, so a raised yard has less room. Keep those corners low and clear, and ask the Building Department before planting anything new there." },
+      { "title": "Flat ground, slow water", "body": "Much of this town sits on flat, poorly drained ground with clay underneath, USDA soil maps show. Rain does not move off a lot like that by itself, so the grade next to the house needs setting before beds or [sod](/sod-installation/) go in." },
+      { "title": "Sewer lines out back", "body": "The master plan says sewer lines run in the right-of-way or a rear yard easement on almost every street. That matters before a tree or a deep bed goes in along the back of the lot, so get buried lines marked through 811 before digging." }
+    ],
+    "photo": "shade-lawn"
+  },
+  "logistics": {
+    "title": "The walk-through here covers **light, corners and water.**",
+    "body": [
+      "On a lot here, the walk comes down to what the city's trees do to your light, whether a corner or a sidewalk has to stay clear, and where the rain ends up. Jake goes over it with you, and the estimate comes itemized so you can go through it line by line.",
+      "On the smaller lots there is not much room to stage a job, so we work out where material sits before the truck arrives and keep the walks clear. The city says tree trimmings and fallen limbs cannot be left in the yard, so they need a way out. How the debris leaves goes on your estimate."
+    ],
+    "facts": [
+      { "label": "Corner hedges", "value": "30 inches above the road crown, within 15 feet of the corner" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Street trees", "value": "City Forestry Division. Call Public Works first." },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Does HD Landscape work in Grosse Pointe Woods?", "a": "Yes. HD Landscape works in Grosse Pointe Woods on [landscape design](/landscape-design/), [renovation](/landscape-renovation/), [hedge trimming](/hedge-trimming/), [sod](/sod-installation/), [monthly maintenance](/monthly-landscape-maintenance/) and [spring and fall cleanups](/spring-and-fall-cleanups/). We are based next door in St. Clair Shores." },
+    { "q": "Who takes care of the tree in front of my house in Grosse Pointe Woods?", "a": "City street trees are handled by the Forestry Division, which trims them on a set schedule and condemns diseased ones. Call Public Works before a saw touches one, ours included. Hedges, shrubs and beds on your lot are yours, and the city's code enforcement page also makes you responsible for other plant material in the right-of-way beside it. Those we can look after." },
+    { "q": "How tall can a hedge be on a corner lot in Grosse Pointe Woods?", "a": "The limit is 30 inches above the crown of the road, within 15 feet of where the front and side street property lines meet. The city's code enforcement page applies it to hedges, fences, walls and plantings, so drivers and people on the sidewalk can see. Rules can change, so confirm it with the Building Department. Our [hedge trimming](/hedge-trimming/) can bring an overgrown corner back down and keep it there." },
+    { "q": "What trees should I plant in Grosse Pointe Woods?", "a": "The city's recommended street tree list is a good place to start, and the city says those trees also suit private yards. It includes swamp white oak, northern red oak, littleleaf linden, hackberry, tupelo and zelkova. Ash, pear and silver maple are on its list of trees not allowed in the right-of-way. We can [plant](/plant-installation/) from the list or talk through what fits your lot." },
+    { "q": "When is it safe to trim an oak?", "a": "Outside the oak wilt window. Grosse Pointe Woods and Michigan State University Extension both say to avoid pruning or wounding oaks from April 15 through July 15, because fresh cuts can let the disease in. Plan [tree trimming](/tree-trimming-and-removal/) around those dates. If an oak has to wait for the cold months, Jake will tell you whether he can get to it or who can, since he works South Florida in winter. A big tree that has to come down is a job for a tree company." },
+    { "q": "Will regrading stop water in my basement?", "a": "It helps with one kind of problem. [Yard grading](/yard-grading/) turns surface water away from the foundation. Grosse Pointe Woods has combined sewers, and grading does nothing for a sewer backup in a storm like June 2021. If water comes up through a floor drain, call a plumber before you call a landscaper." }
+  ],
+  "reviews": ["amanda-h", "anne-j", "meagan-m"],
+  "neighbors": ["grosse-pointe-shores", "grosse-pointe-farms", "harper-woods", "st-clair-shores"]
+}

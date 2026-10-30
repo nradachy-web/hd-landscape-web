@@ -1,0 +1,50 @@
+{
+  "service": "pressure-washing",
+  "city": "royal-oak",
+  "meta": {
+    "title": "Pressure Washing in Royal Oak, MI | HD Landscape",
+    "description": "Pressure washing for Royal Oak, MI walks, patios and pavers, with shade, leaf stains and small street drain slots in mind. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Pressure washing in Royal Oak, MI",
+    "title": "Under all that shade **is a clean walk.**",
+    "lede": "A city full of old trees is hard on a walk. Shade keeps it damp, leaves stain it and roots lift it. HD Landscape washes Royal Oak walks, patios and pavers the way they should be washed: low enough to keep the sand in the joints, with an eye on where the water runs.",
+    "chips": ["Walks, patios and pavers", "Moss, algae and leaf stains", "Free itemized estimates"],
+    "photo": "limestone-bed"
+  },
+  "local": {
+    "eyebrow": "Pressure washing in Royal Oak",
+    "title": "Old trees leave their marks on a Royal Oak walk.",
+    "intro": "The median home here dates to 1956, and heavy tree planting goes back to the 1930s, so plenty of concrete and brick has had decades of shade and roots on it. Each leaves a different mark, and each one changes how the wash should go.",
+    "points": [
+      { "title": "Green on the shady side", "body": "Moss and algae take hold where paving stays damp. On a narrow lot that can be the whole walk between two houses, and the slow draining ground near Woodward can keep it damp longer. We wash it off and show you what keeps it wet." },
+      { "title": "Leaf stains in the fall", "body": "Wet leaves left on pavers and concrete can leave dark marks, and water alone may only lighten them. The weeks after your street’s leaf pickup are a good time to look, while it is still safely above freezing. A small test spot shows what will come out and what will stay." },
+      { "title": "Small slots at the street", "body": "Restricted drain covers on residential streets have only two or four slots, so a little grit goes a long way. Moss and wet leaves should not wash into the gutter and stop there. A wash here needs a plan for where the water runs, and what the rinse carries to the curb should get cleaned up." },
+      { "title": "Clean walks show lifted slabs", "body": "A clean walk makes every raised edge easy to see. City rules put sidewalk upkeep on the adjacent owner, including root damage, whoever owns the tree. We do not repair concrete, but we will point it out before someone trips on it." },
+      { "title": "Old brick takes a lighter hand", "body": "Clay brick and old mortar can be marked by pressure that a concrete paver shrugs off. On an older home, find out what the surface is first, then keep the pressure low and the nozzle well back." }
+    ]
+  },
+  "logistics": {
+    "title": "On a narrow Royal Oak walk, the spray has to go somewhere.",
+    "body": [
+      "Jake looks at the surface, the joints and the stains, and gives you a straight answer on what will lift and what will not. The itemized estimate comes before the machine does.",
+      "A good wash starts small, with a test spot, then moves to a broad fan held low so the joints keep their sand. A walk between two houses takes extra care, because the spray has only your foundation bed or the neighbor’s side to go to.",
+      "Once a paver surface dries, the joints show whether they lost sand, and [polymeric sand](/polymeric-sand/) can go on the same estimate if they need it. Washing also pairs well with a [yard cleanup](/yard-cleanup-royal-oak-mi/), since the walks get the mess last."
+    ],
+    "facts": [
+      { "label": "We wash", "value": "Walks, patios and pavers" },
+      { "label": "Drain covers", "value": "Only two or four slots, so keep grit out of them" },
+      { "label": "Good timing", "value": "Spring, or fall before it freezes" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "slate-sidewalk",
+  "faq": [
+    { "q": "Do you do pressure washing in Royal Oak?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in Royal Oak, for homes and commercial properties. Call or text [(586) 718-8762](tel:+15867188762) for a free itemized estimate." },
+    { "q": "Why do my walks keep turning green?", "a": "Too little sun and too much water. On a tight lot the strip between two houses may never dry out, and big trees add shade over the rest. Washing takes the growth off, but it returns if the spot stays wet. If a downspout or a low spot is the cause, [yard grading](/yard-grading/) may be the real fix." },
+    { "q": "Who is responsible for the sidewalk in front of my house in Royal Oak?", "a": "The adjacent property owner. City rules say sidewalks must be kept in good repair, and owners are expected to fix damage from tree roots, whoever owns the tree. The city runs its sidewalk program from about June through October. We clean walks and do not repair concrete, so if a wash turns up a raised slab, we will point it out and you can take it to the city." },
+    { "q": "Where does the water go when you pressure wash?", "a": "Usually down the drive or walk and toward the street, where it meets Royal Oak’s small slotted drain covers. That path deserves a look before the wash starts, and any grit or leaves left at the curb should come up after. If you are washing on your own, keep debris out of the gutter and ask the city before using anything stronger than water." },
+    { "q": "When is a good time to pressure wash?", "a": "Spring and late fall. Spring takes off what winter left, and late fall lets you deal with leaf stains once the leaves are gone, as long as it is safely above freezing. Try to avoid your street’s leaf pickup days, because the trucks need the curb clear." }
+  ],
+  "reviews": ["anne-j", "mark-r"]
+}

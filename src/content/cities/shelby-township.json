@@ -1,0 +1,107 @@
+{
+  "city": "shelby-township",
+  "meta": {
+    "title": "Landscaping in Shelby Township, MI | HD Landscape",
+    "description": "HD Landscape reworks Shelby Township, MI yards: overgrown 1990s beds, sandy lawns and lots near the river. Design, renovation, sod and care. Free estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Shelby Township, MI",
+    "title": "The first landscape **has had its run.**",
+    "lede": "When the shrubs out front have swallowed the windows, HD Landscape takes out what outgrew its spot and plants what comes next. Nearly four in ten homes in Shelby Township went up in the 1990s or 2000s, so many original plantings are now roughly 15 to 35 years old.",
+    "chips": [
+      "Overgrown beds reworked",
+      "Planned for your soil",
+      "Itemized estimates"
+    ],
+    "photo": "weeping-border"
+  },
+  "about": {
+    "eyebrow": "Yards in Shelby Township",
+    "title": "What thirty years does to a Shelby Township yard.",
+    "body": [
+      "The homes in Shelby Township came in waves. About one in five dates to the 1950s or 1960s, and nearly half arrived in 1990 or later. The shrubs planted with the 1990s and 2000s houses were small on move in day. After this long, plenty of them reach the windows and crowd the walk.",
+      "The ground changes just as much as the houses. USDA soil maps show sandy soil across most of the township, pockets of silty clay loam in the southeast corner and wet bottomland along the river and creeks. More than half the township maps as somewhat poorly drained or wetter, sand included. Sand on a rise drains fast, and sand in a low spot can stay wet. Two yards a few miles apart can need opposite plans, so we look at yours before we suggest anything."
+    ],
+    "points": [
+      {
+        "title": "Foundation plantings that outgrew the house",
+        "body": "Shrubs set in the 1990s have had decades to fill out. Some can be cut back and kept. Others are better [pulled, roots and all](/plant-removal/), so the next planting starts with room to grow."
+      },
+      {
+        "title": "Dry sand up high, wet sand down low",
+        "body": "Water runs straight through sand on a rise. In a low spot the water table can sit close to the surface, and the same kind of soil stays wet. A shrub that is happy in one can sulk in the other, so plant choice starts with where your yard sits."
+      },
+      {
+        "title": "A rolling northwest corner",
+        "body": "Most of the township is close to level, but the northwest corner near Stony Creek rolls, with slopes of 6 to 18 percent mapped there. [Grading](/yard-grading/) and [retaining walls](/retaining-walls/) keep the water and the soil where they belong."
+      },
+      {
+        "title": "Lots near the river and creeks",
+        "body": "USDA maps some river and creek bottoms here as frequently flooded. If your back line drops toward the water, we plan for wet ground, and we talk through what should stay untouched before anything gets built."
+      },
+      {
+        "title": "A mandatory watering ordinance",
+        "body": "Shelby Township has a mandatory irrigation ordinance for sprinklers on township water, with set hours and even or odd days. If you want a summer install, ask Public Works what applies this year, so the new plants get a watering plan that fits."
+      }
+    ],
+    "photo": "hedge-walk"
+  },
+  "logistics": {
+    "title": "From the first walk to the watering call in Shelby Township.",
+    "body": [
+      "The first visit looks past the plants. You and Jake go over how the yard drains, what the soil is doing and which shrubs still deserve their spot. His estimate is itemized, with no pressure to sign anything on the spot.",
+      "On the day, the crew shows up when we said and leaves the site clean. If the yard has a sprinkler system, mention it on the first walk so the crew can work around the heads, since we do not install or repair them. On sandy ground new plants can dry out quickly, so Jake calls after the job and explains the watering for your yard."
+    ],
+    "facts": [
+      {
+        "label": "Soil here",
+        "value": "Sand to silty clay loam, by location"
+      },
+      {
+        "label": "Summer watering",
+        "value": "Township ordinance, ask Public Works"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "To talk now",
+        "value": "Call or text Jake"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Does HD Landscape work in Shelby Township?",
+      "a": "Yes. HD Landscape handles landscape design, renovation, [sod installation](/sod-installation-shelby-township-mi/), hedges, cleanups and monthly maintenance in Shelby Township, from its base in St. Clair Shores. Sprinklers and lawn aeration are not our work, and a tree too big for our crew goes out to a tree company."
+    },
+    {
+      "q": "My builder's shrubs have swallowed the front windows. Can you save them?",
+      "a": "Sometimes. Some shrubs come back well with careful [hedge trimming](/hedge-trimming/). Others have gone woody and bare inside, and no amount of trimming will fix that. A walk of the beds with Jake sorts out which ones can stay and which should make way."
+    },
+    {
+      "q": "What kind of soil does Shelby Township have?",
+      "a": "Mostly sand, but it changes across the township. USDA soil maps show sandy soils in most of it, from fast draining Boyer and Oakville to wetter Granby and Gilford in low spots. Lenawee silty clay loam turns up in the southeast corner, and flood prone soils follow the Clinton River. These are broad patterns, so Jake looks at your yard on the first walk."
+    },
+    {
+      "q": "Can you landscape a yard that backs up to the Clinton River or Stony Creek?",
+      "a": "Usually, with some care. Wet bottomland limits what will grow and what should be built. Macomb County also runs a soil erosion permit program, so moving soil near water is worth checking with the county before the work starts."
+    },
+    {
+      "q": "Why does my neighbor's yard drain when mine stays wet?",
+      "a": "The ground may not match. In Shelby Township a sandy rise drains fast, while a low spot nearby can stay wet because the water table is close. USDA also maps some spots as reworked or filled ground, which can turn up anywhere. [Grading](/yard-grading/) can move surface water, but it will not lower the water table, so it helps to know which problem you have."
+    }
+  ],
+  "reviews": [
+    "nancy-g",
+    "renee-g",
+    "billy-w"
+  ],
+  "neighbors": [
+    "sterling-heights",
+    "washington-township",
+    "rochester-hills",
+    "macomb-township"
+  ]
+}

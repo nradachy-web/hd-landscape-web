@@ -1,0 +1,48 @@
+{
+  "service": "sod-installation",
+  "city": "rochester-hills",
+  "meta": {
+    "title": "Sod Installation in Rochester Hills, MI | HD Landscape",
+    "description": "New sod for Rochester Hills, MI lawns and slopes: old grass out, grade set, fresh sod down. Many lawns are finished in a day, depending on the grade."
+  },
+  "hero": {
+    "kicker": "Sod installation in Rochester Hills, MI",
+    "title": "A new lawn, **even on the hill.**",
+    "lede": "Seed can wash off a Rochester Hills slope before it ever sprouts. Sod covers the ground the day it goes down, so that is what HD Landscape lays on a hill: old lawn stripped, grade set, fresh sod in tight seams, with a watering plan for the soil you actually have.",
+    "chips": ["Good for slopes", "Grade set first", "Often one day"],
+    "photo": "sod-backyard"
+  },
+  "local": {
+    "eyebrow": "Sod in Rochester Hills",
+    "title": "Slope and soil decide how a lawn here gets laid.",
+    "intro": "Rochester Hills lawns do not all sit on the same dirt. USDA soil maps show loamy sand in some parts of town and sandy loam over clay loam in others, often with a grade change in the mix. Both matter before a single roll gets ordered.",
+    "points": [
+      { "title": "Banks that shed seed", "body": "Rain carries seed and loose soil downhill. Sod gives a bank full cover right away. On the steepest spots a [low wall](/retaining-walls-rochester-hills-mi/) or a bed may be the better answer, because nobody enjoys mowing sideways." },
+      { "title": "Sand that drinks fast", "body": "Where the ground is loamy sand, water moves through quickly, so new sod can dry out in a hurry. Those lawns need watering more often while they root, and that is the first thing Jake goes over when he calls after the job." },
+      { "title": "Clay loam a foot down", "body": "Where sandy loam sits over clay loam, the top looks fine, but water often slows down about a foot under it. The finished grade has to carry water across the surface and away from the house, not into a soggy layer below the new lawn." },
+      { "title": "Where the sod has to stop", "body": "Some back yards end at a conservation easement, set aside to protect wetlands and watersheds. The city asks residents to keep sod and grass seed out of it, so the new lawn stops at the line." },
+      { "title": "Fertilizer that stays on the lawn", "body": "City guidance traces much of the algae in subdivision basins to lawn fertilizer runoff. It asks residents to use no phosphorus fertilizer, only where and when it is needed, and to keep the granules on the lawn. On a new lawn above a basin, that is an easy favor to the neighbors." }
+    ]
+  },
+  "logistics": {
+    "title": "Often one day to lay it, then the watering starts.",
+    "body": [
+      "Many lawns are finished in a day, depending on the grade. A long haul from the driveway to the back of the lot, or a slope that has to be regraded first, can add time. How the old lawn leaves is a line on your estimate.",
+      "When the crew leaves, Jake calls to go over watering for your soil and slope. The high side of a yard tends to dry out first, so those are the spots to watch. If you would rather not think about it, we can [handle the watering](/plant-watering/) while the sod roots."
+    ],
+    "facts": [
+      { "label": "How long", "value": "Often one day" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinkler installation" },
+      { "label": "Stops at", "value": "Conservation easements" }
+    ]
+  },
+  "photo": "grade-rake",
+  "faq": [
+    { "q": "Do you do sod installation in Rochester Hills?", "a": "Yes. HD Landscape strips the old lawn, fixes the [grade](/yard-grading/) and lays fresh sod across Rochester Hills, on flat lots and on slopes. A free, itemized estimate comes first." },
+    { "q": "Is sod or seed better for a sloped yard?", "a": "Sod is usually the safer choice on a slope, because seed and loose soil can wash downhill before the grass gets going. On a Rochester Hills bank, sod covers the ground the day it goes down. It still needs steady water and no foot traffic while it roots." },
+    { "q": "Can I put sod in the conservation easement behind my house?", "a": "No. The city of Rochester Hills asks residents to keep sod, grass seed, sheds and play structures out of conservation easements. Nature paths and feeder stations are fine. Your survey may show where the line runs, so look for it before the old lawn comes up." },
+    { "q": "Why does new sod dry out so fast on my lot?", "a": "Soil and slope are the usual reasons. Parts of Rochester Hills sit on loamy sand that drains quickly, and the high side of a yard sheds water. Jake covers that when he calls after the job, and [plant watering](/plant-watering/) is there if you would rather hand it off." }
+  ],
+  "reviews": ["rob-e", "meagan-m"]
+}

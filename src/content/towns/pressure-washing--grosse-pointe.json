@@ -1,0 +1,47 @@
+{
+  "service": "pressure-washing",
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Pressure Washing in Grosse Pointe, MI | HD Landscape",
+    "description": "Pressure washing for walks, patios and pavers in Grosse Pointe, MI, with the pressure matched to old brick, deep shade and joint sand. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Pressure washing in Grosse Pointe, MI",
+    "title": "Old walks, **a lighter touch.**",
+    "lede": "Plenty of Grosse Pointe walks and patios have been down for decades, under trees that keep them damp. HD Landscape cleans walks, patios and pavers with a wide spray and the right pressure for the surface, because old paving does not forgive much.",
+    "chips": ["Walks, patios and pavers", "Pressure set to the surface", "A light touch on old brick"],
+    "photo": "paver-walk"
+  },
+  "local": {
+    "eyebrow": "Pressure washing in the City",
+    "title": "What a wash has to account for on **older Grosse Pointe paving.**",
+    "intro": "Most homes here date to the first half of the last century, and they sit under heavy street trees. So the paving tends to be older, the shade is deep and green growth is common. The job is mostly about knowing how little pressure will do it.",
+    "points": [
+      { "title": "Brick takes a gentler hand", "body": "The brick industry's guide says no more than 400 psi on clay brick unless the maker allows more. Many pavers that look like brick are concrete, and the two do not clean alike. So the first question is which you have, and a small test patch is the right way to find out what it can take." },
+      { "title": "Shade keeps it green", "body": "Moss and algae settle in where paving stays damp and shady, and the street trees here make plenty of that. A wash removes the growth, but it comes right back unless whatever keeps the spot wet gets sorted out." },
+      { "title": "The runoff goes to the lake", "body": "Part of the city's stormwater runs through an enclosed system into Lake St. Clair. So think about which way the wash water will travel before the wand comes out, and let plain water be the first choice." },
+      { "title": "Joints come next", "body": "Even a careful wash moves some joint sand, and a clean surface makes every gap easy to see. Look them over once the paving dries. If they are weedy or empty, [polymeric sand](/polymeric-sand/) may be the next step." }
+    ]
+  },
+  "logistics": {
+    "title": "On a Grosse Pointe walk, **the surface sets the pressure.**",
+    "body": [
+      "Jake looks over the surface, the joints and any stains, and tells you what should come off and what may not. A small test patch is the right way to set the pressure. After that the job calls for a wide spray at a low angle and a clean water rinse.",
+      "We wash walks, patios and pavers. If you have another surface in mind, send Jake a photo and he will say whether it is something we can take on. If a [bed or planting beside the walk](/landscape-renovation-grosse-pointe-mi/) is what keeps it wet, he will point that out too.",
+      "We wash across all five Pointes, in the [City](/service-areas/grosse-pointe/), the [Farms](/service-areas/grosse-pointe-farms/), the [Woods](/service-areas/grosse-pointe-woods/), the [Park](/service-areas/grosse-pointe-park/) and the [Shores](/service-areas/grosse-pointe-shores/), and the older the paving, the lighter the hand."
+    ],
+    "facts": [
+      { "label": "We wash", "value": "Walks, patios and pavers" },
+      { "label": "Clay brick limit", "value": "400 psi unless the maker allows more" },
+      { "label": "Another surface", "value": "Send Jake a photo first" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ai-pressure",
+  "faq": [
+    { "q": "Do you pressure wash walks and patios in Grosse Pointe?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in Grosse Pointe, MI, including old brick. Clay brick calls for low pressure with the nozzle held well back. If the brick or the joints are already failing, Jake will say so, because washing will not fix that." },
+    { "q": "Why does my walk keep turning green?", "a": "Shade and moisture. Moss and algae grow where paving stays damp, often under trees, on the shady side of a house or near a downspout. A wash clears it, but it comes back if the spot stays wet, so the cause is the part to fix." },
+    { "q": "Do you wash brick or stone on an older house?", "a": "Our pressure washing is for walks, patios and pavers around the yard. Old brick and stone on a house can be easy to damage, so send Jake a photo before you book anything and he will tell you straight whether it is a job for us." }
+  ],
+  "reviews": ["rob-e", "anne-j", "marie-b"]
+}

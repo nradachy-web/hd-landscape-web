@@ -1,0 +1,47 @@
+{
+  "service": "pressure-washing",
+  "city": "bloomfield-hills",
+  "meta": {
+    "title": "Pressure Washing in Bloomfield Hills, MI | HD Landscape",
+    "description": "Moss, algae and grime washed off walks, patios and pavers in Bloomfield Hills, with a lighter touch on older brick and stone. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Pressure washing in Bloomfield Hills, MI",
+    "title": "Where the shade stays, **the green follows.**",
+    "lede": "Big trees keep Bloomfield Hills walks and patios cool and damp, and that is where algae, moss and grime settle in. HD Landscape washes them back to clean, with a lighter touch on older brick and stone.",
+    "chips": ["Walks, patios and pavers", "Moss and algae off", "Older brick handled gently"],
+    "photo": "maple-court"
+  },
+  "local": {
+    "eyebrow": "Pressure washing in Bloomfield Hills",
+    "title": "On a wooded Bloomfield Hills lot, shade is what turns the paving green.",
+    "intro": "Moss and algae want shade, damp and leaf litter, and a wooded lot offers all three. A patio under a heavy canopy can stay damp long after a rain. On a wooded lot that growth is the likelier job, more than road grime, and the fix has to be gentler than people expect.",
+    "points": [
+      { "title": "Old brick and stone get the low setting", "body": "The 2000 census figures in the city's master plan date almost a third of the homes to before 1960. Softer brick, stone and old mortar cannot take full pressure, so the setting should be found on a small test spot and kept low where the surface asks for it." },
+      { "title": "Washing can move joint sand", "body": "Shaded joints hold damp, and that is where the green starts. Washing moves some joint sand, so look the joints over once everything dries. If they are weedy or washed out, [polymeric sand](/polymeric-sand/) may be the better fix." },
+      { "title": "Long walks need steady passes", "body": "With homes set well back from the road, a front walk can be a long run. Steady passes are what let the surface dry one even color, with no stripes or wand marks to look at all summer." },
+      { "title": "Where the wash water goes", "body": "The city sits in the Rouge River watershed, and most of its drainage courses cross private land. On rolling ground wash water can find one of them, so think about where it will run before the wand comes out." }
+    ]
+  },
+  "logistics": {
+    "title": "On a wooded Bloomfield Hills lot, the order of the work matters.",
+    "body": [
+      "Text us photos of the walk or patio and tell us what is on it, and Jake can say what should come off and what may not. Before a wash, sprinklers should be off and loose items cleared from the surface.",
+      "Washing fits well with other work. Clean the paving first, let it dry, then handle joints, new mulch or bed edges, so nothing gets splashed. We can put it on the same estimate as a [cleanup](/spring-and-fall-cleanups/) or [monthly maintenance](/landscape-maintenance-bloomfield-hills-mi/)."
+    ],
+    "facts": [
+      { "label": "Surfaces", "value": "Walks, patios and pavers" },
+      { "label": "Ask first", "value": "Driveways and other surfaces" },
+      { "label": "Often paired with", "value": "Polymeric sand" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ai-pressure",
+  "faq": [
+    { "q": "Do you do pressure washing in Bloomfield Hills?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in Bloomfield Hills, MI. For a driveway or another surface, send a photo and Jake can say whether we can take it on." },
+    { "q": "Can pressure washing damage old brick or stone?", "a": "It can if the pressure is too high. Older brick, soft stone and aged mortar, which you find on the pre-1960 homes here, need a low setting and a wide spray, so a small test spot should come first. If a surface looks too fragile to wash safely, we will tell you and leave it alone." },
+    { "q": "Why does my shaded patio keep turning green?", "a": "Because it stays damp. Under a heavy canopy paving dries slowly, and leaf litter holds moisture against it. Washing clears the growth, and keeping leaves off slows its return. More light would help too, but any tree removal in Bloomfield Hills goes through the city first, and a big one belongs with a tree company. If a spot stays wet because of drainage, [yard grading](/yard-grading/) may be the real fix." },
+    { "q": "When is a good time to pressure wash on a wooded lot?", "a": "Spring and fall are natural times. Spring clears what winter left. In fall, wait until most of the leaves are down, so you are not washing twice, and deal with leaf stains before the cold. Wash only when temperatures are safely above freezing." }
+  ],
+  "reviews": ["mark-r", "anne-j"]
+}

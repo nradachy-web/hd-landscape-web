@@ -1,0 +1,292 @@
+{
+  "service": "rock-stone",
+  "meta": {
+    "title": "Rock and Stone in St. Clair Shores, MI | HD Landscape",
+    "description": "River rock, black stone and boulders from HD Landscape in St. Clair Shores and across Metro Detroit, with a clean edge that keeps stone out of the lawn."
+  },
+  "hero": {
+    "kicker": "Rock and stone installation in St. Clair Shores and across Metro Detroit",
+    "title": "Stone that looks **like it belongs.**",
+    "lede": "HD Landscape lays river rock, black stone and boulders on shaped ground, with a clean edge that keeps them in the bed. We will also tell you plainly when mulch would serve you better.",
+    "chips": [
+      "River rock and black stone",
+      "Boulders set into the grade",
+      "Edged so stone stays put"
+    ],
+    "photo": "black-stone-kidney"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Before you pick a stone",
+      "title": "Good stone work starts **under the stone.**",
+      "body": [
+        "HD Landscape installs river rock, black stone and boulders in St. Clair Shores and across Metro Detroit. A landscape rock job means clearing the bed, shaping the ground, setting a clean edge and spreading decorative stone on firm ground, so it stays where it is put.",
+        "People choose stone because it weathers slowly, so it does not need a fresh layer the way mulch does. The trade off: it adds nothing to the soil, it may run warmer than mulch in a sunny bed, and leaves still settle into it."
+      ],
+      "checks": [
+        "Old mulch, weeds and worn out stone cleared first",
+        "Ground shaped so water runs away from the house",
+        "A clean edge so stone stays in the bed and out of the lawn",
+        "Stone spread even, with no bare patches",
+        "Boulders set into the ground, not sitting on top of it"
+      ],
+      "photo": "slate-sidewalk"
+    },
+    {
+      "type": "bed",
+      "plane": "ink",
+      "eyebrow": "Try it",
+      "title": "The same bed in stone or mulch.",
+      "intro": "Tap through the finishes on one of our real beds. Color is a lot easier to judge on a bed than on a pile in a stone yard."
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "What we lay",
+      "title": "Every stone has its spot.",
+      "columns": 4,
+      "items": [
+        {
+          "title": "River rock",
+          "body": "Rounded stone in soft gray and tan tones. It reads natural against brick and suits side yards, walks and strips where grass never took."
+        },
+        {
+          "title": "Black stone",
+          "body": "Dark and modern, in sharp crushed stone or smooth pebbles. It sets off green plants and clipped shrubs, and it is the stone you will see most in our photos, at homes and commercial buildings alike."
+        },
+        {
+          "title": "Boulders",
+          "body": "Set partly into the ground so they look like they were always there. One or two good ones can anchor a whole bed."
+        },
+        {
+          "title": "Pea gravel",
+          "body": "Small, smooth stone for tight utility spots. One customer had it laid behind his garage as part of a full yard redo."
+        }
+      ]
+    },
+    {
+      "type": "beforeAfter",
+      "plane": "paper",
+      "eyebrow": "Real jobs",
+      "title": "Tired corners to black stone.",
+      "intro": "Two real corners, before and after. Drag the line to compare.",
+      "pairs": [
+        "ba-side",
+        "ba-corner"
+      ],
+      "checks": [
+        "Weeds and old bed material taken out",
+        "A clean edge set for the new bed",
+        "Black stone spread even around the new planting"
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "Good to know",
+      "title": "Stone for the spots, **mulch for the plants.**",
+      "intro": "We install both, so we have no reason to push one. University of Minnesota Extension says organic [mulch](/mulching/) is generally favored in gardens and landscapes, and that stone does not add organic material to the soil. Stone makes sense where planting is light and you would rather not top up a bed every year.",
+      "columns": [
+        "Stone",
+        "Mulch"
+      ],
+      "rows": [
+        {
+          "label": "Works best",
+          "values": [
+            "Side yards, walks and strips by the foundation",
+            "Around most trees, shrubs and perennials"
+          ]
+        },
+        {
+          "label": "The soil",
+          "values": [
+            "Adds nothing to it",
+            "Adds organic matter as it breaks down"
+          ]
+        },
+        {
+          "label": "Heat",
+          "values": [
+            "May run warmer, though sources differ on the soil",
+            "Helps keep soil temperature steady"
+          ]
+        },
+        {
+          "label": "Top ups",
+          "values": [
+            "Weathers slowly, so no yearly layer",
+            "Some types break down in a year, others last two or more"
+          ]
+        },
+        {
+          "label": "Weeds",
+          "values": [
+            "Some still sprout in what settles between stones",
+            "A good layer smothers many of them"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "How it should go",
+      "title": "A stone bed gets built from the ground up.",
+      "steps": [
+        {
+          "title": "Clear",
+          "body": "Old mulch, weeds and tired plants come out first, because stone laid over old mulch just gives weeds something to grow in. How the debris leaves goes on your estimate."
+        },
+        {
+          "title": "Shape",
+          "body": "The ground gets raked and sloped so water runs away from the house, and the outline of the bed gets settled on the ground."
+        },
+        {
+          "title": "Edge",
+          "body": "Loose stone spreads. A border of [steel edging](/steel-edging/), block or stone keeps it out of the lawn and off the walk."
+        },
+        {
+          "title": "Base",
+          "body": "The ground gets firmed and smoothed so the stone sits even. Whether fabric goes down depends on the bed."
+        },
+        {
+          "title": "Set",
+          "body": "Boulders go in first, worked into the ground. Then the stone goes in around them, kept back from tree trunks and the stems of your plants."
+        }
+      ],
+      "footnote": "Stone does not fix a wet yard, it only covers one. If water sits by the house, start with [grading](/yard-grading/)."
+    },
+    {
+      "type": "gallery",
+      "plane": "ink",
+      "eyebrow": "Finished work",
+      "title": "From side yards to commercial fronts.",
+      "photos": [
+        "rock-bed-hydrangea",
+        "flagstone-side",
+        "maple-rock-bed",
+        "thrift-boulder",
+        "condo-evergreens",
+        "topiary-spiral"
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Close to home",
+      "title": "St. Clair Shores yards **decide how the stone goes in.**",
+      "intro": "St. Clair Shores is home, and one of the towns we work in most. The ground, the lot sizes, the water and the city's stormwater fee all shape how a stone bed gets built here.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Wet, heavy ground",
+          "body": "Most of the city's soil rates poorly or very poorly drained on USDA maps, and the land is close to flat. Water sits on ground like that unless it is shaped to move, so the slope should be set before any stone goes down."
+        },
+        {
+          "title": "Narrow side yards",
+          "body": "Inland lots here can run as small as 6,000 square feet, the city's general zoning minimum, and a tight side yard is hard on grass. A strip of river rock is a tidy fix for it."
+        },
+        {
+          "title": "Near the lake and the canals",
+          "body": "Lake St. Clair forms the city's east edge, and 14 miles of canals run through it. The lakefront guide the city posts says to keep compost and mulch away from the water, so stone can suit a bed close to it."
+        },
+        {
+          "title": "What goes under the stone",
+          "body": "The city bills stormwater by runoff potential, and hard surface counts far more than pervious ground. A landscaped area over an impervious membrane is not on the pervious list, and gravel that misses the city's requirements counts as hard surface. So a liner that lets water through matters here."
+        }
+      ]
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "In their words",
+      "title": "What people say after we leave.",
+      "intro": "Rob's job included pea gravel behind the garage. The others are bigger yard projects, and they show how we run any day on site.",
+      "ids": [
+        "rob-e",
+        "renee-g",
+        "anne-j"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you install rock and stone in St. Clair Shores?",
+      "a": "Yes. HD Landscape is based in St. Clair Shores and installs river rock, black stone and boulders here and across Metro Detroit, from [Grosse Pointe](/service-areas/grosse-pointe/) to [Birmingham](/service-areas/birmingham/). Call or text Jake at [(586) 718-8762](tel:+15867188762) for a free estimate."
+    },
+    {
+      "q": "Is rock or mulch better for landscaping?",
+      "a": "Mulch, around most trees, shrubs and perennials. University of Minnesota Extension says organic mulches are generally favored, and that stone and gravel add no organic material to the soil. Rock makes sense in side yards, along walks and foundations, and anywhere you would rather not add a new layer each year. We install both."
+    },
+    {
+      "q": "How do you place boulders so they look natural?",
+      "a": "Partly in the ground, with the good face turned out. A boulder sitting on top of the soil looks like it fell off a truck. One or two good stones usually do more than a row of small ones."
+    },
+    {
+      "q": "Do you put landscape fabric under rock?",
+      "a": "Sometimes. Fabric can keep stone from sinking into the soil, especially in a bed with no plants. It is not a permanent weed stop: University of Illinois Extension says it suppresses weeds for only a couple of years and restricts water and air moving through the soil, so it takes care around plants. In St. Clair Shores, a liner that stops water can also change how that area counts toward the stormwater fee. Ask Jake which way he would go on your bed."
+    },
+    {
+      "q": "Will weeds grow through river rock?",
+      "a": "Some will. University of Illinois Extension says deep stone can hold weeds back in the short term, but weed seeds and soil blow in, and those weeds can be hard to control. Clearing the bed first helps, and a little pulling each season keeps it clean. We can handle that with [weeding](/weeding/) or [monthly maintenance](/monthly-landscape-maintenance/)."
+    },
+    {
+      "q": "How deep should landscape rock be?",
+      "a": "Deep enough to hide the ground, usually a few inches. Small stone covers well in a thinner layer and big river rock needs more, so the right depth comes down to the stone you pick. We work it out at the estimate, so the bed gets what it needs and no more."
+    },
+    {
+      "q": "Can rock go right up against my house?",
+      "a": "Yes, as long as the ground under it slopes away from the house. Stone does not move water, so a bad grade stays a bad grade under a nice looking bed. If the slope runs the wrong way, [yard grading](/yard-grading/) comes first."
+    },
+    {
+      "q": "Can you put stone around trees?",
+      "a": "Yes, kept back from the trunk. University of Minnesota Extension says stone and gravel are best for walkways and spots where you do not want anything to grow, and it calls for a 6 inch mulch free ring around a trunk. For trees, a ring of [mulch](/mulching/) is usually the better choice."
+    },
+    {
+      "q": "Can you replace old mulch or gravel with new stone?",
+      "a": "Yes. The old material should come out first, because stone laid over old mulch gives weeds something to root in. Then the bed gets shaped, edged and filled with new stone. Stone is harder to change than mulch, so take your time on the color."
+    },
+    {
+      "q": "How long does a rock or stone job take?",
+      "a": "Often one day where the scope allows. Large beds, a lot of boulders or tight access can take longer. One customer had his yard gutted and leveled, with new sod, pea gravel and new plants, and wrote that it was done in one day."
+    },
+    {
+      "q": "What time of year can you install rock and stone?",
+      "a": "Spring through fall, whenever the ground is workable. Stone can go in during the heat of summer without the watering worries a new planting has, so it is an easy job to fit in when the rest of the yard is busy."
+    },
+    {
+      "q": "How much does rock and stone installation cost?",
+      "a": "The price comes down to the size of the bed, the stone you choose, how much has to come out first and how easy the spot is to reach, and Jake needs to see it to put a number on it. The estimate is free, and you can go through it line by line. A stone bed skips the yearly layer, which is worth weighing against mulch."
+    }
+  ],
+  "quote": {
+    "title": "Show us the spot.",
+    "lede": "Text a photo of the bed, side yard or corner you have in mind. Jake can say whether stone is the right call and follow up with an itemized estimate."
+  },
+  "summary": {
+    "title": "Most of the work goes in before the stone does.",
+    "intro": "Stone looks simple, but the bed that stays clean is the one prepared underneath. Here is what goes into it, and your estimate is itemized so you can go through it line by line.",
+    "items": [
+      {
+        "name": "Clear out",
+        "detail": "Old mulch, weeds and worn out stone removed, with the debris plan on your estimate."
+      },
+      {
+        "name": "Shape and base",
+        "detail": "Ground sloped away from the house, then firmed and smoothed."
+      },
+      {
+        "name": "Edge",
+        "detail": "A clean border so stone stays in the bed and out of the lawn."
+      },
+      {
+        "name": "Stone and boulders",
+        "detail": "River rock or black stone spread even, boulders set into the grade."
+      }
+    ],
+    "footnote": "Around most plants, [mulch](/mulching/) is often the better choice. If that is true of your bed, Jake will say so."
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "service": "yard-grading",
+  "meta": {
+    "title": "Yard Grading in St. Clair Shores, MI | HD Landscape",
+    "description": "HD Landscape grades yards in St. Clair Shores, MI and Metro Detroit: low spots filled, ground sloped from the house, ready for sod. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Yard grading in St. Clair Shores, MI and across Metro Detroit",
+    "title": "Give the rain **somewhere else to go.**",
+    "lede": "A lawn that lies smooth, and rain that runs away from the foundation instead of toward it. HD Landscape cuts the high spots, fills the soggy corners and shapes the ground, then finishes it with sod, stone or new beds.",
+    "chips": ["Water sent away from the house", "Low spots filled", "Ready for sod or beds"],
+    "photo": "sod-colonial"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What grading does",
+      "title": "Grading is how a yard **handles rain.**",
+      "body": [
+        "Yard grading means reshaping the top of the ground so water runs where you want it to go. We cut down the high spots, fill the low ones and build a steady fall away from the house, so rain leaves the yard instead of sitting in it.",
+        "It is the job nobody notices once the grass is in, and everything else sits on top of it. Sod on a bad grade stays soggy, beds settle and the low corner keeps its puddle. It matters even more in St. Clair Shores, where the ground is heavy and slow draining and map slopes mostly run 0 to 2 percent, so rain soaks in slowly and has little fall to follow."
+      ],
+      "checks": [
+        "High spots cut and low spots filled",
+        "Ground sloped away from the foundation",
+        "Fill placed in tamped layers, so it does not sink later",
+        "Finished soil below the siding, never piled against it"
+      ],
+      "photo": "grade-jake"
+    },
+    {
+      "type": "beforeAfter",
+      "plane": "ink",
+      "eyebrow": "Real job",
+      "title": "Rough and overgrown to **smooth and green.**",
+      "intro": "The same yard, from Jake's own video. Drag the line to compare.",
+      "pairs": ["ba-sod"],
+      "checks": ["Overgrown plants cleared out", "Ground regraded and smoothed", "New sod laid, with steppers set into the lawn"]
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "Good to know",
+      "title": "Six signs a yard needs grading.",
+      "columns": 3,
+      "items": [
+        { "title": "Puddles that stay", "body": "Water still standing more than a day or two after the rain stops. On slow clay, that often means it has no slope to follow." },
+        { "title": "Soil tipping toward the house", "body": "Ground that is flat at the foundation or falls toward it. University of Minnesota Extension says soil beside a house often settles later, especially under stoops, so even a good yard can lose its slope." },
+        { "title": "Downspouts that dump at the wall", "body": "Roof water needs to land well away from the house. University of Minnesota Extension says at least 4 feet beyond the wall. Check this first, since it is an easy fix." },
+        { "title": "A lawn that stays soggy", "body": "Spots that squish days after a storm, ruts from the mower and grass that thins out where water sits." },
+        { "title": "Mud on the walk", "body": "Soil washing across a walk or driveway after a storm means water is running fast through one spot." },
+        { "title": "New sod or beds on the way", "body": "The time to fix a grade is before anything goes on top of it, which is why it comes first on a [sod job](/sod-installation/) or a [renovation](/landscape-renovation/). Fixing it later means pulling the new work back up." }
+      ]
+    },
+    {
+      "type": "grade",
+      "plane": "ink",
+      "eyebrow": "Why it matters",
+      "title": "Point the ground away from the house.",
+      "intro": "When the ground at a foundation is level or tips toward the house, rain gets sent at the basement wall. University of Minnesota Extension says to slope soil away from the foundation at least 1 inch per foot for at least 6 feet. University of Illinois Extension says a lawn's final slope should fall 1 to 2 percent away from buildings."
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "The numbers",
+      "title": "How much fall a yard needs.",
+      "intro": "These are published extension figures, and they work together: steeper beside the house, gentler across the lawn. The slider above uses 6 inches of fall over 10 feet, the common building code rule of thumb, and the extension figure beside the house asks for a little more. Your lot decides what fits, so Jake checks it on site.",
+      "columns": ["Beside the house", "Across the lawn", "At the downspout"],
+      "rows": [
+        {
+          "label": "Target",
+          "values": [
+            "At least 1 inch of fall per foot, for at least 6 feet",
+            "1 to 2 feet of fall per 100 feet",
+            "Water let out at least 4 feet beyond the wall"
+          ]
+        },
+        {
+          "label": "What it does",
+          "values": [
+            "Sends rain away from the foundation wall",
+            "Carries surface water off the lawn",
+            "Keeps roof water away from the foundation"
+          ]
+        },
+        {
+          "label": "If it falls short",
+          "values": [
+            "Add fill, tamped in layers",
+            "Cut the high spots and fill the low ones",
+            "Add an extender or splash block"
+          ]
+        },
+        {
+          "label": "Published by",
+          "values": [
+            "University of Minnesota Extension",
+            "University of Illinois Extension",
+            "University of Minnesota Extension"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "The job, start to finish",
+      "title": "Start with the water. **Finish with the grass.**",
+      "steps": [
+        { "title": "Find the water", "body": "Walk the yard with Jake: where water comes from, where it sits and where it can go. A photo from the last big storm helps, because a wet day shows more than a dry one." },
+        { "title": "Plan the path", "body": "Water has to end up somewhere, and the neighbor's yard is not the answer. The plan needs a path to a low point that can take it." },
+        { "title": "Clear the ground", "body": "Old grass, weeds and tired plants come off, so fill lands on soil and not on a dead mat. How that debris leaves goes on your estimate. Buried lines get marked before digging, and in Michigan that takes a MISS DIG 811 notice at least three business days ahead." },
+        { "title": "Cut and fill", "body": "High spots come down and low spots come up. Fill belongs in layers, tamped as it goes, because loose soil settles and brings the puddle back." },
+        { "title": "Set the fall", "body": "The final grade gets raked smooth, and the fall away from the house gets checked. Soil stays below the siding." },
+        { "title": "Cover it", "body": "Bare ground does not stay put. We finish with [sod](/sod-installation/), [new beds](/plant-installation/), [stone](/rock-and-stone-installation/) or [a low wall](/retaining-walls/) so the new grade holds." }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "ink",
+      "eyebrow": "Halfway through a job",
+      "title": "A machine moves the soil. A rake sets the finish.",
+      "body": [
+        "That is a bucket at the edge of this photo and a rake in his hands, and it takes both. The machine shifts the soil. The rake takes out the ruts and sets the last inches of fall, and that is the surface the rain will follow.",
+        "Timing counts too. Wet clay is easy to ruin, and University of Minnesota Extension says wet soils are particularly susceptible to compaction, so after a long rain the honest call can be to wait.",
+        "One thing to mention before digging: MISS DIG 811 does not mark private lines, like a sprinkler line or a power run to a shed. Tell Jake about any you know of."
+      ],
+      "photo": "grade-rake",
+      "flip": true
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Straight answers",
+      "title": "What grading can and cannot fix.",
+      "columns": 2,
+      "items": [
+        { "title": "Surface water", "body": "Puddles, soggy corners, soil that falls toward the house and rough ground before sod. University of Minnesota Extension says to fix the grade and the downspouts before anything underground, because that may solve the problem." },
+        { "title": "Close lots", "body": "St. Clair Shores zones its general one family lots at a 6,000 square foot minimum, so a tight lot may not have room for a full slope. Pushing water next door only starts a new problem, so the plan has to work inside the lot lines." },
+        { "title": "Big trees", "body": "Old trees take grade changes badly. Soil piled over the roots or equipment driven across them can hurt a mature tree, so near big trees the level should stay where it is. A big tree that truly has to come out is a tree company's job, not ours." },
+        { "title": "Wet basements", "body": "A better grade takes surface water away from the wall. Water still coming through a crack or up through the floor after that calls for a waterproofing contractor, and Jake will say so if that is what he sees." }
+      ]
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "What customers wrote",
+      "title": "Leveled, finished and left clean.",
+      "ids": ["rob-e", "stephen-d", "renee-g"]
+    }
+  ],
+  "faq": [
+    { "q": "Do you do yard grading in St. Clair Shores?", "a": "Yes. HD Landscape does yard grading in St. Clair Shores, its home base, and across Metro Detroit. Most points on the USDA soil map here come back poorly drained, on slopes mostly 0 to 2 percent, so a small mistake in a slope shows up as a puddle." },
+    { "q": "What is yard grading?", "a": "Yard grading is reshaping the surface of your yard so water runs away from the house instead of sitting in low spots. HD Landscape cuts high spots, fills low ones and smooths the ground, usually right before sod, beds or stone go in." },
+    { "q": "How much should a yard slope away from the house?", "a": "University of Minnesota Extension says at least 1 inch per foot for at least 6 feet from the foundation. Across the lawn, University of Illinois Extension says 1 to 2 feet of drop per 100 feet, which is a 1 to 2 percent slope. Your lot decides what is possible, and a walk of the yard with Jake settles it." },
+    { "q": "How do I know if my yard needs grading?", "a": "Watch it after a hard rain. Water that stands for more than a day or two, soil that slopes toward the house, soggy spots and mud washing onto the walk are all signs. Still not sure? Text a photo of the wet spot to [(586) 718-8762](sms:+15867188762) and ask Jake." },
+    { "q": "What is the difference between grading and leveling a yard?", "a": "Leveling smooths out bumps and dips. Grading sets the slope, so the surface falls in the right direction. A yard needs both, because it can be perfectly smooth and still drain toward the house." },
+    { "q": "Will regrading fix my wet basement?", "a": "It can help, and it is the right place to start. University of Minnesota Extension says to handle surface water with downspouts and grade before installing any below-grade drainage system, because those fixes may solve the problem. If water still comes through a crack or up through the floor, a waterproofing contractor is the next call. A sewer backup is a different problem: the St. Clair Shores master plan says the heavy rains of July and August 2016 overwhelmed the combined sewers and caused hundreds of basement backups, and no grade stops that." },
+    { "q": "Can I just add topsoil to the low spots?", "a": "For a shallow dip, sometimes. The usual mistake is a thick layer dropped on old grass, which buries a dead mat and leaves a soft spot. University of Illinois Extension's lawn guide calls for uniform subsoil and no depressions before sod goes down. The better way is to take off the old turf first and tamp the fill as it goes in, so the spot does not sink again." },
+    { "q": "When is a good time to regrade a yard in Michigan?", "a": "Any time the ground is workable and not soaked, from spring through fall. Digging and driving on wet clay compacts it, so after a long rain it may have to dry first. If sod is going on top, early fall is a nice fit, because cooler weather means less watering." },
+    { "q": "Does regrading near Lake St. Clair take a permit?", "a": "It can. Michigan says a soil erosion permit is generally required for earth work that disturbs an acre or more, or that sits within 500 feet of a lake or stream. St. Clair Shores runs its own soil erosion program, so the question goes to the city, not the county, and it should go before the first shovel." },
+    { "q": "How long does yard grading take?", "a": "Many lawns are finished in a day, depending on the grade. Bigger yards and jobs with a lot of soil to move take longer. One customer had his yard gutted, leveled and finished with new sod, pea gravel and plants in a single day. Jake can give you the timing once he has seen the ground." },
+    { "q": "Do you install sprinklers when you grade a yard?", "a": "No. We do not install sprinkler systems. If you already have one, show us the lines and heads before we start, because grading moves soil right where they sit." },
+    { "q": "How much does yard grading cost?", "a": "We do not print prices, because a few loads of fill in one low corner and a front yard cut down for new sod are very different jobs. The size of the yard, how much soil has to move and what goes on top set the number. The estimate is free, and it comes itemized so you can go through it line by line." }
+  ],
+  "quote": {
+    "title": "Show us the puddle.",
+    "lede": "Where does the water sit, and how long does it stay? A photo from the last big rain is a good start, and the itemized estimate costs nothing."
+  },
+  "summary": {
+    "title": "A new grade only holds if the work under it is right.",
+    "intro": "Here is the work that makes a new grade hold. Your estimate is itemized, so you can go through all of it line by line.",
+    "items": [
+      { "name": "Walk and plan", "detail": "Jake reads the yard and works out where the water can go." },
+      { "name": "Clear and locate", "detail": "Old turf cleared off, and buried lines marked before digging." },
+      { "name": "Cut and fill", "detail": "High spots cut and low spots filled in tamped layers." },
+      { "name": "Final slope", "detail": "Ground raked smooth, falling away from the foundation and kept below the siding." },
+      { "name": "Finish", "detail": "Ready for sod, beds or stone, so the new grade holds." }
+    ],
+    "footnote": "We handle surface water. We do not install sprinkler systems, and water coming through a basement floor or wall needs a waterproofing contractor."
+  }
+}

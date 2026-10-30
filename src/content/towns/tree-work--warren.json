@@ -1,0 +1,50 @@
+{
+  "service": "tree-work",
+  "city": "warren",
+  "meta": {
+    "title": "Tree Trimming in Warren, MI | HD Landscape",
+    "description": "Tree trimming and smaller removals in Warren, MI, on the house side of the walk, from HD Landscape. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Tree trimming and removal in Warren, MI",
+    "title": "Your side of the sidewalk, **cut right.**",
+    "lede": "In Warren, a tree between the walk and the curb belongs to the city. The one on the house side is yours. HD Landscape prunes those trees and takes down smaller ones, and Jake says early on when a job is too big for our crew.",
+    "chips": ["Pruning and smaller removals", "House side of the walk", "Free itemized estimates"],
+    "photo": "colonial-fall"
+  },
+  "local": {
+    "eyebrow": "Trees in Warren",
+    "title": "In Warren, the sidewalk decides who owns the tree.",
+    "intro": "Warren has been counting its trees. Macomb County has the third lowest tree cover of the seven southeast Michigan counties, the city's master plan says canopy has been shrinking, and the Urban Forestry Committee has been working through a tree inventory and a five year management plan. So a job starts with two things: which trees are yours, and which of those should stay.",
+    "points": [
+      { "title": "City tree or yours", "body": "The city says a tree in the strip along the curb is a city tree. DPW and its contractors trim those, and you report a damaged or sick one to Public Works. We work on the house side, and we leave the strip alone." },
+      { "title": "Trim before you take down", "body": "Warren does not have canopy to spare, and the master plan ties trees to flood control. If a healthy tree is just low or thick, we lift or thin it. If it is dead, in the wrong spot or too close to the house, Jake will say so." },
+      { "title": "Limbs over the walk", "body": "City code counts plants that encroach on public easements or cause safety concerns as overgrowth, and it names dead or hazardous trees and limbs too. We lift low limbs off walks and drives before they turn into a notice from the city." },
+      { "title": "Check the list before you replant", "body": "The Urban Forestry Committee has been reviewing a prohibited tree and shrub list, so ask the city for the current version before you replant. Its committee page points to the Michigan DNR's recommended trees, and we can [plant](/plant-installation/) from there." }
+    ]
+  },
+  "logistics": {
+    "title": "Warren's curb takes bundles, not trunks.",
+    "body": [
+      "Jake walks the tree with you, or starts from a photo you text him, and gives you a straight answer on whether it is a size we handle. He looks at the height, what is underneath it, and where the wires and the sidewalk are. The itemized estimate comes before any saw starts.",
+      "City curbside pickup takes branches only in tied bundles, four feet or shorter and under two inches thick, and it will not take logs, trunks or stumps. Your estimate covers how the wood gets off the lot, so it does not turn into your weekend. If you want the stump gone too, we can [grind it](/stump-grinding/) and put [sod](/sod-installation/) or a bed in its place.",
+      "Oaks run on their own calendar. The Michigan DNR says no pruning from April 15 to July 15, and the [safest months for oak work](/tree-trimming-and-removal/) run into winter, when Jake works South Florida. So ask early, and he will say whether he can get to your oak or who can."
+    ],
+    "facts": [
+      { "label": "City trees", "value": "Report problems to Public Works" },
+      { "label": "Oaks", "value": "No pruning April 15 to July 15" },
+      { "label": "Curbside branches", "value": "Tied bundles, four feet or shorter" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "shade-lawn",
+  "faq": [
+    { "q": "Do you do tree trimming in Warren?", "a": "Yes. HD Landscape trims trees and takes down smaller ones in Warren, and it is a city we work in often. We stay on the house side of the sidewalk, since the strip along the curb belongs to the city." },
+    { "q": "Who owns the tree in front of my house in Warren?", "a": "The sidewalk settles it. The city says a tree between the walk and the curb is a city tree, and you report problems with it to Public Works. A tree on the house side of the sidewalk is the homeowner's, and that is the kind we trim and take down." },
+    { "q": "Do you cut down big trees?", "a": "No. Our crew prunes trees and takes down smaller ones. A big removal, especially close to a house, a garage or wires, gets subbed out to a tree company, and you still only have to call Jake. The first walk settles which kind of job you have." },
+    { "q": "Can Warren make me deal with a dead tree or a low limb?", "a": "Possibly. The city's noxious weed and rubbish ordinance names dead or hazardous trees and limbs in its purpose, and it treats plants that encroach on public easements as overgrowth. The city is the one to confirm what applies to your tree. If you have a notice, send Jake a photo of it and the tree, and he can say what it will take." },
+    { "q": "Should I take down a healthy tree because of the leaves?", "a": "We would usually talk you out of it. The city is short on shade, and the master plan ties trees to reducing flooding. Leaves go in the compost cart or paper bags from April 1 to December 1, and they cannot be raked into the gutter. If the real problem is a limb on the roof or a tree too close to the house, that is a different talk, and we are happy to have it." },
+    { "q": "A tree planted with my house has outgrown the lot. What are my options?", "a": "Start with what it is actually doing wrong. More than a third of Warren homes date to the 1960s, so a tree planted back then has had about 60 years to grow. If a limb is on the roof or over the walk, pruning may be enough, and we keep it light. If the tree is crowding the foundation, taking it out and replanting farther away is usually better. Anything near the wires is beyond our crew, and Jake can say if the rest is a size we can handle." }
+  ],
+  "reviews": ["anne-j", "stephen-d", "amanda-h"]
+}

@@ -1,0 +1,123 @@
+{
+  "service": "plant-installation",
+  "meta": {
+    "title": "Plant Installation in St. Clair Shores, MI | HD Landscape",
+    "description": "HD Landscape sets trees, shrubs and perennials at the right depth in the right spot. Based in St. Clair Shores, serving Metro Detroit. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Plant installation in St. Clair Shores, MI and across Metro Detroit",
+    "title": "The right depth, **in the right place.**",
+    "lede": "HD Landscape plants trees, shrubs and perennials picked for your light and soil, sets the root flare level with the ground, then mulches and waters them in. After that, Jake calls to see how it went and to walk you through watering each plant.",
+    "chips": ["Picked for your light and soil", "Root flare at ground level", "Follow up call from Jake"],
+    "photo": "tudor-planting"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Why planting fails",
+      "title": "The part you cannot see **is the part that counts.**",
+      "body": [
+        "Plant installation is the work of getting trees, shrubs and perennials out of the pot or burlap and into your yard so they last. The planting is what everyone sees. What decides how it turns out is underground, where nobody will look again once the mulch is down.",
+        "Michigan State University Extension is plain about it: a tree planted too deep or too shallow has a shorter life. The answer is to find the root flare, the spot where the trunk widens into the roots, and set it level with the ground. That adds a little time to every plant, and it is the one mistake you cannot fix later without digging the plant back up. Good planting looks like this:"
+      ],
+      "checks": [
+        "Root flare set level with the ground",
+        "Holes dug at least twice as large as the root ball",
+        "Filled back with the same soil that came out",
+        "Twine removed, and burlap off or at least cut away from the top",
+        "Two to three inches of mulch, kept back from the trunk",
+        "A good soak right after planting"
+      ],
+      "photo": "limestone-bed"
+    },
+    {
+      "type": "compare",
+      "plane": "ink",
+      "eyebrow": "Why depth matters",
+      "title": "Too deep is **the quiet mistake.**",
+      "intro": "MSU Extension lists wilting, stunted growth, dieback and early fall color among the signs of a tree planted too deep. You can often spot it from the sidewalk: the trunk goes into the ground like a fence post, with no flare at the base.",
+      "columns": ["Too deep", "The right depth", "Too shallow"],
+      "highlight": 1,
+      "rows": [
+        { "label": "Root flare", "values": ["Buried below the soil line", "Level with the ground, where you can see it", "Sitting up above the soil line"] },
+        { "label": "Roots", "values": ["Less water and oxygen reach the fine roots", "Free to grow down and out into the soil", "Too high, with nowhere to spread"] },
+        { "label": "Over time", "values": ["Decline and a shorter life", "The life the plant should have", "A shorter life than it should have"] }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "The order of the work",
+      "title": "From first walk to first watering.",
+      "steps": [
+        { "title": "Walk the yard", "body": "Jake looks at where the sun lands, how the ground drains and what is already growing. Then he tells you what will do well there, and what will not." },
+        { "title": "Set the plan", "body": "What goes where ends up on an itemized estimate you can go through line by line." },
+        { "title": "Check the lines", "body": "Buried utility lines get marked before digging. Michigan requires notice to MISS DIG 811 at least three business days ahead, on any project of any size or depth." },
+        { "title": "Dig and set", "body": "Each hole goes in wide. Twine comes off, the root flare goes level with the ground and the same soil goes back around the roots." },
+        { "title": "Mulch and water", "body": "[Mulch](/mulching/) goes down two to three inches deep, pulled back from every trunk. Everything gets a good soak, and the pots, tags and loose soil get picked up." },
+        { "title": "Jake calls", "body": "After the crew leaves, Jake calls to ask how it went and to explain watering each plant. If you would rather not keep track, [we can do the watering](/plant-watering/)." }
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Right plant, right place",
+      "title": "We plant for **the yard you actually have.**",
+      "intro": "MSU Extension's advice is to look at sun, soil and drainage before you buy anything. Here is what that means in St. Clair Shores and the towns around it.",
+      "columns": 3,
+      "items": [
+        { "title": "Sun and shade", "body": "Count the hours of full, uninterrupted sun the spot really gets. A plant that wants sun all day will sulk on the north side of a brick house." },
+        { "title": "Heavy soil", "body": "MSU Extension's Macomb County office describes the lower part of the county as almost all poorly drained soil, mostly clay. See how the spot drains before choosing plants. If water sits there, [grading](/yard-grading/) comes first." },
+        { "title": "Room to grow", "body": "Plants get bigger than the pot suggests. MSU Extension says to check the mature height on the plant tag against the spot. Mature width matters too, so nothing ends up fighting the gutters." },
+        { "title": "Wind off the lake", "body": "Strong wind dries out evergreen needles, and roots cannot replace that water once the ground freezes. On a yard open to Lake St. Clair, keep tender evergreens off the open side and give them a good watering before the freeze." },
+        { "title": "Salted roads", "body": "Lake St. Clair is fresh water, so the salt in St. Clair Shores comes off the road. Plants facing Jefferson, Harper or the freeway take the spray, and the side nearest the road is where it shows. Salt injury is common on white pine near major Michigan roads, so keep one well back from the curb." },
+        { "title": "Yards with history", "body": "St. Clair Shores grew fast after World War II, and plenty of yards here still have old roots and old shrubs in the way. What still looks good can stay, and [the rest can come out](/plant-removal/) before anything new goes in." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "plane": "ink",
+      "eyebrow": "Real jobs",
+      "title": "Planting from our own jobs.",
+      "intro": "Photos from Jake's own jobs, not a stock library.",
+      "photos": ["maple-rock-bed", "thrift-boulder", "weeping-border", "lakeside-bed", "patio-bed", "window-planter"]
+    },
+    {
+      "type": "reviews",
+      "plane": "paper",
+      "eyebrow": "Reviews on Google",
+      "title": "What people say after the crew leaves.",
+      "ids": ["meagan-m", "amanda-h", "anne-j"]
+    }
+  ],
+  "faq": [
+    { "q": "Do you do plant installation in St. Clair Shores?", "a": "Yes. HD Landscape plants trees, shrubs and perennials in St. Clair Shores, where the business is based, and across [Macomb, Oakland and Wayne counties](/service-areas/). On city water, the city's odd and even irrigation days run from May 15 to October 1, but newly planted trees, shrubs and bushes can get water as often as they need for the first 21 days. Ask the city for the current rule." },
+    { "q": "How deep should a tree or shrub be planted?", "a": "Plant it so the root flare, the place where the trunk widens into the roots, sits level with the ground. That is the guidance from Michigan State University Extension. Deeper is not safer: planting too deep cuts down the water and oxygen reaching the fine roots." },
+    { "q": "How can I tell if my tree was planted too deep?", "a": "Look at the bottom of the trunk. If it goes into the ground like a fence post, with no change in width at the soil, it may be too deep. MSU Extension suggests digging gently with your fingers close to the trunk and looking for large roots in the top 1 to 2 inches of soil." },
+    { "q": "When can you plant trees and shrubs in Michigan?", "a": "Spring and early fall are the two good windows. MSU Extension calls early fall through mid October a good time for new trees and shrubs. Summer planting works too, it just asks for more water. We plant through the season, as long as the ground is workable." },
+    { "q": "How often should I water new trees and shrubs?", "a": "MSU Extension's guidance is a good watering right after planting, then once a week for the first two months, then about every two weeks for the rest of the summer unless it turns hot and dry. Jake will go over a plan for your plants, and we offer [plant watering](/plant-watering/) if you would rather hand it off." },
+    { "q": "Do you plant trees, or only shrubs and flowers?", "a": "We plant trees, shrubs and perennials, on their own or as part of a bigger [landscape renovation](/landscape-renovation/). Tell us what you have in mind and Jake can say what should do well in that spot." },
+    { "q": "Can you take out the old bushes and plant new ones?", "a": "Yes. That is often the job: [old plants out](/plant-removal/), roots and all, then new ones in. The size of the bed sets how long it takes, and Jake can give you a timeline when he walks it." },
+    { "q": "Do I need a landscape design before you plant?", "a": "Not for a few plants. If you are redoing a whole bed or the front of the house, a [landscape design](/landscape-design/) is worth doing first, so the plants, stone and lines all work together." },
+    { "q": "Does someone have to call MISS DIG before planting?", "a": "Yes. Michigan requires notice to MISS DIG 811 at least three business days before digging, on any project regardless of size or depth. When a contractor does the work, that call is the contractor's responsibility. MISS DIG does not mark private lines like sprinkler pipes or invisible dog fences, so tell us if you have them." },
+    { "q": "Do you install sprinklers with new plants?", "a": "No. We do not install sprinkler systems or irrigation. New plants still need water, so Jake will go over a plain plan with you, and we can [water them for you](/plant-watering/) while they settle in." },
+    { "q": "How much does plant installation cost?", "a": "One shrub and a full foundation bed are very different numbers. Plant size and count, how much digging the spot needs and whether anything has to come out first all move it. Jake will look at the spot for free and put each piece on an itemized estimate." }
+  ],
+  "quote": {
+    "title": "Tell us what you want planted.",
+    "lede": "One tree or a whole bed, tell us what you have in mind and where it is going. Text a photo if that is easier, and Jake will come back with an itemized estimate."
+  },
+  "summary": {
+    "title": "Planting comes down to depth, soil and water.",
+    "intro": "Here is the work that helps new plants settle in and last. All of it is spelled out on your estimate, so you can see what you are paying for.",
+    "items": [
+      { "name": "Plant choice", "detail": "Trees, shrubs and perennials picked for your light, soil and space." },
+      { "name": "Proper planting", "detail": "Wide holes, root flare level with the ground, the same soil back in." },
+      { "name": "Mulch", "detail": "Two to three inches, kept back from trunks and stems." },
+      { "name": "Watering", "detail": "A good soak to finish, then a plain plan from Jake, or we water for you." },
+      { "name": "Clean site", "detail": "Pots, tags and loose soil picked up, and the job left clean." }
+    ],
+    "footnote": "We do not install sprinkler systems or irrigation. If you want a system, have it put in first and we will plant around it."
+  }
+}

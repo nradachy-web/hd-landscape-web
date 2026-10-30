@@ -1,0 +1,54 @@
+{
+  "city": "mount-clemens",
+  "meta": {
+    "title": "Landscaping in Mount Clemens, MI | HD Landscape",
+    "description": "HD Landscape plants, trims and rebuilds Mount Clemens yards, from older homes near Cass to ranches on deep lots south of the river. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Mount Clemens, MI",
+    "title": "Once the Rose Capital. **Still worth digging.**",
+    "lede": "On an older Mount Clemens lot, the first question is what to keep. HD Landscape plants, trims and rebuilds yards here, from the homes near Cass and the tree lined grid streets to the deep lots south of the Clinton River.",
+    "chips": ["Older homes, older beds", "Trim, plant, renovate", "Free, itemized estimates"],
+    "photo": "tudor-planting"
+  },
+  "about": {
+    "eyebrow": "Yards in Mount Clemens",
+    "title": "A town built in layers, **and so are its yards.**",
+    "body": [
+      "Mount Clemens was laid out in 1818, and its master plan reads like a tour of housing booms. Grand homes line Cass Avenue, built for the people who ran the mineral bath trade. The streets north and south of Cass hold the city's largest share of homes from before 1939. South of the Clinton River, the southwest corner has 1950s and 1960s ranches on deep lots. East of Gratiot and Main, modest bungalows are the rule.",
+      "Each of those is a different job. An older lot starts with what to keep, because a good tree or a well placed shrub can be worth more than anything we could plant in its place. A deep ranch lot has yard to spare, and a bungalow may have one small front bed that has to count.",
+      "This was once known as the Rose Capital of the United States, with ten major growers and more than 30 acres under glass. We are not promising to bring that back. We just like planting in a town with that on its resume."
+    ],
+    "points": [
+      { "title": "Soil that changes across town", "body": "USDA maps show sandy loam and loam through the center and west side, easier going than the heavy clay closer to the lake, though most of it is still rated somewhat poorly drained. Heavier ground shows up to the east and northeast, and the city's plan notes that old industrial land can be imported fill. Dig a hole or two before choosing plants." },
+      { "title": "A river with a flood zone", "body": "The Clinton River runs through the heart of town, and the master plan maps a 100 year flood zone along its bends. Most storm water here runs through catch basins to the river. On a river lot, ask about the flood zone before any [grading](/yard-grading/), and keep soil and leaves out of the drains." },
+      { "title": "The strip by the street takes permission", "body": "The space from the sidewalk to the street is public way. To plant, trim, remove or change anything there, homeowners need an okay from the Director of Public Services, and the city wants a sketch and an inspection. Curb plantings are still doable, as long as the okay comes first." },
+      { "title": "Hedges at corners and driveways", "body": "City zoning holds shrubs and fences to 36 inches near street corners and driveways so drivers can see. In a single family district, a new hedge or wall also goes past the Community Development Director. When we [trim an old corner hedge](/hedge-trimming/), the sight line matters as much as the shape." }
+    ],
+    "photo": "evergreen-island"
+  },
+  "logistics": {
+    "title": "The city will not take our branches, **so we do.**",
+    "body": [
+      "One city rule shapes every trimming job. The Mount Clemens brush flyer says branches from private contractor work will not be collected, so what we cut goes on our truck. If a bigger project needs a dumpster, the city requires a permit, and the container cannot sit in the street, block a sidewalk or crowd a corner.",
+      "The rest starts with sorting what stays from what goes, and on a mature lot that walk with Jake is half the value. Then it goes on paper, itemized, and you can see what each part of the job comes to before you say yes.",
+      "These are grid streets with sidewalks and close neighbors, so we keep walks clear as we go. In the fall the city asks people not to rake or blow leaves into the street, and never into a storm drain. For a [fall cleanup](/spring-and-fall-cleanups/), the estimate says how those leaves come off your property."
+    ],
+    "facts": [
+      { "label": "Corner hedges", "value": "36 inches at most near corners and drives" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "City brush pickup", "value": "Not for contractor branches" },
+      { "label": "Not included", "value": "Sprinklers and aeration" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you work in Mount Clemens?", "a": "Yes. HD Landscape works in Mount Clemens on older homes, deep ranch lots and small bungalow beds. We do [landscape renovation](/landscape-renovation/), [plant removal](/plant-removal/), [hedge trimming](/hedge-trimming/), [tree trimming](/tree-trimming-and-removal/), [mulching](/mulching/) and cleanups. Our home base is a short drive away in St. Clair Shores." },
+    { "q": "Can I plant a tree in the strip by the street in Mount Clemens?", "a": "Yes, with the city's permission. The Tree Permit Form asks for your plan and a sketch, and the work gets inspected. The city suggests elm, ginkgo, honey locust, linden, oak, sycamore and maple other than soft maple. It lists box elder, cottonwood, mulberry, silver maple, willow and others as trees not to plant in that strip. Check the current form before you buy a tree." },
+    { "q": "Will Mount Clemens pick up branches after a contractor trims my trees?", "a": "No. The city's brush and branch flyer says branches from private contractor work will not be collected. Its free pickup and chipping runs twice a year, spring and fall. When we do the [trimming](/tree-trimming-and-removal/), the branches go on our truck, so there is nothing to stack at the curb. We handle trimming and smaller trees, and a tree company takes on the big removals." },
+    { "q": "Do I need approval to landscape a historic home in Mount Clemens?", "a": "Usually not from the Historic District Commission. The city's historic district ordinance describes one district, the Grand Trunk Depot, so an older house near Cass is not under the commission just because of its age. You may still need the city for work in the strip by the street, or for a new fence, hedge or wall. Confirm your address with the city before you change anything permanent." },
+    { "q": "Would a second water meter help with new sod in Mount Clemens?", "a": "It might. The city lets any water and sewer customer add a second meter for water going to a sprinkler system or outside spigot, so sewer is not billed on that water. It takes a permit and plumbing work, and the city tells customers to work out whether it pays off. We do not install meters or sprinklers. We lay the [sod](/sod-installation/) and give you a plain watering plan." },
+    { "q": "Can you save an overgrown bed at an older home?", "a": "Usually, yes. Around Cass, a bed may have been replanted by several owners, so a good shrub can be hiding behind a bad one. We sort what is healthy from what has outgrown the spot, [take out the rest](/plant-removal/) roots and all, and reset the bed with fresh soil, plants and mulch. If the whole front needs rethinking, that is a [renovation](/landscape-renovation/), and you will hear so on the walk." }
+  ],
+  "reviews": ["nancy-g", "stephen-d", "billy-w"],
+  "neighbors": ["clinton-township", "harrison-township", "chesterfield-township", "st-clair-shores"]
+}

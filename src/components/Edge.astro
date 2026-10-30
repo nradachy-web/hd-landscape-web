@@ -1,0 +1,56 @@
+---
+/* Where two planes meet they meet on a cut bed line, not a straight rule: the
+   hand cut curve that runs through Jake's work. A thin line rides the cut, like
+   steel edging. Decorative, so it stays out of the accessibility tree.
+
+   `to` is the plane below the line. Sits at the bottom of the band above it. */
+interface Props {
+  to?: 'paper' | 'white' | 'ink';
+  flip?: boolean;
+}
+const { to = 'paper', flip = false } = Astro.props;
+---
+
+<svg class:list={['edge', `edge--${to}`, flip && 'edge--flip']} viewBox="0 0 1440 72" preserveAspectRatio="none" aria-hidden="true" focusable="false">
+  <path class="edge__fill" d="M0 72V46C160 16 340 6 560 22s400 48 620 34c100-6 190-24 260-44v60z" />
+  <path class="edge__line" d="M0 46C160 16 340 6 560 22s400 48 620 34c100-6 190-24 260-44" />
+</svg>
+
+<style>
+  .edge {
+    position: absolute;
+    inset: auto 0 -1px;
+    z-index: 3;
+    width: 100%;
+    height: clamp(1.75rem, 4.6vw, 4.25rem);
+    pointer-events: none;
+  }
+
+  .edge--flip {
+    transform: scaleX(-1);
+  }
+
+  .edge__fill {
+    fill: var(--paper);
+  }
+
+  .edge--white .edge__fill {
+    fill: var(--white);
+  }
+
+  .edge--ink .edge__fill {
+    fill: var(--ink);
+  }
+
+  .edge__line {
+    fill: none;
+    stroke: var(--leaf);
+    stroke-width: 1.5;
+    vector-effect: non-scaling-stroke;
+    opacity: 0.75;
+  }
+
+  .edge--ink .edge__line {
+    stroke: var(--leaf-ink);
+  }
+</style>

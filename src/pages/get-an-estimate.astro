@@ -1,0 +1,20 @@
+---
+/* The form alone, for buttons on pages without a quote band. On a phone the form
+   is the first thing after the title. No sticky bar: this page IS the action. */
+import Base from '../layouts/Base.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import { breadcrumbs } from '../lib/schema';
+
+const path = '/get-an-estimate/';
+---
+
+<Base
+  title="Get a Free Landscaping Estimate | HD Landscape"
+  description="Tell us about your yard and Jake will take a look. Free, itemized estimates across Metro Detroit, from Grosse Pointe to Birmingham."
+  path={path}
+  bare
+  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Free estimate', path }])]}
+>
+  <h1 class="sr">Get a free landscaping estimate from HD Landscape</h1>
+  <QuoteBand eyebrow="Free estimate" title="Tell us about the yard." lede="It takes a minute. Jake reaches out, then walks it with you and writes an itemized estimate, with no pressure either way." />
+</Base>

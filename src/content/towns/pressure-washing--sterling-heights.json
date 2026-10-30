@@ -1,0 +1,49 @@
+{
+  "service": "pressure-washing",
+  "city": "sterling-heights",
+  "meta": {
+    "title": "Pressure Washing in Sterling Heights, MI | HD Landscape",
+    "description": "Pressure washing for Sterling Heights, MI walks, patios and pavers, with care for old concrete and the storm drains. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Pressure washing in Sterling Heights, MI",
+    "title": "Fifty years on the walk. **One careful wash.**",
+    "lede": "About half the homes in Sterling Heights date to the 1960s and 1970s, and many of their walks and patios do too. Old concrete wants a wide spray at a low angle, and the rinse water needs a better place to go than the storm drain. HD Landscape washes with both in mind.",
+    "chips": ["Walks, patios and pavers", "A light hand on old concrete", "Storm drains in mind"],
+    "photo": "urn-bed"
+  },
+  "local": {
+    "eyebrow": "Pressure washing in Sterling Heights",
+    "title": "What a Sterling Heights walk has been through.",
+    "intro": "This city went up fast, on flat ground, with storm drains at the curb that lead straight to local waterways. That shapes how a wash should go here, from the pressure we choose to where the rinse water ends up.",
+    "points": [
+      { "title": "Old concrete gets a lighter hand", "body": "Walks and patios poured in the boom years have had decades of Michigan winters. Uneven passes can leave wand marks on any concrete, so the spray should stay steady, and a small, out of the way spot is the place to find the right pressure." },
+      { "title": "The drain at the curb", "body": "The city tells residents that storm drains lead directly to lakes and streams, and that dirty or soapy water should never go down them. So a wash here should start with a broom, go easy on any cleaner and send the runoff toward the grass where it can." },
+      { "title": "Flat yards do not shed water", "body": "Much of the city is nearly level, and parts of the south and west sit on heavy clay. Rinse water can pool, and those same damp spots are where green tends to come back. If a low spot is the cause, we will show you, and [grading](/yard-grading/) may help." },
+      { "title": "New flags next to old ones", "body": "The city replaces hazardous sidewalk every year under its sidewalk program. A new flag beside a 50 year old one will not match, even after a wash. A wash can narrow the gap, and we will tell you what to expect." },
+      { "title": "More sun, less moss", "body": "Tree canopy here covers about 19 percent of the city, so plenty of surfaces get full sun. The film on them is often dirt and weather, not moss. Green tends to stick to the shady north side and the ground under a downspout." }
+    ]
+  },
+  "logistics": {
+    "title": "On a Sterling Heights wash day, the water gets a plan too.",
+    "body": [
+      "It starts with a look at the surface, the joints and the stains. Text Jake a photo if that is easier. Loose items should come off the surface first, and a sweep before the wash keeps the dirt out of the street. Once it dries, worn joints are easy to spot, and pavers may need fresh [polymeric sand](/polymeric-sand/).",
+      "HD Landscape serves residential and commercial properties, so send a photo of a storefront walk too. If you live in a condo, find out who controls the walks and patios before you book. Sometimes that is the association."
+    ],
+    "facts": [
+      { "label": "We wash", "value": "Walks, patios and pavers" },
+      { "label": "Other surfaces", "value": "Send Jake a photo first" },
+      { "label": "Storm drains", "value": "No dirty or soapy water" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "paver-walk",
+  "faq": [
+    { "q": "Do you do pressure washing in Sterling Heights?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in Sterling Heights. For any other surface, send Jake a photo and he will tell you if we can take it on. Call or text [(586) 718-8762](tel:+15867188762) for a free itemized estimate." },
+    { "q": "Can pressure washing water go down the storm drain in Sterling Heights?", "a": "Dirty or soapy water should not. Sterling Heights says storm drains lead directly to lakes and streams, and it warns that hosing a driveway sends pollutants into them. Sweep first, keep any cleaner out of the drain and aim the runoff at the lawn. The same goes if you wash your own walk." },
+    { "q": "Can you clean an old concrete patio without damaging it?", "a": "Usually, with some care. Many patios in Sterling Heights date to the 1960s and 1970s, and older concrete can be worn at the surface. The wash should start at low pressure on a small spot, with even passes. If a surface is already flaking or crumbling, we will tell you before going any further." },
+    { "q": "Will a wash make my new sidewalk flags match the old ones?", "a": "Not exactly. New concrete is lighter than concrete that has weathered for decades, and the color takes time to even out. Washing the old flags can bring them closer. If a flag is brand new, keep deicers off it too, since the city recommends that for about two years." },
+    { "q": "Why does green keep coming back on one part of my walk?", "a": "Usually because that spot stays damp. With tree canopy at about 19 percent, most paving in Sterling Heights gets plenty of sun, so green tends to stick to shady north sides, the ground under a downspout and low spots that hold water. A wash clears it, but it can return if the spot stays wet." }
+  ],
+  "reviews": ["mark-r", "marie-b"]
+}

@@ -1,0 +1,134 @@
+{
+  "service": "plant-watering",
+  "published": "2026-10-30",
+  "meta": {
+    "title": "How to Water New Plants and New Sod in Michigan | HD Landscape",
+    "description": "New trees and shrubs need a slow soak about once a week. New sod needs water, usually every day, until it roots. A plain Michigan schedule."
+  },
+  "title": "How to water new plants **and new sod.**",
+  "lede": "New trees and shrubs want a slow, deep soak about once a week. New sod wants steady water, usually every day, until it roots. Here is the plain schedule for a Michigan yard, and how to tell when you are giving too much.",
+  "photo": "sod-backyard",
+  "short": [
+    "**New trees and shrubs:** soak them at planting, then once a week for two months, then about every two weeks through summer unless it turns hot and dry.",
+    "**New sod:** keep it moist all the way through, usually with water every day, until it roots and you cannot lift a corner.",
+    "**How much:** at least one inch of water a week is the usual rule of thumb. In extreme heat the demand can approach two inches.",
+    "**Check the soil first.** Too much water hurts new roots too, and clay stays wet longer than most people think.",
+    "**Keep it up.** Trees and shrubs need attention for two years, and evergreens need water in a dry fall until the ground freezes."
+  ],
+  "sections": [
+    {
+      "h": "Trees want a weekly soak. Sod wants water every day.",
+      "p": [
+        "Here is how often each kind of new planting needs water in a normal Michigan season. The tree and shrub schedule is general guidance from Michigan State University Extension, and the sod line follows its sod bulletin for the days after a [sod installation](/sod-installation/)."
+      ],
+      "table": {
+        "head": ["New planting", "How often", "How long"],
+        "rows": [
+          ["Trees and shrubs, spring planted", "A good soak at planting, weekly for two months, then about every two weeks", "Two years matter, the first year most"],
+          ["Trees and shrubs, summer planted", "Often more than the spring schedule. Check the soil", "Two years matter, the first year most"],
+          ["New sod", "Usually every day until it roots", "Until you cannot lift a corner"],
+          ["Raised beds", "Check more often. They lose water faster than the ground", "Through dry weather while plants settle in"],
+          ["Pots and hanging baskets", "Usually daily in summer. They dry out fast", "As long as they are outside"],
+          ["Evergreens in fall", "Whenever rain falls short of an inch a week", "Until the ground freezes"]
+        ],
+        "note": "Rain, heat and your soil all change these. A wet week needs less and a heat wave needs more, so treat this as a starting point."
+      },
+      "after": [
+        "MSU Extension wrote that tree and shrub schedule for spring planting, so a plant that goes in during a hot summer can need more. University of Minnesota Extension starts tighter: daily for the first week or two, every two to three days through week 12, then weekly. If your soil dries out between soaks, lean toward that schedule. The soil gets the last word either way."
+      ]
+    },
+    {
+      "h": "How to water a new tree or shrub",
+      "p": [
+        "Water slowly at the base of the plant until the soil around the roots is wet. MSU Extension says newly planted trees and shrubs are highly susceptible to drought, so the goal is water that reaches the roots, not a wet surface."
+      ],
+      "list": [
+        "**Put it on the soil.** Water the ground under the plant, not the leaves.",
+        "**Go slow.** If water starts running off, stop, let it soak in, then go back.",
+        "**Think in inches.** At least one inch of water a week is the usual rule of thumb. In extremely hot weather that demand can approach two inches.",
+        "**Water in the morning** when your schedule and your town allow it.",
+        "**Count the rain.** A wet week does not need what a dry one does.",
+        "**Keep the mulch on.** Two to three inches of [mulch](/mulching/) holds moisture in the ground. Keep it pulled back from the trunk."
+      ],
+      "after": [
+        "Stay with it for two years. MSU Extension calls the first two years after planting critical to the long term survival of most trees and shrubs, and the first year matters most. That is two summers of remembering the hose."
+      ]
+    },
+    {
+      "h": "How to water new sod",
+      "p": [
+        "Keep new sod moist all the way through until it roots, which usually means watering every day at first. The weather decides how much. Spring and early fall are the easiest times, because cooler weather means less watering. Summer sod works too, it just needs more water."
+      ],
+      "list": [
+        "**Test for roots.** Try to lift a corner. Once you cannot, the sod has rooted and the daily watering can ease off.",
+        "**Stay off it.** Keep foot traffic off for the first couple of weeks while the roots take.",
+        "**Hold off on the mower.** Once it has rooted, it is ready for a first mow on a high setting.",
+        "**Watch for soggy spots.** Sod on poorly graded clay stays soggy. If one area stays wet while the rest dries, water it less and look at the [grade](/yard-grading/).",
+        "**Plan for shade.** A shady corner dries slower than full sun, so it should not get the same schedule."
+      ],
+      "after": [
+        "You do not need an in-ground system for this. A hose and a portable sprinkler do the job. We do not install or repair sprinkler systems. If daily watering does not fit your life, we can [do it for you](/plant-watering/) while it roots.",
+        "Timing matters as much as the hose. Here is [when to lay sod in Michigan](/journal/when-to-lay-sod-in-michigan/), with the full schedule from MSU Extension."
+      ]
+    },
+    {
+      "h": "How to tell too much water from too little",
+      "p": [
+        "Check the soil before you water, every time. Push a finger or a trowel into the soil beside the plant. If it is still wet, skip the hose and check again tomorrow.",
+        "Too much water hurts new plants too. Roots need oxygen, and soil that stays soaked cuts it off. MSU Extension also warns that overly wet soil raises the risk of root rot."
+      ],
+      "table": {
+        "head": ["What you see", "What it may mean", "What to do"],
+        "rows": [
+          ["Droop in the heat of the day, fine by evening", "Normal", "Nothing yet"],
+          ["Leaves still drooping in the evening", "The plant is struggling", "Check the soil, then decide"],
+          ["Wilting, and the soil is dry", "Not enough water", "Soak it slowly and check again tomorrow"],
+          ["Wilting, and the soil is wet", "Too much water", "Stop watering and let the soil dry partway"],
+          ["Water running off the surface", "It is going on too fast", "Stop, let it soak in, then go back"],
+          ["Wilting that watering does not fix", "Possibly planted too deep", "Look for the root flare at the soil line"]
+        ],
+        "note": "MSU Extension lists wilting, stunted growth, dieback and early fall color among the signs of a tree planted too deep."
+      },
+      "after": [
+        "The root flare is the place where the trunk widens into the roots. If the trunk goes into the ground like a fence post, the tree may be too deep, and more water will not help. Here is how we handle [plant installation](/plant-installation/)."
+      ]
+    },
+    {
+      "h": "Clay and sand need opposite habits",
+      "p": [
+        "Clay is common across this part of Michigan, and it drains slowly. MSU Extension describes the lower part of Macomb County as almost all poorly drained soil, mostly clay. On that ground, water less often and always check first.",
+        "Sand goes the other way. MSU Extension notes that sandy soils drain faster and hold less water than clay. Much of Grosse Pointe Shores is sand over clay, and much of Franklin is loamy fine sand, so new plants there can dry out sooner and may need water more often.",
+        "Raised beds dry out quicker too. University of Minnesota Extension says they act like containers, and that the taller the bed, the more often it needs water."
+      ]
+    },
+    {
+      "h": "Keep going into fall",
+      "p": [
+        "Evergreens still need water in a dry fall. MSU Extension says a dry autumn can leave them short of stored moisture going into winter, and once the ground freezes the roots cannot take up more."
+      ],
+      "list": [
+        "Water when rain falls short of an inch a week.",
+        "Put it on the soil under the dripline, not on the needles.",
+        "Dig down a few inches with a trowel first. If the soil is moist, skip it.",
+        "Keep it up until the ground freezes."
+      ],
+      "after": [
+        "It is one of the last jobs on our [fall cleanup checklist](/journal/fall-cleanup-checklist-michigan/)."
+      ]
+    },
+    {
+      "h": "Check your town's watering rules",
+      "p": [
+        "Some towns limit when automatic systems can run, and hoses can be treated differently. Troy limits sprinkler systems on city water to overnight hours, and says garden hoses and hand watering are not affected. Grosse Pointe Shores goes further. From May 15 to October 15 it bars even hose watering from 6 to 10 a.m., and it gives newly seeded or sodded lawns a separate allowance for their first 21 days. Rules change, so look up your own town's before you set a timer."
+      ]
+    },
+    {
+      "h": "When to hand off the hose",
+      "p": [
+        "Hand it off when the schedule is more than your week can hold. We water for fresh installs, vacations and everyday life. Done right, that means checking the soil first, putting the water on the ground under the plant and adjusting when the weather changes. Here is how our [plant watering service](/plant-watering/) works.",
+        "If we did the planting, Jake calls after the job to go over how much water each plant needs, so you are not guessing.",
+        "We do not do lawn aeration or sprinkler work, so those go to someone else. To set up watering, call or text [(586) 718-8762](tel:+15867188762)."
+      ]
+    }
+  ]
+}

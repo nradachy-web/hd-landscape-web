@@ -1,0 +1,53 @@
+{
+  "city": "warren",
+  "meta": {
+    "title": "Landscaping in Warren, MI | HD Landscape",
+    "description": "Grading, sod, beds and hedges for Warren, MI yards, from bungalows near 8 Mile to brick ranches farther north. Free itemized estimates from HD Landscape."
+  },
+  "hero": {
+    "kicker": "Landscaping in Warren, MI",
+    "title": "A yard on **an old lake bed.**",
+    "lede": "Water does not leave a Warren yard by itself. This is flat ground left by a glacial lake, and most of the homes went up in the 1950s and 1960s, so HD Landscape moves the water, clears out what outgrew the house and puts in beds and sod that suit the lot.",
+    "chips": ["Water moved off flat lots", "Overgrown beds reworked", "Bungalows and brick ranches"],
+    "photo": "curve-fall"
+  },
+  "about": {
+    "eyebrow": "Yards in Warren",
+    "title": "Near 8 Mile or farther north, **the lot sets the job.**",
+    "body": [
+      "Warren yards follow two patterns, and the city's master plan draws the line. Along the Detroit border, the older homes from the 1930s and 1940s are smaller and set closer together. Moving north, postwar homes are more likely to sit on larger lots along curving streets.",
+      "That changes the job. On a narrow lot near 8 Mile there is little room to stage material, and every foot of the front yard shows. On a brick ranch farther north the foundation beds run longer, and the shrubs have had 50 or 60 years to fill in. The census puts the median home at 1965, so in either place we are usually reworking a yard, not starting from dirt.",
+      "What stays the same is the ground. This was once the bottom of a glacial lake, and the city's parks plan says there are no significant changes in topography except along the banks of the Red Run Drain. So rain has no slope to follow off most lots. Soil maps show heavy clay loam in parts of town and sand or disturbed urban soil in others, so the right plants and the right grade depend on what is actually in your yard."
+    ],
+    "points": [
+      { "title": "Level ground, slow water", "body": "On a flat lot, a little settling next to the foundation is enough to hold a puddle. That is why [yard grading](/yard-grading/) comes before beds or [sod](/sod-installation/) on most lots here." },
+      { "title": "Soil that changes across town", "body": "USDA soil maps show Lenawee and Sims clay loams over much of the city, sandy soils in other spots and disturbed urban soil along the south end. Clay holds water and sand lets it go, so one plant list and one watering plan will not fit every yard here." },
+      { "title": "Street trees are the city's", "body": "The city says a tree in the strip between the walk and the curb is a city tree, and one on the house side is yours. A sick city tree gets reported to Public Works. For your own trees, see [tree trimming in Warren](/tree-trimming-warren-mi/)." },
+      { "title": "Not much canopy to spare", "body": "Macomb County has the third lowest tree cover of the seven southeast Michigan counties, and the master plan says the city's canopy has been shrinking. So trimming gets a look before removal, and when a new tree makes sense we help you pick [one that fits the lot](/plant-installation/)." },
+      { "title": "The historic district has its own rules", "body": "The Historic District Commission regulates work in the city's historic districts, including excavation. If your home is in the Village Historic District around Mound and Chicago Road, talk to the commission about a yard project before any digging starts." }
+    ],
+    "photo": "weeping-border"
+  },
+  "logistics": {
+    "title": "In Warren, a tear-out cannot wait at the curb.",
+    "body": [
+      "A lot of yards here do not need everything at once. On the walk, Jake says what is worth doing now and what can wait, then writes an itemized estimate to read through line by line. If you would rather tackle the grade this year and the planting next year, tell him then.",
+      "City curbside pickup will not take dirt, sod, mulch, bricks or rocks, so a bed tear-out or a new lawn needs another way off the lot. Your estimate spells out how that material gets off the lot. Keep material off the catch basins too, because the city asks residents to keep those grates clear and does not allow leaves to be raked into the gutter."
+    ],
+    "facts": [
+      { "label": "Curbside pickup", "value": "No dirt, sod, mulch, bricks or rocks" },
+      { "label": "Trees at the curb", "value": "The city's, so call Public Works" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Does HD Landscape work in Warren, MI?", "a": "Yes. HD Landscape is a St. Clair Shores landscaper, and Warren is a city we work in often. We handle [landscape renovation](/landscape-renovation/), [sod](/sod-installation/), [yard grading](/yard-grading/), [hedge trimming](/hedge-trimming/), [monthly maintenance](/monthly-landscape-maintenance/) and [spring and fall cleanups](/spring-and-fall-cleanups/) here, plus [tree trimming](/tree-trimming-warren-mi/) and [pressure washing](/pressure-washing-warren-mi/). Sprinklers and lawn aeration are two things we do not do, and a big tree removal gets handed to a tree company." },
+    { "q": "Why does water sit in my yard?", "a": "Usually because the ground is flat and the soil is slow. Warren sits on an old lake bed, so nothing pulls water off a lot, and much of the soil is clay loam that drains poorly. [Yard grading](/yard-grading/) gives the surface a slope away from the house. If you live on one of the city's gravel roads, keep the ditch in front clear too, as the city asks." },
+    { "q": "Will grading stop water in my basement?", "a": "Only if the water is coming in from the surface. The master plan says most Warren homes have footing drains tied to the sanitary sewer, and heavy rain can overload those sewers and back up into basements. Regrading a yard will not fix that, so call a plumber for that part. On the first walk, Jake can say what he sees outside." },
+    { "q": "Is my home in a flood zone?", "a": "Probably not, but check your address. The master plan says Warren's floodplains surround the Red Run Drain and its tributaries on the north end, and it counts 1,689 parcels inside them. The Engineering Division's page links to the FEMA maps. The August 2014 storm damaged over 18,000 homes, far more than that floodplain holds, so a good grade matters on either side of the line." },
+    { "q": "Can I fix my yard a piece at a time?", "a": "Often, yes. In Warren the piece causing the most trouble is usually the grade or the overgrown beds, and the rest can wait for a later season. Some steps depend on each other, so ask Jake what order he would do it in. The itemized estimate shows what each piece involves." }
+  ],
+  "reviews": ["amanda-h", "rob-e", "renee-g"],
+  "neighbors": ["sterling-heights", "roseville", "eastpointe", "fraser"]
+}

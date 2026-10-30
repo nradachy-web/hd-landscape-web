@@ -1,0 +1,115 @@
+---
+/* The page shell. Everything a page needs to score: one inlined stylesheet, the
+   three subset fonts, a preloaded hero image and no blocking script. */
+import '../styles/global.css';
+import fontDisplay from '../assets/fonts/HDDisplay.woff2?url';
+import fontItalic from '../assets/fonts/HDDisplayItalic.woff2?url';
+import fontText from '../assets/fonts/HDText.woff2?url';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import StickyBar from '../components/StickyBar.astro';
+import Tracking from '../components/Tracking.astro';
+import FirefliesScript from '../components/FirefliesScript.astro';
+import BeforeAfterScript from '../components/BeforeAfterScript.astro';
+import { BRAND } from '../data/site';
+import { href } from '../lib/paths';
+import { business, businessRef, graph, website } from '../lib/schema';
+
+interface Preload {
+  srcset: string;
+  sizes: string;
+  type: string;
+  media?: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  /** Site-relative path of this page, with slashes: "/sod-installation/". */
+  path: string;
+  /** Extra JSON-LD nodes for this page. */
+  schema?: object[];
+  /** The hero image or images, so the browser can start before it parses the body. */
+  preload?: Preload | Preload[];
+  /** Where the header and sticky bar actions go. Pages with a quote band use #quote. */
+  quoteHref?: string;
+  noindex?: boolean;
+  /** Hide the sticky bar (thank-you, legal). */
+  bare?: boolean;
+  /** This page is where a submitted form lands: count it as a lead. */
+  lead?: boolean;
+  ogImage?: string;
+  ogType?: 'website' | 'article';
+}
+
+const { title, description, path, schema = [], preload, quoteHref = '#quote', noindex = false, bare = false, lead = false, ogImage, ogType = 'website' } = Astro.props;
+
+// A preview build (any base path) must never be indexed.
+const isPreview = import.meta.env.BASE_URL !== '/';
+const canonical = `${BRAND.origin}${path}`;
+const og = `${BRAND.origin}${ogImage ?? '/og-image.jpg'}`;
+const loads = preload ? (Array.isArray(preload) ? preload : [preload]) : [];
+
+const fontCss = `
+@font-face{font-family:"HD Display";src:url(${fontDisplay}) format("woff2");font-weight:400 620;font-style:normal;font-display:swap}
+@font-face{font-family:"HD Display";src:url(${fontItalic}) format("woff2");font-weight:400 500;font-style:italic;font-display:swap}
+@font-face{font-family:"HD Text";src:url(${fontText}) format("woff2");font-weight:400 720;font-style:normal;font-display:swap}
+@font-face{font-family:"HD Text Fallback";src:local("Arial"),local("Liberation Sans"),local("Helvetica Neue"),local("Roboto");size-adjust:95.4%;ascent-override:101%;descent-override:25%;line-gap-override:0%}
+@font-face{font-family:"HD Display Fallback";src:local("Georgia"),local("Times New Roman"),local("Liberation Serif");size-adjust:92%;ascent-override:96%;descent-override:30%;line-gap-override:0%}`;
+---
+
+<!doctype html>
+<html lang="en" data-lead={lead ? '' : undefined}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {path !== '/404/' && <link rel="canonical" href={canonical} />}
+    {(isPreview || noindex) && <meta name="robots" content="noindex, nofollow" />}
+    <meta name="theme-color" content="#0a0f0b" />
+    <meta name="format-detection" content="telephone=no" />
+
+    <link rel="preload" href={fontDisplay} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={fontItalic} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={fontText} as="font" type="font/woff2" crossorigin />
+    {loads.map((p) => <link rel="preload" as="image" imagesrcset={p.srcset} imagesizes={p.sizes} type={p.type} media={p.media} fetchpriority="high" />)}
+    <style set:html={fontCss}></style>
+    <noscript>
+      <style is:inline>
+        .ba__range, .ba__line, .gp__ctl { display: none }
+        .qf .qf__next, .qf .qf__back { display: none !important }
+        .qf__step[hidden] { display: grid !important }
+      </style>
+    </noscript>
+
+    <link rel="icon" href={href('/favicon.ico')} sizes="48x48" />
+    <link rel="icon" href={href('/favicon-32.png')} type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href={href('/apple-touch-icon.png')} />
+    <link rel="manifest" href={href('/site.webmanifest')} />
+
+    <meta property="og:type" content={ogType} />
+    <meta property="og:site_name" content={BRAND.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={og} />
+    {!ogImage && <meta property="og:image:width" content="1200" />}
+    {!ogImage && <meta property="og:image:height" content="630" />}
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json" set:html={graph([path === '/' ? business() : businessRef(), website(), ...schema])} />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to main content</a>
+    <Header quoteHref={quoteHref} current={path} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer />
+    {!bare && <StickyBar quoteHref={quoteHref} />}
+    <FirefliesScript />
+    <BeforeAfterScript />
+    <Tracking />
+  </body>
+</html>

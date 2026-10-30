@@ -1,0 +1,54 @@
+{
+  "city": "fort-lauderdale",
+  "meta": {
+    "title": "Landscaping in Fort Lauderdale, FL | HD Landscape",
+    "description": "Seasonal hedge trimming, palm trimming and stone beds for Fort Lauderdale, FL yards, done for salt, sand and storm season. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Fort Lauderdale, FL",
+    "title": "The yard here **never takes winter off.**",
+    "lede": "Fort Lauderdale has no frozen months to stop a hedge, and salt, sand and storm season all get a vote. HD Landscape comes down from Michigan for the winter to trim hedges and palms and build stone beds that suit the climate, so call early.",
+    "chips": ["Winter season in South Florida", "Hedges and palms", "Stone beds and planting", "Itemized estimates"],
+    "photo": "florida-agave"
+  },
+  "about": {
+    "eyebrow": "Yards in Fort Lauderdale",
+    "title": "A city built on water, and **what that does to a yard.**",
+    "body": [
+      "The city goes by the Venice of America, with about 165 miles of waterways and seven miles of Atlantic beach, so the first question about a yard here is how close the salt water is. Harbour Isles runs along the ocean down to the Port Everglades inlet, and Rio Vista runs from US-1 east to the Intracoastal Waterway. On the water side of neighborhoods like those, the plant list starts with salt. Sailboat Bend, the oldest neighborhood, is mostly small one story homes, with some larger ones along the New River, and on a small house an overgrown hedge can hide the whole front.",
+      "Those places ask different things of a yard, but the climate treats them alike. Fort Lauderdale sits in USDA hardiness zones 10b to 11a and gets about 61 inches of rain a year, with a wet season from May through October. We spend the rest of our year in Michigan, where a hedge stops growing for months. Here nothing freezes it to a stop, and that changes how often it needs a cut."
+    ],
+    "points": [
+      { "title": "Salt in the air", "body": "UF/IFAS, the University of Florida's extension service, says anything planted within about an eighth of a mile of salt water should be at least somewhat salt tolerant. On a beach block or along the Intracoastal, that choice comes before any talk about shape or color." },
+      { "title": "Sandy, high pH soil", "body": "UF/IFAS describes Florida's coastal soils as sandy and high in pH. Some plants do not take to that. Ixora, for one, struggles in alkaline ground, and UF singles out the strips beside sidewalks and foundations. So where a bed runs along a walk or a wall, the plant list changes." },
+      { "title": "Storm season sets the calendar", "body": "Hurricane season runs June 1 to November 30, and the city asks people to clear dead branches, palm fronds and dead coconuts before it starts. A winter visit gets that done early, with months to spare." },
+      { "title": "Low ground and king tides", "body": "The city says its low elevation and many waterways leave it exposed to king tides, and it names Victoria Park as prone to tidal flooding. Predicted dates for 2026 run September through December. In a low yard, note which corners go wet on those days, and let that decide what gets planted there." },
+      { "title": "A city that counts its trees", "body": "The city put its tree canopy at 26.6 percent in 2024 and wants 33 percent by 2040. It says pruning has to meet national standards and city code, and it takes reports of tree abuse. So a big cut on a shade tree is not something to guess at. Ask the city what applies before the saw comes out." }
+    ],
+    "photo": "florida-hedge"
+  },
+  "logistics": {
+    "title": "We come down for the winter, **so call early.**",
+    "body": [
+      "HD Landscape is based in St. Clair Shores, Michigan, and works around Fort Lauderdale in the winter, when Michigan yards go quiet. Our time here has a start and an end. Send Jake the address and a photo, and he will say what he can get to this season.",
+      "From there it runs the way it does up north. Jake looks at the property with you and writes an itemized estimate you can go through line by line. We show up when we said and leave the drive clean, and he calls afterward to see how it went.",
+      "The city's curbside rules cover size and timing, and a bulk pile put out too early could bring a citation. How the debris leaves goes on your estimate."
+    ],
+    "facts": [
+      { "label": "Season", "value": "Winter in South Florida" },
+      { "label": "Dead fronds out by", "value": "June 1, when storm season starts" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you offer landscaping in Fort Lauderdale?", "a": "Yes. HD Landscape, a Michigan landscaper, works around Fort Lauderdale, FL in the winter. [Hedge trimming](/hedge-trimming-fort-lauderdale-fl/) and [palm trimming](/palm-trimming-fort-lauderdale-fl/) come first, and we also build [rock and stone beds](/rock-and-stone-installation/) and do new planting. Call or text Jake early at [(586) 718-8762](tel:+15867188762) to see what he can fit in." },
+    { "q": "Are you in Fort Lauderdale all year?", "a": "No. We work in Michigan through its growing season and in South Florida in the winter. If your yard will need work during the summer wet season, Jake will point that out while we are here, so you can plan for those months." },
+    { "q": "What plants hold up to salt air?", "a": "In Fort Lauderdale, cocoplum is a good place to start. UF/IFAS calls it a Florida native that is very salt tolerant once established, and two or three trimmings a year will hold it as a hedge. UF also notes that many natives already growing on coastal land handle salt well, so look hard at what is there before you pull anything out." },
+    { "q": "Can you get my yard ready for hurricane season?", "a": "We can handle the cleanup. Dead fronds come out, hedges get trimmed and beds get cleared during our winter season, well ahead of June 1. We advise against hurricane cuts, because UF/IFAS says palms cut that way were more likely to lose their crowns. For a severely storm damaged tree, the city says not to ask a landscaper at all, so that one is not ours." },
+    { "q": "What landscaping work do you not do in Fort Lauderdale?", "a": "We do not install sprinklers or irrigation, and we do not aerate lawns. A big tree that has to come down is work for a tree company. The city says pruning near power lines should only be done by FPL or its authorized contractors, so that is not our job either." },
+    { "q": "Where do palm fronds and hedge clippings go in Fort Lauderdale?", "a": "On city curbside service, yard waste goes in the green cart each week, with fronds cut to fit and nothing bagged. Bigger pieces go out with the monthly bulk pickup, up to 12 feet long and 12 inches across, and a pile out more than 24 hours early could bring a citation. Apartments, condos and commercial properties need their own hauler. On a job of ours, how it all leaves goes on your estimate." }
+  ],
+  "reviews": ["anne-j", "mark-r", "renee-g"],
+  "neighbors": ["st-clair-shores", "grosse-pointe"]
+}

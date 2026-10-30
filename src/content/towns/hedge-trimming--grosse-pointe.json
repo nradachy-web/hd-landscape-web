@@ -1,0 +1,48 @@
+{
+  "service": "hedge-trimming",
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Hedge Trimming in Grosse Pointe, MI | HD Landscape",
+    "description": "Hedge trimming for Grosse Pointe, MI, from low boxwood to tall screens. Straight lines, clean curves and a face kept off the walk. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Hedge trimming in Grosse Pointe, MI",
+    "title": "Long lines, **clipped by eye.**",
+    "lede": "From low boxwood along a Grosse Pointe front walk to the tall screen at the back of an estate lot, HD Landscape keeps hedges straight, full and clear of the sidewalk, shaped by hand and eye.",
+    "chips": ["Straight lines, clean curves", "Clear of the walk", "Boxwood to tall screens"],
+    "photo": "hedge-walk"
+  },
+  "local": {
+    "eyebrow": "Hedges in the City",
+    "title": "What a hedge has to do on **a Grosse Pointe lot.**",
+    "intro": "On a lot 40 to 60 feet wide, a hedge is often the whole front of the property and the line between you and the neighbor. It stands a step from the sidewalk and a step from the house. That leaves very little margin for one that has gotten away from you.",
+    "points": [
+      { "title": "One foot behind the walk", "body": "The city's zoning code says a hedge must be maintained one foot behind the sidewalk. We trim the street side to suit. If an old hedge has crept over the walk, we cut it back to the line if the plant can take it, and say so if it cannot." },
+      { "title": "Corners that need clear sight", "body": "A tall hedge at a corner or a driveway hides people walking past and cars backing out. The city's zoning code limits shrubbery near an intersection to 2.5 feet above the curb, within a 30 foot triangle on a residential corner lot. Those sections have to stay low, and a quick call to the city settles any doubt." },
+      { "title": "Watching the boxwood", "body": "Clipped boxwood suits these homes. Boxwood blight was first found in Michigan in 2018 and can travel on plants that look healthy, so it pays to watch for it. Dropping leaves and black lesions on the stems are the signs to send Jake a picture." },
+      { "title": "Long runs on estate lots", "body": "On the larger lots toward the lake, a hedge can run the length of the property. One wandering section shows from the street, so the height and the face get set early and held from end to end." }
+    ]
+  },
+  "logistics": {
+    "title": "One harder cut if it needs it, **then steady care.**",
+    "body": [
+      "Jake looks at the hedge first and tells you what it can take. One that is badly overgrown may need a harder cut once. After that, [monthly maintenance](/landscape-maintenance-grosse-pointe-mi/) can hold the shape so it never gets that far again.",
+      "The city treats commercial landscape trimmings as a private haul, so a crew's clippings do not belong in your yard waste bags. How the debris leaves goes on your estimate, and the walk and the drive get left clean.",
+      "Hedge trimming runs across all five Pointes, the [Woods](/service-areas/grosse-pointe-woods/), the [Farms](/service-areas/grosse-pointe-farms/), the [City](/service-areas/grosse-pointe/), the [Park](/service-areas/grosse-pointe-park/) and the [Shores](/service-areas/grosse-pointe-shores/), and the sidewalk and corner limits quoted here are only the City's."
+    ],
+    "facts": [
+      { "label": "Shaped", "value": "By hand and eye" },
+      { "label": "Off the walk", "value": "One foot back, per city code" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "hedge-curve",
+  "faq": [
+    { "q": "Do you do hedge trimming in Grosse Pointe?", "a": "Yes. HD Landscape trims hedges in Grosse Pointe, MI, from low boxwood along a walk to tall screens on estate lots. Each one gets a clean line, with the street side kept off the sidewalk." },
+    { "q": "How far from the sidewalk does a hedge have to be in Grosse Pointe?", "a": "The city's zoning code says a hedge must be maintained one foot behind the sidewalk. Rules can change, so confirm it with the city before planting a new one. When we trim, the street side stays off the walk." },
+    { "q": "How tall can a hedge be on a corner lot in Grosse Pointe?", "a": "Within the sight area at an intersection, the zoning code allows shrubbery up to 2.5 feet above curb level. On a residential corner lot that area is a triangle formed by the two curb lines and a line joining points 30 feet from where they meet. Get the city to confirm it before you plant." },
+    { "q": "Is my boxwood dying of blight?", "a": "It might be, but winter damage looks a lot like it and the two are often confused. Boxwood blight shows as heavy leaf drop, brown leaf lesions and black lesions on the stems. Send Jake a picture by text at [(586) 718-8762](sms:+15867188762) for his read on what to do next. MSU's diagnostic lab can confirm it." },
+    { "q": "Can you bring back an overgrown hedge?", "a": "Often, yes. Some old hedges take a hard cut and fill back in, and some never recover. Jake can usually say which you have once he sees it. If yours is beyond help, we can [pull it and replant](/landscape-renovation-grosse-pointe-mi/) so you are not paying to trim a lost cause." }
+  ],
+  "reviews": ["anne-j", "mark-r"]
+}

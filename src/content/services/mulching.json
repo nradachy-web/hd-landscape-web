@@ -1,0 +1,141 @@
+{
+  "service": "mulching",
+  "meta": {
+    "title": "Mulching in St. Clair Shores, MI | HD Landscape",
+    "description": "Fresh mulch two to three inches deep, kept off trunks and stems, with weeds pulled and bed lines cut first. Free itemized estimates across Metro Detroit."
+  },
+  "hero": {
+    "kicker": "Mulching in St. Clair Shores, MI and across Metro Detroit",
+    "title": "Fresh mulch. **No volcanoes.**",
+    "lede": "HD Landscape keeps it simple: two to three inches of fresh mulch, spread clean and kept off the trunks and stems, with the weeds out and the bed line cut first. Mulch spreading is the job our Google reviews bring up most.",
+    "chips": ["Two to three inches", "Kept off trunks and stems", "Weeds out, line cut first"],
+    "photo": "patio-bed"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What it does",
+      "title": "Most mulch problems are **too much mulch.**",
+      "body": [
+        "HD Landscape spreads fresh mulch in St. Clair Shores and across Metro Detroit, at the two to three inches Michigan State University Extension recommends. At that depth mulch holds moisture in the ground and slows weeds. In one MSU trial, properly mulched plots outgrew plots with no mulch, even when the bare plots were kept weed free.",
+        "The usual mistake is adding a full layer every spring. MSU Extension is plain about it: two to three inches is adequate, and more is not better. Heaped on year after year, mulch can smother perennials and cake into a layer that sheds rain. The other classic is the mulch volcano, mounded up against a tree trunk, where the dark, damp bark invites rot and insects. So look at what is already in a bed before anything new goes on it."
+      ],
+      "checks": [
+        "Two to three inches where a bed needs it",
+        "About an inch to freshen a bed that already has depth",
+        "Tapered down and never mounded against a trunk",
+        "Weeds pulled and the bed line cut before any mulch goes down"
+      ],
+      "photo": "hosta-bed"
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "The right amount",
+      "title": "Thin, right or piled high.",
+      "intro": "Depth decides most of what mulch does for a bed. These are the three versions you see around town, and what each one does over a season.",
+      "columns": ["Too thin", "Two to three inches", "Piled high"],
+      "highlight": 1,
+      "rows": [
+        { "label": "Depth", "values": ["Bare soil still shows", "Two to three inches, spread even", "Layer on layer, year after year"] },
+        { "label": "Weeds", "values": ["Seeds still reach the light", "Annual and some perennial weeds smothered", "Your perennials can get smothered too"] },
+        { "label": "Water", "values": ["Soil dries out sooner", "Moisture stays in the ground", "Dries to a crust that can shed rain"] },
+        { "label": "Roots", "values": ["Less protected from heat and cold", "Stay down in the soil", "Grow up into the mulch"] },
+        { "label": "Trunks", "values": ["No harm, but little benefit", "Kept back from the bark", "Buried, inviting rot and insects"] }
+      ]
+    },
+    {
+      "type": "bed",
+      "plane": "ink",
+      "eyebrow": "Try it",
+      "title": "Mulch or stone: see it on a real bed.",
+      "intro": "Tap through the finishes on one of our real beds and see what suits your home."
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "On the job",
+      "title": "Four steps. **The mulch is third.**",
+      "steps": [
+        { "title": "Check", "body": "How much mulch is already there decides the job. A bed with good depth needs only a light top up. One that is deep or crusted should be broken up and pulled back first, so water can reach the soil again." },
+        { "title": "Pull and edge", "body": "[Weeds come out](/weeding/) by hand, roots included, because established weeds push through fresh mulch. Then the bed line gets cut clean. If you want a permanent line, ask about [steel edging](/steel-edging/)." },
+        { "title": "Spread", "body": "Mulch goes down even, two to three inches in the open bed. Near a tree it tapers down and stays off the bark. MSU Extension's number is a six inch mulch free ring around the trunk. Shrubs and perennials get room at the stems too." },
+        { "title": "Clean up", "body": "Walks, drives and lawn get cleaned off before the crew leaves. One customer's review put it simply: \"how clean they left the job.\"" }
+      ],
+      "footnote": "Depth and trunk spacing come from Michigan State University Extension guidance. If a tree in your yard already has mulch piled against it, ask and we will pull it back."
+    },
+    {
+      "type": "gallery",
+      "plane": "white",
+      "eyebrow": "Real jobs",
+      "title": "Done right, you notice **the plants first.**",
+      "intro": "Black on some homes, brown on others. Either one makes green plants and a clean edge stand out.",
+      "photos": ["lakeside-bed", "grand-brick", "urn-bed", "evergreen-island", "tudor-planting", "island-bed"]
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "Good to know",
+      "title": "Not every bed gets the same mulch job.",
+      "columns": 2,
+      "items": [
+        { "tag": "Fabric", "title": "Landscape fabric under mulch", "body": "It is not the fix it looks like. Penn State Extension says woven fabric keeps water, worms and soil microbes from moving freely through the soil. Over time roots knit into it from above and below, and it gets very hard to remove. Ask Jake before you buy a roll." },
+        { "tag": "Stone", "title": "Mulch or stone", "body": "Mulch breaks down and feeds the soil, so it needs freshening. Stone does not break down, but it adds nothing to the soil either. Planted beds usually do better in mulch. For a low care strip along a walk or a drive, look at [rock and stone](/rock-and-stone-installation/)." },
+        { "tag": "Wet beds", "title": "Beds that stay wet", "body": "Clay is common around here, and it drains slowly. Penn State Extension says to use less mulch on poorly drained soil, so a soggy bed gets a lighter layer. If water sits there, [grading](/yard-grading/) may be the real fix." },
+        { "tag": "Bees", "title": "Ground nesting bees", "body": "MSU Extension suggests watching your beds on warm, sunny spring days before you mulch. Where bees are nesting, a thinner layer of one to two inches is better. Tell us where they are and we will go light." }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "white",
+      "eyebrow": "Close to home",
+      "title": "In St. Clair Shores, check the depth first.",
+      "body": [
+        "HD Landscape is based in St. Clair Shores, and it is one of the towns we work in most. The city grew quickly from a resort community after World War II, so a lot of homes here have beds that have been around for decades. A bed topped off every spring for that long can build up well past the point of helping, which is why depth is the first thing to look at.",
+        "The ground here points the same way. USDA soil data shows heavy, poorly drained ground across most of the city, on very little slope, so a bed that stays wet should get less mulch, not more. If your yard runs down to the lake or a canal, keep mulch away from the water, which is the advice in the waterfront guide the city posts.",
+        "Inland lots can run as small as 6,000 square feet, so beds sit close to walks, drives and the neighbors, and the mulch has to stay in the bed. We also mulch beds in [Grosse Pointe](/service-areas/grosse-pointe/), [Birmingham](/service-areas/birmingham/) and towns across Macomb and Oakland counties."
+      ],
+      "photo": "pergola-deck",
+      "flip": true,
+      "cta": { "label": "More on St. Clair Shores", "href": "/service-areas/st-clair-shores/" }
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "In their own words",
+      "title": "On time, with good advice first.",
+      "ids": ["anne-j", "stephen-d"]
+    }
+  ],
+  "faq": [
+    { "q": "Do you do mulching in St. Clair Shores?", "a": "Yes. HD Landscape is based in St. Clair Shores and spreads mulch for homes here and across the Grosse Pointes, Macomb County and Oakland County. Mulching is one of the jobs our customers mention most." },
+    { "q": "How deep should mulch be?", "a": "Two to three inches in most beds. Michigan State University Extension says that is adequate and that more is not better. If a bed already has mulch in it, about an inch is enough to freshen it without piling up depth." },
+    { "q": "How far should mulch stay from a tree trunk?", "a": "MSU Extension says about six inches: keep a mulch free ring around the trunk and let the layer taper down as it gets close. Its shorthand is a doughnut, not a volcano. Shrub stems need room at the base as well." },
+    { "q": "What is a mulch volcano, and why is it bad?", "a": "A mulch volcano is mulch mounded up against a tree trunk. It keeps the bark dark and damp, which invites rot and insects, and it encourages roots to grow up into the mulch where they do not belong. If you have one, we can pull it back." },
+    { "q": "Do you remove the old mulch first?", "a": "Usually it does not all need to go. Old mulch breaks down into the soil, which is part of why it is good for a bed. If a bed has built up too deep or crusted over, it should be broken up and the extra pulled back before anything new goes on." },
+    { "q": "When should I mulch in Michigan?", "a": "Mid spring is the usual time, once the soil has warmed up, and it pairs well with a [spring cleanup](/spring-and-fall-cleanups/). Beds can be freshened in fall too. A layer of mulch also insulates the soil, which helps protect roots from an early freeze." },
+    { "q": "Does mulch stop weeds?", "a": "It helps a lot, within limits. Two to three inches can smother annual weeds and some perennials, and a light top up each year keeps new seeds from sprouting. Established perennial weeds push through, so they have to come out first. That is why a bed should be [weeded](/weeding/) before it gets mulch." },
+    { "q": "How much mulch do I need for my beds?", "a": "One cubic yard covers about 160 square feet at two inches, or about 108 square feet at three inches. You do not have to work it out, though. The amount goes on your estimate." },
+    { "q": "What kind of mulch should I use?", "a": "MSU Extension says the type of organic mulch matters less than the fact that plants are mulched. Color is mostly taste, and Jake can help you pick what suits the house. The one thing to watch is quality, because MSU warns that poor mulch can bring in weeds such as mugwort and Canada thistle." },
+    { "q": "Will mulch attract termites to my house?", "a": "University of Florida guidance says the bigger risk is termites already on your property, more than stragglers in the mulch. It recommends less than two inches of mulch within a foot of the foundation and at least six inches of clear space below the siding, so any activity can be seen. Ask and we will keep the layer light along the house." },
+    { "q": "How long does a mulch job take?", "a": "A normal set of beds can often be done in a day. A big property, or beds that need heavy weeding first, can take longer, which is one more reason Jake walks the beds before he writes anything down." },
+    { "q": "How much does mulching cost?", "a": "Three things set the price: how much bed there is, how much mulch is already down and how much weeding comes first. Jake looks at all three in person, and his free estimate is itemized so you can go through it line by line." }
+  ],
+  "faqIntro": "Plain answers, with the horticulture from Michigan State University Extension and other university programs. If yours is not here, call or text [(586) 718-8762](tel:+15867188762).",
+  "quote": {
+    "title": "Tell us about the beds.",
+    "lede": "How many beds, and how long since they were mulched? Text a photo if that is easier. Jake will come see them and write up a free, itemized estimate."
+  },
+  "summary": {
+    "title": "A mulch job is more than the mulch.",
+    "intro": "Here is everything that goes into a bed that looks right, and you will see it line by line on your estimate.",
+    "items": [
+      { "name": "Weeds out", "detail": "Beds pulled by hand, roots included, before any mulch goes down." },
+      { "name": "Bed line", "detail": "A clean edge cut, so mulch stays in and grass stays out." },
+      { "name": "Fresh mulch", "detail": "Two to three inches in an open bed, about an inch to freshen an existing one." },
+      { "name": "Clear trunks", "detail": "Mulch tapered down and kept off trunks and stems." },
+      { "name": "Clean up", "detail": "Walks and drives left clean before the crew goes." }
+    ]
+  }
+}

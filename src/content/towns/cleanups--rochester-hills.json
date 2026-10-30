@@ -1,0 +1,49 @@
+{
+  "service": "cleanups",
+  "city": "rochester-hills",
+  "meta": {
+    "title": "Spring and Fall Cleanups in Rochester Hills, MI | HD Landscape",
+    "description": "Spring and fall yard cleanups in Rochester Hills, MI: beds cleared, leaves raked out, weeds pulled and shrubs tidied, even next to the woods. Free estimates."
+  },
+  "hero": {
+    "kicker": "Spring and fall yard cleanups in Rochester Hills, MI",
+    "title": "The woods drop it. **We clear it.**",
+    "lede": "Back up to trees in Rochester Hills and every fall lands in your beds. A cleanup from HD Landscape clears the leaves, pulls the weeds and tidies the shrubs, and it keeps yard waste out of the ponds and storm drains, where the city says it does not belong.",
+    "chips": ["Beds cleared", "Weeds pulled", "Shrubs tidied", "One season or both"],
+    "photo": "curve-fall"
+  },
+  "local": {
+    "eyebrow": "Cleanups in Rochester Hills",
+    "title": "In Rochester Hills, where the leaves end up matters.",
+    "intro": "A cleanup is simple until you ask where it all goes. Subdivision ponds sit downhill of a lot of yards, the city does not allow burning, and the curbside rules are specific. Here is what that means on your lot.",
+    "points": [
+      { "title": "Not in the pond, not in the drain", "body": "The city's detention basin manual says to keep leaves, grass clippings and brush out of ponds and street storm drains. They release nutrients as they break down, and that feeds the algae in the pond." },
+      { "title": "Curb rules with teeth", "body": "Priority Waste takes yard waste once a week in season, in paper bags or containers up to 35 gallons. Plastic bags get left behind. Old sod can go, soil cannot, and nothing goes out sooner than 24 hours before pickup." },
+      { "title": "Brush has its own limits", "body": "Brush goes to the curb in tied bundles no more than 4 feet long, 18 inches around and 60 pounds. A wooded lot can beat that in one windy week. How the bags and bundles leave your lot is settled on the estimate." },
+      { "title": "No burn pile", "body": "The city prohibits burning leaves and brush. Its resident guide says they have to leave the property with the homeowner or a contracted hauler. A big fall drop is a lot of bags, which is about when people call us." },
+      { "title": "Pollinator beds", "body": "Rochester Hills has signed the Mayor's Monarch Pledge and encourages pollinator gardens. If you keep one, tell us before a spring cleanup, so those beds get their own note on the estimate." }
+    ]
+  },
+  "logistics": {
+    "title": "Fall visits follow your trees. Spring visits follow the thaw.",
+    "body": [
+      "Get in touch early in the season. Fall cleanups work best timed to your trees, when most of your leaves are down, and big trees can push that date later. Spring cleanups follow the snowmelt, once the ground is firm enough to work.",
+      "Many cleanups are finished in a day. Larger lots, debris on a slope and beds that have been left for years can take longer. Rochester Hills residents can also pick up free finished compost at the School Road compost site, with proof of residency and their own shovel and containers, or we can put fresh [mulch](/mulching/) on the same estimate."
+    ],
+    "facts": [
+      { "label": "How long", "value": "Often one day" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Add on", "value": "Mulch and hedge trimming" },
+      { "label": "Not included", "value": "Lawn aeration and sprinklers" }
+    ]
+  },
+  "photo": "colonial-fall",
+  "faq": [
+    { "q": "Do you do yard cleanups in Rochester Hills?", "a": "Yes. HD Landscape does spring and fall cleanups in Rochester Hills, one time or both seasons, for homes and commercial properties. Beds get cleared, weeds get pulled, shrubs get tidied and the place is left clean." },
+    { "q": "When does yard waste pickup run in Rochester Hills?", "a": "The city's page lists weekly curbside yard waste through Priority Waste from spring through the second full week of December. Dates shift from year to year, so look up the current schedule. Anything left after pickup ends has to wait for spring or go another way." },
+    { "q": "Can I burn leaves in Rochester Hills?", "a": "No. Burning leaves and brush is prohibited here, and the city's guide says they have to be removed from the property by the homeowner or a contracted hauler. A light scatter can be shredded into the grass with a mower. For a heavy drop, a cleanup visit is the easy way out." },
+    { "q": "Can I blow my leaves into the pond behind my house?", "a": "No. The Rochester Hills detention basin manual says to keep leaves, clippings and brush out of the pond and out of the storm drains in the street, because they feed algae as they rot. Those ponds are usually the association's to maintain, so the mess comes back to you and the neighbors." },
+    { "q": "When should I book a fall cleanup?", "a": "Reach out early in the fall, so the visit can be timed to your trees. Leaving it too long can run you up against the end of Rochester Hills curbside pickup in December, and leaves left on the beds all winter become part of the spring job." }
+  ],
+  "reviews": ["nancy-g", "marie-b"]
+}

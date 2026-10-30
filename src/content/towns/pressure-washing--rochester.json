@@ -1,0 +1,48 @@
+{
+  "service": "pressure-washing",
+  "city": "rochester",
+  "meta": {
+    "title": "Pressure Washing in Rochester, MI | HD Landscape",
+    "description": "Pressure washing for Rochester, MI walks, patios and pavers, with a wide spray and a thought for where the runoff goes. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Pressure washing in Rochester, MI",
+    "title": "Clean pavers. **Clean Paint Creek.**",
+    "lede": "Rochester's storm drains run straight to its creeks, and Paint Creek holds trout. So when HD Landscape washes walks, patios and pavers here, the rinse water is part of the job, and a wide, low spray keeps the sand in the joints.",
+    "chips": ["Walks, patios and pavers", "Wide spray, low angle", "Anything else, send a photo"],
+    "photo": "limestone-bed"
+  },
+  "local": {
+    "eyebrow": "Pressure washing in Rochester",
+    "title": "What gets on Rochester pavers, and where it goes.",
+    "intro": "The city's stormwater page says storm drains flow directly to lakes and streams, and it warns that hosing down a driveway carries dirt into them. Washing is still worth doing. In a town built along Paint Creek, Stony Creek and the Clinton River, it just takes a plan for the water.",
+    "points": [
+      { "title": "Where the water runs", "body": "Slope decides where a wash ends up, so it pays to read it before the wand comes out. The better path runs toward grass or a bed and away from the curb, because the ground filters it. The city gives the same advice for washing a car at home." },
+      { "title": "Green in the shade", "body": "The city's plan aims to hold 30 percent tree canopy, so the shade is staying. Shade keeps paving damp, so walks and patios under big trees go green first. Washing takes it off, and Jake can point out what is keeping that spot wet." },
+      { "title": "Many surfaces in one small town", "body": "Homes here run from heritage houses to new condominiums, so what is underfoot could be old clay brick, concrete pavers or poured concrete. They do not wash alike. Know which one you have before any water comes out, and let a small, out of the way spot show how the surface takes it." },
+      { "title": "Leaves left on the pavers", "body": "Leaf stains soak in, so water alone may only lighten them. Leaf season here runs into December, which makes spring a natural time to wash. Tell us what is on the surface, and we will say what to expect before you pay for anything." }
+    ]
+  },
+  "logistics": {
+    "title": "On a tight Rochester patio, plan where the water lands.",
+    "body": [
+      "Jake looks at the surface, the joints and the slope, and says what should come off and what may not. A free itemized estimate comes before any washing. Text a photo of the worst spot if that is easier.",
+      "On a townhome or condo patio space is tight, so where the hoses run and where the rinse water lands should be settled before the wand starts. A wide spray at a low angle keeps the joint sand where it belongs, and the joints deserve a look once everything dries. If they need it, [polymeric sand](/polymeric-sand/) goes on its own line."
+    ],
+    "facts": [
+      { "label": "Surfaces", "value": "Walks, patios and pavers" },
+      { "label": "Other surfaces", "value": "Send a photo and Jake will say" },
+      { "label": "Storm drains", "value": "Run straight to lakes and streams" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "hosta-bed",
+  "faq": [
+    { "q": "Do you do pressure washing in Rochester, MI?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in the City of Rochester, MI. For anything else, text Jake a photo and he will say if it is a job for us. Call or text [(586) 718-8762](tel:+15867188762) for a free estimate." },
+    { "q": "Is it OK to pressure wash near a storm drain in Rochester?", "a": "It takes care. The city says never to send dirty or soapy water down a storm drain, because drains flow directly to lakes and streams. The better route for the water is toward grass or a bed, where the ground allows it. For a question about your own project, ask the city." },
+    { "q": "Do you use soap or chemicals on pavers?", "a": "Plain water first, and often that is all it takes. Some stains, like oil or a white mineral haze, need a cleaner made for the job. That is a conversation to have before it goes on, and a small spot shows how the surface takes it. Either way the rinse should stay out of the street, because Rochester's storm drains lead to its creeks." },
+    { "q": "Can you wash the patio at my condo?", "a": "Often, yes. Check with your association first, since many have rules about work in shared areas. Tell us what the surface is and where the water can go, and Jake will take it from there." },
+    { "q": "Why do my pavers stay green near the creek?", "a": "Shade and damp. Moss and algae settle where paving stays wet, and yards near Paint Creek, Stony Creek or the Clinton River can have plenty of both. Washing removes the growth, but it comes back if the spot stays wet. If the cause is drainage, [yard grading](/yard-grading/) may help." }
+  ],
+  "reviews": ["anne-j", "mark-r"]
+}

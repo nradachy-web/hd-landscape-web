@@ -1,0 +1,48 @@
+{
+  "service": "landscape-renovation",
+  "city": "rochester-hills",
+  "meta": {
+    "title": "Landscape Renovation in Rochester Hills, MI | HD Landscape",
+    "description": "Old builder beds out, grade fixed, new plants, stone and sod in. HD Landscape renovates Rochester Hills, MI yards on one itemized estimate. 5.0 on Google."
+  },
+  "hero": {
+    "kicker": "Landscape renovation in Rochester Hills, MI",
+    "title": "The builder's yard, **done right this time.**",
+    "lede": "The median home in Rochester Hills dates to the mid 1980s, and plenty of yards still wear the plants that came with the house. A renovation from HD Landscape takes out what has run its course, fixes the grade and rebuilds the beds for your light and your slope.",
+    "chips": ["Old plantings out", "Drainage paths respected", "One itemized estimate"],
+    "photo": "maple-rock-bed"
+  },
+  "local": {
+    "eyebrow": "Renovations in Rochester Hills",
+    "title": "A 40 year old yard needs more than fresh mulch.",
+    "intro": "Most of the homes here went up between 1970 and 2000, and the plantings from those years have had decades to outgrow their spots. A renovation in Rochester Hills is part tear out and part problem solving, because the land and the city's rules both help decide what the new yard can be.",
+    "points": [
+      { "title": "Shrubs that outgrew the plan", "body": "Foundation shrubs set in the 1980s and 90s have had 30 or 40 years to climb the windows and crowd the walk. Jake will point out the few that still earn their spot. The rest comes out, roots and all." },
+      { "title": "Drainage paths with a job to do", "body": "Water moves between lots along the grade the subdivision was built with. City code says an established drainage grade cannot be changed enough to block normal flow, and the city warns that restrictions may apply in drainage areas. New beds belong around those paths, not across them, so ask the city if your plan touches one." },
+      { "title": "Fall away from the house", "body": "The city's guidebook for sheds and garages asks for at least 6 inches of fall in the first 10 feet from a structure, then at least 1 percent across the rest of the lot. It is written for accessory structures, but it makes a sensible yardstick for a bed rebuilt along a foundation." },
+      { "title": "Trees worth replacing", "body": "Flowering pear, Norway maple and blue spruce are on the city's not recommended list for street planting, for reasons like storm damage, disease and invasive habits. The list was written for streets, but it is a useful guide in a yard too. If one of those has grown huge, a tree company takes the removal." },
+      { "title": "Room along the sidewalk", "body": "The city's trimming guide keeps new shrubs and high branched trees at least 5 feet from a sidewalk or bike path, and evergreens and ornamentals at least 10 feet. Lay out a front bed with that in mind and nobody is hacking it back in five years." }
+    ]
+  },
+  "logistics": {
+    "title": "The limits get sorted out before the first shrub comes out.",
+    "body": [
+      "It starts with a walk of the whole lot, low spots included. Jake gives you his advice and asks what you know about the lot lines and where the water runs, so the plan is settled before anything comes out and nothing has to be redrawn halfway through. Every piece of the job gets its own line on one itemized estimate.",
+      "On the day, the crew arrives when we said and the old beds come out first. How the old plants and debris leave is written into your estimate. When the crew is done, Jake calls to go over how to water what we planted."
+    ],
+    "facts": [
+      { "label": "Size of job", "value": "One section to a full yard" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "New beds", "value": "5 to 10 feet back from a path" },
+      { "label": "Not included", "value": "Sprinklers and lawn aeration" }
+    ]
+  },
+  "photo": "maple-modern",
+  "faq": [
+    { "q": "Do you do landscape renovations in Rochester Hills?", "a": "Yes. HD Landscape renovates front yards, backyards and full properties in Rochester Hills, from one overgrown bed to a yard taken back to the dirt. The work can include tear out, [grading](/yard-grading/), new beds, plants, [sod](/sod-installation-rochester-hills-mi/) and [retaining walls](/retaining-walls-rochester-hills-mi/), all on one estimate." },
+    { "q": "Can I change the grade of my yard in Rochester Hills?", "a": "Sometimes. City code does not allow a change that materially blocks established surface drainage, and some grading can take a land improvement permit, so confirm your plan with the city. Its Soil Erosion Permit form also sends applicants to the Oakland County Water Resources Commissioner's Office, which means a bigger earth moving job can involve the county too. [Steep slopes](/retaining-walls-rochester-hills-mi/) have rules of their own." },
+    { "q": "What should replace an old Bradford pear or blue spruce?", "a": "The spot decides, and the Rochester Hills street tree list is a good place to start, with shade trees such as bur oak, swamp white oak, katsura, tuliptree and American linden. Those are picks for a street, so match the mature size of the tree to the room your yard actually has." },
+    { "q": "My house is in a historic district. Can you still renovate the yard?", "a": "It takes one more step. Rochester Hills has two main historic districts, Stoney Creek and Winkler Mill, plus about 30 individual historic properties, and the Historic Districts Commission reviews work on them. City staff can approve some minor work, such as removing dead, diseased or non-original shrubs. Ask the planning department what your plan needs." }
+  ],
+  "reviews": ["rob-e", "billy-w", "stephen-d"]
+}

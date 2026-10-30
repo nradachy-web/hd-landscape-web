@@ -1,0 +1,47 @@
+{
+  "service": "pressure-washing",
+  "city": "rochester-hills",
+  "meta": {
+    "title": "Pressure Washing in Rochester Hills, MI | HD Landscape",
+    "description": "Pressure washing for Rochester Hills, MI walks, patios and pavers, with the runoff thought through on lots that drain toward a creek. Free estimates."
+  },
+  "hero": {
+    "kicker": "Pressure washing in Rochester Hills, MI",
+    "title": "Clean pavers, **with the creek in mind.**",
+    "lede": "Many yards in Rochester Hills drain toward creeks, and the city says storm water is not treated. So HD Landscape counts the rinse water as part of the job while it brings walks, patios and pavers back from grime and green.",
+    "chips": ["Walks, patios and pavers", "Runoff thought through", "Polymeric sand for open joints"],
+    "photo": "paver-walk"
+  },
+  "local": {
+    "eyebrow": "Pressure washing in Rochester Hills",
+    "title": "Wooded lots and sloped yards change the job.",
+    "intro": "On a wooded or sloped Rochester Hills lot, the grime has a cause you can point to. Trees hold the moisture in, slopes send water across the walk, and whatever comes off the surface heads downhill. All of that shapes how a wash should go.",
+    "points": [
+      { "title": "Upstream of something worth protecting", "body": "Paint Creek is one of the few cold-water trout streams in southeast Michigan, and Sargent Creek carries runoff to it from subdivisions in the northwest corner of town. The city names soaps among what runoff picks up, so the less that goes in the rinse, the better for the trout." },
+      { "title": "Green from the shade", "body": "Moss and algae settle in where paving stays damp, and on a wooded lot that can be most of the patio. Washing takes the growth off. It helps to know what is keeping it wet, whether that is the canopy, a downspout or a low spot." },
+      { "title": "Steps and sloped walks", "body": "A grade change usually means steps or a walk on a slope, and that is where slick green growth matters most. Working from the top down keeps dirty water from running back over what is already clean." },
+      { "title": "Joint sand on a slope", "body": "On a sloped patio, joint sand has somewhere to go. A wide, low spray is easier on it, and the joints deserve a look once they dry. If they have washed out or gone weedy, [polymeric sand](/polymeric-sand/) locks them back up." }
+    ]
+  },
+  "logistics": {
+    "title": "Know where the rinse water runs before the washer starts.",
+    "body": [
+      "It starts with a look over the surface: the joints, the stains and which way the slope sends the water. Pressure should be set on a small test spot before the rest gets washed.",
+      "We wash walks, patios and pavers. If you have something else in mind, like a driveway, send a photo and ask."
+    ],
+    "facts": [
+      { "label": "Surfaces", "value": "Walks, patios and pavers" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Good timing", "value": "Spring and fall" },
+      { "label": "Other surfaces", "value": "Send Jake a photo" }
+    ]
+  },
+  "photo": "slate-sidewalk",
+  "faq": [
+    { "q": "Do you do pressure washing in Rochester Hills?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in Rochester Hills, for homes and commercial properties. Call or text [(586) 718-8762](tel:+15867188762) to set up a free estimate, and a photo is a fine place to start." },
+    { "q": "Where does pressure washing water go?", "a": "Downhill, and often to a storm drain. Rochester Hills says storm water is not treated, and it names soaps among the things runoff can carry. So look at where the water will run before starting, and keep cleaners to a minimum. The same goes if you rent a washer and do it yourself." },
+    { "q": "Why does my patio stay green under the trees?", "a": "Shade keeps it damp, and damp paving grows moss and algae. Washing removes the growth, but it can come back if the spot stays wet. On a wooded Rochester Hills lot you may need a wash now and then. If water is the cause, [yard grading](/yard-grading/) may help." },
+    { "q": "Will pressure washing take the sand out of a sloped patio?", "a": "It can if it is done badly. A narrow tip held close blows sand out of the joints, and a slope lets it run. A wide spray at a low angle is the better way, with a look at the joints afterward. A little sand loss can be topped up, and bigger gaps get [polymeric sand](/polymeric-sand/)." }
+  ],
+  "reviews": ["mark-r", "marie-b"]
+}

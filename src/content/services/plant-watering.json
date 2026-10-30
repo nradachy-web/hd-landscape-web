@@ -1,0 +1,234 @@
+{
+  "service": "plant-watering",
+  "meta": {
+    "title": "Plant Watering Service in St. Clair Shores, MI | HD Landscape",
+    "description": "No time to water? HD Landscape provides dependable plant care for fresh installs, vacations and everyday life, from St. Clair Shores across Metro Detroit."
+  },
+  "hero": {
+    "kicker": "Plant watering in St. Clair Shores, MI and across Metro Detroit",
+    "title": "Somebody has to water. **It can be us.**",
+    "lede": "No time to water? HD Landscape provides dependable plant care for fresh installs, vacations and everyday life, so the plants you paid for still get water when you are away or busy.",
+    "chips": [
+      "Fresh installs",
+      "Vacations",
+      "Everyday life"
+    ],
+    "photo": "ai-watering"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What you hand off",
+      "title": "New plants cannot **look after themselves yet.**",
+      "body": [
+        "Plant watering is what it sounds like: we come to your yard and water your plants, so their care does not depend on you being home, remembering or having the time.",
+        "New plants need it most. MSU Extension calls the first two years after planting critical to the long term survival of most trees and shrubs, especially the first year, and says newly planted trees and shrubs are highly susceptible to drought. That is two summers of remembering the hose.",
+        "Good watering is simple to describe and easy to skip:"
+      ],
+      "checks": [
+        "Water on the soil under the plant, not over the leaves",
+        "Slow enough to soak in instead of running off",
+        "A look at the soil first, because wet clay needs no help",
+        "Morning watering when the schedule allows"
+      ],
+      "photo": "flagstone-hydrangea"
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Who it is for",
+      "title": "When people hand off the hose.",
+      "columns": 3,
+      "items": [
+        {
+          "tag": "Fresh installs",
+          "title": "New beds, trees and sod",
+          "body": "New [plants](/plant-installation/) and [sod](/sod-installation/) are at their thirstiest right after the crew leaves. We can take that schedule off your hands until they settle in."
+        },
+        {
+          "tag": "Vacations",
+          "title": "A trip away",
+          "body": "A hot, dry stretch does not care that you are up north. Tell us your dates and what needs water, and it gets done while you are gone."
+        },
+        {
+          "tag": "Everyday life",
+          "title": "Busy summers",
+          "body": "Some people simply do not have the time. For others, dragging a hose around the yard has gotten old. Regular watering keeps a yard you care about from sliding backward in July."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "ink",
+      "eyebrow": "What plants need",
+      "title": "One schedule **does not fit all of these.**",
+      "intro": "These are general guidelines from Michigan State University Extension, plus what we tell people about new sod. Rain, heat and your soil all change them, so treat this as a starting point.",
+      "columns": [
+        "New trees and shrubs",
+        "New sod",
+        "Pots and baskets",
+        "Evergreens in fall"
+      ],
+      "rows": [
+        {
+          "label": "How often",
+          "values": [
+            "Weekly for two months, then about every two weeks",
+            "Usually every day until it roots",
+            "Daily is common in summer, sometimes twice",
+            "Whenever rain falls short of an inch a week"
+          ]
+        },
+        {
+          "label": "The goal",
+          "values": [
+            "At least an inch a week is the usual rule of thumb",
+            "Moist all the way through the sod",
+            "Soil wet through, never bone dry",
+            "Water on the soil under the dripline, not the needles"
+          ]
+        },
+        {
+          "label": "Until when",
+          "values": [
+            "Two full years matter, the first one most",
+            "Until you cannot lift a corner",
+            "As long as they are outside",
+            "Until the ground freezes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "How it works",
+      "title": "Set it up once, then stop thinking about it.",
+      "steps": [
+        {
+          "title": "Tell us what and when",
+          "body": "Call or text Jake with what needs water and the dates or the season you have in mind. If we planted it, we already know the yard."
+        },
+        {
+          "title": "We look at the plants",
+          "body": "What is planted, how much sun it gets and how the soil holds water all matter, because heavy clay stays wet longer than most people think."
+        },
+        {
+          "title": "We set the schedule",
+          "body": "The plan stays plain: what gets water and how often. The estimate comes itemized, so you can see what you are paying for."
+        },
+        {
+          "title": "We water",
+          "body": "Water belongs on the soil under the plant, not over the leaves. When it starts running off, the right move is to stop, let it soak in and come back."
+        },
+        {
+          "title": "We adjust",
+          "body": "A wet week does not need what a dry one does, and a heat wave needs more. A good schedule follows the weather, because plants do not read calendars."
+        }
+      ],
+      "footnote": "This is a watering service, not a sprinkler company. We do not install or repair sprinkler systems."
+    },
+    {
+      "type": "intro",
+      "plane": "white",
+      "eyebrow": "Good to know",
+      "title": "More water **is not always better.**",
+      "body": [
+        "Too much water hurts new plants too. Roots need oxygen, and soil that stays soaked for more than a short time gets in the way of it. MSU Extension also warns that overly wet soil raises the risk of root rot. In St. Clair Shores, where most USDA soil samples rate poorly or very poorly drained, a bed that gets soaked can stay soaked.",
+        "Wilting does not always mean dry. After a lot of rain, it can mean the soil is too wet. Some droop in the heat of the day is normal, but leaves still drooping in the evening mean a plant is struggling. That is why the soil should get a look before the water goes on."
+      ],
+      "photo": "evergreen-island",
+      "flip": true
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "Showing up, in their words",
+      "title": "Dependable is the whole job.",
+      "intro": "Meagan wrote about Jake's call on watering. Renee and Marie wrote about other jobs, and about what a watering job depends on: showing up when we said we would.",
+      "ids": [
+        "meagan-m",
+        "renee-g",
+        "marie-b"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do plant watering in St. Clair Shores?",
+      "a": "Yes. HD Landscape waters fresh installs and keeps yards going through vacations and busy summers in St. Clair Shores, its home base, and across [Macomb, Oakland and Wayne counties](/service-areas/). The city limits irrigation on city water to odd or even dates from May 15 to October 1, with an exception for new plantings in their first 21 days, so a schedule in St. Clair Shores has to fit whatever the city's current rule says."
+    },
+    {
+      "q": "Do you water plants while I am on vacation?",
+      "a": "Yes. Give us your dates and tell us what needs water, and we will keep it going while you are away. Vacation watering is part of the plant watering service we offer around Metro Detroit, along with watering for fresh installs and everyday life."
+    },
+    {
+      "q": "How often should I water new trees and shrubs?",
+      "a": "MSU Extension's guidance is a good watering right after planting, then once a week for the first two months, then about every two weeks for the rest of the summer unless it turns hot and dry. That schedule was written for spring planting, so a summer install can need more."
+    },
+    {
+      "q": "How much water does a new tree or shrub need?",
+      "a": "A typical rule of thumb from MSU Extension is at least one inch of water a week, and in extremely hot weather that demand can approach two inches. What matters most is that it soaks in. If water starts running off, stop, let it soak, then go back."
+    },
+    {
+      "q": "How long do new plants need extra watering?",
+      "a": "MSU Extension calls the first two years after planting critical to the long term survival of most trees and shrubs, and the first year matters most. New sod is quicker: it needs steady water until it roots and you cannot lift a corner."
+    },
+    {
+      "q": "Can you overwater new plants?",
+      "a": "Yes. Roots need oxygen, and soil that stays soaked gets in the way of it and raises the risk of root rot. Clay soil, common in this part of Michigan, drains slowly, so check the soil before watering. A wilting plant in wet soil needs less water, not more."
+    },
+    {
+      "q": "Do evergreens need water in the fall?",
+      "a": "Yes, if the fall is dry. MSU Extension says a dry autumn can leave evergreens short of stored moisture going into winter, and once the ground freezes the roots cannot take up more. Water when rain falls short of an inch a week, and let the soil dry partway between waterings."
+    },
+    {
+      "q": "Can you water new sod?",
+      "a": "Yes. New sod has to stay moist all the way through until it roots, which usually means watering every day early on. We can handle that so a new lawn does not depend on your schedule. See [sod installation](/sod-installation/) for how the job runs."
+    },
+    {
+      "q": "Will you water plants you did not install?",
+      "a": "Usually, yes. Vacations and everyday watering are part of the service, not only fresh installs. Tell us what you have and what it needs, and Jake can say whether it is a fit."
+    },
+    {
+      "q": "Do I need to be home when you water?",
+      "a": "No. That is the point. We just need to be able to reach the plants and get water to them. If there is a locked gate or a dog involved, tell us ahead of time."
+    },
+    {
+      "q": "Do you install or fix sprinklers?",
+      "a": "No. We do not install or repair sprinkler systems. If you have a system and it misses a new bed, a sprinkler company can look at the system, and we can water what it does not reach."
+    },
+    {
+      "q": "How much does plant watering cost?",
+      "a": "A two week vacation and a full season of new sod are very different jobs. The number comes from how many plants need water, how spread out they are, how often and for how long. Tell Jake what you need and he will put it on a free, itemized estimate."
+    }
+  ],
+  "quote": {
+    "title": "Tell us what needs water.",
+    "lede": "What is planted, when you need help and for how long. Jake will put together a plain plan and an itemized estimate. Text a photo if that is easier."
+  },
+  "summary": {
+    "title": "You hand off the remembering.",
+    "intro": "The work is simple. Doing it on time, all season, is the hard part. Here is what you are handing off, and all of it is written out on your estimate.",
+    "items": [
+      {
+        "name": "A plan for your yard",
+        "detail": "What gets water, how often and for how long, set with you before the first visit."
+      },
+      {
+        "name": "Water where it counts",
+        "detail": "On the soil under the plant, slow enough to soak in."
+      },
+      {
+        "name": "Eyes on the soil",
+        "detail": "A look before the water goes on, because too much hurts new roots too."
+      },
+      {
+        "name": "Your timing",
+        "detail": "Fresh installs, vacations or regular care through everyday life."
+      }
+    ],
+    "footnote": "We do not install or repair sprinkler systems. If you would rather do the watering yourself, Jake can give you a plain schedule instead."
+  }
+}

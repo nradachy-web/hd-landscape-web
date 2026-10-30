@@ -1,0 +1,267 @@
+---
+/* ============================================================================
+   A YARD NOTE
+
+     1  head       topic, the title, the lede, date and reading time
+     2  white      the short version, then the sections; beside them (below on
+                   phones) the service the post is about
+     3  paper      the other posts, same topic first
+     4  ink        the quote form
+   Copy comes from src/content/journal/<slug>.json.
+   ========================================================================== */
+import Base from '../../layouts/Base.astro';
+import PageHead from '../../components/PageHead.astro';
+import Head from '../../components/Head.astro';
+import PostCard from '../../components/PostCard.astro';
+import QuoteBand from '../../components/QuoteBand.astro';
+import { BRAND } from '../../data/site';
+import { service as getService } from '../../data/services';
+import { dateLabel, minutes, postPath, posts, type Post } from '../../lib/blog';
+import { heroImage } from '../../lib/hero';
+import { href } from '../../lib/paths';
+import { plain, rich } from '../../lib/rich';
+import { article, breadcrumbs } from '../../lib/schema';
+
+export async function getStaticPaths() {
+  const all = await posts();
+  return all.map((post) => ({ params: { slug: post.id }, props: { post, others: all.filter((p) => p.id !== post.id) } }));
+}
+
+interface Props {
+  post: Post;
+  others: Post[];
+}
+const { post, others } = Astro.props;
+const d = post.data;
+const svc = getService(d.service);
+const path = postPath(post);
+const name = plain(d.title).replace(/\.$/, '');
+const head = await heroImage(d.photo, { sizes: '(min-width: 60rem) 48vw, 1px' });
+const more = [...others.filter((p) => p.data.service === d.service), ...others.filter((p) => p.data.service !== d.service)].slice(0, 3);
+
+const schema = [
+  article({ headline: d.title, description: d.meta.description, path, image: head.fallback, published: d.published, updated: d.updated, about: svc.name }),
+  breadcrumbs([
+    { name: 'Home', path: '/' },
+    { name: 'Yard notes', path: '/journal/' },
+    { name, path },
+  ]),
+];
+---
+
+<Base ogType="article" ogImage={head.fallback} title={d.meta.title} description={d.meta.description} path={path} preload={{ ...head.preload, media: '(min-width: 60rem)' }} schema={schema}>
+  <PageHead
+    image={head}
+    eyebrow={svc.name}
+    title={d.title}
+    lede={d.lede}
+    crumbs={[
+      { name: 'Yard notes', path: '/journal/' },
+      { name, path },
+    ]}
+  >
+    <p class="fine muted">
+      <time datetime={d.published}>{dateLabel(d.published)}</time>, {minutes(post)} minute read
+      {d.updated && <span>. Updated <time datetime={d.updated}>{dateLabel(d.updated)}</time></span>}
+    </p>
+  </PageHead>
+
+  <section class="band white">
+    <div class="wrap post">
+      <article class="post__main">
+        <div class="post__short">
+          <h2 class="post__short-h">The short version</h2>
+          <ul class="checks small">{d.short.map((t) => <li><span set:html={rich(t)} /></li>)}</ul>
+        </div>
+        <div class="post__body prose">
+          {
+            d.sections.map((s) => (
+              <section>
+                <h2>{s.h}</h2>
+                {s.p.map((t) => <p set:html={rich(t)} />)}
+                {s.list.length > 0 && <ul class="post__list">{s.list.map((t) => <li set:html={rich(t)} />)}</ul>}
+                {s.table && (
+                  <div class="post__table">
+                    <div class="post__scroll">
+                      <table>
+                        <thead>
+                          <tr>{s.table.head.map((h) => <th scope="col">{h}</th>)}</tr>
+                        </thead>
+                        <tbody>
+                          {s.table.rows.map((r) => (
+                            <tr>{r.map((c, i) => (i === 0 ? <th scope="row">{c}</th> : <td>{c}</td>))}</tr>
+                          ))}
+                        </tbody>
+                      </table>
+                    </div>
+                    {s.table.note && <p class="fine muted post__note">{s.table.note}</p>}
+                  </div>
+                )}
+                {s.after.map((t) => <p set:html={rich(t)} />)}
+              </section>
+            ))
+          }
+        </div>
+      </article>
+
+      <aside class="post__aside" aria-label={`${svc.name} at ${BRAND.name}`}>
+        <div class="card pad aside">
+          <p class="eyebrow">{svc.name}</p>
+          <p class="aside__fact">{svc.fact}</p>
+          <p class="small muted">{svc.teaser}</p>
+          <a class="btn primary" href="#quote" data-cta="blog-quote">Get a free estimate</a>
+          <a class="arrow small" href={href(svc.path)}>See {svc.noun}</a>
+          <p class="fine muted">Or call or text <a class="link" href={BRAND.phoneHref} data-loc="blog-aside">{BRAND.phone}</a></p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="more-h">
+    <div class="wrap">
+      <Head id="more-h" eyebrow="Blog" title="Keep reading." />
+      <ul class="grid c3">{more.map((p) => <PostCard post={p} />)}</ul>
+      <p class="all"><a class="arrow" href={href('/journal/')}>Every post</a></p>
+    </div>
+  </section>
+
+  <QuoteBand />
+</Base>
+
+<style>
+  .post {
+    display: grid;
+    gap: clamp(2.5rem, 5vw, 4rem);
+  }
+
+  .post__main {
+    display: grid;
+    gap: clamp(2.25rem, 4vw, 3rem);
+    max-width: 44rem;
+  }
+
+  .post__short {
+    display: grid;
+    gap: 1rem;
+    padding: clamp(1.25rem, 2.4vw, 1.75rem);
+    border: 1px solid var(--line);
+    border-radius: var(--r);
+    background: var(--paper);
+  }
+
+  .post__short-h {
+    font-size: 1.0625rem;
+    font-weight: 680;
+  }
+
+  .post__body {
+    display: grid;
+    gap: clamp(2.25rem, 4vw, 2.75rem);
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+
+  .post__body section {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .post__body :global(p + p) {
+    margin-top: 0;
+  }
+
+  .post__body h2 {
+    font-size: clamp(1.4rem, 1.1vw + 1.1rem, 1.85rem);
+    font-weight: 720;
+    line-height: 1.15;
+    letter-spacing: -0.012em;
+  }
+
+  .post__list {
+    display: grid;
+    gap: 0.75rem;
+    padding-left: 1.2rem;
+    list-style: disc;
+  }
+
+  .post__list li::marker {
+    color: var(--forest);
+  }
+
+  .post__table {
+    display: grid;
+    gap: 0.6rem;
+  }
+
+  /* a table too wide for a small phone scrolls inside its own box, never the page */
+  .post__scroll {
+    overflow-x: auto;
+  }
+
+  .post__table table {
+    width: 100%;
+    min-width: 17rem;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+    line-height: 1.45;
+  }
+
+  .post__table th,
+  .post__table td {
+    padding: 0.7rem clamp(0.5rem, 1.6vw, 0.85rem);
+    border-bottom: 1px solid var(--line);
+    text-align: left;
+    vertical-align: top;
+    
+  }
+
+  @media (max-width: 29.99rem) {
+    .post__table table {
+      font-size: 0.875rem;
+    }
+  }
+
+  .post__table thead th {
+    font-family: var(--font-display);
+    font-weight: 660;
+    background: var(--paper);
+  }
+
+  .post__table tbody th {
+    font-weight: 600;
+  }
+
+  .aside {
+    display: grid;
+    justify-items: start;
+    gap: 0.85rem;
+  }
+
+  .aside .btn {
+    justify-self: stretch;
+  }
+
+  .aside__fact {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 740;
+    line-height: 1.1;
+  }
+
+  .all {
+    margin-top: 1.5rem;
+  }
+
+  @media (min-width: 64rem) {
+    .post {
+      grid-template-columns: minmax(0, 1fr) 20rem;
+      gap: clamp(3rem, 6vw, 6rem);
+      align-items: start;
+    }
+
+    .post__aside {
+      position: sticky;
+      top: calc(var(--header) + 2rem);
+    }
+  }
+</style>

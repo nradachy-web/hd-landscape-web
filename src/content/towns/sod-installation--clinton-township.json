@@ -1,0 +1,94 @@
+{
+  "service": "sod-installation",
+  "city": "clinton-township",
+  "meta": {
+    "title": "Sod Installation in Clinton Township, MI | HD Landscape",
+    "description": "New sod for established Clinton Township lawns: tired turf out, low spots fixed, fresh sod in, and many lawns finished in a day. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Sod installation in Clinton Township, MI",
+    "title": "Same house. **Brand new lawn.**",
+    "lede": "Many Clinton Township lawns are as old as the home, and the homes went up in the 1970s, 80s and 90s. HD Landscape takes the tired turf off, fixes the low spots that decades of settling left behind and rolls out a clean new lawn. Many lawns are finished in one day, depending on the grade.",
+    "chips": [
+      "Tired turf stripped",
+      "Low spots leveled",
+      "Often one day"
+    ],
+    "photo": "sod-colonial"
+  },
+  "local": {
+    "eyebrow": "Sod in Clinton Township",
+    "title": "Decades of wear, and **what has to change** under the new lawn.",
+    "intro": "An old lawn rarely fails for one reason. In Clinton Township it is usually a mix of settled ground, slow draining soil and a yard that changed around it as sheds, decks and additions went in. New sod only lasts if the ground gets dealt with first.",
+    "points": [
+      {
+        "title": "Ground that moved over time",
+        "body": "Thirty or forty years of settling leaves dips along walks, around downspouts and over old trenches. Water collects there and the grass thins out. We rake and fill those spots so the new lawn lies flat and drains."
+      },
+      {
+        "title": "Yards that changed shape",
+        "body": "Every addition and shed puts more roof water onto less ground, so a back yard may not drain the way it did in 1985. Before the first roll goes down, it pays to know where the downspouts and hard surfaces send water today."
+      },
+      {
+        "title": "Heavy soil, with surprises",
+        "body": "Lenawee and Toledo silty clay loams are the two biggest soils on the USDA map here, rated poorly and very poorly drained, and there are pockets of fine sand too. Heavy spots need a grade that moves water. Sandy spots need more water early on. Jake's watering plan follows the soil you have."
+      },
+      {
+        "title": "Bare soil near the river gets extra care",
+        "body": "The master plan notes that many subdivisions back up to wetland along the Middle Branch of the Clinton River. The township says erosion controls may be needed for land disturbance near waterways. If that is your yard, ask early. Sod helps here, since it covers bare ground quickly."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "On an older lot, the back gate can set the plan.",
+    "body": [
+      "Older lots come with fences, gates and sheds between the driveway and the back yard, so the way in gets a close look at the estimate, along with how the old lawn comes out.",
+      "Then comes the water. Jake sets a watering schedule that fits your soil and how much shade the yard gets. If you expect to water a lot for years, ask the township about a deduct meter, which it says eliminates sewer charges on water used through authorized connections like outdoor spigots. We can also [handle the watering](/plant-watering/) while the sod roots."
+    ],
+    "facts": [
+      {
+        "label": "How long",
+        "value": "Often one day"
+      },
+      {
+        "label": "Township pickup",
+        "value": "No sod, dirt or root balls"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "Not included",
+        "value": "Sprinkler installation"
+      }
+    ]
+  },
+  "photo": "grade-jake",
+  "faq": [
+    {
+      "q": "Do you install sod in Clinton Township?",
+      "a": "Yes. HD Landscape lays sod in Clinton Township, where we work often, and sod is a job we do a lot. The old lawn comes off, the ground gets leveled and the new sod goes down."
+    },
+    {
+      "q": "Can you fix low spots before laying sod?",
+      "a": "Yes, that is part of the job. We fill and level the dips, then check that water moves away from the house. If a spot is wet because a private storm line has failed, the township points owners to an HOA or a drainage contractor, and you should know that before any sod goes down."
+    },
+    {
+      "q": "What happens to my old lawn in Clinton Township?",
+      "a": "It cannot go to the curb. The township's yard waste pickup does not accept sod, dirt or root balls, so how the old lawn leaves the property goes on your estimate."
+    },
+    {
+      "q": "Can I avoid sewer charges while watering new sod in Clinton Township?",
+      "a": "You may be able to, but it takes some plumbing. The township says a deduct meter eliminates sewer charges on water used through authorized connections, including outdoor spigots for hose watering. You buy the meter from the township, pull a plumbing permit and have the plumbing changed, so it suits years of watering better than one new lawn. Call the township's water department before the sod goes down to see if it makes sense for you."
+    },
+    {
+      "q": "Will sod work in a shady older yard?",
+      "a": "That comes down to light. Trees planted when a Clinton Township subdivision was new can now shade much of a small lot, and sod needs light. We will tell you where it will do well and where a [planted bed](/landscape-design-clinton-township-mi/) is the smarter choice."
+    }
+  ],
+  "reviews": [
+    "rob-e",
+    "stephen-d"
+  ]
+}

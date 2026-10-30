@@ -1,0 +1,260 @@
+{
+  "service": "weeding",
+  "meta": {
+    "title": "Weeding in St. Clair Shores, MI | HD Landscape",
+    "description": "Flower beds pulled by hand, roots out, so your plants get the room. HD Landscape weeds beds across Metro Detroit. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Weeding in St. Clair Shores, MI and across Metro Detroit",
+    "title": "Weeds out, **roots and all.**",
+    "lede": "HD Landscape pulls beds by hand, roots out, so the plants you paid for get the room. It is slow work and hard on the knees, which is why it gets put off and why people call us.",
+    "chips": [
+      "Pulled by hand",
+      "Roots out",
+      "Beds left clean"
+    ],
+    "photo": "weeping-border"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "The root of it",
+      "title": "A snapped weed **comes right back.**",
+      "body": [
+        "HD Landscape weeds flower beds by hand in St. Clair Shores and across Metro Detroit, and the root is the part that counts. University of California pest guidelines say a section of dandelion root as short as an inch can grow a new plant, and Canada thistle comes back from cut roots too. So we take the root, which is slower than scraping a hoe over the top and holds up better.",
+        "Timing matters just as much. A weed left alone goes to seed, and one large purslane plant has been reported to set as many as 240,000 of them. That is how a strip along a foundation ends up like the one in this photo. Getting weeds out before that happens is how a bed gets easier each year instead of harder."
+      ],
+      "checks": [
+        "Beds worked by hand, with the roots out",
+        "In around shrubs, perennials and along the foundation",
+        "The bed left clean, with pulled weeds out of it",
+        "An honest word on any weed that will need repeat visits"
+      ],
+      "photo": "ba-foundation-before"
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Know what you have",
+      "title": "Some weeds pull clean. **Some fight back.**",
+      "intro": "Six weeds Michigan homeowners run into, and what each one takes. Some need one good pull. Others need repeat visits, so it helps to know which you have.",
+      "columns": 3,
+      "items": [
+        {
+          "tag": "Comes back from roots",
+          "title": "Dandelion",
+          "body": "A piece of root as short as an inch can grow a new plant, so snapping it off at the leaves does not count. It has to come out whole, taproot and all."
+        },
+        {
+          "tag": "Comes back from roots",
+          "title": "Canada thistle",
+          "body": "It runs on a deep, creeping root system, and cut pieces of root can start new plants. A small patch can be dug out. A big one will take repeat visits, and Jake will say so when he sees it."
+        },
+        {
+          "tag": "Comes back from roots",
+          "title": "Field bindweed",
+          "body": "Buds along the roots turn into new plants, and a two inch piece of root can start one. University of California guidance is to go after it about every two to three weeks, and it warns that one season will not finish it."
+        },
+        {
+          "tag": "Spreads along the ground",
+          "title": "Creeping Charlie",
+          "body": "Also called ground ivy. Square stems creep along the ground and root as they go, and it likes shade and damp soil. Bits of stem left behind root again, so even small patches can resist repeat hand weeding. Plan on staying after it."
+        },
+        {
+          "tag": "A sign of wet soil",
+          "title": "Yellow nutsedge",
+          "body": "It looks like grass, but the stem is triangular. It thrives in waterlogged soil, and finding it often means the drainage is poor, so the [grade](/yard-grading/) deserves a look as well as the weed."
+        },
+        {
+          "tag": "Comes back from seed",
+          "title": "Garlic mustard",
+          "body": "It can keep setting seed after it is pulled, so University of Minnesota Extension says to bag or burn flowering plants. A loose pile only moves the problem."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "Bed by bed",
+      "title": "Get the root, then cover the ground.",
+      "steps": [
+        {
+          "title": "Look",
+          "body": "Jake walks the beds with you, sorts the weeds from the plants you want to stay and writes it up, itemized, so you can go through it line by line."
+        },
+        {
+          "title": "Pull",
+          "body": "We work through each bed by hand and take the roots, in close around shrubs and perennials where a hoe would do damage."
+        },
+        {
+          "title": "Clear",
+          "body": "Root pieces and ripening seed can stay alive in a pile, and the last thing a clean bed needs is a supply of weeds behind the garage. How the pulled weeds leave goes on your estimate."
+        },
+        {
+          "title": "Cover",
+          "body": "A bare bed invites the next round. Fresh [mulch](/mulching/) at the right depth can smother annual weeds and some perennials, so the bed stays cleaner for longer."
+        }
+      ],
+      "footnote": "If overgrown shrubs are part of the problem, they can come out at the same time with [plant removal](/plant-removal/)."
+    },
+    {
+      "type": "beforeAfter",
+      "plane": "ink",
+      "eyebrow": "Real job",
+      "title": "Same wall, weeds gone.",
+      "intro": "The strip from the top of the page, after the work. Drag the line to compare.",
+      "pairs": [
+        "ba-foundation"
+      ],
+      "checks": [
+        "Weeds pulled",
+        "Bed line cut",
+        "Fresh black mulch spread"
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "Which one you need",
+      "title": "One pull, a cleanup or monthly care.",
+      "intro": "Weeding can be a one time job or part of something bigger. Here is how they differ, with more on [cleanups](/spring-and-fall-cleanups/) and [monthly maintenance](/monthly-landscape-maintenance/).",
+      "columns": [
+        "One time weeding",
+        "Spring or fall cleanup",
+        "Monthly maintenance"
+      ],
+      "rows": [
+        {
+          "label": "Good for",
+          "values": [
+            "Beds that got away from you",
+            "Resetting the yard for the season",
+            "Keeping beds clean month to month"
+          ]
+        },
+        {
+          "label": "What we do",
+          "values": [
+            "Pull the beds by hand, roots out",
+            "Clear beds, remove leaves, tidy shrubs",
+            "Set on your estimate: beds, weeding, edging, tidying"
+          ]
+        },
+        {
+          "label": "How often",
+          "values": [
+            "When you need it",
+            "Spring, fall or both",
+            "Monthly"
+          ]
+        },
+        {
+          "label": "Goes well with",
+          "values": [
+            "Fresh mulch",
+            "Fresh mulch and a hedge trim",
+            "Nothing extra: weeds get caught early"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Close to home",
+      "title": "In St. Clair Shores, weeds **point to the water.**",
+      "body": [
+        "St. Clair Shores is home for us. The city went from a resort community to a suburb quickly after World War II, so plenty of beds here have had decades to collect weeds and overgrown shrubs.",
+        "USDA soil data shows heavy, slow draining ground across most of the city, and that shows up in the weeds. Yellow nutsedge tends to mean a bed is too wet, and creeping Charlie likes shade and damp ground. If a bed here keeps filling back in, look at the water and the shade along with the weeds.",
+        "We also weed beds in [Grosse Pointe](/service-areas/grosse-pointe/), [Clinton Township](/service-areas/clinton-township/) and towns across Macomb and Oakland counties."
+      ],
+      "photo": "boxwood-front",
+      "flip": true,
+      "cta": {
+        "label": "More on St. Clair Shores",
+        "href": "/service-areas/st-clair-shores/"
+      }
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "What customers wrote",
+      "title": "When the beds get to be too much.",
+      "ids": [
+        "nancy-g",
+        "stephen-d"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do weeding in St. Clair Shores?",
+      "a": "Yes. HD Landscape is based in St. Clair Shores and pulls weeds from beds here and across the Grosse Pointes, Macomb County and Oakland County. Call or text [(586) 718-8762](tel:+15867188762) and Jake will come see yours."
+    },
+    {
+      "q": "Do you pull weeds by hand or spray them?",
+      "a": "Our weeding service is done by hand. We pull weeds from the beds and take the roots, because a weed cut off at the top can come back from what is left. If a bed has something hand pulling will not end, such as creeping Charlie, Jake will say so plainly."
+    },
+    {
+      "q": "Can you clean out a flower bed that has gotten away from us?",
+      "a": "Yes. One couple wrote that their overgrown plants and weeds had gotten too hard for them, and the crew cleaned out the beds in front of the house. Plants that are past saving can come out with [plant removal](/plant-removal/), and the bed can then be replanted or mulched."
+    },
+    {
+      "q": "How often should flower beds be weeded?",
+      "a": "Often enough that nothing goes to seed. MSU Extension says the way to beat a weedy garden is to keep seeds from germinating, so catching weeds young matters more than one big pull. For a lot of people that makes [monthly landscape maintenance](/monthly-landscape-maintenance/) the easy answer."
+    },
+    {
+      "q": "Why do weeds keep coming back after I pull them?",
+      "a": "Usually one of two reasons. Roots left in the ground can regrow, and seeds already in the soil keep sprouting when they get light and moisture. Careful pulling handles the first problem, and a good layer of mulch helps with the second."
+    },
+    {
+      "q": "Will mulch keep weeds from coming back?",
+      "a": "It cuts them down, but it does not end weeding. A layer of [mulch](/mulching/) two to three inches deep can smother annual weeds and some perennials, and a light refresh each year keeps new seeds from sprouting. Established perennial weeds still have to be pulled first, or they grow right up through it."
+    },
+    {
+      "q": "What happens to the weeds after you pull them?",
+      "a": "They should not stay in a pile in the yard. Root pieces can regrow, and University of Minnesota Extension says pulled garlic mustard can keep setting seed. Your estimate spells out how they leave the property."
+    },
+    {
+      "q": "Can you get rid of weeds between pavers?",
+      "a": "That is a different job. We clean out the joints and refill them with [polymeric sand](/polymeric-sand/), so the surface locks up and weeds have a much harder time getting through."
+    },
+    {
+      "q": "How long does it take to weed a flower bed?",
+      "a": "A few beds can often be done in one visit. Big or badly overgrown beds take longer, and Jake can give you a better idea once he has seen them."
+    },
+    {
+      "q": "How much does weeding cost?",
+      "a": "The price comes down to how many beds there are and how far they have gone, and both are easier to judge in person. A photo by text is an easy way to start, and the estimate costs nothing and comes itemized."
+    }
+  ],
+  "faqIntro": "What homeowners ask us about weeds and beds. If yours is not here, call or text [(586) 718-8762](tel:+15867188762).",
+  "quote": {
+    "title": "Send us your worst bed.",
+    "lede": "Text Jake a photo or use the form. He will come see it and write up an itemized estimate, with no pressure either way."
+  },
+  "summary": {
+    "title": "The root comes out, or it is not weeded.",
+    "intro": "Weeding sounds simple, and it is, as long as the roots come out and nothing is left to go to seed. Here is what that looks like, and you can go through each part line by line on your estimate.",
+    "items": [
+      {
+        "name": "Hand pulling",
+        "detail": "Beds worked by hand, in close around shrubs and perennials."
+      },
+      {
+        "name": "Roots out",
+        "detail": "The root comes with the weed, so it has less chance of regrowing."
+      },
+      {
+        "name": "Clearing",
+        "detail": "Pulled weeds out of the bed, with how they leave set on your estimate."
+      },
+      {
+        "name": "Straight talk",
+        "detail": "A plain word on any weed that will need repeat visits."
+      }
+    ],
+    "footnote": "To keep it that way, add fresh [mulch](/mulching/) or [monthly maintenance](/monthly-landscape-maintenance/)."
+  }
+}

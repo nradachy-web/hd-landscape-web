@@ -1,0 +1,104 @@
+{
+  "service": "landscape-design",
+  "city": "west-bloomfield",
+  "meta": {
+    "title": "Landscape Design in West Bloomfield, MI | HD Landscape",
+    "description": "Landscape design for West Bloomfield, MI lake lots and subdivision homes, planned around setbacks, soil and deer. 5.0 on Google. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscape design in West Bloomfield, MI",
+    "title": "Draw the water line **first.**",
+    "lede": "A good West Bloomfield plan starts with what you cannot move: the setback from the lake or wetland, the old oaks and the soil under your feet. HD Landscape then draws the yard you actually want inside those lines.",
+    "chips": [
+      "Planned around the setback",
+      "Plants matched to the soil",
+      "Drawn for how you use the yard"
+    ],
+    "photo": "maple-rock-bed"
+  },
+  "local": {
+    "eyebrow": "Design in West Bloomfield",
+    "title": "In West Bloomfield, the ground writes half the plan.",
+    "intro": "The township counts 28 lakes and well over 1,500 acres of regulated wetlands, and its soil can change from one side of a lot to the other. A plan drawn for a flat, open yard falls apart here, so ours starts with a long walk and a lot of questions.",
+    "points": [
+      {
+        "title": "What goes behind the line",
+        "body": "Showpiece planting, boulders and fill all belong behind the 25 foot setback, since that strip generally takes a permit for any of them. Drawing it first saves redrawing the whole plan later."
+      },
+      {
+        "title": "A shorter plant list near the water",
+        "body": "Township standards for setback and preservation areas call for approved native plants. That suits a lake lot. Deep rooted natives help steady a shoreline, and lawn grass does not grow naturally at the lake edge."
+      },
+      {
+        "title": "Lawn to the water brings geese",
+        "body": "Lawn running down to the lake is common on older lots, and Canada geese love it: easy food and a clear view of anything coming. Trees and shrubs that break up that view make the yard less inviting to them. Inside the setback, that planting takes approval and native species."
+      },
+      {
+        "title": "Different soil on the same lot",
+        "body": "Marlette loam holds moisture and drains slowly. Spinks loamy sand drains fast and is prone to erosion on a slope. Muck in a low spot can sit wet most of the year. Each one changes what belongs there and how the bed gets built."
+      },
+      {
+        "title": "Shrubs that outgrew the windows",
+        "body": "More than half the homes here went up between 1970 and 1989, and foundation shrubs from that era have had decades to get too big. A redesign usually starts by taking those out and keeping the good trees."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "Near the water, a design can add a permit step.",
+    "body": [
+      "The first walk with Jake covers light, drainage, the view from inside the house and whatever you are tired of looking at. You get a plan drawn for the property and an itemized estimate, so you can see what each part of the idea involves before anything changes.",
+      "Near water, the calendar depends on more than our crew. Everyday planting that leaves the drainage alone is exempt from the township grading permit, but a soil erosion permit can apply to earth moved within 500 feet of a lake, stream or wetland. If your plan needs one, you will hear it at the estimate, and the township has the final word.",
+      "Subdivision and lake associations are common here, and some have rules of their own. Bring yours to the first walk and we will draw with them in mind."
+    ],
+    "facts": [
+      {
+        "label": "First step",
+        "value": "A walk with Jake"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "Built by",
+        "value": "Our crew, from plan to planting"
+      },
+      {
+        "label": "Not included",
+        "value": "Sprinkler installation"
+      }
+    ]
+  },
+  "photo": "patio-bed",
+  "faq": [
+    {
+      "q": "Do you do landscape design in West Bloomfield?",
+      "a": "Yes. HD Landscape designs and builds landscapes in West Bloomfield, MI, on lake lots, wooded lots and subdivision homes. Jake walks the property first, because the setback, the oaks and the soil shape the plan as much as your taste does."
+    },
+    {
+      "q": "Can I plant right up to the lake in West Bloomfield?",
+      "a": "Usually not without township approval. Code sets a 25 foot setback from the water, and planting there generally calls for a permit and approved native species. Showpiece beds belong back from the shore, and the strip near the water is best left simple. Check with the township on your lot."
+    },
+    {
+      "q": "Does West Bloomfield require a permit to landscape my yard?",
+      "a": "Often no, if the work is ordinary planting and does not change how the land drains. Mass grading over 500 square feet or stripping topsoil can call for a township grading permit, and earth moved within 500 feet of a lake, stream or wetland can call for a soil erosion permit. Jake will flag what he sees at the estimate, and the township has the final say."
+    },
+    {
+      "q": "How do you choose plants when the soil keeps changing?",
+      "a": "By what is in the ground, because it varies more in West Bloomfield than most people expect. The township lists 38 soil types, from slow draining Marlette loam to sandy Spinks soils that erode easily and muck that stays wet. A plant that thrives on one side of the lot can struggle on the other."
+    },
+    {
+      "q": "Can you design a yard that deer will leave alone?",
+      "a": "Not completely. Damage to landscaping is one of the top complaints about deer here, and no plant is deer proof. Results change with the local herd and the weather. A good plan leans on plants deer tend to skip and says plainly which choices are a gamble."
+    },
+    {
+      "q": "Can you update a 1980s landscape without starting over?",
+      "a": "Yes. We keep the good trees and anything still healthy and in scale, then take out what has overgrown. Some yards need only new beds and a few [new plants](/plant-installation/), and others call for a full [landscape renovation](/landscape-renovation/)."
+    }
+  ],
+  "reviews": [
+    "amanda-h",
+    "billy-w",
+    "mark-r"
+  ]
+}

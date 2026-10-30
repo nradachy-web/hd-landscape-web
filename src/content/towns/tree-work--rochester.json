@@ -1,0 +1,49 @@
+{
+  "service": "tree-work",
+  "city": "rochester",
+  "meta": {
+    "title": "Tree Trimming in Rochester, MI | HD Landscape",
+    "description": "Tree trimming and smaller removals by HD Landscape in Rochester, MI, planned around the city's seven inch permit rule and landmark trees. Free estimates."
+  },
+  "hero": {
+    "kicker": "Tree trimming and removal in Rochester, MI",
+    "title": "Measure the trunk **before the saw comes out.**",
+    "lede": "In Rochester, taking down a tree seven inches across or bigger takes a city permit, even on your own lot. HD Landscape prunes and takes down smaller trees here, and on the walk Jake will point out what looks like it needs a permit.",
+    "chips": ["Permit rule in plain words", "Pruning and smaller removals", "Oak dates respected"],
+    "photo": "shade-lawn"
+  },
+  "local": {
+    "eyebrow": "Tree work in Rochester",
+    "title": "Rochester's tree rules, in plain words.",
+    "intro": "The city's tree ordinance reaches private yards as well as street trees, so it pays to know it before a saw gets booked. This is our plain reading of it, not legal advice. Rules change, so confirm with the City Forester before work starts.",
+    "points": [
+      { "title": "Seven inches is the line", "body": "A protected tree is seven inches or more across, measured four and a half feet above the ground. Removing one takes a permit first. Up to three in 12 months from a developed lot usually skips replacement planting, but the permit is still required." },
+      { "title": "Landmark trees", "body": "Any healthy tree 24 inches or bigger can count as a landmark, and some species count much sooner: dogwood, magnolia, redbud and serviceberry at eight inches. Removing one takes city approval, usually after a public meeting with notice to the neighbors." },
+      { "title": "Trees by the curb", "body": "Nobody may prune, plant or remove trees in a right-of-way or park without written permission from the city. That often includes the strip between the walk and the street. If your tree is out there, it waits for the city." },
+      { "title": "Dead and dangerous trees", "body": "A dead tree over the size line still needs a permit, though there is no fee if the city agrees it is dead or dying. Owners are also expected to remove dead or broken limbs over a street or walk that put the public at risk." }
+    ]
+  },
+  "logistics": {
+    "title": "Size decides who does the job. The permit decides when.",
+    "body": [
+      "Jake looks at the tree with you: the trunk, the height, the limbs and what is underneath. If it is ours, an itemized estimate follows, and he will say if it looks like it needs a permit before anything gets scheduled. Permit questions go to the City Forester.",
+      "The city's crews do not pick up contracted tree trimmings, and it says the contractor who did the work has to remove the brush, so hauling it is part of the job and goes on your estimate. Oaks run on the state's calendar: no pruning from April 15 to July 15, when fresh cuts can draw the beetles that carry oak wilt. That leaves the cold months, when Jake works South Florida, so ask early if he can do your oak or who can."
+    ],
+    "facts": [
+      { "label": "Permit line", "value": "7 inches across, measured 4.5 feet up" },
+      { "label": "Oaks", "value": "No pruning April 15 to July 15" },
+      { "label": "Landmark trees", "value": "City approval, usually a public meeting" },
+      { "label": "Curb strip", "value": "Written city permission, even to prune" }
+    ]
+  },
+  "photo": "ai-tree",
+  "faq": [
+    { "q": "Do you do tree trimming in Rochester, MI?", "a": "Yes. HD Landscape prunes trees and takes down smaller ones in the City of Rochester, MI, and a big removal gets handed to a tree company. Jake will look at the tree with you and say which kind of job you have." },
+    { "q": "Does cutting down a tree in Rochester take a permit?", "a": "Usually, yes, if it is seven inches across or bigger at four and a half feet up. That applies on private property inside the city limits. The form goes to the City Forester, and landmark trees have a longer process. Ask the city before you schedule anything, because the rules can change." },
+    { "q": "Does Rochester's tree permit apply in Rochester Hills or Oakland Township?", "a": "No. This ordinance belongs to the city alone. Rochester Hills and Oakland Township have their own rules, and a Rochester mailing address does not tell you which one you are in. Check your tax bill, then ask the right office." },
+    { "q": "What happens if a tree is removed without a permit in Rochester?", "a": "The ordinance calls for replacing it at a higher rate: 150 percent of the trunk inches removed for a protected tree and 200 percent for a landmark. The city can also go after the owner and the tree remover in court. A phone call first is a lot easier." },
+    { "q": "Does trimming a tree take a permit too?", "a": "Rochester's removal permit is about taking a tree down, moving it or destroying it, so ordinary pruning on your own lot is a different matter. Trees in the right-of-way need written permission even to prune. Cutting so hard that a tree declines can count as an improper removal, which is one more reason to keep pruning light." },
+    { "q": "Can you take down a dead tree?", "a": "If it is a smaller tree, yes. In Rochester a dead tree over seven inches still goes through the permit process, but it does not count against the three tree allowance once the city determines it is dead." }
+  ],
+  "reviews": ["anne-j", "stephen-d"]
+}

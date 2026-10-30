@@ -1,0 +1,51 @@
+{
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Landscaping in Grosse Pointe, MI | HD Landscape",
+    "description": "Landscape design, hedges, sod and monthly care for Grosse Pointe, MI, from 50 foot lots to estate streets, and across all five Pointes. Free estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Grosse Pointe, MI",
+    "title": "One square mile. **Three kinds of yard.**",
+    "lede": "The City of Grosse Pointe fits narrow lots, 50 foot lots and estate streets into about a square mile. HD Landscape plans, builds and keeps those yards, and work here tends to start with a neighbor passing along Jake's name.",
+    "chips": ["Design through installation", "Hedges and old beds", "Itemized estimates"],
+    "photo": "dusk-stone"
+  },
+  "about": {
+    "eyebrow": "Yards in the City",
+    "title": "Old homes, old beds and **very little room for error.**",
+    "body": [
+      "People say Grosse Pointe for all five Pointes, and HD Landscape works in all of them: the City, the [Farms](/service-areas/grosse-pointe-farms/), the [Park](/service-areas/grosse-pointe-park/), the [Shores](/service-areas/grosse-pointe-shores/) and the [Woods](/service-areas/grosse-pointe-woods/). Each one sets its own rules and sits on its own soil, so the details here are for the City, the one around the Village and Neff Park.",
+      "The city's master plan says 57.5 percent of its housing was built before 1939, and only 15 new units went up from 2000 to 2021. So nearly every yard here is an old yard: beds laid out by someone long gone, shrubs that have outgrown the windows, walks that have settled. Most homes sit on lots 40 to 60 feet wide. Parts of Notre Dame and St. Clair run narrower, and parts of Lakeland and Washington run past 100 feet, so a plan that suits one block can be wrong on the next."
+    ],
+    "points": [
+      { "title": "A canopy with gaps", "body": "American elms once met over these streets. Dutch elm disease took them, then emerald ash borer took much of what replaced them. A bed planned for deep shade decades ago may sit in full sun today, so plan for the light you have now." },
+      { "title": "Flat, wet ground", "body": "USDA soil maps put about half the city on poorly drained, clayey Ziegenfuss soils, and almost all of it on gentle slopes of 4 percent or less. Water has few places to go, so the grade comes before the planting." },
+      { "title": "The drive is the way in", "body": "Most homes here have a detached garage behind the house and cars parked along the street. The drive and the side yard carry every load, so how material comes and goes is the first thing to settle." },
+      { "title": "Walls and iron with a past", "body": "Brick and stone walls and iron fences still mark old estate lines along East Jefferson and around Lakeland. New beds should suit that history, so bed lines and plants are best chosen with the whole street in mind." }
+    ],
+    "photo": "tudor-planting"
+  },
+  "logistics": {
+    "title": "First the walk, then **every line on paper.**",
+    "body": [
+      "Jake comes out, walks the lot and tells you what he would do, and what he would leave alone. Then he writes an itemized estimate you can go through line by line.",
+      "The city treats commercial landscape debris as a private haul, separate from your regular pickup, so it should not end up in a heap at the curb waiting for your collection day. How the debris leaves goes on your estimate."
+    ],
+    "facts": [
+      { "label": "Street trees", "value": "City owned. Call Public Services." },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinklers or lawn aeration" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you work in Grosse Pointe, MI?", "a": "Yes. HD Landscape is a landscaper based in St. Clair Shores, and the City of Grosse Pointe is one of the places we work most. We handle [landscape design](/landscape-design-grosse-pointe-mi/), [renovations](/landscape-renovation-grosse-pointe-mi/), [sod](/sod-installation-grosse-pointe-mi/), [hedges](/hedge-trimming-grosse-pointe-mi/), [monthly maintenance](/landscape-maintenance-grosse-pointe-mi/) and [cleanups](/yard-cleanup-grosse-pointe-mi/) here. Sprinklers and lawn aeration are not part of what we do, and the biggest tree removals get handed to a tree company." },
+    { "q": "Do you work in the other Pointes too?", "a": "Yes, all five, and each one is different. The [Park](/service-areas/grosse-pointe-park/) deals with water and old elms, and the [Farms](/service-areas/grosse-pointe-farms/) has a ridge and sandier ground. The [Shores](/service-areas/grosse-pointe-shores/) and the [Woods](/service-areas/grosse-pointe-woods/) write their own rules too, so what applies depends on which side of the line you live on." },
+    { "q": "Who looks after the tree between my sidewalk and the street?", "a": "The city does. That strip is city property and its forestry program manages those trees, so call Public Services if one needs trimming, or if you plan to dig near it. We leave those trees to the city." },
+    { "q": "Do you work on seawalls on Lake St. Clair?", "a": "No. Seawalls are a job for a marine contractor, and the state regulates filling or building at the water's edge. We handle the yard behind the wall. The city's master plan says most lakeshore properties sit at least partly in a FEMA flood zone, so ask the city before changing grades near the water." },
+    { "q": "What does landscaping cost in Grosse Pointe?", "a": "We do not publish prices, because a front bed on a 40 foot lot and the long beds on an estate lot near the lake are very different jobs. Jake prices yours after he has seen it, and the estimate is free." }
+  ],
+  "reviews": ["amanda-h", "mark-r", "marie-b"],
+  "neighbors": ["grosse-pointe-park", "grosse-pointe-farms", "grosse-pointe-woods", "st-clair-shores"]
+}

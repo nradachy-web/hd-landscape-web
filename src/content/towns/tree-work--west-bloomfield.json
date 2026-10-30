@@ -1,0 +1,50 @@
+{
+  "service": "tree-work",
+  "city": "west-bloomfield",
+  "meta": {
+    "title": "Tree Trimming in West Bloomfield, MI | HD Landscape",
+    "description": "Tree trimming and smaller removals in West Bloomfield, MI, timed for oaks and planned around township woodland rules. 5.0 on Google. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Tree trimming and removal in West Bloomfield, MI",
+    "title": "Check the map. **Then the calendar.**",
+    "lede": "In West Bloomfield the first two questions about a tree are whether it sits in a protected woodland and whether it is an oak. HD Landscape works from those answers, pruning trees and taking down smaller ones.",
+    "chips": ["Smaller trees by our crew", "Planned around oak season", "Township woodland rules in mind"],
+    "photo": "island-bed"
+  },
+  "local": {
+    "eyebrow": "Tree work in West Bloomfield",
+    "title": "The saw comes out **last.**",
+    "intro": "The woods left in West Bloomfield are mostly oak and hickory, and the township has protected them for decades with a woodland ordinance and an official map. Everyday care is still allowed. You just want to know which rules touch your tree before the first cut.",
+    "points": [
+      { "title": "Whether it is on the woodland map", "body": "Cutting trees inside a mapped woodland generally takes a township permit. The same section leaves room for regular trimming and for removing dead, diseased or dying trees. Jake can tell you which case you are likely in, and the township has the last word." },
+      { "title": "Whether it is in a preservation area", "body": "Subdivisions approved under the ordinance can include woodland preservation areas that run with the land, and they are easy to miss from the patio. If your site plan or plat shows one, tell us before anything is cut." },
+      { "title": "Whether it is an oak", "body": "Oak wilt is fatal to red oaks and can enter through fresh wounds. The Michigan Oak Wilt Coalition puts peak risk from mid April to mid July, and November through mid March is the safe stretch to prune, so oak work belongs in that window." },
+      { "title": "How close it is to the water", "body": "Trees within 25 feet of the shore sit inside the township's setback, where taking out vegetation generally needs approval. Township standards also set specific limits on trimming for a view. Ask before the shoreline gets thinned out." },
+      { "title": "Whether it is a dead ash", "body": "Emerald ash borer was first identified in Canton, Michigan, in 2002, and the township names it as a threat to its woods. If an ash is dead or dying, how big it is and what it could hit decide who should take it down." }
+    ]
+  },
+  "logistics": {
+    "title": "In West Bloomfield, the species sets the calendar.",
+    "body": [
+      "Jake looks at the tree with you and says plainly what our crew can handle. Pruning and smaller removals are ours, and you will hear at that first look if a tree is too much for us.",
+      "The calendar follows the species. Oak pruning belongs after November 1, when the safe window opens. Jake works South Florida through the winter, so he will tell you whether he can get to your oak or who can. Curbside pickup here only takes branches up to two inches thick and four feet long, so how the brush and wood leave goes on your estimate. If an oak comes down, ask before you stack it: moved firewood is one way oak wilt travels."
+    ],
+    "facts": [
+      { "label": "Our crew", "value": "Pruning and smaller removals" },
+      { "label": "Mapped woodland", "value": "Check with the township first" },
+      { "label": "Oak pruning", "value": "Safest November to mid March" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "shade-lawn",
+  "faq": [
+    { "q": "Do you do tree trimming in West Bloomfield?", "a": "Yes. HD Landscape trims trees and takes down smaller ones in West Bloomfield, MI, with the township's woodland rules and the oak calendar in mind. Send a photo or have Jake walk it with you, and you will know whether it is a job for our crew." },
+    { "q": "Does West Bloomfield require a permit to cut down a tree?", "a": "Sometimes, and it comes down to where the tree stands. West Bloomfield Township requires a woodland permit to cut trees in a mapped woodland, apart from exceptions such as dead, diseased or dying trees, and trees near wetlands or in preservation areas have their own rules. Call the township before cutting anything you are unsure about, and Jake can share what he sees at the estimate." },
+    { "q": "When is it safe to prune oak trees?", "a": "November 1 to mid March is the safe stretch, according to the Michigan Oak Wilt Coalition. Mid April to mid July is the highest risk, and the months on either side are lower risk but still a concern. If a cut cannot wait, seal it right away with shellac or latex paint. That safe stretch falls while Jake is working in South Florida, so ask him whether he can reach your oak or who can." },
+    { "q": "Can you take down a big tree?", "a": "Not with our own crew. We prune and remove smaller trees, and a large removal is work for a tree company. We will say so at the estimate rather than stretch the job to fit us, and we can still handle the [stump](/stump-grinding-west-bloomfield-mi/) afterward and put the ground back together." },
+    { "q": "A storm dropped a tree on my lot. What can I do?", "a": "West Bloomfield's woodland rules allow emergency action to prevent injury or property damage without waiting for approval, limited to what is necessary. In a regulated woodland, a report to the township is due within 14 days. Stay away from anything touching a wire and call the utility. For the rest, text photos to [(586) 718-8762](tel:+15867188762) and we will say whether the job is one we can take." },
+    { "q": "Are there special rules along Halsted Road or Walnut Lake Road?", "a": "Stretches of both are listed as Natural Beauty Roads in the township master plan, which means the community wants to keep their rural character, including natural vegetation. Michigan law also calls for a public hearing before work that would substantially damage native vegetation in the right of way. If your frontage is on one of them, check with the township and the county road commission before cutting roadside trees." }
+  ],
+  "reviews": ["anne-j", "stephen-d"]
+}

@@ -1,0 +1,128 @@
+{
+  "service": "landscape-maintenance",
+  "meta": {
+    "title": "Landscape Maintenance in St. Clair Shores, MI | HD Landscape",
+    "description": "Monthly landscape maintenance in St. Clair Shores and Metro Detroit. Beds weeded, shrubs shaped, edges tidied by HD Landscape. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Monthly landscape maintenance in St. Clair Shores and Metro Detroit",
+    "title": "Clean, polished, **every month.**",
+    "lede": "Consistent monthly care from HD Landscape keeps your landscape clean, polished and professional. We go through the beds, pull the weeds, shape the shrubs, clean up the edges and tidy, so the yard never has to catch up.",
+    "chips": ["Beds weeded", "Shrubs shaped", "Edges cleaned up", "Visits set on your estimate"],
+    "photo": "boxwood-front"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "The short version",
+      "title": "A finished yard **stays finished.**",
+      "body": [
+        "Monthly landscape maintenance is a regular visit from HD Landscape to look after the planted part of your yard: the beds, the shrubs and the line where they meet the lawn. What a visit covers is set on your estimate.",
+        "It is the work that is easy to put off. A weed pulled this month has not dropped seed in the bed by next month, and a shrub shaped a little at a time keeps its form. Leave all of it for a few seasons and you are paying for a rescue instead."
+      ],
+      "checks": [
+        "Weeds pulled before they drop seed",
+        "Shrubs shaped so they hold their form",
+        "Edges cleaned up so the bed lines stay clear",
+        "Leaves, sticks and litter cleared out of the beds"
+      ],
+      "photo": "stone-manor"
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Through the season",
+      "title": "The yard changes, and so does the work.",
+      "intro": "Your estimate sets the list. The calendar decides what takes the most time.",
+      "columns": 3,
+      "items": [
+        { "tag": "Spring", "title": "Get ahead of it", "body": "Weeds are small and come out easily. Lilac, forsythia and other spring bloomers wait until after they flower, because cutting them early cuts off the blooms." },
+        { "tag": "Summer", "title": "Keep it sharp", "body": "Everything grows at once, and a gap in the mulch or a soft edge fills in fast. This is when a monthly visit earns its keep." },
+        { "tag": "Fall", "title": "Wind it down", "body": "Leaves start landing in the beds, so tidying takes over. Shaping eases off, because late cuts can push soft new growth right before winter. A [fall cleanup](/spring-and-fall-cleanups/) can finish the year." }
+      ]
+    },
+    {
+      "type": "gallery",
+      "plane": "ink",
+      "eyebrow": "The goal",
+      "title": "Clipped lines do not **keep themselves.**",
+      "intro": "Finished HD Landscape work. Monthly care is how a yard stays like this.",
+      "photos": ["hedge-walk", "grand-brick", "topiary-spiral", "flagstone-hydrangea", "curve-brick-bed", "commercial-entry"]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "How it starts",
+      "title": "One walk, then it is handled.",
+      "steps": [
+        { "title": "Walk", "body": "It starts with a walk of the property with Jake: what the beds, shrubs and edges need, and how you want the place to look." },
+        { "title": "Estimate", "body": "Next comes an itemized estimate you can go through line by line, free of charge, so you can see what the visits cover before you agree to anything." },
+        { "title": "Catch up", "body": "If the yard has gotten ahead of you, we start with a [cleanup](/spring-and-fall-cleanups/) or [hedge trimming](/hedge-trimming/), so the monthly visits are keeping it right, not digging it out." },
+        { "title": "Every month", "body": "We keep coming back through the growing season, on the schedule your estimate sets. You get to stop thinking about it." }
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Good to know",
+      "title": "Not every yard needs monthly.",
+      "columns": 3,
+      "items": [
+        { "title": "Choose monthly when", "body": "You just finished a project and want it to stay that way, the beds are more than you care to keep up with, or you are away for stretches of the summer." },
+        { "title": "A cleanup may be enough when", "body": "The yard is simple, you like doing the small stuff yourself, and you only want help at the start and end of the season. That is what [spring and fall cleanups](/spring-and-fall-cleanups/) are for." },
+        { "title": "Either way", "body": "Bigger jobs go on their own line. [Fresh mulch](/mulching/), [new plants](/plant-installation/) or [pressure washing](/pressure-washing/) can be added to your estimate when you want them." }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Close to home",
+      "title": "St. Clair Shores yards have been growing a while.",
+      "body": [
+        "St. Clair Shores is home base for HD Landscape. The city grew fast after World War II, so plenty of yards here have foundation shrubs that have been growing for a long time. Shaped regularly, older shrubs look settled and handsome. Left alone for a couple of seasons, they start crowding the walk and the windows.",
+        "Homes on Lake St. Clair and the canals have two front yards: the one facing the street and the one facing the water. Both deserve the same care. Trees in the right of way out by the curb are another story. Those belong to the city's Forestry Division, so they stay off the list.",
+        "We also run monthly maintenance beyond the city, including [Grosse Pointe](/landscape-maintenance-grosse-pointe-mi/), [Birmingham](/landscape-maintenance-birmingham-mi/), [Bloomfield Hills](/landscape-maintenance-bloomfield-hills-mi/), [Rochester](/landscape-maintenance-rochester-mi/) and [Troy](/landscape-maintenance-troy-mi/)."
+      ],
+      "photo": "fall-colonial",
+      "flip": true
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "In their words",
+      "title": "Reliable is **the whole job.**",
+      "intro": "Monthly care comes down to showing up when you said you would and doing it right. That is what customers keep writing about.",
+      "ids": ["mark-r", "marie-b", "gina-d"]
+    }
+  ],
+  "faq": [
+    { "q": "Do you do landscape maintenance in St. Clair Shores?", "a": "Yes. HD Landscape does monthly landscape maintenance in St. Clair Shores, its home base and one of the towns it works in most. We offer the same care in towns across Macomb, Oakland and Wayne counties." },
+    { "q": "What does monthly landscape maintenance include?", "a": "What a visit from HD Landscape covers is set on your estimate, so it fits your yard. Beds, weeding, shaping shrubs, edging and tidying are typical of the work." },
+    { "q": "Does monthly landscape maintenance include mowing?", "a": "Do not assume mowing is included. What a visit covers is set on your estimate, and monthly care is built around beds, shrubs and edges. Grass needs cutting far more often than once a month, so if mowing matters to you, raise it with Jake on the walk before you agree to anything." },
+    { "q": "How often do you come for monthly maintenance?", "a": "Monthly, during the Michigan growing season, on the schedule set in your estimate. If your yard needs something extra in a busy stretch, bring it up with Jake and he will give you his advice." },
+    { "q": "Does landscape maintenance run through the winter in Michigan?", "a": "No. Monthly maintenance follows the growing season, because there is not much to weed or shape under snow. The first and last visits get set on your estimate." },
+    { "q": "What is the difference between monthly maintenance and a spring or fall cleanup?", "a": "A cleanup is a one time visit that clears out what a season left behind. Monthly maintenance is the steady work in between. Some yards only need [a spring and fall cleanup](/spring-and-fall-cleanups/), and we will tell you if yours is one of them." },
+    { "q": "Is monthly landscape maintenance worth it?", "a": "It is worth it if you have planted beds and shaped shrubs you want to keep looking right, and you would rather not do the work yourself. A simple yard with a few beds may only need two cleanups a year. Jake will say so if that is the case." },
+    { "q": "Will you trim my hedges on a monthly visit?", "a": "Shaping shrubs is typical monthly work, and your estimate will say which ones. A hedge that has gotten away from you is a bigger job, so we handle that first as [hedge trimming](/hedge-trimming/) and then keep it in shape. Spring bloomers like lilac and forsythia get cut after they flower, so you do not lose the blooms." },
+    { "q": "Can you add mulch or new plants to monthly maintenance?", "a": "Yes. [Mulching](/mulching/), [plant installation](/plant-installation/) and our other services can be added when you want them. Tell us what you have in mind and it goes on the estimate as its own line." },
+    { "q": "Do you do monthly maintenance for commercial properties?", "a": "Yes. HD Landscape serves residential and commercial properties. Tell us about the site and what it needs, and Jake will look it over and write up the estimate." },
+    { "q": "What is not included in monthly landscape maintenance?", "a": "We do not do sprinklers or lawn aeration, and a big tree removal means bringing in a tree company. If something else on your property falls outside what we do, we will say so on the walk." },
+    { "q": "How much does monthly landscape maintenance cost?", "a": "We do not publish a price, because the work is set by the yard: how many beds and shrubs there are and what shape they are in. In St. Clair Shores that can mean a 6,000 square foot inland lot or a lakeshore lot of 20,000 square feet or more, and those are very different visits. Jake looks it over first, and the estimate costs nothing." }
+  ],
+  "quote": {
+    "title": "Put the yard on the calendar.",
+    "lede": "Tell us about the beds and shrubs, and what you wish someone else would handle. Jake will walk it with you and put it all on an itemized estimate."
+  },
+  "summary": {
+    "title": "Steady care for the beds, shrubs and edges.",
+    "intro": "Monthly visits through the growing season look after the planted part of the yard. What a visit covers is set on your estimate, and this is the kind of work it can include.",
+    "items": [
+      { "name": "Weeding", "detail": "Weeds pulled before they can seed the bed." },
+      { "name": "Shrub shaping", "detail": "Shrubs shaped so they hold their form and stay off the house and the walks." },
+      { "name": "Edging", "detail": "Edges cleaned up so beds and lawn keep a clear line." },
+      { "name": "Tidying", "detail": "Leaves, sticks and litter cleared from the beds and walks." }
+    ],
+    "footnote": "We do not do sprinklers or lawn aeration, and big tree removals are left to a tree company."
+  }
+}

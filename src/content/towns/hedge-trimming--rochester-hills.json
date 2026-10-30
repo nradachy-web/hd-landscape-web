@@ -1,0 +1,49 @@
+{
+  "service": "hedge-trimming",
+  "city": "rochester-hills",
+  "meta": {
+    "title": "Hedge Trimming in Rochester Hills, MI | HD Landscape",
+    "description": "Hedges, arborvitae and boxwood shaped by hand and eye in Rochester Hills, MI, cut to clear corners and sidewalks the way the city asks. Free estimates."
+  },
+  "hero": {
+    "kicker": "Hedge trimming in Rochester Hills, MI",
+    "title": "Sharp lines, **with the corner kept clear.**",
+    "lede": "In Rochester Hills a hedge answers to the corner, the sidewalk and the deer. HD Landscape shapes yours by hand and eye, keeps sight lines and paths open, and leaves the job clean.",
+    "chips": ["Shaped by hand and eye", "Corners and walks kept clear", "Homes and commercial sites"],
+    "photo": "tall-hedge"
+  },
+  "local": {
+    "eyebrow": "Hedges in Rochester Hills",
+    "title": "How high a hedge goes is not only your call here.",
+    "intro": "A hedge here usually has more than one job. It may sit on a corner lot, run beside a city pathway, screen a busy road or feed the neighborhood deer. Each of those changes how high, how wide and when it gets cut.",
+    "points": [
+      { "title": "Corner lots", "body": "City code keeps a triangle clear where two streets meet, measured 25 feet along each right-of-way line. Hedges inside it are held to about 30 inches so drivers can see. The city has the last word on your exact corner, and the hedge can be cut to match." },
+      { "title": "Sidewalks and bike paths", "body": "Owners have to keep plants off the edge of a path. City documents say at least a foot back and 8 to 10 feet overhead, depending on which one you read. Aim for the taller number, because the city can do the job itself and bill you." },
+      { "title": "Deer on the arborvitae", "body": "By March you can see what the deer did all winter. MSU Extension names yew and arborvitae as favorites and says browsed tips eventually grow back, so the fix is to even up the hedge after spring growth, not cut it harder. A section stripped bare is a different conversation." },
+      { "title": "Boxwood, and its catch", "body": "Deer mostly leave boxwood alone. The trouble is box tree moth: all of Oakland County is in the state's regulated area, and the rules reach the clippings. Boxwood waste may go only to a disposal site with no boxwood within 100 yards, covered or enclosed from March through October." },
+      { "title": "Long screens on association land", "body": "Under the city's landscape rules, required buffers and subdivision entrances generally sit in landscape easements, not on one homeowner's lot. If a long screen belongs to your association, ask the board who decides how it gets cut. We work on commercial properties as well as homes, so it can go on one estimate." }
+    ]
+  },
+  "logistics": {
+    "title": "Send a photo. Many hedges take one visit.",
+    "body": [
+      "Text a photo with a rough length and height, and Jake can often say what it needs before he comes out. Many home hedges are done in one visit. Long subdivision screens can take more, and the itemized estimate lays that out.",
+      "Timing follows the plant. The main shaping trim comes in late spring or early summer, after new growth fills out, and hard cuts wait for early spring. Where the clippings end up gets its own line on the estimate, and with boxwood that line matters more than usual."
+    ],
+    "facts": [
+      { "label": "How long", "value": "One visit for many homes" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Corner limit", "value": "About 30 inches, confirm with the city" },
+      { "label": "Also for", "value": "Commercial properties" }
+    ]
+  },
+  "photo": "hedge-curve",
+  "faq": [
+    { "q": "Do you do hedge trimming in Rochester Hills?", "a": "Yes. HD Landscape trims hedges, arborvitae and boxwood across Rochester Hills, for homes and commercial properties. Call or text [(586) 718-8762](tel:+15867188762), and a photo with a rough length and height is a good start." },
+    { "q": "How tall can a hedge be on a corner lot in Rochester Hills?", "a": "Inside the corner clearance triangle, plantings are limited to about 30 inches. The triangle runs 25 feet along each right-of-way line from where the lines meet, which can sit well back from the curb. Canopy trees can stay in that area if the first branch starts at least 8 feet up. Corners vary, so ask the city before you plant or let one grow." },
+    { "q": "Who has to trim the hedge along a sidewalk in Rochester Hills?", "a": "The property owner. City guides say owners must keep plants at least a foot back from the edge of a sidewalk or bike path and clear overhead. If that does not happen, city crews can trim it and bill the owner. We can get a hedge back off the path and keep it there with [monthly maintenance](/monthly-landscape-maintenance/)." },
+    { "q": "Why are deer eating my arborvitae?", "a": "Because arborvitae is on the menu. MSU Extension names it and yew among the favorite winter plants of deer, and the Rochester Hills aerial survey counted 182 deer in 2025 across the 1,822 acres it flew. If they only took the tips, the hedge should grow back in time. Wait for new growth in spring, then it can be evened up." },
+    { "q": "Is Rochester Hills in the box tree moth quarantine?", "a": "Yes. All of Oakland County is in the state's regulated area, so boxwood clippings need more care than ordinary yard waste. The state lists loose webbing, chewed or skeletonized leaves and green and yellow striped caterpillars as the signs to look for. Trimming time is a good time to look, and if you spot them, say so before the clippings go anywhere." }
+  ],
+  "reviews": ["anne-j", "nancy-g"]
+}

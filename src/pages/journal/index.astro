@@ -1,0 +1,28 @@
+---
+/* Yard notes: straight answers homeowners and answer engines can quote. */
+import Base from '../../layouts/Base.astro';
+import PageHead from '../../components/PageHead.astro';
+import PostCard from '../../components/PostCard.astro';
+import QuoteBand from '../../components/QuoteBand.astro';
+import { BRAND } from '../../data/site';
+import { posts } from '../../lib/blog';
+import { heroImage } from '../../lib/hero';
+import { breadcrumbs } from '../../lib/schema';
+
+const all = await posts();
+const head = await heroImage('curve-fall', { sizes: '(min-width: 60rem) 48vw, 1px' });
+const path = '/journal/';
+---
+
+<Base title={`Yard Notes: Michigan Landscaping Answers | ${BRAND.name}`} description={`Straight answers about sod, mulch, hedges and grading in Michigan from ${BRAND.name} in ${BRAND.city}: what to do, when, and why.`} path={path} preload={{ ...head.preload, media: '(min-width: 60rem)' }} schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Yard notes', path }])]}>
+  <PageHead image={head} eyebrow="Yard notes" title="What we tell people **standing in their yard.**" lede="When to lay sod, how deep mulch should go, when to trim a hedge. Plain answers for Michigan yards." crumbs={[{ name: 'Yard notes', path }]} />
+  <section class="band" aria-labelledby="posts-h">
+    <div class="wrap">
+      <h2 class="sr" id="posts-h">Every note</h2>
+      <ul class="grid c2">
+        {all.map((post) => <PostCard post={post} sizes="(min-width: 80rem) 38rem, (min-width: 40rem) 46vw, 100vw" />)}
+      </ul>
+    </div>
+  </section>
+  <QuoteBand />
+</Base>

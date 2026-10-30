@@ -1,0 +1,50 @@
+{
+  "service": "tree-work",
+  "city": "rochester-hills",
+  "meta": {
+    "title": "Tree Trimming in Rochester Hills, MI | HD Landscape",
+    "description": "Tree trimming and smaller tree removal in Rochester Hills, MI, with the one acre rule, street trees and oak timing talked through. Free estimates."
+  },
+  "hero": {
+    "kicker": "Tree trimming and removal in Rochester Hills, MI",
+    "title": "One acre changes **the tree rules.**",
+    "lede": "In Rochester Hills, what you can do with a tree depends on where it stands and how big your parcel is. HD Landscape prunes trees and takes down smaller ones, and Jake goes over the city's rules with you on the walk.",
+    "chips": ["Pruning and smaller removals", "City tree rules in plain words", "Stumps on the same estimate"],
+    "photo": "evergreen-island"
+  },
+  "local": {
+    "eyebrow": "Tree work in Rochester Hills",
+    "title": "Read the rules before the saw comes out.",
+    "intro": "The city keeps separate rules for private trees, street trees and natural features. For most homes the answer is simple. For some it is not. Here it is in plain words, and the city has the final say.",
+    "points": [
+      { "title": "Homes on under an acre", "body": "On an occupied one-family parcel of less than an acre, the city says a tree removal permit is not required. Zoning minimums start around a fifth of an acre, so many homes fall here. That exception does not cover street trees or historic and landmark trees." },
+      { "title": "Parcels of an acre or more", "body": "Trees 6 inches across or larger, measured 4 1/2 feet off the ground, are regulated, and removing one takes a permit. The exception is construction of something accessory to the house on an occupied one-family parcel." },
+      { "title": "The strip by the street", "body": "Trees between the property line and the street fall under the city's street tree ordinance, and on local roads they belong to the city. Removing, pruning or trenching near one takes a right-of-way permit from Forestry." },
+      { "title": "The back of the lot", "body": "The city's building guidance says tree removal is not permitted in a conservation easement or natural features setback. On a regulated steep slope, taking out deep rooted plants can need a permit too. Find those lines before you pick which trees go." },
+      { "title": "Oaks on a calendar", "body": "The state says not to prune oaks in the growing season, and above all not from April 15 to July 15, because of oak wilt. The safest stretch is winter, about November to mid-March, and Jake works South Florida in winter. Ask early: he will say whether he can get to it or who can." }
+    ]
+  },
+  "logistics": {
+    "title": "Jake tells you which trees are ours and which are not.",
+    "body": [
+      "Each tree gets a look on the walk, and you hear straight which ones our crew should handle. Pruning and smaller removals are ours. If one is too big for us, he will say so at the start, not after the fact.",
+      "If a permit might apply, you will hear that on the walk too, along with what to ask the city. A stump can go on the same itemized estimate through [stump grinding](/stump-grinding/).",
+      "After a storm, the city may clear downed trees that create a danger on public property, but its policy does not cover private lots or association common land. If a tree from your lot lands on a street or path, the city may clear that part and can seek reimbursement. Limbs on your own lot are yours to deal with, and we can help with the smaller ones."
+    ],
+    "facts": [
+      { "label": "We handle", "value": "Pruning and smaller removals" },
+      { "label": "Street trees", "value": "City permit first" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Oak pruning", "value": "Winter is safest, so ask early" }
+    ]
+  },
+  "photo": "shade-lawn",
+  "faq": [
+    { "q": "Do you do tree trimming in Rochester Hills?", "a": "Yes. HD Landscape prunes trees and takes down smaller ones in Rochester Hills, and anything big gets handed to a tree company. We can still do the [stump grinding](/stump-grinding/) and the [sod](/sod-installation-rochester-hills-mi/) or planting afterward." },
+    { "q": "Is a permit required to remove a tree in Rochester Hills?", "a": "That turns on the parcel and the tree. On an occupied one-family parcel under one acre, the city says a removal permit is not required, unless it is a street tree or a historic or landmark tree. On an acre or more, trees 6 inches or larger at 4 1/2 feet up are regulated. Rules change, so call the city's Forestry Division before cutting." },
+    { "q": "Who owns the street tree in front of my house in Rochester Hills?", "a": "The city. Trees on the local road right-of-way belong to the City of Rochester Hills, and its Forestry Division has to give permission before one is removed or planted. If a street tree is dead or in the way, call them first. We cannot touch it without that permission." },
+    { "q": "When is it safe to prune an oak?", "a": "Winter is safest, about November to mid-March, while the tree is dormant. The state says not to prune oaks in the growing season and above all not from April 15 to July 15, the high risk stretch for oak wilt. Because Jake works South Florida in winter, ask him early whether he can do it himself or who can. If a limb is an emergency, ask what can be done, and the cut should get latex paint or shellac right away." },
+    { "q": "Can I get a free replacement tree from Rochester Hills?", "a": "Possibly. The city runs a free street tree program for the right-of-way and a Community Canopy program with small free trees for private yards. Quantities are limited and deadlines vary, so ask the city what is open. If you get a street tree, it asks you to keep the root zone clear of extra soil, weed barrier, stone and edging. For a bigger tree in your yard, see [plant installation](/plant-installation/)." }
+  ],
+  "reviews": ["anne-j", "mark-r"]
+}

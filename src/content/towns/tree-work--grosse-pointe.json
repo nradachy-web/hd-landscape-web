@@ -1,0 +1,48 @@
+{
+  "service": "tree-work",
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Tree Trimming in Grosse Pointe, MI | HD Landscape",
+    "description": "Tree trimming and smaller tree removal in Grosse Pointe, MI. Oak timing respected, city trees left to the city, big removals sent to a trusted tree company."
+  },
+  "hero": {
+    "kicker": "Tree trimming and removal in Grosse Pointe, MI",
+    "title": "Careful work on **a town's old canopy.**",
+    "lede": "HD Landscape prunes and takes down smaller trees on your side of the sidewalk in Grosse Pointe. The trees along the street belong to the city, and anything big is a job for a tree company. Knowing which is which is half the work.",
+    "chips": ["Pruning and small removals", "Oak timing respected", "City trees left to the city"],
+    "photo": "fall-colonial"
+  },
+  "local": {
+    "eyebrow": "Trees in the City",
+    "title": "Trees here come with **a history and a few rules.**",
+    "intro": "The city still talks about its American elms, which met over the streets like a cathedral ceiling. Disease took those, and a borer took the ash planted after them. The city formed an Urban Forestry Commission in 2017 to rebuild the canopy, so the healthy trees left in your yard matter to the whole block.",
+    "points": [
+      { "title": "Oaks run on a calendar", "body": "The state says not to prune oaks between April 15 and July 15, and the city forester's notice says to trim them in winter. Fresh cuts in the growing season can invite oak wilt. So oak work waits for the cold months. Since Jake works South Florida in winter, he will tell you whether he can get to it or who can." },
+      { "title": "Street trees are the city's", "body": "The tree lawn, the strip along the street, is city property, and the city manages those trees. We do not prune or remove them. If one worries you, the city's Public Services department is the right call." },
+      { "title": "Old ash and elm", "body": "The city says even its remaining elms and ashes are likely to die in the coming years. If one stands in your yard, have it looked at before it becomes a hazard. A smaller one is something we can take down." },
+      { "title": "Think about what goes back", "body": "After losing so many elms and ash, the city now pushes for a wider variety of trees and publishes a recommended list. When something comes out, we can [plant a replacement](/plant-installation/) that suits the spot." }
+    ]
+  },
+  "logistics": {
+    "title": "Our crew or a tree company: **Jake tells you on the first look.**",
+    "body": [
+      "Jake looks at the tree with you and tells you straight whether it is a job for our crew. We handle pruning and smaller removals, and if yours is more than that, you will hear it on that first visit.",
+      "Grosse Pointe expects tree trimmings from a hired crew to be hauled privately, so they stay out of your regular pickup. How the debris leaves goes on your estimate. If a stump is left, [stump grinding](/stump-grinding/) finishes the job, and the ground is yours to replant.",
+      "Tree trimming runs across all five Pointes, the [Woods](/service-areas/grosse-pointe-woods/), the [Park](/service-areas/grosse-pointe-park/), the [Shores](/service-areas/grosse-pointe-shores/), the [City](/service-areas/grosse-pointe/) and the [Farms](/service-areas/grosse-pointe-farms/), and the rules on street trees are not the same in each."
+    ],
+    "facts": [
+      { "label": "We handle", "value": "Pruning and smaller removals" },
+      { "label": "Too big for us", "value": "Jake says so on the first look" },
+      { "label": "Left alone", "value": "City trees along the street" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ai-tree",
+  "faq": [
+    { "q": "Do you do tree trimming and removal in Grosse Pointe?", "a": "Yes. HD Landscape prunes trees and takes down smaller ones on private property in Grosse Pointe, MI. If yours is too large for us, Jake will say so on the first visit. Trees on the strip along the street belong to the city." },
+    { "q": "When can I prune an oak tree in Grosse Pointe?", "a": "Winter is the safe time. The State of Michigan says not to prune oaks between April 15 and July 15, and the city forester says not to trim them in the growing season. Oak wilt spreads to fresh cuts, and red oaks can die within weeks. Jake works South Florida in winter, so ask early, and he will say whether he can get to it or who can." },
+    { "q": "Who do I call about the tree in front of my house?", "a": "If it stands on the strip along the street, call the city's Public Services department. That tree is on city property, and the city manages it. If it is on your side of the walk, call us at [(586) 718-8762](tel:+15867188762)." },
+    { "q": "What should I do about an old ash tree?", "a": "Decide if you want to keep it. The city's own FAQ says you only have to treat an ash if you want to keep it, and that you keep treating it for as long as you want the tree. Treating trees is a job for a tree care company. If a smaller ash is past saving, we can take it down." }
+  ],
+  "reviews": ["anne-j", "stephen-d"]
+}

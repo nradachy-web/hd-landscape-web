@@ -1,0 +1,100 @@
+{
+  "service": "landscape-design",
+  "city": "bloomfield-hills",
+  "meta": {
+    "title": "Landscape Design in Bloomfield Hills, MI | HD Landscape",
+    "description": "Landscape design for Bloomfield Hills lots: plans drawn around your trees, deer, slope and wet spots, then built by our crew. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscape design in Bloomfield Hills, MI",
+    "title": "A plan that **starts at the road.**",
+    "lede": "A Bloomfield Hills front yard is usually seen all at once, from a long way back, so HD Landscape draws the plan for the whole property, around the trees you are keeping, and then our crew builds it.",
+    "chips": [
+      "Your trees set the layout",
+      "Deer in the plant list",
+      "Drawn and built by us"
+    ],
+    "photo": "grand-brick"
+  },
+  "local": {
+    "eyebrow": "Design in Bloomfield Hills",
+    "title": "A Bloomfield Hills plan has to settle the trees and the water first.",
+    "intro": "The lots here are large, the ground rolls and the woods keep pushing in, and the city has firm rules about what can come out. A plan that skips any of those tends to get redrawn halfway through the job.",
+    "points": [
+      {
+        "title": "Scale you can read from the street",
+        "body": "Minimum lot widths run from 125 to 200 feet in the standard zoning districts. Small beds vanish at that scale, so we size bed lines and plant groups to hold up from the road as well as from the front door."
+      },
+      {
+        "title": "Existing trees set the layout",
+        "body": "Start with every tree you are keeping, canopy marked, before anything else goes on the plan. New beds, paths and grade changes get laid out to clear that line, which keeps the design in step with the city's tree rules and saves redrawing it later. If a big tree truly has to go, that work goes out to a tree company."
+      },
+      {
+        "title": "A screen is not a replacement tree",
+        "body": "If a removal ever calls for replacement trees, arborvitae and other small conifers do not count under the ordinance, and deciduous canopy trees are encouraged. So the privacy hedge and any required trees belong on the plan as separate parts."
+      },
+      {
+        "title": "Plant lists that expect deer",
+        "body": "Michigan State University Extension calls yew a rare evergreen for dense shade, but one that may need netting where deer are heavy. On a woods edge we weigh that before it goes on the plan, and keep the deer favorites closer to the house."
+      },
+      {
+        "title": "Setbacks around wet ground",
+        "body": "The city's natural features rules call for a 25 foot setback from the edge of a wetland or the high water mark of a watercourse, unless the city decides otherwise. If your lot has either, that line belongs on the plan before any bed does, and the city gets the first call."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "One plan can carry a bigger Bloomfield Hills lot through several seasons.",
+    "body": [
+      "On the walk, Jake asks how you actually use the place: where guests park, what you see from the kitchen, which view you would happily hide. On a bigger lot, those answers decide where the plan starts.",
+      "The plan turns into an itemized estimate, so you can read down the lines and see what each part takes to build. Larger properties can go in stages, with the plan holding the pieces together from one season to the next.",
+      "Building new? Call before final grading. The city's master plan calls tearing down and rebuilding the most common housing work here, and a landscape plan is far easier to shape while the ground is still open."
+    ],
+    "facts": [
+      {
+        "label": "Starts with",
+        "value": "Jake on the property"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "Built by",
+        "value": "HD Landscape"
+      },
+      {
+        "label": "Not offered",
+        "value": "Sprinklers or lawn aeration"
+      }
+    ]
+  },
+  "photo": "urn-bed",
+  "faq": [
+    {
+      "q": "Do you do landscape design in Bloomfield Hills?",
+      "a": "Yes. HD Landscape draws plans for Bloomfield Hills homes and builds them, from a new entry planting to a plan for the whole property. We are the people who will install it, so the design has to work in the ground as well as on paper."
+    },
+    {
+      "q": "How do you design a landscape around mature trees?",
+      "a": "Trees first. A good plan marks what is staying, follows how the shade moves across the yard and keeps beds, grade changes and stored material out from under the canopy. In Bloomfield Hills that is also the rule: the ordinance bars soil, materials and equipment inside the drip line of trees that are staying. The plant list then comes from the light you actually have, not the light you wish you had."
+    },
+    {
+      "q": "We are building a new home. When should we call you?",
+      "a": "As early as you can, and before final grading if possible. Bloomfield Hills ties a tree removal application and tree survey to new home plans, so your builder will be dealing with the trees early anyway. If we are in the conversation then, the grade and the landscape can be planned together. If your taxes go to [Bloomfield Township](/service-areas/bloomfield-township/), its rules apply instead."
+    },
+    {
+      "q": "Can you plan a privacy screen along a woods edge or a busy road?",
+      "a": "Yes, and the plant choice matters. Arborvitae and yew are the usual picks, and deer love both, so near the woods we talk through netting or a mixed planting. We also check how much room the screen needs at full size, since a tight row has a way of growing into the neighbor's yard."
+    },
+    {
+      "q": "Why can't one plant list cover my whole lot?",
+      "a": "Because the ground and the light both change. USDA soil maps around Bloomfield Hills show mostly sandy loams, with muck in some low spots, and a big lot can run from open sun by the drive to deep shade under the woods. A plant that thrives in one of those spots can sulk in the other, so the plan treats each part of the property on its own."
+    }
+  ],
+  "reviews": [
+    "amanda-h",
+    "billy-w",
+    "meagan-m"
+  ]
+}

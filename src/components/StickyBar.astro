@@ -1,0 +1,74 @@
+---
+/* Phones only: the two actions stay within thumb reach on every screen of the
+   page. While the quote form itself is on screen the bar slides away, so its
+   button is never sitting under the form's own submit button. */
+import Icon from './Icon.astro';
+import { BRAND } from '../data/site';
+import { href } from '../lib/paths';
+
+interface Props {
+  quoteHref: string;
+}
+const { quoteHref } = Astro.props;
+const quote = quoteHref.startsWith('#') ? quoteHref : href(quoteHref);
+---
+
+<aside class="bar ink" id="bar" aria-label="Call or get an estimate">
+  <a class="btn ghost" href={BRAND.phoneHref} data-loc="sticky"><Icon name="phone" />Call</a>
+  <a class="btn primary" href={quote} data-cta="sticky-quote">Get a free estimate</a>
+</aside>
+
+<script is:inline>
+  (function () {
+    var bar = document.getElementById('bar');
+    var forms = document.querySelectorAll('#qf');
+    if (!bar || !forms.length || !('IntersectionObserver' in window)) return;
+    var showing = 0;
+    var io = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (e) {
+          showing += e.isIntersecting ? 1 : e.target.__seen ? -1 : 0;
+          e.target.__seen = e.isIntersecting;
+        });
+        bar.classList.toggle('is-away', showing > 0);
+      },
+      { rootMargin: '-25% 0px -25% 0px' }
+    );
+    forms.forEach(function (f) {
+      io.observe(f);
+    });
+  })();
+</script>
+
+<style>
+  .bar {
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 40;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.6rem;
+    padding: 0.6rem var(--gutter) calc(0.6rem + env(safe-area-inset-bottom));
+    border-top: 1px solid var(--line-ink);
+    transition:
+      translate 0.25s var(--ease),
+      visibility 0.25s;
+  }
+
+  .bar.is-away {
+    translate: 0 110%;
+    visibility: hidden;
+  }
+
+  .bar .btn {
+    min-height: 3rem;
+    padding: 0.5rem 0.9rem;
+    white-space: nowrap;
+  }
+
+  @media (min-width: 48rem) {
+    .bar {
+      display: none;
+    }
+  }
+</style>

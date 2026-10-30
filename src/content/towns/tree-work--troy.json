@@ -1,0 +1,49 @@
+{
+  "service": "tree-work",
+  "city": "troy",
+  "meta": {
+    "title": "Tree Trimming and Removal in Troy, MI | HD Landscape",
+    "description": "Tree trimming and smaller tree removal in Troy, MI from HD Landscape, with straight answers on whose tree it is, how big it is and who should cut it."
+  },
+  "hero": {
+    "kicker": "Tree trimming and removal in Troy, MI",
+    "title": "Smaller trees, we cut. **Big ones, we hand off.**",
+    "lede": "HD Landscape prunes trees and takes down smaller ones across Troy. Anything too big for our crew is subbed out to a tree company, and Jake sorts out which is which on the first walk.",
+    "chips": ["Pruning and smaller removals", "Whose tree it is, sorted first", "Oak timing respected"],
+    "photo": "island-bed"
+  },
+  "local": {
+    "eyebrow": "Trees in Troy",
+    "title": "Whose tree is it, and **how big is it.**",
+    "intro": "Tree work in Troy comes down to those two questions. The city looks after trees in the strip by the curb. You look after the rest, and size decides how much of that our crew can take on.",
+    "points": [
+      { "title": "The strip is the city's", "body": "The city says it maintains trees and brush that start between sidewalks and streets, and its tree chapter requires a permit to work on trees in public places. We leave those alone. If a street tree worries you, the city's Citizen Request Portal is the place to start." },
+      { "title": "Your side of the sidewalk", "body": "City code puts dead, diseased or dangerous trees and broken limbs that threaten the public on the owner, and it wants limbs kept 8 feet above the street or right of way. If yours is a smaller tree, that is our kind of job, and Jake can say so from a photo." },
+      { "title": "Trees with a long head start", "body": "A tree planted with a new house in 1977 has had close to 50 years to reach the roof, the wires and the neighbor's yard. Light, regular pruning keeps a tree in its space, and it goes much easier while the tree is still small enough for our crew." },
+      { "title": "Wires and easements", "body": "The subdivision code calls for easements along lot lines and for utilities, so wires and trees can end up sharing the back of a lot. We stay clear of limbs near wires, so start with the utility on those." },
+      { "title": "Silver maples and other fast growers", "body": "The city's tree chapter tells owners not to plant silver maple, box elder, poplar or willow. That list is about planting, and it does not order an existing tree out. If you are replacing one, we can help you pick something better for the spot and [plant it](/plant-installation/)." }
+    ]
+  },
+  "logistics": {
+    "title": "The city does not chip brush, so **plan for the pile.**",
+    "body": [
+      "Jake looks at the tree with you, or starts from a photo you text him, and says straight out whether it is ours. If it is, the itemized estimate shows what is being cut and what is staying.",
+      "Curbside pickup stops at branches 2 inches thick and 3 feet long, tied in bundles, and the city says it does not offer a chipping service. On our jobs, the estimate says how the brush gets off the property, so you are not left with a pile and a ball of twine."
+    ],
+    "facts": [
+      { "label": "Our crew", "value": "Pruning and smaller removals" },
+      { "label": "Street strip trees", "value": "The city maintains them" },
+      { "label": "Curbside brush", "value": "2 inches thick or less, under 3 feet, tied" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ai-tree",
+  "faq": [
+    { "q": "Do you do tree removal in Troy, MI?", "a": "Yes. HD Landscape removes smaller trees in Troy, MI, and can [grind the stump](/stump-grinding-troy-mi/) afterward. A big tree close to a house or garage is not one for our crew. Text a photo to [(586) 718-8762](sms:+15867188762), and Jake will say which kind of job you have." },
+    { "q": "Does cutting down a tree on my lot in Troy take a permit?", "a": "Usually not for a tree on an existing home lot, going by the city code. The permit rule is aimed at trees in public places, like the strip by the curb, and the tree protection rules apply to site plan and subdivision work. Rules change and some associations have their own, so ask the city and your association first." },
+    { "q": "The City of Troy sent me a notice about a dead tree. What do I do?", "a": "Read the deadline first. City code lets the city order a dangerous or diseased private tree trimmed or removed, and the order sets a time limit, generally between 10 and 30 days. The code also gives you 48 hours from service of the order to appeal, so do not sit on it. Text Jake a photo and the notice. If it is a smaller tree, we can usually take it on, and if not, he will point you the right way." },
+    { "q": "Who looks after the tree in the strip by the curb in Troy?", "a": "The city. It says it maintains trees and brush that start between sidewalks and streets, and that the homeowner is not responsible for trimming them. Do not cut one yourself, because the code requires a permit for work on trees in public places. Report a problem tree through the city's Citizen Request Portal." },
+    { "q": "What time of year should I trim trees?", "a": "Late winter or early spring, before new growth starts, suits most trees. Oaks are the big exception: winter is the safest time, and the state says not to prune them from April 15 to July 15, because of oak wilt. Jake spends the winter working in South Florida, so call early to learn if he can fit your oak in or who can. Maples run sap if cut in early spring, so late May to mid-June works better." }
+  ],
+  "reviews": ["anne-j", "stephen-d", "amanda-h"]
+}

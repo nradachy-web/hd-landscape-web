@@ -1,0 +1,53 @@
+{
+  "city": "fraser",
+  "meta": {
+    "title": "Landscaping in Fraser, MI | HD Landscape",
+    "description": "Sod, grading, beds and cleanups for Fraser, MI yards, from postwar bungalows to 1970s homes, on flat, mostly heavy ground. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Fraser, MI",
+    "title": "Four square miles, **three eras of yard.**",
+    "lede": "Fraser has postwar bungalows, 1970s homes and attached units, on flat and mostly heavy ground. HD Landscape sizes the plan to the yard you have, from one tired foundation bed to a full backyard.",
+    "chips": ["Sized to your yard", "Grades set for level ground", "New sod watering plan"],
+    "photo": "limestone-bed"
+  },
+  "about": {
+    "eyebrow": "Yards in Fraser",
+    "title": "Fraser filled in fast, and **the yards show it.**",
+    "body": [
+      "A yard in Fraser usually tells you when the house went up. Most of the housing is small lot, postwar bungalow style, the master plan says, with sidewalks on both sides of the street and not much room to hide a tired bed. Then the city grew 68 percent between 1960 and 1970, so plenty of foundation plantings here have had 50 years or more to outgrow the house.",
+      "The census puts the median home at 1972, newer than in Warren, Roseville or Eastpointe. About two in five homes date to the 1950s and 1960s, about a quarter to the 1970s and about one in five to 1990 or later. So one street may need an overgrown bed cut back, and the next may need a small plan that stays easy to keep up.",
+      "The ground changes less than the houses do. The city's parks plan calls the town flat throughout, with no major water body, and says all drainage runs through storm drains and underground pipes. USDA soil maps show Sims clay loam as the most common soil in town and rate nearly all of the ground somewhat poorly drained or worse, sandy patches included. So a wet spot rarely fixes itself."
+    ],
+    "points": [
+      { "title": "Know which yard you have", "body": "A bungalow lot wants a tight plan and low upkeep. A 1970s yard often needs overgrown beds reworked. On an attached home, ask your association what is yours to change before a plan gets drawn." },
+      { "title": "Water has to be sent somewhere", "body": "With no major water body in town and level ground all around, rain stays put until it finds a catch basin. We set the [grade](/yard-grading/) so it moves away from the foundation, then put [sod](/sod-installation/) or beds on top." },
+      { "title": "A watering rule that helps new plants", "body": "From May 15 to October 1, the city limits irrigation on municipal water to set days by address. New sod, trees and shrubs get 21 days to be watered as often as they need. Jake can talk you through using that window for new [plants](/plant-installation/), and we offer [watering](/plant-watering/) too." },
+      { "title": "Street trees and the bare patch", "body": "When DPW removes a diseased or dying tree between the walk and the street, it grinds the stump, and the soil and sod fall to the homeowner. That patch is a small, clean job for us." }
+    ],
+    "photo": "steppers-lawn"
+  },
+  "logistics": {
+    "title": "In Fraser, timing is part of the plan.",
+    "body": [
+      "Timing is worth raising on the walk, because the watering rule and the city's compost dates affect when new plants and big cleanups make sense. Jake tells you plainly what is worth doing and what is not, then writes up an itemized estimate so you can go down it line by line.",
+      "City brush pickup is monthly, it has to be called in ahead of time, and stumps are not included. Your estimate says how the debris gets off the property, so you know before the job whether anything waits for the first Friday of next month. Keep leaves out of the catch basins too, which the city asks of everyone."
+    ],
+    "facts": [
+      { "label": "Brush pickup", "value": "First Friday, called in by 3:30 PM Thursday" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Irrigation days", "value": "By even or odd address, May 15 to October 1" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you take landscaping jobs in Fraser, MI?", "a": "Yes. HD Landscape, based in St. Clair Shores, works in Fraser on [sod](/sod-installation/), [yard grading](/yard-grading/), [landscape renovation](/landscape-renovation/), [hedge trimming](/hedge-trimming/), [mulching](/mulching/) and [spring and fall cleanups](/spring-and-fall-cleanups/). Sprinklers and lawn aeration are not part of what we offer, and big tree removals belong with a tree company." },
+    { "q": "How often can I water new sod in Fraser?", "a": "As often as it needs for the first 21 days. City code limits irrigation on municipal water from May 15 to October 1, with even addresses on Monday, Wednesday and Friday and odd addresses on Tuesday, Thursday and Saturday. New sod, seed, trees and shrubs are exempt for 21 days after planting. Jake can explain the watering after the job, and we offer [plant watering](/plant-watering/) too." },
+    { "q": "Who fixes my lawn after the city takes out a tree in Fraser?", "a": "You do, according to the city. DPW removes diseased or dying trees between the walk and the street and grinds the stump, but it says replacement of soil and sod is the homeowner's responsibility. We can bring in soil, level the spot and lay [fresh sod](/sod-installation/) so it does not sit as a bare circle." },
+    { "q": "Will the city pick up brush from my yard project in Fraser?", "a": "Only if you call it in, and only once a month. The city says brush goes out for the first Friday of the month, and you need to call DPW by 3:30 PM on the Thursday before. A fee applies, stumps are not taken, and vines and thorny bushes do not go in the pile. On a job of ours, the estimate says how the brush gets out." },
+    { "q": "What kind of soil is in Fraser?", "a": "Mostly heavy clay loam. USDA soil maps show Sims clay loam across much of the city, with Lenawee and Toledo silty clay loams and Blount loam in other areas. About a quarter of the map is sandier, led by Selfridge loamy sand, and that still rates somewhat poorly drained. So the grade deserves a look first, and plants should not go in too deep." },
+    { "q": "Do you work on commercial properties?", "a": "Yes. We serve commercial properties as well as homes, and the city's master plan is asking for more perennial and native planting along Groesbeck. Beds, hedges, mulch and cleanups are all things we can quote. Send Jake the address and what you are after, and he will take a look." }
+  ],
+  "reviews": ["rob-e", "meagan-m", "mark-r"],
+  "neighbors": ["clinton-township", "roseville", "warren", "sterling-heights"]
+}

@@ -1,0 +1,48 @@
+{
+  "service": "stump-grinding",
+  "city": "rochester",
+  "meta": {
+    "title": "Stump Grinding in Rochester, MI | HD Landscape",
+    "description": "Stump grinding in Rochester, MI: ground below grade once buried lines are marked, with the spot set up for lawn, a bed or a new tree. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Stump grinding in Rochester, MI",
+    "title": "Small lot, **big stump.**",
+    "lede": "On a smaller Rochester lot, one old stump can sit right where you want the lawn, the bed or the new tree. HD Landscape grinds it below grade once the buried lines are marked, and the spot is ready for what comes next.",
+    "chips": ["Ground below grade", "A plan for the shavings", "Sod or planting can follow"],
+    "photo": "ai-stump"
+  },
+  "local": {
+    "eyebrow": "Stumps in Rochester",
+    "title": "What to sort out before a Rochester stump gets ground.",
+    "intro": "The grinding usually takes hours, not days. The thinking happens before that. On a Rochester lot, it matters who controls the ground the stump sits on, what the roots are near and what you want in that spot afterward.",
+    "points": [
+      { "title": "Who controls the ground", "body": "The strip between the walk and the street is usually public right-of-way, and the city controls the trees and shrubs there. If your stump sits in that strip, ask the city first. A stump in your own yard is more straightforward." },
+      { "title": "Where the next tree can go", "body": "If your tree came out under a permit that requires a replacement, the new tree's center has to sit at least four feet from a property line and ten from a utility line. The old spot is a poor bet too, because leftover wood in the soil can tie up nitrogen. On a narrow lot, that may leave only a few places to plant." },
+      { "title": "Roots near walks and sewers", "body": "The city's ordinance names poplars, willows, box elders and silver maples as fast growers whose roots can injure sewers and heave walks. If your stump came from one of those and sits near a walk, tell us. Grinding takes out the stump, not every root under the slab, and we will say so before we start." },
+      { "title": "Roots do not go to the curb", "body": "The city keeps roots and root balls out of its chipper piles, and contracted tree trimmings are not picked up. So your estimate spells out how the shavings and root pieces get off the lot. A spot going back to lawn needs the shavings out and topsoil in." }
+    ]
+  },
+  "logistics": {
+    "title": "On a Rochester lot, the way in matters as much as the stump.",
+    "body": [
+      "Buried lines come first. Michigan requires notice to MISS DIG 811 at least three business days before a project of any size or depth, and when a contractor does the work, the contractor makes that call. Private lines to a shed, a detached garage or a sprinkler system do not get marked, so tell us if you have any nearby.",
+      "Send a photo of the stump and the narrowest gap on the way to it. Some blocks around downtown have alleys behind the lots, paved or gravel, which can beat a tight side yard. A grinder is loud, and the city's posted construction hours run 7 a.m. to 6 p.m. on weekdays, with Saturdays by permission. The page does not say whether stump work counts, so a weekday is the easy choice."
+    ],
+    "facts": [
+      { "label": "Before grinding", "value": "MISS DIG 811, three business days ahead" },
+      { "label": "Depth", "value": "Below grade" },
+      { "label": "After that", "value": "Lawn, a bed or a new tree" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "sod-circle",
+  "faq": [
+    { "q": "Do you grind stumps in Rochester, MI?", "a": "Yes. HD Landscape grinds stumps in the City of Rochester, MI, including old ones left by another company or a past owner. If the tree is still standing and it is a smaller one, we can [take that down](/tree-trimming-rochester-mi/) too, once any permit it needs is in place. A big tree needs a tree company first, and we can grind what it leaves." },
+    { "q": "Does grinding a stump in Rochester take a permit?", "a": "The city's tree permit is written around removing trees, and we did not find it addressing a stump on private land by itself. A stump in the right-of-way is different, because the city controls that ground. If you are not sure, ask the City Forester before we start." },
+    { "q": "Can stump grindings go out with yard waste in Rochester?", "a": "Do not count on it. The city's yard waste page says roots and root balls stay out of the chipper pile, and it does not mention stump shavings. We go over the plan for the shavings with you and put it on the estimate, so there is no guessing." },
+    { "q": "Can I plant a tree where the stump was?", "a": "Not right on top of it if you can avoid it. University of Illinois Extension says wood mixed into the soil can tie up nitrogen and make it hard to grow a lawn or another plant where the tree stood, so the new tree is better off to one side. If you want a native tree, ask Rochester's City Forester whether the rebate is running this year before you buy." },
+    { "q": "What can go where a stump used to be on a small lot?", "a": "Usually lawn, a small bed or stone. [Sod](/sod-installation/) can go in once the shavings are out and topsoil is in, set slightly high to allow for settling. If the spot is shady, a bed may be the better idea, and we can put [planting](/plant-installation/) or [rock and stone](/rock-and-stone-installation/) on the same estimate." }
+  ],
+  "reviews": ["anne-j", "rob-e"]
+}

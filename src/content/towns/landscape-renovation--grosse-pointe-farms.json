@@ -1,0 +1,49 @@
+{
+  "service": "landscape-renovation",
+  "city": "grosse-pointe-farms",
+  "meta": {
+    "title": "Landscape Renovation in Grosse Pointe Farms, MI | HD Landscape",
+    "description": "Landscape renovation for Grosse Pointe Farms, MI, planned for your soil, sand or clay. Old beds out, new grade, plants and sod in. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscape renovation in Grosse Pointe Farms, MI",
+    "title": "Sand here, clay there, **one good plan.**",
+    "lede": "Grosse Pointe Farms can go from quick draining sand to heavy clay inside one town. So HD Landscape starts with the ground you actually have, and the beds, plants, stone and sod all follow from that.",
+    "chips": ["Planned for your soil", "Old beds out", "New grade, plants and sod"],
+    "photo": "colonial-fall"
+  },
+  "local": {
+    "eyebrow": "Renovation in the Farms",
+    "title": "Why a renovation in Grosse Pointe Farms **starts below the surface.**",
+    "intro": "The land here has more rise than the City of Grosse Pointe or the Park, with a low ridge through the middle of town. USDA soil maps show sandy soils through the center and east, and heavy clay inland toward Mack. What thrives in one yard can sulk a mile away.",
+    "points": [
+      { "title": "Sand that drains fast", "body": "Much of the middle of the city is mapped as sandy Brems soil, and some slopes are Plainfield, which lets water through very quickly. New plants on that ground need closer watching in their first seasons, so the watering plan changes." },
+      { "title": "Clay that stays wet", "body": "Inland, the map turns to poorly drained Ziegenfuss clay. Local history records a wooded swamp between Ridge and Mack, drained by a county ditch around 1885. In yards like that, the grade comes before the plants." },
+      { "title": "Filled ground", "body": "USDA also maps spots of made ground here, soil that people brought in, with brick and other debris mixed through it. If digging turns that up, you will hear about it from Jake before the job goes further." },
+      { "title": "Historic plantings", "body": "The city's historic districts include Beverly Road, and its rules list historic plantings, gates and walls among the features that can need a certificate before they change. If your home is in a district, ask the city first." }
+    ]
+  },
+  "logistics": {
+    "title": "Contractors haul their own debris here, and the boulevard stays clear.",
+    "body": [
+      "The city's rule is simple: landscape contractors remove their own debris. So old shrubs, sod and soil go with the crew, and the curb stays clear. Some jobs finish in a day and bigger ones take longer, which Jake will go over when he writes the estimate.",
+      "Trees and plantings between the walk and the curb fall under the Director of Public Service, and digging within 5 feet of a tree there takes a written permit. So beds and grading have to be planned around them, and material stays off the boulevard.",
+      "We renovate yards in all five Pointes, the [Shores](/service-areas/grosse-pointe-shores/), the [Woods](/service-areas/grosse-pointe-woods/), the [City](/service-areas/grosse-pointe/), the [Park](/service-areas/grosse-pointe-park/) and the [Farms](/service-areas/grosse-pointe-farms/), and the ground is different in each."
+    ],
+    "facts": [
+      { "label": "Starts with", "value": "A look at your soil" },
+      { "label": "Near boulevard trees", "value": "Permit to dig within 5 feet" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinkler installation" }
+    ]
+  },
+  "photo": "patio-bed",
+  "faq": [
+    { "q": "Do you do landscape renovation in Grosse Pointe Farms?", "a": "Yes. HD Landscape renovates yards in Grosse Pointe Farms, one of the places we work most, on sand and on clay. Old beds come out, the ground gets regraded, and new plants, stone and sod go in to suit the soil you actually have." },
+    { "q": "What is the soil like in Grosse Pointe Farms?", "a": "It changes. USDA maps show sandy soils through the middle and east of the city, poorly drained clay inland toward Mack, and filled ground in spots. A map is not a soil test, so Jake looks at your yard before making any promises." },
+    { "q": "Can you renovate a yard in a historic district in Grosse Pointe Farms?", "a": "Yes, once the city's review is sorted out. The rules cover changes you can see from the street, including historic plantings, gates and walls. Ordinary maintenance is treated differently. Ask the city what applies to your home before work starts." },
+    { "q": "Do I need sod or will seed work on a sandy lot?", "a": "Sod gives you a finished lawn the day we leave, and seed takes longer to fill in. Either one dries out faster on sand, so a new lawn needs steady water while it roots. Jake will give you a plain plan, and our [plant watering](/plant-watering/) service can take it off your list." },
+    { "q": "Can you fix a slope that keeps washing out?", "a": "Yes. Most of the Farms is gentle, but it does have rises. We can [regrade](/yard-grading/) it, plant it or step it with a [low block wall](/retaining-walls/), depending on the yard. Jake will say which one makes sense and why." }
+  ],
+  "reviews": ["amanda-h", "rob-e", "billy-w"]
+}

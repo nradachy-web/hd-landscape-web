@@ -1,0 +1,48 @@
+{
+  "service": "sod-installation",
+  "city": "shelby-township",
+  "meta": {
+    "title": "Sod Installation in Shelby Township, MI | HD Landscape",
+    "description": "New sod for Shelby Township, MI lawns, on sand or clay: old grass out, ground graded and fresh sod down, often in one day. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Sod installation in Shelby Township, MI",
+    "title": "Same township, **two different lawns.**",
+    "lede": "Sand up high drains fast, sand down low can stay wet, and Shelby Township has plenty of both. HD Landscape strips the old lawn, fixes the grade, lays fresh sod in tight seams and shapes the watering plan around your ground.",
+    "chips": ["Planned for sand or clay", "Grade fixed before sod", "Often one day"],
+    "photo": "sod-colonial"
+  },
+  "local": {
+    "eyebrow": "Sod in Shelby Township",
+    "title": "Why a sod plan here starts with a look at the dirt.",
+    "intro": "USDA soil maps show how much the ground changes across Shelby Township. Most of it is sandy, but sand on a rise and sand in a low spot act nothing alike. The southeast corner has pockets of silty clay loam, and some river bottoms flood. New sod behaves differently on each, so the prep and the watering change too.",
+    "points": [
+      { "title": "Sand on a rise drinks fast", "body": "Soils like Boyer and Oakville let water move through quickly. New sod on that ground can dry out between waterings, so early on it needs a closer eye than the same lawn would need on clay." },
+      { "title": "Low ground holds on", "body": "Sandy soils like Gilford and Granby sit in low spots with water close to the surface, and USDA maps pockets of Lenawee silty clay loam, mostly in the southeast corner. There the job flips. The time goes into [grading](/yard-grading/), so surface water moves off instead of sitting under the new roots." },
+      { "title": "Slopes that would wash seed away", "body": "The northwest corner rolls toward Stony Creek. Sod covers a slope the day it goes down, while seed can wash out in the first hard rain." },
+      { "title": "Lawns as old as the house", "body": "Nearly half the homes here date to 1990 or later, and plenty of lawns have been down just as long. Worn turf, thin patches and old low spots get stripped and fixed, not covered over." }
+    ]
+  },
+  "logistics": {
+    "title": "A sod day in Shelby Township starts with what is under the grass.",
+    "body": [
+      "Jake's walk of the yard looks at what is under the grass, then at the strip, the grade and where the pallets can sit. Many lawns are finished in a day, depending on the grade. A bigger yard or heavy grading can take longer, and he can say which yours is once he has seen it.",
+      "If you have sprinklers, have a sprinkler company flag the heads and check the coverage, so the new lawn gets even water. We lay sod around them. We do not install or repair them. After the job, Jake calls and explains the watering for your soil, and we can [handle the watering](/plant-watering/) while it roots."
+    ],
+    "facts": [
+      { "label": "Soil here", "value": "Mostly sandy, some clay" },
+      { "label": "Time on site", "value": "Often one day" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinkler installation" }
+    ]
+  },
+  "photo": "grade-rake",
+  "faq": [
+    { "q": "Do you do sod installation in Shelby Township?", "a": "Yes. HD Landscape strips the old lawn, grades the ground and lays fresh sod in Shelby Township. Many lawns are finished in a day, depending on the grade. We do not install sprinklers or do lawn aeration." },
+    { "q": "How often do I water new sod on sandy soil?", "a": "More often than on clay, until it roots. Sand lets water pass through quickly, so new sod can dry out between waterings, and Jake calls after the job to go over a schedule for your yard. Shelby Township also has a mandatory irrigation ordinance for sprinklers on township water, so before a summer install, ask Public Works which hours and days apply and whether new sod gets an exception." },
+    { "q": "Can you lay sod on a slope?", "a": "Yes, on most yard slopes, including the rolling northwest corner of Shelby Township. Sod is a better fit than seed there, because seed can wash away in a hard rain. A very steep bank may do better with a [retaining wall](/retaining-walls/) or a planted bed, which Jake can judge on site." },
+    { "q": "Why does my lawn stay soggy if the soil is sandy?", "a": "Usually because the yard sits low. USDA maps more than half of Shelby Township as somewhat poorly drained or wetter, and much of that ground is sand with water close to the surface. New sod will not fix that alone. Grading can move surface water, but it cannot lower a high water table, so it pays to know which one you have before the first roll comes off the pallet." },
+    { "q": "Will new sod hold up on a lot near the Clinton River?", "a": "Not always. USDA maps some river and creek bottoms in Shelby Township as frequently flooded, and one of those soils commonly floods between November and May. Grading will not fix ground like that. Macomb County also runs the soil erosion permit program, so ask the county before soil gets moved near the water." }
+  ],
+  "reviews": ["rob-e", "meagan-m"]
+}

@@ -1,0 +1,49 @@
+{
+  "service": "stump-grinding",
+  "city": "birmingham",
+  "meta": {
+    "title": "Stump Grinding in Birmingham, MI | HD Landscape",
+    "description": "HD Landscape grinds stumps below grade in Birmingham, MI, tight side yards included, and can put the spot back together with sod or a new bed."
+  },
+  "hero": {
+    "kicker": "Stump grinding in Birmingham, MI",
+    "title": "A small yard has **no room for a stump.**",
+    "lede": "A stump in a small Birmingham yard takes up room you could be using. HD Landscape grinds it below grade, then helps you decide what goes there next.",
+    "chips": ["Ground below grade", "Ready for lawn or a bed", "Free itemized estimate"],
+    "photo": "evergreen-island"
+  },
+  "local": {
+    "eyebrow": "Stumps in Birmingham",
+    "title": "Settle these **before the grinder comes out.**",
+    "intro": "Grinding a stump is simple. The questions around it are what make a job here different: whose stump it is, what the tree was, what runs under it, and what you are allowed to plant in its place.",
+    "points": [
+      { "title": "Whose stump it is", "body": "A stump in the strip by the street sits in the public right of way. If a city tree came down there, call the Department of Public Services before you hire anyone. Stumps on your side of the line are yours, and those are the ones we grind." },
+      { "title": "Oak and elm stumps", "body": "When a tree is confirmed diseased, the city's tree manual says stumps left by oak and elm removals must be promptly removed or buried. Tell us what the tree was and why it came down. If the city sent you a notice, we want to read it." },
+      { "title": "What runs underneath", "body": "Michigan law requires utility lines to be flagged before excavation, and a MISS DIG 811 request gets the public lines marked. Private runs, like a line out to a garage or a sprinkler pipe, are the ones only you may know about, so tell us." },
+      { "title": "What goes back", "body": "Norway maple, silver maple, ash, catalpa, mulberry and willow are all on the city's prohibited list, so the same tree cannot go back in. That is often good news. A smaller tree or a [new bed](/landscape-design-birmingham-mi/) can suit a tight yard better." }
+    ]
+  },
+  "logistics": {
+    "title": "In a tight yard, the way in matters as much as the stump.",
+    "body": [
+      "Send a photo or have Jake take a look. We need to know how big the stump is, what kind of tree it was and how we reach it. Narrow side yards and gates are common here, so measure the tightest spot on the way back.",
+      "Surface roots are part of the plan. Big old trees run roots wide and shallow, so the stump is rarely the whole story. What needs to go comes down to the use you have in mind, and the rest can stay.",
+      "Afterward the shavings need a plan, and topsoil should go in a little high to allow for settling. We can [regrade it](/yard-grading/), lay [sod](/sod-installation-birmingham-mi/) or plant it, so you are not left looking at a bare circle."
+    ],
+    "facts": [
+      { "label": "Result", "value": "Ground below grade" },
+      { "label": "Stumps by the street", "value": "Call the city first" },
+      { "label": "Buried lines", "value": "Marked before digging" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ai-stump",
+  "faq": [
+    { "q": "Do you do stump grinding in Birmingham?", "a": "Yes. HD Landscape grinds stumps below grade on private lots in Birmingham, MI. If the tree is still standing and too big for us, a tree company takes it down first and we come in after. If you have a plan for the spot, like a new tree or a wall, tell us early, because that changes how far we go." },
+    { "q": "Can you grind a stump in the strip by the street in Birmingham?", "a": "Call the city first. That strip is public right of way, and the city manages the trees in it, so the stump may be the city's to deal with. The Department of Public Services can tell you. For a stump on your own lot, we can take it from there." },
+    { "q": "Do I have to remove the stump after an oak or elm comes down in Birmingham?", "a": "If the tree was diseased, you may have to. The city's tree manual calls for stumps from infected oak and elm removals to be promptly removed or buried. If you have a notice from the city, send it to us with a photo and we will look at it with you." },
+    { "q": "Can you get a stump grinder into a fenced backyard?", "a": "Often, and the way in decides it. Narrow gates and side yards are common in Birmingham, so measure the tightest gate or gap on the path to the stump and send us that number with a photo. Jake can tell you straight whether it works." },
+    { "q": "Can I plant a new tree where the stump was?", "a": "You can, but give it some thought. Old roots are still down there, so a spot a few feet away is often easier. Anything on Birmingham's prohibited species list cannot go back in, and the city publishes an approved list sorted by size if you want a place to start." }
+  ],
+  "reviews": ["anne-j", "renee-g"]
+}

@@ -1,0 +1,74 @@
+---
+/* Contact. Old address kept. A service area business: no street address. */
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import Icon from '../components/Icon.astro';
+import { BRAND, LINKS } from '../data/site';
+import { heroImage } from '../lib/hero';
+import { breadcrumbs } from '../lib/schema';
+
+const path = '/contact-us/';
+const head = await heroImage('dusk-sidewalk', { sizes: '(min-width: 60rem) 48vw, 1px' });
+---
+
+<Base
+  title="Contact HD Landscape | Free Estimates in Metro Detroit"
+  description="Call or text HD Landscape at (586) 718-8762 or send a request for a free itemized estimate. Based in St. Clair Shores, serving Metro Detroit."
+  path={path}
+  preload={{ ...head.preload, media: '(min-width: 60rem)' }}
+  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Contact', path }])]}
+>
+  <PageHead image={head} eyebrow="Contact" title="Call, text, or **tell us about the yard.**" lede="Texting a photo is usually the fastest way to start." crumbs={[{ name: 'Contact', path }]}>
+    <ul class="ways">
+      <li><a class="way" href={BRAND.phoneHref} data-loc="contact"><Icon name="phone" /><span>Call {BRAND.phone}</span></a></li>
+      <li><a class="way" href={BRAND.smsHref} data-loc="contact-text"><Icon name="text" /><span>Text a photo</span></a></li>
+      <li><a class="way" href={`mailto:${BRAND.email}`}><Icon name="mail" /><span>{BRAND.email}</span></a></li>
+      <li class="way"><Icon name="pin" /><span>Based in {BRAND.city}, MI</span></li>
+      <li class="soc"><a href={LINKS.facebook} target="_blank" rel="noopener">Facebook</a> <a href={LINKS.tiktok} target="_blank" rel="noopener">TikTok</a></li>
+    </ul>
+  </PageHead>
+  <QuoteBand eyebrow="Free estimate" title="Or send a request here." />
+</Base>
+
+<style>
+  .ways {
+    display: grid;
+    gap: 0.35rem;
+  }
+
+  .way {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.7rem;
+    min-height: 2.75rem;
+    font-size: 1.125rem;
+    font-weight: 560;
+    text-decoration: none;
+  }
+
+  a.way:hover {
+    color: var(--leaf);
+  }
+
+  .way :global(svg) {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: var(--leaf);
+  }
+
+  .soc {
+    display: flex;
+    gap: 1.25rem;
+  }
+
+  .soc a {
+    display: inline-block;
+    padding-block: 0.5rem;
+    text-decoration: none;
+  }
+
+  .soc a:hover {
+    color: var(--leaf);
+  }
+</style>

@@ -1,0 +1,27 @@
+---
+/* A few fireflies over the evening photos. Michigan yards at dusk, and the one
+   playful thing on the site. Drawn on a canvas that starts after the page has
+   settled, so nothing here touches the first paint. They drift, pulse, and lean
+   gently toward a pointer. Paused off screen and in a hidden tab, and absent for
+   visitors who ask for reduced motion or for data saving. */
+---
+
+<canvas class="ff" aria-hidden="true"></canvas>
+
+
+<style>
+  .ff {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 1.6s ease;
+  }
+
+  .ff.is-on {
+    opacity: 1;
+  }
+</style>

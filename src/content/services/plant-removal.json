@@ -1,0 +1,239 @@
+{
+  "service": "plant-removal",
+  "meta": {
+    "title": "Plant and Shrub Removal in St. Clair Shores, MI | HD Landscape",
+    "description": "Overgrown shrubs and tired beds out, roots and all. HD Landscape works from St. Clair Shores across Metro Detroit. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Plant and shrub removal in St. Clair Shores, MI and across Metro Detroit",
+    "title": "Overgrown shrubs out, **roots and all.**",
+    "lede": "The shrub that swallowed the window. The bed nobody remembers planting. HD Landscape cuts it down, digs out the crown and main roots and leaves clean ground for whatever comes next.",
+    "chips": [
+      "Roots dug out",
+      "Care around what stays",
+      "Ready for something new"
+    ],
+    "photo": "ba-side-before"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What it takes",
+      "title": "Cutting it down is **only half the job.**",
+      "body": [
+        "Plant removal means taking a shrub, a perennial or a tired bed all the way out: top, crown and roots. The roots are the part that gets skipped when the job is a pair of loppers and a free Saturday.",
+        "Leave them and they cause trouble. MSU Extension notes that bush honeysuckle resprouts easily from roots left in the ground, and that cut buckthorn stumps sprout back hard in spring. Even a shrub that stays dead leaves a mass of old roots right where the next plant needs to go."
+      ],
+      "checks": [
+        "Shrubs cut down, then crowns and main roots dug out",
+        "Extra care around the plants you are keeping",
+        "Holes filled and ground raked smooth for what comes next"
+      ],
+      "photo": "grade-rake"
+    },
+    {
+      "type": "beforeAfter",
+      "plane": "ink",
+      "eyebrow": "Real jobs",
+      "title": "Same spot, **minus the mess.**",
+      "intro": "Filmed by Jake. Drag the line to compare.",
+      "pairs": [
+        "ba-sod",
+        "ba-corner",
+        "ba-foundation"
+      ],
+      "checks": [
+        "Old plants, weeds and dead grass out",
+        "Ground cleared and reset",
+        "A new lawn or a clean bed in its place"
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "paper",
+      "eyebrow": "Keep it or lose it",
+      "title": "Not every overgrown shrub **has to go.**",
+      "intro": "Some shrubs can be brought back, and Jake would rather say so than sell you a removal. MSU Extension describes these options for shrubs that have gotten too big. If a shape up is all it needs, that is [hedge trimming](/hedge-trimming/), and we do that too.",
+      "columns": [
+        "Renew it slowly",
+        "Cut it to the ground",
+        "Take it out"
+      ],
+      "rows": [
+        {
+          "label": "Good fit",
+          "values": [
+            "An older shrub that grew too large",
+            "An overgrown or weak shrub that can regrow from the base",
+            "A dead, diseased, invasive or badly placed plant"
+          ]
+        },
+        {
+          "label": "How it works",
+          "values": [
+            "Oldest stems cut at the ground, spread over about three years",
+            "All branches cut at or a few inches above the ground",
+            "Top, crown and main roots all come out"
+          ]
+        },
+        {
+          "label": "What to expect",
+          "values": [
+            "Slow change and no hole in the bed",
+            "Bare stems at first, and flowers may skip a year or more",
+            "Clean ground, ready for a new plan"
+          ]
+        },
+        {
+          "label": "Watch out for",
+          "values": [
+            "It takes patience",
+            "Not every plant responds. Junipers do not sprout back when cut hard",
+            "Stray roots from invasive shrubs can resprout"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "What comes out",
+      "title": "Most removals start with one of these.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Shrubs that outgrew the house",
+          "body": "Many St. Clair Shores yards filled in after World War II, so some foundation shrubs have had decades to get big. When they cover windows or crowd the brick, it may be time."
+        },
+        {
+          "title": "Tired beds",
+          "body": "Thin plants, old ground cover and more weeds than anything else. A clean start is often easier than patching it. If the plants themselves are fine, [weeding](/weeding/) may be enough."
+        },
+        {
+          "title": "Invasive shrubs",
+          "body": "Buckthorn, bush honeysuckle, autumn olive and Japanese barberry spread beyond your yard. MSU Extension does not recommend planting barberry or burning bush."
+        },
+        {
+          "title": "Dead or failing plants",
+          "body": "A dead shrub does not get better. Ask why it failed before you replace it. If it was set too deep or sat in wet clay, the next one can go the same way."
+        },
+        {
+          "title": "Boxwood, with care",
+          "body": "Macomb, Oakland and Wayne counties are all inside Michigan's box tree moth quarantine, and the state regulates how boxwood plants, clippings and debris are moved. Tell us if you have it."
+        },
+        {
+          "title": "Whatever is in the way",
+          "body": "New [sod](/sod-installation/), [stone](/rock-and-stone-installation/) or a [retaining wall](/retaining-walls/) often starts with clearing what is there. Removal is usually day one of a [renovation](/landscape-renovation/)."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "How a removal runs",
+      "title": "From overgrown bed to clean ground.",
+      "steps": [
+        {
+          "title": "Walk the bed",
+          "body": "Jake goes over the bed with you, and you settle what stays while the shovels are still on the truck. Then comes an itemized estimate you can go through line by line."
+        },
+        {
+          "title": "Check the lines",
+          "body": "Buried utility lines get marked before digging. MISS DIG 811 does not mark private lines, so tell us about sprinkler pipes or a buried dog fence."
+        },
+        {
+          "title": "Cut and dig",
+          "body": "Tops come off so we can see what we are doing. Then the crown and main roots come out, with extra care close to anything that is staying."
+        },
+        {
+          "title": "Clear the debris",
+          "body": "How the debris leaves goes on your estimate, so there is no guessing on the day. Boxwood has to follow the current state rules."
+        },
+        {
+          "title": "Reset the ground",
+          "body": "Holes get filled and the ground gets raked smooth, ready for [new plants](/plant-installation/), [mulch](/mulching/) or [stone](/rock-and-stone-installation/)."
+        }
+      ]
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "Cleanup, in their words",
+      "title": "Cleared out and cleaned up.",
+      "ids": [
+        "nancy-g",
+        "rob-e"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do plant removal in St. Clair Shores?",
+      "a": "Yes. HD Landscape takes out overgrown shrubs and tired beds in St. Clair Shores, its home town, and across [Macomb, Oakland and Wayne counties](/service-areas/). A shrub planted when the house went up may have had decades to reach the windows, so a removal here can be a bigger dig than it looks."
+    },
+    {
+      "q": "How do you remove overgrown bushes?",
+      "a": "We cut the top down so we can see the base, then dig out the crown and main roots. After that we fill the hole and rake the ground smooth. It is more work than cutting a shrub off at the soil line, and it leaves you with ground you can actually plant in."
+    },
+    {
+      "q": "Do you take the roots out?",
+      "a": "Yes. The crown and main roots come out, which is what keeps most shrubs from coming back. Fine roots stay in the soil, as they do on any removal. Some invasive shrubs can resprout from what is left, so we will tell you what to watch for."
+    },
+    {
+      "q": "Can you remove a bush without hurting the plants next to it?",
+      "a": "Usually, and we are careful about it. Tell us what you want to keep and we go slower around those plants. If two root systems have grown together, you will hear that from Jake first."
+    },
+    {
+      "q": "Can you remove the old bushes and plant new ones?",
+      "a": "Yes. Old plants out, roots and all, then [new plants in](/plant-installation/), and it can all run as one job. MSU Extension suggests planning the replacement at the same time, because an empty spot tends to fill up with something you did not choose."
+    },
+    {
+      "q": "Do you remove trees too?",
+      "a": "Smaller ones, yes, through [tree trimming and removal](/tree-trimming-and-removal/). Anything big, we hand off to a tree company. If a stump is left behind, [stump grinding](/stump-grinding/) takes it below grade so that patch can be planted again."
+    },
+    {
+      "q": "Do I have to remove Japanese barberry or buckthorn in Michigan?",
+      "a": "Not according to the state. In May 2026 Michigan announced that common buckthorn, glossy buckthorn, Japanese barberry and Callery pear move to its restricted list on January 1, 2028, when selling, importing or propagating them becomes illegal. The state's release says property owners are not considered in violation if these plants are already established on their property. They still spread, so taking them out is worth a talk. Rules change, so look at the state's invasive species site for the latest."
+    },
+    {
+      "q": "Can you remove boxwood in Macomb County?",
+      "a": "Yes, with extra care. Macomb, Oakland and Wayne counties are all inside Michigan's box tree moth quarantine, and the rules cover the whole plant, including clippings and debris, alive or dead. Tell us about boxwood when you call, so the removal and the disposal follow the current state rules."
+    },
+    {
+      "q": "What time of year can you remove shrubs?",
+      "a": "Any time the ground is workable, from spring through fall. If new plants are going in, we plan around that, because MSU Extension calls early fall through mid October a good time to plant new trees and shrubs."
+    },
+    {
+      "q": "How much does it cost to remove bushes?",
+      "a": "Three young shrubs in the open and one old yew jammed against the foundation are very different jobs. Size, access and the amount of debris set the number, so Jake looks at it first. He does that for free, and the estimate comes itemized."
+    }
+  ],
+  "quote": {
+    "title": "Tell us what has to go.",
+    "lede": "Send a photo of the bed or the bush that has gotten away from you. Jake can say what might be saved and what should come out, then put it on an itemized estimate."
+  },
+  "summary": {
+    "title": "A removal should end with ground you can plant in.",
+    "intro": "Here is the work that leaves you with clean ground. All of it is spelled out on your estimate, so you know what is coming out and what is staying.",
+    "items": [
+      {
+        "name": "Cut down",
+        "detail": "Shrubs and old plants taken down, with care around anything staying."
+      },
+      {
+        "name": "Roots out",
+        "detail": "Crowns and main roots dug out, so the spot can be replanted."
+      },
+      {
+        "name": "Debris",
+        "detail": "The plan for it is written on your estimate."
+      },
+      {
+        "name": "Ground reset",
+        "detail": "Holes filled and the soil raked smooth for what comes next."
+      }
+    ],
+    "footnote": "Smaller trees and stumps are their own jobs: see [tree trimming and removal](/tree-trimming-and-removal/) and [stump grinding](/stump-grinding/)."
+  }
+}

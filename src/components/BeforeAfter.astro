@@ -1,0 +1,141 @@
+---
+/* A before and after pair with a draggable divider. It is a real range input
+   underneath, so it works by touch, mouse and arrow keys. Without script it
+   rests at the halfway point, showing both. */
+import Photo from './Photo.astro';
+import { PAIRS, type PairId } from '../data/photos';
+
+interface Props {
+  pair: PairId;
+  sizes?: string;
+}
+const { pair, sizes = '(min-width: 60rem) 34vw, 92vw' } = Astro.props;
+const p = PAIRS[pair];
+const widths = [360, 540, 720, 960];
+---
+
+<figure class="ba">
+  <div class="ba__stage frame">
+    <Photo id={p.after} ratio={4 / 5} widths={widths} sizes={sizes} class="ba__img" />
+    <div class="ba__before">
+      <Photo id={p.before} ratio={4 / 5} widths={widths} sizes={sizes} class="ba__img" />
+    </div>
+    <span class="ba__tag ba__tag--b" aria-hidden="true">Before</span>
+    <span class="ba__tag ba__tag--a" aria-hidden="true">After</span>
+    <span class="ba__line" aria-hidden="true"><span class="ba__knob"></span></span>
+    <input class="ba__range" type="range" min="0" max="100" value="50" aria-label={`Before and after: ${p.title}. Use the arrow keys or drag to compare.`} aria-valuetext="50% before, 50% after" />
+  </div>
+  <figcaption class="ba__cap">
+    <strong>{p.title}</strong>
+    <span class="small muted">{p.note}</span>
+  </figcaption>
+</figure>
+
+
+<style>
+  .ba {
+    display: grid;
+    gap: 0.9rem;
+  }
+
+  .ba__stage {
+    --pos: 50%;
+    aspect-ratio: 4 / 5;
+    touch-action: pan-y;
+  }
+
+  .ba__stage :global(.ba__img),
+  .ba__stage :global(.ba__img img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ba__before {
+    position: absolute;
+    inset: 0;
+    clip-path: inset(0 calc(100% - var(--pos)) 0 0);
+  }
+
+  .ba__tag {
+    position: absolute;
+    top: 0.75rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: var(--r-sm);
+    background: rgb(10 15 11 / 0.72);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 640;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .ba__tag--b {
+    left: 0.75rem;
+  }
+
+  .ba__tag--a {
+    right: 0.75rem;
+  }
+
+  .ba__line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: var(--pos);
+    width: 2px;
+    margin-left: -1px;
+    background: #fff;
+    pointer-events: none;
+  }
+
+  .ba__knob {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin: -1.375rem 0 0 -1.375rem;
+    border-radius: 50%;
+    background: var(--forest)
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m9 7-5 5 5 5M15 7l5 5-5 5'/%3E%3C/svg%3E")
+      center / 1.4rem no-repeat;
+    box-shadow: 0 0 0 2px #fff;
+  }
+
+  .ba__range {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    cursor: ew-resize;
+  }
+
+  /* on touch screens the script above moves the divider; the input stays for the keyboard */
+  @media (pointer: coarse) {
+    .ba__range {
+      pointer-events: none;
+    }
+  }
+
+  @media (max-width: 29.99rem) {
+    .ba__stage {
+      aspect-ratio: 1;
+    }
+  }
+
+  .ba__range:focus-visible ~ .ba__line .ba__knob,
+  .ba__stage:has(.ba__range:focus-visible) .ba__knob {
+    outline: 3px solid var(--leaf-soft);
+    outline-offset: 3px;
+  }
+
+  .ba__cap {
+    display: grid;
+    gap: 0.2rem;
+    align-content: start;
+  }
+</style>

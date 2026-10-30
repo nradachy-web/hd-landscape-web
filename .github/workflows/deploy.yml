@@ -1,0 +1,58 @@
+# Builds the site and publishes it to GitHub Pages on every push to main.
+#
+# PREVIEW: served at https://nradachy-web.github.io/hd-landscape-web/ with
+# BASE_PATH set, which makes every page noindex and robots.txt disallow all.
+# LAUNCH: set the repository variable BASE_PATH to / and SITE_URL as in
+# docs/LAUNCH.md, add public/CNAME, then point DNS.
+name: Deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: actions/cache@v4
+        with:
+          path: .cache
+          key: astro-images-${{ hashFiles('src/assets/photos/**', 'src/assets/brand/**') }}
+          restore-keys: astro-images-
+      - run: npm ci
+      - run: npx astro build
+        env:
+          BASE_PATH: ${{ vars.BASE_PATH || '/hd-landscape-web/' }}
+          PUBLIC_WEB3FORMS_KEY: ${{ vars.PUBLIC_WEB3FORMS_KEY }}
+      - run: node scripts/postbuild.mjs
+        env:
+          BASE_PATH: ${{ vars.BASE_PATH || '/hd-landscape-web/' }}
+          AUDIT_SOFT: ${{ vars.AUDIT_SOFT }}
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,48 @@
+{
+  "service": "pressure-washing",
+  "city": "birmingham",
+  "meta": {
+    "title": "Pressure Washing in Birmingham, MI | HD Landscape",
+    "description": "HD Landscape pressure washes walks, patios and pavers in Birmingham, MI, with the pressure suited to the surface, old brick and soft stone included."
+  },
+  "hero": {
+    "kicker": "Pressure washing in Birmingham, MI",
+    "title": "Clean stone, **gentle on the old stuff.**",
+    "lede": "Under Birmingham's big trees, walks and patios stay damp and turn green. HD Landscape brings them back and suits the pressure to the surface, because a 1930s brick walk is not a new driveway.",
+    "chips": ["Walks, patios and pavers", "Pressure suited to the surface", "Easy on old brick"],
+    "photo": "paver-walk"
+  },
+  "local": {
+    "eyebrow": "Washing in Birmingham",
+    "title": "Why Birmingham hardscape goes green, and how to **clean it without hurting it.**",
+    "intro": "The canopy that makes these streets worth living on also keeps a lot of hard surfaces out of the sun. Walks and patios stay damp, leaves stain them, and moss and algae settle in. Cleaning that off is easy. Cleaning it without damaging something old takes more care.",
+    "points": [
+      { "title": "Older surfaces get less pressure", "body": "Birmingham's historic district guidelines warn against high PSI washing on old walls and against power washing porches and patios, and they favor a gentle, water based cleanser. Those guidelines bind only the local districts, but the reasoning holds for any old brick or soft stone." },
+      { "title": "Pavers can lose their joints", "body": "A strong wash can pull sand out of paver joints along with the grime. If the joints are open afterward, we will say so, and [polymeric sand](/polymeric-sand/) can lock them back up and keep weeds out." },
+      { "title": "It all drains somewhere", "body": "Birmingham sits in two watersheds, the Rouge and the Clinton, and the city holds a state storm water permit aimed at reducing pollutants. So oil stains and cleaning products are a conversation before the wand comes out." },
+      { "title": "Timing around the trees", "body": "Leaves and seed pods land on a clean surface all fall. A wash pays off most after the spring cleanup, or once the fall leaves are down." }
+    ]
+  },
+  "logistics": {
+    "title": "The surface decides the pressure.",
+    "body": [
+      "Tell us what you want cleaned, and send a photo if that is easier. Jake looks at the surface first, because old brick, limestone, flagstone and newer pavers each need a different hand. The estimate is itemized, so you can see each area on its own line.",
+      "Dirty water should stay off what is already clean and away from the beds as much as possible, and the site gets left tidy. Tight side yards are common here, so tell us if a neighbor's car or a low window sits close to the work.",
+      "Pressure washing pairs well with a [spring or fall cleanup](/yard-cleanup-birmingham-mi/). The leaves are gone, the beds are clean, and the hard surfaces finish the job."
+    ],
+    "facts": [
+      { "label": "Surfaces", "value": "Walks, patios and pavers" },
+      { "label": "Pressure", "value": "Set by the surface" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ai-pressure",
+  "faq": [
+    { "q": "Do you do pressure washing in Birmingham?", "a": "Yes. HD Landscape pressure washes walks, patios and pavers in Birmingham, MI, with the pressure suited to the surface. Shade and damp keep a lot of hardscape green here, and old brick and soft stone need a lighter hand than newer pavers." },
+    { "q": "Can you pressure wash an old brick walk?", "a": "Yes, with care. Plenty of Birmingham homes date to the 1930s or earlier, and old brick and soft stone can be damaged by too much pressure, so we go only as far as the surface can take. If it will not come clean at a safe pressure, we will say so instead of forcing it." },
+    { "q": "My home is in a historic district in Birmingham. Can I power wash the patio?", "a": "Ask first. The city's historic guidelines do not recommend power washing porch, deck or patio features, or using high PSI on historic walls, and they favor a gentle, water based cleanser. If you are in a local district, ask the Planning Division what applies before the washer comes out." },
+    { "q": "Will pressure washing get rid of the moss between my pavers?", "a": "It clears it for now, but moss comes back wherever joints stay open and damp. Cleaning out the joints and refilling them with [polymeric sand](/polymeric-sand/) is the longer answer. Under heavy shade, expect to wash again down the road." },
+    { "q": "Do you pressure wash for businesses in Birmingham?", "a": "Yes. We work on commercial properties as well as homes, and our washing work is walks, patios and pavers. Downtown Birmingham has its own historic district, and the city's guidelines there prohibit high PSI cleaning on historic walls, so we would stick to the walking surfaces." }
+  ],
+  "reviews": ["rob-e", "marie-b"]
+}

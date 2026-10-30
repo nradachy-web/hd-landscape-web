@@ -1,0 +1,52 @@
+{
+  "city": "harper-woods",
+  "meta": {
+    "title": "Landscaping in Harper Woods, MI | HD Landscape",
+    "description": "Practical landscaping for Harper Woods homes: grading, sod, bed cleanouts and hedges for small, flat lots. Free estimates, itemized and with no pressure."
+  },
+  "hero": {
+    "kicker": "Landscaping in Harper Woods, MI",
+    "title": "A small yard, **done properly.**",
+    "lede": "On a small, flat lot that is slow to drain, the basics matter most. That is the work HD Landscape does in Harper Woods: fixing the grade by the house, cleaning out tired beds, laying new sod and squaring up the hedges.",
+    "chips": ["Grade comes first", "Bed cleanouts and sod", "Itemized estimates"],
+    "photo": "curve-fall"
+  },
+  "about": {
+    "eyebrow": "Yards in Harper Woods",
+    "title": "Small lots, flat ground and **soil that holds water.**",
+    "body": [
+      "Harper Woods went from farm fields to suburb in a hurry, mostly in the 1940s, and the city's parks plan now calls it built out. So the work here is rarely a blank lot. It is an older yard that needs its beds, lawn and grade put right.",
+      "The zoning map lists lots of 5,000 or 5,500 square feet across most of town, with a 9,600 square foot band through the middle. On lots like that there is no back forty to hide a mistake. A low spot or a shrub gone wild is right there by the front door.",
+      "Flat is the city's own word for the land, which drops only about 15 feet over two miles, and the same plan says the soils do not drain well. No major water body runs through town, and storm water leaves through drains and underground pipes. So the first question on most yards here is simple: where does the water go?"
+    ],
+    "points": [
+      { "title": "A flat yard has to be shaped", "body": "With so little natural slope, a yard drains only if someone shaped it to. The [grade](/yard-grading/) around the house should be set first, so rain moves away from the foundation and has somewhere to go." },
+      { "title": "Clay under the lawn", "body": "Poorly drained clay sits under much of town on USDA soil maps, and some of the ground is old fill. Grass on heavy, wet ground thins out. We take off the old lawn and level the ground before new [sod](/sod-installation/) goes down." },
+      { "title": "Big trees on small lots", "body": "The city's plan notes many mature trees along the roads and in yards. One big tree can shade most of a small lot, so plants should be picked for the light you really get. Smaller trees we can handle. A large removal needs a tree company." },
+      { "title": "It does not all have to happen at once", "body": "A small yard can still be a lot to take on in one go. Ask Jake what has to come first and what can wait, so the front might be this year and the back next year. We would rather do one part right than stretch it thin." }
+    ],
+    "photo": "ranch-stone-bed"
+  },
+  "logistics": {
+    "title": "Jake tells you **what to fix first.**",
+    "body": [
+      "On a lot this size, the order of the work matters as much as the work. Jake says what he would fix first and what can wait, then writes it up itemized so you can go through the estimate line by line. No pressure either way.",
+      "Material usually comes in by the driveway, so we keep the drive and the walk clear and clean as we go. How the debris leaves goes on your estimate, so you know before leaf season whether any bags are yours to fill."
+    ],
+    "facts": [
+      { "label": "Start with", "value": "The grade by the house" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "How long", "value": "Often one day" },
+      { "label": "Not offered", "value": "Sprinklers or lawn aeration" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you work in Harper Woods?", "a": "Yes. HD Landscape does [yard grading](/yard-grading/), [sod](/sod-installation/), [weeding](/weeding/), [mulching](/mulching/), [hedge trimming](/hedge-trimming/), [plant removal](/plant-removal/) and [spring and fall cleanups](/spring-and-fall-cleanups/) in Harper Woods, close to our home base in St. Clair Shores." },
+    { "q": "Is my yard too small to hire a landscaper?", "a": "Probably not. The zoning map lists most Harper Woods lots at 5,000 or 5,500 square feet, and a bed cleanout or a hedge line on a lot that size is a real job for us. Call or text Jake with a photo and he will say straight whether it makes sense." },
+    { "q": "Why does water stand in my yard after it rains?", "a": "Usually because the ground is flat and the soil holds water. The city's own plan says Harper Woods soils do not drain well, and there is very little natural fall. [Yard grading](/yard-grading/) gives the water a direction, and sod laid on a corrected grade holds up better." },
+    { "q": "Will regrading stop my basement from flooding?", "a": "Not by itself. Grading sends surface water away from the foundation, and that helps. It cannot do anything about a storm like June 2021, when basements flooded in Harper Woods and I-94 was shut down in town. Water coming up through a floor drain is a plumber's job, not ours." },
+    { "q": "How do I put out yard waste in Harper Woods during leaf season?", "a": "The hauler, Priority Waste, asks for bags folded or rolled closed with nothing overflowing, and reusable containers marked Yard Waste or Compost. Its fall 2026 letter also warned that pickups can run late at the peak of the season. Ask the city which day is yours. If we do your [fall cleanup](/spring-and-fall-cleanups/), your estimate spells out how the leaves get off the property." }
+  ],
+  "reviews": ["rob-e", "nancy-g", "renee-g"],
+  "neighbors": ["grosse-pointe-woods", "st-clair-shores", "eastpointe"]
+}

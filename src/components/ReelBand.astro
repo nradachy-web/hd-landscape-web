@@ -1,0 +1,88 @@
+---
+/* Three short clips from Jake's own reels: the one place the site moves on its
+   own below the hero. Real footage, muted, slowed a touch. Each file is under
+   half a megabyte, none loads until the band is close, and they play only while
+   on screen. Reduced motion or data saving keeps the still frames. */
+import { href } from '../lib/paths';
+
+const clips = [
+  { src: '/video/reel-flagstone', cap: 'Boxwood and hydrangeas along a flagstone walk', w: 540, h: 960 },
+  { src: '/video/reel-walk', cap: 'River rock and clipped shrubs at a front walk', w: 540, h: 960 },
+  { src: '/video/reel-deck', cap: 'A new bed under a deck', w: 540, h: 960 },
+];
+---
+
+<div class="rb" data-reels>
+  {
+    clips.map((c) => (
+      <figure>
+        <video class="rb__v" muted loop playsinline preload="none" poster={href(`${c.src}.jpg`)} width={c.w} height={c.h} aria-label={c.cap} data-src={href(`${c.src}.mp4`)}></video>
+        <figcaption class="note cap">{c.cap}</figcaption>
+      </figure>
+    ))
+  }
+</div>
+
+<script is:inline>
+  (function () {
+    var box = document.querySelector('[data-reels]');
+    if (!box || !('IntersectionObserver' in window)) return;
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (navigator.connection && navigator.connection.saveData) return;
+    box.querySelectorAll('video').forEach(function (v) {
+      new IntersectionObserver(function (es) {
+        if (es[0].isIntersecting) {
+          if (!v.src) v.src = v.dataset.src;
+          v.play().catch(function () {});
+        } else if (v.src) v.pause();
+      }, { rootMargin: '200px 0px' }).observe(v);
+    });
+  })();
+</script>
+
+<style>
+  .rb {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: min(72vw, 20rem);
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin-inline: calc(-1 * var(--gutter));
+    padding-inline: var(--gutter);
+    scrollbar-width: none;
+  }
+
+  .rb::-webkit-scrollbar {
+    display: none;
+  }
+
+  .rb figure {
+    scroll-snap-align: center;
+  }
+
+  .rb__v {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 9 / 16;
+    object-fit: cover;
+    border-radius: var(--r);
+    background: var(--ink-3);
+  }
+
+  @media (min-width: 56rem) {
+    .rb {
+      grid-auto-flow: row;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 1.5rem;
+      margin-inline: 0;
+      padding-inline: 0;
+      overflow: visible;
+    }
+
+    .rb__v {
+      aspect-ratio: 4 / 5;
+    }
+  }
+</style>

@@ -1,0 +1,48 @@
+{
+  "service": "landscape-renovation",
+  "city": "bloomfield-hills",
+  "meta": {
+    "title": "Landscape Renovation in Bloomfield Hills, MI | HD Landscape",
+    "description": "Old beds out, grade fixed, new plants and lawn in. Landscape renovation for Bloomfield Hills homes, built around the trees that stay. Free estimates."
+  },
+  "hero": {
+    "kicker": "Landscape renovation in Bloomfield Hills, MI",
+    "title": "Keep the oaks. **Redo the rest.**",
+    "lede": "In the 2000 census, more than half of Bloomfield Hills homes dated from before 1970, and many plantings have long outgrown the house. HD Landscape pulls what has run its course, saves what still earns its spot, and rebuilds the beds, grade and lawn around it.",
+    "chips": ["Built around the big trees", "Overgrown beds out", "All at once or in stages"],
+    "photo": "shade-lawn"
+  },
+  "local": {
+    "eyebrow": "Renovation in Bloomfield Hills",
+    "title": "On an older Bloomfield Hills property, the first job is deciding what stays.",
+    "intro": "A renovation here starts as a judgment call. Some of what is on the lot is 50 years old and earning its place. Some of it is 50 years old and blocking the windows. The job is telling the two apart, then rebuilding around what stays.",
+    "points": [
+      { "title": "Foundation plantings past their time", "body": "The 1960s were the city's biggest building decade in the 2000 census figures, so plenty of shrubs have had 60 years to swallow windows and walks. Michigan State University Extension says overgrown deciduous shrubs can sometimes be renewed by cutting out the oldest wood over about three years, so it pays to look before pulling." },
+      { "title": "Staging outside the drip line", "body": "The city's ordinance bars soil piles, building materials and equipment inside the drip line of trees that are staying. On a wooded lot that decides where the trailer parks and where the new soil lands, so it gets planned before the crew arrives." },
+      { "title": "Taking back the woods edge", "body": "In 2024 the city's planning commission made invasive plants a priority, naming garlic mustard, buckthorn and phragmites. A renovation is a good time to push the edge of the yard back. The state's invasive plant field guide says garlic mustard seed stays viable for many years, so expect some follow up." },
+      { "title": "Water before plants", "body": "Rolling ground sends water somewhere, and most drainage courses here sit on private land and are the owner's to look after. The grade should be settled before new beds go in. If a stream or wetland is close, the 25 foot setback comes into it, and the first call goes to the city." }
+    ]
+  },
+  "logistics": {
+    "title": "A Bloomfield Hills renovation can run all at once or a piece at a time.",
+    "body": [
+      "A single front bed can be a one day job. A whole property takes longer, and your itemized estimate lays out the order and every line of the cost before work begins. If you would rather not have the yard torn up all at once, we can split it by area.",
+      "If a tree has to come out as part of the work, that goes through the city before the crew is scheduled. Homes in [Bloomfield Township](/service-areas/bloomfield-township/) follow different rules, so we confirm which one you are in. Smaller trees we take out ourselves, and anything big we pass to a tree company. How the old plants and debris leave goes on your estimate, and the drive gets cleaned before we go."
+    ],
+    "facts": [
+      { "label": "Starts with", "value": "Jake walking the property" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Near wet ground", "value": "A 25 foot setback can apply" },
+      { "label": "Not included", "value": "Sprinkler installation" }
+    ]
+  },
+  "photo": "limestone-bed",
+  "faq": [
+    { "q": "Do you do landscape renovation in Bloomfield Hills?", "a": "Yes. HD Landscape renovates yards in Bloomfield Hills, MI, from one tired front bed to a whole property: old plantings out, grade fixed, then new beds, plants and lawn in. On the older lots here, the work is usually built around the big trees that are staying." },
+    { "q": "Can you renovate a landscape without removing the big trees?", "a": "Yes, and in Bloomfield Hills that is usually the goal. It means working around the roots, keeping materials out from under the canopy and leaving the soil level at the trunk alone. If a tree truly has to go, the city's building department comes first." },
+    { "q": "Should I renovate the whole property at once or in stages?", "a": "Either works. A front bed can be done in a day when the scope is simple, while a property of an acre or more may run in stages. Doing it all at once is usually simpler if grading is involved, since water and soil work best as one job. Stages suit a large lot if you want to start with the part you see every day, and we can draw the whole thing and build it a piece at a time." },
+    { "q": "Do you remove buckthorn and other invasive plants during a renovation?", "a": "Yes, we can take out unwanted plants as part of the job, roots and all where we can reach them. Buckthorn can resprout from a cut stump, and garlic mustard comes back from seed in the soil, so we will be straight with you about the follow up." },
+    { "q": "Will you save any of my existing plants?", "a": "If they are healthy and still fit the plan, yes. On a Bloomfield Hills foundation planting that has been filling in for decades, that may be a few good shrubs and not the whole row. Michigan State University Extension says a yew that has gotten out of control can take deep cuts, though it comes back slowly. We walk the beds with you and sort what stays, what moves and what goes, so nothing comes out that you wanted to keep." }
+  ],
+  "reviews": ["stephen-d", "billy-w", "renee-g"]
+}

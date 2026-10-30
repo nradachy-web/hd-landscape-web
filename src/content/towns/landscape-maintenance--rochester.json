@@ -1,0 +1,48 @@
+{
+  "service": "landscape-maintenance",
+  "city": "rochester",
+  "meta": {
+    "title": "Landscape Maintenance in Rochester, MI | HD Landscape",
+    "description": "Monthly landscape maintenance in Rochester, MI: beds weeded, shrubs shaped and edges cleaned at houses, townhomes and condos. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Monthly landscape maintenance in Rochester, MI",
+    "title": "Beds people walk past, **kept right.**",
+    "lede": "Rochester is a town people walk, and small front beds show everything. Monthly care from HD Landscape keeps them weeded, shaped and edged through the growing season, from a full yard down to a townhome's two small beds.",
+    "chips": ["Beds weeded", "Shrubs kept off the walks", "Edges cleaned up"],
+    "photo": "hedge-walk"
+  },
+  "local": {
+    "eyebrow": "Monthly care in Rochester",
+    "title": "Small beds show trouble fast in Rochester.",
+    "intro": "Only about half of Rochester's homes are detached houses. The rest are townhomes, condominiums and apartments, according to the city's master plan, so a lot of people here have a few small beds and a shared walk. Overgrowth shows fast at that size, and a monthly visit stops it early.",
+    "points": [
+      { "title": "Walks and corners stay clear", "body": "City code expects owners to keep branches over a street or right-of-way from blocking a street light or the view of the street, and the city can step in at a corner when growth blocks a sign. Shrubs shaped on a schedule rarely get that far." },
+      { "title": "Trimmings need a plan too", "body": "The city's public works crews do not pick up contracted tree trimmings, so the curb is not a safe bet for what comes out of a maintenance visit either. Your estimate says how the trimmings get off the property." },
+      { "title": "Shared ground has its own rules", "body": "In condominium and association common areas, the city's ordinance says no tree comes out without city approval, and the usual small removal allowance does not apply. Monthly care stays with beds and shrubs, so it helps to sort out what is yours and what is the association's." },
+      { "title": "Phragmites is not a weed pull", "body": "The city reports invasive phragmites spreading in some subdivisions, including one dense 11 acre stand, and it traps sediment in detention ponds. Its plan calls for herbicide and more, not a crew with gloves. If it turns up near your beds, we will say so, and your association or the city is the place to start." }
+    ]
+  },
+  "logistics": {
+    "title": "On a Rochester property, start with what is yours to maintain.",
+    "body": [
+      "At a townhome or condo the first question is what belongs to you and what belongs to the association, so bring that to the walk with Jake. If the yard has gotten ahead of you, a [cleanup](/yard-cleanup-rochester-mi/) comes first and the monthly visits follow.",
+      "The city says storm drains flow directly to lakes and streams, which matters in a town built along Paint Creek. So clippings and leaves get swept off the walk, not pushed into the street. Mowing is a separate question: do not assume it is included, and raise it on the walk if it matters to you."
+    ],
+    "facts": [
+      { "label": "How often", "value": "Monthly through the growing season" },
+      { "label": "What a visit covers", "value": "Set on your estimate" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Can be added", "value": "Mulch, planting and hedge work" }
+    ]
+  },
+  "photo": "flagstone-hydrangea",
+  "faq": [
+    { "q": "Do you do monthly landscape maintenance in Rochester, MI?", "a": "Yes. HD Landscape does monthly landscape maintenance in the City of Rochester, MI, through the growing season. What a visit covers gets set on your estimate, and beds, weeding, shaping shrubs, edging and tidying are typical of the work." },
+    { "q": "Can you take care of the beds at my condo or townhome?", "a": "Often, yes, if the beds are yours to care for. Many associations handle the common areas themselves and have rules about what an owner can change, so check yours first. Tell us which beds are yours, and the itemized estimate can cover just those." },
+    { "q": "Will you trim the tree by the street in front of my house?", "a": "Not without the city. Rochester's ordinance requires a written permit to prune, plant or remove trees and shrubs in the right-of-way, and that often includes the strip along the curb. Monthly visits stay with your own beds and shrubs, and we will say so if something out front needs a call to the city." },
+    { "q": "Do you maintain yards along Paint Creek?", "a": "Yes, as far as the planted beds and shrubs go, and trimmings and leaves belong well away from the water. The bank itself is a different job. Paint Creek is a rare cold water trout stream, so any erosion work there is something to raise with the city first." },
+    { "q": "Can you pull buckthorn out of my beds?", "a": "Seedlings, yes. Young buckthorn can come out by hand along with the other weeds, and a bigger shrub is a [plant removal](/plant-removal/) job. Michigan adds common and glossy buckthorn to its restricted list on January 1, 2028. That rule covers selling and spreading them, not a seedling in your bed, but it tells you how much trouble they are." }
+  ],
+  "reviews": ["marie-b", "gina-d", "nancy-g"]
+}

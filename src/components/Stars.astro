@@ -1,0 +1,12 @@
+---
+/* Five filled stars. The label is read out once; the shapes are decoration. */
+interface Props {
+  label?: string;
+}
+const { label = '5 out of 5 stars' } = Astro.props;
+const star = 'M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.5L12 17.4l-5.8 3.1 1.1-6.5L2.6 9.4l6.5-.9L12 2.6Z';
+---
+
+<span class="stars" role="img" aria-label={label}>
+  {[0, 1, 2, 3, 4].map(() => <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d={star} /></svg>)}
+</span>

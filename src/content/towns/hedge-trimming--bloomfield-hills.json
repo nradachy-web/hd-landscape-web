@@ -1,0 +1,48 @@
+{
+  "service": "hedge-trimming",
+  "city": "bloomfield-hills",
+  "meta": {
+    "title": "Hedge Trimming in Bloomfield Hills, MI | HD Landscape",
+    "description": "Long privacy hedges, boxwood and shaped shrubs trimmed by hand and eye in Bloomfield Hills, with the state's boxwood rules in mind. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Hedge trimming in Bloomfield Hills, MI",
+    "title": "A long hedge shows **every wobble.**",
+    "lede": "On a wide Bloomfield Hills lot a hedge can run the length of the property, and one bad pass shows from the road. HD Landscape trims privacy hedges, boxwood and shaped shrubs by hand and eye, level along the top and clean down the sides.",
+    "chips": ["Tall privacy hedges", "Boxwood and topiary", "Long runs, level tops"],
+    "photo": "hedge-long"
+  },
+  "local": {
+    "eyebrow": "Hedges in Bloomfield Hills",
+    "title": "Long runs, moths and deer all shape a Bloomfield Hills hedge trim.",
+    "intro": "A hedge here is often doing a job, screening a road or a neighbor across a lot 125 feet wide or more. That means long runs, real height and plants that deer and insects have their own plans for.",
+    "points": [
+      { "title": "Narrower at the top than the base", "body": "Michigan State University Extension says to keep a hedge narrower at the top so light reaches the bottom branches. On a tall screen that is the difference between full to the ground and bare legs, so even a hedge that looks square should lean in slightly." },
+      { "title": "Boxwood clippings are regulated here", "body": "All of Oakland County is inside Michigan's box tree moth quarantine, and it covers clippings and debris. Boxwood yard waste can only go to a disposal site with no boxwood within 100 yards, and from March through October it has to be covered or enclosed on the way." },
+      { "title": "What box tree moth damage looks like", "body": "The state says to look for loose webbing, leaves chewed at the edges or down to a skeleton, and green and yellow caterpillars with black spots. If you see any of that in your boxwood, take photos, report it through the state's Eyes in the Field program and tell us before the next trim." },
+      { "title": "Deer damage at browse height", "body": "Deer hit arborvitae and yew hard in winter, and the city's master plan names deer as a problem here. A trim can even out light browsing. It cannot regrow a stripped section, and we will say so rather than shear the rest thinner to match." }
+    ]
+  },
+  "logistics": {
+    "title": "Tall or long Bloomfield Hills hedges get a look in person first.",
+    "body": [
+      "Give us the rough length and height, or text a photo. Tall hedges and long runs need more setup, so Jake looks at them in person before the estimate rather than guessing from the road.",
+      "Expect the beds, lawn, drive and walks to be left clean. How the clippings leave goes on your estimate, and with boxwood that line matters, because the quarantine limits where they can go."
+    ],
+    "facts": [
+      { "label": "Helpful to know", "value": "Hedge length and height" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Boxwood clippings", "value": "Regulated in Oakland County" },
+      { "label": "Between trims", "value": "Monthly maintenance" }
+    ]
+  },
+  "photo": "tall-hedge",
+  "faq": [
+    { "q": "Do you do hedge trimming in Bloomfield Hills?", "a": "Yes. HD Landscape trims hedges in Bloomfield Hills, MI, from boxwood and shaped shrubs to tall arborvitae screens and long runs. Very tall hedges can need extra equipment, so we look first and say what it will take. A screen that has grown into a row of big trees is another job, and removals that size call for a tree company." },
+    { "q": "Can you still trim boxwood during the box tree moth quarantine?", "a": "Yes. The quarantine does not stop anyone from trimming boxwood in Bloomfield Hills. It limits how boxwood clippings can be moved, so the cleanup needs a plan, and a heavy infestation calls for more than a trim." },
+    { "q": "How often should hedges be trimmed?", "a": "Most formal hedges stay sharp with a trim or two a season, and University of Minnesota Extension says hedges may be pruned in spring and again in mid-summer. On a long Bloomfield Hills screen, plan the bigger trim around that, and [monthly maintenance](/landscape-maintenance-bloomfield-hills-mi/) can keep shaped shrubs in line between trims." },
+    { "q": "My hedge is bare at the bottom. Can it be fixed?", "a": "Sometimes. If the plant still has live growth low down, a narrower top lets light back to the base. Along a wooded edge, shade and deer can both be part of the cause. Michigan State University Extension says yew can take a deep cut when it has gotten out of control, but the lower buds are slow to respond, so recovery takes patience. Jake can say on the walk whether it can come back or needs replacing." },
+    { "q": "What can I plant if deer keep eating my arborvitae hedge?", "a": "Michigan State University Extension lists yew and arborvitae as favorite winter foods and says boxwood is not attractive to deer. That makes boxwood a fair swap near the Bloomfield Hills woods, except that it comes with the moth quarantine and its own watching. Yew can get through with netting where deer are heavy. No plant is deer proof, so the honest answer depends on how hard they hit that stretch." }
+  ],
+  "reviews": ["anne-j", "nancy-g"]
+}

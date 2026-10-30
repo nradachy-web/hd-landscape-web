@@ -1,0 +1,53 @@
+{
+  "city": "troy",
+  "meta": {
+    "title": "Landscaping in Troy, MI | HD Landscape",
+    "description": "HD Landscape works on Troy, MI yards that date from the 1970s on: new beds, sod, hedges, smaller trees and monthly care on flat, slow draining ground."
+  },
+  "hero": {
+    "kicker": "Landscaping in Troy, MI",
+    "title": "Those shrubs were small **when the house was new.**",
+    "lede": "If your Troy yard still follows the plan it had when the house went up, HD Landscape can redraw the beds, replace a worn lawn and bring the hedges and smaller trees back in line. Jake handles the first walk and the follow up call himself.",
+    "chips": ["Design and sod", "Hedges and smaller trees", "Itemized estimates"],
+    "photo": "dusk-column"
+  },
+  "about": {
+    "eyebrow": "Yards in Troy",
+    "title": "Forty years of growth on **flat, slow draining ground.**",
+    "body": [
+      "Troy went from about 19,000 people in 1960 to about 67,000 in 1980, and about three in five homes standing today were built between 1970 and 1999. So a great many yards here were planted in one fast stretch, and most of them are still on their first landscape.",
+      "That history shows up in the yard. A shrub planted with the house in 1980 has had more than 45 years to reach the windows. Trees that looked small at closing now shade the lawn. Beds have drifted and edges have gone soft, so the first job is usually deciding what stays."
+    ],
+    "points": [
+      { "title": "Lots with room to plan", "body": "Zoning minimums for one family lots here run from 7,500 to 21,780 square feet on sewer, with at least 60 to 120 feet of frontage by district. That is a lot of lawn and bed line, so proportion matters. A thin row of shrubs looks lost on a wide front yard." },
+      { "title": "Flat ground, slow water", "body": "USDA soil maps show most of the city at slopes of 4 percent or less, and most rated soils drain somewhat poorly or worse. Water is slow to leave on its own here, so a plan that skips the grade tends to end in a soggy corner." },
+      { "title": "Soil that changes by the neighborhood", "body": "Some ground here is sandy on top and some is heavy silty clay loam all the way down, and a yard can differ from the next subdivision over. A shovel tells you more than a map, and calling all of it clay would be wrong." },
+      { "title": "City rules that reach the yard", "body": "City code sets a 30 inch limit on shrubs in corner sight triangles, asks for 8 feet of clearance over sidewalks and holds underground sprinklers to overnight hours. We plan with those in mind, and the city has the final word on its rules." },
+      { "title": "Associations and common ground", "body": "The city's directory lists more than 40 neighborhood and condominium associations. Some keep common grounds, and yours may have rules of its own. If you have one, tell Jake early, so the plan fits from the start." }
+    ],
+    "photo": "colonial-fall"
+  },
+  "logistics": {
+    "title": "The way to the backyard gets settled **on the first walk.**",
+    "body": [
+      "Jake wants to see the whole property, front to back, including the low spots and whatever the last owner planted. He gives you his advice with no pressure, then an itemized estimate you can go through line by line.",
+      "On the day, the crew shows up when we said and leaves a clean site. Side yards in the city's one family districts can be as narrow as 5 feet on one side, which decides what can reach the backyard and what has to be carried. How the debris leaves goes on your estimate, since curbside pickup here stops at bags, stickered cans and small tied bundles."
+    ],
+    "facts": [
+      { "label": "Curbside leaves", "value": "Bagged, never piled in the street" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "We do not do", "value": "Sprinklers or aeration" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you do landscaping in Troy, MI?", "a": "Yes. HD Landscape is a landscaper based in St. Clair Shores that works in Troy, MI, on homes and commercial properties. We offer [landscape design](/landscape-design-troy-mi/), [sod installation](/sod-installation-troy-mi/), [hedge trimming](/hedge-trimming-troy-mi/), [monthly landscape maintenance](/landscape-maintenance-troy-mi/), [pressure washing](/pressure-washing-troy-mi/), [tree trimming](/tree-trimming-troy-mi/) and [stump grinding](/stump-grinding-troy-mi/), along with the rest of our [services](/services/)." },
+    { "q": "We bought a 1970s house. Where should we start with the yard?", "a": "Start with water and the big plants, because a Troy yard from that era is usually decades into its first landscape. Walk the yard after a heavy rain to see where it sits, then look hard at the shrubs against the house and any trees close to the roof. Jake can go through all of it with you and sort out what stays, what can wait and what order makes sense." },
+    { "q": "Is the soil around here all clay?", "a": "Not all of it. The most common soil on USDA's map of Troy is sandy loam over clay loam, with loamy sand over clay loam in some areas and silty clay loam all the way down in others. Most of it drains slowly and the ground is nearly flat, so the soil in your own yard should decide the plants and the grade." },
+    { "q": "Do I need my association's approval for landscaping?", "a": "Your own association's rules decide that. Troy lists more than 40 neighborhood and condominium associations, and what they cover varies. If you have one, read its rules before the plan is final, and tell Jake early so the work fits them." },
+    { "q": "Can I pile leaves and brush at the curb in Troy?", "a": "Not in the street. Troy does not allow leaves piled there, so they go out in paper bags or stickered 35 gallon cans. Brush goes out tied in bundles under 3 feet long, with nothing over 2 inches thick. That works for a weekend of raking, and on a bigger job the estimate says how the debris leaves." },
+    { "q": "What should I hire someone else for?", "a": "Sprinklers and lawn aeration are outside our work, so an underground system stays with your irrigation company, along with setting it to Troy's 11pm to 5am hours. A big tree that has to come down goes to a tree company, and a tree in the strip by the curb is the city's to look after. Jake can point out which is which on the first walk." }
+  ],
+  "reviews": ["amanda-h", "anne-j", "renee-g"],
+  "neighbors": ["rochester-hills", "sterling-heights", "birmingham", "bloomfield-township"]
+}

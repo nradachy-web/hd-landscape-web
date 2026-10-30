@@ -1,0 +1,111 @@
+---
+/* Every town, by area, with the Pointes first: that is where the business lives. */
+import Base from '../../layouts/Base.astro';
+import PageHead from '../../components/PageHead.astro';
+import Head from '../../components/Head.astro';
+import Faq from '../../components/Faq.astro';
+import QuoteBand from '../../components/QuoteBand.astro';
+import AreaMap from '../../components/AreaMap.astro';
+import { AREAS, areaId, inArea, hubPath } from '../../data/cities';
+import { BRAND } from '../../data/site';
+import { heroImage } from '../../lib/hero';
+import { href } from '../../lib/paths';
+import { breadcrumbs, faqSchema } from '../../lib/schema';
+
+const head = await heroImage('dusk-lake', { sizes: '(min-width: 60rem) 48vw, 1px' });
+const path = '/service-areas/';
+const blurbs: Record<string, string> = {
+  'The Pointes': 'Lakefront homes and old tree lined streets. Most of our work here comes by word of mouth.',
+  'Birmingham and Bloomfield': 'Mature canopies, wooded lots and neighbors who notice a sharp hedge.',
+  'Rochester and Troy': 'Established subdivisions and bigger lots, with plenty of yards ready for a fresh start.',
+  'Lakeshore and Macomb': 'Home ground. From the canals of St. Clair Shores up through Macomb County.',
+  'South Florida': 'Our winter season: hedges, palms and planting around Fort Lauderdale.',
+};
+const faq = [
+  { q: 'Where is HD Landscape based?', a: `We are based in ${BRAND.city}, Michigan, and work across Metro Detroit. We travel to you: every estimate starts with a walk of your property.` },
+  { q: 'Do you work outside these towns?', a: `Often, yes. If you are close to a town on this list, call or text [${BRAND.phone}](${BRAND.phoneHref}) and ask.` },
+];
+---
+
+<Base
+  title="Service Areas in Metro Detroit | HD Landscape"
+  description="HD Landscape works across the Grosse Pointes, Birmingham, Bloomfield, Rochester, Troy and Macomb County, from a home base in St. Clair Shores."
+  path={path}
+  preload={{ ...head.preload, media: '(min-width: 60rem)' }}
+  schema={[faqSchema(faq), breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Service areas', path }])]}
+>
+  <PageHead image={head} eyebrow="Service areas" title="From the lake to **the Woodward corridor.**" lede={`Based in ${BRAND.city}. We work across the Grosse Pointes, Macomb County and Oakland County.`} crumbs={[{ name: 'Service areas', path }]} next="ink" />
+
+  <section class="band ink map" aria-labelledby="map-h">
+    <div class="wrap">
+      <h2 class="sr" id="map-h">Map of our service area</h2>
+      <AreaMap />
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="areas-h">
+    <div class="wrap">
+      <h2 class="sr" id="areas-h">Towns we serve</h2>
+      <div class="areas">
+        {
+          AREAS.map((a) => (
+            <div class="area" id={areaId(a)}>
+              <h3 class="h2 area__t">{a}</h3>
+              <p class="small muted">{blurbs[a]}</p>
+              <ul class="chips">
+                {inArea(a).map((c) => <li><a class="chip" href={href(hubPath(c))}>{c.name}</a></li>)}
+              </ul>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="band white" aria-labelledby="faq-h">
+    <div class="wrap faqs">
+      <Head id="faq-h" layout="left" eyebrow="Questions" title="Not sure if you are in range?" />
+      <Faq items={faq} />
+    </div>
+  </section>
+
+  <QuoteBand />
+</Base>
+
+<style>
+  .map {
+    padding-top: 1rem;
+  }
+
+  .area {
+    scroll-margin-top: calc(var(--header) + 1rem);
+  }
+
+  .areas {
+    display: grid;
+    gap: clamp(2.5rem, 5vw, 3.5rem);
+  }
+
+  .area {
+    display: grid;
+    gap: 0.7rem;
+    padding-top: clamp(1.5rem, 3vw, 2.25rem);
+    border-top: 1px solid var(--line);
+  }
+
+  .area__t {
+    font-size: clamp(1.7rem, 1.6vw + 1.2rem, 2.4rem);
+  }
+
+  .faqs {
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media (min-width: 72rem) {
+    .faqs {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: clamp(2rem, 6vw, 6rem);
+    }
+  }
+</style>

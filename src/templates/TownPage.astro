@@ -1,0 +1,286 @@
+---
+/* ============================================================================
+   ONE SERVICE IN ONE TOWN
+
+   The page an ad or a search for "sod installation troy mi" should land on.
+     1  hero       the service and the town in the h1, two actions, the rating
+     2  paper      why this service matters here: local points, grounded in
+                   docs/research/<city>.md
+     3  white      what you get: the service's shared summary
+     4  ink        how a job runs in this town, and reviews
+     5  paper      the questions, then more for this town and this service
+     6  ink        the estimate form beside the phone
+   Copy comes from src/content/towns/<service>--<city>.json.
+   ========================================================================== */
+import type { CollectionEntry } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Hero from '../components/Hero.astro';
+import Head from '../components/Head.astro';
+import Photo from '../components/Photo.astro';
+import Faq from '../components/Faq.astro';
+import Reviews from '../components/Reviews.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import AreaChips from '../components/AreaChips.astro';
+import Edge from '../components/Edge.astro';
+import { BRAND } from '../data/site';
+import { service as getService } from '../data/services';
+import { city as getCity, hubPath, cityLabel, TOWN_PAGES, townsFor } from '../data/cities';
+import { review } from '../data/reviews';
+import { photo, type PhotoId } from '../data/photos';
+import { heroImage } from '../lib/hero';
+import { href } from '../lib/paths';
+import { rich } from '../lib/rich';
+import { breadcrumbs, faqSchema, serviceSchema } from '../lib/schema';
+
+interface Props {
+  entry: CollectionEntry<'towns'>;
+  summary: CollectionEntry<'services'>['data']['summary'];
+}
+const { entry, summary } = Astro.props;
+const c = entry.data;
+const svc = getService(c.service as any);
+const town = getCity(c.city);
+const page = TOWN_PAGES.find((p) => p.service.id === svc.id && p.city.id === town.id)!;
+const path = `/${page.slug}/`;
+const hero = await heroImage(c.hero.photo as PhotoId);
+const others = TOWN_PAGES.filter((p) => p.city.id === town.id && p.service.id !== svc.id);
+const elsewhere = townsFor(svc).filter((t) => t.id !== town.id);
+const label = cityLabel(town);
+
+const schema = [
+  serviceSchema({ name: `${svc.name} in ${town.name}, MI`, type: svc.name, description: c.meta.description, url: `${BRAND.origin}${path}`, area: label }),
+  faqSchema(c.faq),
+  breadcrumbs([
+    { name: 'Home', path: '/' },
+    { name: 'Service areas', path: '/service-areas/' },
+    { name: town.name, path: hubPath(town) },
+    { name: svc.name, path },
+  ]),
+];
+---
+
+<Base ogImage={hero.fallback} title={c.meta.title} description={c.meta.description} path={path} preload={hero.preload} schema={schema}>
+  <Hero
+    image={hero}
+    kicker={c.hero.kicker}
+    title={c.hero.title}
+    lede={c.hero.lede}
+    chips={c.hero.chips}
+    primary={{ label: `Get a ${town.name} estimate`, href: '#quote' }}
+    crumbs={[
+      { name: 'Service areas', path: '/service-areas/' },
+      { name: town.name, path: hubPath(town) },
+      { name: svc.name, path },
+    ]}
+  />
+
+  <section class="band" aria-labelledby="local-h">
+    <div class="wrap">
+      <Head id="local-h" eyebrow={c.local.eyebrow ?? `${svc.name} in ${town.name}`} title={c.local.title} intro={c.local.intro} />
+      <ul class:list={['grid', c.local.points.length === 4 ? 'c2' : 'c3']}>
+        {
+          c.local.points.map((p) => (
+            <li class="card pad point">
+              <h3 class="h3">{p.title}</h3>
+              <p class="small muted" set:html={rich(p.body)} />
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+
+  <section class="band white has-edge" aria-labelledby="what-h">
+    <div class="wrap two flip">
+      <figure class="stick">
+        <div class="frame tall">
+          <Photo id={c.photo as PhotoId} ratio={4 / 5} widths={[400, 640, 880]} sizes="(min-width: 60rem) 44vw, 100vw" />
+        </div>
+        <figcaption class="note cap">{photo(c.photo as PhotoId).caption}</figcaption>
+      </figure>
+      <div class="stack" style="--gap:1.4rem">
+        <Head id="what-h" layout="left" eyebrow="What you get" title={summary.title} intro={summary.intro} />
+        <ul class="sum">
+          {
+            summary.items.map((it) => (
+              <li>
+                <span class="sum__name">{it.name}</span>
+                <p class="small muted">{it.detail}</p>
+              </li>
+            ))
+          }
+        </ul>
+        {summary.footnote && <p class="fine muted" set:html={rich(summary.footnote)} />}
+        <div class="actions">
+          <a class="btn primary" href="#quote" data-cta="town-quote">Get a {town.name} estimate</a>
+          <a class="btn ghost" href={href(svc.path)}>Full {svc.noun} details</a>
+        </div>
+      </div>
+    </div>
+    <Edge to="ink" />
+  </section>
+
+  <section class="band ink has-edge" aria-labelledby="how-h">
+    <div class="wrap">
+      <div class="two wide-left how">
+        <div class="stack" style="--gap:1.25rem">
+          <Head id="how-h" layout="left" eyebrow={`In ${town.name}`} title={c.logistics.title} />
+          <div class="prose muted">
+            {c.logistics.body.map((p) => <p set:html={rich(p)} />)}
+          </div>
+        </div>
+        <dl class="facts">
+          {
+            c.logistics.facts.map((f) => (
+              <div>
+                <dt class="fine">{f.label}</dt>
+                <dd>{f.value}</dd>
+              </div>
+            ))
+          }
+        </dl>
+      </div>
+      <div class="rev">
+        <Reviews reviews={c.reviews.map((id) => review(id)!)} />
+      </div>
+    </div>
+    <Edge to="paper" flip />
+  </section>
+
+  <section class="band" aria-labelledby="faq-h">
+    <div class="wrap faqs">
+      <Head
+        id="faq-h"
+        layout="left"
+        eyebrow="Questions"
+        title={`${svc.name} in ${town.name}: questions.`}
+        intro={`If yours is not here, call or text [${BRAND.phone}](${BRAND.phoneHref}).`}
+      />
+      <Faq items={c.faq} />
+    </div>
+
+    <div class="wrap more">
+      <div>
+        <h2 class="h3">More for {town.name}</h2>
+        <ul class="chips">
+          {others.map((p) => <li><a class="chip" href={href(`/${p.slug}/`)}>{p.service.name} in {town.name}</a></li>)}
+          <li><a class="chip" href={href(hubPath(town))}>All services in {town.name}</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2 class="h3">{svc.name} in other towns</h2>
+        <ul class="chips">
+          {elsewhere.slice(0, 8).map((t) => <li><a class="chip" href={href(`/${TOWN_PAGES.find((p) => p.service.id === svc.id && p.city.id === t.id)!.slug}/`)}><span class="sr">{svc.name} in </span>{t.name}</a></li>)}
+          <li><a class="chip" href={href(svc.path)}>{svc.name}, all details</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <QuoteBand title={`Get your ${town.name} estimate.`} lede={`Tell us about the yard and where in ${town.name} it is. Jake will take a look and give you an itemized estimate.`} service={svc.name} town={town.name} avoid={[c.hero.photo, c.photo]} />
+</Base>
+
+<style>
+  .point {
+    display: grid;
+    align-content: start;
+    gap: 0.55rem;
+    border-top: 2px solid var(--forest);
+    border-radius: 0 0 var(--r) var(--r);
+  }
+
+  .sum {
+    display: grid;
+    border-top: 1px solid var(--line);
+  }
+
+  .sum li {
+    display: grid;
+    gap: 0.25rem;
+    padding-block: 0.95rem;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sum__name {
+    font-weight: 640;
+  }
+
+  .how {
+    align-items: start;
+  }
+
+  .facts {
+    display: grid;
+    gap: 0;
+    border: 1px solid var(--line-ink);
+    border-radius: var(--r);
+    background: var(--ink-2);
+  }
+
+  .facts div {
+    display: grid;
+    gap: 0.2rem;
+    padding: 1.1rem 1.4rem;
+    border-bottom: 1px solid var(--line-ink);
+  }
+
+  .facts div:last-child {
+    border-bottom: 0;
+  }
+
+  .facts dt {
+    color: var(--leaf-soft);
+    font-weight: 620;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+  }
+
+  .facts dd {
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .rev {
+    margin-top: clamp(2.5rem, 5vw, 4rem);
+    padding-top: clamp(2.5rem, 5vw, 4rem);
+    border-top: 1px solid var(--line-ink);
+  }
+
+  .faqs {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .more {
+    display: grid;
+    gap: 2rem;
+    margin-top: clamp(3rem, 6vw, 5rem);
+    padding-top: clamp(2rem, 4vw, 3rem);
+    border-top: 1px solid var(--line);
+  }
+
+  .more > div {
+    display: grid;
+    gap: 0.9rem;
+    align-content: start;
+  }
+
+  @media (min-width: 72rem) {
+    .faqs {
+      grid-template-columns: minmax(0, 0.8fr) minmax(0, 1.2fr);
+      gap: clamp(2rem, 6vw, 6rem);
+      align-items: start;
+    }
+
+    .faqs :global(.head) {
+      position: sticky;
+      top: calc(var(--header) + 2rem);
+    }
+
+    .more {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: clamp(2rem, 6vw, 6rem);
+    }
+  }
+</style>

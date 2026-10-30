@@ -1,0 +1,49 @@
+{
+  "service": "landscape-renovation",
+  "city": "grosse-pointe-park",
+  "meta": {
+    "title": "Landscape Renovation in Grosse Pointe Park, MI | HD Landscape",
+    "description": "Landscape renovation for Grosse Pointe Park, MI, built for flat ground and disconnected downspouts. New grade, beds, plants and sod. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscape renovation in Grosse Pointe Park, MI",
+    "title": "Rebuilt around **where the water goes.**",
+    "lede": "Grosse Pointe Park is flat and slow to drain, and disconnected downspouts now send roof water into the yard. HD Landscape renovates with that in mind: old beds out, grade reshaped, then new plants, stone and sod that can live with it.",
+    "chips": ["Grade comes first", "Beds that handle water", "Free itemized estimate"],
+    "photo": "flagstone-hydrangea"
+  },
+  "local": {
+    "eyebrow": "Renovation in the Park",
+    "title": "What changes in Grosse Pointe Park when **roof water stays in the yard.**",
+    "intro": "The city's downspout program sends rain off the roof onto the ground instead of into the sewer. USDA soil maps show about 41 percent of the city as poorly drained, with slopes of just 0 to 4 percent. A renovation here has to give that water a route before it picks a single plant.",
+    "points": [
+      { "title": "Downspouts need somewhere to go", "body": "The city wants extensions to carry water away from the house. Its FAQ says to avoid running them across walkways and allows no drainage onto city property. So beds and lawn have to be shaped to take the water. On a small lot that can decide where the beds go, and how wide they are." },
+      { "title": "Three sizes of lot", "body": "Under 7,000 square feet, the city's plan describes shrubs, flowers and a garage on the alley. Over 18,000, mostly on Three Mile and Windmill Pointe Drive, it describes long front yards and curving drives. The job changes with the lot." },
+      { "title": "City elms overhead", "body": "The city's elm sheet has listed nearly 700 mature American elms on its easements. Their roots run close to the surface, so grading, digging and stacked material belong well clear of them, and pruning those trees is a job for Public Works." },
+      { "title": "A water side with its own rules", "body": "On a waterfront lot, the zoning ordinance treats the water side as the front yard and can count a hedge as a living fence. Height limits and neighbor consent can apply, so ask the city before planting a tall row." }
+    ]
+  },
+  "logistics": {
+    "title": "The curb is off limits, and **the alley stays open.**",
+    "body": [
+      "Landscape crews may not set leaves out at the curb here, and city yard waste collection does not cover debris from private companies. So what we pull from your yard goes out with the crew. Nothing waits at the curb for a truck that will not take it.",
+      "Alleys are meant to stay open, and the city asks people not to block them with vehicles, trailers or large equipment. On an alley lot, deliveries and parking get worked out with you ahead of time. Buried lines get marked through MISS DIG 811 before any digging.",
+      "We run renovations across all five Pointes, so a neighbor in the [Farms](/service-areas/grosse-pointe-farms/), the [City](/service-areas/grosse-pointe/), the [Woods](/service-areas/grosse-pointe-woods/), the [Shores](/service-areas/grosse-pointe-shores/) or the [Park](/service-areas/grosse-pointe-park/) reaches the same phone."
+    ],
+    "facts": [
+      { "label": "Starts with", "value": "How the water moves" },
+      { "label": "City elms", "value": "Left to Public Works" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinklers or gutter work" }
+    ]
+  },
+  "photo": "flagstone-side",
+  "faq": [
+    { "q": "Do you do landscape renovation in Grosse Pointe Park?", "a": "Yes. HD Landscape renovates yards in Grosse Pointe Park, one of the places we work most, and the job here starts with water. Old beds come out, the grade gets reshaped, and new plants, stone and sod go in on ground that can move the rain." },
+    { "q": "Can you fix standing water in my yard?", "a": "Often, yes. On ground this flat a small dip can hold water for days, so we [regrade](/yard-grading/) to give it a way out. The usual target from MSU Extension is about 1 foot of fall every 50 feet. That is not much, but it has to be there, and your lot decides what is possible." },
+    { "q": "Where should my disconnected downspouts drain?", "a": "Away from the house, onto ground that can take it. The city's FAQ says to avoid running extensions across walkways and allows no drainage onto city property. We can shape the yard to receive the water. The downspout work itself is a gutter job, and the city can point you to someone." },
+    { "q": "Does a hedge count as a fence in Grosse Pointe Park?", "a": "It can. Under the zoning ordinance a solid row of shrubs can be read as a living fence, and no fence may stand in a front yard. Height limits also apply on waterfront lots. Ask the city before planting a row, and we will plan around the answer." },
+    { "q": "I got a Grosse Pointe Park property maintenance letter. Can you help?", "a": "Usually. The city's August 2026 notice names overgrown vegetation and debris among its concerns, in front, side and rear yards and along alleys. We can clear overgrowth, cut back what has spread and leave the place tidy. The city can tell you exactly what applies to your property." }
+  ],
+  "reviews": ["renee-g", "meagan-m", "amanda-h"]
+}

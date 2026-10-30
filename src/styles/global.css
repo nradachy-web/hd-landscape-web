@@ -1,0 +1,863 @@
+/* ============================================================================
+   HD LANDSCAPE: THE SYSTEM
+
+   "After dark." Two planes. Ink is the garden at blue hour: green black, with
+   the warm window light of the hero behind it. Paper is limestone in daylight.
+   Bands alternate, and where they meet they meet on a cut bed line (Edge.astro),
+   the curve Jake's work is known for.
+
+   One accent, new growth green, spent on actions and one italic phrase. Lamp
+   amber is for stars and nothing else. Display is Newsreader at its display cut,
+   set tight and not too heavy. Reading type is Inter Tight. Sentence case. Small
+   radii. No gradients as decoration. See docs/DESIGN.md.
+   ========================================================================== */
+
+:root {
+  --ink: #0a0f0b;
+  --ink-2: #111812;
+  --ink-3: #1b241c;
+  --line-ink: rgb(236 244 228 / 0.14);
+  --on-ink: #f4f6ef;
+  --on-ink-muted: #b9c2b4;
+
+  --paper: #f4f1e9;
+  --white: #fdfcf8;
+  --line: #ddd8ca;
+  --text: #141a14;
+  --muted: #53594f;
+
+  --leaf: #bcdc6c; /* on ink */
+  --leaf-soft: #cfe795; /* small text on ink */
+  --leaf-btn: #bcdc6c; /* ink text sits on this at 12:1 */
+  --leaf-btn-hover: #cfe795;
+  --forest: #2c5a1f; /* buttons on paper: white text at 7.5:1 */
+  --forest-hover: #234a18;
+  --leaf-ink: #33651f; /* green text on paper */
+  --lamp: #f2b552;
+
+  --font: 'HD Text', 'HD Text Fallback', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif;
+  --font-display: 'HD Display', 'HD Display Fallback', Georgia, 'Times New Roman', serif;
+
+  --wrap: 78rem;
+  --gutter: clamp(1.25rem, 4.2vw, 2.75rem);
+  --band: clamp(4rem, 8.5vw, 7.5rem);
+  --r: 6px;
+  --r-sm: 4px;
+  --header: 4.75rem;
+  --ease: cubic-bezier(0.22, 0.8, 0.26, 1);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@media (max-width: 47.99rem) {
+  :root {
+    --header: 3.75rem;
+  }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  scroll-padding-top: var(--header);
+  background: var(--ink);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* on phones a bar is fixed to the bottom: keep focused things clear of it */
+@media (max-width: 47.99rem) {
+  html {
+    scroll-padding-bottom: 5.5rem;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  font-size: 1.0625rem;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--paper);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+img {
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+dl,
+dd,
+figure,
+blockquote {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--forest);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.ink :focus-visible,
+.ink:focus-visible,
+.skip:focus-visible {
+  outline-color: var(--leaf-soft);
+}
+
+.ink .light :focus-visible {
+  outline-color: var(--forest);
+}
+
+::selection {
+  background: var(--forest);
+  color: #fff;
+}
+
+.skip {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 100;
+  padding: 0.75rem 1rem;
+  background: var(--white);
+  color: var(--text);
+  border-radius: var(--r-sm);
+  font-weight: 650;
+}
+
+.skip:focus {
+  top: 1rem;
+}
+
+/* Links that leave for another tab say so to a screen reader. The words are
+   generated, so nothing in the markup has to remember to add them. */
+a[target='_blank']:not(.arrow)::after,
+a.arrow[target='_blank']::before {
+  content: ' (opens in a new tab)';
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* a hyphenated word in a heading never breaks at its hyphen */
+.nw {
+  white-space: nowrap;
+}
+
+.sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* ---------- type ---------- */
+
+.display,
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+}
+
+h1,
+h2 {
+  text-wrap: balance;
+}
+
+.h1 {
+  font-size: clamp(2.75rem, 6.2vw + 0.75rem, 6.25rem);
+  font-weight: 500;
+  line-height: 0.98;
+  letter-spacing: -0.024em;
+}
+
+.h1--page {
+  font-size: clamp(2.5rem, 4.6vw + 0.9rem, 4.75rem);
+  line-height: 1.02;
+}
+
+.h2 {
+  font-size: clamp(2.05rem, 3vw + 1.05rem, 3.6rem);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+.h3 {
+  font-family: var(--font);
+  font-size: clamp(1.15rem, 0.4vw + 1.05rem, 1.3rem);
+  font-weight: 640;
+  line-height: 1.22;
+  letter-spacing: -0.012em;
+}
+
+/* the one italic phrase in a display line: it moves to the next line as one piece */
+.accent {
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.018em;
+  color: var(--leaf-ink);
+}
+
+.ink .accent {
+  color: var(--leaf);
+}
+
+.eyebrow {
+  font-family: var(--font);
+  font-size: 0.78rem;
+  font-weight: 620;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  color: var(--leaf-ink);
+}
+
+.ink .eyebrow {
+  color: var(--leaf-soft);
+}
+
+.lede {
+  font-size: clamp(1.0625rem, 0.45vw + 1rem, 1.25rem);
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+.ink .lede {
+  color: var(--on-ink-muted);
+}
+
+.prose p + p {
+  margin-top: 1em;
+}
+
+.prose a,
+.link {
+  color: var(--leaf-ink);
+  font-weight: 560;
+}
+
+.ink .prose a,
+.ink .link {
+  color: var(--leaf-soft);
+}
+
+.muted,
+.ink .light .muted {
+  color: var(--muted);
+}
+
+.ink .muted {
+  color: var(--on-ink-muted);
+}
+
+/* a light island inside an ink band (the quote form card) */
+.light {
+  background: var(--white);
+  color: var(--text);
+}
+
+.small {
+  font-size: 0.9375rem;
+}
+
+.fine {
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+/* ---------- layout ---------- */
+
+.wrap {
+  width: min(100% - 2 * var(--gutter), var(--wrap));
+  margin-inline: auto;
+}
+
+.band {
+  position: relative;
+  padding-block: var(--band);
+  background: var(--paper);
+  color: var(--text);
+}
+
+/* a band that ends on the cut bed line: room for the curve */
+.band.has-edge {
+  padding-bottom: calc(var(--band) + clamp(1.5rem, 3.6vw, 3rem));
+}
+
+.band.white {
+  background: var(--white);
+}
+
+.ink {
+  background: var(--ink);
+  color: var(--on-ink);
+}
+
+.band.tight {
+  padding-block: clamp(2.75rem, 5vw, 4.5rem);
+}
+
+.head {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: clamp(2rem, 4vw, 3.25rem);
+}
+
+.head .eyebrow {
+  margin-bottom: 0.15rem;
+}
+
+@media (min-width: 60rem) {
+  .head.split {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+    column-gap: clamp(2rem, 6vw, 6rem);
+    align-items: start;
+  }
+
+  .head.split .eyebrow {
+    grid-column: 1 / -1;
+  }
+
+  /* the line beside the heading sits on the heading's last line */
+  .head.split .lede {
+    align-self: end;
+  }
+
+  /* a heading with nothing beside it may use the width */
+  .head.split > .h2:last-child {
+    grid-column: 1 / -1;
+    max-width: 24em;
+  }
+}
+
+.head.center {
+  justify-items: center;
+  text-align: center;
+  max-width: 46rem;
+  margin-inline: auto;
+}
+
+.grid {
+  display: grid;
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+
+.grid > * {
+  min-width: 0;
+}
+
+@media (min-width: 40rem) {
+  .grid.c2,
+  .grid.c4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 60rem) {
+  .grid.c3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .grid.c4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.two {
+  display: grid;
+  gap: clamp(2rem, 5vw, 4.5rem);
+  align-items: center;
+}
+
+.two > * {
+  min-width: 0;
+}
+
+@media (min-width: 60rem) {
+  .two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .two.wide-left {
+    grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
+  }
+
+  .two.flip > :first-child {
+    order: 2;
+  }
+}
+
+.stack > * + * {
+  margin-top: var(--gap, 1.25rem);
+}
+
+/* ---------- buttons ---------- */
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 3.375rem;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid transparent;
+  border-radius: var(--r);
+  font-family: var(--font);
+  font-size: 1rem;
+  font-weight: 620;
+  line-height: 1.2;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  transition:
+    background-color 0.18s var(--ease),
+    border-color 0.18s var(--ease),
+    color 0.18s var(--ease),
+    transform 0.18s var(--ease);
+}
+
+.btn:active {
+  transform: translateY(1px);
+}
+
+.btn.primary {
+  background: var(--forest);
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: var(--forest-hover);
+}
+
+.ink .btn.primary {
+  background: var(--leaf-btn);
+  color: var(--ink);
+}
+
+.ink .btn.primary:hover {
+  background: var(--leaf-btn-hover);
+}
+
+.ink .light .btn.primary {
+  background: var(--forest);
+  color: #fff;
+}
+
+.btn.ghost {
+  border-color: rgb(20 26 20 / 0.28);
+  color: var(--text);
+}
+
+.btn.ghost:hover {
+  border-color: var(--text);
+  background: rgb(20 26 20 / 0.04);
+}
+
+.ink .btn.ghost {
+  border-color: rgb(255 255 255 / 0.34);
+  color: var(--on-ink);
+}
+
+.ink .btn.ghost:hover {
+  border-color: #fff;
+  background: rgb(255 255 255 / 0.07);
+}
+
+.btn.small {
+  min-height: 2.875rem;
+  padding: 0.5rem 1.1rem;
+  font-size: 0.9375rem;
+}
+
+.btn svg {
+  flex: none;
+  width: 1.1em;
+  height: 1.1em;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+@media (max-width: 29.99rem) {
+  .actions .btn {
+    flex: 1 1 100%;
+  }
+}
+
+.arrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  min-height: 2.75rem;
+  font-weight: 620;
+  text-decoration: none;
+  color: var(--leaf-ink);
+}
+
+.ink .arrow {
+  color: var(--leaf-soft);
+}
+
+.arrow::after {
+  content: '';
+  width: 0.55em;
+  height: 0.55em;
+  border-top: 2px solid currentColor;
+  border-right: 2px solid currentColor;
+  transform: rotate(45deg);
+  transition: translate 0.2s var(--ease);
+}
+
+a:hover > .arrow::after,
+.arrow:hover::after {
+  translate: 0.25em 0;
+}
+
+/* ---------- small parts ---------- */
+
+.stars {
+  display: inline-flex;
+  gap: 0.14em;
+  color: var(--lamp);
+  vertical-align: -0.12em;
+}
+
+.stars svg {
+  width: 1.05em;
+  height: 1.05em;
+}
+
+/* gold disappears on white: a deeper gold on light cards (3.6:1) */
+.card .stars {
+  color: #a86f00;
+}
+
+.ink .card .stars {
+  color: var(--lamp);
+}
+
+.rating {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 0.65rem;
+  min-height: 2.75rem;
+  font-weight: 560;
+  text-decoration: none;
+}
+
+.rating:hover span:last-child {
+  text-decoration: underline;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0.3rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  background: var(--white);
+  font-size: 0.9375rem;
+  font-weight: 540;
+  text-decoration: none;
+}
+
+a.chip {
+  min-height: 2.75rem;
+  transition:
+    border-color 0.18s var(--ease),
+    color 0.18s var(--ease);
+}
+
+a.chip:hover {
+  border-color: var(--leaf-ink);
+  color: var(--leaf-ink);
+}
+
+.ink .chip {
+  border-color: var(--line-ink);
+  background: rgb(255 255 255 / 0.04);
+}
+
+.ink a.chip:hover {
+  border-color: var(--leaf-soft);
+  color: var(--leaf-soft);
+}
+
+.checks {
+  display: grid;
+  gap: 0.8rem;
+}
+
+.checks li {
+  display: grid;
+  grid-template-columns: 1.5rem 1fr;
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.checks li::before {
+  content: '';
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0.08rem;
+  border-radius: 50%;
+  background: var(--forest)
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6.5 12.5 3.6 3.6 7.4-8'/%3E%3C/svg%3E")
+    center / 0.95rem no-repeat;
+}
+
+.card {
+  border: 1px solid var(--line);
+  border-radius: var(--r);
+  background: var(--white);
+}
+
+.ink .card {
+  border-color: var(--line-ink);
+  background: var(--ink-2);
+}
+
+.pad {
+  padding: clamp(1.25rem, 2.4vw, 2rem);
+}
+
+.frame {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--r);
+  background: var(--ink-3);
+}
+
+.frame picture {
+  height: 100%;
+}
+
+/* the photo beside a block of words: fills its column, a little squarer on wide screens */
+.frame.tall {
+  aspect-ratio: 4 / 5;
+}
+
+@media (min-width: 60rem) {
+  .frame.tall {
+    aspect-ratio: 10 / 11;
+  }
+
+  /* beside a long column of words, the photo travels with the reader */
+  .stick {
+    position: sticky;
+    top: calc(var(--header) + 2rem);
+    align-self: start;
+  }
+}
+
+.frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cap {
+  margin-top: 0.6rem;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.ink .cap {
+  color: var(--on-ink-muted);
+}
+
+.rule {
+  height: 1px;
+  border: 0;
+  background: var(--line);
+}
+
+.ink .rule {
+  background: var(--line-ink);
+}
+
+/* a segmented choice with a sliding thumb (the paint and water panels) */
+.seg {
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  padding: 4px;
+  border: 1px solid var(--line-ink);
+  border-radius: var(--r);
+  background: rgb(255 255 255 / 0.04);
+}
+
+.seg__thumb {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: calc((100% - 8px) / var(--n));
+  border-radius: var(--r-sm);
+  background: var(--leaf-btn);
+  transform: translateX(calc(var(--i) * 100%));
+  transition: transform 0.42s var(--ease);
+}
+
+.seg button {
+  position: relative;
+  z-index: 1;
+  min-height: 2.75rem;
+  padding: 0 0.5rem;
+  border: 0;
+  border-radius: var(--r-sm);
+  background: none;
+  color: var(--on-ink-muted);
+  font-size: 0.9375rem;
+  font-weight: 620;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: color 0.25s var(--ease);
+}
+
+.seg button:hover {
+  color: var(--on-ink);
+}
+
+.seg button[aria-pressed='true'] {
+  color: var(--ink);
+}
+
+@media (forced-colors: active) {
+  .seg button[aria-pressed='true'] {
+    outline: 2px solid Highlight;
+    outline-offset: -2px;
+  }
+}
+
+/* ---------- motion ----------
+   The page-load moment belongs to the hero (see Hero.astro). Below it, motion
+   answers the visitor: hovers, the menu, the accordions. Nothing slides in on
+   scroll. Scroll-linked motion put every sliding block on its own compositor
+   layer, which slowed the first paint on weak devices and made lab scores
+   swing. Nothing is ever hidden waiting for script or scroll. */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.ink .checks li::before {
+  background-color: var(--leaf-btn);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%230a0f0b' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6.5 12.5 3.6 3.6 7.4-8'/%3E%3C/svg%3E");
+}
+
+.ink .light .checks li::before {
+  background-color: var(--forest);
+}
+
+/* a caption that tells the truth about the picture */
+.note {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.ink .note {
+  color: var(--on-ink-muted);
+}
+
+/* short or heavily zoomed screens: nothing stays pinned, so the page gets the room */
+@media (max-height: 30rem) {
+  .hdr {
+    position: relative !important;
+  }
+
+  .bar {
+    position: static !important;
+  }
+
+  html {
+    scroll-padding-block: 0;
+  }
+}
+
+@media (forced-colors: active) {
+  .qf__chip input:checked + span {
+    forced-color-adjust: none;
+    background: Highlight;
+    color: HighlightText;
+  }
+
+  .bed__opt:has(input:checked) {
+    outline: 3px solid Highlight;
+    outline-offset: -3px;
+  }
+
+  .faq__mark::before,
+  .faq__mark::after {
+    forced-color-adjust: none;
+    background: CanvasText;
+  }
+}

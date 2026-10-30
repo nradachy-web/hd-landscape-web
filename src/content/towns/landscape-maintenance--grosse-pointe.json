@@ -1,0 +1,48 @@
+{
+  "service": "landscape-maintenance",
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Landscape Maintenance in Grosse Pointe, MI | HD Landscape",
+    "description": "Monthly landscape maintenance for Grosse Pointe, MI: beds, weeds, shrubs and edges kept up month by month, so a small yard never has to catch up."
+  },
+  "hero": {
+    "kicker": "Monthly landscape maintenance in Grosse Pointe, MI",
+    "title": "Once a month, **the yard stays caught up.**",
+    "lede": "HD Landscape looks after the planted part of a Grosse Pointe yard month by month: beds gone through, weeds pulled, shrubs shaped and edges tidied. What each visit covers is set on your estimate.",
+    "chips": ["Monthly visits", "Beds, weeds and edges", "Set on your estimate"],
+    "photo": "river-rock-beds"
+  },
+  "local": {
+    "eyebrow": "Upkeep in the City",
+    "title": "Why a small Grosse Pointe yard still needs **steady attention.**",
+    "intro": "On a 50 foot lot every bed is in plain view of the sidewalk and the neighbors, and people pass it on foot all day. Small yards show a missed month faster than big ones. That is the case for steady care in a town built for walking.",
+    "points": [
+      { "title": "Street trees shed all season", "body": "Street trees line these Grosse Pointe blocks, and they drop leaves, seeds and twigs into your beds long before fall. A monthly pass clears them out before they mat down and hold weeds." },
+      { "title": "Old shrubs never stop", "body": "Mature plantings around older homes keep pushing toward the windows, the gutters and the walk. Steady shaping is easier on the plant than a hard cut every few years, and it keeps the house in view." },
+      { "title": "Weeds that point to water", "body": "MSU Extension says nutsedge in a landscape bed is likely a sign of too much soil moisture. On the wet clay common here, the [grade](/yard-grading/) deserves a look as well as the weed, so you are not pulling the same plants every month." },
+      { "title": "Estate beds add up", "body": "On a lot over 100 feet wide, the problem is length. A long bed line wanders a little each month if nobody holds it. Hold the edge where it belongs and it never needs cutting in again from scratch." }
+    ]
+  },
+  "logistics": {
+    "title": "What the visits cover gets **set on your estimate.**",
+    "body": [
+      "Jake walks the yard and writes down what the visits will cover, so what you get is set on your estimate. Beds, weeding, shaping shrubs, edging and tidying are typical. Ask him when the first and last visit of the year should fall.",
+      "The city wants commercial landscape debris kept out of its regular pickup. How the debris leaves goes on your estimate. An overgrown hedge gets [one proper trim](/hedge-trimming-grosse-pointe-mi/) first, then the monthly visits hold it.",
+      "Monthly visits run across all five Pointes: the [City](/service-areas/grosse-pointe/), the [Shores](/service-areas/grosse-pointe-shores/), the [Farms](/service-areas/grosse-pointe-farms/), the [Park](/service-areas/grosse-pointe-park/) and the [Woods](/service-areas/grosse-pointe-woods/)."
+    ],
+    "facts": [
+      { "label": "Visits", "value": "Monthly" },
+      { "label": "Covers", "value": "Set on your estimate" },
+      { "label": "For example", "value": "Beds, weeding, shrubs, edges, tidying" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "boxwood-front",
+  "faq": [
+    { "q": "Do you offer monthly landscape maintenance in Grosse Pointe?", "a": "Yes. HD Landscape offers monthly landscape maintenance in Grosse Pointe, MI, for the beds, weeds, shrubs and edges. It suits a yard where one missed month shows from the sidewalk, and what each visit covers is set on your estimate." },
+    { "q": "Can you take care of just the front beds?", "a": "Yes. On a narrow lot the front is often all that needs regular care. Your estimate spells out what the visits cover, so you are not paying for anything you did not ask for." },
+    { "q": "Can monthly visits keep my hedge off the sidewalk?", "a": "They can, if shrubs are on your estimate. The city's zoning code says a hedge must be maintained one foot behind the sidewalk, and shaping it a little at a time is the easy way to hold that line." },
+    { "q": "Is monthly care worth it on a small lot?", "a": "That comes down to what is planted. Clipped shrubs and full beds reward steady care, and a simple yard may only need [a spring and fall cleanup](/yard-cleanup-grosse-pointe-mi/). Jake will say which one fits, even if it is the smaller job." }
+  ],
+  "reviews": ["mark-r", "gina-d", "marie-b"]
+}

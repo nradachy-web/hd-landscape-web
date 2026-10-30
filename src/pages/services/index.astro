@@ -1,0 +1,37 @@
+---
+/* Every service, in four groups. Keeps the old /services/ address. */
+import Base from '../../layouts/Base.astro';
+import PageHead from '../../components/PageHead.astro';
+import Head from '../../components/Head.astro';
+import ServiceCards from '../../components/ServiceCards.astro';
+import QuoteBand from '../../components/QuoteBand.astro';
+import { GROUPS, inGroup } from '../../data/services';
+import { heroImage } from '../../lib/hero';
+import { breadcrumbs, serviceListSchema } from '../../lib/schema';
+
+const head = await heroImage('dusk-column', { sizes: '(min-width: 60rem) 48vw, 1px' });
+const path = '/services/';
+---
+
+<Base
+  title="Landscaping Services in Metro Detroit | HD Landscape"
+  description="Landscape design, sod, retaining walls, hedge trimming, monthly maintenance, cleanups and more from HD Landscape. Free itemized estimates."
+  path={path}
+  preload={{ ...head.preload, media: '(min-width: 60rem)' }}
+  schema={[serviceListSchema(), breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Services', path }])]}
+>
+  <PageHead image={head} eyebrow="Services" title="Most of what a yard needs, **one number to call.**" lede="From a full front yard renovation to one overgrown hedge. If something is outside what we do, we will tell you up front." crumbs={[{ name: 'Services', path }]} />
+
+  {
+    GROUPS.map((g, i) => (
+      <section class:list={['band', i % 2 === 1 && 'white']} aria-labelledby={`g-${g.id}`}>
+        <div class="wrap">
+          <Head id={`g-${g.id}`} title={g.name} intro={g.blurb} />
+          <ServiceCards services={inGroup(g.id).filter((s) => !s.florida)} />
+        </div>
+      </section>
+    ))
+  }
+
+  <QuoteBand avoid={['dusk-column', 'dusk-curve', 'dusk-urn', 'dusk-maple']} />
+</Base>

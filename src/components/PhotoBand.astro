@@ -1,0 +1,41 @@
+---
+/* One full bleed photo, edge to edge, to break up a long page. The cut bed line
+   sits on it top and bottom. Lazy, and captioned honestly like every picture. */
+import Photo from './Photo.astro';
+import { photo, type PhotoId } from '../data/photos';
+
+interface Props {
+  id: PhotoId;
+}
+const { id } = Astro.props;
+const p = photo(id);
+---
+
+<figure class="pb" aria-label={p.alt}>
+  <Photo id={id} ratio={2.2} widths={[828, 1280, 1672, 2000]} sizes="100vw" focus="center" alt={p.alt} />
+  <figcaption class="note pb__cap">{p.caption}</figcaption>
+</figure>
+
+<style>
+  .pb {
+    position: relative;
+    overflow: hidden;
+    background: var(--ink);
+  }
+
+  .pb :global(img) {
+    width: 100%;
+    height: clamp(16rem, 40vw, 36rem);
+    object-fit: cover;
+  }
+
+  .pb__cap {
+    position: absolute;
+    right: var(--gutter);
+    bottom: 0.9rem;
+    padding: 0.15rem 0.45rem;
+    border-radius: var(--r-sm);
+    background: rgb(10 15 11 / 0.62);
+    color: var(--on-ink);
+  }
+</style>

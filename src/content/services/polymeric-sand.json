@@ -1,0 +1,281 @@
+{
+  "service": "polymeric-sand",
+  "meta": {
+    "title": "Polymeric Sand in St. Clair Shores, MI | HD Landscape",
+    "description": "Old joints cleared, polymeric sand swept in and set with water, so pavers firm up and resist weeds. Based in St. Clair Shores, MI. Free estimates."
+  },
+  "hero": {
+    "kicker": "Polymeric sand for pavers in St. Clair Shores, MI and Metro Detroit",
+    "title": "Joint sand that **stays put.**",
+    "lede": "Refresh those pavers from the joints up. HD Landscape clears out the tired sand, sweeps in polymeric sand and sets it with water, so the surface locks up and resists weeds and washout.",
+    "chips": [
+      "Old joints cleared out",
+      "Set with water",
+      "Resists weeds and washout"
+    ],
+    "photo": "ai-polymeric"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What polymeric sand is",
+      "title": "A small joint doing a big job.",
+      "body": [
+        "Polymeric sand is joint sand blended with a binder. It is swept into paver joints dry, a light shower of water activates the binder, and the joint hardens as it dries. It ends up firm with a little give, which helps it handle the freezing and thawing of a Michigan winter.",
+        "The sand between pavers is part of what locks them together, so when it leaves, the surface loosens and dirt and weed seeds move in. Polymeric sand helps hold it in place, especially in the spots that keep losing it: under eaves, by downspouts and on slopes.",
+        "This is care for the pavers you already have, and we do it from our home base in St. Clair Shores and across Metro Detroit. Much of the ground here is heavy and slow to drain, so it pays to ask whether a joint ever really dries out before sand goes in. It pairs well with [pressure washing](/pressure-washing/): clean the surface first, then rebuild the joints."
+      ],
+      "checks": [
+        "Old sand, dirt and weeds cleared out of the joints",
+        "Pavers and joints fully dry before any sand goes down",
+        "Joints filled, packed and left just below the paver edge",
+        "Every grain blown off the surface before the water",
+        "Set with a light shower, never a hard spray"
+      ],
+      "photo": "limestone-bed"
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "Why joints fail",
+      "title": "Some joints fail for reasons **sand cannot fix.**",
+      "intro": "Find out why the old sand left before paying for more. The first four are joint problems. The last two have nothing to do with the sand, and new sand would only hide them for a while.",
+      "columns": 3,
+      "items": [
+        {
+          "tag": "Joint problem",
+          "title": "Water running through",
+          "body": "Downspouts, eaves and slopes send concentrated water across the surface, and it carries sand out a little at a time. If the water has nowhere better to go, [yard grading](/yard-grading/) can help."
+        },
+        {
+          "tag": "Joint problem",
+          "title": "Too much cleaning",
+          "body": "A hard or narrow spray pulls sand right out of the joint. Wind does the same thing more slowly, which is why joints can sit lower as the years go by."
+        },
+        {
+          "tag": "Joint problem",
+          "title": "Seeds and dirt",
+          "body": "Weeds start from seeds that blow into the joint, not from the ground below. Once dirt and grass clippings settle in, moss and weeds have what they need."
+        },
+        {
+          "tag": "Joint problem",
+          "title": "A rushed first try",
+          "body": "Polymeric sand swept over old joints, put down on damp pavers or rained on too soon does not set the way it should. It has to come out before new sand goes in."
+        },
+        {
+          "tag": "Deeper problem",
+          "title": "A sinking base",
+          "body": "Low spots usually mean settled ground or a base that was not compacted well. Sand cannot lift a paver, so that repair starts underneath."
+        },
+        {
+          "tag": "Deeper problem",
+          "title": "A loose edge",
+          "body": "When the edge restraint fails, pavers creep outward and the joints near the edge open up. Fix the edge first or the new joints will open too."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "ink",
+      "eyebrow": "How it sets",
+      "title": "The order is **the whole job.**",
+      "intro": "Polymeric sand is simple and unforgiving. Water is what sets it, so water in the wrong place at the wrong time is what ruins it.",
+      "steps": [
+        {
+          "title": "Clear the joints",
+          "body": "Old sand, dirt and weeds come out. Common product sheets call for a clean joint about an inch and a half deep, because a thin layer over old sand will not hold."
+        },
+        {
+          "title": "Let it dry",
+          "body": "Pavers and joints have to be fully dry. Polymeric sand on damp pavers can set early and leave a stain."
+        },
+        {
+          "title": "Sweep and pack",
+          "body": "Sand is swept in and compacted so it settles, then topped up and packed again until the joint is full, stopping just below the paver edge."
+        },
+        {
+          "title": "Blow it clean",
+          "body": "Every grain comes off the surface with a broom and a leaf blower. Anything left behind can harden there and leave a haze."
+        },
+        {
+          "title": "Shower it",
+          "body": "Water goes on from the low end up, in sections, as a light shower. A hard spray would wash the sand back out of the joint."
+        },
+        {
+          "title": "Let it cure",
+          "body": "The binder hardens as the joint dries. Warm, dry weather speeds that up, and cool, damp weather slows it down. Until then, it gets left alone."
+        }
+      ],
+      "footnote": "Times depend on the product and the weather. Common product sheets ask for at least a day without rain, two for wide joints, and temperatures that stay above freezing for 48 hours, or a little warmer on some products. Plan on staying off it for about a day, keeping cars off for two to three days and leaving nearby sprinklers off for three."
+    },
+    {
+      "type": "compare",
+      "plane": "paper",
+      "eyebrow": "Good to know",
+      "title": "Plain joint sand is fine in many spots.",
+      "intro": "Polymeric sand is not required on every paver surface, and the trade group for concrete pavers calls stabilizing joint sand generally optional. Here is how the two compare.",
+      "columns": [
+        "Regular joint sand",
+        "Polymeric sand"
+      ],
+      "highlight": 1,
+      "rows": [
+        {
+          "label": "How it goes in",
+          "values": [
+            "Swept in dry",
+            "Swept in dry, then set with water"
+          ]
+        },
+        {
+          "label": "Once in place",
+          "values": [
+            "No binder, so it firms up slowly as fine dirt works in",
+            "Hardens as it dries, with some give"
+          ]
+        },
+        {
+          "label": "Water and wind",
+          "values": [
+            "Can wash or blow out",
+            "Resists washout once cured"
+          ]
+        },
+        {
+          "label": "Weeds and ants",
+          "values": [
+            "Little resistance on its own",
+            "Resists both, though seeds can still land on top"
+          ]
+        },
+        {
+          "label": "Top ups",
+          "values": [
+            "Easy: sweep in more dry sand",
+            "The old joint has to come out first"
+          ]
+        },
+        {
+          "label": "Fits best",
+          "values": [
+            "Sound joints that lost a little sand",
+            "Deep, clean joints over a base that drains"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "white",
+      "eyebrow": "Know before you buy",
+      "title": "When polymeric sand is **the wrong fix.**",
+      "body": [
+        "It is a good product for the right joint. Here is when we would talk you out of it, even though it would be an easy sale."
+      ],
+      "checks": [
+        "Pavers set on a concrete slab or in mortar: the joints need a base that drains, or they stay wet",
+        "Sunken or rocking pavers: the base needs attention first, because sand will not level anything",
+        "Spots that never dry out: a joint that stays wet stays soft",
+        "Heavily textured stone, until tested: the surface can trap residue and hold a haze",
+        "Clay brick pavers, until tested: some products can haze or stain them, so try a hidden spot first",
+        "Joints that are mostly fine: a little dry sand may be all they need"
+      ],
+      "photo": "patio-bed",
+      "flip": true,
+      "cta": {
+        "label": "Ask Jake about your pavers",
+        "href": "#quote"
+      }
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "What customers wrote",
+      "title": "A plan first, a clean site last.",
+      "intro": "These reviews are from other yard work, not polymeric sand. The same habits carry over.",
+      "ids": [
+        "stephen-d",
+        "renee-g",
+        "rob-e"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do polymeric sand in St. Clair Shores?",
+      "a": "Yes. HD Landscape cleans out paver joints and puts in polymeric sand in St. Clair Shores, our home base, and across Metro Detroit. Call or text [(586) 718-8762](tel:+15867188762) and Jake will look at your pavers."
+    },
+    {
+      "q": "What is polymeric sand?",
+      "a": "Polymeric sand is joint sand blended with a binder. It is swept dry into the joints between pavers, then set with a light shower of water. It hardens as it dries, which helps it resist washout, weeds and ants."
+    },
+    {
+      "q": "How long does polymeric sand take to dry?",
+      "a": "The product and the weather decide that. Plan on about a day before walking on it and two to three days before driving on it. Cool or damp weather can stretch that, and warm, dry weather shortens it."
+    },
+    {
+      "q": "Can you put polymeric sand over old sand?",
+      "a": "Not if you want it to last. Product makers ask for the old sand to come out to full depth, or at least about an inch and a half, before new sand goes in. A thin layer over old sand usually does not hold, so the joint gets cleared first."
+    },
+    {
+      "q": "Does polymeric sand stop weeds?",
+      "a": "It resists them, which is different from stopping them forever. Weeds start from windblown seeds that land in the joint, not from the ground underneath, so a full, firm joint gives them less to work with. Dirt and clippings left on top can still grow a weed or moss, so an occasional sweep helps. We also do [weeding](/weeding/) if a few get through."
+    },
+    {
+      "q": "How long does polymeric sand last?",
+      "a": "Plan on several years when it is installed and looked after properly, though the product matters. It is not permanent, because the binder breaks down over time. Deep shade, constant dampness and hard washing can all shorten its life, and Jake can point out anything on your surface that would."
+    },
+    {
+      "q": "What happens if it rains on polymeric sand?",
+      "a": "Rain too soon can wash the sand out before it sets. Product sheets ask for a dry window of at least 24 hours, and 48 for wider joints. In Michigan that makes warm, dry stretches the time to do it, and a job may have to move if the forecast turns."
+    },
+    {
+      "q": "Why did my polymeric sand get soft?",
+      "a": "Polymeric sand softens when soaked and hardens again when it dries, so a soft joint after a long rain can be normal. If it stays soft, something is keeping it wet, such as deep shade, a base that does not drain or pavers sitting on concrete. Joints that crumble can point to a thin layer over old sand."
+    },
+    {
+      "q": "What is the haze on my pavers after polymeric sand?",
+      "a": "Usually it is sand or dust that got wet on the surface instead of going into the joint, which is why the surface has to be blown clean before any water. Light haze can fade with time. Stubborn haze takes a cleaner made for it, because regular masonry cleaners can react with the polymer, and that cleaner belongs on a hidden spot first."
+    },
+    {
+      "q": "Can polymeric sand go on pavers over concrete?",
+      "a": "Usually not. Product makers call for pavers set on a sand bed over a base that drains. Over a concrete slab the water has nowhere to go, so the joints stay wet and soft. If you do not know what is under your pavers, Jake can help you find out before you spend money on sand."
+    },
+    {
+      "q": "Can I pressure wash pavers with polymeric sand?",
+      "a": "Wait at least 30 days, then keep it gentle. Product makers differ here: one says not to use a pressure washer at all, and others allow a soft spray. Keep the nozzle well back and never aim it along a joint. That is why [pressure washing](/pressure-washing/) belongs before the sand, not after."
+    },
+    {
+      "q": "How much does polymeric sand cost?",
+      "a": "The size of the surface, the width of the joints and how much old material has to come out set the price, so Jake needs to see the joints first. The estimate costs nothing, and each part of the job gets its own line."
+    }
+  ],
+  "quote": {
+    "title": "Show us the joints.",
+    "lede": "Send one close photo of the joints and one of the whole surface. Jake can say whether polymeric sand is the right move, and what would work better if it is not."
+  },
+  "summary": {
+    "title": "A job that holds starts with an empty, dry joint.",
+    "intro": "Polymeric sand only works when the joint is ready for it. Here is what goes into a job that holds, and your itemized estimate lays it out.",
+    "items": [
+      {
+        "name": "Clean surface",
+        "detail": "Pavers cleaned and fully dried, so nothing gets trapped in the joint."
+      },
+      {
+        "name": "Joints cleared",
+        "detail": "Old sand, dirt and weeds taken out to a sound depth."
+      },
+      {
+        "name": "New sand packed",
+        "detail": "Swept in, compacted and left just below the paver edge."
+      },
+      {
+        "name": "Set with water",
+        "detail": "A light shower activates the binder, and the joint hardens as it dries."
+      }
+    ],
+    "footnote": "Polymeric sand is for pavers laid on a sand bed, with joints that are otherwise sound. Sunken pavers, loose edges and pavers on concrete need a different answer, and it is better to hear that before you spend money on sand."
+  }
+}

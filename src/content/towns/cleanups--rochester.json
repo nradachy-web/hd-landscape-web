@@ -1,0 +1,48 @@
+{
+  "service": "cleanups",
+  "city": "rochester",
+  "meta": {
+    "title": "Spring and Fall Cleanups in Rochester, MI | HD Landscape",
+    "description": "Spring and fall yard cleanups in Rochester, MI: beds cleared, weeds pulled, shrubs tidied and a clear plan for every leaf. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Spring and fall yard cleanups in Rochester, MI",
+    "title": "The leaves are easy. **The curb has rules.**",
+    "lede": "Rochester has a leaf crew, a chipper and a yard waste hauler, each with its own rules and calendar. HD Landscape gets the beds and corners clean, and your estimate says how the leaves and brush get hauled off or set out.",
+    "chips": ["Beds and corners cleared", "Weeds pulled, shrubs tidied", "One time visits welcome"],
+    "photo": "colonial-fall"
+  },
+  "local": {
+    "eyebrow": "Cleanups in Rochester",
+    "title": "In Rochester, leaves, brush and bags each go out their own way.",
+    "intro": "The wrong mix can get a pile skipped, so it helps to know who takes what. Here is how the city described it in 2026. Dates change every year, so go by the city's current notice before you plan around them.",
+    "points": [
+      { "title": "Loose leaves", "body": "Public works collects leaves in fall from neat piles along the curb, in the street and away from catch basins. In 2026 pickup started October 26. Mulched leaves, grass clippings and tree limbs are not allowed, and brush mixed into a pile can get it skipped." },
+      { "title": "Bagged yard waste", "body": "The city's hauler takes yard waste on your trash day from early April through the first week of December. It has to be in kraft paper bags or a container marked yard waste. Plastic bags are not collected." },
+      { "title": "Brush", "body": "The city chipper normally passes each street about every two weeks. In leaf season it goes on call and may run only once a month. Roots, root balls, lumber and thorny bushes stay out of the pile, and contracted tree trimmings are not picked up at all." },
+      { "title": "Why timing matters here", "body": "The leaf crew runs a 10 to 14 day cycle and does not return to a section until the whole town is done. If your big trees drop late, their leaves can miss the last pass, so a fall cleanup is best timed to your trees and to what the city still has running." }
+    ]
+  },
+  "logistics": {
+    "title": "Settle where the debris goes before the day of the cleanup.",
+    "body": [
+      "Text a few photos or have Jake out to see the yard. The itemized estimate lists what gets cleared and the plan for the leaves and debris, so you are not guessing what the city will take. You do not need a maintenance plan to book one.",
+      "On the day, anything tender gets a light hand and the walks and drive are left clear. Leaves belong away from the storm drains, which the city says flow directly to lakes and streams. Here that means Paint Creek, Stony Creek and the Clinton River."
+    ],
+    "facts": [
+      { "label": "Spring", "value": "After the snow, once the ground is firm" },
+      { "label": "Fall", "value": "Once most of the leaves are down" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Aeration and sprinkler work" }
+    ]
+  },
+  "photo": "boxwood-front",
+  "faq": [
+    { "q": "Do you do yard cleanups in Rochester, MI?", "a": "Yes. HD Landscape does spring and fall yard cleanups in the City of Rochester, MI, and you do not need a plan to book one. If the yard needs steady help afterward, [monthly landscape maintenance](/landscape-maintenance-rochester-mi/) covers the beds, shrubs and edges, and [pressure washing](/pressure-washing-rochester-mi/) pairs well with a spring visit." },
+    { "q": "When does leaf pickup start in Rochester?", "a": "In 2026 the city started curbside leaf pickup on October 26 and posted a daily map of where the crew was working. It moves through town on a 10 to 14 day cycle, with extra passes on major streets on Mondays, Wednesdays and Fridays. The date changes each year, so go by the city's notice for the current season." },
+    { "q": "Can a landscaper leave leaves at the curb in Rochester?", "a": "The city's leaf pages do not say, though its yard waste page does say contracted tree trimmings will not be picked up. So do not count on it. Your estimate covers the plan for the leaves, and the city's public works department can answer questions about a specific pile." },
+    { "q": "Can I put mulched leaves at the curb in Rochester?", "a": "No. The city does not allow mulched leaves in curb piles, along with grass clippings and tree limbs. If you run your leaves over with a mower, leave them on the lawn, and do it while the layer is thin. A heavy mat left through winter can smother the grass." },
+    { "q": "When does yard waste pickup start again in the spring in Rochester?", "a": "Early April. In 2026 it restarted April 6. Spring cleanups often start before the truck does, as soon as the ground is firm, so the plan for the debris goes on your estimate and you do not have to wait." }
+  ],
+  "reviews": ["nancy-g", "renee-g", "marie-b"]
+}

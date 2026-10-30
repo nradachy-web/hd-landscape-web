@@ -1,0 +1,52 @@
+{
+  "city": "sterling-heights",
+  "meta": {
+    "title": "Landscaping in Sterling Heights, MI | HD Landscape",
+    "description": "Grading, bed rebuilds, tree work and care for flat, sunny Sterling Heights, MI yards on slow draining ground. Free itemized estimates from HD Landscape."
+  },
+  "hero": {
+    "kicker": "Landscaping in Sterling Heights, MI",
+    "title": "Full sun, level ground, **water with nowhere to go.**",
+    "lede": "Most Sterling Heights yards are flat, sunny and slow to drain, on lots laid out in the city's 1960s and 1970s boom. With HD Landscape, the grade gets set on purpose, tired beds get rebuilt and the plants are ones that can take the sun and the soil.",
+    "chips": ["Beds rebuilt", "Grade set on purpose", "Itemized estimates"],
+    "photo": "curve-brick-bed"
+  },
+  "about": {
+    "eyebrow": "Yards in Sterling Heights",
+    "title": "The rhubarb fields became subdivisions, and many yards never changed.",
+    "body": [
+      "In 1960 about 14,600 people lived here. By 1980 it was nearly 109,000, and about half the homes standing today went up in those two decades. A lot of those yards still have the layout they started with, down to the foundation bed and the flat front lawn.",
+      "What many of them lost is shade. Emerald ash borer took thousands of ash trees off city streets, and the city's 2025 master plan puts tree canopy at 19 percent, well below Michigan's 40 percent goal. So many beds here get more sun than they would in an older town, and the city is now planting thousands of street trees to win it back."
+    ],
+    "points": [
+      { "title": "Ground that holds water, clay or sand", "body": "USDA maps Lenawee and Toledo silty clay loam across parts of the south and west, and both drain poorly. The north end toward the Clinton River turns sandier, but sand does not rescue it: about four fifths of the city maps as somewhat poorly drained or wetter. So we set the grade and the planting depth with care, because water will not leave on its own." },
+      { "title": "Plants that can take the sun", "body": "With little overhead shade, a south facing bed bakes in July. We plan for the light you actually have. The city's own tree list is a good starting point, with Kentucky coffeetree, black gum, serviceberry and redbud on it." },
+      { "title": "The strip by the curb is the city's", "body": "Trees in the right of way belong to the city, and it keeps a long list of what cannot be planted there, including all evergreens. Brick mailbox structures are out too. New planting stays on your side of the sidewalk unless the city says otherwise." },
+      { "title": "Limits on hard surface out front", "body": "The master plan notes an ordinance holding impervious surface to 45 percent of the front yard on single family lots. Before you widen a drive or add hard surface out front, ask the city what applies. Rules change, and the city has the final word." },
+      { "title": "Tear outs do not go to the curb", "body": "City yard waste pickup will not take sod, dirt, rocks, root balls or logs, so an old bed or a tired lawn cannot just go out on pickup day. Your estimate will say how the debris leaves." }
+    ],
+    "photo": "black-stone-kidney"
+  },
+  "logistics": {
+    "title": "Sterling Heights lots are compact, so every foot gets planned.",
+    "body": [
+      "Single family lots here are zoned at minimums of 7,200 to 14,000 square feet, so a bed or a path has to earn its spot. Jake walks it with you and points out what should stay. His estimate is itemized, so every part of the plan has its own line.",
+      "Neighbors are close, so we keep trucks and materials tidy and leave the walks and the drive clean. If the city is replacing a sidewalk flag out front, or a new street tree has gone in, tell us so we can plan around it."
+    ],
+    "facts": [
+      { "label": "City yard waste", "value": "No sod, dirt, rocks, root balls or logs" },
+      { "label": "Zoned lot minimums", "value": "7,200 to 14,000 sq ft" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "To talk now", "value": "Call or text Jake" }
+    ]
+  },
+  "faq": [
+    { "q": "Do you take landscaping jobs in Sterling Heights?", "a": "Yes. HD Landscape works in Sterling Heights on design, renovation, sod, [tree trimming](/tree-trimming-sterling-heights-mi/), [pressure washing](/pressure-washing-sterling-heights-mi/), cleanups and monthly maintenance. We do not do sprinklers or lawn aeration, and a removal too big for our crew is tree company work." },
+    { "q": "Can I plant a tree in the strip by the curb in Sterling Heights?", "a": "Call Public Works first. That strip is public right of way. The city does not allow evergreens, ash, birch, red maple, sugar maple and a long list of others there, and it will tell you to remove them. Approved trees can be arranged through the city." },
+    { "q": "When do leaves have to be off my lawn in Sterling Heights?", "a": "By early December. City code requires leaves to be mulched or removed, and the city asks for bagged leaves at the curb the first week of December on your yard waste day. After that it can leave a 24 hour notice and bill the owner if it has to clean up. We do [fall cleanups](/spring-and-fall-cleanups/) if you would rather skip the raking." },
+    { "q": "What grows well in full sun on clay?", "a": "For trees, the Sterling Heights choice list is a good place to start. It includes Kentucky coffeetree, which the city calls extremely tolerant of adverse conditions. That list is for street trees and was not written for one soil, so tell Jake how long water sits in the spot before you pick. For beds, he goes by how much sun the spot gets and how wet the soil stays." },
+    { "q": "Can you fix a flat yard where water sits?", "a": "Often, if the water has somewhere to go. Nearly all of Sterling Heights slopes just 0 to 3 percent, and the city's own tree page warns of heavy clay that does not drain well. So [yard grading](/yard-grading/) has to give surface water a path away from the house and the beds." }
+  ],
+  "reviews": ["amanda-h", "anne-j", "mark-r"],
+  "neighbors": ["troy", "warren", "shelby-township", "clinton-township"]
+}

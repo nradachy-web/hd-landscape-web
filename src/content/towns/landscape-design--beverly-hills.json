@@ -1,0 +1,49 @@
+{
+  "service": "landscape-design",
+  "city": "beverly-hills",
+  "meta": {
+    "title": "Landscape Design in Beverly Hills, MI | HD Landscape",
+    "description": "Landscape design for Beverly Hills, MI: new plans for older yards and bigger houses, from narrow grid lots to river parcels. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscape design in Beverly Hills, MI",
+    "title": "A new plan for **the house you have now.**",
+    "lede": "Beverly Hills is built out, so a new landscape usually replaces an old one, often around a house that has grown. HD Landscape draws the plan for the yard and the home as they stand today, then builds it.",
+    "chips": ["Drawn for your house", "Sized to your lot", "Built by our crew"],
+    "photo": "curve-fall"
+  },
+  "local": {
+    "eyebrow": "Design in Beverly Hills",
+    "title": "Why a Beverly Hills design is usually a second act.",
+    "intro": "Few vacant lots remain in the village, so most design work here starts with something already in the ground. The master plan describes steady requests for home expansions and major renovations. That leaves plenty of bigger houses behind plantings chosen for a smaller one, on lots that vary a great deal from east to west.",
+    "points": [
+      { "title": "Narrow lots need one strong idea", "body": "On a lot 55 to 80 feet wide there is room for one clear move, such as a good walk or a single tree in the right spot. Three small ideas just look busy." },
+      { "title": "A bigger house needs a bigger plan", "body": "After an addition, old foundation shrubs can look undersized and the front walk can land in the wrong place. We redraw the beds for the house that stands there now, not the one from decades ago." },
+      { "title": "Mid sized lots leave room for zones", "body": "Between Southfield Road and Evergreen, lots generally run 12,000 to 20,000 square feet. That leaves room for a side yard that screens and a back yard you actually use, so the plan comes down to deciding where the lawn stops." },
+      { "title": "River parcels want less lawn", "body": "West of Evergreen the largest lots sit along the Rouge. The village's sheet for river owners favors dense, deep rooted planting at the bank. That strip belongs in the design from the start, where it can end up looking planted on purpose." },
+      { "title": "The strip by the street can be public", "body": "Planting or replacing a tree in the public right of way takes a village permit, and a 2024 Tree Management Plan sits behind it. Find that strip early, so nobody falls in love with a tree that cannot go there." }
+    ]
+  },
+  "logistics": {
+    "title": "Most Beverly Hills jobs start by taking an old yard out.",
+    "body": [
+      "A design here begins with how you use the yard. On the walk, Jake looks at sun, low spots, the view from inside the house and what deserves saving. From there we draw a plan for your lot and write an itemized estimate that shows each part, line by line.",
+      "Once you say go, old plants come out, the grade gets corrected and the new beds go in. The village is rewriting its zoning along with its master plan, so confirm the current rules with Village Hall before work starts, above all on a project near the river."
+    ],
+    "facts": [
+      { "label": "Lots here", "value": "About 6,000 square feet to several acres" },
+      { "label": "Street trees", "value": "Village permit to plant" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Near the river", "value": "Ask the village first" }
+    ]
+  },
+  "photo": "patio-bed",
+  "faq": [
+    { "q": "Do you do landscape design in Beverly Hills, MI?", "a": "Yes. HD Landscape designs and installs landscapes in Beverly Hills, MI, so the plan and the planting come from the same people. Sprinklers are not part of it: we can plan the beds around a system, and a sprinkler company puts it in. If a big tree has to come out first, a tree company takes it." },
+    { "q": "Do you design landscapes for small lots?", "a": "Yes. Many lots east of Southfield Road are 6,000 to 12,000 square feet, and a good plan at that size is simple. One clear bed line and a tree that will not outgrow the space do more than a long plant list. Small yards often show the difference fastest, since nothing is out of sight." },
+    { "q": "Does Beverly Hills require a permit to plant a tree by the street?", "a": "For the strip in the public right of way, yes. The village asks residents to file a Right of Way Tree Permit with the Department of Public Services before planting or replacing a tree there. Rules change, so check with the village before you buy the tree." },
+    { "q": "Can you design a yard along the Rouge River?", "a": "Yes, with limits. Land beside the river can include wetlands or flood hazard areas, so talk to the village before clearing a bank or changing the grade. The plan usually trades some lawn at the bank for a deep planted edge." },
+    { "q": "Can a landscape plan help with rain water?", "a": "It can. The village shares rain garden guides on its environmental page, and a planted low spot can take roof water instead of sending it across the lawn. Jake will look at where your downspouts end and whether the [grade](/yard-grading/) needs work first." }
+  ],
+  "reviews": ["gina-d", "billy-w", "meagan-m"]
+}

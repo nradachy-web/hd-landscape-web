@@ -1,0 +1,98 @@
+{
+  "service": "landscape-design",
+  "city": "franklin",
+  "meta": {
+    "title": "Landscape Design in Franklin, MI | HD Landscape",
+    "description": "Landscape design for Franklin, MI lots: plans built around your slope, soil, well, septic field and old trees, then installed by our crew. Free estimates."
+  },
+  "hero": {
+    "kicker": "Landscape design in Franklin, MI",
+    "title": "A plan that **starts with what is here.**",
+    "lede": "A yard in Franklin can come with a steep slope, old trees, a well and sometimes a drainfield to respect. HD Landscape draws the plan around all of it, so the finished landscape looks like it belongs in the village and not on top of it.",
+    "chips": [
+      "Slope and soil first",
+      "Plans around old trees",
+      "Built by our crew"
+    ],
+    "photo": "island-bed"
+  },
+  "local": {
+    "eyebrow": "Design in Franklin",
+    "title": "The ground under Franklin changes partway across the village.",
+    "intro": "Franklin sits on a line between two landscapes. The west and north are rolling glacial upland with sandy soil and steep pitches. The east and south are a flat old lake plain with silty ground and high groundwater. A plan that works on one side of the village can fail on the other.",
+    "points": [
+      {
+        "title": "Sand up high, wet silt down low",
+        "body": "Most of the village sits on Arkport loamy fine sand, which USDA rates well drained. The east and southeast have Blount and Lenawee silt loams, which are not. We [choose plants](/plant-installation/) and planting depth for the soil you have, and that can change within one lot."
+      },
+      {
+        "title": "Slopes stay covered",
+        "body": "Steep upland slopes here generally run 20 to 40 percent, and the village's draft plan warns that any soil on one can erode badly once it is stripped. So a plan here should replant as it goes and keep earth moving small. The same plan says village zoning disallows significant changes in grade, so a flat backyard may not be on the table."
+      },
+      {
+        "title": "Wells and drainfields shape the layout",
+        "body": "Every home here is on a private well, and several still have septic. EPA says to keep vehicles and roof water off a drainfield, and to keep trees and shrubs off it too. Buried lines get marked before digging, and the beds get drawn around them."
+      },
+      {
+        "title": "Screens made of plants, not fences",
+        "body": "Trees and shrubs between properties are very common here in place of fences, and some old deed restrictions reach fences and tree removal too. For privacy we layer evergreens and shrubs so the line reads as natural, with no hard edge."
+      },
+      {
+        "title": "In the historic district, the house comes first",
+        "body": "The village's design guidelines say landscaping should not overwhelm a building or hide its main face, and that healthy mature trees should stay. The Historic District Commission reviews major landscape changes, so a plan there has to allow for its monthly meeting."
+      }
+    ]
+  },
+  "logistics": {
+    "title": "Franklin plans get walked first and permitted early.",
+    "body": [
+      "The first visit is about the ground: the slope, the low spots, the big trees, the well and any septic or grinder pump lines. Bring a survey if you have one. Then comes a drawn plan and an itemized estimate to read through line by line.",
+      "Trees, soil erosion, fill, floodplains, wetlands and culverts each have their own application on the village's permits page. Not every project needs one, but a big plan can touch several, so ask the building department early. New plantings also drink from your well, which is why a large install may go better in stages."
+    ],
+    "facts": [
+      {
+        "label": "Zoning minimums",
+        "value": "About a half acre to three acres"
+      },
+      {
+        "label": "Water source",
+        "value": "Your private well"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "Not included",
+        "value": "Sprinkler installation"
+      }
+    ]
+  },
+  "photo": "evergreen-island",
+  "faq": [
+    {
+      "q": "Do you do landscape design in Franklin, Michigan?",
+      "a": "Yes. HD Landscape designs and installs landscapes in the Village of Franklin, MI, with each plan built around the slope, the soil, the well and the old trees. Sprinkler installation is not part of it, and if a plan calls for a large tree to come out, that job belongs to a tree company."
+    },
+    {
+      "q": "Can you design a landscape around a septic field?",
+      "a": "Yes, and the drainfield should be one of the first things on the plan. Trucks belong off it and downspouts away from it. Trees and shrubs stay off it too, and a septic professional can tell you how far back the trees should go. If you are not sure where yours is, find out before digging starts."
+    },
+    {
+      "q": "Can you landscape in the Franklin Historic District?",
+      "a": "Yes, with an added step. The Historic District Commission reviews major changes to open spaces there, including removing large trees and changing significant landscape features. Applications are due ahead of its monthly meeting, so check the current deadlines with the village."
+    },
+    {
+      "q": "Can you level a sloped yard in Franklin?",
+      "a": "Usually not by much, and we would not try to. Zoning is part of it: the village's draft plan says it disallows significant changes in grade. Inside the historic district, the design guidelines call substantial regrading not appropriate. And sandy slopes wash out fast once stripped. We work with the hill instead: [low walls](/retaining-walls/) where they fit, deep rooted planting and paths that follow the ground. Talk to the village before planning any major grading."
+    },
+    {
+      "q": "How do you water a new landscape on a well?",
+      "a": "Carefully and in stages if the job is big. The village's draft plan puts well yields around 20 gallons a minute on the lake plain and 30 in the northwest, and they vary. Jake calls after the job to go over watering, or we can [water it for you](/plant-watering/). Groundwater here also tends to run high in iron, which can stain concrete and leave rust colored marks on plants, so aim the water at the soil."
+    }
+  ],
+  "reviews": [
+    "billy-w",
+    "mark-r"
+  ]
+}

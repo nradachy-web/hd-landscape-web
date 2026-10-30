@@ -1,0 +1,55 @@
+{
+  "city": "st-clair-shores",
+  "meta": {
+    "title": "Landscaping in St. Clair Shores, MI | HD Landscape",
+    "description": "HD Landscape calls St. Clair Shores home. Design, sod, hedges and upkeep for canal lots, lakefront yards and bungalow streets. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in St. Clair Shores, MI",
+    "title": "Canals, clay and **home turf.**",
+    "lede": "St. Clair Shores is home for HD Landscape. We know what this ground does: heavy soil that holds water, wind off the lake, road salt off Jefferson. We design, plant and look after yards here, from canal lots to bungalow streets.",
+    "chips": ["Based right here", "Canal and lakefront lots", "Free, itemized estimates"],
+    "photo": "lakeside-bed"
+  },
+  "about": {
+    "eyebrow": "Our home town",
+    "title": "The yards we drive past **every morning.**",
+    "body": [
+      "HD Landscape works out of St. Clair Shores, and that changes how a job feels. A bed we plant here is a bed we will pass again next spring, in front of neighbors who know who did it. So we build it to still look right then.",
+      "You can read how the town grew by driving down Jefferson. French ribbon farms ran back from the lake, resort cottages came next and turned into year round homes, and a fast suburb followed World War II. Now the Nautical Mile has the marinas and boat dealers, and the city's master plan counts 14 miles of canals. All of that left very different yards. Single family zoning inland starts at 6,000 square feet and the lakeshore districts start at 20,000, so one job is a narrow foundation bed by a bungalow and the next is a long lawn that ends at a seawall.",
+      "The ground is the other half of it. USDA soil maps show poorly drained clay loams across most of St. Clair Shores, on land that is nearly flat, and more than half the city is covered by roofs, drives and roads. In the summer of 2016, nearly three inches of rain in a few hours overwhelmed the sewers and backed up hundreds of basements. A yard here has to give rain somewhere to go, so that is the first question on any lot."
+    ],
+    "points": [
+      { "title": "Clay that holds water", "body": "Most sample points on the USDA soil map came back poorly or very poorly drained. Rain lingers, and a shrub set too deep can sit wet. Get the [grade](/yard-grading/) and the planting depth right first, and raise the bed where the ground stays soggy." },
+      { "title": "Wind off open water", "body": "Lake St. Clair is the whole east edge of town, so a yard on the water has nothing between it and the weather. University of Wisconsin Extension says evergreens exposed to drying winter sun and wind are more likely to be injured. Tough plants belong on the open side, tender ones in the shelter of the house." },
+      { "title": "Salt comes from the road, not the lake", "body": "Lake St. Clair is fresh water. The salt that browns shrubs here comes off the pavement: spray from passing cars on Jefferson, Harper and the freeway, plus what goes down on the walk. Purdue Extension rates Austrian pine tolerant of salt spray, and white pine and hemlock sensitive. So plant for the spray line and keep the touchy ones back." },
+      { "title": "Lawn that ends at a seawall", "body": "Most lots on the lake here are privately owned and lined with seawalls, and upkeep falls to the owners. In the high water of 2019 and 2020, residents and city staff spent the summer sandbagging. A lawn is only as good as the wall behind it, so look for soft or sinking ground before [sod](/sod-installation/) goes down. We do not build or repair seawalls." },
+      { "title": "Stone beds and the stormwater bill", "body": "The city figures its stormwater fee from runoff, weighing hard surface far above lawn and garden. It counts landscaped areas as pervious unless there is an impervious membrane underneath. So settle what sits under the [rock or stone](/rock-and-stone-installation/) before it goes in." }
+    ],
+    "photo": "slate-sidewalk"
+  },
+  "logistics": {
+    "title": "Neighbor rules first, **then the city's.**",
+    "body": [
+      "Some walks start at the seawall and some in a side yard barely wider than a wheelbarrow. Either way, Jake looks it over with you, says what he would do and writes it up itemized, so you can read every line before you decide. We leave the site clean, because these are our neighbors. One tip from a neighbor: the city gives residents free wood chips at the Public Works complex, self serve. They suit a path or a back corner, and you do not need us for that.",
+      "City rules shape the calendar. From May 15 to October 1, homes on city water irrigate on odd or even dates to match the address. New sod and new plants are the exception: for the first 21 days they can have what they need. That makes a summer install workable, and Jake can lay out a plain watering schedule for you. Rules change, so ask the city before you count on it.",
+      "Grading close to the water takes one more step. The state generally requires a soil erosion permit for earth changes within 500 feet of a lake or stream, and St. Clair Shores runs its own permit program instead of the county. Near the lake, the canals or the Milk River, that can cover the whole lot, so the city is the first call before the ground moves."
+    ],
+    "facts": [
+      { "label": "Home base", "value": "Right here in St. Clair Shores" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Seawalls", "value": "We work behind them, never on them" },
+      { "label": "Not included", "value": "Sprinklers and aeration" }
+    ]
+  },
+  "faq": [
+    { "q": "Are you a local landscaper in St. Clair Shores?", "a": "Yes. HD Landscape is a St. Clair Shores landscaper owned by Jake Hendricks, and this is the town we call home. We do [landscape design](/landscape-design/), [renovation](/landscape-renovation/), [sod](/sod-installation/), [hedge trimming](/hedge-trimming/), [monthly maintenance](/monthly-landscape-maintenance/) and [cleanups](/spring-and-fall-cleanups/) here, on lakefront lots, canal lots and the streets back from the water. Call or text [(586) 718-8762](tel:+15867188762)." },
+    { "q": "How often can I water new sod in St. Clair Shores?", "a": "As often as it needs for the first 21 days. The city's irrigation rule limits homes on city water to odd or even dates from May 15 to October 1, but it makes an exception for newly seeded or sodded lawns and newly planted trees and shrubs. After the 21 days, follow your address. Confirm the current rule with the city." },
+    { "q": "Why are my shrubs brown on the side facing the road?", "a": "Road salt is the likely cause, especially along Jefferson, Harper or the freeway. Purdue Extension says spray from passing vehicles can damage leaves, buds and small twigs, and evergreens usually show it in late winter as browning from the tips. Burlap on the road side helps, and thorough, repeated watering before spring growth can leach salt from the root zone. If a plant keeps getting hit, we can [replace it](/plant-installation/) with something tougher." },
+    { "q": "Can you lay sod right up to a seawall or canal wall?", "a": "Yes, if the wall is sound and the ground behind it is firm. Soft or sunken spots need a look first, because [sod](/sod-installation/) will not hide a wall problem for long. Seawall work belongs to a marine contractor. The watershed guide the city posts for waterfront owners also suggests a planted buffer at least 12 to 24 inches tall between lawn and water, and we can plant one if you want it." },
+    { "q": "Who takes care of the tree out by the curb?", "a": "In St. Clair Shores, the strip from the walk to the curb is the city's, and a tree there is a public tree. The Forestry Division or its contractor handles trimming and removal, so call them, not us. Trees on your side of the walk are yours, and we can [prune them or take out the smaller ones](/tree-trimming-and-removal/). For a big removal, you want a tree company." },
+    { "q": "My yard stays wet after rain. Can you fix it?", "a": "Usually, yes. Most of the city sits on slow draining clay with very little slope, so the job is finding where the water wants to go and [regrading](/yard-grading/) to move it away from the house. Sometimes the honest fix is a raised bed, not a better lawn. We do not install sprinklers or aerate lawns." }
+  ],
+  "reviews": ["amanda-h", "anne-j", "mark-r"],
+  "neighbors": ["grosse-pointe-shores", "grosse-pointe-woods", "harper-woods", "roseville"]
+}

@@ -1,0 +1,51 @@
+{
+  "service": "sod-installation",
+  "city": "birmingham",
+  "meta": {
+    "title": "Sod Installation in Birmingham, MI | HD Landscape",
+    "description": "HD Landscape lays new sod in Birmingham, MI: old grass out, ground graded and fresh sod down, planned around big trees, clay and tight side yards."
+  },
+  "hero": {
+    "kicker": "Sod installation in Birmingham, MI",
+    "title": "A new lawn **under old trees.**",
+    "lede": "HD Landscape gives tired Birmingham lawns a clean start: old grass out, ground leveled, fresh sod in tight seams, cut crisp along every walk and bed.",
+    "chips": ["Old lawn out, ground graded", "Tight seams", "Often one day"],
+    "photo": "sod-colonial"
+  },
+  "local": {
+    "eyebrow": "Sod in Birmingham",
+    "title": "The trees people move here for are **hard on the grass.**",
+    "intro": "The things people love about this town are the same things that are hard on a lawn. Mature trees shade the yard, tree roots compete for water, and clay, the most common soil in the city, stays wet when it should drain. On a small lot there is nowhere for a thin patch to hide.",
+    "points": [
+      { "title": "Shade from mature trees", "body": "Sod needs light. Honeylocust, the most common tree in the city's inventory, has tiny leaflets that let a fair amount through. Norway maple, the second most common, casts dense shade, and lawn grass usually grows poorly under it. If part of the yard sits in that shade, a bed may serve you better." },
+      { "title": "Roots near the surface", "body": "Most of a tree's roots often sit in the top 18 inches of soil, right where a sod job happens. Burying them to get a flat lawn hurts the tree, and so does tearing through them, so the work around big trees should go lightly." },
+      { "title": "The street tree in your front yard", "body": "The root zone of a city tree can reach into your lawn. The city's tree manual bars grade changes and stripping topsoil in a public tree's root protection zone, generally the dripline. So a front lawn under a street tree starts with a call to Public Services, not a pallet of sod." },
+      { "title": "Clay that holds water", "body": "Sod on poorly graded clay stays soggy. Regrading has limits here too, because the zoning code says drainage cannot be sent onto a neighbor's lot where it could do damage. The grade has to work for both yards before the first roll comes off the pallet." },
+      { "title": "The new build lawn", "body": "New houses here go through a city drainage review, so a yard may hold a designed swale or a pop-up drain, and the soil can be compacted and full of construction debris. A lawn graded across a swale sends water where it was never meant to go." }
+    ]
+  },
+  "logistics": {
+    "title": "A sod day here starts with where the pallets can sit.",
+    "body": [
+      "Narrow side yards and tight driveways are common here, so where the pallets sit and how the old lawn gets out is worth settling at the walk through. Many lawns are finished in a day, depending on the grade.",
+      "The old lawn is the part people forget. The city says its weekly curbside pickup is not for sod replacement or large amounts of dirt, so old turf cannot sit at the curb waiting for the truck. How the debris leaves goes on your estimate, which is itemized, so you can go through it line by line.",
+      "When the crew leaves, Jake gives you a plain watering plan for the shade and sun your yard actually gets, and he calls afterward to see how it went. Sprinkler systems are not part of what we do. If you would rather not think about watering, we can [handle it](/plant-watering/) while the lawn roots."
+    ],
+    "facts": [
+      { "label": "How long", "value": "Often one day" },
+      { "label": "Old sod", "value": "Not for the city's curbside pickup" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinkler installation" }
+    ]
+  },
+  "photo": "sod-backyard",
+  "faq": [
+    { "q": "Do you do sod installation in Birmingham?", "a": "Yes. HD Landscape installs sod in Birmingham, MI, from a small front lawn to a full yard with the grading it needs. Sod is one of our most requested jobs, and Birmingham is one of the towns we work in most." },
+    { "q": "Will sod grow under big trees?", "a": "That comes down to light. Light shade is usually fine, and a honeylocust lets a good amount through. Under a dense canopy, especially a Norway maple with its shallow roots, sod tends to thin out, and a bed may be the better answer." },
+    { "q": "Can I resod the lawn under a city street tree in Birmingham?", "a": "Talk to the city first. Birmingham's tree manual bars grade changes and stripping topsoil in a public tree's root protection zone, generally the dripline, and landscaping next to a street tree can need a root pruning permit. The Department of Public Services can tell you what applies." },
+    { "q": "Can old sod go out with Birmingham's yard waste?", "a": "Not a lawn's worth of it. The city says its weekly curbside pickup is not for landscaping company materials, sod replacement or large amounts of dirt from a yard. Plan on another way out for the old lawn, and ask about it when you go through your estimate." },
+    { "q": "Does artificial turf count toward Birmingham's front yard rule?", "a": "No. The zoning code requires at least 65% of the front open space in single family districts to stay vegetated and free of impervious surfaces, and it lists artificial turf as an impervious surface. A living lawn counts toward that number. Artificial turf works against it." },
+    { "q": "Can you lay sod in the fall?", "a": "Yes. Early fall works very well, because cooler nights mean less watering, and we lay sod any time the ground is workable. The catch in Birmingham is the leaves. New sod needs light, so under a big canopy they have to come off it as they fall, not sit there until your zone's pickup week." }
+  ],
+  "reviews": ["rob-e", "renee-g"]
+}

@@ -1,0 +1,318 @@
+{
+  "service": "landscape-renovation",
+  "meta": {
+    "title": "Landscape Renovation in St. Clair Shores, MI | HD Landscape",
+    "description": "Old beds out, new grade, plants, stone and sod in. HD Landscape redoes front yards and full backyards in St. Clair Shores, MI and across Metro Detroit."
+  },
+  "hero": {
+    "kicker": "Landscape renovation in St. Clair Shores, MI and across Metro Detroit",
+    "title": "Old yard out. **New yard in.**",
+    "lede": "HD Landscape takes front yards and full backyards back to the dirt when they need it. Old beds out, new grade, then plants, stone and sod, all on one itemized estimate.",
+    "chips": [
+      "Front yards and full backyards",
+      "Grade fixed before planting",
+      "Job site left clean"
+    ],
+    "photo": "dusk-maple"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "When to start over",
+      "title": "Stop patching. **Start over.**",
+      "body": [
+        "A landscape renovation is a full redo of a yard or a section of one. The tired beds, overgrown shrubs and bad grade come out, and new plants, stone, edging and sod go in under one plan. HD Landscape does this for front yards, side yards and full backyards.",
+        "It makes sense when the problems are bigger than a cleanup can fix. If shrubs have swallowed the windows or water sits against the house, fresh mulch will not solve it, and a bed that went in with the house has usually had its run."
+      ],
+      "checks": [
+        "Old plants, roots, weeds and tired stone pulled out",
+        "Healthy trees and shrubs left in place and worked around",
+        "Ground regraded so water runs away from the house",
+        "New beds, edging and stone built to one plan",
+        "New plants, sod and mulch to finish, with the site left clean"
+      ],
+      "photo": "ranch-stone-bed"
+    },
+    {
+      "type": "beforeAfter",
+      "plane": "ink",
+      "eyebrow": "Real jobs",
+      "title": "Same house. **Different yard.**",
+      "intro": "Two real HD Landscape jobs, from Jake's own footage. Drag the line to compare.",
+      "pairs": [
+        "ba-sod",
+        "ba-side"
+      ],
+      "checks": [
+        "A block border and weeds taken out, with a steel edge curved in",
+        "Ground regraded, with new sod and set steppers",
+        "Black stone, boulders and a weeping tree in place of a weedy bed"
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "white",
+      "eyebrow": "What we redo",
+      "title": "One bed or the whole property.",
+      "intro": "Most renovations start with one of these. Tell Jake which one is bothering you and he will look at how it connects to the rest.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Front yard redo",
+          "body": "The part everyone sees. Overgrown shrubs come out, bed lines get recut, and new plants go in at a scale that suits the house, with [steel edging](/steel-edging/) or stone if it fits."
+        },
+        {
+          "title": "Full backyard",
+          "body": "The big one. Old lawn and beds out, ground leveled, then [new sod](/sod-installation/), beds, stone and plants, with everything planned to work together."
+        },
+        {
+          "title": "Foundation beds",
+          "body": "The beds along the house get cleared, the soil line gets checked, and new plants go in with room to grow instead of crowding the windows."
+        },
+        {
+          "title": "Side yards",
+          "body": "Narrow, shady and usually forgotten. [Rock and stone](/rock-and-stone-installation/) or steppers can turn a muddy strip into a clean way through."
+        },
+        {
+          "title": "Slopes and low spots",
+          "body": "When the ground itself is the problem, the fix starts with [yard grading](/yard-grading/), and a [retaining wall](/retaining-walls/) if the slope needs holding."
+        },
+        {
+          "title": "Commercial properties",
+          "body": "Tired entries and building beds get the same plan and itemized estimate as a home, and we can [keep it up each month](/monthly-landscape-maintenance/) afterward."
+        }
+      ]
+    },
+    {
+      "type": "compare",
+      "plane": "paper",
+      "eyebrow": "Which one do you need",
+      "title": "Cleanup, refresh or full renovation.",
+      "intro": "Not every tired yard needs tearing out. Here is how they differ. Jake gives his advice on the walk, and if it is only a [cleanup](/spring-and-fall-cleanups/), he will say so.",
+      "columns": [
+        "Cleanup",
+        "Bed refresh",
+        "Full renovation"
+      ],
+      "rows": [
+        {
+          "label": "Good when",
+          "values": [
+            "The bones are fine and it just got away from you",
+            "The beds are tired but the layout still works",
+            "The layout, the grade or the plants are the real problem"
+          ]
+        },
+        {
+          "label": "What happens",
+          "values": [
+            "Beds cleared, shrubs tidied, leaves raked",
+            "Weak plants out, new plants and fresh mulch in",
+            "Old beds out, ground regraded, the yard rebuilt"
+          ]
+        },
+        {
+          "label": "The lawn",
+          "values": [
+            "Stays",
+            "Stays, with clean edges",
+            "Often replaced with new sod"
+          ]
+        },
+        {
+          "label": "The grade",
+          "values": [
+            "Left alone",
+            "Checked along the beds",
+            "Reworked so water leaves the house"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "white",
+      "eyebrow": "The tear out",
+      "title": "What usually comes out first.",
+      "body": [
+        "Everything after this depends on a clean start, so the tear out gets the same care as the planting. It is also a good time to deal with invasive plants.",
+        "Michigan's Commission of Agriculture and Rural Development voted in May 2026 to restrict Callery pear, which includes Bradford pears, along with Japanese barberry and common and glossy buckthorn. Selling them becomes illegal on January 1, 2028. Plants already growing on your property do not put you in violation, so nobody has to rip them out, but they are worth replacing while the yard is open."
+      ],
+      "checks": [
+        "**Overgrown foundation shrubs.** If they block the windows and need constant cutting, [plant removal](/plant-removal/) beats another year of pruning.",
+        "**Weeds, thin lawn, sunken edging and old rock.** Pulled out, not buried under the new work.",
+        "**Smaller trees and stumps.** We handle [smaller trees](/tree-trimming-and-removal/) and [stump grinding](/stump-grinding/)."
+      ],
+      "photo": "ba-foundation-before",
+      "flip": true
+    },
+    {
+      "type": "steps",
+      "plane": "paper",
+      "eyebrow": "The order of work",
+      "title": "Everything in the right order.",
+      "intro": "New sod over a bad grade is wasted money. A renovation goes well when the work happens in sequence, which usually looks like this.",
+      "steps": [
+        {
+          "title": "Walk and plan",
+          "body": "Jake comes out, goes through the yard with you and says what he would do. What stays, what goes and what it all takes lands on an itemized estimate you can go through line by line before any work starts."
+        },
+        {
+          "title": "Get buried lines marked",
+          "body": "Buried lines get marked before digging. Michigan law puts that on whoever is digging, through MISS DIG 811, at least three business days ahead. Private lines do not get marked, so tell us about a dog fence, a shed line or old sprinkler pipe."
+        },
+        {
+          "title": "Tear out",
+          "body": "What is on the estimate comes out, so the new work starts on clean ground."
+        },
+        {
+          "title": "Grade",
+          "body": "We shape the ground so water runs away from the house and the yard lies the way the plan says. [Grading](/yard-grading/) comes before anything pretty."
+        },
+        {
+          "title": "Build",
+          "body": "[Walls](/retaining-walls/), [edging](/steel-edging/) and [stone](/rock-and-stone-installation/) go in next, while the ground is open and the crew has room to work."
+        },
+        {
+          "title": "Plant and finish",
+          "body": "[Plants](/plant-installation/) go in at the right depth, then sod and [mulch](/mulching/). We clean up, and Jake calls after to go over watering."
+        }
+      ],
+      "footnote": "Smaller scopes can finish in a day. A full backyard with walls or heavy grading runs longer, and Jake will lay out the timing with you before work begins."
+    },
+    {
+      "type": "gallery",
+      "plane": "ink",
+      "eyebrow": "Finished work",
+      "title": "New yards, start to finish.",
+      "intro": "More from our 200+ projects. New sod, clean bed lines and side yards that finally have a plan.",
+      "photos": [
+        "sod-colonial",
+        "pergola-deck",
+        "sod-circle",
+        "flagstone-side",
+        "island-bed",
+        "evergreen-island"
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "Close to home",
+      "title": "St. Clair Shores yards come with **their own rules.**",
+      "intro": "We are based in St. Clair Shores, so these are the yards we think about most. Old beds, heavy clay and close neighbors all change how a renovation gets planned here.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "Beds from another era",
+          "body": "St. Clair Shores went from resort community to suburb fast after World War II, and plenty of yards still carry shrubs and beds planned decades ago. If yours are crowding the windows, taking them out is usually the first step."
+        },
+        {
+          "title": "Water that will not soak in",
+          "body": "USDA soil maps show mostly poorly drained ground here, on land that is nearly flat, and more than half the city is covered by hard surfaces. Rain has few places to go, so the first fixes are on the surface, such as downspouts aimed away from the house and a lawn that sheds water instead of holding it."
+        },
+        {
+          "title": "Grading near the water needs a check",
+          "body": "Michigan generally requires a permit for earth changes that disturb an acre or more or sit within 500 feet of a lake or stream. Here that permit comes from St. Clair Shores, not Macomb County, so ask the city before the plan is final."
+        },
+        {
+          "title": "Close neighbors",
+          "body": "Inland zoning allows lots as small as 6,000 square feet, and on a lot that size a new grade shows up next door. Water pushed at a neighbor is a fight nobody wants, so a good plan looks at where water lands as well as where it leaves."
+        }
+      ]
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "Google reviews",
+      "title": "The big jobs, in their words.",
+      "ids": [
+        "rob-e",
+        "renee-g",
+        "stephen-d"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do landscape renovations in St. Clair Shores?",
+      "a": "Yes. HD Landscape is based in St. Clair Shores, MI, and renovates front yards and full backyards here. Much of the city is poorly drained ground on nearly flat land, so a renovation here usually starts with the grade. We also renovate yards across Metro Detroit, including [Grosse Pointe](/landscape-renovation-grosse-pointe-mi/), [Birmingham](/landscape-renovation-birmingham-mi/), [Bloomfield Hills](/landscape-renovation-bloomfield-hills-mi/) and [Rochester Hills](/landscape-renovation-rochester-hills-mi/)."
+    },
+    {
+      "q": "What is included in a landscape renovation?",
+      "a": "A landscape renovation covers whatever the yard needs to start over: tear out of old plants and beds, grading, new beds and stone, new plants, sod and mulch. HD Landscape plans it with you first and lists each part on an itemized estimate. You can redo the whole property or one section."
+    },
+    {
+      "q": "How long does a landscape renovation take?",
+      "a": "Some are done in a day, especially a single section. One customer had his yard gutted and leveled, with new sod, pea gravel and new plants, and wrote that what would have taken him a week was done in one day. Bigger yards, walls and heavy grading take longer, and that gets talked through on the walk."
+    },
+    {
+      "q": "How much does a landscape renovation cost?",
+      "a": "Three things drive it: the size of the yard, how much has to come out and how much grading the ground needs. A yard that needs a new grade costs more than one the same size that only needs new beds. Jake prices it once he has seen it, and the estimate is itemized and free."
+    },
+    {
+      "q": "Should I renovate my landscape or just clean it up?",
+      "a": "If the layout still works and the plants are healthy, a [cleanup](/spring-and-fall-cleanups/) and fresh [mulch](/mulching/) may be all you need. If shrubs have outgrown their spots, water sits near the house or the beds never had a plan, a renovation is usually the better call. Jake can tell you which one it is on the walk, with no pressure either way."
+    },
+    {
+      "q": "Can you keep some of my existing plants and trees?",
+      "a": "Yes, if they are healthy and in the right spot. That is one of the first things to settle on the walk, before anything comes out. Soil around a tree should stay at its old level, because burying the trunk flare hurts the tree."
+    },
+    {
+      "q": "What happens to the old plants and debris?",
+      "a": "How the debris leaves goes on your estimate, along with the rest of the tear out. The job site gets cleaned before we leave, and reviewers have noticed. One wrote that he was impressed with how clean they left the job."
+    },
+    {
+      "q": "Does regrading a yard in St. Clair Shores take a permit?",
+      "a": "It can. Michigan generally requires a permit for earth changes that disturb an acre or more or sit within 500 feet of a lake or stream, so a yard near the water may need one. St. Clair Shores handles that permit itself, so the question goes to the city, not Macomb County. Rules change, so ask before work starts."
+    },
+    {
+      "q": "When is a good time to renovate a landscape in Michigan?",
+      "a": "Any time from spring through fall that the ground is workable. New trees can go in during either spring or fall, as the Michigan DNR says, but Michigan State University Extension favors spring because new root growth stalls as the soil cools. Sod is easiest in spring and early fall, when cooler weather means less watering."
+    },
+    {
+      "q": "Do you install sprinklers during a renovation?",
+      "a": "No. Sprinkler systems are not part of our work. If you want one, a renovation is a good moment to have it put in, as long as it goes in before the planting and sod. We can [do the watering](/plant-watering/) while everything roots."
+    },
+    {
+      "q": "Do you take out big trees as part of a renovation?",
+      "a": "We do [smaller tree removal](/tree-trimming-and-removal/) and [stump grinding](/stump-grinding/) ourselves. The big ones get handed to a tree company, and we can tell you when a tree is past what our crew should take on."
+    },
+    {
+      "q": "Do you renovate commercial landscapes?",
+      "a": "Yes. HD Landscape takes on commercial properties as well as homes. Entries, beds along the building and hedges get the same walk and the same itemized estimate."
+    }
+  ],
+  "quote": {
+    "title": "Tell us what has to go.",
+    "lede": "Text a photo of the worst corner of the yard and tell us what you would change. Jake will come see it in person and write you an itemized estimate."
+  },
+  "summary": {
+    "title": "A renovation is several jobs, done in the right order.",
+    "intro": "Here is what usually goes into a landscape renovation, and each piece gets itemized on your estimate.",
+    "items": [
+      {
+        "name": "Tear out",
+        "detail": "Old beds, overgrown shrubs and weeds out, with the debris covered on your estimate."
+      },
+      {
+        "name": "Grade",
+        "detail": "Ground shaped so water runs away from the house."
+      },
+      {
+        "name": "Build",
+        "detail": "New bed lines, edging, walls or stone, as the plan calls for."
+      },
+      {
+        "name": "Plant",
+        "detail": "New trees, shrubs and perennials set at the right depth."
+      },
+      {
+        "name": "Finish",
+        "detail": "Sod and mulch down, site cleaned, and a follow up call from Jake."
+      }
+    ],
+    "footnote": "Big trees are a job for a tree company, and sprinkler systems are not part of our work. For anything else, ask Jake."
+  }
+}

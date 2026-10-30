@@ -1,0 +1,63 @@
+---
+/* Reviews, word for word, with what Google itself pulls out of them. */
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import Head from '../components/Head.astro';
+import Stars from '../components/Stars.astro';
+import Reviews from '../components/Reviews.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import { LINKS, RATING } from '../data/site';
+import { REVIEWS, review } from '../data/reviews';
+import Photo from '../components/Photo.astro';
+import { photo } from '../data/photos';
+import { heroImage } from '../lib/hero';
+import { breadcrumbs } from '../lib/schema';
+
+const head = await heroImage('dusk-stone', { sizes: '(min-width: 60rem) 48vw, 1px' });
+const path = '/reviews/';
+const topics = [
+  ['Mulch spreading', 11], ['Bush trimming', 10], ['Backyard transformation', 10], ['Efficient crew', 7],
+  ['Flowerbed cleanup', 5], ['Front landscape redo', 3], ['Plant installation', 3], ['Spring cleanup', 2],
+];
+---
+
+<Base
+  title="HD Landscape Reviews: 5.0 on Google from 171 Reviews"
+  description="Read what homeowners say about HD Landscape: on time, itemized, clean job sites and a crew that does what it said. 5.0 on Google from 171 reviews."
+  path={path}
+  preload={{ ...head.preload, media: '(min-width: 60rem)' }}
+  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Reviews', path }])]}
+>
+  <PageHead image={head} eyebrow="Reviews" title={`${RATING.value} on Google, from **${RATING.countLabel} reviews.**`} lede="Here is what people say after the crew has gone home, in their own words." crumbs={[{ name: 'Reviews', path }]}>
+    <a class="rating" href={LINKS.google} target="_blank" rel="noopener"><Stars /><span>Read them all on Google</span></a>
+  </PageHead>
+
+  <section class="band pull" aria-labelledby="pull-h">
+    <div class="wrap two wide-left">
+      <figure class="stack" style="--gap:1rem">
+        <blockquote class="h2" id="pull-h">“We are the 3rd house he did on my street and he did AMAZING for each of my <span class="accent">neighbors and me.”</span></blockquote>
+        <figcaption class="small muted">{review('amanda-h')!.name}, Google review</figcaption>
+      </figure>
+      <figure>
+        <div class="frame"><Photo id="curve-fall" ratio={4 / 3} widths={[420, 640, 860]} sizes="(min-width: 60rem) 34vw, 92vw" /></div>
+        <figcaption class="note cap">{photo('curve-fall').caption}</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="band white" aria-labelledby="topics-h">
+    <div class="wrap">
+      <Head id="topics-h" eyebrow="What people mention" title="The jobs that come up **again and again.**" intro="Google counts how often each topic appears in our reviews." />
+      <ul class="chips">{topics.map(([t, n]) => <li><span class="chip">{t}: {n}</span></li>)}</ul>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="all-h">
+    <div class="wrap">
+      <Head id="all-h" eyebrow="Word for word" title="In their **own words.**" />
+      <Reviews reviews={REVIEWS} full />
+    </div>
+  </section>
+
+  <QuoteBand title="Be our next review." />
+</Base>

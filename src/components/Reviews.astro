@@ -1,0 +1,134 @@
+---
+/* Real Google reviews, in the customer's own words. On a phone they sit in a
+   row you can swipe; from tablet up they are a grid. */
+import Stars from './Stars.astro';
+import type { Review } from '../data/reviews';
+import { LINKS } from '../data/site';
+
+interface Props {
+  reviews: Review[];
+  /** Show the "read every review" link under the cards. */
+  more?: boolean;
+  /** The reviews page: every word, in quiet columns. */
+  full?: boolean;
+}
+const { reviews, more = true, full = false } = Astro.props;
+---
+
+<ul class:list={['rv', full && 'rv--full']} aria-label="Customer reviews">
+  {
+    reviews.map((r) => (
+      <li class="rv__card card pad">
+        <Stars />
+        <blockquote class="rv__text">
+          <p>{r.text}{full && r.more ? r.more : r.excerpt ? ' …' : ''}</p>
+        </blockquote>
+        <p class="rv__who">
+          <strong>{r.name}</strong>
+          <span class="fine muted">
+            {r.job}
+          </span>
+        </p>
+      </li>
+    ))
+  }
+</ul>
+{
+  more && (
+    <p class="rv__more small">
+      <a class="arrow" href={LINKS.google} target="_blank" rel="noopener" data-cta="reviews-google">Read every review on Google</a>
+    </p>
+  )
+}
+
+<script is:inline>
+  // On a phone the reviews are a row you swipe: make it reachable by keyboard there, and only there.
+  (function () {
+    document.querySelectorAll('.rv:not([data-on])').forEach(function (el) {
+      el.setAttribute('data-on', '');
+      if (el.scrollWidth > el.clientWidth + 1) el.tabIndex = 0;
+    });
+  })();
+</script>
+
+<style>
+  @media (min-width: 40rem) {
+    .rv.rv--full {
+      display: block;
+      columns: 2;
+      column-gap: 1rem;
+      margin-inline: 0;
+      padding-inline: 0;
+      overflow: visible;
+    }
+
+    .rv--full .rv__card {
+      break-inside: avoid;
+      margin-bottom: 1rem;
+    }
+  }
+
+  @media (min-width: 62rem) {
+    .rv.rv--full {
+      columns: 3;
+    }
+  }
+
+  .rv {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: min(84%, 23rem);
+    gap: 1rem;
+    margin-inline: calc(-1 * var(--gutter));
+    padding-inline: var(--gutter);
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-padding-inline: var(--gutter);
+    scrollbar-width: none;
+  }
+
+  .rv::-webkit-scrollbar {
+    display: none;
+  }
+
+  .rv__card {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 1rem;
+    scroll-snap-align: start;
+  }
+
+  .rv__text {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+  .rv__who {
+    display: grid;
+    align-content: start;
+    gap: 0.1rem;
+    min-height: 4.4rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--line);
+  }
+
+  :global(.ink) .rv__who {
+    border-color: var(--line-ink);
+  }
+
+  .rv__more {
+    margin-top: 1.5rem;
+  }
+
+  @media (min-width: 48rem) {
+    .rv {
+      grid-auto-flow: row;
+      grid-auto-columns: auto;
+      grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+      margin-inline: 0;
+      padding-inline: 0;
+      overflow: visible;
+    }
+  }
+</style>

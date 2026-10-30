@@ -1,0 +1,295 @@
+{
+  "service": "tree-work",
+  "meta": {
+    "title": "Tree Trimming in St. Clair Shores, MI | HD Landscape",
+    "description": "Tree trimming and smaller tree removal in St. Clair Shores and around Metro Detroit, with clean cuts and oak dates respected. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Tree trimming and removal in St. Clair Shores, MI and around Metro Detroit",
+    "title": "Clean cuts on smaller trees. **Straight talk on big ones.**",
+    "lede": "HD Landscape prunes trees and takes down smaller ones. A big removal means bringing in a tree company, and Jake will say which kind you have on the first walk, before a saw starts.",
+    "chips": [
+      "Pruning and smaller removals",
+      "Clean cuts, no stubs",
+      "Oak timing respected"
+    ],
+    "photo": "island-bed"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "What we do",
+      "title": "Trimming and smaller removals, by our own crew.",
+      "body": [
+        "HD Landscape trims trees and removes smaller trees in St. Clair Shores and across Metro Detroit. That covers what most yards need: ornamental trees near the house, low limbs over a walk or drive, dead or crossing branches and small trees planted in the wrong spot.",
+        "Size is where we stop, and Iowa State University Extension tells homeowners the same thing: trimming large trees should be left to trained arborists."
+      ],
+      "checks": [
+        "Dead, broken and rubbing branches cut out",
+        "Clean cuts with no stubs left behind",
+        "Low limbs lifted off roofs, walks and drives",
+        "Smaller trees taken down, with the [stump ground](/stump-grinding/) if you want it gone",
+        "Brush and cuttings cleaned up before we leave"
+      ],
+      "photo": "fall-colonial"
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "Where the line is",
+      "title": "What we cut, and **what we hand off.**",
+      "intro": "Size, height and what sits underneath decide it. Jake makes the call on the walk, and if a tree is not ours he will say so.",
+      "columns": [
+        "Our crew",
+        "A tree company"
+      ],
+      "highlight": 0,
+      "rows": [
+        {
+          "label": "Pruning",
+          "values": [
+            "Smaller trees and low limbs",
+            "Tall trees and big limbs high in the crown"
+          ]
+        },
+        {
+          "label": "Removal",
+          "values": [
+            "Smaller trees, cut down and cleaned up",
+            "Big trees, especially close to a house or garage"
+          ]
+        },
+        {
+          "label": "Power lines",
+          "values": [
+            "We stay clear of them",
+            "Limbs near wires, with the utility when needed"
+          ]
+        },
+        {
+          "label": "The stump",
+          "values": [
+            "Ground below grade so the spot can be reused",
+            "We can still grind it after the tree is down"
+          ]
+        },
+        {
+          "label": "Who you call",
+          "values": [
+            "Jake",
+            "Still Jake. He lines it up."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Good pruning",
+      "title": "Trees do not heal. **They grow over it.**",
+      "body": [
+        "A tree does not heal a wound the way skin does. It walls the cut off and slowly grows over it. Iowa State University Extension calls this compartmentalization, and a clean cut in the right spot is what lets it happen. So where the saw goes matters.",
+        "The right cut goes back to a side branch or the trunk, just outside the raised collar where the branch starts, because a cut there closes best. And light beats heavy. Extension limits run from a quarter of the live foliage on maples (Minnesota) to a third of the crown on a young tree (Wisconsin), and an established tree usually needs much less."
+      ],
+      "checks": [
+        "Heavier branches come off in three cuts, so the bark does not tear",
+        "Young trees trained early, while the cuts are still small",
+        "No topping. University of Minnesota Extension says to avoid it, and thinning cuts are the better way to lighten a crown"
+      ],
+      "photo": "ai-tree",
+      "flip": true
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "Michigan timing",
+      "title": "When to prune, and when to wait.",
+      "intro": "Most trees are best pruned in late winter or early spring, before new growth starts. Oaks are the big exception, and in Michigan they have hard dates. Those cold months overlap Jake's South Florida winters, so ask early. Timing follows MSU Extension, the Michigan DNR, Michigan's Oak Wilt Coalition and Iowa State University Extension.",
+      "columns": [
+        "Most trees",
+        "Oaks",
+        "Maples",
+        "Storm damage"
+      ],
+      "rows": [
+        {
+          "label": "Prune",
+          "values": [
+            "Late winter or early spring, before new growth",
+            "November to mid-March, when oak wilt risk is lowest",
+            "Late May to mid-June, after they leaf out",
+            "When it is safe, any time of year"
+          ]
+        },
+        {
+          "label": "Wait",
+          "values": [
+            "Early summer, right after new growth comes in",
+            "Do not prune April 15 through July 15",
+            "Early spring, unless you are fine with sap on the bark",
+            "On oaks from mid-March through October, paint any cut right away"
+          ]
+        },
+        {
+          "label": "Why",
+          "values": [
+            "Bare branches are easy to read, and cuts start closing in spring",
+            "Beetles carry oak wilt to fresh cuts, and infected red oaks die",
+            "Maples run a lot of sap when cut in early spring",
+            "Cleanup pruning does little or no harm in most seasons"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "Oak wilt",
+      "title": "If you have oaks, **read this one.**",
+      "intro": "Oak wilt has been gaining ground in Michigan, and it comes with the one pruning date nobody should ignore.",
+      "columns": 2,
+      "items": [
+        {
+          "title": "How it spreads",
+          "body": "Small sap beetles carry the oak wilt fungus to fresh cuts and wounds, and from there it moves through shared roots to nearby oaks. Once a red oak is infected it generally cannot be saved, and it often dies within a month or two."
+        },
+        {
+          "title": "When to leave oaks alone",
+          "body": "The Michigan DNR and MSU Extension both say not to prune oaks from April 15 through July 15. Michigan's Oak Wilt Coalition goes further and says to leave them alone from mid-March through October. That leaves November to mid-March, when Jake is working South Florida, so ask early. He will tell you whether he can get to your oak or who can."
+        },
+        {
+          "title": "When a cut has to be sealed",
+          "body": "Most trees do not need pruning paint. Iowa State University Extension says it does not stop decay and may get in the way of the tree's own response. Oaks are the exception: a cut made in the risk months gets latex paint or shellac right away, before beetles find it. A fresh oak stump counts as a wound too."
+        },
+        {
+          "title": "What to watch for",
+          "body": "Red oaks that drop leaves fast in the middle of summer, some of them still green, are the warning sign, and a lab test confirms it. Do not move the firewood. If you suspect oak wilt, the Oak Wilt Coalition says to call an arborist and report it to the Michigan DNR. That is our advice too."
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "ink",
+      "eyebrow": "The job",
+      "title": "From the first walk to a clean yard.",
+      "steps": [
+        {
+          "title": "Walk",
+          "body": "Jake looks at the tree with you, or starts from a photo you text him, and tells you straight whether it is a job for us."
+        },
+        {
+          "title": "Estimate",
+          "body": "A free itemized estimate comes next, with what is being cut and what is staying."
+        },
+        {
+          "title": "Cut",
+          "body": "Dead and rubbing wood comes out, and what is left gets shaped. If the tree is coming down, it comes down, and the stump can go too if you want it gone."
+        },
+        {
+          "title": "Clean up",
+          "body": "Brush and cuttings get cleaned up and the walks and drive get left clear. How the brush leaves goes on your estimate. Then Jake checks in to see how it went."
+        }
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "St. Clair Shores",
+      "title": "Our home town has a lot of grown-up trees.",
+      "body": [
+        "HD Landscape is based in St. Clair Shores, and we trim trees and take down smaller ones here often. Much of the city was built out after the Second World War, so plenty of yards have trees that were planted small and have had decades to fill in.",
+        "The strip from the sidewalk to the curb is a different story. Trees there are public trees, maintained by the city's Forestry Division, so those stay the city's to trim. On your side of the sidewalk, a tree planted too close to the house or under the wires does not get better with age, and it is a much easier job while it is small. If yours is still a size we can handle, that is a quick conversation."
+      ],
+      "photo": "shade-lawn"
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "Left on Google",
+      "title": "Good advice before the first cut.",
+      "ids": [
+        "anne-j",
+        "stephen-d",
+        "amanda-h"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do tree trimming in St. Clair Shores?",
+      "a": "Yes. HD Landscape does tree trimming and smaller tree removal in St. Clair Shores, our home town, and across Metro Detroit. Trees along the curb here are public trees, maintained by the city's Forestry Division, so the work we take on is on your side of the sidewalk."
+    },
+    {
+      "q": "Do you do tree removal?",
+      "a": "Yes, for smaller trees. HD Landscape cuts them down, cleans up and can grind the stump too. Bigger ones we sub out, and the first walk will show which kind of job you have."
+    },
+    {
+      "q": "How much does tree trimming cost?",
+      "a": "The tree sets the number: how big it is, how much needs to come off and what sits underneath it. A photo by text gets things started, and a free itemized estimate follows."
+    },
+    {
+      "q": "What month is best to trim trees in Michigan?",
+      "a": "Late winter or early spring, just before new growth starts, is the healthiest time for most trees, according to MSU Extension. Early summer, right after new growth comes in, is the least desirable. Oaks have their own rule: do not prune them from April 15 through July 15."
+    },
+    {
+      "q": "When can I prune oak trees in Michigan?",
+      "a": "Between November and mid-March, when the risk of oak wilt is lowest. MSU Extension and the Michigan DNR say not to prune oaks between April 15 and July 15, and Michigan's Oak Wilt Coalition says to hold off from mid-March through October. If an oak gets cut or broken in those months, paint the wound with latex paint or shellac right away. Jake will tell you whether he can get to it or who can, since he works South Florida in winter."
+    },
+    {
+      "q": "How do I know if my tree is too big for you?",
+      "a": "Jake looks at the height, the size of the limbs and what is underneath, like a roof, a garage or wires. Smaller trees are ours, bigger ones he hands off, and you will know which yours is after the first walk."
+    },
+    {
+      "q": "Do you trim trees near power lines?",
+      "a": "No. Iowa State University Extension says to always let the utility company handle broken limbs or tree damage around power lines, and we agree. Please do not try that one yourself either."
+    },
+    {
+      "q": "Should I top my tree to make it shorter?",
+      "a": "We steer people away from it. University of Wisconsin Extension says trees should never be topped, because it leads to poor branch structure and more limb breakage. If a tree is too big for its spot, thinning it or taking it out is usually the better answer."
+    },
+    {
+      "q": "How much of a tree can you prune at one time?",
+      "a": "Less than most people think. University of Wisconsin Extension caps a young tree at a third of the crown at one time, and University of Minnesota Extension caps maples and other sap-running trees at a quarter of the live foliage. A well trained older tree needs little pruning at all."
+    },
+    {
+      "q": "Should I paint a pruning cut?",
+      "a": "Usually not. Iowa State University Extension says pruning paint does not prevent decay and may interfere with the tree's natural wound response. The exception is an oak cut during the risk months, which should get latex paint or shellac right away."
+    },
+    {
+      "q": "Can you take down a tree and grind the stump too?",
+      "a": "Yes. We can handle both on a smaller tree. One customer had us cut down a tree and grind the stump as part of a bigger yard job, along with trimming, planting and mulch. [Stump grinding](/stump-grinding/) leaves wood shavings behind, so tell us what you want in that spot next."
+    },
+    {
+      "q": "A storm broke a limb. Can you help?",
+      "a": "If it is a smaller tree, text Jake a photo and he will say what we can do. A big limb or a tree on a house is past what we take on, and anything near wires belongs to the utility."
+    }
+  ],
+  "quote": {
+    "title": "Tell us about the tree.",
+    "lede": "What kind of tree is it, how tall is it and what is it near? Text Jake a photo and he will say if it is ours. The itemized estimate comes after that."
+  },
+  "summary": {
+    "title": "Tree work covers pruning, clearance, smaller removals and stumps.",
+    "intro": "Our own crew does the pruning and the smaller removals. Here is what that covers.",
+    "items": [
+      {
+        "name": "Pruning",
+        "detail": "Dead, broken and rubbing branches out, with clean cuts and no stubs."
+      },
+      {
+        "name": "Clearance",
+        "detail": "Low limbs lifted off roofs, walks and drives."
+      },
+      {
+        "name": "Smaller removals",
+        "detail": "Smaller trees cut down and the site cleaned up."
+      },
+      {
+        "name": "Stump grinding",
+        "detail": "Stump ground below grade if you want the spot back."
+      }
+    ],
+    "footnote": "Oaks have their own calendar in Michigan, so ask about timing early."
+  }
+}

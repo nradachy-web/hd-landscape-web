@@ -1,0 +1,64 @@
+---
+/* The fireflies script, once per page however many canvases the page has. */
+---
+
+<script is:inline>
+  (function () {
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (navigator.connection && navigator.connection.saveData) return;
+    document.querySelectorAll('canvas.ff:not([data-on])').forEach(function (c) {
+      c.setAttribute('data-on', '');
+      var box = c.parentElement, x = c.getContext('2d'), w = 0, h = 0, dpr = 1, flies = [], raf = 0, seen = false, on = false, mx = -1, my = 0, last = 0;
+      function size() {
+        if (w === box.clientWidth) { h = box.clientHeight; c.height = h * dpr; return; }
+        dpr = Math.min(devicePixelRatio || 1, 1.5);
+        w = box.clientWidth; h = box.clientHeight;
+        c.width = w * dpr; c.height = h * dpr;
+        var n = Math.round(Math.min(26, Math.max(10, w / 58)));
+        flies = [];
+        for (var i = 0; i < n; i++) flies.push({ x: Math.random() * w, y: h * (0.28 + Math.random() * 0.68), a: Math.random() * 6.28, s: 0.12 + Math.random() * 0.2, p: Math.random() * 6.28, f: 0.5 + Math.random() * 0.9, r: 1.7 + Math.random() * 1.5 });
+      }
+      function draw(t) {
+        raf = requestAnimationFrame(draw);
+        var dt = Math.min(40, t - last) / 16.7; last = t;
+        x.setTransform(dpr, 0, 0, dpr, 0, 0);
+        x.clearRect(0, 0, w, h);
+        for (var i = 0; i < flies.length; i++) {
+          var f = flies[i];
+          f.a += (Math.random() - 0.5) * 0.14 * dt;
+          f.x += Math.cos(f.a) * f.s * dt; f.y += Math.sin(f.a) * f.s * 0.7 * dt;
+          if (mx >= 0) { var dx = mx - f.x, dy = my - f.y, d = Math.hypot(dx, dy); if (d < 220 && d > 30) { f.x += dx / d * 0.28 * dt; f.y += dy / d * 0.28 * dt; } }
+          if (f.x < -10) f.x = w + 10; if (f.x > w + 10) f.x = -10; if (f.y < h * 0.2) f.y = h * 0.2; if (f.y > h) f.y = h;
+          var g = Math.pow(Math.max(0, Math.sin(t * 0.001 * f.f + f.p)), 3);
+          if (g < 0.02) continue;
+          var R = f.r * 8;
+          var rg = x.createRadialGradient(f.x, f.y, 0, f.x, f.y, R);
+          rg.addColorStop(0, 'rgba(232,245,140,' + 0.8 * g + ')');
+          rg.addColorStop(0.3, 'rgba(214,236,110,' + 0.28 * g + ')');
+          rg.addColorStop(1, 'rgba(190,220,90,0)');
+          x.fillStyle = rg; x.beginPath(); x.arc(f.x, f.y, R, 0, 6.28); x.fill();
+          x.fillStyle = 'rgba(248,255,200,' + 0.9 * g + ')'; x.beginPath(); x.arc(f.x, f.y, f.r * 0.7, 0, 6.28); x.fill();
+        }
+      }
+      /* They rest after a while and wake again when a pointer moves over them. */
+      var until = 0;
+      function plan() {
+        var go = seen && !document.hidden && performance.now() < until;
+        if (go && !on) { on = true; c.classList.add('is-on'); last = performance.now(); raf = requestAnimationFrame(draw); }
+        if (!go && on) { on = false; cancelAnimationFrame(raf); }
+      }
+      function wake() { until = performance.now() + 20000; plan(); setTimeout(plan, 20100); }
+      function start() {
+        size();
+        wake();
+        addEventListener('resize', size, { passive: true });
+        box.addEventListener('pointermove', function (e) { var r = c.getBoundingClientRect(); mx = e.clientX - r.left; my = e.clientY - r.top; if (!on) wake(); }, { passive: true });
+        box.addEventListener('pointerleave', function () { mx = -1; }, { passive: true });
+        document.addEventListener('visibilitychange', plan);
+        new IntersectionObserver(function (es) { seen = es[0].isIntersecting; if (seen) wake(); else plan(); }).observe(c);
+      }
+      function later() { setTimeout(start, 2600); }
+      if (document.readyState === 'complete') later(); else addEventListener('load', later);
+    });
+  })();
+</script>

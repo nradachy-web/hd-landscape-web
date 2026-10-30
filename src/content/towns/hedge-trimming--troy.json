@@ -1,0 +1,50 @@
+{
+  "service": "hedge-trimming",
+  "city": "troy",
+  "meta": {
+    "title": "Hedge Trimming in Troy, MI | HD Landscape",
+    "description": "Hedge trimming in Troy, MI from HD Landscape: corner hedges held to the city's limit, foundation shrubs shaped and long evergreen screens cut level."
+  },
+  "hero": {
+    "kicker": "Hedge trimming in Troy, MI",
+    "title": "Off the walk. **Out of the sight line.**",
+    "lede": "Troy's code holds shrubs at corners to 30 inches and asks for 8 feet of clear space over sidewalks. HD Landscape shapes foundation shrubs, corner hedges and long evergreen screens to fit those lines and leaves a clean site behind.",
+    "chips": ["Corner hedges kept low", "Long screens cut level", "Foundation shrubs reshaped"],
+    "photo": "hedge-curve"
+  },
+  "local": {
+    "eyebrow": "Hedges in Troy",
+    "title": "A corner hedge and a foundation shrub need **different cuts.**",
+    "intro": "Troy hedges tend to fall into three groups: foundation shrubs that have been growing since the house was new, corner plantings that have to stay low, and long screens on lots that back up to the main roads. Each one needs a different cut, and two of them can come with city rules.",
+    "points": [
+      { "title": "Corner lots", "body": "Inside the triangle that runs 25 feet along each right of way line from where the two lines meet, city code keeps shrubs, fences and other obstructions at 30 inches or less. If your hedge sits there, we cut to that height and keep the taper. If you are not sure where your triangle falls, the city can tell you." },
+      { "title": "Walks, including the one out back", "body": "The city asks owners to trim plants back from every sidewalk, up to 8 feet above the walk, and reminds people not to forget the sidewalk behind the house. We pull a hedge back off the concrete and keep the face straight, so it takes longer to creep back out." },
+      { "title": "Screens along the main roads", "body": "The subdivision code calls for a greenbelt easement at least 15 feet wide, with screen planting, along lots that abut major and secondary roads. Those rows can run a long way. We set a level line and hold it end to end. If a screen sits in an easement, ask your association who looks after it." },
+      { "title": "Shrubs with decades behind them", "body": "The median home in Troy dates to 1977, so a foundation hedge may be well over 40 years old. Bare old wood on arborvitae, yew or boxwood may not fill back in. So we bring an overgrown hedge back in stages where one hard cut would leave bare stems, and if a shrub is past saving, Jake will say so." },
+      { "title": "Boxwood in a quarantine county", "body": "Oakland County is inside Michigan's box tree moth quarantine, and the state's rules cover boxwood clippings as well as whole plants, including where that yard waste can go. If your boxwood shows webbing or chewed leaves, tell Jake before we cut, so the clippings get handled the right way." }
+    ]
+  },
+  "logistics": {
+    "title": "Reaching both sides decides how long a hedge takes.",
+    "body": [
+      "Jake looks at how we reach both sides first, because a row along a busy road is a different job from one along a patio. Tell him the height you want and he will say what the plant can take. Many hedges are a one visit job, and a long screen can take more.",
+      "The beds and walks get cleaned up before we leave, and the estimate spells out what happens to the clippings, which matters more for boxwood in a quarantine county. If a corner hedge has to come down a long way to reach 30 inches, we may split the work across visits, because hard cuts belong in spring and should stop by mid-summer."
+    ],
+    "facts": [
+      { "label": "Corner height limit", "value": "30 inches in the sight triangle" },
+      { "label": "Over sidewalks", "value": "8 feet of clearance" },
+      { "label": "Visits", "value": "Often one, more for a long screen" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "hedge-long",
+  "faq": [
+    { "q": "Do you do hedge trimming in Troy, MI?", "a": "Yes. HD Landscape trims hedges in Troy, MI, for homes and commercial properties, from foundation shrubs and corner hedges to long evergreen screens. Text a photo of the hedge to [(586) 718-8762](sms:+15867188762) with the height you want." },
+    { "q": "How tall can a hedge be on a corner lot in Troy, MI?", "a": "Inside the corner sight triangle, city code limits shrubs and other obstructions to 30 inches above street grade. The triangle runs 25 feet along each right of way line from the point where the two lines meet. Outside that triangle the corner limit no longer applies, so a hedge can step up as it moves away from the intersection. Ask the city if your lot is a close call." },
+    { "q": "Who has to trim hedges and branches over a sidewalk in Troy?", "a": "The property owner, in most cases. The city says to keep branches and plants trimmed back from sidewalks, up to 8 feet above the walkway, and that it does not do this for you. The exception is trees and brush that start in the strip by the curb, which the city maintains." },
+    { "q": "When should I trim an arborvitae hedge?", "a": "Late spring to early summer, once the new growth fills out, is the usual time for a shaping trim in Michigan. Bigger cuts belong in spring before new growth starts, and heavy cutting should stop by mid-summer. If the hedge also has to stay under Troy's 30 inch corner limit, it may need trimming more often to hold the height." },
+    { "q": "Can I keep my privet hedge in Troy?", "a": "From our reading, yes. Common privet (Ligustrum vulgare) is on the list of plants the zoning code bars from new landscaping on site plan projects, and that list is about new planting, not hedges already in the ground. We can keep yours trimmed. If you are replacing it, ask Jake about something else, and the city can settle anything you are unsure of." },
+    { "q": "Do you trim hedges for offices and associations?", "a": "Yes. HD Landscape works on commercial properties as well as homes, and Troy has plenty of both, with millions of square feet of office and retail space and more than 40 associations. Tell us how sharp you want an entry hedge kept, and it goes on an itemized estimate, as a one time trim or part of [monthly maintenance](/landscape-maintenance-troy-mi/)." }
+  ],
+  "reviews": ["anne-j", "nancy-g"]
+}

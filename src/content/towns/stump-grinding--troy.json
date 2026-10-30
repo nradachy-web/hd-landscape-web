@@ -1,0 +1,48 @@
+{
+  "service": "stump-grinding",
+  "city": "troy",
+  "meta": {
+    "title": "Stump Grinding in Troy, MI | HD Landscape",
+    "description": "Stump grinding in Troy, MI from HD Landscape: stumps ground below grade, a plan for the shavings and the spot set up for sod, a bed or stone."
+  },
+  "hero": {
+    "kicker": "Stump grinding in Troy, MI",
+    "title": "That old stump has **had its turn.**",
+    "lede": "If your Troy yard still has a stump from a tree that came down years ago, HD Landscape can grind it below grade, work out what happens to the shavings and set the spot up for sod, a bed or stone. Then you can stop mowing around it.",
+    "chips": ["Ground below grade", "A plan for the shavings", "Sod or beds can follow"],
+    "photo": "patio-bed"
+  },
+  "local": {
+    "eyebrow": "Stumps in Troy",
+    "title": "Whose stump it is and what is buried near it come **before the grinder.**",
+    "intro": "Grinding itself takes a matter of hours. What takes thought in Troy is who owns the stump and what runs under it, especially on a lot that has had 40 or 50 years of trees, lines and sprinklers added to it.",
+    "points": [
+      { "title": "Ash stumps", "body": "Emerald ash borer was first identified in Canton, Michigan, in 2002, and without control, ash in an infested area are expected to die within about 10 years. So an old stump in a Troy yard may well be an ash. If yours was, pick a different kind of tree for whatever comes next." },
+      { "title": "Stumps in the street strip", "body": "A stump in the strip by the curb is in the public right of way, where the city handles the trees and its code limits digging. Call the city before you hire anyone for that one. We grind stumps on your side of the walk." },
+      { "title": "Lines you cannot see", "body": "MISS DIG 811 does not mark private lines such as sprinkler systems, dog fences or a feed to a shed. The subdivision code also calls for easements along lot lines and for utilities, so a stump near the back of the lot needs a careful look. Tell us what you know before the work starts." },
+      { "title": "A soft spot on a flat yard", "body": "A ground stump leaves wood shavings and loose soil that settle over time. On ground as flat as most of the city, even a shallow dip can hold water. So the shavings should come out where they need to, and topsoil should go in a little high to allow for settling." }
+    ]
+  },
+  "logistics": {
+    "title": "Send two photos, and allow three business days for line marking.",
+    "body": [
+      "Start with a text: a photo of the stump and a photo of the narrowest spot on the way to it. Side yards in the city's one family districts can be as narrow as 5 feet on one side, and a fenced yard adds a gate to the question. Those two photos let Jake work out what it will take.",
+      "Buried lines get marked before digging, which takes at least three business days in Michigan. The grinder is loud, so expect it inside the city's excavation hours, 7am through 8pm, Monday through Saturday. If the spot is going back to lawn, we can [lay the sod](/sod-installation-troy-mi/), and Jake will walk you through watering it under the city's sprinkler rule."
+    ],
+    "facts": [
+      { "label": "Line marking", "value": "At least three business days before digging" },
+      { "label": "Grinding time", "value": "A matter of hours" },
+      { "label": "Private lines", "value": "Tell us where they run" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ai-stump",
+  "faq": [
+    { "q": "Do you grind stumps in Troy, MI?", "a": "Yes. HD Landscape grinds stumps in Troy, MI, whether the tree came down last week or 10 years ago and whether or not we took it down. Grinding below grade leaves room for sod, a new bed or stone. Text a photo to [(586) 718-8762](sms:+15867188762) to get started." },
+    { "q": "Can you grind a stump in the strip by the curb in Troy?", "a": "Talk to the city first. That strip is public right of way, the city maintains the trees in it, and its code limits digging there. If the city tells you the stump is yours to deal with, send Jake the details and we can go from there." },
+    { "q": "Will stump grinding damage my underground sprinklers?", "a": "It can if nobody knows where the lines run, because MISS DIG does not mark private sprinkler lines. Lots in Troy have had decades of lines added, so show us the heads or a plan of the system before work starts, and tell us about any dog fence or shed wiring. We do not repair sprinklers, so a nicked line would mean a call to your irrigation company." },
+    { "q": "Can I put stump grindings out with Troy's yard waste?", "a": "In small amounts, maybe. City code lists wood chips as yard waste, but curbside pickup means paper bags or 35 gallon stickered cans with a 50 pound limit, and a stump leaves a big pile of shavings. We go over the plan for the shavings with you and put it on the estimate, so you are not moving them to the curb a bag at a time." },
+    { "q": "What should I put where the stump was?", "a": "Whatever you want there next, once the spot is prepared. With the shavings out and fresh soil in, it can take [sod](/sod-installation-troy-mi/), a new bed or [stone](/rock-and-stone-installation/). A new tree should go at least three feet away, and six to eight is better, because old roots and sawdust get in the way. If you water new sod there with an underground system, Troy's overnight hours apply, so plan on a hose for the first stretch." }
+  ],
+  "reviews": ["anne-j", "rob-e"]
+}

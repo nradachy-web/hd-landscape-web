@@ -1,0 +1,158 @@
+---
+/* The closing band on every selling page: the form beside the phone, over one
+   of Jake's jobs at dusk. On a phone the form comes straight after the words,
+   because that is what the button the visitor just tapped promised. */
+import Icon from './Icon.astro';
+import Photo from './Photo.astro';
+import Fireflies from './Fireflies.astro';
+import QuoteForm from './QuoteForm.astro';
+import { BRAND } from '../data/site';
+import type { PhotoId } from '../data/photos';
+import { rich } from '../lib/rich';
+
+interface Props {
+  title?: string;
+  lede?: string;
+  eyebrow?: string;
+  service?: string;
+  town?: string;
+  /** Photos this page already shows. */
+  avoid?: string[];
+}
+const {
+  eyebrow = 'Free estimate',
+  title = 'Tell us about the yard.',
+  lede = 'Jake will walk the property, give you an honest read on what it needs and write an itemized estimate, so you know what you are paying for.',
+  service,
+  town,
+  avoid = [],
+} = Astro.props;
+
+/* A different evening photo per page, and never one the page has already used. */
+const OPTIONS: PhotoId[] = ['dusk-curve', 'dusk-stone', 'dusk-urn', 'dusk-patio', 'dusk-column', 'dusk-grand'];
+const seed = [...Astro.url.pathname].reduce((a, c) => a + c.charCodeAt(0), 0);
+const open = OPTIONS.filter((o) => !avoid.includes(o));
+const bg = open[seed % open.length] ?? 'dusk-curve';
+---
+
+<section class="band ink quote" aria-labelledby="quote-h">
+  <div class="quote__bg" aria-hidden="true">
+    <Photo id={bg} alt="" widths={[828, 1320]} sizes="100vw" />
+    <Fireflies />
+  </div>
+  <p class="note quote__note">Background: a finished job, relit for evening</p>
+  <div class="wrap quote__grid">
+    <div class="quote__head stack" style="--gap:1.15rem">
+      <p class="eyebrow">{eyebrow}</p>
+      <h2 class="h2" id="quote-h">{title}</h2>
+      <p class="lede" set:html={rich(lede)} />
+    </div>
+
+    <div class="quote__form light" id="quote">
+      <QuoteForm service={service} town={town} />
+    </div>
+
+    <div class="quote__rest stack" style="--gap:1.25rem">
+      <a class="quote__phone" href={BRAND.phoneHref} data-loc="quote-band">
+        <span class="fine muted">To talk now, call or text</span>
+        <span class="quote__num">{BRAND.phone}</span>
+      </a>
+      <a class="btn ghost quote__text" href={BRAND.smsHref} data-loc="quote-band-text"><Icon name="text" />Text us a photo of the yard</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .quote {
+    position: relative;
+    isolation: isolate;
+    overflow: clip;
+  }
+
+  .quote__note {
+    position: absolute;
+    left: var(--gutter);
+    bottom: 0.7rem;
+    color: rgb(244 246 239 / 0.82);
+  }
+
+  .quote__bg {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+  }
+
+  .quote__bg :global(picture),
+  .quote__bg :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .quote__bg::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgb(10 15 11 / 0.72), rgb(10 15 11 / 0.92));
+  }
+
+  .quote__grid {
+    display: grid;
+    gap: 1.75rem;
+  }
+
+  .quote__form {
+    scroll-margin-top: 0.75rem;
+    padding: clamp(1.25rem, 3vw, 2.25rem);
+    border-radius: var(--r);
+    box-shadow: 0 30px 60px rgb(0 0 0 / 0.45);
+  }
+
+  .quote__phone {
+    display: grid;
+    gap: 0.1rem;
+    text-decoration: none;
+  }
+
+  .quote__num {
+    font-family: var(--font-display);
+    font-size: clamp(2.1rem, 3vw + 1.2rem, 3rem);
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+  }
+
+  @media (max-width: 29.99rem) {
+    .quote__text {
+      width: 100%;
+    }
+  }
+
+  .quote__phone:hover .quote__num {
+    color: var(--leaf);
+  }
+
+  @media (min-width: 62rem) {
+    .quote__bg::after {
+      background: linear-gradient(to right, rgb(10 15 11 / 0.9) 0%, rgb(10 15 11 / 0.72) 50%, rgb(10 15 11 / 0.55) 100%);
+    }
+
+    .quote__grid {
+      grid-template-columns: minmax(0, 0.95fr) minmax(0, 1.05fr);
+      grid-template-rows: auto 1fr;
+      column-gap: clamp(3rem, 7vw, 6.5rem);
+      row-gap: 2rem;
+    }
+
+    .quote__head {
+      grid-area: 1 / 1;
+    }
+
+    .quote__form {
+      grid-area: 1 / 2 / 3 / 3;
+    }
+
+    .quote__rest {
+      grid-area: 2 / 1;
+    }
+  }
+</style>

@@ -1,0 +1,47 @@
+{
+  "service": "retaining-walls",
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Retaining Walls in Grosse Pointe, MI | HD Landscape",
+    "description": "Low block walls and raised bed borders for Grosse Pointe, MI, built to lift beds out of wet clay and finish the yard. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Retaining walls in Grosse Pointe, MI",
+    "title": "Low walls for **a very flat town.**",
+    "lede": "Grosse Pointe barely has a hill, so most walls here are low. HD Landscape builds block borders that lift a bed out of wet clay, square up a front yard or keep soil off a walk.",
+    "chips": ["Low block walls", "Raised bed borders", "Set back from the walk"],
+    "photo": "limestone-bed"
+  },
+  "local": {
+    "eyebrow": "Walls in the City",
+    "title": "What a wall is **really for** in Grosse Pointe.",
+    "intro": "On the USDA soil map, almost nothing in the city tops a 4 percent slope, so few yards need a wall to hold back a hillside. What they need is a way out of poorly drained ground, and a clean, finished edge that suits an older home.",
+    "points": [
+      { "title": "Beds lifted out of wet clay", "body": "Poorly drained clay covers roughly half the city on that same map. University of Minnesota Extension lists a very wet area as one reason to build a raised bed, and lifting a bed gives plants soil you can control. A low block border does that and gives the bed a shape." },
+      { "title": "Setbacks from the walk", "body": "The city's zoning code says a landscape retaining wall must be kept two feet behind the sidewalk. A wall with more than 24 inches of grade difference needs a building permit. The city has the final word, and rules change." },
+      { "title": "A town with real masonry", "body": "Brick and stone estate walls still line parts of East Jefferson. A new wall should sit comfortably near that, so block color and height get real thought. Restoring an old brick or stone wall is mason's work, and we will say so." },
+      { "title": "Roots near the wall line", "body": "MSU Extension places most of a tree's roots, about 80 percent, in the top 18 to 24 inches of soil. A wall trench cuts right through that zone, so around big trees the line should move, or the wall should be rethought, before a shovel goes in." }
+    ]
+  },
+  "logistics": {
+    "title": "The part of a Grosse Pointe wall **you never see** goes in first.",
+    "body": [
+      "Jake walks the line with you and looks at which way the ground falls. Buried lines get marked through MISS DIG 811 before digging. A well built wall starts with a trench and a packed gravel base, then block with gravel behind it, so water drains instead of pushing.",
+      "Extra soil can often go into the new bed. How the debris leaves goes on your estimate. Many cities require an engineer's design for walls over about 4 feet, and a wall holding up a driveway can need one too, so Jake will say if yours does.",
+      "We build these low walls across all five Pointes, the [Park](/service-areas/grosse-pointe-park/), the [Shores](/service-areas/grosse-pointe-shores/), the [Farms](/service-areas/grosse-pointe-farms/), the [City](/service-areas/grosse-pointe/) and the [Woods](/service-areas/grosse-pointe-woods/), but the setback and permit rules belong to each city."
+    ],
+    "facts": [
+      { "label": "Most common", "value": "Low block walls and borders" },
+      { "label": "From the walk", "value": "Two feet back, per city code" },
+      { "label": "Estimate", "value": "Free and itemized" }
+    ]
+  },
+  "photo": "ranch-stone-bed",
+  "faq": [
+    { "q": "Do you build retaining walls in Grosse Pointe?", "a": "Yes. HD Landscape builds low block walls and raised bed borders in Grosse Pointe, MI, one of the places we work most. Few yards here need a wall to hold back a hill, so most walls lift a bed out of wet clay or finish a front yard." },
+    { "q": "Does a retaining wall in Grosse Pointe need a permit?", "a": "Only past a certain height. The city's zoning code calls for a building permit when the grade on each side differs by more than 24 inches. Many low borders stay under that, but confirm it with the city's building department before work starts." },
+    { "q": "Can you repair an old brick garden wall?", "a": "That is a job for a mason. We build low block walls and raised bed borders. If you have an old estate wall in your yard, we can plan the beds and plants around it and leave the masonry to someone who does that work." },
+    { "q": "Will a retaining wall fix my wet yard?", "a": "Not on its own. A wall holds soil, and the water still has to go somewhere. On flat, poorly drained ground, [the grade](/yard-grading/) comes first, and then it is a question of whether a raised bed helps. Plants in a raised bed also need more water in dry weather." }
+  ],
+  "reviews": ["stephen-d", "rob-e", "billy-w"]
+}

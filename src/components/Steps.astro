@@ -1,0 +1,60 @@
+---
+/* A numbered sequence. Numbers appear here and nowhere else on the site. */
+import { rich } from '../lib/rich';
+
+interface Props {
+  steps: { title: string; body: string; note?: string }[];
+}
+const { steps } = Astro.props;
+const cols = steps.length === 4 ? 'c4' : 'c3';
+---
+
+<ol class:list={['grid', cols, 'steps']}>
+  {
+    steps.map((s, i) => (
+      <li class="steps__item">
+        <span class="steps__n" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+        <h3 class="h3">{s.title}</h3>
+        <p class="small muted" set:html={rich(s.body)} />
+        {s.note && <p class="steps__note fine">{s.note}</p>}
+      </li>
+    ))
+  }
+</ol>
+
+<style>
+  .steps {
+    counter-reset: step;
+  }
+
+  .steps__item {
+    display: grid;
+    align-content: start;
+    gap: 0.6rem;
+    padding-top: 1.25rem;
+    border-top: 2px solid var(--forest);
+  }
+
+  .steps__n {
+    font-family: var(--font-display);
+    font-size: 0.875rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--leaf-ink);
+  }
+
+  :global(.ink) .steps__n {
+    color: var(--leaf-soft);
+  }
+
+  .steps__note {
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  :global(.ink) .steps__note {
+    color: var(--on-ink-muted);
+  }
+</style>

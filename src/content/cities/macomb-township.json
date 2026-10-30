@@ -1,0 +1,104 @@
+{
+  "city": "macomb-township",
+  "meta": {
+    "title": "Landscaping in Macomb Township, MI | HD Landscape",
+    "description": "Sod, planting, grading and design for Macomb Township yards, on sand or silty clay and planned around the watering rule. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscaping in Macomb Township, MI",
+    "title": "Newer homes. **Old farm ground.**",
+    "lede": "Macomb Township went from about 50,000 people in 2000 to more than 91,000 in 2020, much of it on flat former farmland. HD Landscape sorts out what a fast build left behind: thin lawns, wet back corners and beds nobody really planned.",
+    "chips": [
+      "Plants suited to sand or clay",
+      "Beds planned for the whole lot",
+      "Free, itemized estimates"
+    ],
+    "photo": "dusk-maple"
+  },
+  "about": {
+    "eyebrow": "Yards in Macomb Township",
+    "title": "A township that grew faster **than its yards could.**",
+    "body": [
+      "Macomb Township began as flat, fertile farmland near the Clinton River, and some of it still is. The 2022 master plan counts 14,050 new housing units over the prior 20 years against only 197 demolitions. Single family homes now cover about half the land, and subdivisions and site condominiums are the common pattern.",
+      "You can see that in the yard. A lawn and a row of foundation shrubs went in as the house was finished, often on ground that machines had just moved. Ten or twenty years on, plenty of owners are ready for the yard to catch up with the house.",
+      "On the newer streets the trees are still young, so there is more sun and more open lawn to work with than in the older suburbs to the south. The plan caps its most common neighborhood type at three homes per acre, and the large lot northeast, with its farms and horse properties, at two. That leaves plenty of lawn to keep alive, and room for beds that suit the size of the lot."
+    ],
+    "points": [
+      {
+        "title": "Full sun, young trees",
+        "body": "Former farm fields did not come with shade. Beds on these lots often take sun all day. We choose plants that can handle that, and we can [place a tree](/plant-installation/) now that could shade the house in twenty years."
+      },
+      {
+        "title": "Wet corners in the north",
+        "body": "The master plan maps about 1,638 acres of potential wetland, mostly in the north half of the township, and woodlands largely follow the same map. If a low corner of your lot stays wet all spring, find out what it is before it gets filled or cleared."
+      },
+      {
+        "title": "Drains run through it",
+        "body": "The McBride Drain runs north to south through the entire township, and the plan lists flood zones along the Clinton River and drains such as Hart, Stein and Klockow. If your lot backs up to one, tell us, and ask the township before the ground changes."
+      },
+      {
+        "title": "A watering rule to plan around",
+        "body": "Lawn watering is limited by address for five months of the year. New plants and [sod](/sod-installation-macomb-township-mi/) want steady water, so the date of a job matters here as much as the plant list."
+      }
+    ],
+    "photo": "island-bed"
+  },
+  "logistics": {
+    "title": "Bring your subdivision's rules to the first walk.",
+    "body": [
+      "Bring your subdivision's rules if you have them, because they can decide what goes out front. Out on the lot, Jake will want to see what the soil is doing at the back and where water stands after a rain. The estimate that follows is itemized, so you can read it line by line.",
+      "Most newer lots give us a good driveway to stage from. Dirt on the drive should get swept back onto the lawn, not hosed off, because the township says storm drains lead to lakes and streams. Township yard waste pickup does not take dirt or sod, so how that dirt and sod get off the lot goes on your estimate."
+    ],
+    "facts": [
+      {
+        "label": "Lawn watering",
+        "value": "Odd/even, May 15 to October 15"
+      },
+      {
+        "label": "Near a county drain",
+        "value": "Ask the township before regrading"
+      },
+      {
+        "label": "Estimate",
+        "value": "Free and itemized"
+      },
+      {
+        "label": "To talk now",
+        "value": "Call or text Jake"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "q": "Do you do landscaping in Macomb Township?",
+      "a": "Yes. HD Landscape works in Macomb Township on [sod](/sod-installation-macomb-township-mi/), [plant installation](/plant-installation/), [yard grading](/yard-grading/), [landscape design](/landscape-design/), [spring and fall cleanups](/spring-and-fall-cleanups/), [hedge trimming](/hedge-trimming/) and [monthly maintenance](/monthly-landscape-maintenance/). Our home base is St. Clair Shores, and the estimate is free. We do not install sprinklers or do lawn aeration."
+    },
+    {
+      "q": "Is the soil in Macomb Township clay or sand?",
+      "a": "Both, and it can change within a short distance. Lenawee silty clay loam is the most common single soil, at about 18 percent of the township, but USDA soil maps put about half the ground in sand or sandy loam at the surface. Even that sandy ground can sit wet in spring, because USDA rates about nine in ten acres here somewhat poorly drained or worse. The plant list should follow what your own soil is doing."
+    },
+    {
+      "q": "What are the lawn watering rules in Macomb Township?",
+      "a": "The township has a mandatory odd/even rule from May 15 through October 15. Odd numbered addresses water on odd calendar days, even numbered addresses on even days, and automatic systems may run from midnight to 6 a.m. Rules can change, so confirm with the township, and ask whether new sod or plantings have any exception. We can also [water new plants for you](/plant-watering/) within the rule."
+    },
+    {
+      "q": "Why is the back of my yard always wet?",
+      "a": "Usually because the ground is flat and slow to drain. Macomb Township's master plan calls it largely flat, and USDA rates most of its soils somewhat poorly drained or worse, so it does not take much for water to lose its way. We can reshape the low spots with [yard grading](/yard-grading/) and keep any swale the builder cut doing its job. If your yard sits near a county drain or a mapped flood zone, grading has limits, and you will hear that from Jake on the first walk."
+    },
+    {
+      "q": "Can you plant a privacy screen in a newer subdivision?",
+      "a": "Yes. Newer lots often look straight across open yards, and a row of evergreens or a mixed bed fixes that. Give each [plant](/plant-installation/) room for its full size and keep the root flare at the soil line. Check your association's rules first, and buried utility lines should be marked through 811 before digging."
+    }
+  ],
+  "reviews": [
+    "rob-e",
+    "gina-d",
+    "marie-b"
+  ],
+  "neighbors": [
+    "clinton-township",
+    "shelby-township",
+    "chesterfield-township",
+    "washington-township"
+  ]
+}

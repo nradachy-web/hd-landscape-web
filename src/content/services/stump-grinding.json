@@ -1,0 +1,256 @@
+{
+  "service": "stump-grinding",
+  "meta": {
+    "title": "Stump Grinding in St. Clair Shores, MI | HD Landscape",
+    "description": "Stump grinding in St. Clair Shores and around Metro Detroit. Stumps ground below grade, with a plan for the chips and the spot. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Stump grinding in St. Clair Shores, MI and around Metro Detroit",
+    "title": "Stump gone. **Yard back.**",
+    "lede": "HD Landscape grinds stumps below grade, and we can lay the sod or do the planting that fills the spot. Itemized estimate first, clean yard after.",
+    "chips": [
+      "Ground below grade",
+      "A plan for the wood chips",
+      "Sod or planting can follow"
+    ],
+    "photo": "ai-stump"
+  },
+  "blocks": [
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "The short version",
+      "title": "Grinding takes the stump. **What comes next fixes the yard.**",
+      "body": [
+        "HD Landscape grinds stumps in St. Clair Shores and across Metro Detroit. A stump grinder is a machine with a toothed wheel that chews the stump into wood chips, down below the level of the lawn. Iowa State University Extension calls it the quickest, easiest and safest way to remove a stump.",
+        "The catch is what it leaves behind: a pile of wood shavings in the hole. Left there, shavings make it hard for new grass or plants to grow. So the plan covers what happens to the spot. Tell us what you want there next and we will set it up for that."
+      ],
+      "checks": [
+        "Stump ground below grade",
+        "A plan for the shavings, written into the estimate",
+        "Topsoil set a little high, because the spot settles",
+        "[Sod](/sod-installation/), [beds](/plant-installation/) or [stone](/rock-and-stone-installation/) can follow"
+      ],
+      "photo": "grade-rake"
+    },
+    {
+      "type": "compare",
+      "plane": "white",
+      "eyebrow": "Your options",
+      "title": "Three ways to lose a stump, one we recommend.",
+      "intro": "Grinding is our pick for most yards. Here is how it stacks up, going by Iowa State University Extension's stump guide.",
+      "columns": [
+        "Grinding",
+        "Digging it out",
+        "Letting it rot"
+      ],
+      "highlight": 0,
+      "rows": [
+        {
+          "label": "How long",
+          "values": [
+            "A matter of hours",
+            "Quick, but very hard labor",
+            "Can take 10 years or more"
+          ]
+        },
+        {
+          "label": "Works on",
+          "values": [
+            "Most stumps in most yards",
+            "Smaller stumps, under about 12 inches",
+            "Stumps out of the way, not a hazard"
+          ]
+        },
+        {
+          "label": "What it leaves",
+          "values": [
+            "Wood shavings in the hole",
+            "A big hole to fill",
+            "The stump, for years"
+          ]
+        },
+        {
+          "label": "The yard after",
+          "values": [
+            "Ready for soil, then lawn or a bed",
+            "Ready once the hole is filled",
+            "You mow around it"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "steps",
+      "plane": "ink",
+      "eyebrow": "Start to finish",
+      "title": "From stump to a spot you can use.",
+      "steps": [
+        {
+          "title": "Look",
+          "body": "Jake looks at the stump and what is around it, or starts from a photo. Tell him what you want in that spot next, because it changes the plan."
+        },
+        {
+          "title": "Mark",
+          "body": "Buried lines get marked before digging. Michigan requires a notice to MISS DIG 811 at least three business days ahead.",
+          "note": "Three business days ahead"
+        },
+        {
+          "title": "Grind",
+          "body": "The stump comes down below grade, along with any big roots at the surface that are in the way."
+        },
+        {
+          "title": "Reset",
+          "body": "Shavings come out where they need to, topsoil goes in a little high for settling, and the spot is ready for sod, a bed or stone."
+        }
+      ],
+      "footnote": "Locators mark public utility lines, not private ones like sprinkler systems, invisible dog fences or a feed to a shed or detached garage. A private locating company can mark those for a fee. If you have any near the stump, tell us where they run."
+    },
+    {
+      "type": "cards",
+      "plane": "paper",
+      "eyebrow": "After the grind",
+      "title": "What goes where the stump was.",
+      "intro": "A ground stump leaves soil full of wood, and wood changes how that soil holds water and feeds plants. Here is what to do about it, depending on what comes next.",
+      "columns": 3,
+      "items": [
+        {
+          "title": "Lawn",
+          "body": "Get the shavings out, add topsoil a little above grade and let it settle, then lay sod or seed. Iowa State University Extension says buried wood ties up nitrogen and dries out fast, which is why grass struggles there. [We lay sod](/sod-installation/)."
+        },
+        {
+          "title": "A new bed",
+          "body": "A stump in the middle of the yard is a good excuse for a bed. With the shavings out and fresh soil in, the spot is ready for [new planting](/plant-installation/) or [rock and stone](/rock-and-stone-installation/)."
+        },
+        {
+          "title": "A new tree",
+          "body": "Not in the same hole. Iowa State University Extension advises planting at least three feet away, ideally six to eight, because old roots and sawdust get in the way. If the old tree died of a disease or pest, choose a tree that problem does not affect."
+        }
+      ]
+    },
+    {
+      "type": "gallery",
+      "plane": "white",
+      "eyebrow": "What comes next",
+      "title": "Nobody frames a photo of a stump. **This is the good part.**",
+      "intro": "Lawn, beds and stone from our other jobs, the kind of work that can follow a stump.",
+      "photos": [
+        "sod-backyard",
+        "black-stone-kidney",
+        "curve-brick-bed",
+        "evergreen-island",
+        "sod-colonial",
+        "steppers-lawn"
+      ]
+    },
+    {
+      "type": "intro",
+      "plane": "paper",
+      "eyebrow": "Stumps in St. Clair Shores",
+      "title": "In a fenced yard, **the gate matters.**",
+      "body": [
+        "St. Clair Shores is home base for HD Landscape, and it is a tightly built city. General one family zoning here allows lots as small as 6,000 square feet, so getting a grinder to a backyard stump is a real question here. Before we quote it, we want to know how the machine gets in.",
+        "The easiest way to start is a text with two photos: the stump and the narrowest spot on the way to it. Here is what helps Jake give you a straight answer."
+      ],
+      "checks": [
+        "How wide the stump is at its widest point",
+        "The narrowest gate or gap on the way to it",
+        "What is close by: a fence, a foundation, a drive, a bed",
+        "What you want in that spot next"
+      ],
+      "photo": "flagstone-side",
+      "flip": true,
+      "cta": {
+        "label": "Get a free stump estimate",
+        "href": "#quote"
+      }
+    },
+    {
+      "type": "reviews",
+      "plane": "ink",
+      "eyebrow": "From our Google reviews",
+      "title": "On time, itemized and left clean.",
+      "ids": [
+        "anne-j",
+        "rob-e"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you do stump grinding in St. Clair Shores?",
+      "a": "Yes. HD Landscape grinds stumps in St. Clair Shores, where the business is based, and across Metro Detroit. Lots are tight in much of this town, so start with two photos: the stump and the narrowest gate on the way to it."
+    },
+    {
+      "q": "How much does stump grinding cost?",
+      "a": "The size of the stump sets most of it, along with how the grinder gets in and what sits close by. A clear photo is enough to get started, and a free itemized estimate comes from there."
+    },
+    {
+      "q": "How deep do you grind a stump?",
+      "a": "Below grade, so lawn or a new bed can go back on top. Iowa State University Extension puts a typical grind at 8 to 12 inches. If you plan to plant in that spot, tell us before we start."
+    },
+    {
+      "q": "What happens to the wood chips after stump grinding?",
+      "a": "Grinding leaves a big pile of shavings. If the spot is going back to lawn or a bed, most of that should come out, because wood in the soil makes it hard for new plants to grow. We will go over the plan for the shavings with you and put it on the estimate."
+    },
+    {
+      "q": "Can grass grow where a stump was ground?",
+      "a": "Yes, once the spot is prepared. The wood shavings should come out, topsoil goes in slightly above grade to allow for settling, and then sod or seed can go down. We can handle the [sod installation](/sod-installation/) as well."
+    },
+    {
+      "q": "Can I plant a new tree in the same spot as the old stump?",
+      "a": "It is not ideal. Iowa State University Extension recommends planting at least three feet from the old spot, and ideally six to eight, because old roots and sawdust get in the way. If it has to be the same spot, waiting a year or two helps."
+    },
+    {
+      "q": "Will a tree grow back after stump grinding?",
+      "a": "Some trees do send up sprouts after they are cut down. Tell Jake what kind of tree it was so he can tell you what to expect. If sprouts show up later, cut them off at the ground as they appear."
+    },
+    {
+      "q": "Do you have to call MISS DIG before grinding a stump?",
+      "a": "Michigan requires a notice to MISS DIG 811 at least three business days before a digging project of any size or depth, and it is the responsibility of whoever does the work. The service is free. Private lines, like sprinkler systems, are not marked, so tell us if you have any nearby."
+    },
+    {
+      "q": "Can you get a stump grinder into a fenced backyard?",
+      "a": "Often, but it depends on the gate and the path to the stump. Text a photo of the stump and the narrowest gap on the way to it, and Jake can size up what it will take."
+    },
+    {
+      "q": "Can you grind a stump left from an old tree removal?",
+      "a": "Yes. The stump does not have to be from a tree we took down. Old stumps left behind by another company or a past owner are fine. If the tree is still standing and it is a smaller one, we can [take that down](/tree-trimming-and-removal/) too. A big one needs a tree company first, and we can grind what it leaves."
+    },
+    {
+      "q": "Can I just leave the stump, or burn it out?",
+      "a": "You can leave it if it is out of the way, but it can take 10 years or more to rot on its own. Do not burn it. Iowa State University Extension warns that stump fires can burn for days and are hard to put out, and many cities do not allow them."
+    },
+    {
+      "q": "How long does stump grinding take?",
+      "a": "The grinding itself is a matter of hours, and many stumps are finished in one visit, depending on size and access. Soil, sod or planting afterward can add time, and your estimate will show what is included."
+    }
+  ],
+  "quote": {
+    "title": "Tell us about the stump.",
+    "lede": "How wide is it, where is it and what do you want there next? Text Jake a photo of the stump and the way in, and the itemized estimate starts from there."
+  },
+  "summary": {
+    "title": "Stump grinding covers the grind, the chips and the spot after.",
+    "intro": "A stump job is about the yard you get back. Here is what goes into it, and every piece shows up on your estimate before we start.",
+    "items": [
+      {
+        "name": "Grinding",
+        "detail": "Stump ground below grade so the spot can be reused."
+      },
+      {
+        "name": "A plan for the chips",
+        "detail": "Shavings handled the way your next step needs, spelled out on the estimate."
+      },
+      {
+        "name": "Ready for what is next",
+        "detail": "Set up for sod, a bed or stone, and we can do that work too."
+      },
+      {
+        "name": "Cleanup",
+        "detail": "The site left clean before we go."
+      }
+    ],
+    "footnote": "Buried utility lines get marked before any grinding. In Michigan that takes at least three business days, so plan on it."
+  }
+}

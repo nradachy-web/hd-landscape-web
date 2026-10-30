@@ -1,0 +1,49 @@
+{
+  "service": "landscape-renovation",
+  "city": "birmingham",
+  "meta": {
+    "title": "Landscape Renovation in Birmingham, MI | HD Landscape",
+    "description": "Landscape renovation for Birmingham, MI homes: tired beds out, new grade, then plants, stone and sod in, with the city's plant list and street trees in mind."
+  },
+  "hero": {
+    "kicker": "Landscape renovation in Birmingham, MI",
+    "title": "Old house, **new front yard.**",
+    "lede": "Half of Birmingham's homes were built before 1960, and plenty of the beds around them stopped working years ago. HD Landscape pulls what is tired, fixes the grade and rebuilds the yard to suit the house.",
+    "chips": ["Old beds out, roots and all", "New grade, plants and stone", "Clean job site"],
+    "photo": "tudor-planting"
+  },
+  "local": {
+    "eyebrow": "Renovation in Birmingham",
+    "title": "An old foundation bed and a new build yard **need different fixes.**",
+    "intro": "Census figures put half the city's homes before 1960, with the 1950s the biggest decade of all. Nearly one in five went up in 2000 or later, and the city's own plan talks about a significant number of demolitions. So one block can hold a seventy year old foundation bed next door to a new build whose yard never got finished.",
+    "points": [
+      { "title": "The old foundation bed", "body": "Shrubs planted for a 1950s house were never meant to reach the windows. When trimming can no longer bring them back, they come out, roots and all, and the bed gets rebuilt at a scale that suits the house." },
+      { "title": "What comes out cannot go back", "body": "Japanese barberry, common privet and burning bush turn up in a lot of older beds, and all three are on the city's prohibited species list. The zoning code says an existing prohibited plant may not be replaced, and the city can require removal at the owner's expense. A renovation is the natural time to swap them." },
+      { "title": "The new build yard", "body": "New houses here go through a city drainage review, so the yard may have a designed swale or pop-up drain in it. A bed dropped across one sends water where it was never meant to go. Those lines need finding before a shovel goes in." },
+      { "title": "Roots from the street", "body": "A street tree's roots do not stop at the sidewalk. The city's tree manual lists landscaping next to a street tree among the jobs that can need a root pruning permit, and it says most of a tree's roots often sit in the top 18 inches of soil. Digging near the street deserves a hard look first." }
+    ]
+  },
+  "logistics": {
+    "title": "Save what is worth saving, then tear out the rest.",
+    "body": [
+      "The first walk through is about what stays. A good Japanese maple or a healthy old yew can anchor the new layout, and keeping it beats starting over. Jake gives you his advice on which is which, and the itemized estimate that follows puts tear out, grading, plants and stone on their own lines.",
+      "Tear out makes the most mess, and Birmingham drives and side yards leave little room for it. The city says its curbside yard waste pickup is not for landscaping company material or a complete renovation, so none of this can wait at the curb. How the debris leaves goes on your estimate. Where it sits and how materials come in are worth settling before the first shovel, and the walks and drive get cleaned before we leave.",
+      "A front yard is often finished in a day when the scope allows it. Full yards take longer, and the walk through is the time to ask how long. When the plants are in, Jake calls to see how it went and explains the watering."
+    ],
+    "facts": [
+      { "label": "First step", "value": "Deciding what is worth saving" },
+      { "label": "Front yard redo", "value": "Often one day" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "After the job", "value": "A call from Jake" }
+    ]
+  },
+  "photo": "curve-brick-bed",
+  "faq": [
+    { "q": "Do you do landscape renovation in Birmingham?", "a": "Yes. HD Landscape renovates yards in Birmingham, MI, from one tired foundation bed to a full front and back redo. Old beds come out, the grade gets fixed, and new plants, stone and sod go in. The estimate is itemized, so you can see what each part of the job is." },
+    { "q": "How long does a renovation take?", "a": "A front yard redo is often finished in a day when the scope allows it. A full yard with grading, sod and stone takes longer. On a Birmingham lot a narrow side yard can add time too, since materials have to come in and debris has to go out through the same gap." },
+    { "q": "Can you keep some of my existing plants?", "a": "Yes, and we would rather. A healthy mature shrub is worth working around, and a good tree often becomes the center of the new layout. The exception is anything on Birmingham's prohibited species list. It cannot be planted again, so we talk about whether now is the time for it to go." },
+    { "q": "Our new build yard never got finished. Can you fix it?", "a": "Yes. Soil around a new house is often compacted and full of construction debris, which is why plants and sod struggle there. We clear it out, shape the surface and build the beds, while keeping the drainage the lot was designed with. Birmingham reviews how new houses drain, so if a swale or pop-up drain is in the way, the plan works with it." },
+    { "q": "Will a renovation hurt my old trees?", "a": "Not if it is planned right. Most of a tree's roots often sit in the top 18 inches of soil, so the soil level should stay where it belongs at the trunk and the digging should go gently around the roots. If the tree is a Birmingham street tree, root work needs the city's approval first." }
+  ],
+  "reviews": ["rob-e", "stephen-d", "billy-w"]
+}

@@ -1,0 +1,94 @@
+---
+/* One blog post as a card: photo, topic, title, the lede, date and reading
+   time. The whole card is the link. */
+import Photo from './Photo.astro';
+import { service } from '../data/services';
+import { dateLabel, minutes, postPath, type Post } from '../lib/blog';
+import { href } from '../lib/paths';
+import { plain } from '../lib/rich';
+
+interface Props {
+  post: Post;
+  as?: 'h2' | 'h3';
+  sizes?: string;
+}
+const { post, as: Tag = 'h3', sizes = '(min-width: 60rem) 36vw, (min-width: 40rem) 46vw, 100vw' } = Astro.props;
+const d = post.data;
+---
+
+<li>
+  <a class="pc card" href={href(postPath(post))}>
+    <div class="pc__photo">
+      <Photo id={d.photo} ratio={16 / 10} widths={[400, 640, 880]} sizes={sizes} alt="" />
+    </div>
+    <div class="pc__body">
+      <p class="pc__topic fine">{service(d.service).name}</p>
+      <Tag class="h3">{plain(d.title)}</Tag>
+      <p class="small muted">{d.lede}</p>
+      <p class="fine muted pc__meta"><time datetime={d.published}>{dateLabel(d.published)}</time>, {minutes(post)} minute read</p>
+      <span class="arrow small">Read the post</span>
+    </div>
+  </a>
+</li>
+
+<style>
+  .pc {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+    transition:
+      border-color 0.2s var(--ease),
+      translate 0.2s var(--ease);
+  }
+
+  .pc:hover {
+    border-color: var(--leaf-ink);
+    translate: 0 -3px;
+  }
+
+  .pc__photo {
+    overflow: hidden;
+    aspect-ratio: 16 / 10;
+    background: var(--ink-3);
+  }
+
+  .pc__photo :global(img) {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: scale 0.6s var(--ease);
+  }
+
+  .pc:hover .pc__photo :global(img) {
+    scale: 1.045;
+  }
+
+  .pc__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding: 1.25rem 1.25rem 1.4rem;
+  }
+
+  .pc__topic {
+    font-family: var(--font);
+    font-weight: 640;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--leaf-ink);
+  }
+
+  .pc__meta {
+    margin-top: auto;
+    padding-top: 0.35rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .pc,
+    .pc__photo :global(img) {
+      transition: none;
+    }
+  }
+</style>

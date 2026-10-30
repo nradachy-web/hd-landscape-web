@@ -1,0 +1,48 @@
+{
+  "service": "landscape-renovation",
+  "city": "grosse-pointe",
+  "meta": {
+    "title": "Landscape Renovation in Grosse Pointe, MI | HD Landscape",
+    "description": "Landscape renovation for Grosse Pointe, MI: tired beds cleared, grade corrected, new planting, stone and sod around an older home. Free itemized estimates."
+  },
+  "hero": {
+    "kicker": "Landscape renovation in Grosse Pointe, MI",
+    "title": "Decades of planting, **finally sorted out.**",
+    "lede": "A Grosse Pointe yard can hold 80 years of good intentions. HD Landscape takes out what no longer earns its place, corrects the grade, and brings in new plants, stone and sod around a home that deserves the trouble.",
+    "chips": ["Old beds out", "Grade corrected", "New plants, stone and sod"],
+    "photo": "tudor-planting"
+  },
+  "local": {
+    "eyebrow": "Renovation in the City",
+    "title": "What a renovation usually finds in **an old Grosse Pointe yard.**",
+    "intro": "Better than half the housing in Grosse Pointe predates 1939. Over all those years somebody added a shrub, somebody else added a bed, and the trees overhead came and went. A good renovation is part demolition and part editing.",
+    "points": [
+      { "title": "Shrubs that swallowed the windows", "body": "MSU Extension notes that people underestimate how big a shrub gets, and old foundation plantings prove it. We [take out what has outgrown the house](/plant-removal/), roots and all, then replant with room to mature." },
+      { "title": "Grades that crept up", "body": "Years of added soil and mulch can leave a bed sitting high against the foundation. On poorly drained clay that keeps water where you least want it, so the bed has to come back down and slope away from the house." },
+      { "title": "Big trees come first", "body": "By MSU Extension's numbers, most of a tree's roots live in the top two feet of soil. Those roots should never get buried just to level a yard. The tree usually matters more than the bed." },
+      { "title": "Lots on the water", "body": "The city's master plan says most lakeshore properties here sit at least partly in FEMA flood Zone AE, and that the shoreline floodplain has been rising. Ask the city before any change to the grade near the shore. We work behind the seawall, not on it." }
+    ]
+  },
+  "logistics": {
+    "title": "The garage is out back, **so we plan the route first.**",
+    "body": [
+      "With the garage behind the house, the drive is often the only way to the back of the yard. How soil, stone and plants get there gets settled ahead of time, and you will hear if a car needs to move. Some jobs finish in a day, and bigger ones take longer.",
+      "Commercial landscape debris is a private haul under the city's refuse rules, so it does not belong on your weekly pickup. How the debris leaves goes on your estimate, and the walks and the drive get cleaned before the crew goes home.",
+      "Renovation work runs through all five Pointes: the [City](/service-areas/grosse-pointe/), the [Woods](/service-areas/grosse-pointe-woods/), the [Park](/service-areas/grosse-pointe-park/), the [Shores](/service-areas/grosse-pointe-shores/) and the [Farms](/service-areas/grosse-pointe-farms/). The rules quoted here are the City's, so if you live in another Pointe, ask about yours."
+    ],
+    "facts": [
+      { "label": "How long", "value": "Some jobs finish in a day" },
+      { "label": "Ask the city first", "value": "Fences, taller walls, lakefront grading" },
+      { "label": "Estimate", "value": "Free and itemized" },
+      { "label": "Not included", "value": "Sprinkler installation" }
+    ]
+  },
+  "photo": "shade-lawn",
+  "faq": [
+    { "q": "Do you do landscape renovation in Grosse Pointe?", "a": "Yes. HD Landscape renovates yards in Grosse Pointe, MI, one of the places we work most. It usually means old beds out, the grade corrected, then new plants, stone and [sod](/sod-installation-grosse-pointe-mi/). You can do the front, the back or all of it, and each piece gets its own line on the estimate." },
+    { "q": "Should I keep my old shrubs or start over?", "a": "Some old shrubs are worth saving, and some have been past help for years. In yards this old you usually get both. Jake will walk through them with you and say which is which, and if a [good trim](/hedge-trimming-grosse-pointe-mi/) will bring one back, he will say that instead of selling you a new plant." },
+    { "q": "Does a landscape renovation in Grosse Pointe need a permit?", "a": "Parts of one can. A new fence, or a wall holding more than 24 inches of grade, needs a building permit under the city's zoning code. Lakefront grading and any historic review are also worth asking about. The city has the final word, and its rules can change." },
+    { "q": "Can you redo just the front yard?", "a": "Yes. On a narrow lot the front yard is often where the money shows, so it is a fair place to start. We can plan the back for later so the two match when you are ready." }
+  ],
+  "reviews": ["rob-e", "stephen-d", "billy-w"]
+}

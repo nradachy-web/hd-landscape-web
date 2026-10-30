@@ -1,0 +1,46 @@
+---
+/* Google Analytics, on the production domain only. The tag library is big, so it
+   waits for the visitor's first touch, scroll or key press, or a visit with an ad
+   click ID, and events before that are queued. That is what keeps the pages at
+   100 on PageSpeed. His GA4 property is kept so his history carries over.
+
+   The click ID and UTM tags are kept for 90 days and handed to the estimate form,
+   so a lead can be traced to the ad that brought it. Phone taps and form sends
+   are counted as events. */
+import { TRACKING } from '../data/site';
+---
+
+<script is:inline define:vars={{ T: TRACKING }}>
+  (function () {
+    var w = window, KEYS = ['gclid', 'gbraid', 'wbraid', 'utm_source', 'utm_medium', 'utm_campaign', 'utm_term', 'utm_content'], fromAd = false;
+    try {
+      var q = new URLSearchParams(location.search), m = document.cookie.match(/(?:^|;\s*)hd_src=([^;]+)/), kept = m ? JSON.parse(decodeURIComponent(m[1])) || {} : {}, fresh = false;
+      KEYS.forEach(function (k) { var v = q.get(k); if (v) { kept[k] = v.slice(0, 200); fresh = true; if (k.length === 5 || k.length === 6) fromAd = true; } });
+      if (fresh) document.cookie = 'hd_src=' + encodeURIComponent(JSON.stringify(kept)) + ';path=/;max-age=7776000;samesite=lax' + (location.protocol === 'https:' ? ';secure' : '');
+    } catch (e) {}
+    var live = location.hostname.replace(/^www\./, '') === T.host;
+    w.dataLayer = w.dataLayer || [];
+    w.gtag = function () { dataLayer.push(arguments); };
+    function ev(name, params) { if (live) gtag('event', name, params || {}); }
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="tel:"],a[href^="sms:"]');
+      if (a) ev(a.href.indexOf('tel:') === 0 ? 'phone_tap' : 'text_tap', { location: a.dataset.loc || '' });
+    });
+    if (!live) return;
+    gtag('js', new Date());
+    gtag('config', T.ga4);
+    if (document.documentElement.hasAttribute('data-lead')) ev('generate_lead');
+    var done = false, wake = ['pointerdown', 'touchstart', 'keydown', 'scroll'];
+    function load() {
+      if (done) return;
+      done = true;
+      wake.forEach(function (n) { removeEventListener(n, load); });
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + T.ga4;
+      document.head.appendChild(s);
+    }
+    if (fromAd || document.documentElement.hasAttribute('data-lead')) load();
+    else wake.forEach(function (n) { addEventListener(n, load, { passive: true }); });
+  })();
+</script>
