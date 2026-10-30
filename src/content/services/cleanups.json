@@ -8,7 +8,12 @@
     "kicker": "Spring and fall yard cleanups in St. Clair Shores and Metro Detroit",
     "title": "Reset the yard, **twice a year.**",
     "lede": "A cleanup from HD Landscape is when the yard catches up. We clear the beds, rake out the leaves, pull the weeds, tidy the shrubs and leave the place clean, in spring, in fall or both.",
-    "chips": ["Beds cleared", "Leaves raked out", "Shrubs tidied", "Site left clean"],
+    "chips": [
+      "Beds cleared",
+      "Leaves raked out",
+      "Shrubs tidied",
+      "Site left clean"
+    ],
     "photo": "colonial-fall"
   },
   "blocks": [
@@ -37,8 +42,14 @@
       "eyebrow": "Real job",
       "title": "From weeds **to a clean bed.**",
       "intro": "The same foundation, before and after. Drag the line to compare.",
-      "pairs": ["ba-foundation"],
-      "checks": ["Weeds pulled from the bed", "Bed line cut clean", "Finished with fresh black mulch"]
+      "pairs": [
+        "ba-foundation"
+      ],
+      "checks": [
+        "Weeds pulled from the bed",
+        "Bed line cut clean",
+        "Finished with fresh black mulch"
+      ]
     },
     {
       "type": "compare",
@@ -46,14 +57,53 @@
       "eyebrow": "Spring or fall",
       "title": "Two cleanups, two different jobs.",
       "intro": "Both leave the yard clean. The work is different because the plants are waking up in one and shutting down in the other.",
-      "columns": ["Spring cleanup", "Fall cleanup"],
+      "columns": [
+        "Spring cleanup",
+        "Fall cleanup"
+      ],
       "rows": [
-        { "label": "When", "values": ["After the snow melts, once the ground is firm enough to walk on", "Once most of the leaves are down"] },
-        { "label": "Leaves", "values": ["Matted leaves lifted off the beds, gently around new shoots", "Cleared from beds and corners so they do not sit all winter"] },
-        { "label": "Perennials", "values": ["Last year's stems and ornamental grasses cut back", "Hosta, daylily and peony cut back to reduce slugs and disease"] },
-        { "label": "Shrubs", "values": ["Dead or broken wood out. Spring bloomers wait until after they flower", "Tidied only. Real pruning waits for spring"] },
-        { "label": "Weeds", "values": ["Pulled early, before they flower and seed", "Pulled so the beds go into winter clean"] },
-        { "label": "Sets up", "values": ["Mulch, new planting and a clean start", "A clean yard and a shorter list in spring"] }
+        {
+          "label": "When",
+          "values": [
+            "After the snow melts, once the ground is firm enough to walk on",
+            "Once most of the leaves are down"
+          ]
+        },
+        {
+          "label": "Leaves",
+          "values": [
+            "Matted leaves lifted off the beds, gently around new shoots",
+            "Cleared from beds and corners so they do not sit all winter"
+          ]
+        },
+        {
+          "label": "Perennials",
+          "values": [
+            "Last year's stems and ornamental grasses cut back",
+            "Hosta, daylily and peony cut back to reduce slugs and disease"
+          ]
+        },
+        {
+          "label": "Shrubs",
+          "values": [
+            "Dead or broken wood out. Spring bloomers wait until after they flower",
+            "Tidied only. Real pruning waits for spring"
+          ]
+        },
+        {
+          "label": "Weeds",
+          "values": [
+            "Pulled early, before they flower and seed",
+            "Pulled so the beds go into winter clean"
+          ]
+        },
+        {
+          "label": "Sets up",
+          "values": [
+            "Mulch, new planting and a clean start",
+            "A clean yard and a shorter list in spring"
+          ]
+        }
       ]
     },
     {
@@ -63,10 +113,22 @@
       "title": "How the yard gets its edges back.",
       "intro": "Plenty of cleanups wrap up in a day. Bigger yards or long neglected beds can take longer, and the walk is where you find out which one you have.",
       "steps": [
-        { "title": "Look", "body": "Start with a few photos by text, or have Jake out to see the yard. Next comes an itemized estimate you can go through line by line, free and with no pressure." },
-        { "title": "Clear", "body": "Leaves, sticks and debris come out of the beds and corners. New shoots and anything tender need a light hand." },
-        { "title": "Cut back", "body": "Weeds get pulled, dead stems and spent perennials get cut back, and the shrubs get tidied." },
-        { "title": "Finish", "body": "Bed lines get cleaned up, then the walks and drive get cleared. How clean we leave a job is one of the things customers write about." }
+        {
+          "title": "Look",
+          "body": "Start with a few photos by text, or have Jake out to see the yard. Next comes an itemized estimate you can go through line by line, free and with no pressure."
+        },
+        {
+          "title": "Clear",
+          "body": "Leaves, sticks and debris come out of the beds and corners. New shoots and anything tender need a light hand."
+        },
+        {
+          "title": "Cut back",
+          "body": "Weeds get pulled, dead stems and spent perennials get cut back, and the shrubs get tidied."
+        },
+        {
+          "title": "Finish",
+          "body": "Bed lines get cleaned up, then the walks and drive get cleared. How clean we leave a job is one of the things customers write about."
+        }
       ]
     },
     {
@@ -77,13 +139,39 @@
       "intro": "A cleared yard shows you what it needs next. These are the jobs that fit best on the same estimate.",
       "columns": 3,
       "items": [
-        { "title": "Fresh mulch", "body": "Spring beds are clear, so it is the natural time for [mulching](/mulching/). Mulch also slows weeds by keeping light off the soil." },
-        { "title": "Hedges and shrubs", "body": "A cleanup is a light tidy. A shrub that has outgrown its spot calls for real [hedge trimming](/hedge-trimming/), timed for that plant." },
-        { "title": "Tired plants", "body": "A cleared bed shows what did not make it. [Plant removal](/plant-removal/) opens up the spot and [new planting](/plant-installation/) fills it." },
-        { "title": "Walks and patios", "body": "Spring is a good time to wash off the winter. [Pressure washing](/pressure-washing/) takes care of the grime and the green." },
-        { "title": "Evergreens before winter", "body": "Evergreens lose water all winter and cannot replace it from frozen ground. In a dry fall they need water right up to freeze up, and one late soaking is not enough. Our [plant watering](/plant-watering/) service can take care of it." },
-        { "title": "Steady care", "body": "[Monthly landscape maintenance](/monthly-landscape-maintenance/) keeps up the beds, shrubs and edges between cleanups, so the next one is a smaller job." }
+        {
+          "title": "Fresh mulch",
+          "body": "Spring beds are clear, so it is the natural time for [mulching](/mulching/). Mulch also slows weeds by keeping light off the soil."
+        },
+        {
+          "title": "Hedges and shrubs",
+          "body": "A cleanup is a light tidy. A shrub that has outgrown its spot calls for real [hedge trimming](/hedge-trimming/), timed for that plant."
+        },
+        {
+          "title": "Tired plants",
+          "body": "A cleared bed shows what did not make it. [Plant removal](/plant-removal/) opens up the spot and [new planting](/plant-installation/) fills it."
+        },
+        {
+          "title": "Walks and patios",
+          "body": "Spring is a good time to wash off the winter. [Pressure washing](/pressure-washing/) takes care of the grime and the green."
+        },
+        {
+          "title": "Evergreens before winter",
+          "body": "Evergreens lose water all winter and cannot replace it from frozen ground. In a dry fall they need water right up to freeze up, and one late soaking is not enough. Our [plant watering](/plant-watering/) service can take care of it."
+        },
+        {
+          "title": "Steady care",
+          "body": "[Monthly landscape maintenance](/monthly-landscape-maintenance/) keeps up the beds, shrubs and edges between cleanups, so the next one is a smaller job."
+        }
       ]
+    },
+    {
+      "type": "reveal",
+      "kind": "leaf",
+      "plane": "ink",
+      "eyebrow": "Try it",
+      "title": "A fall cleanup, **minus the rake.**",
+      "intro": "Drag across the lawn to clear it. Ours takes a little longer, but this is the result."
     },
     {
       "type": "intro",
@@ -103,22 +191,62 @@
       "plane": "ink",
       "eyebrow": "After the job",
       "title": "What people say **when we leave.**",
-      "ids": ["nancy-g", "renee-g", "marie-b"]
+      "ids": [
+        "nancy-g",
+        "renee-g",
+        "marie-b"
+      ]
     }
   ],
   "faq": [
-    { "q": "Do you do spring and fall cleanups in St. Clair Shores?", "a": "Yes. HD Landscape does spring and fall yard cleanups in St. Clair Shores, its home base, and across Metro Detroit, for homes and commercial properties. One-time jobs are fine, and you do not need a plan. If you want help between cleanups, [monthly landscape maintenance](/monthly-landscape-maintenance/) covers the beds, shrubs and edges through the season." },
-    { "q": "What does a spring cleanup include?", "a": "A spring cleanup from HD Landscape clears leaves and debris out of the beds, cuts back last year's stems and ornamental grasses, pulls early weeds and tidies the shrubs. We finish by cleaning up the bed lines and leaving the walks and drive clear. Lawn aeration and sprinkler start ups are not part of it, because we do not do either." },
-    { "q": "What does a fall cleanup include?", "a": "A fall cleanup clears the leaves from the beds and corners, cuts back the perennials that benefit from it, pulls weeds and tidies the shrubs so the yard goes into winter clean. Your estimate lists what is planned for your yard." },
-    { "q": "When should I schedule a spring cleanup in Michigan?", "a": "Plan on the weeks after the snow melts, once the ground is firm. Old perennial stems and ornamental grasses usually get cut back in March or April. If the ground is soaked it is worth waiting a few days, because wet soil compacts easily under foot." },
-    { "q": "When should I schedule a fall cleanup?", "a": "Aim for when most of your leaves are down. Every yard drops on its own schedule, and big trees can push the date later. Get in touch early in the fall and we will time it to your trees." },
-    { "q": "Is it bad for pollinators to clean up my yard early in spring?", "a": "It can be. Most bee species nest in the ground and others use hollow plant stems, so a yard raked bare early can take some of their shelter with it. If this matters to you, tell us, and we can leave a corner of leaves and old stems for later." },
-    { "q": "Should I cut back perennials in fall or spring?", "a": "Either can work. Many perennials and ornamental grasses can stay standing until spring, which gives birds some food and beneficial insects some shelter. Hosta and daylily are worth cutting in fall, because slugs go after both and spend the winter as eggs under plant debris. Peony leaves should come down in fall too, to prevent disease. Tell us which you prefer." },
-    { "q": "Can you prune my shrubs during a cleanup?", "a": "We tidy them and take out anything dead or broken. Heavy pruning is a different job and the timing matters. Fall is not the time for most trees and shrubs, and spring bloomers like lilac and forsythia should be cut right after they flower. We plan that as [hedge trimming](/hedge-trimming/). A big tree that has to come down is past what we take on, and a tree company handles those." },
-    { "q": "Do I have to rake leaves off my lawn in the fall?", "a": "Not always. A scatter of leaves can be shredded into the grass with a mower, and it breaks down on its own. A thick layer left on the lawn through winter can smother the grass. That, and the leaves in your beds and corners, is what a fall cleanup is for." },
-    { "q": "Can I put leaves in the trash in Michigan?", "a": "Generally, no. Michigan banned yard waste, leaves included, from landfills in 1995, so they go to compost or to yard waste collection. In St. Clair Shores that means lawn bags or marked 32 gallon containers at the curb in season. How the debris leaves goes on your estimate." },
-    { "q": "How long does a yard cleanup take?", "a": "Many cleanups take a single day. Larger properties, heavy leaf drop or beds that have been left for years can take longer, and Jake can give you a fair idea once he has seen the yard." },
-    { "q": "How much does a yard cleanup cost?", "a": "A cleanup is priced on what is actually there: how much yard, how many beds and how much has piled up. A small inland lot in St. Clair Shores and a lakeshore lot under big trees are very different days. Jake sees the yard first, and the estimate is on us." }
+    {
+      "q": "Do you do spring and fall cleanups in St. Clair Shores?",
+      "a": "Yes. HD Landscape does spring and fall yard cleanups in St. Clair Shores, its home base, and across Metro Detroit, for homes and commercial properties. One-time jobs are fine, and you do not need a plan. If you want help between cleanups, [monthly landscape maintenance](/monthly-landscape-maintenance/) covers the beds, shrubs and edges through the season."
+    },
+    {
+      "q": "What does a spring cleanup include?",
+      "a": "A spring cleanup from HD Landscape clears leaves and debris out of the beds, cuts back last year's stems and ornamental grasses, pulls early weeds and tidies the shrubs. We finish by cleaning up the bed lines and leaving the walks and drive clear. Lawn aeration and sprinkler start ups are not part of it, because we do not do either."
+    },
+    {
+      "q": "What does a fall cleanup include?",
+      "a": "A fall cleanup clears the leaves from the beds and corners, cuts back the perennials that benefit from it, pulls weeds and tidies the shrubs so the yard goes into winter clean. Your estimate lists what is planned for your yard."
+    },
+    {
+      "q": "When should I schedule a spring cleanup in Michigan?",
+      "a": "Plan on the weeks after the snow melts, once the ground is firm. Old perennial stems and ornamental grasses usually get cut back in March or April. If the ground is soaked it is worth waiting a few days, because wet soil compacts easily under foot."
+    },
+    {
+      "q": "When should I schedule a fall cleanup?",
+      "a": "Aim for when most of your leaves are down. Every yard drops on its own schedule, and big trees can push the date later. Get in touch early in the fall and we will time it to your trees."
+    },
+    {
+      "q": "Is it bad for pollinators to clean up my yard early in spring?",
+      "a": "It can be. Most bee species nest in the ground and others use hollow plant stems, so a yard raked bare early can take some of their shelter with it. If this matters to you, tell us, and we can leave a corner of leaves and old stems for later."
+    },
+    {
+      "q": "Should I cut back perennials in fall or spring?",
+      "a": "Either can work. Many perennials and ornamental grasses can stay standing until spring, which gives birds some food and beneficial insects some shelter. Hosta and daylily are worth cutting in fall, because slugs go after both and spend the winter as eggs under plant debris. Peony leaves should come down in fall too, to prevent disease. Tell us which you prefer."
+    },
+    {
+      "q": "Can you prune my shrubs during a cleanup?",
+      "a": "We tidy them and take out anything dead or broken. Heavy pruning is a different job and the timing matters. Fall is not the time for most trees and shrubs, and spring bloomers like lilac and forsythia should be cut right after they flower. We plan that as [hedge trimming](/hedge-trimming/). A big tree that has to come down is past what we take on, and a tree company handles those."
+    },
+    {
+      "q": "Do I have to rake leaves off my lawn in the fall?",
+      "a": "Not always. A scatter of leaves can be shredded into the grass with a mower, and it breaks down on its own. A thick layer left on the lawn through winter can smother the grass. That, and the leaves in your beds and corners, is what a fall cleanup is for."
+    },
+    {
+      "q": "Can I put leaves in the trash in Michigan?",
+      "a": "Generally, no. Michigan banned yard waste, leaves included, from landfills in 1995, so they go to compost or to yard waste collection. In St. Clair Shores that means lawn bags or marked 32 gallon containers at the curb in season. How the debris leaves goes on your estimate."
+    },
+    {
+      "q": "How long does a yard cleanup take?",
+      "a": "Many cleanups take a single day. Larger properties, heavy leaf drop or beds that have been left for years can take longer, and Jake can give you a fair idea once he has seen the yard."
+    },
+    {
+      "q": "How much does a yard cleanup cost?",
+      "a": "A cleanup is priced on what is actually there: how much yard, how many beds and how much has piled up. A small inland lot in St. Clair Shores and a lakeshore lot under big trees are very different days. Jake sees the yard first, and the estimate is on us."
+    }
   ],
   "quote": {
     "title": "Tell us what the yard needs.",
@@ -128,11 +256,26 @@
     "title": "A one-time job that clears what the season left.",
     "intro": "Book it for spring, fall or both, with no plan to sign up for. Here is the work it covers, and your itemized estimate shows what is planned for your yard.",
     "items": [
-      { "name": "Beds cleared", "detail": "Leaves, sticks and last season's stems out of the beds and corners." },
-      { "name": "Weeds pulled", "detail": "Out of the beds so they do not drop seed." },
-      { "name": "Perennials cut back", "detail": "Spent stems and ornamental grasses cut back at the right time of year." },
-      { "name": "Shrubs tidied", "detail": "Dead or broken wood out and stray growth cleaned up. Heavy pruning is planned separately." },
-      { "name": "Yard left clean", "detail": "Bed lines cleaned up, walks and drive left clear." }
+      {
+        "name": "Beds cleared",
+        "detail": "Leaves, sticks and last season's stems out of the beds and corners."
+      },
+      {
+        "name": "Weeds pulled",
+        "detail": "Out of the beds so they do not drop seed."
+      },
+      {
+        "name": "Perennials cut back",
+        "detail": "Spent stems and ornamental grasses cut back at the right time of year."
+      },
+      {
+        "name": "Shrubs tidied",
+        "detail": "Dead or broken wood out and stray growth cleaned up. Heavy pruning is planned separately."
+      },
+      {
+        "name": "Yard left clean",
+        "detail": "Bed lines cleaned up, walks and drive left clear."
+      }
     ],
     "footnote": "How the debris leaves goes on your estimate. [Fresh mulch](/mulching/) and [hedge trimming](/hedge-trimming/) can be added to it. We do not do lawn aeration or sprinklers, and a big tree that has to come down is a job for a tree company."
   }

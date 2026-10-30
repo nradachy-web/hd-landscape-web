@@ -18,12 +18,14 @@ interface Props {
   image?: HeroImage;
   /** The plane of the band below, for the cut line. */
   next?: 'paper' | 'white' | 'ink' | 'none';
+  /** A short head, for a page whose real first screen comes straight after it. */
+  tight?: boolean;
 }
-const { eyebrow, title, lede, crumbs = [], image, next = 'paper' } = Astro.props;
+const { eyebrow, title, lede, crumbs = [], image, next = 'paper', tight = false } = Astro.props;
 const titleHtml = heading(title, 'accent');
 ---
 
-<section class:list={['ph', 'ink', image && 'ph--photo']}>
+<section class:list={['ph', 'ink', image && 'ph--photo', tight && 'ph--tight']}>
   {
     image && (
       <div class="ph__media">
@@ -64,6 +66,23 @@ const titleHtml = heading(title, 'accent');
   .ph {
     position: relative;
     padding-bottom: clamp(1.75rem, 4.6vw, 4.25rem);
+  }
+
+  .ph--tight {
+    padding-bottom: 0;
+  }
+
+  .ph--tight .ph__inner {
+    padding-block: clamp(1.1rem, 2.2vw, 1.75rem) clamp(1rem, 1.8vw, 1.5rem);
+  }
+
+  .ph--tight .h1 {
+    font-size: clamp(2rem, 1.4rem + 2.5vw, 3.25rem);
+  }
+
+  .ph--tight .ph__lede {
+    margin-top: 0.5rem;
+    font-size: 1.0625rem;
   }
 
   .ph__note {

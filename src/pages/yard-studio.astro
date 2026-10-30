@@ -1,0 +1,109 @@
+---
+/* The tools page: the plant swapper up top, then the three drag to reveal panels. The
+   page's largest paint is the bare scene, so that is what gets preloaded. */
+import { getImage } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import Head from '../components/Head.astro';
+import Edge from '../components/Edge.astro';
+import Steps from '../components/Steps.astro';
+import YardStudio from '../components/YardStudio.astro';
+import RevealPanel from '../components/RevealPanel.astro';
+import RevealScript from '../components/RevealScript.astro';
+import QuoteBand from '../components/QuoteBand.astro';
+import base from '../assets/studio/base.png';
+import { breadcrumbs } from '../lib/schema';
+
+const path = '/yard-studio/';
+const widths = [640, 828, 1080, 1320, 1536];
+const srcset = (await Promise.all(widths.map(async (w) => `${(await getImage({ src: base, width: w, format: 'avif', quality: 46 })).src} ${w}w`))).join(', ');
+const preload = { srcset, sizes: '(min-width: 60rem) 58vw, 100vw', type: 'image/avif' };
+
+const steps = [
+  { title: 'Play with it here', body: 'Mix and match until something looks right, and do not worry about the plant names. That part is on us.' },
+  { title: 'Send it to Jake', body: 'One tap puts your picks in an estimate request, so he knows what caught your eye before he comes out.' },
+  { title: 'He walks your yard', body: 'Jake looks at your light, soil and space and tells you what will work there, what will not, and what he would do instead.' },
+];
+const panels = [
+  { kind: 'hedge' as const, id: 'hedge-h', title: 'Trim the hedge', body: 'Two summers of growth, off in one pass.' },
+  { kind: 'pave' as const, id: 'pave-h', title: 'Wash the pavers', body: 'See what years of grime and moss were hiding.' },
+  { kind: 'leaf' as const, id: 'leaf-h', title: 'Clear the leaves', body: 'A fall cleanup, minus the rake.' },
+];
+---
+
+<Base
+  title="Yard Studio: Try Trees, Shrubs and Borders | HD Landscape"
+  description="Swap the tree, shrubs, urns, walk border and bed finish on a front yard, compare it to a tired one, then send your favorite design to Jake for a free estimate."
+  path={path}
+  preload={preload}
+  schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Yard Studio', path }])]}
+>
+  <PageHead eyebrow="Yard Studio" title="Swap the plants. **Keep the yard you love.**" lede="Pick a tree, the shrubs and what goes by the door, then see it all together before anyone digs." crumbs={[{ name: 'Yard Studio', path }]} next="none" tight />
+
+  <section class="band ink has-edge studio-band" aria-label="Yard Studio">
+    <div class="wrap">
+      <YardStudio />
+    </div>
+    <Edge to="paper" />
+  </section>
+
+  <section class="band has-edge" aria-labelledby="next-h">
+    <div class="wrap">
+      <Head id="next-h" eyebrow="Then what" title="From a picture to **a real yard.**" />
+      <Steps steps={steps} />
+    </div>
+    <Edge to="ink" />
+  </section>
+
+  <section class="band ink" aria-labelledby="more-h">
+    <div class="wrap stack" style="--gap:2.25rem">
+      <Head id="more-h" eyebrow="More to try" title="Three jobs you can do **with one finger.**" intro="Drag across each picture. We take a little longer, but this is the result." />
+      <div class="tools">
+        {
+          panels.map((p) => (
+            <article class="tool" aria-labelledby={p.id}>
+              <div class="tool__txt">
+                <h3 class="h3" id={p.id}>{p.title}</h3>
+                <p class="small muted">{p.body}</p>
+              </div>
+              <RevealPanel kind={p.kind} sizes="(min-width: 60rem) 30vw, 92vw" />
+            </article>
+          ))
+        }
+      </div>
+      <p class="fine muted">These are illustrations, not photos of our jobs.</p>
+    </div>
+  </section>
+
+  <QuoteBand service="Landscape design" eyebrow="Free estimate" title="Like what you built?" lede="Send your design and tell us about the yard. Jake will walk the property, tell you what would work there and write an itemized estimate." />
+  <RevealScript />
+</Base>
+
+<style>
+  .studio-band {
+    padding-top: 0;
+  }
+
+  .tools {
+    display: grid;
+    gap: 2.5rem 1.75rem;
+  }
+
+  .tool {
+    display: grid;
+    gap: 0.8rem;
+    align-content: start;
+  }
+
+  .tool__txt {
+    display: grid;
+    gap: 0.3rem;
+    align-content: start;
+  }
+
+  @media (min-width: 60rem) {
+    .tools {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+</style>

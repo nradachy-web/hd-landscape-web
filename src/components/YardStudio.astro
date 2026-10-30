@@ -1,0 +1,633 @@
+---
+/* The Yard Studio: one made up house and a stack of transparent layers, one per
+   option, cut from edits of the same bare picture by scripts/studio.py, so they line
+   up to the pixel and any mix of them works.
+
+   Plain radio buttons drive it. CSS shows the layer whose radio is checked, so every
+   swap works with no script at all, and a layer that is not showing is display:none
+   and lazy, so it costs nothing until someone picks it. The script adds what script
+   is for: loading the rest once someone starts playing, the grow in, Surprise me, a
+   link to the design, and handing the design to the estimate form. */
+import { getImage } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+import Icon from './Icon.astro';
+import boxes from '../assets/studio/box.json';
+import { SLOTS, type StudioOption } from '../data/studio';
+
+const files = import.meta.glob<{ default: ImageMetadata }>('../assets/studio/*.{png,jpg}', { eager: true });
+const file = (name: string) => files[`../assets/studio/${name}`].default;
+const W = 1536, H = 1024;
+const pct = (n: number, of: number) => `${+((n / of) * 100).toFixed(3)}%`;
+
+const srcset = async (src: ImageMetadata, widths: number[], format: 'avif' | 'webp', quality: number) => (await Promise.all(widths.map(async (w) => `${(await getImage({ src, width: w, format, quality })).src} ${w}w`))).join(', ');
+
+const baseWidths = [640, 828, 1080, 1320, 1536];
+const baseSizes = '(min-width: 60rem) 58vw, 100vw';
+const base = { avif: await srcset(file('base.png'), baseWidths, 'avif', 46), webp: await srcset(file('base.png'), baseWidths, 'webp', 60), fb: (await getImage({ src: file('base.png'), width: 1080, format: 'webp', quality: 60 })).src };
+const before = { avif: await srcset(file('before.png'), baseWidths, 'avif', 46), webp: await srcset(file('before.png'), baseWidths, 'webp', 60), fb: (await getImage({ src: file('before.png'), width: 1080, format: 'webp', quality: 60 })).src };
+
+/* Layers back to front. The widths follow the layer: half size, then full. */
+const stacked = [...SLOTS].sort((a, b) => a.stack - b.stack);
+const layers = await Promise.all(
+  stacked.flatMap((s) =>
+    s.options.filter((o) => o.layer).map(async (o) => {
+      const [x0, y0, x1, y1] = (boxes as Record<string, number[]>)[o.layer!];
+      const w = x1 - x0, h = y1 - y0;
+      const src = file(`${o.layer}.png`);
+      const widths = [Math.round(w / 2), w];
+      const share = w / W;
+      return {
+        id: `${s.id}-${o.id}`,
+        flat: s.flat,
+        box: `left:${pct(x0, W)};top:${pct(y0, H)};width:${pct(w, W)};height:${pct(h, H)}`,
+        avif: await srcset(src, widths, 'avif', 58),
+        webp: await srcset(src, widths, 'webp', 72),
+        fb: (await getImage({ src, width: w, format: 'webp', quality: 72 })).src,
+        w,
+        h,
+        sizes: `(min-width: 60rem) ${Math.ceil(share * 58)}vw, ${Math.ceil(share * 100)}vw`,
+      };
+    }),
+  ),
+);
+
+const thumbOf = async (o: StudioOption) => {
+  const name = o.thumb ?? o.layer;
+  return name ? (await getImage({ src: file(`th-${name}.jpg`), width: 96, format: 'webp', quality: 68 })).src : null;
+};
+const panels = await Promise.all(SLOTS.map(async (s) => ({ ...s, options: await Promise.all(s.options.map(async (o) => ({ ...o, img: await thumbOf(o) }))) })));
+
+const firstOf = (id: string) => {
+  const s = SLOTS.find((x) => x.id === id)!;
+  return s.options.find((o) => o.id === s.first)!;
+};
+const showRules = stacked.flatMap((s) => s.options.filter((o) => o.layer).map((o) => `.ys:has(#ys-${s.id}-${o.id}:checked) [data-l="${s.id}-${o.id}"]{display:block;visibility:visible}`)).join('');
+const data = JSON.stringify(SLOTS.map((s) => ({ id: s.id, name: s.name, flat: !!s.flat, first: s.first, options: s.options.map((o) => ({ id: o.id, name: o.name, meta: o.meta ?? '', note: o.note, layer: !!o.layer })) })));
+---
+
+<style is:inline set:html={showRules}></style>
+
+<div class="ys" data-slots={data}>
+  <div class="ys__view">
+    <div class="ys__stage frame">
+      <picture>
+        <source type="image/avif" srcset={base.avif} sizes={baseSizes} />
+        <source type="image/webp" srcset={base.webp} sizes={baseSizes} />
+        <img class="ys__base" src={base.fb} width={W} height={H} alt="Illustration of a red brick colonial house and front yard, showing the trees, shrubs and borders you pick" fetchpriority="high" decoding="async" />
+      </picture>
+      {
+        layers.map((l) => (
+          <picture class:list={['ys__l', l.flat && 'ys__l--flat']} data-l={l.id} style={l.box}>
+            <source type="image/avif" srcset={l.avif} sizes={l.sizes} />
+            <source type="image/webp" srcset={l.webp} sizes={l.sizes} />
+            <img src={l.fb} width={l.w} height={l.h} alt="" loading="lazy" decoding="async" />
+          </picture>
+        ))
+      }
+      <picture class="ys__b">
+        <source type="image/avif" srcset={before.avif} sizes={baseSizes} />
+        <source type="image/webp" srcset={before.webp} sizes={baseSizes} />
+        <img src={before.fb} width={W} height={H} alt="" loading="lazy" decoding="async" />
+      </picture>
+      <span class="ys__tag ys__tag--b" aria-hidden="true">Tired yard</span>
+      <span class="ys__tag ys__tag--a" aria-hidden="true">Your design</span>
+      <span class="ys__line" aria-hidden="true"><span class="ys__knob"></span></span>
+      <input class="ba__range ys__range" type="range" min="0" max="100" value="50" aria-label="Compare a tired yard with your design. Use the arrow keys or drag." aria-valuetext="50% before, 50% after" />
+    </div>
+  </div>
+
+  <div class="ys__panel">
+    {
+      panels.map((s, i) => (
+        <details class="ys__slot" name="ys-slot" open={i === 0}>
+          <summary>
+            <span class="ys__q">{s.name}</span>
+            <span class="ys__now" data-now={s.id}>{firstOf(s.id).name}</span>
+            <Icon name="chevron" />
+          </summary>
+          <fieldset class="ys__opts">
+            <legend class="sr">{s.name}</legend>
+            {
+              s.options.map((o) => (
+                <label class="ys__opt">
+                  <input type="radio" name={`ys-${s.id}`} id={`ys-${s.id}-${o.id}`} value={o.id} checked={o.id === s.first} />
+                  {o.img ? <img src={o.img} width="48" height="48" alt="" loading="lazy" decoding="async" /> : <span class="ys__blank" aria-hidden="true" />}
+                  <span>{o.name}</span>
+                </label>
+              ))
+            }
+          </fieldset>
+        </details>
+      ))
+    }
+  </div>
+
+  <div class="ys__tools">
+    <button class="btn ghost small" type="button" data-act="surprise">Surprise me</button>
+    <button class="btn ghost small" type="button" data-act="bare">Bare yard</button>
+    <label class="btn ghost small ys__cmp"><input type="checkbox" id="ys-cmp" />Before and after</label>
+    <button class="btn ghost small" type="button" data-act="share" data-label="Copy a link">Copy a link</button>
+  </div>
+
+  <div class="ys__list">
+    <h2 class="h3" id="ys-list">Your yard so far</h2>
+    <ul aria-labelledby="ys-list" aria-live="polite">
+      {
+        SLOTS.filter((s) => !s.flat).map((s) => {
+          const o = firstOf(s.id);
+          return (
+            <li data-row={s.id}>
+              <span class="fine muted">{s.name}</span>
+              <strong>{o.name}</strong>
+              <span class="small muted">{[o.meta, o.note].filter(Boolean).join(' ')}</span>
+            </li>
+          );
+        })
+      }
+      <li data-row="bed">
+        <span class="fine muted">Beds</span>
+        <strong>{firstOf('ground').name} with {firstOf('border').name.toLowerCase()}</strong>
+        <span class="small muted">{firstOf('ground').note}</span>
+      </li>
+    </ul>
+    <a class="btn primary ys__send" href="#quote">Send this design to Jake</a>
+  </div>
+
+  <p class="fine muted ys__fine">An illustration on a made up house, not a plan or a quote. Sizes are typical, and what suits your yard depends on its light and soil, which Jake will go through with you when he walks it.</p>
+</div>
+
+<script is:inline>
+  (function () {
+    var root = document.querySelector('.ys');
+    if (!root || root.dataset.on) return;
+    root.dataset.on = '1';
+    var slots = JSON.parse(root.dataset.slots);
+    var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var share = root.querySelector('[data-act=share]');
+
+    function radio(s, id) { return document.getElementById('ys-' + s.id + '-' + id); }
+    function current(s) {
+      var on = root.querySelector('input[name=ys-' + s.id + ']:checked');
+      for (var i = 0; i < s.options.length; i++) if (s.options[i].id === on.value) return s.options[i];
+    }
+    /* Everything else loads the moment someone starts playing, so a pick is instant. */
+    function warm() { root.classList.add('warm'); }
+    function grow(s, o) {
+      if (!o.layer || still) return;
+      var l = root.querySelector('[data-l="' + s.id + '-' + o.id + '"]');
+      var im = l.querySelector('img');
+      var go = function () { l.classList.remove('grow'); void l.offsetWidth; l.classList.add('grow'); };
+      if (im.decode) im.decode().then(go, go); else go();
+    }
+    function code() { return slots.map(function (s) { return current(s).id; }).join('.'); }
+    function sync() {
+      slots.forEach(function (s) {
+        var o = current(s);
+        root.querySelector('[data-now=' + s.id + ']').textContent = o.name;
+        var row = root.querySelector('[data-row=' + s.id + ']');
+        if (row) {
+          row.children[1].textContent = o.name;
+          row.children[2].textContent = (o.meta ? o.meta + ' ' : '') + o.note;
+        }
+      });
+      var g = current(slots[4]), b = current(slots[5]), bed = root.querySelector('[data-row=bed]');
+      bed.children[1].textContent = g.name + ' with ' + b.name.toLowerCase();
+      bed.children[2].textContent = g.note;
+      history.replaceState(null, '', '#d=' + code());
+    }
+    function pick(s, id) {
+      var r = radio(s, id);
+      if (r && !r.checked) { r.checked = true; grow(s, current(s)); }
+    }
+    /* Every slot in depth order, a beat apart, so the yard plants itself. */
+    function plant(choose) {
+      warm();
+      var order = slots.slice().sort(function (a, b) { return slots.indexOf(a) === 4 ? -1 : slots.indexOf(b) === 4 ? 1 : 0; });
+      order.forEach(function (s, i) {
+        setTimeout(function () { pick(s, choose(s)); sync(); }, still ? 0 : i * 170);
+      });
+    }
+
+    root.addEventListener('change', function (e) {
+      if (e.target.type !== 'radio') return;
+      warm();
+      var s = slots.filter(function (x) { return e.target.name === 'ys-' + x.id; })[0];
+      grow(s, current(s));
+      sync();
+    });
+    root.querySelector('.ys__panel').addEventListener('pointerover', warm, { once: true });
+    root.querySelector('.ys__panel').addEventListener('touchstart', warm, { once: true, passive: true });
+
+    root.querySelector('[data-act=surprise]').addEventListener('click', function () {
+      plant(function (s) {
+        var open = s.options.filter(function (o) { return s.id === 'border' || s.id === 'walk' || o.id !== 'none'; });
+        var was = current(s).id, o;
+        do { o = open[Math.floor(Math.random() * open.length)]; } while (o.id === was && open.length > 1);
+        return o.id;
+      });
+    });
+    root.querySelector('[data-act=bare]').addEventListener('click', function () {
+      plant(function (s) { return s.id === 'ground' ? 'black' : 'none'; });
+    });
+    share.addEventListener('click', function () {
+      var label = share.dataset.label;
+      var said = function (t) { share.textContent = t; setTimeout(function () { share.textContent = label; }, 2200); };
+      if (navigator.clipboard) navigator.clipboard.writeText(location.href).then(function () { said('Link copied'); }, function () { said('Copy the address bar'); });
+      else said('Copy the address bar');
+    });
+    root.querySelector('.ys__send').addEventListener('click', function () {
+      var form = document.getElementById('qf');
+      if (!form) return;
+      var chip = form.querySelector('input[name=services][value="Landscape design"]');
+      if (chip) chip.checked = true;
+      form.querySelector('textarea[name=message]').value = 'My Yard Studio design:\n' + slots.map(function (s) { return s.name + ': ' + current(s).name; }).join('\n') + '\n' + location.href;
+      form.querySelector('.qf__msg').textContent = 'Your design is attached to this request. Add your details and send it to Jake.';
+    });
+
+    /* A shared link opens on that design. */
+    var saved = /^#d=([a-z.]+)$/.exec(location.hash);
+    if (saved) {
+      var ids = saved[1].split('.');
+      slots.forEach(function (s, i) { var r = radio(s, ids[i]); if (r) r.checked = true; });
+      sync();
+    }
+  })();
+</script>
+
+<style>
+  .ys {
+    display: grid;
+    gap: 1rem;
+    min-width: 0;
+  }
+
+  /* On a phone the yard stays in view while the picks scroll under it. */
+  .ys__view {
+    position: sticky;
+    top: var(--ys-top, 3.75rem);
+    z-index: 3;
+    margin-inline: calc(var(--gutter) * -1);
+    padding-bottom: 0.5rem;
+    background: var(--ink);
+  }
+
+  .ys__view .ys__stage {
+    border-radius: 0;
+  }
+
+  .ys__stage {
+    --pos: 50%;
+    container-type: inline-size;
+    aspect-ratio: 3 / 2;
+    touch-action: pan-y;
+  }
+
+  .ys__base,
+  .ys__b :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ys__l {
+    position: absolute;
+    display: none;
+    transform-origin: 50% 100%;
+    pointer-events: none;
+  }
+
+  .ys__l :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Once someone is playing, every layer loads, unseen. */
+  .ys:global(.warm) .ys__l {
+    display: block;
+    visibility: hidden;
+  }
+
+  .ys__l:global(.grow) {
+    animation: ys-grow 0.6s var(--ease) both;
+  }
+
+  .ys__l--flat:global(.grow) {
+    animation-name: ys-fade;
+  }
+
+  @keyframes ys-grow {
+    from {
+      opacity: 0;
+      transform: scale(0.97, 0.84);
+    }
+  }
+
+  @keyframes ys-fade {
+    from {
+      opacity: 0;
+    }
+  }
+
+  .ys__b,
+  .ys__tag,
+  .ys__line,
+  .ys__range {
+    display: none;
+  }
+
+  .ys:has(#ys-cmp:checked) :is(.ys__b, .ys__tag, .ys__line, .ys__range) {
+    display: block;
+  }
+
+  .ys__b {
+    position: absolute;
+    inset: 0;
+    clip-path: inset(0 calc(100% - var(--pos)) 0 0);
+  }
+
+  .ys__tag {
+    position: absolute;
+    top: 0.6rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: var(--r-sm);
+    background: rgb(10 15 11 / 0.72);
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 640;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .ys__tag--b {
+    left: 0.6rem;
+  }
+
+  .ys__tag--a {
+    right: 0.6rem;
+  }
+
+  .ys__line {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: var(--pos);
+    width: 2px;
+    margin-left: -1px;
+    background: #fff;
+    pointer-events: none;
+  }
+
+  .ys__knob {
+    position: absolute;
+    top: 50%;
+    left: calc(1px + clamp(1.375rem, var(--p, 50) * 1cqw, 100cqw - 1.375rem) - var(--p, 50) * 1cqw);
+    width: 2.75rem;
+    height: 2.75rem;
+    margin: -1.375rem 0 0 -1.375rem;
+    border-radius: 50%;
+    background: var(--forest)
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m9 7-5 5 5 5M15 7l5 5-5 5'/%3E%3C/svg%3E")
+      center / 1.4rem no-repeat;
+    box-shadow: 0 0 0 2px #fff;
+  }
+
+  .ys__range {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    opacity: 0;
+    cursor: ew-resize;
+  }
+
+  @media (pointer: coarse) {
+    .ys__range {
+      pointer-events: none;
+    }
+  }
+
+  .ys__range:focus-visible ~ .ys__line .ys__knob,
+  .ys__stage:has(.ys__range:focus-visible) .ys__knob {
+    outline: 3px solid var(--leaf-soft);
+    outline-offset: 3px;
+  }
+
+  .ys__panel {
+    display: grid;
+    align-content: start;
+    gap: 0.4rem;
+    min-width: 0;
+  }
+
+  .ys__slot {
+    border: 1px solid var(--line-ink);
+    border-radius: var(--r);
+  }
+
+  .ys__slot[open] {
+    border-color: rgb(236 244 228 / 0.3);
+  }
+
+  .ys__slot summary {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.75rem;
+    min-height: 3rem;
+    padding: 0.45rem 0.8rem;
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .ys__slot summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .ys__slot summary :global(svg) {
+    width: 1.1rem;
+    height: 1.1rem;
+    transition: transform 0.2s var(--ease);
+  }
+
+  .ys__slot[open] summary :global(svg) {
+    transform: rotate(180deg);
+  }
+
+  .ys__q {
+    font-weight: 620;
+  }
+
+  .ys__now {
+    overflow: hidden;
+    color: var(--leaf-soft);
+    font-size: 0.875rem;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .ys__opts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.4rem;
+    min-width: 0;
+    margin: 0;
+    padding: 0 0.6rem 0.6rem;
+    border: 0;
+  }
+
+  .ys__opt {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    min-height: 3.5rem;
+    padding: 0.35rem 0.5rem 0.35rem 0.35rem;
+    border: 1px solid var(--line-ink);
+    border-radius: var(--r-sm);
+    font-size: 0.875rem;
+    font-weight: 560;
+    line-height: 1.2;
+    cursor: pointer;
+    transition:
+      border-color 0.18s var(--ease),
+      background-color 0.18s var(--ease);
+  }
+
+  .ys__opt:hover {
+    border-color: rgb(236 244 228 / 0.4);
+  }
+
+  .ys__opt:has(input:checked) {
+    border-color: var(--leaf);
+    background: rgb(188 220 108 / 0.09);
+  }
+
+  .ys__opt:has(input:focus-visible) {
+    outline: 2px solid var(--leaf);
+    outline-offset: 2px;
+  }
+
+  .ys__opt input {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .ys__opt img,
+  .ys__blank {
+    flex: none;
+    width: 2.75rem;
+    height: 2.75rem;
+    border-radius: 3px;
+  }
+
+  .ys__blank {
+    border: 1px dashed rgb(236 244 228 / 0.3);
+  }
+
+  .ys__tools {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.4rem;
+    order: -1;
+  }
+
+  .ys__view {
+    order: -2;
+  }
+
+  .ys__cmp {
+    position: relative;
+    cursor: pointer;
+  }
+
+  .ys__cmp input {
+    position: absolute;
+    inset: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+
+  .ys__cmp:has(input:checked) {
+    border-color: var(--leaf);
+    color: var(--leaf-soft);
+  }
+
+  .ys__cmp:has(input:focus-visible) {
+    outline: 2px solid var(--leaf);
+    outline-offset: 2px;
+  }
+
+  .ys__list ul {
+    display: grid;
+    gap: 0.8rem 1.75rem;
+    margin-top: 0.8rem;
+  }
+
+  .ys__list li {
+    display: grid;
+    gap: 0.05rem;
+    align-content: start;
+    padding-top: 0.6rem;
+    border-top: 1px solid var(--line-ink);
+  }
+
+  .ys__send {
+    margin-top: 1.1rem;
+  }
+
+  @media (min-width: 40rem) {
+    .ys__list ul {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 60rem) {
+    .ys {
+      grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+      gap: 1rem 1.75rem;
+      align-items: start;
+    }
+
+    .ys__view {
+      position: static;
+      margin-inline: 0;
+      padding-bottom: 0;
+      background: none;
+    }
+
+    .ys__view .ys__stage {
+      border-radius: var(--r);
+    }
+
+    .ys__tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.45rem;
+      order: 0;
+    }
+
+    .ys__panel {
+      grid-column: 2;
+      grid-row: 1 / span 4;
+    }
+
+    .ys__tools,
+    .ys__list,
+    .ys__fine {
+      grid-column: 1;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ys__l:global(.grow) {
+      animation: none;
+    }
+  }
+</style>

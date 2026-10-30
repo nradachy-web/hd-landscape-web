@@ -33,6 +33,7 @@ export const GET: APIRoute = async () => {
     `- [Yard notes](${u('/journal/')})`,
     `- [Reviews](${u('/reviews/')})`,
     `- [Our work](${u('/gallery/')})`,
+    `- [Yard Studio](${u('/yard-studio/')}): try trees, shrubs and borders on an illustrated front yard`,
     `- [About Jake](${u('/about-us/')})`,
     `- [Contact](${u('/contact-us/')})`,
     ...notes.map((n) => `- [${n.data.title.replace(/\*\*/g, '')}](${u(`/journal/${n.id}/`)})`),

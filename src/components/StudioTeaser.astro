@@ -1,0 +1,72 @@
+---
+/* The way in to the Yard Studio from other pages: one finished picture, flattened, so
+   a page that only mentions the Studio carries none of its layers. */
+import { getImage } from 'astro:assets';
+import teaser from '../assets/studio/teaser.jpg';
+import { href } from '../lib/paths';
+
+interface Props {
+  /** Shown beside the picture when the band has no heading of its own. */
+  title?: string;
+  body?: string;
+}
+const { title, body = 'Swap the tree, the shrubs, the urns and the walk border on a full front yard, then send your favorite to Jake.' } = Astro.props;
+const widths = [480, 720, 960, 1280];
+const set = async (format: 'avif' | 'webp', quality: number) => (await Promise.all(widths.map(async (w) => `${(await getImage({ src: teaser, width: w, format, quality })).src} ${w}w`))).join(', ');
+const avif = await set('avif', 48);
+const webp = await set('webp', 62);
+const fb = (await getImage({ src: teaser, width: 720, format: 'webp', quality: 62 })).src;
+const sizes = '(min-width: 60rem) 56vw, 92vw';
+---
+
+<div class="yt">
+  <a class="frame yt__pic" href={href('/yard-studio/')} aria-label="Open the Yard Studio">
+    <picture>
+      <source type="image/avif" srcset={avif} sizes={sizes} />
+      <source type="image/webp" srcset={webp} sizes={sizes} />
+      <img src={fb} width="1536" height="1024" alt="Illustration of a brick colonial with a white dogwood, mixed foundation beds and a perennial border along the walk" loading="lazy" decoding="async" />
+    </picture>
+  </a>
+  <div class="yt__txt">
+    {title && <h3 class="h3">{title}</h3>}
+    <p class="muted">{body}</p>
+    <a class="btn primary" href={href('/yard-studio/')}>Open the Yard Studio</a>
+  </div>
+</div>
+
+<style>
+  .yt {
+    display: grid;
+    gap: 1rem 1.75rem;
+    align-items: center;
+  }
+
+  .yt__pic {
+    display: block;
+    aspect-ratio: 3 / 2;
+  }
+
+  .yt__pic :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.6s var(--ease);
+  }
+
+  .yt__pic:hover :global(img) {
+    transform: scale(1.015);
+  }
+
+  .yt__txt {
+    display: grid;
+    gap: 0.8rem;
+    justify-items: start;
+  }
+
+  @media (min-width: 60rem) {
+    .yt {
+      grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+    }
+  }
+</style>

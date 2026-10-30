@@ -114,6 +114,10 @@ export function makeSchemas(z, ids) {
     z.object({ type: z.literal('bed'), ...headFields }),
     /** The grading panel: how the slope moves water. Shared wording. */
     z.object({ type: z.literal('grade'), ...headFields }),
+    /** Drag across a neglected picture to bring back the finished one. */
+    z.object({ type: z.literal('reveal'), kind: z.enum(['hedge', 'pave', 'leaf']), ...headFields }),
+    /** The way in to the Yard Studio. */
+    z.object({ type: z.literal('studio'), ...headFields }),
     /** The towns, as links. */
     z.object({ type: z.literal('areas'), ...headFields }),
     /** Questions (the page's main FAQ uses the top-level `faq` field instead). */

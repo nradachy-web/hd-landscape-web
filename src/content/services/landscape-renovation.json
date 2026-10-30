@@ -131,6 +131,12 @@
       ]
     },
     {
+      "type": "studio",
+      "plane": "ink",
+      "eyebrow": "Try it",
+      "title": "See a new front yard **before the old one comes out.**"
+    },
+    {
       "type": "intro",
       "plane": "white",
       "eyebrow": "The tear out",

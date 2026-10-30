@@ -9,6 +9,9 @@ import Reviews from './Reviews.astro';
 import BeforeAfter from './BeforeAfter.astro';
 import BedPicker from './BedPicker.astro';
 import GradePanel from './GradePanel.astro';
+import RevealPanel from './RevealPanel.astro';
+import RevealScript from './RevealScript.astro';
+import StudioTeaser from './StudioTeaser.astro';
 import AreaChips from './AreaChips.astro';
 import Edge from './Edge.astro';
 import type { Block } from '../content.config';
@@ -171,6 +174,20 @@ const link = (h: string) => (h.startsWith('#') || /^(https?:|tel:|sms:)/.test(h)
             </>
           )}
 
+          {b.type === 'reveal' && (
+            <div class="two try">
+              <Head id={hid} layout="left" eyebrow={b.eyebrow} title={b.title} intro={b.intro} />
+              <RevealPanel kind={b.kind} sizes="(min-width: 60rem) 56vw, 92vw" />
+            </div>
+          )}
+
+          {b.type === 'studio' && (
+            <>
+              <Head id={hid} eyebrow={b.eyebrow} title={b.title} intro={b.intro} />
+              <StudioTeaser />
+            </>
+          )}
+
           {b.type === 'areas' && (
             <div class="areas">
               <Head id={hid} layout="left" small eyebrow={b.eyebrow} title={b.title} intro={b.intro} />
@@ -192,6 +209,12 @@ const link = (h: string) => (h.startsWith('#') || /^(https?:|tel:|sms:)/.test(h)
 }
 
 <style>
+  @media (min-width: 60rem) {
+    .two.try {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.55fr);
+    }
+  }
+
   .foot {
     margin-top: clamp(1.5rem, 3vw, 2.25rem);
     max-width: 52rem;
@@ -354,3 +377,5 @@ const link = (h: string) => (h.startsWith('#') || /^(https?:|tel:|sms:)/.test(h)
     }
   }
 </style>
+
+{blocks.some((b) => b.type === 'reveal') && <RevealScript />}

@@ -127,6 +127,14 @@
       ]
     },
     {
+      "type": "reveal",
+      "kind": "hedge",
+      "plane": "ink",
+      "eyebrow": "Try it",
+      "title": "Trim this one **yourself.**",
+      "intro": "Drag across the hedge and take two summers of growth off it. Ours takes a little longer, but this is the result."
+    },
+    {
       "type": "intro",
       "plane": "paper",
       "eyebrow": "Tall and long hedges",

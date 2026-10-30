@@ -22,6 +22,9 @@ import Reviews from '../components/Reviews.astro';
 import QuoteBand from '../components/QuoteBand.astro';
 import AreaChips from '../components/AreaChips.astro';
 import Edge from '../components/Edge.astro';
+import RevealPanel from '../components/RevealPanel.astro';
+import RevealScript from '../components/RevealScript.astro';
+import StudioTeaser from '../components/StudioTeaser.astro';
 import { BRAND } from '../data/site';
 import { service as getService } from '../data/services';
 import { city as getCity, hubPath, cityLabel, TOWN_PAGES, townsFor } from '../data/cities';
@@ -46,6 +49,14 @@ const hero = await heroImage(c.hero.photo as PhotoId);
 const others = TOWN_PAGES.filter((p) => p.city.id === town.id && p.service.id !== svc.id);
 const elsewhere = townsFor(svc).filter((t) => t.id !== town.id);
 const label = cityLabel(town);
+/* The same tools the service page has, so a town page is never the plain version. */
+const TOY: Partial<Record<string, { kind: 'hedge' | 'pave' | 'leaf'; title: string; intro: string }>> = {
+  'hedge-trimming': { kind: 'hedge', title: 'Trim this one **yourself.**', intro: 'Drag across the hedge and take two summers of growth off it. Ours takes a little longer, but this is the result.' },
+  'pressure-washing': { kind: 'pave', title: 'Wash a patio **from your couch.**', intro: 'Drag across the pavers and see what years of grime and moss were hiding.' },
+  cleanups: { kind: 'leaf', title: 'A fall cleanup, **minus the rake.**', intro: 'Drag across the lawn to clear it. Ours takes a little longer, but this is the result.' },
+};
+const toy = TOY[svc.id];
+const studio = ['landscape-design', 'landscape-renovation', 'plant-installation'].includes(svc.id);
 
 const schema = [
   serviceSchema({ name: `${svc.name} in ${town.name}, MI`, type: svc.name, description: c.meta.description, url: `${BRAND.origin}${path}`, area: label }),
@@ -122,6 +133,21 @@ const schema = [
 
   <section class="band ink has-edge" aria-labelledby="how-h">
     <div class="wrap">
+      {
+        toy && (
+          <div class="two try tool-gap">
+            <Head layout="left" eyebrow="Try it" title={toy.title} intro={toy.intro} />
+            <RevealPanel kind={toy.kind} sizes="(min-width: 60rem) 56vw, 92vw" />
+          </div>
+        )
+      }
+      {
+        studio && (
+          <div class="tool-gap">
+            <StudioTeaser title={`Picture it on a ${town.name} front yard.`} />
+          </div>
+        )
+      }
       <div class="two wide-left how">
         <div class="stack" style="--gap:1.25rem">
           <Head id="how-h" layout="left" eyebrow={`In ${town.name}`} title={c.logistics.title} />
@@ -178,9 +204,22 @@ const schema = [
   </section>
 
   <QuoteBand title={`Get your ${town.name} estimate.`} lede={`Tell us about the yard and where in ${town.name} it is. Jake will take a look and give you an itemized estimate.`} service={svc.name} town={town.name} avoid={[c.hero.photo, c.photo]} />
+  {toy && <RevealScript />}
 </Base>
 
 <style>
+  .tool-gap {
+    margin-bottom: clamp(2.5rem, 6vw, 4.5rem);
+    padding-bottom: clamp(2.5rem, 6vw, 4.5rem);
+    border-bottom: 1px solid var(--line-ink);
+  }
+
+  @media (min-width: 60rem) {
+    .two.try {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.55fr);
+    }
+  }
+
   .point {
     display: grid;
     align-content: start;

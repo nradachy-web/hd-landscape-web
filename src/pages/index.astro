@@ -22,6 +22,7 @@ import Faq from '../components/Faq.astro';
 import Reviews from '../components/Reviews.astro';
 import BeforeAfter from '../components/BeforeAfter.astro';
 import BedPicker from '../components/BedPicker.astro';
+import StudioTeaser from '../components/StudioTeaser.astro';
 import QuoteBand from '../components/QuoteBand.astro';
 import Edge from '../components/Edge.astro';
 import ReelBand from '../components/ReelBand.astro';
@@ -169,6 +170,9 @@ const faq = [
     <div class="wrap">
       <Head id="bed-h" eyebrow="Try it" title="Same bed. **Your pick** of ground cover." intro="One of our real beds in five finishes. Tap through them and see what suits a brick home." />
       <BedPicker />
+      <div class="studio-more">
+        <StudioTeaser title="Now do the whole yard." />
+      </div>
     </div>
     <Edge to="white" flip />
   </section>
@@ -334,6 +338,12 @@ const faq = [
   .ba-row {
     display: grid;
     gap: 2rem;
+  }
+
+  .studio-more {
+    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--line-ink);
   }
 
   .reels {

@@ -144,6 +144,12 @@
       ]
     },
     {
+      "type": "studio",
+      "plane": "ink",
+      "eyebrow": "Try it",
+      "title": "Start your design **right here.**"
+    },
+    {
       "type": "steps",
       "plane": "paper",
       "eyebrow": "Start to finish",

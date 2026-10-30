@@ -1,0 +1,180 @@
+---
+/* The drag to reveal panels, once per page. Nothing runs until a panel's "before"
+   picture has loaded, and that picture is lazy, so a panel far down the page costs
+   nothing. The sparks of leaf, water and bits are a second canvas that only animates
+   while there are some in the air. */
+---
+
+<script is:inline>
+  (function () {
+    var FX = {
+      hedge: { r: 0.075, tint: ['#a6ca58', '#c8e27a', '#86b33f', '#e4f0a8'], n: 6, size: [3, 7], up: 3.4, g: 0.17, out: 3.6, life: 52, leaf: true },
+      pave: { r: 0.06, tint: ['#f2f8fc', '#d5e7f1', '#ffffff', '#bcd6e4'], n: 10, size: [1.2, 3.4], up: 3.6, g: 0.17, out: 4.6, life: 34 },
+      leaf: { r: 0.085, tint: ['#d9672b', '#e8a13a', '#b8391f', '#f0c04a'], n: 4, size: [5, 10], up: 3.2, g: 0.08, out: 4.4, life: 70, leaf: true },
+    };
+    var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    document.querySelectorAll('.rp:not([data-on])').forEach(function (root) {
+      root.setAttribute('data-on', '');
+      var src = root.querySelector('.rp__src img');
+      var paint = root.querySelector('.rp__paint');
+      var fx = root.querySelector('.rp__fx');
+      var btn = root.querySelector('.rp__btn');
+      var note = root.querySelector('.rp__note');
+      var cfg = FX[root.dataset.kind];
+      var ctx, sparks, W, H, last, down = false, sprites = [], live = false, frame = 0;
+      var probe = document.createElement('canvas');
+      probe.width = 48;
+      probe.height = 32;
+      var pctx = probe.getContext('2d', { willReadFrequently: true });
+
+      function reset() {
+        ctx.globalCompositeOperation = 'source-over';
+        ctx.drawImage(src, 0, 0, W, H);
+        ctx.globalCompositeOperation = 'destination-out';
+        root.classList.remove('done');
+        note.textContent = '';
+        btn.textContent = root.dataset.auto;
+        live = true;
+      }
+
+      function start() {
+        if (W) return;
+        var box = paint.getBoundingClientRect();
+        var dpr = Math.min(devicePixelRatio || 1, 2);
+        W = paint.width = fx.width = Math.round(box.width * dpr);
+        H = paint.height = fx.height = Math.round(box.height * dpr);
+        ctx = paint.getContext('2d');
+        sparks = fx.getContext('2d');
+        reset();
+        btn.hidden = false;
+        root.classList.add('ready');
+      }
+
+      function stamp(x, y) {
+        var r = W * cfg.r;
+        var g = ctx.createRadialGradient(x, y, r * 0.78, x, y, r);
+        g.addColorStop(0, 'rgba(0,0,0,1)');
+        g.addColorStop(1, 'rgba(0,0,0,0)');
+        ctx.fillStyle = g;
+        ctx.beginPath();
+        ctx.arc(x, y, r, 0, 7);
+        ctx.fill();
+      }
+
+      function spray(x, y) {
+        if (still || sprites.length > 150) return;
+        for (var i = 0; i < cfg.n; i++) {
+          sprites.push({
+            x: x + (Math.random() - 0.5) * W * cfg.r,
+            y: y + (Math.random() - 0.5) * W * cfg.r * 0.6,
+            vx: (Math.random() - 0.5) * cfg.out * (W / 640),
+            vy: -Math.random() * cfg.up * (W / 640),
+            size: (cfg.size[0] + Math.random() * (cfg.size[1] - cfg.size[0])) * (W / 900),
+            spin: Math.random() * 6,
+            turn: (Math.random() - 0.5) * 0.25,
+            life: cfg.life * (0.6 + Math.random() * 0.4),
+            tint: cfg.tint[(Math.random() * cfg.tint.length) | 0],
+          });
+        }
+        if (!frame) frame = requestAnimationFrame(tick);
+      }
+
+      function tick() {
+        sparks.clearRect(0, 0, W, H);
+        sprites = sprites.filter(function (s) { return s.life > 0; });
+        sprites.forEach(function (s) {
+          s.vy += cfg.g * (W / 640);
+          s.x += s.vx;
+          s.y += s.vy;
+          s.spin += s.turn;
+          s.life -= 1;
+          sparks.globalAlpha = Math.min(1, s.life / 14);
+          sparks.fillStyle = s.tint;
+          sparks.beginPath();
+          if (cfg.leaf) sparks.ellipse(s.x, s.y, s.size, s.size * 0.5, s.spin, 0, 7);
+          else sparks.arc(s.x, s.y, s.size, 0, 7);
+          sparks.fill();
+        });
+        frame = sprites.length ? requestAnimationFrame(tick) : 0;
+        if (!frame) sparks.clearRect(0, 0, W, H);
+      }
+
+      function sweep(x, y) {
+        if (last) {
+          var dx = x - last[0], dy = y - last[1];
+          var step = Math.max(1, Math.round(Math.hypot(dx, dy) / (W * cfg.r * 0.3)));
+          for (var i = 1; i <= step; i++) stamp(last[0] + (dx * i) / step, last[1] + (dy * i) / step);
+        } else stamp(x, y);
+        last = [x, y];
+        spray(x, y);
+      }
+
+      function finish() {
+        if (!live) return;
+        live = false;
+        root.classList.add('done', 'used');
+        note.textContent = root.dataset.done;
+        btn.textContent = 'Start over';
+      }
+
+      /* How much is left, read from a thumbnail so it never costs a frame. */
+      function check() {
+        if (!live) return;
+        pctx.clearRect(0, 0, 48, 32);
+        pctx.drawImage(paint, 0, 0, 48, 32);
+        var d = pctx.getImageData(0, 0, 48, 32).data, left = 0;
+        for (var i = 3; i < d.length; i += 4) if (d[i] > 60) left++;
+        if (left / 1536 < 0.07) finish();
+      }
+
+      function auto() {
+        root.classList.add('used');
+        if (still) return finish();
+        var t = 0, rows = 4, total = 74;
+        function run() {
+          var p = t / total, row = Math.min(rows - 1, Math.floor(p * rows)), q = p * rows - row;
+          sweep((row % 2 ? 1 - q : q) * W, ((row + 0.5) / rows) * H);
+          t += 1;
+          if (t <= total && live) requestAnimationFrame(run);
+          else { last = null; finish(); }
+        }
+        last = null;
+        run();
+      }
+
+      function at(e) {
+        var box = paint.getBoundingClientRect();
+        return [((e.clientX - box.left) / box.width) * W, ((e.clientY - box.top) / box.height) * H];
+      }
+      paint.addEventListener('pointerdown', function (e) {
+        if (!W || !live) return;
+        down = true;
+        last = null;
+        root.classList.add('used');
+        var p = at(e);
+        sweep(p[0], p[1]);
+      });
+      paint.addEventListener('pointermove', function (e) {
+        if (!down) return;
+        var p = at(e);
+        sweep(p[0], p[1]);
+      });
+      function up() {
+        if (down) check();
+        down = false;
+      }
+      addEventListener('pointerup', up);
+      addEventListener('pointercancel', up);
+      setInterval(function () { if (down) check(); }, 260);
+
+      btn.addEventListener('click', function () {
+        if (live) auto();
+        else reset();
+      });
+
+      if (src.complete && src.naturalWidth) start();
+      else src.addEventListener('load', start);
+    });
+  })();
+</script>

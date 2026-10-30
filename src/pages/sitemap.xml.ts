@@ -6,7 +6,7 @@ import { CITIES, TOWN_PAGES, hubPath } from '../data/cities';
 
 /* Every indexable page, by its production address. Built from the same data
    that builds the pages, so it cannot list a page that does not exist. */
-const STATIC = ['/', '/services/', '/service-areas/', '/gallery/', '/reviews/', '/about-us/', '/contact-us/', '/get-an-estimate/', '/journal/', '/privacy-policy/'];
+const STATIC = ['/', '/services/', '/service-areas/', '/gallery/', '/yard-studio/', '/reviews/', '/about-us/', '/contact-us/', '/get-an-estimate/', '/journal/', '/privacy-policy/'];
 
 export const GET: APIRoute = async () => {
   const [services, towns, cities, posts] = await Promise.all([getCollection('services'), getCollection('towns'), getCollection('cities'), getCollection('blog')]);

@@ -42,7 +42,7 @@ const slugOf = Object.fromEntries([...servicesTs.matchAll(/\{ id: '([a-z-]+)', n
 const matrixSrc = citiesTs.slice(citiesTs.indexOf('export const MATRIX'), citiesTs.indexOf('const slugFor'));
 const matrix = [...matrixSrc.matchAll(/'([a-z-]+)': \[([^\]]+)\]/g)].flatMap((m) => [...m[2].matchAll(/'([a-z-]+)'/g)].map((c) => [m[1], c[1]]));
 const validPaths = new Set([
-  '/', '/services/', '/service-areas/', '/about-us/', '/contact-us/', '/get-an-estimate/', '/privacy-policy/', '/reviews/', '/gallery/', '/journal/',
+  '/', '/services/', '/service-areas/', '/about-us/', '/contact-us/', '/get-an-estimate/', '/privacy-policy/', '/reviews/', '/gallery/', '/yard-studio/', '/journal/',
   ...blogSlugs.map((s) => `/journal/${s}/`),
   ...servicePaths,
   ...ids.cities.map((c) => `/service-areas/${c}/`),

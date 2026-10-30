@@ -1,0 +1,146 @@
+---
+/* Drag across a neglected picture to bring back the finished one: trim a hedge, wash
+   pavers, clear leaves. The two pictures are one made from the other, so they line up
+   to the pixel. The script paints "before" onto a canvas over "after" and erases it
+   under the pointer. Without script the finished picture simply shows.
+
+   The "before" picture is lazy, and nothing is drawn until it arrives. The button does
+   the job for anyone not using a pointer. Add RevealScript.astro once to the page. */
+import { getImage } from 'astro:assets';
+import type { ImageMetadata } from 'astro';
+
+interface Props {
+  kind: 'hedge' | 'pave' | 'leaf';
+  sizes?: string;
+}
+const { kind, sizes = '(min-width: 60rem) 66vw, 100vw' } = Astro.props;
+
+const KINDS = {
+  hedge: { alt: 'Illustration of a freshly trimmed boxwood hedge with a flat top and square shoulders', hint: 'Drag across the hedge', auto: 'Trim it for me', done: 'Flat top, square shoulders, and the shoots are gone.' },
+  pave: { alt: 'Illustration of a clean paver walk in warm gray and tan tones', hint: 'Drag across the pavers', auto: 'Wash it for me', done: 'Same pavers. The color was under there the whole time.' },
+  leaf: { alt: 'Illustration of a clean striped lawn and mulch bed in fall', hint: 'Drag across the lawn', auto: 'Clear it for me', done: 'Lawn back, beds clear, and the yard reset for the season.' },
+};
+const k = KINDS[kind];
+
+const files = import.meta.glob<{ default: ImageMetadata }>('../assets/reveal/*.jpg', { eager: true });
+const widths = [640, 960, 1280, 1536];
+const pic = async (name: string) => {
+  const src = files[`../assets/reveal/${kind}-${name}.jpg`].default;
+  const set = async (format: 'avif' | 'webp', quality: number) => (await Promise.all(widths.map(async (w) => `${(await getImage({ src, width: w, format, quality })).src} ${w}w`))).join(', ');
+  return { avif: await set('avif', 50), webp: await set('webp', 64), fb: (await getImage({ src, width: 960, format: 'webp', quality: 64 })).src };
+};
+const after = await pic('after');
+const before = await pic('before');
+---
+
+<figure class="rp" data-kind={kind} data-auto={k.auto} data-done={k.done}>
+  <div class="rp__stage frame">
+    <picture>
+      <source type="image/avif" srcset={after.avif} sizes={sizes} />
+      <source type="image/webp" srcset={after.webp} sizes={sizes} />
+      <img src={after.fb} width="1536" height="1024" alt={k.alt} loading="lazy" decoding="async" />
+    </picture>
+    <picture class="rp__src" aria-hidden="true">
+      <source type="image/avif" srcset={before.avif} sizes={sizes} />
+      <source type="image/webp" srcset={before.webp} sizes={sizes} />
+      <img src={before.fb} width="1536" height="1024" alt="" loading="lazy" decoding="async" />
+    </picture>
+    <canvas class="rp__paint" aria-hidden="true"></canvas>
+    <canvas class="rp__fx" aria-hidden="true"></canvas>
+    <p class="rp__hint fine" aria-hidden="true">{k.hint}</p>
+  </div>
+  <div class="rp__bar">
+    <button class="btn ghost small rp__btn" type="button" hidden>{k.auto}</button>
+    <p class="rp__note small muted" aria-live="polite"></p>
+  </div>
+</figure>
+
+<style>
+  .rp {
+    display: grid;
+    gap: 0.8rem;
+    min-width: 0;
+  }
+
+  .rp__stage {
+    aspect-ratio: 3 / 2;
+    touch-action: pan-y;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  .rp__stage :global(img) {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* present so the browser loads it, drawn only through the canvas */
+  .rp__src {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .rp__paint,
+  .rp__fx {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .rp__paint {
+    cursor: grab;
+    transition: opacity 0.7s var(--ease);
+  }
+
+  .rp__fx {
+    pointer-events: none;
+  }
+
+  .rp:global(.done) .rp__paint {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .rp__hint {
+    position: absolute;
+    left: 50%;
+    bottom: 0.75rem;
+    margin: 0;
+    padding: 0.3rem 0.7rem;
+    border-radius: var(--r-sm);
+    background: rgb(10 15 11 / 0.74);
+    color: #fff;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 0.3s var(--ease);
+    pointer-events: none;
+  }
+
+  .rp:global(.ready) .rp__hint {
+    opacity: 1;
+  }
+
+  .rp:global(.used) .rp__hint {
+    opacity: 0;
+  }
+
+  .rp__bar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem 1rem;
+    min-height: 2.75rem;
+  }
+
+  .rp__note {
+    margin: 0;
+  }
+</style>
