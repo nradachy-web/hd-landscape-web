@@ -497,6 +497,7 @@ h2 {
 }
 
 .btn.ghost {
+  background: none;
   border-color: rgb(20 26 20 / 0.28);
   color: var(--text);
 }
