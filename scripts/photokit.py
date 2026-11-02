@@ -1,14 +1,15 @@
 """Two helpers for scripts/photos.py.
 
 grade()  lifts the color in Jake's phone photos: gentle levels, local contrast,
-         vibrance, a little extra for lawns and sky, and light sharpening. It only
+         vibrance and a little extra for lawns and sky. No sharpening: it
+         added weight to every photo for detail nobody sees at web size. It only
          corrects the light and color the camera caught; nothing is added or moved.
 align()  warps a "before" photo into the frame of the design rendering that was made
          from it, so a before and after slider lines up. It matches features on the
          house (SIFT), then fits a projective transform with RANSAC.
 """
 import numpy as np
-from PIL import Image, ImageFilter
+from PIL import Image
 from skimage import color, exposure
 from skimage.color import rgb2gray
 from skimage.feature import SIFT, match_descriptors
@@ -29,7 +30,7 @@ def grade(im, s=1.0):
     lab = color.rgb2lab(a)
     L = lab[..., 0] / 100.0
     eq = exposure.equalize_adapthist(L, clip_limit=0.008, kernel_size=max(64, min(L.shape) // 8))
-    L = L * (1 - 0.35 * s) + eq * 0.35 * s
+    L = L * (1 - 0.25 * s) + eq * 0.25 * s
     L = 0.5 + (L - 0.5) * (1 + 0.22 * s)
     L = L - 0.48 * s * (L - 0.5) ** 3
     lab[..., 0] = np.clip(L, 0, 1) * 100
@@ -43,8 +44,7 @@ def grade(im, s=1.0):
     lab[..., 1] = A * gain
     lab[..., 2] = B * gain
     out = np.clip(color.lab2rgb(lab), 0, 1)
-    img = Image.fromarray((out * 255 + 0.5).astype(np.uint8))
-    return img.filter(ImageFilter.UnsharpMask(radius=1.6, percent=int(38 * s), threshold=2))
+    return Image.fromarray((out * 255 + 0.5).astype(np.uint8))
 
 
 def _features(gray):

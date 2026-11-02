@@ -32,8 +32,8 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: .cache
-          key: astro-images-${{ hashFiles('src/assets/photos/**', 'src/assets/brand/**') }}
-          restore-keys: astro-images-
+          key: astro-images-${{ vars.BASE_PATH == '/' && 'live' || 'preview' }}-${{ hashFiles('src/assets/**') }}
+          restore-keys: astro-images-${{ vars.BASE_PATH == '/' && 'live' || 'preview' }}-
       - run: npm ci
       - run: npx astro build
         env:

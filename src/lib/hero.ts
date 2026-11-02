@@ -37,7 +37,9 @@ export async function heroImage(id: PhotoId, opts: { ratio?: number; focus?: str
     return out.join(', ');
   };
 
-  const [avif, webp] = await Promise.all([build('avif', 42), build('webp', 56)]);
+  // 38, not 42: Jake's color graded photos (2026-11-02) carry more detail, and the hedge
+  // hero went from 176 to 251 KB on a phone. At 38 it is back to 170 KB.
+  const [avif, webp] = await Promise.all([build('avif', 38), build('webp', 56)]);
   const last = widths[widths.length - 1];
   const mid = widths[Math.min(2, widths.length - 1)];
   const fb = await getImage({ src: p.src, width: mid, height: Math.round(mid / ratio), format: 'jpeg', quality: 70, fit: 'cover', position: opts.focus ?? p.focus ?? 'center' });
