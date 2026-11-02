@@ -8,7 +8,7 @@ import { href } from '../lib/paths';
 
 <Base title={`Page not found | ${BRAND.name}`} description={`That page is not here. Find landscape design, sod, hedge trimming and care from ${BRAND.name} in ${BRAND.city}, MI.`} path="/404/" quoteHref="/get-an-estimate/" noindex bare>
   <PageHead eyebrow="Page not found" title="That page has been **dug up.**" lede="The link may be old, or the page may have moved when we rebuilt the site. These will get you where you were going." next="ink">
-    <ul class="chips">
+    <ul class="chips" data-not-found>
       <li><a class="chip" href={href('/services/')}>All services</a></li>
       <li><a class="chip" href={href('/service-areas/')}>Service areas</a></li>
       <li><a class="chip" href={href('/gallery/')}>Our work</a></li>

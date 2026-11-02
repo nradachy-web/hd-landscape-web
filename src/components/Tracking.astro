@@ -5,8 +5,23 @@
    100 on PageSpeed. His GA4 property is kept so his history carries over.
 
    The click ID and UTM tags are kept for 90 days and handed to the estimate form,
-   so a lead can be traced to the ad that brought it. Phone taps and form sends
-   are counted as events. */
+   so a lead can be traced to the ad that brought it.
+
+   Events, for GA4 key events and Google Ads imports:
+     generate_lead     a sent estimate request, counted once on the thank-you page
+                       (lead_source estimate_form or yard_studio, services, town, form_page)
+     phone_tap         a tap on any call link (location says which one)
+     text_tap          a tap on any text link
+     email_tap         a tap on the email address
+     estimate_start    the first touch on an estimate form, once per page
+     estimate_step     step 2 of the form reached
+     estimate_error    a send that did not go through
+     studio_send       a Yard Studio design put into the estimate form
+     studio_link       a Yard Studio design link copied
+     social_click      Instagram, Facebook or TikTok
+     page_not_found    the 404 page, with the address that was asked for
+   Other scripts call window.hdTrack(name, params). No names, phone numbers or
+   emails are ever sent to Google. */
 import { TRACKING } from '../data/site';
 ---
 
@@ -22,14 +37,35 @@ import { TRACKING } from '../data/site';
     w.dataLayer = w.dataLayer || [];
     w.gtag = function () { dataLayer.push(arguments); };
     function ev(name, params) { if (live) gtag('event', name, params || {}); }
+    w.hdTrack = ev;
+
+    var SOCIAL = /instagram\.com|facebook\.com|tiktok\.com/;
     document.addEventListener('click', function (e) {
-      var a = e.target.closest && e.target.closest('a[href^="tel:"],a[href^="sms:"]');
-      if (a) ev(a.href.indexOf('tel:') === 0 ? 'phone_tap' : 'text_tap', { location: a.dataset.loc || '' });
+      var a = e.target.closest && e.target.closest('a[href]');
+      if (!a) return;
+      var h = a.getAttribute('href'), where = { location: a.dataset.loc || '' };
+      if (h.indexOf('tel:') === 0) ev('phone_tap', where);
+      else if (h.indexOf('sms:') === 0) ev('text_tap', where);
+      else if (h.indexOf('mailto:') === 0) ev('email_tap', where);
+      else if (SOCIAL.test(h)) ev('social_click', { network: (SOCIAL.exec(h) || [''])[0].split('.')[0] });
     });
     if (!live) return;
     gtag('js', new Date());
     gtag('config', T.ga4);
-    if (document.documentElement.hasAttribute('data-lead')) ev('generate_lead');
+
+    var lead = document.documentElement.hasAttribute('data-lead');
+    if (lead) {
+      /* The form leaves a note just before it sends the visitor here, so a reload or
+         a bookmarked thank-you page is not counted twice. A send without script
+         comes back from Web3Forms with no note, and still counts once. */
+      var note = null;
+      try { note = JSON.parse(sessionStorage.getItem('hd_lead') || 'null'); sessionStorage.removeItem('hd_lead'); } catch (e) {}
+      if (note) ev('generate_lead', note);
+      else if (/web3forms/.test(document.referrer)) ev('generate_lead', { lead_source: 'estimate_form', method: 'no_script' });
+    }
+    var missing = !!document.querySelector('[data-not-found]');
+    if (missing) ev('page_not_found', { missing_path: location.pathname, came_from: document.referrer || 'direct' });
+
     var done = false, wake = ['pointerdown', 'touchstart', 'keydown', 'scroll'];
     function load() {
       if (done) return;
@@ -40,7 +76,7 @@ import { TRACKING } from '../data/site';
       s.src = 'https://www.googletagmanager.com/gtag/js?id=' + T.ga4;
       document.head.appendChild(s);
     }
-    if (fromAd || document.documentElement.hasAttribute('data-lead')) load();
+    if (fromAd || lead || missing) load();
     else wake.forEach(function (n) { addEventListener(n, load, { passive: true }); });
   })();
 </script>

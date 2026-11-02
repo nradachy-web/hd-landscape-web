@@ -85,8 +85,14 @@ const common = ['Landscape design', 'Landscape renovation', 'Sod installation', 
     var msg = f.querySelector('.qf__msg'), send = f.querySelector('.qf__send');
     two.hidden = true;
     function clear() { msg.textContent = ''; msg.className = 'qf__msg small'; }
+    function track(name, params) { if (window.hdTrack) window.hdTrack(name, params); }
+    var started = false;
+    function start() { if (!started) { started = true; track('estimate_start', { form_page: location.pathname }); } }
+    f.addEventListener('focusin', start);
+    f.addEventListener('change', start);
     f.querySelector('.qf__next').addEventListener('click', function () {
       clear(); one.hidden = true; two.hidden = false; two.querySelector('input[name=name]').focus();
+      track('estimate_step', { step: 2, form_page: location.pathname });
     });
     f.querySelector('.qf__back').addEventListener('click', function () {
       clear(); two.hidden = true; one.hidden = false; one.querySelector('input').focus();
@@ -116,12 +122,15 @@ const common = ['Landscape design', 'Landscape renovation', 'Sod installation', 
         .then(function (r) { return r.json(); })
         .then(function (j) {
           if (!j.success) throw new Error('rejected');
+          /* counted on the thank-you page, once; nothing personal goes to Google */
+          try { sessionStorage.setItem('hd_lead', JSON.stringify({ lead_source: f.dataset.from || 'estimate_form', services: o.services, town: o.town || '', form_page: location.pathname })); } catch (err) {}
           location.href = f.dataset.thanks;
         })
         .catch(function () {
           send.disabled = false; send.textContent = 'Send my request';
           call('That did not go through. Please call or text Jake at');
           msg.classList.add('is-bad');
+          track('estimate_error', { form_page: location.pathname });
         });
     });
   })();

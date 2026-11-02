@@ -236,6 +236,7 @@ const data = JSON.stringify(SLOTS.map((s) => ({ id: s.id, name: s.name, stack: s
       var said = function (t) { share.textContent = t; setTimeout(function () { share.textContent = label; }, 2200); };
       if (navigator.clipboard) navigator.clipboard.writeText(link()).then(function () { said('Link copied'); }, function () { said('Copy the address bar'); });
       else said('Copy the address bar');
+      if (window.hdTrack) window.hdTrack('studio_link', { design: code() });
     });
     root.querySelector('.ys__send').addEventListener('click', function () {
       var form = document.getElementById('qf');
@@ -244,6 +245,8 @@ const data = JSON.stringify(SLOTS.map((s) => ({ id: s.id, name: s.name, stack: s
       if (chip) chip.checked = true;
       form.querySelector('textarea[name=message]').value = 'My Yard Studio design:\n' + slots.map(function (s) { return s.name + ': ' + current(s).name; }).join('\n') + '\n' + link();
       form.querySelector('.qf__msg').textContent = 'Your design is attached to this request. Add your details and send it to Jake.';
+      form.dataset.from = 'yard_studio';
+      if (window.hdTrack) window.hdTrack('studio_send', { design: code() });
     });
 
     /* A shared link opens on that design. */
