@@ -27,8 +27,21 @@ export const RATING = {
 export const LINKS = {
   google: 'https://www.google.com/maps/place/HD+Landscape/data=!4m2!3m1!1s0xa1f4b503bcb01a0b:0x296d0010c14b2eda',
   facebook: 'https://www.facebook.com/hdlandscapellc1',
+  instagram: 'https://www.instagram.com/hd_landscape1/',
   tiktok: 'https://www.tiktok.com/@hd_landscape1',
+  /* Jake's own accounts. Each link shows only once its address is filled in. */
+  jakeInstagram: '',
+  jakeFacebook: '',
 };
+
+/** The social links in the order they are shown, skipping any without an address. */
+export const SOCIAL = [
+  { name: 'Instagram', href: LINKS.instagram },
+  { name: 'Facebook', href: LINKS.facebook },
+  { name: 'TikTok', href: LINKS.tiktok },
+  { name: 'Jake on Instagram', href: LINKS.jakeInstagram },
+  { name: 'Jake on Facebook', href: LINKS.jakeFacebook },
+].filter((s) => s.href);
 
 /* From the old About page. */
 export const STATS = { projects: '200+', areas: '12+' };
@@ -48,4 +61,4 @@ export const TRACKING = {
 
 /* One switch for the South Florida season pages. Michigan pages that mention the
    winter work are listed in the launch notes and need a read if this goes off. */
-export const FLORIDA = true;
+export const FLORIDA = false;

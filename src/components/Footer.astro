@@ -1,6 +1,6 @@
 ---
 import Stars from './Stars.astro';
-import { BRAND, LINKS, RATING } from '../data/site';
+import { BRAND, LINKS, RATING, SOCIAL } from '../data/site';
 import { GROUPS, inGroup } from '../data/services';
 import { AREAS, inArea, hubPath } from '../data/cities';
 import { href } from '../lib/paths';
@@ -21,8 +21,7 @@ const year = new Date().getFullYear();
         <li><a href={BRAND.phoneHref} data-loc="footer">{BRAND.phone}</a></li>
         <li><a href={`mailto:${BRAND.email}`}>{BRAND.email}</a></li>
         <li class="ftr__social">
-          <a href={LINKS.facebook} target="_blank" rel="noopener">Facebook</a>
-          <a href={LINKS.tiktok} target="_blank" rel="noopener">TikTok</a>
+          {SOCIAL.map((s) => <a href={s.href} target="_blank" rel="noopener">{s.name}</a>)}
         </li>
       </ul>
     </div>
@@ -107,7 +106,8 @@ const year = new Date().getFullYear();
 
   .ftr__social {
     display: flex;
-    gap: 1.25rem;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
   }
 
   .ftr__services {

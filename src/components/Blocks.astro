@@ -130,7 +130,7 @@ const link = (h: string) => (h.startsWith('#') || /^(https?:|tel:|sms:)/.test(h)
                 )}
               </div>
               <div class:list={['bas', `bas--${b.pairs.length}`]}>
-                {b.pairs.map((p) => <BeforeAfter pair={p as PairId} sizes={b.pairs.length > 1 ? '(min-width: 60rem) 30vw, (min-width: 30rem) 46vw, 92vw' : '(min-width: 60rem) 40vw, 92vw'} />)}
+                {b.pairs.map((p) => <BeforeAfter pair={p as PairId} sizes={b.pairs.length > 2 ? '(min-width: 60rem) 30vw, (min-width: 30rem) 46vw, 92vw' : b.pairs.length > 1 ? '(min-width: 30rem) 46vw, 92vw' : '(min-width: 60rem) 40vw, 92vw'} />)}
               </div>
             </div>
           )}

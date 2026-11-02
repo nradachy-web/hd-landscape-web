@@ -25,6 +25,7 @@ const cols = services.length === 4 ? 'c4' : 'c3';
             <Photo id={s.photo} ratio={4 / 3} widths={[240, 360, 540, 720]} sizes="(min-width: 60rem) 25vw, (min-width: 40rem) 50vw, 320px" alt="" />
             {photo(s.photo).kind === 'ai' && <span class="svc__tag">Illustration</span>}
             {photo(s.photo).kind === 'relit' && <span class="svc__tag">Relit for evening</span>}
+            {photo(s.photo).kind === 'design' && <span class="svc__tag">Design rendering</span>}
           </div>
           <div class="svc__body">
             <h3 class="h3">

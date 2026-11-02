@@ -26,7 +26,7 @@ export function plain(text: string): string {
 
 /** A heading as HTML: escaped, a ** phrase set as the accent, and hyphenated
     words wrapped so they never break at the hyphen. */
-const TOWNS = /\b(Grosse Pointe(?: Park| Farms| Woods| Shores)?|St\. Clair Shores|Royal Oak|Rochester Hills|Bloomfield Hills|Bloomfield Township|West Bloomfield|Beverly Hills|Huntington Woods|Harper Woods|Oakland Township|Clinton Township|Harrison Township|Macomb Township|Shelby Township|Washington Township|Chesterfield Township|Sterling Heights|Mount Clemens|New Baltimore|Fort Lauderdale)\b/g;
+const TOWNS = /\b(Grosse Pointe(?: Park| Farms| Woods| Shores)?|St\. Clair Shores|Royal Oak|Rochester Hills|Bloomfield Hills|Bloomfield Township|West Bloomfield|Beverly Hills|Huntington Woods|Lake Orion|Oakland Township|Clinton Township|Harrison Township|Macomb Township|Shelby Township|Washington Township|Chesterfield Township|Sterling Heights|Mount Clemens|New Baltimore|Fort Lauderdale)\b/g;
 /** Keep a town's name on one line. */
 export const nbTown = (s: string) => s.replace(TOWNS, (m) => m.replace(/ /g, '\u00a0')).replace(/, MI\b/g, ',\u00a0MI');
 

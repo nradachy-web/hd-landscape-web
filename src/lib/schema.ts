@@ -36,7 +36,7 @@ export function business() {
       name: 'Landscape services',
       itemListElement: MI_SERVICES.map((s) => ({ '@type': 'Offer', itemOffered: { '@type': 'Service', name: s.name, url: `${ORIGIN}${s.path}` } })),
     },
-    sameAs: [LINKS.google, LINKS.facebook, LINKS.tiktok],
+    sameAs: [LINKS.google, LINKS.facebook, LINKS.instagram, LINKS.tiktok],
     founder: { '@type': 'Person', name: BRAND.owner },
   };
 }

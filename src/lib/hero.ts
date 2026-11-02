@@ -51,6 +51,6 @@ export async function heroImage(id: PhotoId, opts: { ratio?: number; focus?: str
     webp,
     fallback: fb.src,
     preload: { srcset: avif, sizes, type: 'image/avif', media: opts.media },
-    note: p.kind === 'ai' ? 'Illustration' : p.kind === 'relit' ? p.caption : undefined,
+    note: p.kind === 'ai' ? 'Illustration' : p.kind === 'relit' || p.kind === 'design' ? p.caption : undefined,
   };
 }

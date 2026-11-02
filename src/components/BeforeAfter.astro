@@ -3,27 +3,28 @@
    underneath, so it works by touch, mouse and arrow keys. Without script it
    rests at the halfway point, showing both. */
 import Photo from './Photo.astro';
-import { PAIRS, type PairId } from '../data/photos';
+import { PAIRS, type Pair, type PairId } from '../data/photos';
 
 interface Props {
   pair: PairId;
   sizes?: string;
 }
 const { pair, sizes = '(min-width: 60rem) 34vw, 92vw' } = Astro.props;
-const p = PAIRS[pair];
-const widths = [360, 540, 720, 960];
+const p: Pair = PAIRS[pair];
+const ratio = p.ratio ?? 4 / 5;
+const widths = p.ratio ? [480, 720, 960, 1280, 1440] : [360, 540, 720, 960];
 ---
 
 <figure class="ba">
-  <div class="ba__stage frame">
-    <Photo id={p.after} ratio={4 / 5} widths={widths} sizes={sizes} class="ba__img" />
+  <div class:list={['ba__stage frame', { 'ba__stage--wide': p.ratio }]}>
+    <Photo id={p.after} ratio={ratio} widths={widths} sizes={sizes} class="ba__img" />
     <div class="ba__before">
-      <Photo id={p.before} ratio={4 / 5} widths={widths} sizes={sizes} class="ba__img" />
+      <Photo id={p.before} ratio={ratio} widths={widths} sizes={sizes} class="ba__img" />
     </div>
     <span class="ba__tag ba__tag--b" aria-hidden="true">Before</span>
-    <span class="ba__tag ba__tag--a" aria-hidden="true">After</span>
+    <span class="ba__tag ba__tag--a" aria-hidden="true">{p.design ? 'Design' : 'After'}</span>
     <span class="ba__line" aria-hidden="true"><span class="ba__knob"></span></span>
-    <input class="ba__range" type="range" min="0" max="100" value="50" aria-label={`Before and after: ${p.title}. Use the arrow keys or drag to compare.`} aria-valuetext="50% before, 50% after" />
+    <input class="ba__range" type="range" min="0" max="100" value="50" aria-label={`${p.design ? 'Before and design' : 'Before and after'}: ${p.title}. Use the arrow keys or drag to compare.`} aria-valuetext={p.design ? '50% before, 50% design' : '50% before, 50% after'} data-second={p.design ? 'design' : 'after'} />
   </div>
   <figcaption class="ba__cap">
     <strong>{p.title}</strong>
@@ -130,6 +131,11 @@ const widths = [360, 540, 720, 960];
     .ba__stage {
       aspect-ratio: 1;
     }
+  }
+
+  /* whole houses: Jake's design pairs keep their 4:3 frame on every screen */
+  .ba__stage.ba__stage--wide {
+    aspect-ratio: 4 / 3;
   }
 
   .ba__range:focus-visible ~ .ba__line .ba__knob,

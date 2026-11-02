@@ -1,6 +1,7 @@
 ---
-/* Selected work. Real photographs only: no relit images and no illustrations on
-   this page. Nick has said no filterable catalog, square expand icons or modal
+/* Selected work. Real photographs, plus Jake's design renderings set beside the
+   photo of the yard each was drawn from, labeled as designs. No relit images and no
+   illustrations on this page. Nick has said no filterable catalog, square expand icons or modal
    viewer, so these are composed bands of captioned photos. Old address kept. */
 import Base from '../layouts/Base.astro';
 import PageHead from '../components/PageHead.astro';
@@ -9,7 +10,7 @@ import Head from '../components/Head.astro';
 import Photo from '../components/Photo.astro';
 import BeforeAfter from '../components/BeforeAfter.astro';
 import QuoteBand from '../components/QuoteBand.astro';
-import { photo, type PhotoId } from '../data/photos';
+import { photo, type PairId, type PhotoId } from '../data/photos';
 import { heroImage } from '../lib/hero';
 import { balance } from '../lib/paths';
 import { breadcrumbs } from '../lib/schema';
@@ -17,9 +18,9 @@ import { breadcrumbs } from '../lib/schema';
 const head = await heroImage('hedge-curve', { sizes: '(min-width: 60rem) 48vw, 1px' });
 const path = '/gallery/';
 const sets: { id: string; title: string; intro: string; photos: PhotoId[] }[] = [
-  { id: 'beds', title: 'Beds and **planting.**', intro: 'New beds, clean lines and plants set where they will do well.', photos: ['curve-brick-bed', 'urn-bed', 'tudor-planting', 'patio-bed', 'hosta-bed', 'evergreen-island', 'maple-rock-bed', 'thrift-boulder', 'island-bed'] },
+  { id: 'beds', title: 'Beds and **planting.**', intro: 'New beds, clean lines and plants set where they will do well.', photos: ['curve-brick-bed', 'urn-bed', 'colonial-dogwood', 'tudor-planting', 'patio-bed', 'hosta-bed', 'evergreen-island', 'maple-rock-bed', 'thrift-boulder', 'island-bed'] },
   { id: 'stone', title: 'Stone, walls and **walks.**', intro: 'Block borders, river rock, black stone and walks that hold their line.', photos: ['weeping-border', 'ranch-stone-bed', 'paver-walk', 'rock-bed-hydrangea', 'slate-sidewalk', 'black-stone-kidney', 'limestone-bed', 'flagstone-side', 'river-rock-beds'] },
-  { id: 'hedges', title: 'Hedges **by hand and eye.**', intro: 'Long runs, tight curves and the odd topiary.', photos: ['stone-manor', 'hedge-long', 'tall-hedge', 'hedge-walk', 'pool-hedge', 'topiary-spiral', 'boxwood-front'] },
+  { id: 'hedges', title: 'Hedges **by hand and eye.**', intro: 'Long runs, tight curves and the odd topiary.', photos: ['stone-manor', 'hedge-long', 'tall-hedge', 'arborvitae-bed', 'hedge-walk', 'pool-hedge', 'topiary-spiral', 'boxwood-front'] },
   { id: 'lawns', title: 'Lawns, sod and **grading.**', intro: 'Graded first, then laid in tight seams, right up to the edge.', photos: ['sod-backyard', 'sod-colonial', 'sod-circle', 'grade-rake', 'steppers-lawn', 'shade-lawn'] },
   { id: 'commercial', title: 'Commercial **properties.**', intro: 'Entries, planters and foundation beds for businesses.', photos: ['commercial-palms', 'commercial-entry', 'condo-evergreens'] },
 ];
@@ -32,15 +33,21 @@ const sets: { id: string; title: string; intro: string; photos: PhotoId[] }[] = 
   preload={{ ...head.preload, media: '(min-width: 60rem)' }}
   schema={[breadcrumbs([{ name: 'Home', path: '/' }, { name: 'Our work', path }])]}
 >
-  <PageHead image={head} eyebrow="Our work" title="Real jobs, **real phone photos.**" lede="Every picture on this page is one of our jobs. No stock photos and nothing staged." crumbs={[{ name: 'Our work', path }]} next="ink" />
+  <PageHead image={head} eyebrow="Our work" title="Real jobs, **real phone photos.**" lede="Every photo on this page is one of our jobs. No stock photos and nothing staged, and the design renderings are labeled as designs." crumbs={[{ name: 'Our work', path }]} next="ink" />
 
   <section class="band ink has-edge" aria-labelledby="ba-h">
     <div class="wrap">
-      <Head id="ba-h" eyebrow="Before and after" title="Drag the line **on any of these.**" />
-      <div class="ba-row">
-        <BeforeAfter pair="ba-corner" />
-        <BeforeAfter pair="ba-hedge" />
-        <BeforeAfter pair="ba-side" />
+      <Head id="ba-h" eyebrow="Before and design" title="Planned **before we dig.**" intro="Each design starts from a photo of the real yard. Drag the line to compare the yard with the plan." />
+      <div class="ba-row ba-row--wide">
+        {['ba-manor', 'ba-colonial', 'ba-craftsman', 'ba-border', 'ba-willow', 'ba-planter', 'ba-terrace', 'ba-patio'].map((p) => <BeforeAfter pair={p as PairId} sizes="(min-width: 48rem) 46vw, 92vw" />)}
+      </div>
+      <div class="ba-more">
+        <Head id="ba-real-h" layout="left" small eyebrow="Before and after" title="Real jobs, filmed by Jake." />
+        <div class="ba-row">
+          <BeforeAfter pair="ba-corner" />
+          <BeforeAfter pair="ba-hedge" />
+          <BeforeAfter pair="ba-side" />
+        </div>
       </div>
     </div>
     <Edge to="paper" />
@@ -79,8 +86,23 @@ const sets: { id: string; title: string; intro: string; photos: PhotoId[] }[] = 
     gap: 2rem;
   }
 
+  .ba-more {
+    display: grid;
+    gap: 2rem;
+    margin-top: clamp(3rem, 6vw, 4.5rem);
+    padding-top: clamp(2.5rem, 5vw, 3.5rem);
+    border-top: 1px solid var(--line-ink);
+  }
+
+  @media (min-width: 48rem) {
+    .ba-row--wide {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 2.25rem 1.75rem;
+    }
+  }
+
   @media (min-width: 56rem) {
-    .ba-row {
+    .ba-row:not(.ba-row--wide) {
       grid-template-columns: repeat(3, minmax(0, 1fr));
       gap: 1.5rem;
     }

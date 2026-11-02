@@ -36,8 +36,8 @@ import { heroImage } from '../lib/hero';
 import { href } from '../lib/paths';
 import { faqSchema } from '../lib/schema';
 
-const wide = await heroImage('hero-wide', { sizes: '100vw', widths: [960, 1320, 1680, 1916], media: '(min-width: 48rem)' });
-const tall = await heroImage('hero-tall', { sizes: '100vw', widths: [420, 640, 828, 1080], media: '(max-width: 47.99rem)' });
+const wide = await heroImage('hero-wide', { sizes: '100vw', widths: [960, 1320, 1536], media: '(min-width: 48rem)' });
+const tall = await heroImage('hero-tall', { sizes: '100vw', widths: [420, 640, 828, 1024], media: '(max-width: 47.99rem)' });
 
 const facts = [
   { n: RATING.value, label: `stars on Google, from ${RATING.countLabel} reviews` },
@@ -144,11 +144,12 @@ const faq = [
 
   <section class="band has-edge ink" aria-labelledby="ba-h">
     <div class="wrap">
-      <Head id="ba-h" eyebrow="Same yard, before and after" title="Drag the line **across the job.**" intro="Filmed by Jake on the job." />
+      <Head id="ba-h" eyebrow="Same yard, before and design" title="See it finished **before we dig.**" intro="Each design starts from a photo of the real yard. Drag the line to compare the yard with the plan." />
       <div class="ba-row">
-        <BeforeAfter pair="ba-side" />
-        <BeforeAfter pair="ba-hedge" />
-        <BeforeAfter pair="ba-sod" />
+        <BeforeAfter pair="ba-manor" sizes="(min-width: 48rem) 46vw, 92vw" />
+        <BeforeAfter pair="ba-colonial" sizes="(min-width: 48rem) 46vw, 92vw" />
+        <BeforeAfter pair="ba-border" sizes="(min-width: 48rem) 46vw, 92vw" />
+        <BeforeAfter pair="ba-craftsman" sizes="(min-width: 48rem) 46vw, 92vw" />
       </div>
       <div class="reels">
         <Head layout="left" small eyebrow="On the job" title="A walk through a few finished yards." />
@@ -352,10 +353,10 @@ const faq = [
     border-top: 1px solid var(--line-ink);
   }
 
-  @media (min-width: 56rem) {
+  @media (min-width: 48rem) {
     .ba-row {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 1.5rem;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 2.25rem 1.75rem;
     }
   }
 

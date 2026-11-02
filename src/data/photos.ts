@@ -1,6 +1,9 @@
-/* The photo library. Three kinds, and the page always tells the truth about which:
-     real    Jake's own job photos and stills from his own reels.
+/* The photo library. Four kinds, and the page always tells the truth about which:
+     real    Jake's own job photos and stills from his own reels, color corrected.
      relit   a real finished job, relit for evening. The caption says so.
+     design  a design rendering Jake made from a photo of a client's yard, or one
+             recomposed from his rendering. The caption says "Design rendering".
+             Never used as proof of a finished job.
      ai      made from a prompt for a service with no job photo yet. The caption
              says "Illustration". Never used as proof of a job.
    `alt` says what is in the frame; `caption` is what may be printed under it.
@@ -15,7 +18,7 @@ const files = import.meta.glob<{ default: ImageMetadata }>('../assets/photos/*.j
 const byId: Record<string, ImageMetadata> = {};
 for (const [path, mod] of Object.entries(files)) byId[path.split('/').pop()!.replace(/\.jpg$/, '')] = mod.default;
 
-type Kind = 'real' | 'relit' | 'ai';
+type Kind = 'real' | 'relit' | 'design' | 'ai';
 /** `focus` says where a fixed crop should anchor when the subject is not in the middle. */
 interface Entry { alt: string; caption: string; kind?: Kind; focus?: 'top' | 'bottom' | 'left' | 'right' }
 
@@ -68,6 +71,8 @@ export const PHOTOS = {
   'entry-planter': { alt: 'A front door planter with a large canna, pink flowers and trailing vines', caption: 'Entry planter' },
   'window-planter': { alt: 'Red begonias and trailing greens in a planter under a window', caption: 'Seasonal color under a window' },
   'evergreen-island': { alt: 'Upright evergreens and white hydrangeas in a round mulched bed in a lawn', caption: 'Evergreens and hydrangeas in a round bed' },
+  'arborvitae-bed': { alt: 'Tall arborvitae and hostas in a curved bed along a brick ranch under a blue sky', caption: 'Tall arborvitae and hostas along a ranch' },
+  'colonial-dogwood': { alt: 'A brick and sided colonial with a white flowering dogwood, clean bed lines and a green lawn on both sides of the front walk', caption: 'A flowering dogwood, clean beds and a full lawn' },
   'lakeside-bed': { alt: 'A long mulched bed with boulders and small plants along a drive with the lake behind it', caption: 'Boulders and low planting near the lake' },
   // commercial
   'commercial-palms': { alt: 'Planters of palms and flowers along a black stone bed at a dark blue commercial building', caption: 'Commercial entry planting' },
@@ -77,11 +82,14 @@ export const PHOTOS = {
   'florida-agave': { alt: 'Agave and black stone in a raised bed along a stucco home', caption: 'Agave and black stone, South Florida' },
   'florida-hedge': { alt: 'A clipped hedge, grasses and black stone along a stucco home with a metal roof at sunset', caption: 'Clipped hedge and black stone, South Florida' },
   // people
+  'jake-bobcat': { alt: 'Jake Hendricks, owner of HD Landscape, on the phone in sunglasses and a company polo, sitting on a Bobcat skid steer with a chainsaw at his feet', caption: 'Jake Hendricks, owner', focus: 'bottom' },
   'jake-polo': { alt: 'Jake Hendricks, owner of HD Landscape, in a company polo and sunglasses in front of a brick home', caption: 'Jake Hendricks, owner', focus: 'top' },
   'yard-sign': { alt: 'An HD Landscape yard sign on a fresh green lawn with a sports car in the drive behind it', caption: 'Our sign on a finished lawn' },
+  // Jake's design renderings
+  'hero-wide': { alt: 'A brick and stone home at dusk with lit beds of hydrangeas, ornamental grasses and river rock along a new walk and lawn', caption: 'HD Landscape design rendering', kind: 'design' },
+  'hero-tall': { alt: 'A stone entry at dusk framed by lit beds of hydrangeas, grasses and river rock beside a new walk', caption: 'HD Landscape design rendering', kind: 'design' },
+  'design-willow': { alt: 'A white brick home at dusk with a weeping willow rising from a round lit bed of hydrangeas and grasses in the front lawn', caption: 'HD Landscape design rendering', kind: 'design' },
   // relit real jobs
-  'hero-wide': { alt: 'A red Japanese maple lit from below at dusk in front of a modern home, with a long dark lawn', caption: 'A finished HD Landscape job, relit for evening', kind: 'relit' },
-  'hero-tall': { alt: 'A red Japanese maple lit from below at dusk in front of a modern home', caption: 'A finished HD Landscape job, relit for evening', kind: 'relit' },
   'dusk-maple': { alt: 'A red Japanese maple glowing at blue hour against a modern brick home', caption: 'A finished job, relit for evening', kind: 'relit' },
   'dusk-curve': { alt: 'A curved stone bed and clipped hedge at dusk in front of a brick ranch with lit windows', caption: 'A finished job, relit for evening', kind: 'relit' },
   'dusk-urn': { alt: 'A paver patio, urn of red flowers and sweeping beds at dusk beside a sage home with glowing windows', caption: 'A finished job, relit for evening', kind: 'relit' },
@@ -115,6 +123,22 @@ export const PHOTOS = {
   'ba-hedge-after': { alt: 'After: the same hedge clipped into a clean curve', caption: 'After' },
   'ba-sod-before': { alt: 'Before: a rough sloped yard with overgrown plants', caption: 'Before' },
   'ba-sod-after': { alt: 'After: the same yard with smooth new sod, a clean hedge line and steppers', caption: 'After' },
+  'ba-manor-before': { alt: 'Before: a new brick and stone home behind a yard of bare graded dirt', caption: 'Before' },
+  'ba-manor-after': { alt: 'The design: hydrangeas, grasses and river rock beds along the house, a new walk and a full lawn, at dusk', caption: 'Design rendering', kind: 'design' },
+  'ba-craftsman-before': { alt: 'Before: a new gray craftsman home with bare dirt on both sides of the front walk', caption: 'Before' },
+  'ba-craftsman-after': { alt: 'The design: hydrangea and evergreen beds, a red Japanese maple and new lawn on both sides of the walk', caption: 'Design rendering', kind: 'design' },
+  'ba-patio-before': { alt: 'Before: bare dirt beside a gray two story home and a side walk', caption: 'Before' },
+  'ba-patio-after': { alt: 'The design: a paver patio with outdoor seating, upright evergreens, hydrangeas and new lawn', caption: 'Design rendering', kind: 'design' },
+  'ba-willow-before': { alt: 'Before: a white brick colonial with a plain lawn and a car in the drive', caption: 'Before' },
+  'ba-colonial-before': { alt: 'Before: a white colonial with a thin, patchy lawn and bare foundation beds', caption: 'Before' },
+  'ba-colonial-after': { alt: 'The design: spiral topiaries at the door, clipped boxwood and white hydrangeas along the house and a full lawn', caption: 'Design rendering', kind: 'design' },
+  'ba-terrace-before': { alt: 'Before: plain lawn running up to a curved stone patio wall', caption: 'Before' },
+  'ba-terrace-after': { alt: 'The design: white hydrangeas, round boxwood and ornamental grass in black stone, curving out from the patio wall', caption: 'Design rendering', kind: 'design' },
+  'ba-planter-before': { alt: 'Before: overgrown shrubs and a worn lawn in front of a brick ranch with a yellow door', caption: 'Before' },
+  'ba-planter-after': { alt: 'The design: a low block planter of white hydrangeas and grasses along the ranch, with a striped lawn', caption: 'Design rendering', kind: 'design' },
+  'ba-border-before': { alt: 'Before: a sparse, weedy bed along a curved paver walk beside a brick home', caption: 'Before' },
+  'ba-border-after': { alt: 'The design: coneflowers, black-eyed Susans, salvia and grasses filling the bed along the curved paver walk', caption: 'Design rendering', kind: 'design' },
+  'ba-willow-after': { alt: 'The design: a weeping willow in a round bed of hydrangeas and grasses in the front lawn, lit at dusk', caption: 'Design rendering', kind: 'design' },
 } satisfies Record<string, Entry>;
 
 export type PhotoId = keyof typeof PHOTOS;
@@ -127,11 +151,23 @@ export const photo = (id: PhotoId) => {
   return { ...e, kind: e.kind ?? 'real', src };
 };
 
+/* `design` pairs set Jake's photo of the yard beside the rendering he made from it.
+   Their second tag reads "Design", never "After". */
+export interface Pair { before: PhotoId; after: PhotoId; title: string; note: string; design?: boolean; ratio?: number }
+
 export const PAIRS = {
   'ba-side': { before: 'ba-side-before', after: 'ba-side-after', title: 'Weedy corner to black stone bed', note: 'Block border and weeds out, a steel edge curved in, then black stone, boulders and a weeping tree.' },
   'ba-corner': { before: 'ba-corner-before', after: 'ba-corner-after', title: 'Bare corner to finished bed', note: 'Gravel and dead grass cleared, then black stone and a low hedge.' },
   'ba-foundation': { before: 'ba-foundation-before', after: 'ba-foundation-after', title: 'Weeds to a clean foundation bed', note: 'Beds pulled, the line cut and fresh black mulch down.' },
   'ba-hedge': { before: 'ba-hedge-before', after: 'ba-hedge-after', title: 'Shaggy to shaped', note: 'The same hedge, the same sidewalk, one visit apart.' },
   'ba-sod': { before: 'ba-sod-before', after: 'ba-sod-after', title: 'Rough slope to new lawn', note: 'Regraded, new sod laid, and steppers set into the lawn.' },
-} satisfies Record<string, { before: PhotoId; after: PhotoId; title: string; note: string }>;
+  'ba-manor': { before: 'ba-manor-before', after: 'ba-manor-after', title: 'Bare dirt to a front yard plan', note: 'A new build with nothing but graded dirt. The design puts hydrangeas, grasses and river rock along the house, with a full lawn out to the street.', design: true, ratio: 4 / 3 },
+  'ba-craftsman': { before: 'ba-craftsman-before', after: 'ba-craftsman-after', title: 'A new build, planted on paper first', note: 'Hydrangeas, evergreens and a red Japanese maple, laid out on both sides of the walk before a shovel went in.', design: true, ratio: 4 / 3 },
+  'ba-patio': { before: 'ba-patio-before', after: 'ba-patio-after', title: 'A dirt side yard, drawn as a patio', note: 'A paver patio with room for a sectional, screened by upright evergreens and soft with hydrangeas.', design: true, ratio: 4 / 3 },
+  'ba-colonial': { before: 'ba-colonial-before', after: 'ba-colonial-after', title: 'A plain front, finished properly', note: 'Spiral topiaries at the door, clipped boxwood and white hydrangeas along the house and the lawn brought back, with the maple kept.', design: true, ratio: 4 / 3 },
+  'ba-terrace': { before: 'ba-terrace-before', after: 'ba-terrace-after', title: 'A bed to soften the patio wall', note: 'White hydrangeas, round boxwood and ornamental grass in black stone, curved out from the wall.', design: true, ratio: 4 / 3 },
+  'ba-planter': { before: 'ba-planter-before', after: 'ba-planter-after', title: 'Overgrown to one clean line', note: 'The tired shrubs out and a low block planter of white hydrangeas and grasses in, with the lawn brought back.', design: true, ratio: 4 / 3 },
+  'ba-border': { before: 'ba-border-before', after: 'ba-border-after', title: 'A side walk lined in color', note: 'Coneflowers, black-eyed Susans, salvia and grasses fill the bed along the curved paver walk.', design: true, ratio: 4 / 3 },
+  'ba-willow': { before: 'ba-willow-before', after: 'ba-willow-after', title: 'One lawn, one big idea', note: 'A plain front lawn gets a weeping willow in a round bed of hydrangeas and grasses.', design: true, ratio: 4 / 3 },
+} satisfies Record<string, Pair>;
 export type PairId = keyof typeof PAIRS;

@@ -13,7 +13,7 @@
       "Planned around sun, soil and water",
       "Itemized before we start"
     ],
-    "photo": "dusk-urn"
+    "photo": "design-willow"
   },
   "blocks": [
     {
@@ -89,7 +89,7 @@
         "Our crew builds it, so the plan is made with the build in mind",
         "Every part of the plan gets its own line on the estimate"
       ],
-      "photo": "jake-polo",
+      "photo": "jake-bobcat",
       "flip": true,
       "cta": {
         "label": "Ask Jake about your yard",
@@ -150,8 +150,16 @@
       "title": "Start your design **right here.**"
     },
     {
-      "type": "steps",
+      "type": "beforeAfter",
       "plane": "paper",
+      "eyebrow": "Before and design",
+      "title": "The plan, **on the real yard.**",
+      "intro": "Two of Jake's designs, each laid over a photo of the yard it was made for. Drag the line to compare the yard with the plan.",
+      "pairs": ["ba-willow", "ba-planter"]
+    },
+    {
+      "type": "steps",
+      "plane": "white",
       "eyebrow": "Start to finish",
       "title": "From first walk to **last rake.**",
       "steps": [

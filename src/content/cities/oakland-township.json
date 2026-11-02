@@ -29,7 +29,7 @@
       },
       {
         "title": "Oak woods need a careful hand",
-        "body": "Oak forest is native here. Oak wilt can kill a red oak within a month or two, and most of it spreads through connected roots, so digging near oaks takes care. The state says not to prune them from April 15 to July 15. Oak work that waits for the cold months runs into Jake's South Florida winters, so ask early if he can take it on or who can."
+        "body": "Oak forest is native here. Oak wilt can kill a red oak within a month or two, and most of it spreads through connected roots, so digging near oaks takes care. The state says not to prune them from April 15 to July 15. Oak work waits for the cold months, so ask Jake early whether he can take it on or who can."
       },
       {
         "title": "Wet ground comes with a 25 foot line",
@@ -101,6 +101,7 @@
   "neighbors": [
     "rochester-hills",
     "rochester",
+    "lake-orion",
     "washington-township"
   ]
 }

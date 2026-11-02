@@ -28,3 +28,5 @@ _source/
 
 # generated image cache
 .cache/
+
+__pycache__/

@@ -7,7 +7,7 @@ import Photo from '../components/Photo.astro';
 import Reviews from '../components/Reviews.astro';
 import QuoteBand from '../components/QuoteBand.astro';
 import Edge from '../components/Edge.astro';
-import { STATS } from '../data/site';
+import { SOCIAL, STATS } from '../data/site';
 import { review } from '../data/reviews';
 import { photo } from '../data/photos';
 import { heroImage } from '../lib/hero';
@@ -42,10 +42,11 @@ const beliefs = [
           <p>The people who hire us care about their homes and do not want to babysit a contractor. They want it done right, by a crew that shows up when it said it would. In the Grosse Pointes most of our jobs start with a neighbor saying, ask Jake.</p>
           <p>We have finished {STATS.projects} projects so far. <a href={href('/reviews/')}>The reviews</a> are the part we are proudest of, because every one of them is someone who let us into their yard.</p>
         </div>
+        <p class="follow small"><span class="muted">See the latest jobs on</span> {SOCIAL.map((s) => <a href={s.href} target="_blank" rel="noopener">{s.name}</a>)}</p>
       </div>
       <figure>
-        <div class="frame tall"><Photo id="jake-polo" ratio={4 / 5} widths={[420, 640, 860]} sizes="(min-width: 60rem) 36vw, 92vw" /></div>
-        <figcaption class="note cap">{photo('jake-polo').caption}</figcaption>
+        <div class="frame tall"><Photo id="jake-bobcat" ratio={4 / 5} widths={[420, 640, 860]} sizes="(min-width: 60rem) 36vw, 92vw" /></div>
+        <figcaption class="note cap">{photo('jake-bobcat').caption}</figcaption>
       </figure>
     </div>
     <Edge to="ink" />
@@ -72,6 +73,16 @@ const beliefs = [
 </Base>
 
 <style>
+  .follow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1rem;
+  }
+
+  .follow a {
+    font-weight: 600;
+  }
+
   .way {
     display: grid;
     gap: 0.5rem;
