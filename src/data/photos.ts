@@ -50,6 +50,8 @@ export const PHOTOS = {
   'thrift-boulder': { alt: 'Pink and white flowering ground cover around a large boulder in a corner bed against brick', caption: 'Boulder and spring color in a corner bed' },
   'paver-walk': { alt: 'A curving brick paver walk through dark mulch beds and small shrubs', caption: 'Curving paver walk through dark beds' },
   'flagstone-side': { alt: 'Flagstone stepping stones and river rock running down a narrow side yard to a gate', caption: 'Flagstone path down a side yard' },
+  'flagstone-walk': { alt: 'A new walk of large gray flagstones set in stone dust along the brick side of a home, past a wood fence', caption: 'New flagstone walk along a brick side yard' },
+  'curved-walk': { alt: 'A front walk of cut stone slabs framed in tan pavers, curving through green lawn toward the street, with the HD Landscape truck parked at the curb', caption: 'Stone walk framed in pavers, curving to the street' },
   'flagstone-hydrangea': { alt: 'Clipped boxwood balls and white hydrangeas beside a flagstone walk', caption: 'Boxwood and hydrangeas beside a flagstone walk' },
   'steppers-lawn': { alt: 'Concrete steppers set into a fresh lawn along a side yard', caption: 'Steppers set into fresh lawn' },
   'river-rock-beds': { alt: 'A front walk lined with river rock borders, mulched beds and clipped shrubs', caption: 'River rock lining a front walk' },

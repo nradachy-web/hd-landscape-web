@@ -54,6 +54,9 @@ REAL = {
     "thrift-boulder": (P + "374C3E11-7ECB-47D0-AFFE-EDE9F6AEEFE5_1_102_a.jpeg", None),
     "paver-walk": (I + "2025-05-29_IMG_8053.jpg", None),
     "flagstone-side": (I + "2025-11-19_IMG_3510.jpg", None),
+    # two walks Jake finished and texted on 2026-11-10; the side yard is cropped short of the trash bins
+    "flagstone-walk": ("jake-1110/IMG_4260.jpg", (0, 0.08, 0.765, 1)),
+    "curved-walk": ("jake-1110/IMG_4268.jpg", None),
     "flagstone-hydrangea": ("reel/r05.jpg", (0, 0.1, 1, 0.92)),
     "steppers-lawn": ("reel/r13.jpg", (0, 0.1, 1, 0.92)),
     "river-rock-beds": ("reel/r10.jpg", (0, 0.1, 1, 0.95)),
